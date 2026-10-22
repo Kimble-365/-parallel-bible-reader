@@ -14,6 +14,12 @@ Choose Papyrus Yellow, Blue or Brown under Color theme, and Light or Dark under 
 
 Search selected languages in the current book or all available books. Search loads additional book files as needed. Text alignment follows source verse numbering; source verse ranges appear once. Mechanical transliteration is not pronunciation guidance. See the reader's sources section and LICENSES.md for attribution, adaptation notices and edition-specific licenses.
 
+## Reading tools
+
+The reader remembers the primary and comparison editions, last chapter and verse, text display, text size and audio choice in this browser. A shared passage link overrides the saved reading location and identifies its primary edition. Use Original, Latin or Both under Reading appearance; Latin-script texts are shown once. A− / A+ adjust reading size, and Reading mode hides surrounding controls until you exit it (Escape also exits).
+
+Use ☆ beside a verse to bookmark it. Bookmarks and the seven-reading Start here path are saved on this device only. Each Bible book has a short About guide, clearly separate from scripture. The ↗ button opens verse sharing: copy text, copy an edition-aware link, or use device sharing where supported. If clipboard access is blocked, the text stays available for manual copying. Offline ZIP links can point to the public reader. No account is needed; clearing browser data removes saved progress and bookmarks.
+
 ## GitHub Pages
 
 Publish the `main` branch from `/ (root)`. `.nojekyll` ensures static assets are served unchanged. No build, backend or credentials are required. All assets use relative paths and work under a repository subpath.

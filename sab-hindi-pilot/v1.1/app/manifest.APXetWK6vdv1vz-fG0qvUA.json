@@ -1,0 +1,39 @@
+{
+  "name": "Hindi Pilot 1.1",
+  "short_name": "Hindi 1.1",
+  "start_url" : "/-parallel-bible-reader/sab-hindi-pilot/v1.1/app/",
+  "scope" : "/-parallel-bible-reader/sab-hindi-pilot/v1.1/app/",
+  "display": "standalone",
+  "description": "John 3: Hindi original and Latin transliteration. Development pilot 1.1.",
+  "dir": "ltr",
+  "lang": "en",
+  "background_color": "#3F51B5",
+  "theme_color": "#3F51B5",
+  "icons": [
+    {
+      "src": "icons/icon-128.rHJQDgNDdyxoipd4tccsXA.png",
+      "sizes": "128x128",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-512.YjMzx4KAD50IBbmVKIYkZg.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-192.Aib-st76ixjqD_be4MDnaw.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-adaptive.rHJQDgNDdyxoipd4tccsXA.png",
+      "sizes": "any",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "related_applications": []
+}

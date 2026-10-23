@@ -1,0 +1,19 @@
+{
+  "version": "1.6",
+  "type": "dictionary-based broad phonemic estimate",
+  "language": "en-US-fonipa",
+  "source": "https://github.com/cmusphinx/cmudict",
+  "source_sha256": "81917843c7f44ce2b094ac63873c2c7a4cf802040792c455ba3ca406891c3d22",
+  "vocabulary": 12586,
+  "dictionary_matches": 9186,
+  "tokens": 757247,
+  "covered_tokens": 740906,
+  "ambiguous_words": 1131,
+  "limitations": [
+    "first listed pronunciation only; no context/homograph resolution",
+    "not colloquial translation or narrow phonetic transcription",
+    "stress and syllable boundaries omitted",
+    "unknown words shown as \u27e6source word\u27e7",
+    "pipeline not speaker-reviewed"
+  ]
+}

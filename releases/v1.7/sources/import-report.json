@@ -1,0 +1,20 @@
+[
+  {
+    "id": "hbo-source",
+    "books": 39,
+    "verses": 23145,
+    "raw_source_sha256": "54665865ba1973b1b46299dc28b48f2f25c9219224c58ea705cba5d4324fcf1d",
+    "source": "https://git.door43.org/unfoldingWord/hbo_uhb",
+    "license": "CC BY-SA 4.0",
+    "latin_scheme": "ICU Hebrew-Latin 76"
+  },
+  {
+    "id": "grc-source",
+    "books": 27,
+    "verses": 7958,
+    "raw_source_sha256": "21e1f0e570f2b8185a44ee9dc821f371919278a0b1821edf29afba9efa2d1436",
+    "source": "https://git.door43.org/unfoldingWord/el-x-koine_ugnt",
+    "license": "CC BY-SA 4.0",
+    "latin_scheme": "ICU Greek-Latin 76"
+  }
+]

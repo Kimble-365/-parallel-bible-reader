@@ -1,0 +1,50 @@
+[
+  {
+    "id": "fra-lsg1910",
+    "books": 66,
+    "records": 31102,
+    "copyright": "Domaine public",
+    "archive_sha256": "85dfb9127d0ea038766b79415e253a31aca26501999cbe19387c51f01a0c63f4",
+    "source": "https://software.sil.org/scriptureappbuilder/"
+  },
+  {
+    "id": "spa-rv1909",
+    "books": 66,
+    "records": 31102,
+    "copyright": "Dominio Público",
+    "archive_sha256": "00b92b858431081b2f1046dd39d96cdce64954b4a4756787689e59f5806fd8e9",
+    "source": "https://software.sil.org/scriptureappbuilder/"
+  },
+  {
+    "id": "rus-synodal",
+    "books": 66,
+    "records": 31163,
+    "copyright": "Public Domain",
+    "archive_sha256": "011372083cc64aebb5e6b4b03c2815a994197d714e5a54dbd4f68398ef76867e",
+    "source": "https://software.sil.org/scriptureappbuilder/"
+  },
+  {
+    "id": "cmn-cuv-hant",
+    "books": 66,
+    "records": 31022,
+    "copyright": "Public Domain",
+    "archive_sha256": "84b3ece3a9fe57498124531ee87289127a6abf7a65bdd5ed20b54d56a4869a23",
+    "source": "https://software.sil.org/scriptureappbuilder/"
+  },
+  {
+    "id": "arb-vandyck",
+    "books": 66,
+    "records": 31104,
+    "copyright": "Public Domain",
+    "archive_sha256": "668672282c228399835cd818a708a59670c5d70263451cc431d526d7ff264393",
+    "source": "https://software.sil.org/scriptureappbuilder/"
+  },
+  {
+    "id": "bis-obbr",
+    "books": 66,
+    "records": 29869,
+    "copyright": "© 2024 Mission Mutual. Licensed under CC BY-SA 4.0.",
+    "archive_sha256": "698f3e1b0c67062cdb416fd941068941eea94c61a50f91279ba14f1655d40dd4",
+    "source": "https://software.sil.org/scriptureappbuilder/"
+  }
+]

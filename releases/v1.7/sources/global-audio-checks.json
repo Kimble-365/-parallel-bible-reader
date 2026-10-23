@@ -1,0 +1,32 @@
+[
+  {
+    "code": "FRNLSG",
+    "url": "https://arc.dbs.org/data/scripture/FRNLSG/",
+    "error": "HTTP Error 522: Unknown"
+  },
+  {
+    "code": "SPAR09",
+    "url": "https://arc.dbs.org/data/scripture/SPAR09/",
+    "error": "HTTP Error 522: Unknown"
+  },
+  {
+    "code": "RUSS76",
+    "url": "https://arc.dbs.org/data/scripture/RUSS76/",
+    "error": "HTTP Error 522: Unknown"
+  },
+  {
+    "code": "ARBVDV",
+    "url": "https://arc.dbs.org/data/scripture/ARBVDV/",
+    "error": "HTTP Error 522: Unknown"
+  },
+  {
+    "code": "CHNTCV",
+    "url": "https://arc.dbs.org/data/scripture/CHNTCV/",
+    "error": "HTTP Error 522: Unknown"
+  },
+  {
+    "code": "BISBSP",
+    "url": "https://arc.dbs.org/data/scripture/BISBSP/",
+    "error": "HTTP Error 522: Unknown"
+  }
+]

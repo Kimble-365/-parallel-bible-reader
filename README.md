@@ -4,6 +4,10 @@
 
 A standalone English-interface Bible reader with original scripts, Latin transliterations, Finnish KR33/38 and World English Bible comparisons. No ChatGPT account is required. This distribution contains only the Bible reader.
 
+## Development brief
+
+See [GOAL.md](GOAL.md) for the continuing project instructions and numbered roadmap, and [the architecture and language assessment](docs/research/architecture-and-language-plan.md) for the initial research. Planned features are not installed features.
+
 ## Use online or offline
 
 Open the GitHub Pages site, or download `parallel-bible-reader.zip`, extract the entire archive and open `index.html` in Safari, Chrome or Edge. Keep `data/`, `catalog.js` and `reader.js` beside it. Texts load as local scripts, without a server or fetch/CORS dependency. The download link is for obtaining the package online; it need not be used again from an extracted package.

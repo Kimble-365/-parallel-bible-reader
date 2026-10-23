@@ -3,15 +3,15 @@ from pathlib import Path
 from zipfile import ZipFile,ZIP_DEFLATED
 import argparse,json,os
 ROOT=Path(__file__).resolve().parents[1]
-def build(version):
+def build(version,outdir=None):
  release=ROOT/'releases'/('v'+version)
  html=(release/'index.html').read_text().replace('data-data-path="../../data/"','data-data-path="data/"')
  html=html.replace('../../catalog.js','catalog.js').replace('../../reader-guides.js','reader-guides.js').replace('href="../../"','href="https://kimble-365.github.io/-parallel-bible-reader/"').replace('href="../"','href="https://kimble-365.github.io/-parallel-bible-reader/releases/"')
- archive=release/('parallel-bible-reader-'+version+'.zip')
+ target=Path(outdir) if outdir else Path('/workspace/reader-artifacts')/('v'+version);target.mkdir(parents=True,exist_ok=True);archive=target/('parallel-bible-reader-'+version+'.zip')
  files={p.name:p for p in [ROOT/'catalog.js',ROOT/'reader-guides.js',ROOT/'LICENSE',ROOT/'LICENSES.md']}
  files.update({str(p.relative_to(ROOT)):p for p in (ROOT/'data').glob('*.js')})
  for p in release.rglob('*'):
-  if p.is_file() and p.name!='parallel-bible-reader-'+version+'.zip' and p!=release/'index.html':files[str(p.relative_to(release))]=p
+  if p.is_file() and not (p.name.startswith('parallel-bible-reader-') and p.suffix=='.zip') and p!=release/'index.html':files[str(p.relative_to(release))]=p
  with ZipFile(archive,'w',ZIP_DEFLATED) as z:
   z.writestr('index.html',html)
   for name,p in sorted(files.items()):
@@ -28,4 +28,4 @@ def build(version):
   assert 'data/GEN.js' in z.namelist()
  print(json.dumps({'version':version,'zip':str(archive),'bytes':archive.stat().st_size}))
 if __name__=='__main__':
- parser=argparse.ArgumentParser();parser.add_argument('version');build(parser.parse_args().version)
+ parser=argparse.ArgumentParser();parser.add_argument('version');parser.add_argument('--outdir');args=parser.parse_args();build(args.version,args.outdir)

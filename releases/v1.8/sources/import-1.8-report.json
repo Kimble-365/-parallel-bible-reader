@@ -1,0 +1,142 @@
+[
+  {
+    "id": "hbo-wlc",
+    "books": 39,
+    "verses": 23213,
+    "license": "CC BY 4.0",
+    "source": "https://github.com/openscriptures/morphhb",
+    "raw_sources": [
+      {
+        "file": "wlc-raw.zip",
+        "sha256": "391328174aa1ceaaad73bc13eb0c6c8c8c576296fc7634fe0eee429ac7293b87"
+      }
+    ],
+    "source_numbering": true
+  },
+  {
+    "id": "heb-delitzsch-historical",
+    "books": 27,
+    "verses": 7969,
+    "license": "CC BY-SA 4.0",
+    "source": "https://he.wikisource.org/wiki/הברית_החדשה",
+    "raw_sources": [
+      {
+        "file": "delitzsch-wikisource.zip",
+        "sha256": "635003f4a2ca66adb53efc07a51b91a5d985bf1ee3f1b895376db464082698f3"
+      }
+    ],
+    "source_numbering": true
+  },
+  {
+    "id": "fra-giguet-lxx",
+    "books": 54,
+    "verses": 28573,
+    "license": "Public Domain",
+    "source": "https://github.com/scrollmapper/bible_databases",
+    "raw_sources": [
+      {
+        "file": "lxx-next-4.txt",
+        "sha256": "0fc7cb84a3b69bf89891637fbd9635ec03b541179142b7dc6385838c311eaa25"
+      },
+      {
+        "file": "lxx-verified-3.txt",
+        "sha256": "a59b4d4fc9bc3ecbdfbba4b869ea7994ea0b77a0b9cbe303a18c835f4df1812d"
+      },
+      {
+        "file": "FreLXXGiguet-source.zip",
+        "sha256": "9206eda28b4fd5f237e31a25acb012a425ae87bbe01c17cc047a69188e3bc08a"
+      }
+    ],
+    "source_numbering": true
+  },
+  {
+    "id": "ell-vamvas1850",
+    "books": 66,
+    "verses": 31102,
+    "license": "Public Domain",
+    "source": "https://github.com/scrollmapper/bible_databases",
+    "raw_sources": [
+      {
+        "file": "lxx-next-5.txt",
+        "sha256": "2f72c1e19619237b972d97429b3af91dbdf5b0a8b5187afdf0cec2eb521a9063"
+      },
+      {
+        "file": "lxx-verified-4.txt",
+        "sha256": "209f109d91b93cace0304266d94d05924039e867f8cfbaaa0bdba23ef7f6d3de"
+      },
+      {
+        "file": "GreVamvas-source.zip",
+        "sha256": "3e1593fab993ad189fcaa8a848280f70337d11d5dd154b9bda6d0087a7bf3b5d"
+      }
+    ],
+    "source_numbering": true
+  },
+  {
+    "id": "grc-swete",
+    "books": 52,
+    "verses": 28796,
+    "license": "CC BY-SA 4.0",
+    "source": "https://github.com/nathans/lxx-swete",
+    "raw_sources": [
+      {
+        "file": "swete.zip",
+        "sha256": "504b83e0d582304039d6ff6c72af34842e985becfc3f1d4b2a5b2a2258ac6a41"
+      },
+      {
+        "file": "lxx-verified-2.txt",
+        "sha256": "ca5869019f542d01ae0ecd9e0381ddbfe6bd0a6c14ed7edf52b8d0973634c325"
+      }
+    ],
+    "source_numbering": true
+  },
+  {
+    "id": "grc-swete-theodotion",
+    "books": 3,
+    "verses": 512,
+    "license": "CC BY-SA 4.0",
+    "source": "https://github.com/nathans/lxx-swete",
+    "raw_sources": [
+      {
+        "file": "swete.zip",
+        "sha256": "504b83e0d582304039d6ff6c72af34842e985becfc3f1d4b2a5b2a2258ac6a41"
+      },
+      {
+        "file": "lxx-verified-2.txt",
+        "sha256": "ca5869019f542d01ae0ecd9e0381ddbfe6bd0a6c14ed7edf52b8d0973634c325"
+      }
+    ],
+    "source_numbering": true
+  },
+  {
+    "id": "chu-elizabeth",
+    "books": 76,
+    "verses": 36000,
+    "license": "Public Domain",
+    "source": "https://github.com/scrollmapper/bible_databases/tree/master/sources/cu/CSlElizabeth",
+    "raw_sources": [
+      {
+        "file": "slavonic.json",
+        "sha256": "b5e2444d93a128d9aaf6f135211a64bac86c82344ef19835a623ebde85f7cb89"
+      },
+      {
+        "file": "slavonic-rights.md",
+        "sha256": "d16a624cad7ad5922324deab139748bbd697b5cae1c8958f3fba0edcfb078cb4"
+      }
+    ],
+    "source_numbering": true
+  },
+  {
+    "id": "eng-thomson-partial",
+    "books": 11,
+    "verses": 3599,
+    "license": "Public Domain",
+    "source": "https://github.com/jackvandrunen/thomson-septuagint",
+    "raw_sources": [
+      {
+        "file": "thomson.zip",
+        "sha256": "3d06a8bb2143c78efd54d31dd5265e6ba1a277ab74dc3852245a6fc4383db9d6"
+      }
+    ],
+    "source_numbering": true
+  }
+]

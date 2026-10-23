@@ -149,3 +149,19 @@ This sequence is a default implementation plan, not a statement that the feature
 ## Immediate working instruction
 
 Read this GOAL, repository instructions, current source and the release log. Start with the next incomplete numbered increment. Use available tools to create real, reviewable artifacts; do not stop at suggestions when implementation is requested. Ask only for decisions or credentials truly required, while continuing independent work. Keep the user informed in Finnish and keep the application interface in English. Never invent text, recordings, phonetic certainty, classification mappings, permissions or deployment success.
+
+
+## Implemented increments through 1.8 (2026-10-23)
+
+- 1.1: separate SAB Hindi pilot and companion preview.
+- 1.2: four independently optional slots, empty-state migration, visible-form search.
+- 1.3: favorites and a searchable language directory with geography and family groups.
+- 1.4: experimental Urdu Arabic/Devanagari written mapping; no invented spoken vowels.
+- 1.5: licensed Biblical Hebrew/Aramaic and Koine Greek, ICU written Latin and lazy browser indexes.
+- 1.6: opt-in CMUdict-based US English phoneme estimate with explicit unknowns; not contextual speech.
+- 1.7: six licensed global editions, 35 total, and complete authoring FTS for those records.
+- 1.8: eight Hebrew/Greek/LXX-related source editions, 43 total; opaque source references and separate FTS; independent source chapters, raw archives and derived USFM. See releases/v1.8/README.md for coverage and source defects.
+
+The latest modern Hebrew NT is not installed: revision identity and redistribution/adaptation rights remain unverified. Historical Delitzsch is explicitly separate. Brenton is available through an external reading link; the acquired flattened JSON was rejected for mixed footnotes. Further non-English LXX acquisition includes installed French Giguet and Church Slavonic; modern copyrighted projects need permission. No cross-versification verse map or reviewed spoken reconstruction is claimed. Broader Uralic and Indigenous language acquisition remains a queue, not completed coverage. New edition-matched recordings remain pending verification.
+
+Development ZIPs are release assets, preserving the production root ZIP and reducing GitHub Pages site size. Numbered versions are isolated under releases/. All shipped assertions require the corresponding browser, source-data and actual offline-package checks and public deployment verification.

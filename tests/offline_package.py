@@ -7,7 +7,7 @@ from threading import Thread
 from playwright.sync_api import sync_playwright
 from urllib.parse import urlsplit
 import os
-ROOT=Path(__file__).resolve().parents[1];V=os.environ.get('READER_VERSION','1.6');zpath=ROOT/'releases'/('v'+V)/('parallel-bible-reader-'+V+'.zip')
+ROOT=Path(__file__).resolve().parents[1];V=os.environ.get('READER_VERSION','1.6');zpath=Path(os.environ.get('READER_ZIP','/workspace/reader-artifacts/v'+V+'/parallel-bible-reader-'+V+'.zip'))
 with TemporaryDirectory(dir='/workspace') as tmp:
  with ZipFile(zpath) as z:
   assert z.testzip() is None;assert 'index.html' in z.namelist();assert 'data/GEN.js' in z.namelist()
@@ -27,5 +27,8 @@ with TemporaryDirectory(dir='/workspace') as tmp:
     page.goto(base+'/?edition=hbo-source&compare1=grc-source&compare2=&compare3=#GEN.1.1');page.wait_for_selector('#v1 [data-slot="1"] [dir="rtl"]')
    if tuple(map(int,V.split('.'))) >= (1,6):
     page.goto(base+'/?edition=engwebp&compare1=&compare2=&compare3=&form1=ga#JHN.3.16');page.wait_for_function("document.querySelector('#v16')?.textContent.includes('phoneme estimate')");assert '/ɡɑd/' in page.locator('#v16').inner_text()
+   if tuple(map(int,V.split('.'))) >= (1,8):
+    page.goto(base+'/?edition=grc-swete&compare1=fra-giguet-lxx&compare2=&compare3=#WIS.1.1');page.wait_for_selector('#s1-v1');assert page.locator('#s2-v1 .roman').inner_text()
+    page.goto(base+'/?edition=heb-delitzsch-historical&compare1=&compare2=&compare3=#JHN.3.16');page.wait_for_selector('#s1-v16 [dir="rtl"]');assert page.locator('#s1-v16 .roman').inner_text()
    assert not errors,errors;assert not failed,failed;b.close();print('PASS: actual extracted '+V+' ZIP, local-only text/catalog/original languages/pronunciation assets and no failed local requests')
  finally:s.shutdown()

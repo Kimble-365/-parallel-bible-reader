@@ -11,7 +11,7 @@ def build(version):
  files={p.name:p for p in [ROOT/'catalog.js',ROOT/'reader-guides.js',ROOT/'LICENSE',ROOT/'LICENSES.md']}
  files.update({str(p.relative_to(ROOT)):p for p in (ROOT/'data').glob('*.js')})
  for p in release.rglob('*'):
-  if p.is_file() and p.suffix not in ['.zip'] and p.name!='index.html':files[str(p.relative_to(release))]=p
+  if p.is_file() and p.name!='parallel-bible-reader-'+version+'.zip' and p.name!='index.html':files[str(p.relative_to(release))]=p
  with ZipFile(archive,'w',ZIP_DEFLATED) as z:
   z.writestr('index.html',html)
   for name,p in sorted(files.items()):

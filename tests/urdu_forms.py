@@ -21,6 +21,6 @@ try:
   assert page.evaluate("window.BibleBooks.JHN.editions.urdoucv.find(r=>r[0]===3&&r[1]===16)[2]")==second
   page.locator('#v16 .verse-share').click();link=page.locator('#share-link').input_value();params=parse_qs(urlsplit(link).query);assert params['form1']==['deva'] and params['form3']==['arab'];page.click('#share-close')
   page.click('#browse-3');page.wait_for_selector('#results .entry');page.fill('#find','English');page.locator('a[data-edition="engwebp"]').click();page.wait_for_selector('#v16');assert page.locator('#form-0').input_value()=='deva' and page.locator('#form-2').input_value()=='arab'
-  assert page.locator('#form-3').is_disabled();assert not errors,errors;b.close()
+  assert page.locator('#form-3').is_disabled() if tuple(map(int,V.split('.'))) < (1,6) else page.locator('#form-3 option[value=ga]').count()==1;assert not errors,errors;b.close()
   print('PASS: independent Urdu script forms for repeated editions, RTL/LTR, unchanged source, uncertainty notice, share URLs and directory state retention')
 finally:s.shutdown()

@@ -13,6 +13,7 @@ class Handler(SimpleHTTPRequestHandler):
  def log_message(self,*a):pass
 server=ThreadingHTTPServer(('127.0.0.1',0),Handler);Thread(target=server.serve_forever,daemon=True).start()
 BASE=f'http://127.0.0.1:{server.server_port}'
+VERSION=os.environ.get('READER_VERSION','1.2');RELEASE_PATH='/releases/v'+VERSION+'/'
 IDS=['hin2017','fin-kr1938','engwebp','urdoucv'];SLOTS=['primary','compare1','compare2','compare3'];PARAMS=['edition','compare1','compare2','compare3']
 BOOKS=[['GEN','Genesis'],['JHN','John'],['REV','Revelation']]
 POSITIONS=[[['JHN',1]],[['GEN',1],['JHN',1]],[['GEN',1],['REV',2]],[['JHN',1]]]
@@ -37,7 +38,7 @@ def fixture(browser,storage=None):
 
 def open_page(page,values,fragment='JHN.1.1'):
  from urllib.parse import urlencode
- page.goto(BASE+'/releases/v1.2/?'+urlencode(dict(zip(PARAMS,values)))+'#'+fragment)
+ page.goto(BASE+RELEASE_PATH+'?'+urlencode(dict(zip(PARAMS,values)))+'#'+fragment)
  page.wait_for_function("!document.querySelector('#status').textContent.includes('Loading')")
 
 def run():
@@ -61,13 +62,13 @@ def run():
   assert page.locator('#v1 .translation').evaluate_all('(xs)=>xs.map(x=>x.dataset.slot)')==['3','4'];ctx.close()
   # Legacy state migrates; legacy slot IDs and intentional empty selections remain.
   old=dict(edition=IDS[0],compare1='',compare2=IDS[2],book='JHN',chapter=1,verse=1,view='latin',fontScale=120)
-  ctx,page,errors,requests=fixture(browser,{'bible-reader-reading-v1':old});page.goto(BASE+'/releases/v1.2/');page.wait_for_selector('#v1')
+  ctx,page,errors,requests=fixture(browser,{'bible-reader-reading-v1':old});page.goto(BASE+RELEASE_PATH+'');page.wait_for_selector('#v1')
   state=page.evaluate("JSON.parse(localStorage.getItem('bible-reader-reading-v2'))")
   assert state['slots']==[IDS[0],'',IDS[2],''] and state['view']=='latin' and state['fontScale']==120,state
   page.select_option('#primary','');page.select_option('#compare2','');page.wait_for_function("document.querySelector('#heading').textContent==='Choose a translation to start'")
   state=page.evaluate("JSON.parse(localStorage.getItem('bible-reader-reading-v2'))");assert state['slots']==['']*4
   # The init script intentionally reseeds legacy data, so remove it by using a new context populated from the saved v2 record.
-  ctx.close();ctx,page,errors,requests=fixture(browser,{'bible-reader-reading-v2':state});page.goto(BASE+'/releases/v1.2/');page.wait_for_function("document.querySelector('#heading').textContent==='Choose a translation to start'");assert not requests;ctx.close()
+  ctx.close();ctx,page,errors,requests=fixture(browser,{'bible-reader-reading-v2':state});page.goto(BASE+RELEASE_PATH+'');page.wait_for_function("document.querySelector('#heading').textContent==='Choose a translation to start'");assert not requests;ctx.close()
   print('PASS: v1 preference migration, font/view preservation, and all-empty v2 restoration')
   ctx,page,errors,requests=fixture(browser);open_page(page,[IDS[0],IDS[1],IDS[2],IDS[3]])
   # Book union includes GEN/REV absent from the first slot; enabled slot with no book shows an explicit gap.
@@ -102,7 +103,7 @@ def run():
   print('PASS: blocked and malformed browser storage')
   # Real data smoke: ensure genuine corpus and Arabic direction still render.
   ctx=browser.new_context();page=ctx.new_page();errors=[];page.on('pageerror',lambda e:errors.append(str(e)))
-  page.goto(BASE+'/releases/v1.2/?edition=hin2017&compare1=fin-kr1938&compare2=engwebp&compare3=urdoucv#JHN.3.16');page.wait_for_selector('#v16 .translation[data-slot="4"]',timeout=30000)
+  page.goto(BASE+RELEASE_PATH+'?edition=hin2017&compare1=fin-kr1938&compare2=engwebp&compare3=urdoucv#JHN.3.16');page.wait_for_selector('#v16 .translation[data-slot="4"]',timeout=30000)
   assert page.locator('#v16 .translation').count()==4;assert 'परमेश्वर' in page.locator('#v16 .translation[data-slot="1"]').inner_text();assert page.locator('#v16 [data-slot="4"] [dir="rtl"]').count()==1
   page.screenshot(path='/workspace/reader-v1.2-desktop.png',full_page=False);page.set_viewport_size({'width':390,'height':844});assert page.evaluate('document.documentElement.scrollWidth<=innerWidth');page.screenshot(path='/workspace/reader-v1.2-mobile.png',full_page=False);assert not errors,errors;ctx.close()
   print('PASS: genuine Hindi/Finnish/English/Urdu data, John 3:16, RTL and mobile overflow')

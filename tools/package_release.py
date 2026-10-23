@@ -1,7 +1,7 @@
 """Build a self-contained reader ZIP; do not alter production assets."""
 from pathlib import Path
 from zipfile import ZipFile,ZIP_DEFLATED
-import argparse,json
+import argparse,json,os
 ROOT=Path(__file__).resolve().parents[1]
 def build(version):
  release=ROOT/'releases'/('v'+version)
@@ -14,7 +14,13 @@ def build(version):
   if p.is_file() and p.suffix not in ['.zip'] and p.name!='index.html':files[str(p.relative_to(release))]=p
  with ZipFile(archive,'w',ZIP_DEFLATED) as z:
   z.writestr('index.html',html)
-  for name,p in sorted(files.items()):z.write(p,name)
+  for name,p in sorted(files.items()):
+   if p.suffix=='.html':
+    text=p.read_text();prefix=os.path.relpath('.',Path(name).parent)
+    for asset in ['catalog.js','reader-guides.js']:
+     text=text.replace('../../../'+asset,prefix+'/'+asset).replace('../../'+asset,prefix+'/'+asset)
+    z.writestr(name,text)
+   else:z.write(p,name)
   z.writestr('.nojekyll','')
  with ZipFile(archive) as z:
   assert z.testzip() is None

@@ -8,7 +8,7 @@
     "raw_sources": [
       {
         "file": "wlc-raw.zip",
-        "sha256": "391328174aa1ceaaad73bc13eb0c6c8c8c576296fc7634fe0eee429ac7293b87"
+        "sha256": "e7ddd00c12d302381e6f43259fef8afc12cb428c8ab19739a4e3b9faa2a07bfd"
       }
     ],
     "source_numbering": true
@@ -22,7 +22,7 @@
     "raw_sources": [
       {
         "file": "delitzsch-wikisource.zip",
-        "sha256": "635003f4a2ca66adb53efc07a51b91a5d985bf1ee3f1b895376db464082698f3"
+        "sha256": "529f39fa96da5b54edae91e53ea6fd8d720bdc343b3d444e4a52a4af8da55aee"
       }
     ],
     "source_numbering": true

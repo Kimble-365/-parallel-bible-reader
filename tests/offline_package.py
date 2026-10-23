@@ -12,7 +12,8 @@ with TemporaryDirectory(dir='/workspace') as tmp:
  with ZipFile(zpath) as z:
   assert z.testzip() is None;assert 'index.html' in z.namelist();assert 'data/GEN.js' in z.namelist()
   if tuple(map(int,V.split('.'))) >= (1,3):assert 'translations/index.html' in z.namelist()
-  if tuple(map(int,V.split('.'))) >= (1,5):assert 'sources/hebrew-usfm.zip' in z.namelist()
+  if (1,5)<=tuple(map(int,V.split('.')))<(1,8):assert 'sources/hebrew-usfm.zip' in z.namelist()
+  if tuple(map(int,V.split('.'))) >= (1,8):assert 'sources/README.txt' in z.namelist()
   z.extractall(tmp)
  class H(SimpleHTTPRequestHandler):
   def __init__(self,*a,**k):super().__init__(*a,directory=tmp,**k)

@@ -66,6 +66,8 @@ for item in manifest:
  if div:text=div[1]
  else:text=text.split('==')[0]
  text=re.sub(r'\{\{נוסח\|([^|{}]+)(?:\|[^{}]*)?\}\}',r'\1',text)
+ text=re.sub(r'\[\[(?:קטגוריה|Category):[^\]]+\]\]','',text,flags=re.I)
+ text=re.split(r'\n\s*==',text)[0]
  for _ in range(6):text=re.sub(r'\{\{[^{}]*\}\}',' ',text)
  text=re.sub(r'<ref\b.*?</ref>',' ',text,flags=re.S);text=re.sub(r'<[^>]*>',' ',text);text=re.sub(r'\[\[([^\]|]+)\|([^\]]+)\]\]',r'\2',text);text=re.sub(r'\[\[([^\]]+)\]\]',r'\1',text);text=html.unescape(text)
  marks=list(re.finditer(r'(?<!\S)(\d{1,3})\s+',text));rows=[]

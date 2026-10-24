@@ -1,0 +1,20 @@
+{
+  "checked": "2026-10-24",
+  "biblia1776": {
+    "access": "bundled public-domain text",
+    "source": "https://github.com/scrollmapper/bible_databases/tree/master/sources/fi/FinBiblia"
+  },
+  "kr92": {
+    "access": "official link and private permitted-file import; not bundled",
+    "terms": "https://www.raamattu.fi/kaannokset/raamattu-1992/tekijanoikeudet-kirkkoraamattu-1992"
+  },
+  "rk": {
+    "access": "official link and private permitted-file import; not bundled",
+    "terms": "https://raamattukansalle.fi/rk-raamattu/"
+  },
+  "lll": {
+    "access": "user-provided ZIP supported for private-device import; not bundled",
+    "publisher": "https://shalom-linkkikokoelma.webnode.fi/uusi-raamatunkaannos/",
+    "provided_file_sha256": "4e3b69d3d0c3d3e3f5212dd0fae9f008da758159bb52e2f754eb9db4afce65ad"
+  }
+}

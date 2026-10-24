@@ -1,0 +1,8 @@
+{
+  "id": "fin-biblia1776",
+  "books": 78,
+  "source_units": 35445,
+  "source": "https://github.com/scrollmapper/bible_databases/tree/master/sources/fi/FinBiblia",
+  "license": "Public Domain",
+  "source_sha256": "7f74e0a05f016c9472d37ab8dbdb4cc9204d0f85cde7e7a674c11443f821ab21"
+}

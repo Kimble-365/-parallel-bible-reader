@@ -1,0 +1,5 @@
+{
+  "source": "https://github.com/schierlm/BibleMultiConverter/blob/master/biblemulticonverter/src/main/java/biblemulticonverter/data/StandardVersification.java",
+  "description": "Numeric reference counts only; KJV standard 66 books / 31,102 units. No Java implementation copied.",
+  "sha256": "3b5752eb4492663224225e8274a7be3b0096233e62fcd4f5c7e145664615b3f6"
+}

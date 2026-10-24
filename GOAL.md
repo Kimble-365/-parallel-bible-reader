@@ -170,3 +170,8 @@ The latest development ZIP is a reader-only Pages download; original archives ar
 ## Increment 1.9 — installable selected-text offline experiment
 
 Implemented app manifest/icons and a version-scoped service worker shell, user-controlled updates, per-edition/book IndexedDB text storage, progress and cancellation/resume, incomplete/ready status and bookmark-preserving removal. Reuses existing licensed source bundles and persists only selected text rows. No new text editions or audio matches. PWA requires HTTPS/localhost; the existing 1.8 ZIP remains the file-open option. Actual Chromium offline reload and full English save tested; physical Safari/Edge installation and user trials remain pending. See releases/v1.9/README.md.
+
+
+## Increment 1.10 — Finnish additions
+
+Added public-domain Biblia 1776 (78 nonempty source books, 35,445 source units), Finnish directory metadata and native-reference display. Added publisher links and local permitted-file imports for KR92, Raamattu Kansalle and LLL. The user supplied LLL.zip; its full text is not publicly bundled. Private theWord/ZIP import uses the 31,102-slot standard map and atomic per-device replacement, with offline reading/search and all four slots. Modern protected editions require redistribution permission for a public full-text bundle. Record actual tested editions separately from format support; do not mislabel a local copy as a freely redistributable text. See releases/v1.10/README.md.

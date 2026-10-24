@@ -175,3 +175,8 @@ Implemented app manifest/icons and a version-scoped service worker shell, user-c
 ## Increment 1.10 — Finnish additions
 
 Added public-domain Biblia 1776 (78 nonempty source books, 35,445 source units), Finnish directory metadata and native-reference display. Added publisher links and local permitted-file imports for KR92, Raamattu Kansalle and LLL. The user supplied LLL.zip; its full text is not publicly bundled. Private theWord/ZIP import uses the 31,102-slot standard map and atomic per-device replacement, with offline reading/search and all four slots. Modern protected editions require redistribution permission for a public full-text bundle. Record actual tested editions separately from format support; do not mislabel a local copy as a freely redistributable text. See releases/v1.10/README.md.
+
+
+## Increment 1.11 — first broader Uralic expansion
+
+Added Hungarian Károli 1908 (Public Domain; 66 books / 31,126 nonempty source units) and the explicitly partial Estonian Piibel Kõigile snapshot (CC BY-SA 4.0; Matthew/Mark/Luke/John/Romans, 4,212 units). The unrelated Est module remains excluded for unknown rights. The 46-edition reader has native reference panels, Uralic/Finnic/Hungarian browsing metadata, search and offline saving; no new verified audio or spoken reconstruction is claimed. Reuses unchanged 1.10 storage so private Finnish imports persist across these versions in the same browser. Source ZIP navigation is preserved by limiting app-shell fallback to actual app routes. Broader Uralic coverage and verified recordings remain pending, not assumed complete. See releases/v1.11/README.md.

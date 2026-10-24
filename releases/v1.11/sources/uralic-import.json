@@ -1,0 +1,36 @@
+[
+  {
+    "id": "hun-karoli1908",
+    "books": 66,
+    "units": 31126,
+    "license": "Public Domain",
+    "source": "https://github.com/scrollmapper/bible_databases/tree/master/sources/hu/HunKar",
+    "raw": [
+      {
+        "file": "hunkar.json",
+        "sha256": "443dc2bcbfdd21f0196e8ebd07a2e127506e86d41a34cfe448d5b93a351e55fa"
+      },
+      {
+        "file": "hunkar-rights.md",
+        "sha256": "fff230f4b8c943faf665ba013f555d81f03b52754eb6a8043a5614fe2e900e55"
+      },
+      {
+        "file": "hunkar-module.conf",
+        "sha256": "572f02c9a3d0f7a74bfb88599d64adce5163b31ffe5491407c2d3ef43905bbf3"
+      }
+    ]
+  },
+  {
+    "id": "ekk-pkp-partial",
+    "books": 5,
+    "units": 4212,
+    "license": "CC BY-SA 4.0",
+    "source": "https://harmony.cx/ekkpkp/copyright.htm",
+    "raw": [
+      {
+        "file": "ekkpkp-mirror.zip",
+        "sha256": "536a350a2115a4a77bf4fe52866d93554cc2d78f26e735f57ab3429e1d034fa6"
+      }
+    ]
+  }
+]

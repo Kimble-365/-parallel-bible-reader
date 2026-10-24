@@ -6,13 +6,15 @@ A standalone English-interface Bible reader with original scripts, Latin transli
 
 ## Latest development reader
 
+Version 1.11 adds Hungarian Károli 1908 and a five-book Estonian Piibel Kõigile snapshot, bringing the public catalog to 46 editions. Both work with offline saving/search and the Uralic directory. Existing permitted private imports/saved texts from 1.10 remain available in the same browser storage. See [1.11 scope and source details](releases/v1.11/README.md).
+
 Version 1.10 adds **Biblia 1776** directly and a **Finnish Bibles** panel for private LLL/KR92/Raamattu Kansalle imports and publisher reading links. The protected full texts are not publicly bundled; import your permitted theWord .ont or single-file ZIP on your own device. LLL.zip supplied by the user is supported and tested. See [1.10 details and access limits](releases/v1.10/README.md).
 
 Version 1.9 adds an installable web app and **Save selected texts** for offline reading. Only selected editions are retained on the device; downloads can be stopped and resumed, and the app lists incomplete/ready texts. Install using the browser menu (Safari: Share → Add to Home Screen), then save texts and test reopening in airplane mode. Audio requires internet. The ZIP link below remains the standalone 1.8 reader. See [1.9 details](releases/v1.9/README.md).
 
-[Open version 1.10](https://kimble-365.github.io/-parallel-bible-reader/releases/v1.10/) · [Offline ZIP 1.8](https://kimble-365.github.io/-parallel-bible-reader/releases/v1.8/parallel-bible-reader-1.8.zip) · [Version history](releases/)
+[Open version 1.11](https://kimble-365.github.io/-parallel-bible-reader/releases/v1.11/) · [Offline ZIP 1.8](https://kimble-365.github.io/-parallel-bible-reader/releases/v1.8/parallel-bible-reader-1.8.zip) · [Version history](releases/)
 
-The separate development reader has four independently optional text slots, favorites and a language directory, experimental Urdu script mapping, written Latin for Hebrew/Greek and other scripts, opt-in English phoneme estimates, and 44 publicly installed editions. Septuagint sources retain their own reference keys and independent chapter selectors. Historical Hebrew NT is installed; the latest modern Hebrew NT remains an external reading link pending rights and revision verification. Brenton is linked externally; French Giguet and historical Church Slavonic are installed. See [1.8 details and limits](releases/v1.8/README.md). Production remains the 27-edition reader below.
+The separate development reader has four independently optional text slots, favorites and a language directory, experimental Urdu script mapping, written Latin for Hebrew/Greek and other scripts, opt-in English phoneme estimates, and 46 publicly installed editions. Septuagint sources retain their own reference keys and independent chapter selectors. Historical Hebrew NT is installed; the latest modern Hebrew NT remains an external reading link pending rights and revision verification. Brenton is linked externally; French Giguet and historical Church Slavonic are installed. See [1.8 details and limits](releases/v1.8/README.md). Production remains the 27-edition reader below.
 
 ## Development brief
 

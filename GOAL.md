@@ -180,3 +180,8 @@ Added public-domain Biblia 1776 (78 nonempty source books, 35,445 source units),
 ## Increment 1.11 — first broader Uralic expansion
 
 Added Hungarian Károli 1908 (Public Domain; 66 books / 31,126 nonempty source units) and the explicitly partial Estonian Piibel Kõigile snapshot (CC BY-SA 4.0; Matthew/Mark/Luke/John/Romans, 4,212 units). The unrelated Est module remains excluded for unknown rights. The 46-edition reader has native reference panels, Uralic/Finnic/Hungarian browsing metadata, search and offline saving; no new verified audio or spoken reconstruction is claimed. Reuses unchanged 1.10 storage so private Finnish imports persist across these versions in the same browser. Source ZIP navigation is preserved by limiting app-shell fallback to actual app routes. Broader Uralic coverage and verified recordings remain pending, not assumed complete. See releases/v1.11/README.md.
+
+
+## Main URL correction (2026-10-25)
+
+The user reported that the main GitHub Pages URL displayed the old reader. The project root now forwards to the latest validated numbered release, preserving query parameters and passage fragments. The original production reader is archived under legacy/ and retains the shared original scripts/catalog/data and root offline ZIP. tools/promote_reader.py updates the root target only after release verification; numbered release URLs remain stable. This supersedes the earlier assumption that the old reader should remain the root page.

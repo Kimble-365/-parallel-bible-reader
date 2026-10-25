@@ -1,6 +1,6 @@
 # Parallel Bible Reader
 
-[Open the reader](https://kimble-365.github.io/-parallel-bible-reader/) · [Download ZIP](https://kimble-365.github.io/-parallel-bible-reader/parallel-bible-reader.zip)
+[Open the current reader](https://kimble-365.github.io/-parallel-bible-reader/) · [Archived original reader](https://kimble-365.github.io/-parallel-bible-reader/legacy/) · [Original offline ZIP](https://kimble-365.github.io/-parallel-bible-reader/parallel-bible-reader.zip)
 
 A standalone English-interface Bible reader with original scripts, Latin transliterations, Finnish KR33/38 and World English Bible comparisons. No ChatGPT account is required. This distribution contains only the Bible reader.
 
@@ -15,6 +15,8 @@ Version 1.9 adds an installable web app and **Save selected texts** for offline 
 [Open version 1.11](https://kimble-365.github.io/-parallel-bible-reader/releases/v1.11/) · [Offline ZIP 1.8](https://kimble-365.github.io/-parallel-bible-reader/releases/v1.8/parallel-bible-reader-1.8.zip) · [Version history](releases/)
 
 The separate development reader has four independently optional text slots, favorites and a language directory, experimental Urdu script mapping, written Latin for Hebrew/Greek and other scripts, opt-in English phoneme estimates, and 46 publicly installed editions. Septuagint sources retain their own reference keys and independent chapter selectors. Historical Hebrew NT is installed; the latest modern Hebrew NT remains an external reading link pending rights and revision verification. Brenton is linked externally; French Giguet and historical Church Slavonic are installed. See [1.8 details and limits](releases/v1.8/README.md). Production remains the 27-edition reader below.
+
+The main address forwards to the latest validated numbered release. Existing passage links keep their query parameters and reference. The original 27-edition reader is retained under `legacy/`; the original root ZIP remains that older reader.
 
 ## Development brief
 

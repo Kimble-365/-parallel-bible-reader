@@ -25,8 +25,11 @@ try:
   page.locator('#offline-panel').evaluate('(x)=>x.open=true');assert '1/66 books saved' in page.locator('#offline-saved').inner_text()
   # Offline pronunciation shell asset is precached, not dependent on an audio connection.
   page.select_option('#form-0','ga');page.wait_for_function("document.querySelector('#s1-v16')?.textContent.includes('phoneme estimate')")
-  page.select_option('#primary','hin2017');page.wait_for_function("document.querySelector('#status').textContent.includes('not saved')")
-  assert 'not saved' in page.locator('#status').inner_text()
+  page.select_option('#primary','hin2017')
+  if tuple(map(int,V.split('.'))) >= (1,12):
+   page.wait_for_function("document.querySelector('.source-pane .missing')?.textContent.includes('not saved')");assert page.locator('#s3-v16 [dir="rtl"]').count()==1
+  else:
+   page.wait_for_function("document.querySelector('#status').textContent.includes('not saved')");assert 'not saved' in page.locator('#status').inner_text()
   context.set_offline(False);page.goto(url+'?edition=engwebp&compare1=&compare2=&compare3=#JHN.3.16');page.wait_for_selector('#v16');page.evaluate("ReaderOffline.remove('engwebp')");assert all(x['id']!='engwebp' for x in page.evaluate('ReaderOffline.list()'));assert page.evaluate("JSON.parse(localStorage.getItem('bible-reader-bookmarks-v1')).length")==1
   # Cancelling after a committed book preserves it; resuming must finish the rest.
   page.evaluate("""async()=>{const a=new AbortController();try{await ReaderOffline.download(['engwebp'],()=>a.abort(),a.signal);throw Error('unexpected completion')}catch(e){if(e.name!=='AbortError')throw e}}""")

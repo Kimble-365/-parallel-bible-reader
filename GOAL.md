@@ -185,3 +185,14 @@ Added Hungarian Károli 1908 (Public Domain; 66 books / 31,126 nonempty source u
 ## Main URL correction (2026-10-25)
 
 The user reported that the main GitHub Pages URL displayed the old reader. The project root now forwards to the latest validated numbered release, preserving query parameters and passage fragments. The original production reader is archived under legacy/ and retains the shared original scripts/catalog/data and root offline ZIP. tools/promote_reader.py updates the root target only after release verification; numbered release URLs remain stable. This supersedes the earlier assumption that the old reader should remain the root page.
+
+
+## Increment 1.12 — reliable word search
+
+Search now defaults to all available selected books, accepts short queries and supports all words, exact phrase and substring modes. Per-book public indexes persist in a separate IndexedDB store with source-content fingerprints; private import indexes stay in RAM. Paging removes the first-100-results dead end. Search reports incomplete or stopped coverage, keeps available hits when other texts are unavailable, and merges duplicate slots for the same edition/reference. Actual Chromium checks cover the prior offline fail-fast bug and warm searches without raw payload rereads. See releases/v1.12/README.md.
+
+## Increment 1.13 — European/Asian additions and personal study notes
+
+Add five 66-book editions: Portuguese Open Nova Bíblia Viva 2007 (CC BY-SA 4.0), Czech Bible Kralická 1613 (Public Domain), historical Korean Revised (Public Domain), Tagalog Ang Biblia 1905 (Public Domain), and Nepali Open Contemporary Version 2024 (CC BY-SA 4.0). Public catalog: 51 editions. Preserve exact source archives, source spelling, source verse positions and derived UTF-8 USFM; written Latin conversions for Korean/Nepali are not phonetic speech. No matching new recording is claimed. Country/language-family filters are project browsing groups, not asserted UBS identifiers.
+
+The user's confirmed notebook source is **Text 1's selected passage**, not necessarily Genesis 1. New notes automatically quote that verse. Reference/range/chapter insertion uses only Text 1's original source and numbering. Never substitute Text 2–4 when Text 1 is empty or lacks a passage. Preserve each quotation and its translation when reading selections change. Keep personal writing separate, save only on the device, support text export and additive JSON backup restoration, and report storage failure without silently closing an unsaved draft. No account, cloud upload or automatic generated Bible text is required. See releases/v1.13/README.md for actual verification and limits.

@@ -6,15 +6,19 @@ A standalone English-interface Bible reader with original scripts, Latin transli
 
 ## Latest development reader
 
+Version **1.13** adds Portuguese Open Nova Bíblia Viva 2007, Czech Bible Kralická 1613, historical Korean Revised, Tagalog Ang Biblia 1905 and Nepali Open Contemporary Version 2024. Each new edition has 66 source books; the public catalog now has **51 editions**. Korean and Nepali include written Latin transliterations. **Notes** copies the current verse or a requested passage from **Text 1**, records its translation, and keeps your own writing separate. Notes save on the device and support text download and JSON backup/restore. See [1.13 details](releases/v1.13/README.md).
+
+Version **1.12** improves search with persistent public word indexes, whole-word/phrase/substring modes, short queries, paging beyond 100 results, a Stop button and honest incomplete-coverage reporting. These improvements are included in 1.13. See [1.12 search details](releases/v1.12/README.md).
+
 Version 1.11 adds Hungarian Károli 1908 and a five-book Estonian Piibel Kõigile snapshot, bringing the public catalog to 46 editions. Both work with offline saving/search and the Uralic directory. Existing permitted private imports/saved texts from 1.10 remain available in the same browser storage. See [1.11 scope and source details](releases/v1.11/README.md).
 
 Version 1.10 adds **Biblia 1776** directly and a **Finnish Bibles** panel for private LLL/KR92/Raamattu Kansalle imports and publisher reading links. The protected full texts are not publicly bundled; import your permitted theWord .ont or single-file ZIP on your own device. LLL.zip supplied by the user is supported and tested. See [1.10 details and access limits](releases/v1.10/README.md).
 
 Version 1.9 adds an installable web app and **Save selected texts** for offline reading. Only selected editions are retained on the device; downloads can be stopped and resumed, and the app lists incomplete/ready texts. Install using the browser menu (Safari: Share → Add to Home Screen), then save texts and test reopening in airplane mode. Audio requires internet. The ZIP link below remains the standalone 1.8 reader. See [1.9 details](releases/v1.9/README.md).
 
-[Open version 1.11](https://kimble-365.github.io/-parallel-bible-reader/releases/v1.11/) · [Offline ZIP 1.8](https://kimble-365.github.io/-parallel-bible-reader/releases/v1.8/parallel-bible-reader-1.8.zip) · [Version history](releases/)
+[Open version 1.13](https://kimble-365.github.io/-parallel-bible-reader/releases/v1.13/) · [Offline ZIP 1.8](https://kimble-365.github.io/-parallel-bible-reader/releases/v1.8/parallel-bible-reader-1.8.zip) · [Version history](releases/)
 
-The separate development reader has four independently optional text slots, favorites and a language directory, experimental Urdu script mapping, written Latin for Hebrew/Greek and other scripts, opt-in English phoneme estimates, and 46 publicly installed editions. Septuagint sources retain their own reference keys and independent chapter selectors. Historical Hebrew NT is installed; the latest modern Hebrew NT remains an external reading link pending rights and revision verification. Brenton is linked externally; French Giguet and historical Church Slavonic are installed. See [1.8 details and limits](releases/v1.8/README.md). Production remains the 27-edition reader below.
+The separate development reader has four independently optional text slots, favorites and a language directory, experimental Urdu script mapping, written Latin for Hebrew/Greek and other scripts, opt-in English phoneme estimates, and 51 publicly installed editions. Septuagint sources retain their own reference keys and independent chapter selectors. Historical Hebrew NT is installed; the latest modern Hebrew NT remains an external reading link pending rights and revision verification. Brenton is linked externally; French Giguet and historical Church Slavonic are installed. See [1.8 details and limits](releases/v1.8/README.md). The original 27-edition reader is archived under legacy/.
 
 The main address forwards to the latest validated numbered release. Existing passage links keep their query parameters and reference. The original 27-edition reader is retained under `legacy/`; the original root ZIP remains that older reader.
 

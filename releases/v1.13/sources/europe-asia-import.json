@@ -1,0 +1,355 @@
+[
+  {
+    "id": "por-onbv",
+    "books": 66,
+    "units": 31105,
+    "license": "CC BY-SA 4.0",
+    "source": "https://software.sil.org/scriptureappbuilder/",
+    "raw": [
+      {
+        "file": "941380703fcb500c-rev1-release.zip",
+        "sha256": "239621beee3179ad71e750e62365974cbd5ef1eda441257feb969c23fcd1f28e"
+      }
+    ]
+  },
+  {
+    "id": "npi-oncv2024",
+    "books": 66,
+    "units": 31094,
+    "license": "CC BY-SA 4.0",
+    "source": "https://software.sil.org/scriptureappbuilder/",
+    "raw": [
+      {
+        "file": "!books.xml",
+        "sha256": "9e61eed9177aaa3352662edac58b1735a9d347b9c9457acda11be75d6c0f5ba9"
+      },
+      {
+        "file": "49EPHONCV.SFM",
+        "sha256": "38c95deb0c59c7c542e1674ad54b03a5b683f7cb262a38fc140c0a058d68ac50"
+      },
+      {
+        "file": "65JUDONCV.SFM",
+        "sha256": "3451c07de4e112a9a2b54c5dd628477c64a619d2552da5ca0deb9f3610045b4e"
+      },
+      {
+        "file": "33MICONCV.SFM",
+        "sha256": "be04ac405663a5bc82eb6a5e50069594ce79b4ae2bffd7ded3cd4d665fc60678"
+      },
+      {
+        "file": "461COONCV.SFM",
+        "sha256": "8ed0d79ec136a6f74c75c08495e621e617e109affb36700f4f3bf0e1935d2357"
+      },
+      {
+        "file": "66REVONCV.SFM",
+        "sha256": "c2a7d309d5af220cfc2191245994fbcc6edc6a108144ba5df47433b2f4d54d5f"
+      },
+      {
+        "file": "102SAONCV.SFM",
+        "sha256": "c883a3dc036cbec0be5829781f51c5d0effee2210d0f684d9f205de237661bc5"
+      },
+      {
+        "file": "44ACTONCV.SFM",
+        "sha256": "455670db78abfd5e598811563e21abbd2da1374e2fca98393087659c0c7bf05d"
+      },
+      {
+        "file": "122KIONCV.SFM",
+        "sha256": "86c20911983e9a93956f76fb3e4f5038388fe21d46f7aeb9e2b043e930fd9f4a"
+      },
+      {
+        "file": "04NUMONCV.SFM",
+        "sha256": "59aef514f2595352be026d14c0c9ad09e8b5d588b8bd7b0b487434ee813a2797"
+      },
+      {
+        "file": "142CHONCV.SFM",
+        "sha256": "7f63b17992d0eed5cbd4d22d9d3a208f480fc58e3c2c1a32a512f2b4eba652eb"
+      },
+      {
+        "file": "03LEVONCV.SFM",
+        "sha256": "747ee48337a5c17276311c541b8924bce447a1aab716960e8c78d3d9d00ade0e"
+      },
+      {
+        "file": "31OBAONCV.SFM",
+        "sha256": "8cbb00624264be3ea9d1afcbbacd34376bb145e20cbb65048315cd5cb715a0a1"
+      },
+      {
+        "file": "59JASONCV.SFM",
+        "sha256": "7a16dd8bbd34647268ddf0987e8d85da2d48bffa91ba2c7d3012ea31518fd37d"
+      },
+      {
+        "file": "552TIONCV.SFM",
+        "sha256": "0a64b1be829c3f6ce269876ae056bf00aeb0702b4fb9c22c8618a32fb76a6461"
+      },
+      {
+        "file": "21ECCONCV.SFM",
+        "sha256": "abc5f02de2f323b6b092f5503aab5ce54b7fe78499d38b1ca8b8e1434fa90f96"
+      },
+      {
+        "file": "41MRKONCV.SFM",
+        "sha256": "e6fd59ba6e6ae1f5091c865a89df36ab62c38fae708a3fd95a703a68b327f6c7"
+      },
+      {
+        "file": "28HOSONCV.SFM",
+        "sha256": "da2020dd2f86c108ca6765ecd8c7cadcf06c691ab61a8b057e8ed01bc41bf091"
+      },
+      {
+        "file": "643JNONCV.SFM",
+        "sha256": "cdd4562490569e24ec8a3dd4875a0fedb2e5af6308e6158bca50d3b5b6738664"
+      },
+      {
+        "file": "39MALONCV.SFM",
+        "sha256": "10130e91f57c2cc8e73f11916caa60940a6d007af073506992f86d09c6cc242d"
+      },
+      {
+        "file": "42LUKONCV.SFM",
+        "sha256": "64f4ad59d091f74befc217c3c1eadb5cb2c5c2f4aaf9b040e188331a7902767f"
+      },
+      {
+        "file": "632JNONCV.SFM",
+        "sha256": "828dc12154cd11b8ce50fe256e8421275c52e0f742fbd7ef01a496eea86dd0d4"
+      },
+      {
+        "file": "29JOLONCV.SFM",
+        "sha256": "5396ca8cb98ef601e8ec5a09125c0f9174bdc2a527a7036f8d853987831482f6"
+      },
+      {
+        "file": "532THONCV.SFM",
+        "sha256": "f568e3b19ba554a4f40d292fc96a950a91c175638b1bfb87ef65d62a6a7426bb"
+      },
+      {
+        "file": "16NEHONCV.SFM",
+        "sha256": "874b4592538afaef26fa2db83ec44e475a6cc2cce1cfbeeff2c4f18f80f1211b"
+      },
+      {
+        "file": "20PROONCV.SFM",
+        "sha256": "d590442bc7a5668f9eee3545e4ec55a5c9f0fa33e65834b31c552ab19bb3e231"
+      },
+      {
+        "file": "08RUTONCV.SFM",
+        "sha256": "26d31014b17fad90b962e10de3ccec73fd0889aae9d66e9f20190644b1d1a586"
+      },
+      {
+        "file": "07JDGONCV.SFM",
+        "sha256": "355b5ffa9739d7b383e5b7d1eceb54df302b9c383be2d239742733105fda1871"
+      },
+      {
+        "file": "50PHPONCV.SFM",
+        "sha256": "30503cabb0d9d93e3fedd7dfe21bef3cdcb2e8be5f4d0e178d03cd7174e78f8b"
+      },
+      {
+        "file": "57PHMONCV.SFM",
+        "sha256": "86607a48879e305a888b8d8d0993642bf8a0ee54bb8aab969151079b723f6356"
+      },
+      {
+        "file": "18JOBONCV.SFM",
+        "sha256": "85d249a75b5c32aac3515a994b9661157dd1dab430716511b52f1a90c2dcb23c"
+      },
+      {
+        "file": "23ISAONCV.SFM",
+        "sha256": "5e6f52983683eb691d2b147fd90bac9c0facf43fcc17940b6f576d8a235d3f6f"
+      },
+      {
+        "file": "22SNGONCV.SFM",
+        "sha256": "0ece037c1c9a30a288e7015921e93712927b140063adf74031f7a8ffb37278c5"
+      },
+      {
+        "file": "30AMOONCV.SFM",
+        "sha256": "801844e1cb86dfa6918c78d53af03c0a5e430b7393730306b66855149cabc59f"
+      },
+      {
+        "file": "58HEBONCV.SFM",
+        "sha256": "9d4a60587059be4ebf08d1b64f440f40320aa595ddd2dc207323d7c63747f9ec"
+      },
+      {
+        "file": "06JOSONCV.SFM",
+        "sha256": "7456077937c71df25021f42d00173b6aa95ea4a3db4c5ea7c12fa8a6edd19e70"
+      },
+      {
+        "file": "15EZRONCV.SFM",
+        "sha256": "f6f9f72858ca3a075e2c0fcd62420e4c629603669ad7a4ad2185b0f6a0b85280"
+      },
+      {
+        "file": "19PSAONCV.SFM",
+        "sha256": "f653eb24e799a598be2f4cd92ef4fa159a09f440d568a9a7ea0ef7e1a946439e"
+      },
+      {
+        "file": "02EXOONCV.SFM",
+        "sha256": "59ad01c761eafb3cab69357df7eae071137f7be0e36b0efdfbd51959d8a7de54"
+      },
+      {
+        "file": "35HABONCV.SFM",
+        "sha256": "683a75fd3d57669e303f2941eae900772594c720fa6120819d36ee3b1232174a"
+      },
+      {
+        "file": "38ZECONCV.SFM",
+        "sha256": "17dac49b4f6db7787c86dae12ab7f92e86e7efd4d6f64688e7ab17f77ba74faa"
+      },
+      {
+        "file": "131CHONCV.SFM",
+        "sha256": "e4d8ef60cd5e13e2f1481f310404059b0675634cab66961180c900e7376e5c09"
+      },
+      {
+        "file": "51COLONCV.SFM",
+        "sha256": "56c3301218b736fa6fcb238b040e193c7d714474a320dca03bba39c7d918b607"
+      },
+      {
+        "file": "612PEONCV.SFM",
+        "sha256": "bc3ad19b767474887620d3ecd948d139765bcbb4fce64196a46fcd3a32eed247"
+      },
+      {
+        "file": "25LAMONCV.SFM",
+        "sha256": "9aa3fade7c2d90d77659af516a3d44e41565a9e89b4a71e92d707c177cd0dbe1"
+      },
+      {
+        "file": "091SAONCV.SFM",
+        "sha256": "6272a215f36324c05611329510fa9d9249bc2ef25656df3955c3f7e62adc482c"
+      },
+      {
+        "file": "27DANONCV.SFM",
+        "sha256": "3c3a335c57403f1420ec0daeeb2c4376bbde4b8c640d27e84bf095f923983910"
+      },
+      {
+        "file": "48GALONCV.SFM",
+        "sha256": "2f041d1594b5dd59815b67c9770600456d836352bcc48d32acbef9e875270845"
+      },
+      {
+        "file": "40MATONCV.SFM",
+        "sha256": "4ab6b16755fd4ce68ed5532648dbc8a4adb4f8827ebd935137c8bd9d5d91cbf9"
+      },
+      {
+        "file": "26EZKONCV.SFM",
+        "sha256": "a12e92dbde982e6c910748ff3132278bd52fc2ff6702c3f0838ffbd4a6e1c31f"
+      },
+      {
+        "file": "472COONCV.SFM",
+        "sha256": "69760311ff220f267bc4ecaba7ee9318024658e967b438b56c501fd4f01a92d2"
+      },
+      {
+        "file": "541TIONCV.SFM",
+        "sha256": "a9081063bfa7a01e087ed0cbbc37cd9e16831cecc393654d58d61ca0507a8128"
+      },
+      {
+        "file": "32JONONCV.SFM",
+        "sha256": "5fca0b835b1c30d3dded90abc37cb4f153e7558db3a281c51686544f8c9ccab2"
+      },
+      {
+        "file": "01GENONCV.SFM",
+        "sha256": "7e370818db52f3318682a47f8adf5df5775d681104c029641d14b89916f131cb"
+      },
+      {
+        "file": "36ZEPONCV.SFM",
+        "sha256": "835a4fe1173c5225cf36a442e7babe1d625fb3452e753495dbec7c48a6b31fc7"
+      },
+      {
+        "file": "45ROMONCV.SFM",
+        "sha256": "f0b7b692efcb0067ce8f6110a7bd95ad2d25cf3b95fcf887ca6f6e41c62597a6"
+      },
+      {
+        "file": "621JNONCV.SFM",
+        "sha256": "1070944be62d1a40d37c421bf5acbf4102f145167338d3778bf3f103ff2f8bbe"
+      },
+      {
+        "file": "05DEUONCV.SFM",
+        "sha256": "3f2490c1dd447d41c7b511d0baa18e8b2b4ba0b553856dd22d04997fc8c1312b"
+      },
+      {
+        "file": "521THONCV.SFM",
+        "sha256": "d55411278322b5e740a5693f88db9ca6b137377b0333667e1a0a13b9d33e3c7e"
+      },
+      {
+        "file": "34NAMONCV.SFM",
+        "sha256": "0725e0e986b3b85a0b3de43708bc2b136e42ee669b73fa355e1043a198444aa5"
+      },
+      {
+        "file": "601PEONCV.SFM",
+        "sha256": "66842e1b9372336866fbb2ff54823942a9896b7e7ea9357a1a79a9b4ff5cae3f"
+      },
+      {
+        "file": "56TITONCV.SFM",
+        "sha256": "720d2b68960f9e41a178a49a4d69ba6fd6db5c2d6eb3f5bcdde5d50ff2471378"
+      },
+      {
+        "file": "24JERONCV.SFM",
+        "sha256": "93b1cb7957a40d63b1e18406774236d9ea8fcba1e1b2bb8e0e0212a4ab50bf16"
+      },
+      {
+        "file": "17ESTONCV.SFM",
+        "sha256": "d5ce6905bfbf838ff7ccdf354201ffb77006a05c7ff22c440e06892eff5636bd"
+      },
+      {
+        "file": "111KIONCV.SFM",
+        "sha256": "6f4972f785171c649705d81d7e6f18d2e092da993b8f7425514dd2eefc0f9830"
+      },
+      {
+        "file": "37HAGONCV.SFM",
+        "sha256": "9b237d0d25f041be64d53747977e33a5cba47316981d9e864f1ecf9fab3ef1b7"
+      },
+      {
+        "file": "43JHNONCV.SFM",
+        "sha256": "1bac320f66a2514ee68c7663e7f757dd2fc1b7d97da741e81953d57ecc3d3099"
+      }
+    ]
+  },
+  {
+    "id": "ces-bkr1613",
+    "books": 66,
+    "units": 31172,
+    "license": "Public Domain",
+    "source": "https://github.com/thiagobodruk/bible/blob/master/json/cs_bkr.json",
+    "raw": [
+      {
+        "file": "czech-bkr1613.json",
+        "sha256": "2e7babf18594d9471bc471ae2da3279f3cdc7cbd40797ede545fbc344adf4ef6"
+      },
+      {
+        "file": "thiago-selected-index.json",
+        "sha256": "9fc224560185243aff9714ea4dd0e9c4ab01ccb977f4e4ee2712ef281b50fe99"
+      },
+      {
+        "file": "czebkr-rights.conf",
+        "sha256": "42888faeba93318a965c37b6560bc8be868a31fa23e9a3b3b0cfd64cbf019aea"
+      }
+    ]
+  },
+  {
+    "id": "kor-krv",
+    "books": 66,
+    "units": 31103,
+    "license": "Public Domain",
+    "source": "https://github.com/thiagobodruk/bible/blob/master/json/ko_krv.json",
+    "raw": [
+      {
+        "file": "korean-krv.json",
+        "sha256": "5b76e6372773aca94806042de7874d2ae9e1f45b581bf5d0f2b3d0fb12e93d49"
+      },
+      {
+        "file": "thiago-selected-index.json",
+        "sha256": "9fc224560185243aff9714ea4dd0e9c4ab01ccb977f4e4ee2712ef281b50fe99"
+      },
+      {
+        "file": "korrv-rights.conf",
+        "sha256": "4d799cdd6077e4deff170359923edd458de61e0223d0a3c4ca30f72ab758b9ad"
+      }
+    ]
+  },
+  {
+    "id": "tgl-angbiblia1905",
+    "books": 66,
+    "units": 31088,
+    "license": "Public Domain",
+    "source": "https://github.com/thiagobodruk/bible/blob/master/json/tl_abtag.json",
+    "raw": [
+      {
+        "file": "tagalog-angbiblia1905.json",
+        "sha256": "432744979c3ad2984ad265f8794feeeaa4c44687883cffaca8f10da0364fd2ca"
+      },
+      {
+        "file": "thiago-selected-index.json",
+        "sha256": "9fc224560185243aff9714ea4dd0e9c4ab01ccb977f4e4ee2712ef281b50fe99"
+      },
+      {
+        "file": "tagangbiblia-rights.conf",
+        "sha256": "7c49e370b67995d8809d7931d2bb88aa275311a36eabfab396a1aaec7cf18851"
+      }
+    ]
+  }
+]

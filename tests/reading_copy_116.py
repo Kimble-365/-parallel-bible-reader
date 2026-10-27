@@ -24,10 +24,10 @@ try:
   partial=page.evaluate('''()=>{const n=document.querySelector('#v2 .verse-line').lastChild,r=document.createRange();r.setStart(n,1);r.setEnd(n,9);const selection=getSelection();selection.removeAllRanges();selection.addRange(r);const data=new DataTransfer(),e=new ClipboardEvent('copy',{clipboardData:data,bubbles:true,cancelable:true});n.parentElement.dispatchEvent(e);return data.getData('text/plain')}''');assert partial=='Kuuntele',partial
   assert page.evaluate('document.documentElement.scrollWidth<=innerWidth+1')
   # Independent source panels also have one reference per displayed passage and no per-verse titles.
-  page.goto(base+'?edition=grc-source&compare1=&compare2=&compare3=&text=both#JHN.3.16');page.wait_for_selector('#s1-v16 .verse-line');assert page.locator('#s1-v16 h3').count()==0;assert page.locator('#s1-v16 .verse-reference').first.inner_text()=='3:16';assert page.locator('#s1-v16').evaluate('(e)=>getComputedStyle(e).borderBottomWidth')=='0px'
+  page.goto(base+'?edition=grc-source&compare1=&compare2=&compare3=&text=both&layout=source#JHN.3.16');page.wait_for_selector('#s1-v16 .verse-line');assert page.locator('#s1-v16 h3').count()==0;assert page.locator('#s1-v16 .verse-reference').first.inner_text()=='3:16';assert page.locator('#s1-v16').evaluate('(e)=>getComputedStyle(e).borderBottomWidth')=='0px'
   ids=['hin2017','fin-kr1938','engwebp','urdoucv'];params=['edition','compare1','compare2','compare3']
   for mask in range(16):
-   page.goto(base+'?'+'&'.join(k+'='+(ids[i] if mask&(1<<i) else '') for i,k in enumerate(params))+'&text=original#JHN.3.16');page.wait_for_function("!document.querySelector('#status').textContent.includes('Loading') && !!document.querySelector('#top-menu')")
+   page.goto(base+'?'+'&'.join(k+'='+(ids[i] if mask&(1<<i) else '') for i,k in enumerate(params))+'&text=original&layout=auto#JHN.3.16');page.wait_for_function("!document.querySelector('#status').textContent.includes('Loading') && !!document.querySelector('#top-menu')")
    if mask:
     page.wait_for_selector('#v16 .verse-line');assert page.locator('#v16 .translation').count()==mask.bit_count();assert page.locator('#v16 .verse-reference').count()==mask.bit_count();assert page.locator('#verses h3').count()==0
    else:assert page.locator('#verses').inner_text()==''

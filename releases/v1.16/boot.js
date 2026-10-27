@@ -1,0 +1,2 @@
+'use strict';
+(async()=>{try{await ReaderOffline.hydrate()}catch{}for(const name of ['reader.js','offline-ui.js','private-ui.js','notes-ui.js','media-ui.js','simple-ui.js','reader-copy.js'])await new Promise((resolve,reject)=>{const script=document.createElement('script');script.src=name+'?v=1.16';script.onload=resolve;script.onerror=()=>reject(Error('Could not load '+name));document.head.append(script)})})().catch(e=>{document.getElementById('status').textContent=e.message});

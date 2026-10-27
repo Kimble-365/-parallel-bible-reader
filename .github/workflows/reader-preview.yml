@@ -26,7 +26,7 @@ jobs:
           sudo ln -sf "$browser_path" /usr/bin/chromium
       - name: Verify sources, storage, search and exports
         env:
-          READER_VERSION: '1.15'
+          READER_VERSION: '1.16'
         run: |
           python tests/languages_114.py
           python tests/languages_115.py
@@ -37,12 +37,18 @@ jobs:
           node tests/notes_ui.cjs
           node tests/search_engine.cjs
           node tests/simple_ui_115.cjs
+          node tests/verse_text_116.cjs
+          python tests/release_static_116.py
           node tests/office_export_114.cjs
           python tests/office_open_114.py
       - name: Verify browser exports and offline reading (1.14)
         run: python tests/reader_114.py
       - name: Verify simplified reader (1.15)
-        run: python tests/simple_ui_115.py
+        env:
+          READER_VERSION: '1.16'
+        run: |
+          python tests/simple_ui_115.py
+          python tests/reading_copy_116.py
       - name: Verify existing reading features
         env:
           READER_VERSION: '1.14'

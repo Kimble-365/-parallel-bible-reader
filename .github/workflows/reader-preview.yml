@@ -7,6 +7,7 @@ permissions:
   contents: read
 jobs:
   reader:
+    if: startsWith(github.ref, 'refs/heads/preview/')
     runs-on: ubuntu-latest
     timeout-minutes: 20
     steps:
@@ -51,3 +52,23 @@ jobs:
           python tests/catalog_directory.py
           python tests/pronunciation_browser.py
           python tests/pwa_offline.py
+
+  published-reader:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install browser
+        run: |
+          python -m pip install playwright
+          python -m playwright install --with-deps chromium
+          browser_path=$(python -c 'from playwright.sync_api import sync_playwright; p=sync_playwright().start(); print(p.chromium.executable_path); p.stop()')
+          sudo ln -sf "$browser_path" /usr/bin/chromium
+      - name: Check current URL and original archive
+        run: python tests/root_route.py
+      - name: Verify deployed files
+        run: python tests/public_release_115.py

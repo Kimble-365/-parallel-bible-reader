@@ -105,7 +105,7 @@ def run():
   ctx=browser.new_context();page=ctx.new_page();errors=[];page.on('pageerror',lambda e:errors.append(str(e)))
   page.goto(BASE+RELEASE_PATH+'?edition=hin2017&compare1=fin-kr1938&compare2=engwebp&compare3=urdoucv#JHN.3.16');page.wait_for_selector('#v16 .translation[data-slot="4"]',timeout=30000)
   assert page.locator('#v16 .translation').count()==4;assert 'परमेश्वर' in page.locator('#v16 .translation[data-slot="1"]').inner_text();assert page.locator('#v16 [data-slot="4"] [dir="rtl"]').count()==1
-  page.screenshot(path='/workspace/reader-v1.2-desktop.png',full_page=False);page.set_viewport_size({'width':390,'height':844});assert page.evaluate('document.documentElement.scrollWidth<=innerWidth');page.screenshot(path='/workspace/reader-v1.2-mobile.png',full_page=False);assert not errors,errors;ctx.close()
+  page.screenshot(path=str(Path(tempfile.gettempdir())/'reader-v1.2-desktop.png'),full_page=False);page.set_viewport_size({'width':390,'height':844});assert page.evaluate('document.documentElement.scrollWidth<=innerWidth');page.screenshot(path=str(Path(tempfile.gettempdir())/'reader-v1.2-mobile.png'),full_page=False);assert not errors,errors;ctx.close()
   print('PASS: genuine Hindi/Finnish/English/Urdu data, John 3:16, RTL and mobile overflow')
   browser.close()
 try:run()

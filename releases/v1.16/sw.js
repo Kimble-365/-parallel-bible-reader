@@ -1,5 +1,5 @@
 'use strict';
-const CACHE='parallel-reader-shell-1.16-r1';
+const CACHE='parallel-reader-shell-1.16-r2';
 const ASSETS=['./','index.html','manifest.webmanifest','reader.js','verse-text.js','reader-copy.js','simple-ui.js','simple-ui.css','notes-model.js','notes-ui.js','office-template.js','office-export.js','OFFICE-TEMPLATE-LICENSE.txt','media-resources.js','media-ui.js','search-engine.js','search-manifest.js','offline-library.js','offline-ui.js','boot.js','private-import.js','private-ui.js','ont-map.js','script-adapters.js','catalog.js','LICENSES.md','translations/','translations/index.html','translations/directory.js','translations/directory-boot.js','translations/metadata.js','icons/icon-192.png','icons/icon-512.png','icons/apple-touch-icon.png','../../reader-guides.js','../v1.8/pronunciation/english-ga.js','../v1.8/pronunciation/CMUDICT-LICENSE.txt'];
 const paths=new Set(ASSETS.map(p=>new URL(p,self.registration.scope).pathname));
 const readerRoutes=new Set(['./','index.html','translations/','translations/index.html'].map(p=>new URL(p,self.registration.scope).pathname));

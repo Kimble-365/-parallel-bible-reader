@@ -1,0 +1,162 @@
+[
+  {
+    "id": "dan-1819",
+    "books": 27,
+    "units": 7953,
+    "license": "Public Domain",
+    "method": "Original Latin script with historical spelling and accents retained; no phonetic reconstruction. Source footnotes remain in raw USFM; display contains verse text.",
+    "source": "https://github.com/emg/Danish-Bible-NT-1819",
+    "files": [
+      {
+        "file": "40MAT.SFM",
+        "sha256": "006ba61db26ca7f4582477897d07c0dd0854b7970d345053d28e000aa1da3837",
+        "git_blob": "224efe3d5617fa045b214f1fa7c9f1176379246c"
+      },
+      {
+        "file": "41MRK.SFM",
+        "sha256": "37c9d765beb43eb6d37155ff198bab45864e2ced1eb99429dc009a08aab8d283",
+        "git_blob": "18f44fa8e4020653ab6bd7f840f1fcda6056501d"
+      },
+      {
+        "file": "42LUK.SFM",
+        "sha256": "6321a0326d523dbe95d1f7153496bbd323c0f8ee8485909d700a2d8debf06dad",
+        "git_blob": "5efcdec4050afb111118592c65b255910b86aaba"
+      },
+      {
+        "file": "43JHN.SFM",
+        "sha256": "32030a0d561f8eb84127e7ede125af722fd9129bd60f5687eda7841cd51e9b80",
+        "git_blob": "ba220ea09e047cef3f158aa890a54a5acd3f3e3b"
+      },
+      {
+        "file": "44ACT.SFM",
+        "sha256": "21f53ebb435e505cc44c7c750694cf07ca29bf19c534368903ef9607272ed464",
+        "git_blob": "f93963443cfc42ef553ee4d1966b8e8a60760e0c"
+      },
+      {
+        "file": "45ROM.SFM",
+        "sha256": "ff207c38ca9b4af70b7470d3aa85ae4169a5c6b48e7a651d7b9154ae02a974dc",
+        "git_blob": "fed55281845c25a15b6ae6a8af7aa34be7dd586d"
+      },
+      {
+        "file": "461CO.SFM",
+        "sha256": "abf71acd46864b8331ef7ea378c4f0776e47ee743cf786946766be9df8201bf1",
+        "git_blob": "d285bcf3b0b012881dcfb275b5b332a15b492d3b"
+      },
+      {
+        "file": "472CO.SFM",
+        "sha256": "62c1cad510281c7d7db128365b3c603aa4aadba9e1f38c36e7441a74bc26907a",
+        "git_blob": "1280d5b8c58036c274ae981992e11d5ec822d3e1"
+      },
+      {
+        "file": "48GAL.SFM",
+        "sha256": "e566d2fa25c43e371284447cfa77b6288040dc8c93bd43e7ebf40c85cada3762",
+        "git_blob": "c7816ff1edfa0e767576e1b4fb9b74c83a538f8a"
+      },
+      {
+        "file": "49EPH.SFM",
+        "sha256": "7d2c399681bb5f21952dcb660dbd02f9ec0f192f14b38e8b97a235f315f7d035",
+        "git_blob": "6efa11d29e909bc7b3edf6213a1f64b47e520231"
+      },
+      {
+        "file": "50PHP.SFM",
+        "sha256": "18923185d87244f94dc1ebd4b31b41e52d50d365c6599e1912e7b553e54766c6",
+        "git_blob": "73ce3b7e04c25fe565cedfb1e0f47e4f6708c564"
+      },
+      {
+        "file": "51COL.SFM",
+        "sha256": "6dbf746a59858881c3e3bf1418db45fc4915bdc0e9b78ee59452a3ffa73f85eb",
+        "git_blob": "644299ae10fd8762be187d27cfb855223311b80b"
+      },
+      {
+        "file": "521TH.SFM",
+        "sha256": "59a1fdbf280dca24843c8f032635064306a6549a52f32d0f3398cea0dc6e1070",
+        "git_blob": "8e7584853f78a6b9fd6abac513f3469923e8e352"
+      },
+      {
+        "file": "532TH.SFM",
+        "sha256": "67134788a5a7664bb14a7f98d9cd8de3a2b93c326fd03da6bc7e0f0d2b01213f",
+        "git_blob": "2e1e25de2a667bb19b61cf4741380a789bc383d6"
+      },
+      {
+        "file": "541TI.SFM",
+        "sha256": "25482a3f1739f3badd4894705398eb1ff11177f8126df235d517216f47a75fbc",
+        "git_blob": "f53bd87ca4c16bb776438552fd75369bfb1ccec5"
+      },
+      {
+        "file": "552TI.SFM",
+        "sha256": "0fb1b19c43db1c369a5df00a6dea9c479b07ae215e838ca6e1e0fa3e15996cf3",
+        "git_blob": "30874a2d8d338a57c82e2c208e9dde81e5a8e395"
+      },
+      {
+        "file": "56TIT.SFM",
+        "sha256": "5b4f3d67d0c5c22ef3080be373b7bcfa6d80f6a3b14a19b17f8a4c9c90e5ba0e",
+        "git_blob": "6ed7f2eadb1f7d25a5c1d76e65fbc7096c2e886a"
+      },
+      {
+        "file": "57PHM.SFM",
+        "sha256": "40aeea4ea21d1fa39ffee4a8ce6c7185a52e9c0f5eaae344dc283cd32b5315c8",
+        "git_blob": "d1c2d531581e599174ef6c7cd24f9d5737b8080f"
+      },
+      {
+        "file": "58HEB.SFM",
+        "sha256": "29e71751ff9779a678c2bc987b8f620cce0112e5b1da389be06d130a9235cc6e",
+        "git_blob": "558e871d51eb9b3f6b8be88f5bfec1d488755799"
+      },
+      {
+        "file": "59JAS.SFM",
+        "sha256": "ba55ee2b0c01612182a1a2568b2db80be862e2cd5258c9a0384ef828fb3fa039",
+        "git_blob": "09f2495947c9da9fef73491df6147d427f987572"
+      },
+      {
+        "file": "601PE.SFM",
+        "sha256": "7f69b6997d783daf571700931f5e8e88500c84313673ca27f15154c696d3b688",
+        "git_blob": "a5fc92bdcfa6190237e306716de2cea3f378cfcf"
+      },
+      {
+        "file": "612PE.SFM",
+        "sha256": "4d3c3f502263cfd6695c57a0010ae4ca4a20d65601b37280888cdb2e37a736f0",
+        "git_blob": "f32d4dd6c445023bb81e64332165fc8e61087a30"
+      },
+      {
+        "file": "621JN.SFM",
+        "sha256": "9c605a2261708ea760c711b05a7d4a68d6215cb154db74db1c1a039d726ba3e0",
+        "git_blob": "3132c06490ab18ef3dee1d7be9844a77de0a3d58"
+      },
+      {
+        "file": "632JN.SFM",
+        "sha256": "c19eb4ff59cec6c26f054d58aeb4057a2d1c52577f6f2543a1aed4252d33da1c",
+        "git_blob": "fe92cc3afaeba4e6d63131b7e1c225d1b2f7c078"
+      },
+      {
+        "file": "643JN.SFM",
+        "sha256": "6da8744a24fa76bd3f48c81b90270730f4ecf6a41b9d3dbedcd8f06478cd1ff2",
+        "git_blob": "8fc724d8f83f2a3a66bd3261bfda77d7dbcd401c"
+      },
+      {
+        "file": "65JUD.SFM",
+        "sha256": "3220ba2cdb0c3a9b29b19286ff9d6d2f95d76352e1aa5e57df32640148082109",
+        "git_blob": "5828f5c188399027dbaf890ce832c73339196f25"
+      },
+      {
+        "file": "66REV.SFM",
+        "sha256": "c4536c73039e3fa78841255971205e1362db1cee2fdf3c99adca248d4abd7351",
+        "git_blob": "7dd89ccf4ac0c16533dafe6a9ab1feb1a1617f64"
+      }
+    ]
+  },
+  {
+    "id": "epo-londona",
+    "books": 66,
+    "units": 31102,
+    "license": "Public Domain",
+    "method": "Original Latin script and Esperanto diacritics retained. Chapter/verse positions follow the source arrays; no modernized spelling or phonetic reconstruction.",
+    "source": "https://github.com/thiagobodruk/bible/blob/master/json/eo_esp.json",
+    "files": [
+      {
+        "file": "eo_esp.json",
+        "sha256": "c45840ca9592e357ab36be8f8deb35821cefb8feeaf64a5de7319fc649f5ba8d",
+        "git_blob": "cadb2cf1dcb0412dc3a1836f4063dabbfb06843f"
+      }
+    ]
+  }
+]

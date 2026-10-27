@@ -1,0 +1,97 @@
+{
+  "films": [
+    {
+      "id": "eng",
+      "label": "English",
+      "language_tags": [
+        "en"
+      ],
+      "url": "https://www.jesusfilm.org/watch/jesus.html/english.html",
+      "provider": "Jesus Film Project",
+      "access": "Provider-hosted streaming; internet required",
+      "same_bible_edition": false
+    },
+    {
+      "id": "fin",
+      "label": "Finnish — suomi",
+      "language_tags": [
+        "fi"
+      ],
+      "url": "https://www.jesusfilm.org/watch/jesus.html/finnish.html",
+      "provider": "Jesus Film Project",
+      "access": "Provider-hosted streaming; internet required",
+      "same_bible_edition": false
+    },
+    {
+      "id": "hin",
+      "label": "Hindi — हिन्दी",
+      "language_tags": [
+        "hi"
+      ],
+      "url": "https://www.jesusfilm.org/watch/jesus.html/hindi.html",
+      "provider": "Jesus Film Project",
+      "access": "Provider-hosted streaming; internet required",
+      "same_bible_edition": false
+    },
+    {
+      "id": "jpn",
+      "label": "Japanese — 日本語",
+      "language_tags": [
+        "ja"
+      ],
+      "url": "https://www.jesusfilm.org/watch/jesus.html/japanese.html",
+      "provider": "Jesus Film Project",
+      "access": "Provider-hosted streaming; internet required",
+      "same_bible_edition": false
+    },
+    {
+      "id": "mya",
+      "label": "Burmese — မြန်မာ",
+      "language_tags": [
+        "my"
+      ],
+      "url": "https://www.jesusfilm.org/watch/jesus.html/burmese.html",
+      "provider": "Jesus Film Project",
+      "access": "Provider-hosted streaming; internet required",
+      "same_bible_edition": false
+    },
+    {
+      "id": "vie",
+      "label": "Vietnamese — tiếng Việt",
+      "language_tags": [
+        "vi"
+      ],
+      "url": "https://www.jesusfilm.org/watch/jesus.html/vietnamese.html",
+      "provider": "Jesus Film Project",
+      "access": "Provider-hosted streaming; internet required",
+      "same_bible_edition": false
+    },
+    {
+      "id": "ceb",
+      "label": "Cebuano — Bisaya",
+      "language_tags": [
+        "ceb"
+      ],
+      "url": "https://www.jesusfilm.org/watch/jesus.html/cebuano.html",
+      "provider": "Jesus Film Project",
+      "access": "Provider-hosted streaming; internet required",
+      "same_bible_edition": false
+    },
+    {
+      "id": "tgl",
+      "label": "Tagalog — Filipino",
+      "language_tags": [
+        "tl",
+        "fil"
+      ],
+      "url": "https://www.jesusfilm.org/watch/jesus.html/tagalog.html",
+      "provider": "Jesus Film Project",
+      "access": "Provider-hosted streaming; internet required",
+      "same_bible_edition": false
+    }
+  ],
+  "more_languages": "https://www.jesusfilm.org/watch/jesus.html/english.html",
+  "sharing_terms": "https://www.jesusfilm.org/about/faq/",
+  "checked": "2026-10-26",
+  "verification": "Official language watch pages located through web research. Direct automated HTTP requests were blocked (403); actual movie playback was not exercised. No embedded player, film files or unverified media IDs are bundled."
+}

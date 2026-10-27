@@ -1,6 +1,6 @@
 'use strict';
 const assert=require('node:assert/strict'),fs=require('node:fs'),vm=require('node:vm');global.window=global;
-vm.runInThisContext(fs.readFileSync('releases/v1.13/notes-model.js','utf8'));
+vm.runInThisContext(fs.readFileSync('releases/v'+(process.env.READER_VERSION||'1.13')+'/notes-model.js','utf8'));
 const M=ReaderNotesModel,books=[['JHN','John'],['GEN','Genesis']],edition={id:'primary-only',label:'Primary version',language:'he',direction:'rtl',positions:[['JHN',3],['GEN',1]]},current={book:'JHN',chapter:3,verse:16},rows=[[3,16,'Original sixteen','Latin sixteen'],[3,17,'Original seventeen','Latin seventeen'],[3,18,'Original eighteen','Latin eighteen']];
 let p=M.plan('John 3:16-18',current,edition,books);assert.equal(p.book,'JHN');let q=M.passage(edition,books,p,rows);assert.equal(q.reference,'John 3:16–18');assert.equal(q.editionId,'primary-only');assert.equal(q.direction,'rtl');assert.equal(q.text,'16 Original sixteen\n17 Original seventeen\n18 Original eighteen');assert.ok(!q.text.includes('Latin'));
 p=M.plan(null,current,edition,books,'current');assert.equal(M.passage(edition,books,p,rows).text,'Original sixteen');assert.throws(()=>M.plan(null,current,null,books),/Text 1/);assert.throws(()=>M.plan('GEN 2:1',current,edition,books),/not included/);assert.throws(()=>M.plan('something',current,edition,books),/reference/);assert.throws(()=>M.passage(edition,books,M.plan('JHN 3:18-16',current,edition,books),rows),/not present/);assert.throws(()=>M.passage(edition,books,M.plan('JHN 3:99',current,edition,books),rows),/not present/);

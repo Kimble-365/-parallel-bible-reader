@@ -6,6 +6,8 @@ A standalone English-interface Bible reader with original scripts, Latin transli
 
 ## Latest development reader
 
+Local preview **1.15** simplifies the reader to one text and a favorite selector, with settings/tools in a top menu. Adds Danish NT 1819 and Esperanto (57 editions), plus 1.14’s Asian texts and Office note exports. Final browser verification and deployment remain pending; the main public address continues to serve validated **1.13**. See [1.15 preview](releases/v1.15/README.md) and [1.14 scope](releases/v1.14/README.md).
+
 Version **1.13** adds Portuguese Open Nova Bíblia Viva 2007, Czech Bible Kralická 1613, historical Korean Revised, Tagalog Ang Biblia 1905 and Nepali Open Contemporary Version 2024. Each new edition has 66 source books; the public catalog now has **51 editions**. Korean and Nepali include written Latin transliterations. **Notes** copies the current verse or a requested passage from **Text 1**, records its translation, and keeps your own writing separate. Notes save on the device and support text download and JSON backup/restore. See [1.13 details](releases/v1.13/README.md).
 
 Version **1.12** improves search with persistent public word indexes, whole-word/phrase/substring modes, short queries, paging beyond 100 results, a Stop button and honest incomplete-coverage reporting. These improvements are included in 1.13. See [1.12 search details](releases/v1.12/README.md).

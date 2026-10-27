@@ -1,0 +1,53 @@
+name: Reader preview checks
+on:
+  push:
+    branches: [main, 'preview/**']
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  reader:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install browser and document readers
+        run: |
+          python -m pip install playwright python-docx python-pptx lxml
+          python -m playwright install --with-deps chromium
+          browser_path=$(python -c 'from playwright.sync_api import sync_playwright; p=sync_playwright().start(); print(p.chromium.executable_path); p.stop()')
+          sudo ln -sf "$browser_path" /usr/bin/chromium
+      - name: Verify sources, storage, search and exports
+        env:
+          READER_VERSION: '1.15'
+        run: |
+          python tests/languages_114.py
+          python tests/languages_115.py
+          python tests/release_static_115.py
+          node tests/loader_notes_114.cjs
+          node tests/loader_notes_115.cjs
+          node tests/notes_model.cjs
+          node tests/notes_ui.cjs
+          node tests/search_engine.cjs
+          node tests/simple_ui_115.cjs
+          node tests/office_export_114.cjs
+          python tests/office_open_114.py
+      - name: Verify browser exports and offline reading (1.14)
+        run: python tests/reader_114.py
+      - name: Verify simplified reader (1.15)
+        run: python tests/simple_ui_115.py
+      - name: Verify existing reading features
+        env:
+          READER_VERSION: '1.14'
+        run: |
+          python tests/reader_v12.py
+          python tests/search_112.py
+          python tests/catalog_directory.py
+          python tests/pronunciation_browser.py
+          python tests/pwa_offline.py

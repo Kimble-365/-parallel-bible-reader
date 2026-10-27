@@ -1,0 +1,46 @@
+[
+  {
+    "id": "jpn-bungo",
+    "books": 66,
+    "units": 31099,
+    "empty_placeholders_omitted": 3,
+    "license": "Public Domain",
+    "source": "https://raw.githubusercontent.com/scrollmapper/bible_databases/master/formats/json/JapBungo.json",
+    "sha256": "5b5d0e4ded64bf46f554250a5caf02e8bd37c3d42460be98df1f74791a8d8262",
+    "git_blob": "91eb74d0f12981775d02ad6a6d2638de5772134a",
+    "transliteration": "Only hiragana and katakana are romanized with ICU; kanji remain unchanged. Partial written conversion, not a complete reading or pronunciation guide."
+  },
+  {
+    "id": "mya-judson",
+    "books": 66,
+    "units": 31088,
+    "empty_placeholders_omitted": 14,
+    "license": "Public Domain",
+    "source": "https://raw.githubusercontent.com/scrollmapper/bible_databases/master/formats/json/BurJudson.json",
+    "sha256": "26c12bd5120413859824cd13b39e91891ea4b78d1a954bd989dfa2af57b9d08e",
+    "git_blob": "0079381f33a39e1a6b44615e49394b51956029c3",
+    "transliteration": "ICU Myanmar-to-Latin orthographic conversion. Source spelling and combining signs retained in the original. Not reconstructed spoken language or a phonetic guide."
+  },
+  {
+    "id": "vie-1934",
+    "books": 66,
+    "units": 31102,
+    "empty_placeholders_omitted": 0,
+    "license": "Public Domain",
+    "source": "https://raw.githubusercontent.com/scrollmapper/bible_databases/master/formats/json/Viet.json",
+    "sha256": "f5480b28808c4b7f4e393afb39e1c998742815db6cd111438fc500a70f904931",
+    "git_blob": "a85bee83784a4d790930e2dfa30c942716326c2c",
+    "transliteration": "Original Latin text, accents retained."
+  },
+  {
+    "id": "ceb-pinadayag",
+    "books": 66,
+    "units": 31102,
+    "empty_placeholders_omitted": 0,
+    "license": "Public Domain",
+    "source": "https://raw.githubusercontent.com/scrollmapper/bible_databases/master/formats/json/CebPinadayag.json",
+    "sha256": "9f94ad535759776c3f191ab60911c4d33148ea24976ef2fb3b76bce1cd9ee88a",
+    "git_blob": "657250b88d95c7a285dee3a027873cd1bdf23828",
+    "transliteration": "Original Latin text, accents retained."
+  }
+]

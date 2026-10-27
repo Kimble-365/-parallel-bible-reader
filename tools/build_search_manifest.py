@@ -3,7 +3,7 @@ from pathlib import Path
 import json,hashlib,re,sys
 ROOT=Path(__file__).resolve().parents[1];V=sys.argv[1] if len(sys.argv)>1 else '1.12';OUT=ROOT/'releases'/('v'+V)
 cat=json.loads((OUT/'catalog.js').read_text().split('=',1)[1].rstrip(';\n'));wanted={e['id']:set(e['book_codes']) for e in cat['editions']};manifest={id:{} for id in wanted}
-for folder in [ROOT/'data',ROOT/'releases/v1.8/extra-data',ROOT/'releases/v1.10/extra-data',ROOT/'releases/v1.11/extra-data',OUT/'extra-data']:
+for folder in [ROOT/'data',ROOT/'releases/v1.8/extra-data',ROOT/'releases/v1.10/extra-data',ROOT/'releases/v1.11/extra-data',ROOT/'releases/v1.13/extra-data',ROOT/'releases/v1.14/extra-data',OUT/'extra-data']:
  for file in folder.glob('*.js'):
   text=file.read_text();m=re.search(r'window\.(?:ExtraBibleBooks|BibleBooks)\["[A-Z0-9]{3}"\]\s*=',text);assert m,file;data=json.loads(text[m.end():].strip().rstrip(';'))
   for id,rows in data['editions'].items():

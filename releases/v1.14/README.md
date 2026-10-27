@@ -1,0 +1,11 @@
+# Reader 1.14 — Asian languages and note exports
+
+55 public editions. Adds Japanese Bungo/Taisho (66 books; 31,099 nonempty units), Burmese Judson (66; 31,088), Vietnamese 1934 (66; 31,102) and Cebuano Pinadayag (66; 31,102). Corresponding Public Domain declarations, exact sources and derived UTF-8 USFM are retained in sources/. Three Japanese and fourteen Burmese empty placeholders are omitted. Source numbering and historical spelling are retained.
+
+Japanese conversion romanizes kana only: kanji remain unchanged. This is explicitly a partial written conversion. Burmese uses written ICU Myanmar–Latin conversion. Neither reconstructs spoken pronunciation.
+
+Notes quote Text 1's selected passage. Save on device, download current/all notes as UTF-8 TXT, DOCX or PPTX, and use JSON backup/restore. Exported Office files can be uploaded manually into Google Docs/Slides and converted there, as requested. No account integration or automatic upload. Up to 100 notes / 2 MB notebook; presentation exports stop with an error above 200 slides instead of truncating data. Office template credit: [python-pptx MIT license](OFFICE-TEMPLATE-LICENSE.txt).
+
+Eight official JESUS film language links open the provider's player in another tab. Films are not embedded, downloaded or cached; actual external playback has not been verified. There are 34 independent audio options. New Japanese recordings are NT, Burmese MYAOJV is OT-only and Cebuano Revised Popular is NT. Recordings may differ from the written edition. Text-only CEBCBV is not labeled as audio. Protected Bible.is/YouVersion texts remain external reading links; this release does not redistribute their protected modern translations.
+
+Source/model/search/Office checks and Chromium regression/search/PWA/pronunciation/directory checks were run. Actual browser downloads independently open as DOCX/PPTX; LibreOffice renders both. The final comprehensive offline browser test reached all 264 new book downloads, then failed on an incorrect assumption that the last note is automatically selected on reload. The test now explicitly selects that saved note; its final rerun is pending due execution permissions. This release is not promoted to the main URL until verification is complete. Physical Safari/Edge and Google import have not been tested.

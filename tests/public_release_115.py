@@ -3,7 +3,7 @@ from pathlib import Path
 from concurrent.futures import ThreadPoolExecutor
 from urllib.parse import urljoin
 import urllib.request,hashlib,os,re,time
-ROOT=Path(__file__).resolve().parents[1];APP=ROOT/'releases/v1.15';BASE='https://kimble-365.github.io/-parallel-bible-reader/';SHA=os.environ.get('GITHUB_SHA','verify-115')
+ROOT=Path(__file__).resolve().parents[1];VERSION=os.environ.get('READER_VERSION','1.15');APP=ROOT/'releases'/('v'+VERSION);BASE='https://kimble-365.github.io/-parallel-bible-reader/';SHA=os.environ.get('GITHUB_SHA','verify-115')
 def fetch(path):
  req=urllib.request.Request(urljoin(BASE,path)+'?verify='+SHA,headers={'Cache-Control':'no-cache','User-Agent':'ParallelBibleReader-release-verification'})
  with urllib.request.urlopen(req,timeout=45) as r:
@@ -29,5 +29,5 @@ def check(path):
  data=fetch(path);assert hashlib.sha256(data).digest()==hashlib.sha256((ROOT/path).read_bytes()).digest(),path
  return path
 with ThreadPoolExecutor(max_workers=4) as pool:results=list(pool.map(check,sorted(paths)))
-assert b"'releases/v1.15/'" in fetch('index.html')
-print('PASS: live Pages root is 1.15;',len(results),'public files HTTP 200 and byte-identical, including app shell, reused texts, all new book bundles and source archives; verification commit',SHA,flush=True)
+assert ("'releases/v"+VERSION+"/'").encode() in fetch('index.html')
+print('PASS: live Pages root is '+VERSION+';',len(results),'public files HTTP 200 and byte-identical, including app shell, reused texts, all new book bundles and source archives; verification commit',SHA,flush=True)

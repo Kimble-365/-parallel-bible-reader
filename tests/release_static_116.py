@@ -16,3 +16,6 @@ loader=(O/'offline-library.js').read_text();assert "'parallel-bible-reader-offli
 notes=(O/'notes-model.js').read_text();assert 'parallel-reader-notes-v1' in notes
 assert json.loads((O/'manifest.webmanifest').read_text())['scope']=='./'
 print('PASS: unique control IDs, local script/style links,',len(assets),'PWA assets, menu boot order, single-text defaults, responsive CSS and unchanged note/text stores')
+
+shell=(O/'index.html').read_text();assert shell.index('src="reader-copy.js')<shell.index('src="boot.js');assert "'reader-copy.js'" not in boot
+print('PASS: selection-copy handler loads synchronously before asynchronous reader boot, including fast offline reloads')

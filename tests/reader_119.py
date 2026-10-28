@@ -1,0 +1,28 @@
+"""Actual alignment, gzip fallback, ruby/copy/search, tracker and offline regression."""
+from pathlib import Path
+from http.server import ThreadingHTTPServer,SimpleHTTPRequestHandler
+from threading import Thread
+from playwright.sync_api import sync_playwright
+import os
+ROOT=Path(__file__).resolve().parents[1];VERSION=os.environ.get('READER_VERSION','1.19')
+class H(SimpleHTTPRequestHandler):
+ def __init__(self,*a,**k):super().__init__(*a,directory=str(ROOT),**k)
+ def log_message(self,*a):pass
+server=ThreadingHTTPServer(('127.0.0.1',0),H);Thread(target=server.serve_forever,daemon=True).start();base=f'http://127.0.0.1:{server.server_port}/releases/v{VERSION}/'
+try:
+ with sync_playwright() as p:
+  browser=p.chromium.launch(executable_path='/usr/bin/chromium',args=['--no-sandbox']);ctx=browser.new_context(viewport={'width':1280,'height':900});ctx.add_init_script('window.DecompressionStream=undefined');page=ctx.new_page();errors=[];external=[];page.on('pageerror',lambda e:errors.append(str(e)));page.on('request',lambda r:external.append(r.url) if not r.url.startswith('http://127.0.0.1:') else None)
+  page.goto(base+'?edition=engwebp&compare1=swe-1917&compare2=jpn-bungo&compare3=nob-1930&text=both&form3=ja-reading&ruby=1#JHN.3.16');page.wait_for_selector('#v16 .main-text');assert not page.locator('#verses').evaluate('(e)=>e.classList.contains("source-panels")');page.wait_for_selector('#v16 ruby rt');assert page.locator('#v16 .translation').count()==4
+  for verse in [1,2,16,17,30]:
+   tops=page.locator(f'#v{verse} .translation').evaluate_all('(es)=>es.map(e=>e.getBoundingClientRect().top)');assert len(tops)==4 and max(tops)-min(tops)<2,(verse,tops)
+  assert 'experimental' in page.locator('#text-form-notice').inner_text().lower();assert 'dictionary reading' in page.locator('#text-form-notice').inner_text().lower();assert page.locator('#v16 [data-edition="swe-1917"] .main-text').inner_text().strip()
+  copied=page.locator('#v16 [data-edition="jpn-bungo"] .original').evaluate('''e=>{const r=document.createRange();r.selectNodeContents(e);const s=getSelection();s.removeAllRanges();s.addRange(r);const data=new DataTransfer();document.dispatchEvent(new ClipboardEvent('copy',{clipboardData:data,bubbles:true,cancelable:true}));return data.getData('text/plain')}''');original=page.evaluate('ReaderJapaneseRuby.text("JHN",[3,16])');assert copied.startswith('3:16 ') and len(copied)<600;assert page.locator('#v16 [data-edition="jpn-bungo"] ruby').count()>0
+  source=page.evaluate('async()=>{const d=await ReaderOffline.loadBook("JHN",["jpn-bungo"]);return d.editions["jpn-bungo"].find(r=>r[0]===3&&r[1]===16)[2]}');assert copied=='3:16 '+source
+  page.get_by_role('button',name='Settings',exact=True).click();page.locator('#appearance-settings').evaluate('(e)=>e.open=true');page.select_option('#alignment-mode','source');page.wait_for_selector('.source-pane');assert page.locator('.source-pane').count()==4;page.select_option('#alignment-mode','auto');page.wait_for_selector('#v16 .translation');page.get_by_role('button',name='Back to reading',exact=True).first.click()
+  page.click('#menu-study');page.click('#menu-tracker');assert '0 / 66' not in page.locator('#tracker-progress').inner_text();page.locator('#tracker-current input').check();assert '1 /' in page.locator('#tracker-progress').inner_text();page.keyboard.press('Escape');page.reload();page.wait_for_selector('#menu-study');page.click('#menu-study');page.click('#menu-tracker');assert page.locator('#tracker-current input').is_checked();page.keyboard.press('Escape');page.click('#menu-study');page.click('#menu-resources');assert page.locator('#study-content a[href*="prs.app"]').count()==11;page.keyboard.press('Escape');assert not external,external
+  # Source slot identity and Finnish native labels remain separate from source row offsets.
+  page.goto(base+'?edition=fin-kr1938&compare1=engwebp&compare2=&compare3=&text=original#PSA.5.3');page.wait_for_selector('#v3 .main-text');assert 'Kuuntele' in page.locator('#v3 [data-edition="fin-kr1938"]').inner_text();quote=page.evaluate('ReaderNotebookSource.passage(null,"reference")');assert 'Kuuntele' in quote['text'] and quote['reference'].endswith('5:3')
+  page.set_viewport_size({'width':390,'height':844});assert page.evaluate('document.documentElement.scrollWidth<=innerWidth+1');assert page.locator('#v3 .translation').count()==2
+  # Save one source + the optional aid without native gzip; reload entirely offline.
+  page.goto(base+'?edition=jpn-bungo&compare1=swe-1917&compare2=&compare3=&text=both&form1=ja-reading&ruby=1#JHN.3.16');page.wait_for_selector('#v16 ruby rt');page.evaluate('async()=>{await ReaderOffline.download(["jpn-bungo","swe-1917"]);await ReaderJapaneseReading.downloadAll();await ReaderJapaneseRuby.downloadAll()}');page.evaluate('navigator.serviceWorker.ready');page.wait_for_function('!!navigator.serviceWorker.controller');ctx.set_offline(True);page.reload();page.wait_for_selector('#v16 ruby rt');assert page.locator('#v16 .roman').count()>=1;page.goto(base+'?edition=jpn-bungo&compare1=swe-1917&compare2=&compare3=&text=original&ruby=1#REV.22.1');page.wait_for_selector('#v1 ruby rt');assert page.locator('#v1 .translation').count()==2;assert not errors,errors;browser.close();print('PASS: 4-column shared verse tops over unequal text heights, mobile grouped verses, explicit independent mode, original/native Finnish verse quotation, absent/broken native gzip fallback, Japanese ruby and Latin, copy excludes kana, persistent manual tracker, 11 external-only PRS choices, complete source/aid saving and offline Revelation; no page errors')
+finally:server.shutdown()

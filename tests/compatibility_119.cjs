@@ -1,0 +1,19 @@
+'use strict';
+const fs=require('node:fs/promises'),vm=require('node:vm'),assert=require('node:assert/strict'),zlib=require('node:zlib'),path=require('node:path');
+global.window=global;global.document={documentElement:{dataset:{dataPath:'../../data/'}}};global.location={href:'https://reader.test/releases/v1.19/'};Object.defineProperty(global,'navigator',{value:{onLine:true},configurable:true});
+const native=global.DecompressionStream,version=process.env.READER_VERSION||'1.19';let broken=false;
+global.fetch=async input=>{try{let bytes=await fs.readFile(path.join(process.cwd(),new URL(input).pathname));if(broken&&new URL(input).pathname.includes('packed-data'))bytes=Buffer.from(bytes.subarray(0,bytes.length-5));return new Response(bytes)}catch{return new Response('',{status:404})}};
+(async()=>{
+ global.DecompressionStream=undefined;
+ const files=version==='1.18'?['catalog.js','pack-manifest.js','offline-library.js']:['vendor/pako_inflate.min.js','compression.js','catalog.js','pack-manifest.js','offline-library.js','verse-text.js','alignment.js'];
+ for(const f of files)vm.runInThisContext(await fs.readFile('releases/v'+version+'/'+f,'utf8'));
+ const data=await ReaderOffline.loadBook('JHN',['swe-1917','nob-1930','nno-1921','isl-olo1995','ekk-ocv2022','engwebp'],{partial:true});assert.equal(data.unavailable.length,0,'Texts must render without native gzip support');
+ for(const id of ['swe-1917','nob-1930','nno-1921','isl-olo1995','ekk-ocv2022'])assert.ok(data.editions[id].some(r=>r[0]===3&&r[1]===16));
+ const plain=Buffer.from('神は 日本語 äöå '.repeat(10000)),gz=zlib.gzipSync(plain);assert.deepEqual(Buffer.from(await ReaderCompression.unpack(gz,plain.length,plain.length)),plain);
+ await assert.rejects(()=>ReaderCompression.unpack(gz,100,100));await assert.rejects(()=>ReaderCompression.unpack(gz.subarray(0,gz.length-2),plain.length,plain.length));const corrupt=Buffer.from(gz);corrupt[corrupt.length-8]^=255;await assert.rejects(()=>ReaderCompression.unpack(corrupt,plain.length,plain.length));
+ global.DecompressionStream=function(){throw Error('Unsupported gzip implementation')};assert.deepEqual(Buffer.from(await ReaderCompression.unpack(gz,plain.length,plain.length)),plain);global.DecompressionStream=native;assert.deepEqual(Buffer.from(await ReaderCompression.unpack(gz,plain.length,plain.length)),plain);
+ broken=true;const partial=await ReaderOffline.loadBook('GEN',['swe-1917','engwebp'],{partial:true});assert.ok(partial.editions.engwebp);assert.equal(partial.unavailable.length,1);
+ const input=[[5,1,'Opening. {5:2} Hear me.'],[5,2,'{5:3} Listen.'],[5,3,'{5:4} Prayer.']],before=JSON.stringify(input),m=ReaderAlignment.map('fin-kr1938',input);assert.deepEqual([...m.keys()],[1,2,3,4]);assert.equal(m.get(3)[2],'Listen.');assert.equal(ReaderAlignment.fromSource('fin-kr1938',input,2),3);assert.equal(JSON.stringify(input),before);const cross=[[3,1,'Opening'],[4,1,'{3:31} Cross-chapter source']];assert.equal(ReaderAlignment.rows('fin-kr1938',cross),cross);assert.deepEqual([...ReaderAlignment.map('fin-kr1938',cross,4).keys()],[1]);assert.deepEqual([...ReaderAlignment.map('other',[[3,'16','Text'],[3,18,'Gap preserved']]).keys()],[16,18]);
+ const code=await fs.readFile('releases/v'+version+'/reader.js','utf8'),fn=code.match(/function sourcePanels\(\)\{([^}]+)\}/)[1];for(const value of ['auto','number','source']){const actual=Function('$','selected','byId',fn)(()=>({value}),()=>['special'],new Map([['special',{preserve_source_refs:true}]]));assert.equal(actual,value==='source')}
+ console.log('PASS: all five new text editions without native gzip; broken native gzip fallback; native and bundled decode parity, corrupt/truncated/over-limit rejection; partial text availability; native Finnish verse-label alignment without mutation; explicit independent mode only');
+})().catch(e=>{console.error(e);process.exitCode=1});

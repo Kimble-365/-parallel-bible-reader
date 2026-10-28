@@ -67,6 +67,12 @@ jobs:
           python tests/study_menu_117.py
           python tests/import_browser_118.py
           python tests/nordic_japanese_browser_118.py
+      - name: Verify 1.19 alignment, gzip compatibility, ruby and tracker
+        run: |
+          node tests/compatibility_119.cjs
+          python tests/ruby_sources_119.py
+          python tests/release_static_119.py
+          python tests/reader_119.py
       - name: Verify existing reading features
         env:
           READER_VERSION: '1.14'
@@ -79,7 +85,7 @@ jobs:
 
   published-reader:
     env:
-      READER_VERSION: '1.18'
+      READER_VERSION: '1.19'
     if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     timeout-minutes: 15

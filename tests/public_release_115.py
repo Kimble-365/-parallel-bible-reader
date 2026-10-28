@@ -25,10 +25,10 @@ for v in ['1.14','1.15']:
   for p in (ROOT/'releases'/('v'+v)/folder).iterdir():
    if p.is_file():paths.add(str(p.relative_to(ROOT)))
 paths.add('releases/v1.13/extra-data/JHN.js')
-if VERSION in ['1.19','1.20']:
+if VERSION in ['1.19','1.20','1.21']:
  for p in (ROOT/'releases/v1.19/ruby-data').iterdir():
   if p.is_file():paths.add(str(p.relative_to(ROOT)))
-if VERSION in ['1.18','1.19','1.20']:
+if VERSION in ['1.18','1.19','1.20','1.21']:
  for folder in ['packed-data','japanese-data','sources']:
   for p in (ROOT/'releases/v1.18'/folder).iterdir():
    if p.is_file():paths.add(str(p.relative_to(ROOT)))

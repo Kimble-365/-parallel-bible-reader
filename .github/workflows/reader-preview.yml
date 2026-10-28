@@ -30,7 +30,7 @@ jobs:
           fi
       - name: Verify sources, storage, search and exports
         env:
-          READER_VERSION: '1.16'
+          READER_VERSION: '1.18'
         run: |
           python tests/languages_114.py
           python tests/languages_115.py
@@ -42,6 +42,17 @@ jobs:
           node tests/search_engine.cjs
           node tests/simple_ui_115.cjs
           node tests/verse_text_116.cjs
+          node tests/study_model_117.cjs
+          python tests/release_static_117.py
+          python tests/release_static_118.py
+          python tests/create_sqlite_fixtures.py
+          node tests/sqlite_reader_118.cjs
+          node tests/rtf_reader_118.cjs
+          node tests/bible_import_118.cjs
+          python tests/nordic_sources_118.py
+          node tests/nordic_loader_118.cjs
+          python tests/japanese_sources_118.py
+          node tests/japanese_reading_118.cjs
           python tests/release_static_116.py
           node tests/office_export_114.cjs
           python tests/office_open_114.py
@@ -49,10 +60,13 @@ jobs:
         run: python tests/reader_114.py
       - name: Verify simplified reader and clean copy (1.16)
         env:
-          READER_VERSION: '1.16'
+          READER_VERSION: '1.18'
         run: |
           python tests/simple_ui_115.py
           python tests/reading_copy_116.py
+          python tests/study_menu_117.py
+          python tests/import_browser_118.py
+          python tests/nordic_japanese_browser_118.py
       - name: Verify existing reading features
         env:
           READER_VERSION: '1.14'
@@ -65,7 +79,7 @@ jobs:
 
   published-reader:
     env:
-      READER_VERSION: '1.16'
+      READER_VERSION: '1.18'
     if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     timeout-minutes: 15

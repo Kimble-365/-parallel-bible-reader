@@ -1,0 +1,427 @@
+[
+  {
+    "id": "swe-1917",
+    "source": "https://github.com/midvash/bible-data/tree/main/versions/sv/sv1917",
+    "rights": null,
+    "license": "Public Domain",
+    "attribution": "Swedish — Bibeln 1917. Historical Public Domain translation. CrossWire swe1917 explicitly declares Public Domain. Source spelling and supplied source positions retained; source arrays use their published chapter/verse slots. Plain verse extraction; no publisher endorsement. No phonetic reconstruction. Latin-script spelling is shown directly without a duplicate transliteration.",
+    "books": 66,
+    "units": 31069,
+    "files": [
+      {
+        "file": "1Chr.json",
+        "sha256": "1e47ac336a3f76e43b8fcdab8b4f1daa912512bcef0985ccd805155f67697a3f",
+        "git_blob": "44347ae9e3dc178db2a0178ec2edb5fa5fa3db1d"
+      },
+      {
+        "file": "1Cor.json",
+        "sha256": "02078ee9c9ea5f996b54ed1a372fc534a896cf9622dbbf8ffcf6a6c2e04ab2a1",
+        "git_blob": "edde57dea75d7f3ba85fd805d0cbaf0cfdd828e5"
+      },
+      {
+        "file": "1John.json",
+        "sha256": "af8d83a644047aecff365b31dd5b3efa613d72c8980ee451cbf1f05da5faa0f6",
+        "git_blob": "4feddbe37e395f68bff2bb6e7e61bd28cfe26ef8"
+      },
+      {
+        "file": "1Kgs.json",
+        "sha256": "8d4a953be8d672561fb380d6bdd6f9f1d0982f73cd6544e124e295d1602c44a1",
+        "git_blob": "028b9be9882c19ef6ef5550ed585fc4d698eab54"
+      },
+      {
+        "file": "1Pet.json",
+        "sha256": "6246739576ee63ef242ec890c563d29d01dfa934231f5f4ea15c7401fc6cf8b6",
+        "git_blob": "50ca2b7473d4aac784c25f86c2655ec53edb6348"
+      },
+      {
+        "file": "1Sam.json",
+        "sha256": "296d98d2b5f7027752d3eed50722478efd4fe1e76890829182ebe0689cbe9b3c",
+        "git_blob": "de1929dd3532ffc2398402fbadeb1f8275d76ff2"
+      },
+      {
+        "file": "1Thess.json",
+        "sha256": "96b92b9cbb281c8e163a22da4cdc062b03e2b31af5285a910cc86ddb2d9e079d",
+        "git_blob": "e9af0352ce41e881f77359a96c2cb668e43c20ab"
+      },
+      {
+        "file": "1Tim.json",
+        "sha256": "3f47a22792dce1498e7d012aee9807ed8c39d052fedcd5d592664e54d49a370f",
+        "git_blob": "1a2214152d2e1ca4ea8c042e8f205c70cb82b7b0"
+      },
+      {
+        "file": "2Chr.json",
+        "sha256": "3281a38e46d88afa89854275b35d658cfaf4ce45da8fc03e1aca76a76e386374",
+        "git_blob": "5a35effea0d05facdda0a6f72260102a9048ce95"
+      },
+      {
+        "file": "2Cor.json",
+        "sha256": "11fc5ced9adbf3b6f1ec930c5fc85205ff223228bf2968115802b04731842f28",
+        "git_blob": "65d6e4bcbe65d8136c62893862130b8af36149f8"
+      },
+      {
+        "file": "2John.json",
+        "sha256": "3037da4fb9240d04fba45e352430bf8ee4037fcf6df1915f37a7d5ee7156d5e9",
+        "git_blob": "ff1e3838e785f6e2332b599a0881a1566fcfdad4"
+      },
+      {
+        "file": "2Kgs.json",
+        "sha256": "cf05ee70433c3c504c1d73e8b5d2a2f96e7ccc156dff106840df8d0a6d338ac2",
+        "git_blob": "d86d307ffd6c5c7cfdbf4ca6113904c70645ddf4"
+      },
+      {
+        "file": "2Pet.json",
+        "sha256": "a8dcbe30099c51743956545234705320841ccbc90c788d010bac9561d9b25a80",
+        "git_blob": "31874abf04075c95f4ecc0ce370ec7170d660d9a"
+      },
+      {
+        "file": "2Sam.json",
+        "sha256": "d96c75ef63e9834efd84ea460ff4432f756745b2247f185d8ee957777ad20ce6",
+        "git_blob": "efa8020b5956dde33a7c635d4668b0969ec8b467"
+      },
+      {
+        "file": "2Thess.json",
+        "sha256": "a3beda12c810dd7881e14e4fc57d0261cd93e97ad70886b759bffc5bbba10bc3",
+        "git_blob": "5197e124e319cf3811b98c63f24e132ebcaf9305"
+      },
+      {
+        "file": "2Tim.json",
+        "sha256": "a1526061598032ff701da3ee41b8fdebf8f914b7d8bacf7fbbe197614bc26f73",
+        "git_blob": "c65c31555e2175df605e2169008b45eb9b305372"
+      },
+      {
+        "file": "3John.json",
+        "sha256": "5abcc040f24daf6cfcc1f4804ae1d587809f4a505b17336c80dda372a09b0c6a",
+        "git_blob": "06c62673111e0d6a73154dba45c343fa6deb4ac4"
+      },
+      {
+        "file": "Acts.json",
+        "sha256": "06666b217fde110fa7f95ec934255c085b809ae7056af2cb0c6253f860f40268",
+        "git_blob": "3b244b14d527fcf80e013445ee197f88b2b5ef45"
+      },
+      {
+        "file": "Amos.json",
+        "sha256": "7f60c56cf43b4d39fbb6e562bd8a778841a2e14b4677d7c6899cc177ec32e179",
+        "git_blob": "e4ed0c85ed314f392e1c923f1b3a8ee3d3bb7cdf"
+      },
+      {
+        "file": "Col.json",
+        "sha256": "cfbf8c99417a99900b4f59e796529ad75a8396e8009cc7f0f8891763581e5ee0",
+        "git_blob": "8a9d58c0c67a4929a1f2d70735242b566f823125"
+      },
+      {
+        "file": "Dan.json",
+        "sha256": "ccab6753eca57aa7a4c33e116db1a93a169ac38a5bd9e1f35d023ef3b3b65c42",
+        "git_blob": "9f64c3a6fa965b624813d6fc773c9f8b5c191a2f"
+      },
+      {
+        "file": "Deut.json",
+        "sha256": "1c974b001f1e9c3e755bc53c8b4d8ba0b49dbd258a6812f71cf1f0daf4326ad3",
+        "git_blob": "ecab4bb736174e5dd39da17492847ec14da7b0ca"
+      },
+      {
+        "file": "Eccl.json",
+        "sha256": "6a5b7c540b7af8f8e6fb96d53e0e6eeb197a14dab1a0bb8349c614e61a7f33bf",
+        "git_blob": "1174d0b93ee8ca4731fdd1548d176db7310ade1e"
+      },
+      {
+        "file": "Eph.json",
+        "sha256": "43ed4b80de644f011cfe2534d21c6b2ebe29fadb1f3ce801d46b274913ca5bf9",
+        "git_blob": "66aed30bbcf59b4cf9e91ab3dffac37edb9c49c6"
+      },
+      {
+        "file": "Esth.json",
+        "sha256": "08bfed3453f73dc4154bc115ac991d118d35255c1838ad1aa873e9956e8efcec",
+        "git_blob": "e9ea534ab76217d5b0a13055eb7f29e7f6621977"
+      },
+      {
+        "file": "Exod.json",
+        "sha256": "9198f41f0e3a4149a98c73af328b68267dcf8fccace4d87ae1e6018644fec522",
+        "git_blob": "2b37f51d9f5303e65095c59140b707692981d69a"
+      },
+      {
+        "file": "Ezek.json",
+        "sha256": "818ed2d4e9275aa8a7e57a4d03677ab1966b64ffd7ca17841c7adc9804996547",
+        "git_blob": "b586c6f9cf1f843cb35616215cef578b6a9ca5be"
+      },
+      {
+        "file": "Ezra.json",
+        "sha256": "95f9e6b147bffbfec19f99201045b4b532c50d881402f10ff8b7a41771d0eb6c",
+        "git_blob": "6d50cd19b26c6bb24c7ffff916ee0ac123ec10a2"
+      },
+      {
+        "file": "Gal.json",
+        "sha256": "01dcb09f1745d1f770f4cab88c060dc6b2c7c86b7b2d045bfcc1242eef87d5f5",
+        "git_blob": "de0d36787ede2e80b7ac8cdbac0106effaeaa66d"
+      },
+      {
+        "file": "Gen.json",
+        "sha256": "e0d561dd634a375ef7fb481a6981d15773fbd06da3a1f738f4e8dfef0ef56d78",
+        "git_blob": "9ddf7d3a8f53676c535fd6d36abd8e603a2affc0"
+      },
+      {
+        "file": "Hab.json",
+        "sha256": "0afa1e069bb619d1a123304c073288a04a1cfffaaf28ff7324d0e6f3c730f184",
+        "git_blob": "31c35bf0041365720f9de2aeffb6c7bde8be0223"
+      },
+      {
+        "file": "Hag.json",
+        "sha256": "b48afb01fa763c4bad47388fb68345b7cb958933771d840c5d51c27edd63e3d9",
+        "git_blob": "d08cd72a6f5e4f7a46c64b4f11e87b6eae3e814a"
+      },
+      {
+        "file": "Heb.json",
+        "sha256": "4b55fc885cc4b3d820a39b1b097011433d9e6a0651fa178871d7f78dacd79847",
+        "git_blob": "d54f98c944d43e47f91a63bd9039ecde8141a01f"
+      },
+      {
+        "file": "Hos.json",
+        "sha256": "9650f4eb88623d075c5a7ac6a6d2a8360184a4b6e174f6374be7a5453f60ba29",
+        "git_blob": "2bb0eccec8c7e9748bf4030be499658b424a7228"
+      },
+      {
+        "file": "Isa.json",
+        "sha256": "fcbb28bf8aa07d28e447a4a4a297321a98de052ab2c0c23901f1ace7a786e8f3",
+        "git_blob": "39ad3768955f8cc89f4ec3928d06c9d01ac73234"
+      },
+      {
+        "file": "Jas.json",
+        "sha256": "439c505f8b2aca9385a86c226df0bf4c6091f3db2bb85e8b7531d5b19d5e9b90",
+        "git_blob": "39524e8543c216161422b8ce284f245ad4aa330c"
+      },
+      {
+        "file": "Jer.json",
+        "sha256": "77bf832724ed15e98c25d51d3d4bc1b2bd40e20e9b789de07a82dbea7917bb8d",
+        "git_blob": "407992f950ad672a0fe58c9f3bbb045f1f3c5eb0"
+      },
+      {
+        "file": "Job.json",
+        "sha256": "25783ebcca69bad0e0913791f8c6eb1e44012b98e38b4309cfb25aca14ff2770",
+        "git_blob": "79a2175990cfbf9367d2976c8fc7e7f146afbf40"
+      },
+      {
+        "file": "Joel.json",
+        "sha256": "68ffc859d6b1871b115cc75eb5583c4c8292b95d962414862c7a36c4fab1a2e0",
+        "git_blob": "7b8f9982f0644117585dc5e1ce582fa159b912c5"
+      },
+      {
+        "file": "John.json",
+        "sha256": "e11e45c4c6c0cce9eb7c15ffcf83747e48005eae2613699c12dfdc492fd16cf0",
+        "git_blob": "54c6658defa4d0545ac73ccccf953c202d67eb8d"
+      },
+      {
+        "file": "Jonah.json",
+        "sha256": "a2e492c11ffa1a5a06b7aca9a185a6cd3cce59e86ca2c8cbe977b118b62418cf",
+        "git_blob": "39ecd1db599fd18702c5479e2c9ac992ddefc362"
+      },
+      {
+        "file": "Josh.json",
+        "sha256": "116aef38ef538466fa55f62e6b1866de9ff3cb673618c31ee77c3f1172d2b4fb",
+        "git_blob": "7f9e8f070f980c4d2d9e0d3056ca298c5b63bf02"
+      },
+      {
+        "file": "Jude.json",
+        "sha256": "0d3ee8eaba6e825e3aee163e086a832667f98ba02732750f53ef8013f71fc8b3",
+        "git_blob": "38326edf25e59644c6b1a04ddd4cfc3f6d7beb88"
+      },
+      {
+        "file": "Judg.json",
+        "sha256": "2d8bcc941cd350225c841d8b21ddc5d3f28bb5480de5f1aced5e5220b6ff0e01",
+        "git_blob": "230c148d65045966d209d1c37893e938ab7893db"
+      },
+      {
+        "file": "Lam.json",
+        "sha256": "8bb62df6267d80e775d5ad9aaa8ba32ee33771777c5e3243411d2b794a600b75",
+        "git_blob": "a40438a2942b0fa5f24f476e463c892264a521f9"
+      },
+      {
+        "file": "Lev.json",
+        "sha256": "6acaf50b2fef2deafc2d2edb6688c6e419d10477fd0310b040bc95844cae76c1",
+        "git_blob": "38b511282fda2f2756aebae40624a46fc1d0433b"
+      },
+      {
+        "file": "Luke.json",
+        "sha256": "0327ee523642a95c22d75952269ec6aea1debcd3716dafc2e305868f7720415a",
+        "git_blob": "9c7791c77c075cdbc5fd317997dc0cafdd7f2a2a"
+      },
+      {
+        "file": "Mal.json",
+        "sha256": "73f0a69f7dfb0d790800b6029e5f3cc3610218e5e3b62446079252c15d958a18",
+        "git_blob": "31d800a3569eda452ddefc47ac59810de5864bb9"
+      },
+      {
+        "file": "Mark.json",
+        "sha256": "f42e6a4800deb6c58c501b5e464cb267a6deaa39f5475bf26810c14418fff866",
+        "git_blob": "ac839e85bbfcd106c5a7301f9481687b9c14f259"
+      },
+      {
+        "file": "Matt.json",
+        "sha256": "213104fd31b33b3f3b2063abd31ad0eadbf75fe357134e2597fde2789dcb979b",
+        "git_blob": "72887c6b17238d7f7d6ca375708744ffccab196a"
+      },
+      {
+        "file": "Mic.json",
+        "sha256": "fb425a53c6b60a830c9ca01d6480a21764e3508b19ba82b2e295e24a8dd33844",
+        "git_blob": "f01611c3f1f3809f3cf6ca6f880080c337300c3d"
+      },
+      {
+        "file": "Nah.json",
+        "sha256": "3e18cbea68551c5307ef7bfc833ed4d0dca88961fb511130c911d67ad985a686",
+        "git_blob": "fa1b05619e55c4c69383bc32ebaa168f23e252f4"
+      },
+      {
+        "file": "Neh.json",
+        "sha256": "e7a30e58dc1eb5a800e25aed212866dd16224afc41d4e530ac633943de1a6f29",
+        "git_blob": "424f70912752784c8243a3d08f05a023e005e6c1"
+      },
+      {
+        "file": "Num.json",
+        "sha256": "ce0ce7b4c8af59172282e252b1ce934de68b8d6ff9c7c2c9c00613d3ff8f6fab",
+        "git_blob": "94625ae8040a6fe2a8c240ba06d964cc62f8dcf0"
+      },
+      {
+        "file": "Obad.json",
+        "sha256": "ef05d0fae157fcf17a8cffff2e8f2cfc2f62316ccf2d0300c38eed447aa11644",
+        "git_blob": "19040984de634bb1e4f172cbd7183e73af416ce3"
+      },
+      {
+        "file": "Phil.json",
+        "sha256": "9a202b77273269ec895268a8077039fd2e69db16e5130438984b3c00bfd77136",
+        "git_blob": "36c86a739dd8a160fd301fa08455bf9e1bb2ce68"
+      },
+      {
+        "file": "Phlm.json",
+        "sha256": "313fbe34708e9712d0769bacf6233fcf84c95d6aaf55a7c3fec44f0ea6afc0f0",
+        "git_blob": "cdb69c4b4fcf8a3243bf0b7b9cba17a29904a4c1"
+      },
+      {
+        "file": "Prov.json",
+        "sha256": "075127dbde8abf95e07915677ee427a3be4a6b5812cce6c1b38d561110616bf6",
+        "git_blob": "5909d82ab0e115e766f41e296f1ea2f63c58f0a9"
+      },
+      {
+        "file": "Ps.json",
+        "sha256": "e7787ab4f969f3c2100926c3eb0c69ffffedcba83e5af1d073d3f8a8043b3d53",
+        "git_blob": "7aa9bd2571c33d7791b1b52eaf1ec2af9bef487e"
+      },
+      {
+        "file": "Rev.json",
+        "sha256": "176f999fbf0b0ea60e96811e32db76467cbb5f939e9c2198aa2f9365073dd563",
+        "git_blob": "caf397bbd7874c6a4269fcf83ac7bb5214780931"
+      },
+      {
+        "file": "Rom.json",
+        "sha256": "d9ecd60787cd75d917f116aa40ee59268d9852ac904f2d8c8862d7c98f17efc8",
+        "git_blob": "bb91fb12bb19b3c19be8f533022c5a618d0fb85b"
+      },
+      {
+        "file": "Ruth.json",
+        "sha256": "2769994c9aa23cfeb6bf3f0200cb3c5b0d4f7c890b2d2be9dc3c1c42c7e6dce9",
+        "git_blob": "782fd8126402ea3e1c8e8f3dd9b17a11b29b7f1a"
+      },
+      {
+        "file": "Song.json",
+        "sha256": "36743a04d9bba99ba8866455997a87a6e5202076559b7668b6388ba9d11404af",
+        "git_blob": "b51d75b5e989914bc672b7ca989843850c43c8ac"
+      },
+      {
+        "file": "Titus.json",
+        "sha256": "2611dafca9b1623e6b8b874920b33bdcd8aa90de073a538169602cc46525909e",
+        "git_blob": "1987f7df9d6dcaf34f1b3300f424d22afb4eb45b"
+      },
+      {
+        "file": "Zech.json",
+        "sha256": "91552e26d94a9418a96d915b6e21e49c8995a8076ec5c678fd95872dd12b5ae4",
+        "git_blob": "650dd75ca2123b1557f35e919abb57a992e1b648"
+      },
+      {
+        "file": "Zeph.json",
+        "sha256": "61516fe1fa0f60caa8f4068e5442728a1a8ca25a4536d6cffa0f06c57f070e5a",
+        "git_blob": "69b478f606c57913cd398e53cddcb3a6079373bf"
+      },
+      {
+        "file": "metadata.json",
+        "sha256": "fa3baee52a4771c7ca29a6a00482fb6e12bdfb6dfd101da2cd62a1288357d79e",
+        "git_blob": "0e2b96f9814c37b071c3b17f8f4403c917bed6f2"
+      },
+      {
+        "file": "swe1917.conf",
+        "sha256": "2db558f68fc9d6a76ed73c56bf5b5273cec4252db4443f239475e83d6adef876",
+        "git_blob": "b643c756697a5c99d23801d40ca02b1fde26966a"
+      }
+    ]
+  },
+  {
+    "id": "nob-1930",
+    "source": "https://github.com/scrollmapper/bible_databases/blob/master/formats/txt/Norsk.txt",
+    "rights": null,
+    "license": "Public Domain",
+    "attribution": "Norwegian Bokmål — Bibelen 1930. Historical Public Domain translation. CrossWire norsk explicitly declares Public Domain. Source spelling and supplied source positions retained; source arrays use their published chapter/verse slots. Plain verse extraction; no publisher endorsement. No phonetic reconstruction. Latin-script spelling is shown directly without a duplicate transliteration.",
+    "books": 66,
+    "units": 31101,
+    "files": [
+      {
+        "file": "Norsk.txt",
+        "sha256": "c561de1800099e6d50757b75d05a3276617497844ed225a2b1a789e2d80a22be",
+        "git_blob": "501dc4a70e1f0d2c4dc16f59b8ae43d55254fcc8"
+      },
+      {
+        "file": "norsk.conf",
+        "sha256": "7b8978f672baddff7660bffa103ff1d2538ad4b4f15d4936760f2f0efd36ad52",
+        "git_blob": "4a3cec4422954dae28ca71a6e972cb30339d2d5a"
+      }
+    ]
+  },
+  {
+    "id": "nno-1921",
+    "source": "https://github.com/scrollmapper/bible_databases/blob/master/formats/txt/NorSMB.txt",
+    "rights": null,
+    "license": "Public Domain",
+    "attribution": "Norwegian Nynorsk — Studentmållagsbibelen 1921. Historical Public Domain translation. CrossWire norsmb explicitly declares Public Domain. Source spelling and supplied source positions retained; source arrays use their published chapter/verse slots. Plain verse extraction; no publisher endorsement. No phonetic reconstruction. Latin-script spelling is shown directly without a duplicate transliteration.",
+    "books": 66,
+    "units": 31060,
+    "files": [
+      {
+        "file": "NorSMB.txt",
+        "sha256": "7e45d5c5aca1e040c2fe1013d465770f84487cfdf54c71118aba7c0b4f6a8a89",
+        "git_blob": "1de229c584fd168be1460701772ce939a8582448"
+      },
+      {
+        "file": "norsmb.conf",
+        "sha256": "ea48afdce76cf39d0dfb77029a131885a663f4a950c581339149e2a4206c925c",
+        "git_blob": "1084832cc6b5fb69d2db8001220f82f53fafc0c4"
+      }
+    ]
+  },
+  {
+    "id": "isl-olo1995",
+    "source": "https://github.com/thiagobodruk/bible/blob/master/json/is_olo.json",
+    "rights": "https://ebible.org/isl/copyright.htm",
+    "license": "CC BY-SA 4.0",
+    "attribution": "Biblica® Opna Lifandi Orð Nýja testamentið og Sálmarnir™. Copyright © 1979, 1995 Biblica, Inc. Original work available at www.biblica.com and open.bible. Source spelling and supplied source positions retained; source arrays use their published chapter/verse slots. Plain verse extraction; no publisher endorsement. No phonetic reconstruction. Latin-script spelling is shown directly without a duplicate transliteration.",
+    "books": 28,
+    "units": 9421,
+    "files": [
+      {
+        "file": "is_olo.json",
+        "sha256": "67dc19a1f8fe996a1e76b35c3f154e352ea5a28929104d2eb2c18d8171350a5d",
+        "git_blob": "3b67a9a17cb7e3b5092273d76ad9c39dcdc98ae7"
+      }
+    ]
+  },
+  {
+    "id": "ekk-ocv2022",
+    "source": "https://github.com/thiagobodruk/bible/blob/master/json/et_opkek.json",
+    "rights": "https://ebible.org/ekk/copyright.htm",
+    "license": "CC BY-SA 4.0",
+    "attribution": "Biblica® Vaba kasutusega Uus Testament, Pühakiri kaasaegses eesti keeles™. Copyright © 2022 Biblica, Inc. Original work available at www.biblica.com and open.bible. Source spelling and supplied source positions retained; source arrays use their published chapter/verse slots. Plain verse extraction; no publisher endorsement. No phonetic reconstruction. Latin-script spelling is shown directly without a duplicate transliteration. This is a separate 27-book edition, not an invented completion of the existing five-book Piibel Kõigile snapshot.",
+    "books": 27,
+    "units": 7956,
+    "files": [
+      {
+        "file": "et_opkek.json",
+        "sha256": "29e7a00ecc84b5c1fc742915e6220f576d2808c2464bdd7622f5a1c9f9aa9f57",
+        "git_blob": "77c9bbd5a4f8b6fc9dd4495f68ff9978647b8c36"
+      }
+    ]
+  }
+]

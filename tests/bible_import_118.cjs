@@ -1,0 +1,19 @@
+'use strict';
+const fs=require('node:fs'),vm=require('node:vm'),assert=require('node:assert/strict'),{webcrypto}=require('node:crypto');global.window=global;if(!global.crypto)global.crypto=webcrypto;for(const file of ['catalog.js','rtf-reader.js','sqlite-reader.js','bible-import.js'])vm.runInThisContext(fs.readFileSync('releases/v1.18/'+file,'utf8'));const opts={title:'Unicode fixture, not a Bible translation',language:'fi',script:'Latin',rights:'Test fixture'},B=BibleCatalog.books;
+function file(name,text){const b=Buffer.from(text);return {name,size:b.length,arrayBuffer:async()=>b.buffer.slice(b.byteOffset,b.byteOffset+b.byteLength)}}
+(async()=>{
+ const fixtures=[
+  ['plain.txt','JHN 3:16 Unicode äöå 日本語\nJHN 3:17 Second verse'],
+  ['text.csv','book,chapter,verse,text,latin\nJHN,3,16,"Words, with a comma",roman\nJHN,3,17,"Quoted ""word""",'],
+  ['text.tsv','book\tchapter\tverse\ttext\nJHN\t3\t16\tUnicode äöå'],
+  ['text.imp','$$$[ Module Heading ]\nModule intro\n$$$John\nBook introduction\n$$$John 3:16\nUnicode äöå 日本語\n$$$John 3:17\nSecond verse'],
+  ['text.sfm','\\id JHN\n\\imt Introduction\n\\ip Original source intro\n\\c 3\n\\s First heading\n\\v 16 Unicode äöå 日本語\\f + \\ft a note\\f*\n\\v 17 Second verse'],
+  ['text.json',JSON.stringify({verses:[{book:'JHN',chapter:3,verse:16,text:'Unicode äöå 日本語',latin:'Unicode'}]})],
+  ['esv.json',JSON.stringify({passages:['John 3:16\n[16] Test fixture only. [17] Second fixture. (ESV)'],passage_meta:[{canonical:'John 3:16-17'}]})]
+ ];
+ for(const [name,text]of fixtures){const out=await ReaderBibleImport.parse([file(name,text)],opts,B);assert.equal(out.summary.books,1);assert.ok(out.summary.verses>=1);assert.match(out.meta.id,/^user-[a-f0-9]{32}-local$/);assert.equal(out.meta.private_local,true);assert.equal(out.books.JHN[0][0],3);assert.equal(out.books.JHN[0][1],16);assert.ok(!out.books.JHN[0][2].includes('\\ft'));if(name==='text.sfm'){assert.ok(out.meta.guide_data.introductions.JHN.length);assert.equal(out.summary.headings,1)}if(name==='text.imp')assert.ok(out.meta.guide_data.introductions.JHN.length)}
+ const sql=await ReaderBibleImport.parse([file('fixture.bblx',fs.readFileSync('/tmp/reader-sqlite-fixtures/utf8.bblx'))],opts,B);assert.equal(sql.summary.verses,1001);assert.ok(sql.books.GEN[0][2].includes('אֱלֹהִים'));
+ await assert.rejects(()=>ReaderBibleImport.parse([file('dup.txt','JHN 3:16 One\nJHN 3:16 Two')],opts,B),/Duplicate/);await assert.rejects(()=>ReaderBibleImport.parse([file('unknown.txt','Wrong 3:16 Text')],opts,B),/Unknown book/);await assert.rejects(()=>ReaderBibleImport.parse([file('x.txt','Text without references')],opts,B),/explicit reference/);await assert.rejects(()=>ReaderBibleImport.parse([file('x.txt','JHN 3:16 A')],{...opts,source:'javascript:alert(1)'},B),/HTTP/);await assert.rejects(()=>ReaderBibleImport.parse([file('x.txt','JHN 3:16 A')],{...opts,language:'bad code'},B),/language code/);await assert.rejects(()=>ReaderBibleImport.parse([{name:'big.txt',size:33*1024*1024}],opts,B),/32 MB/);await assert.rejects(()=>ReaderBibleImport.parse([file('x.sfm','\\id JHN\n\\c 1\n\\v 1 One\n\\id MAT\n\\c 1\n\\v 2 Two')],opts,B),/one USFM book/);
+ const marked=await ReaderBibleImport.parse([file('marked.sfm','\\id JHN\n\\c 3\n\\v 16 \\zaln-s |x-strong=hidden\\*\\w Visible|lemma=hidden\\w*\\zaln-e\\*\\fig hidden figure\\fig*\\f + \\ft hidden note\\f*')],opts,B);assert.equal(marked.books.JHN[0][2],'Visible');
+ assert.deepEqual(ReaderBibleImport.reference('Gen.1.1',B),{book:'GEN',chapter:1,verse:1,end:null});console.log('PASS: actual private-import parsers for referenced text, quoted CSV, TSV, CrossWire IMP/intros, USFM/intros/headings, JSON, Crossway passage JSON and real e-Sword SQLite; Unicode, stable content IDs, duplicate/unknown-book/date/source/size failures; no numbering guessed');
+})().catch(e=>{console.error(e);process.exitCode=1});

@@ -3,11 +3,13 @@ from pathlib import Path
 from http.server import ThreadingHTTPServer,SimpleHTTPRequestHandler
 from threading import Thread
 from playwright.sync_api import sync_playwright
+import os
+VERSION=os.environ.get('READER_VERSION','1.16')
 ROOT=Path(__file__).resolve().parents[1]
 class H(SimpleHTTPRequestHandler):
  def __init__(self,*a,**k):super().__init__(*a,directory=str(ROOT),**k)
  def log_message(self,*a):pass
-s=ThreadingHTTPServer(('127.0.0.1',0),H);Thread(target=s.serve_forever,daemon=True).start();base=f'http://127.0.0.1:{s.server_port}/releases/v1.16/'
+s=ThreadingHTTPServer(('127.0.0.1',0),H);Thread(target=s.serve_forever,daemon=True).start();base=f'http://127.0.0.1:{s.server_port}/releases/v{VERSION}/'
 def copy(page,selector):
  return page.evaluate('''sel=>{const n=document.querySelector(sel),r=document.createRange();r.selectNodeContents(n);const selection=getSelection();selection.removeAllRanges();selection.addRange(r);const data=new DataTransfer(),event=new ClipboardEvent('copy',{clipboardData:data,bubbles:true,cancelable:true});n.dispatchEvent(event);return {text:data.getData('text/plain'),handled:event.defaultPrevented}}''',selector)
 try:

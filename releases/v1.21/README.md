@@ -1,6 +1,6 @@
 # Reader 1.21 — optional paper pages and study library
 
-Prepared increment; browser verification and publication remain pending. All 1.20 reading, notes, imports, languages, plans, source-reference handling and device stores are retained.
+Full combined browser verification passed in [Actions 40740750872](https://github.com/Kimble-365/-parallel-bible-reader/actions/runs/40740750872) at preview commit ea23691a1e07c6327edf31bc83c9d71416a2f053. All 1.20 reading, notes, imports, languages, plans, source-reference handling and device stores are retained.
 
 ## Page navigation
 

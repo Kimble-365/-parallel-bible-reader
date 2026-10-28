@@ -1,6 +1,6 @@
 # Reader 1.18 — Nordic texts, private imports and reading aids
 
-Prepared staged development release; not yet promoted. Builds on 1.17's history, daily plan, presentation and combined Contents menu, while retaining 1.16's compact verses and clean copying.
+Numbered release promoted after browser verification. Builds on 1.17's history, daily plan, presentation and combined Contents menu, while retaining 1.16's compact verses and clean copying.
 
 ## Texts
 
@@ -22,4 +22,4 @@ Japanese has an additional optional **dictionary reading — experimental** form
 
 Contents collects source material and editorial guides. In addition to English, there are 396 **draft** introductions across Finnish, Swedish, Norwegian Bokmål/Nynorsk, Icelandic and Estonian, with native labels and outlines for nine books. These short editorial summaries are not publisher prefaces or Scripture. Linguistic review is pending. Other language translations remain pending and use an explicitly labeled English fallback; no all-language completion is claimed.
 
-Local source/model/parser/checksum tests pass. Actual browser XML/import/offline/menu tests are running in [GitHub Actions](https://github.com/Kimble-365/-parallel-bible-reader/actions/runs/40627190441) on the preview branch. Browser verification and publication remain pending; the public main reader remains 1.16.
+Source/model/parser/checksum tests and actual Chromium XML/import/install/offline/menu tests passed in [GitHub Actions 40627493177](https://github.com/Kimble-365/-parallel-bible-reader/actions/runs/40627493177), commit eabaff33aac466165cb1c46d27d4a41ccdd8ac1a. The suite also passed compact native-reference copying, all 16 text-slot combinations, notes and Office exports, search/index/directory/pronunciation/PWA regressions, and full Japanese/Swedish offline saving with dictionary reading packs. A previous run stopped on an outdated test assumption that Esperanto was in the short popular list; the test now uses Swedish for this release. No app fix was required for that test failure. Physical Safari/Edge testing and linguistic review remain pending. The root is promoted to 1.18; live Pages bytes are checked separately after deployment.

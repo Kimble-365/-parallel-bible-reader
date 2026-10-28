@@ -22,4 +22,4 @@ Japanese has an additional optional **dictionary reading — experimental** form
 
 Contents collects source material and editorial guides. In addition to English, there are 396 **draft** introductions across Finnish, Swedish, Norwegian Bokmål/Nynorsk, Icelandic and Estonian, with native labels and outlines for nine books. These short editorial summaries are not publisher prefaces or Scripture. Linguistic review is pending. Other language translations remain pending and use an explicitly labeled English fallback; no all-language completion is claimed.
 
-Local source/model/parser/checksum tests pass. Actual browser XML/import/offline/menu tests are prepared in GitHub Actions. Publication and browser verification are pending the GitHub write tool becoming usable; the public main reader remains 1.16.
+Local source/model/parser/checksum tests pass. Actual browser XML/import/offline/menu tests are running in [GitHub Actions](https://github.com/Kimble-365/-parallel-bible-reader/actions/runs/40627190441) on the preview branch. Browser verification and publication remain pending; the public main reader remains 1.16.

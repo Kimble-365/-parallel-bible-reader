@@ -25,6 +25,10 @@ for v in ['1.14','1.15']:
   for p in (ROOT/'releases'/('v'+v)/folder).iterdir():
    if p.is_file():paths.add(str(p.relative_to(ROOT)))
 paths.add('releases/v1.13/extra-data/JHN.js')
+if VERSION == '1.18':
+ for folder in ['packed-data','japanese-data','sources']:
+  for p in (APP/folder).iterdir():
+   if p.is_file():paths.add(str(p.relative_to(ROOT)))
 def check(path):
  data=fetch(path);assert hashlib.sha256(data).digest()==hashlib.sha256((ROOT/path).read_bytes()).digest(),path
  return path

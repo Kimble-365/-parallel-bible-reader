@@ -1,6 +1,6 @@
 # Reader 1.19 — aligned verses, gzip compatibility and Japanese reading aids
 
-Prepared release; root promotion follows browser verification.
+Verified staged increment; included in the following 1.20 reader. The root still opens 1.18 until 1.20 publication.
 
 Aligned verse rows are the default for every installed translation. On wide screens, all selected texts share one grid row per source verse label, sized by its tallest cell. Narrow screens group each verse’s selected texts together. Independent source chapters remain an explicit choice in Settings. This aligns labels and layout, not the meaning of different versifications: Septuagint/Psalms and other source traditions can number the same content differently. Ranges, absent verses, zero/letter references and original source bundles are retained.
 
@@ -13,3 +13,5 @@ Settings → Reading appearance → Japanese kana above kanji enables experiment
 Study → Reading tracker manually tracks source chapters for each Text 1 edition. Opening, listening and scrolling never mark a chapter read. Progress stays on this device. Study → Listening & resources provides 11 PRS language/script groups and distinguishes external modern revisions from installed historical/open editions. The links require internet; no PRS text/audio or proprietary app code is copied. See [research](../../docs/research/prs-assessment-119.md).
 
 Public catalog remains 62 editions. Modern Japanese Shinkaiyaku 2017 is an external PRS link, not a newly redistributed Bible. Complete Estonian OT, additional translated guides, verified spoken forms and physical Safari/Edge testing remain open. New source packs are small and reuse prior corpora; further large corpora still need separate hosting.
+
+Complete source/model/export/browser/offline/regression checks passed in [GitHub Actions 40642872277](https://github.com/Kimble-365/-parallel-bible-reader/actions/runs/40642872277), preview commit 25671c3969db2384b0af109b87dd5b037540c78b. Actual browser checks compared all four translation-cell tops, exercised the no-native-gzip path, Japanese ruby/Latin/copy, native Finnish note references, manual tracker persistence, provider-link behavior and offline Revelation after saving both full source texts and both optional reading aids.

@@ -73,6 +73,17 @@ jobs:
           python tests/ruby_sources_119.py
           python tests/release_static_119.py
           python tests/reader_119.py
+      - name: Verify 1.20 multi-passage plans and inherited fixes
+        env:
+          READER_VERSION: '1.20'
+        run: |
+          node tests/plans_120.cjs
+          node tests/notes_model.cjs
+          node tests/notes_ui.cjs
+          node tests/search_engine.cjs
+          python tests/release_static_120.py
+          python tests/reader_119.py
+          python tests/plans_120.py
       - name: Verify existing reading features
         env:
           READER_VERSION: '1.14'
@@ -85,7 +96,7 @@ jobs:
 
   published-reader:
     env:
-      READER_VERSION: '1.19'
+      READER_VERSION: '1.20'
     if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     timeout-minutes: 15

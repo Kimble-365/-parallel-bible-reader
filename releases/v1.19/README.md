@@ -1,6 +1,6 @@
 # Reader 1.19 — aligned verses, gzip compatibility and Japanese reading aids
 
-Verified staged increment; included in the following 1.20 reader. The root still opens 1.18 until 1.20 publication.
+Verified staged increment; included in the following 1.20 reader.
 
 Aligned verse rows are the default for every installed translation. On wide screens, all selected texts share one grid row per source verse label, sized by its tallest cell. Narrow screens group each verse’s selected texts together. Independent source chapters remain an explicit choice in Settings. This aligns labels and layout, not the meaning of different versifications: Septuagint/Psalms and other source traditions can number the same content differently. Ranges, absent verses, zero/letter references and original source bundles are retained.
 

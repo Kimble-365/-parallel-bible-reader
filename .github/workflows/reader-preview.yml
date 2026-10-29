@@ -92,6 +92,16 @@ jobs:
           python tests/release_static_121.py
           python tests/study_121.py
           python tests/reader_119.py
+      - name: Verify 1.22 vocabulary backups and verse navigation
+        env:
+          READER_VERSION: '1.22'
+        run: |
+          node tests/study_121.cjs
+          node tests/vocabulary_122.cjs
+          python tests/release_static_121.py
+          python tests/vocabulary_122.py
+          python tests/study_121.py
+          python tests/reader_119.py
       - name: Verify existing reading features
         env:
           READER_VERSION: '1.14'
@@ -104,7 +114,7 @@ jobs:
 
   published-reader:
     env:
-      READER_VERSION: '1.21'
+      READER_VERSION: '1.22'
     if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     timeout-minutes: 15

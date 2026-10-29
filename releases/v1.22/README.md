@@ -1,6 +1,6 @@
 # Reader 1.22 — vocabulary backups and continuous word study
 
-Prepared increment; browser verification and publication are pending. Existing 1.21 texts, notes, plans, imports, pages and study resources are retained with the same device storage keys.
+Full combined browser verification passed in [Actions 40855411166](https://github.com/Kimble-365/-parallel-bible-reader/actions/runs/40855411166) at preview commit a595018e7a45195748ced4dc16434a2d0b349273. Existing 1.21 texts, notes, plans, imports, pages and study resources are retained with the same device storage keys.
 
 Study → Saved vocabulary & backups opens a searchable list of saved Hebrew/Greek words. Search original spelling, transliteration, gloss, word code or reference; remove individual words or start saved-word flashcards. The same screen remains available from empty practice and from Word study.
 

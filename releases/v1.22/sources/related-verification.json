@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-31",
+  "passed": [
+    "66 gzip packs and original source SHA-256 reconciliation",
+    "POB 31221 canonical paths exactly equal pinned complete subtree",
+    "Node mixed new/legacy edition loading and corrupted pack rejection",
+    "Chromium POB primary and all four JHN.3.16 comparison records",
+    "Chromium save GEN for all four editions, switch offline, read saved source rows",
+    "vocabulary_122.cjs",
+    "notes_model.cjs"
+  ],
+  "limitations": [
+    "Full vocabulary_122.py browser regression timed out waiting for externally fetched word-study tokens at John 3:16; no full-suite pass claimed. New text and offline paths passed independently."
+  ],
+  "source_bytes_added": 14679745
+}

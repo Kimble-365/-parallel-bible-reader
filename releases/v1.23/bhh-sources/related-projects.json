@@ -1,0 +1,317 @@
+[
+  {
+    "repository": "evenderekh/THB",
+    "url": "https://github.com/evenderekh/THB",
+    "checked_date": "2026-10-31",
+    "role": "Closest broad parallel-text and lexical interface",
+    "observed_or_documented_features": "MT, LXX, Vulgate, English KJV, DSS and SP columns; word and thought-unit alignment directories; versification and Aleppo page indexes; static Python builder.",
+    "limits": "README and root layout inspected; full data and alignment quality not audited. This is not demonstrated to be a new critical Hebrew edition.",
+    "license_assessment": "Code MIT; underlying sources have mixed terms. README lists SP CC BY 4.0, conflicting with the primary DT-UCPH CC BY-NC 4.0 declaration. No automatic license substitution.",
+    "BHH_recommendation": "Inspect its verse-mapping and alignment schemas as candidates; independently review samples and source lineage before importing data.",
+    "priority": "high",
+    "evidence_files": [
+      {
+        "repo": "evenderekh/THB",
+        "path": "README.md",
+        "blob_sha": "035e0718e68b79ef7e5e793a019ac1770582c0c5",
+        "url": "https://github.com/evenderekh/THB/blob/master/README.md",
+        "bytes": 8982,
+        "content_sha256": "6f88498ccf2d98e1d3e91c1898d259a4cfe729724adb35dd5b71c8e3f1648796",
+        "verification": "retrieved bytes match GitHub blob identity"
+      },
+      {
+        "repo": "evenderekh/THB",
+        "path": "LICENSE",
+        "blob_sha": "1b0c502b88c53f4073fdf43b17685ca63fea6ad8",
+        "url": "https://github.com/evenderekh/THB/blob/master/LICENSE",
+        "bytes": 1071,
+        "content_sha256": "f4d04bf85d95685478edba958dd25aab71353e9ecb28ef7474b8dcb508bb047e",
+        "verification": "retrieved bytes match GitHub blob identity"
+      }
+    ],
+    "inspection_level": "documentation_and_selected_directory_metadata_only",
+    "external_code_executed": false,
+    "corpus_imported": false
+  },
+  {
+    "repository": "readersresource/ddhb",
+    "url": "https://github.com/readersresource/ddhb",
+    "checked_date": "2026-10-31",
+    "role": "Closest textual-critical parallel-reader concept",
+    "observed_or_documented_features": "README names Masoretic text, LXX, Samaritan, DSS, Old Latin, Targums and Peshitta.",
+    "limits": "The inspected root contains README, MIT LICENSE and a screenshot only. A reusable reader implementation or full data corpus is not established by this repository inspection.",
+    "license_assessment": "MIT file is present; underlying witness-text rights are not established by that file.",
+    "BHH_recommendation": "Use the witness selection and parallel-comparison concept as a design reference, not as an available verified corpus.",
+    "priority": "medium",
+    "evidence_files": [
+      {
+        "repo": "readersresource/ddhb",
+        "path": "README.md",
+        "blob_sha": "2d4b6ec059138d93b7f068d5b91c5cfb2a79b832",
+        "url": "https://github.com/readersresource/ddhb/blob/main/README.md",
+        "bytes": 288,
+        "content_sha256": "f51f0447e271d4cab699ee377a625c605dba17957a8bcc392ee63d9021f61167",
+        "verification": "retrieved bytes match GitHub blob identity"
+      },
+      {
+        "repo": "readersresource/ddhb",
+        "path": "LICENSE",
+        "blob_sha": "9fcb91952996afb488b48570d04567d314c2f299",
+        "url": "https://github.com/readersresource/ddhb/blob/main/LICENSE",
+        "bytes": 1072,
+        "content_sha256": "42b345aaa25fb2e02e0e9d103655dfa6318876d7fa5c475e06a85474e8c3770c",
+        "verification": "retrieved bytes match GitHub blob identity"
+      }
+    ],
+    "inspection_level": "documentation_and_selected_directory_metadata_only",
+    "external_code_executed": false,
+    "corpus_imported": false
+  },
+  {
+    "repository": "bdenckla/MAM-basics",
+    "url": "https://github.com/bdenckla/MAM-basics",
+    "checked_date": "2026-10-31",
+    "role": "Best new lead for Masoretic documentation and structured notes",
+    "observed_or_documented_features": "Current MAM pipeline: Hebrew Wikisource to parsed-plus JSON, simpler exports, Sefaria/OSIS and documented HTML. Twenty-four book JSON files were listed. Includes manuscript sigla, page-location data and release comparisons.",
+    "limits": "MAM-parsed and MAM-with-doc are now redirect repositories. The plain format is retired; plus is documented as unstable. Modern editorial notes do not equal a complete diplomatic Leningrad Masorah parva/magna edition. Some documentation cites sources not publicly available.",
+    "license_assessment": "GPL-3.0 code/prose; MAM text CC BY-SA 4.0; some original data CC0; other paths have separate or no reuse grants. DATA-LICENSES.md controls path-specific reuse.",
+    "BHH_recommendation": "Prioritize documented note structures, namespace-qualified sigla, facsimile page-location leads and release-diff conventions. Preserve the distinction between an editor report and manuscript ink.",
+    "priority": "high",
+    "evidence_files": [
+      {
+        "repo": "bdenckla/MAM-basics",
+        "path": "README.md",
+        "blob_sha": "51508058001c31a9f0e6f04d9e8999057835f74c",
+        "url": "https://github.com/bdenckla/MAM-basics/blob/main/README.md",
+        "bytes": 8020,
+        "content_sha256": "34739a0ee6bdebb2bfac29fcfca479b2a2015b60387475b9de361579309063f5",
+        "verification": "retrieved bytes match GitHub blob identity"
+      },
+      {
+        "repo": "bdenckla/MAM-basics",
+        "path": "MAM-with-doc/README.md",
+        "blob_sha": "f3ecad87d2a9bacdfcfc1db35238821d81f1f3ac",
+        "url": "https://github.com/bdenckla/MAM-basics/blob/main/MAM-with-doc/README.md",
+        "bytes": 594,
+        "content_sha256": "1090578da373c2b1eea802118cdedc45398cc8b81eea8662a17dac78cb12d876",
+        "verification": "retrieved bytes match GitHub blob identity"
+      },
+      {
+        "repo": "bdenckla/MAM-basics",
+        "path": "MAM-parsed/README.md",
+        "blob_sha": "ca3dd0c58ff3c878f5d34a7664718ad69cc443da",
+        "url": "https://github.com/bdenckla/MAM-basics/blob/main/MAM-parsed/README.md",
+        "bytes": 6598,
+        "content_sha256": "9360c9284b557d96a6fd19c5446b4cf7e1900202d38a19c6f018a9b95542e149",
+        "verification": "retrieved bytes match GitHub blob identity"
+      },
+      {
+        "repo": "bdenckla/MAM-basics",
+        "path": "DATA-LICENSES.md",
+        "blob_sha": "e5e5f226a675bd43cd077714e73cc63422245504",
+        "url": "https://github.com/bdenckla/MAM-basics/blob/main/DATA-LICENSES.md",
+        "bytes": 55764,
+        "content_sha256": "bc801b4d8ad88954d77002f7f3617e566b2f8eb7a0c38239eabd068fa2733795",
+        "verification": "retrieved bytes match GitHub blob identity"
+      },
+      {
+        "repo": "bdenckla/MAM-basics",
+        "path": "doc/sigil-decoding.md",
+        "blob_sha": "9ed4f0d18d245d1ff6b6a073fff4213f166570ad",
+        "url": "https://github.com/bdenckla/MAM-basics/blob/main/doc/sigil-decoding.md",
+        "bytes": 78434,
+        "content_sha256": "b39c208d7164a773fb820db744869b164ace83b1367c493424d22611227b5ee0",
+        "verification": "retrieved bytes match GitHub blob identity"
+      },
+      {
+        "repo": "bdenckla/MAM-basics",
+        "path": "MAM-parsed/plus/provenance.md",
+        "blob_sha": "2dacee343cf1671cf6295aaf632189041aac45de",
+        "url": "https://github.com/bdenckla/MAM-basics/blob/main/MAM-parsed/plus/provenance.md",
+        "bytes": 529,
+        "content_sha256": "6484915298561a495cca223a311c342cbcd509c474673a9e71cb84015dac2a2f",
+        "verification": "retrieved bytes match GitHub blob identity"
+      }
+    ],
+    "inspection_level": "documentation_and_selected_directory_metadata_only",
+    "external_code_executed": false,
+    "corpus_imported": false
+  },
+  {
+    "repository": "tigran123/tnk",
+    "url": "https://github.com/tigran123/tnk",
+    "checked_date": "2026-10-31",
+    "role": "Closest explicitly Massoretico-critical Hebrew edition source",
+    "observed_or_documented_features": "Ginsburg/Aivazian Hebrew edition inputs and LaTeX layout. Introduction describes marginal variants, separate ketiv/qere treatment, sevirin, Eastern/Western and Ben-Asher/Ben-Naphtali readings. Twenty-four book input files are listed.",
+    "limits": "Historical editorial program, not a freshly validated WLC/LXX/SP/DSS synthesis. Introductory assertions and manuscript dates require checking against editions and current catalogues.",
+    "license_assessment": "No explicit license file was seen in the inspected root. Public GitHub access alone does not establish reuse rights for the digital edition or added material.",
+    "BHH_recommendation": "Use the extracted 73 numbered manuscript descriptions and source-specific abbreviation/edition/version labels as bibliographic leads. Do not import its running text or apparatus automatically.",
+    "priority": "high",
+    "evidence_files": [
+      {
+        "repo": "tigran123/tnk",
+        "path": "README.md",
+        "blob_sha": "9e60a53e5acf6e20766992fe1cb004387cdacd66",
+        "url": "https://github.com/tigran123/tnk/blob/master/README.md",
+        "bytes": 99,
+        "content_sha256": "6738212a4e649c776ed511896498a5ddd7a400465a969a4645d39eb60666adc1",
+        "verification": "retrieved bytes match GitHub blob identity"
+      },
+      {
+        "repo": "tigran123/tnk",
+        "path": "intro.tex",
+        "blob_sha": "750f3e0ddce25c29ac6810cf850c7ff25fc0e0b3",
+        "url": "https://github.com/tigran123/tnk/blob/master/intro.tex",
+        "bytes": 4510,
+        "content_sha256": "502eae48d702982318ab05b745917c8b64ce920e887bcf7f305ab6ba129715cc",
+        "verification": "retrieved bytes match GitHub blob identity"
+      },
+      {
+        "repo": "tigran123/tnk",
+        "path": "tnk.tex",
+        "blob_sha": "8f889d580b48d406f5be1182e65c8d90a2b02ff6",
+        "url": "https://github.com/tigran123/tnk/blob/master/tnk.tex",
+        "bytes": 2148,
+        "content_sha256": "647e69d0b1408090946f6744966f0989e9539d838c024fba93cb317d2ebc3ee5",
+        "verification": "retrieved bytes match GitHub blob identity"
+      },
+      {
+        "repo": "tigran123/tnk",
+        "path": "inp/abbrev-full.inp",
+        "blob_sha": "895699da60004c40598bfde2f2e016fb5e07250d",
+        "url": "https://github.com/tigran123/tnk/blob/master/inp/abbrev-full.inp",
+        "bytes": 10740,
+        "content_sha256": "73184d576967344496b2413f3d8e078ede598831ec5ed64d4b06d61a2543c301",
+        "verification": "retrieved bytes match GitHub blob identity"
+      }
+    ],
+    "inspection_level": "documentation_and_selected_directory_metadata_only",
+    "external_code_executed": false,
+    "corpus_imported": false
+  },
+  {
+    "repository": "evenderekh/QDR",
+    "url": "https://github.com/evenderekh/QDR",
+    "checked_date": "2026-10-31",
+    "role": "DSS-focused reader and transcription adapter",
+    "observed_or_documented_features": "README documents fragment/line JSON, an extractor, a lexical builder and a static reader; it reports 266 biblical and 735 non-biblical source records.",
+    "limits": "Counts are project-reported records, not verified independent Qumran manuscript counts. Underlying ETCBC/Abegg data overlap BHH and THB; damage-mark rendering does not independently establish preserved ink.",
+    "license_assessment": "MIT platform; DSS CC BY-NC 4.0; lexical components have their own terms.",
+    "BHH_recommendation": "Study physical-locus display and damage-state presentation. Reuse primary sign-level evidence rather than counting derivative transcriptions as extra witnesses.",
+    "priority": "medium",
+    "evidence_files": [
+      {
+        "repo": "evenderekh/QDR",
+        "path": "README.md",
+        "blob_sha": "df5206dd6b7ba1a5874f3278ac0f758f221946b9",
+        "url": "https://github.com/evenderekh/QDR/blob/main/README.md",
+        "bytes": 4012,
+        "content_sha256": "15e0ada1ee12c23b2894b16e7540218ec9aa3c6e452fe40d77446914833899b5",
+        "verification": "retrieved bytes match GitHub blob identity"
+      }
+    ],
+    "inspection_level": "documentation_and_selected_directory_metadata_only",
+    "external_code_executed": false,
+    "corpus_imported": false
+  },
+  {
+    "repository": "rdtaylorjr/tehillim",
+    "url": "https://github.com/rdtaylorjr/tehillim",
+    "checked_date": "2026-10-31",
+    "role": "Closest scoped research comparison with explicit methodological limits",
+    "observed_or_documented_features": "Public entry point to linked Psalms projects, including a bounded 11Q5 collation and methods that distinguish legibility opportunities, variants and substantive variants.",
+    "limits": "README explicitly describes incomplete release provenance and limits of unit definitions and benchmarking. Numerical research claims were not independently rerun. Not a whole-Bible critical edition.",
+    "license_assessment": "README states MIT; source corpora, licensed annotations, commercial inputs and external model artifacts remain separately governed.",
+    "BHH_recommendation": "Adapt the explicit denominator and legibility rules for a future BHH Psalms study; preserve negative results and unresolved provenance instead of assuming a polished interface proves the result.",
+    "priority": "medium",
+    "evidence_files": [
+      {
+        "repo": "rdtaylorjr/tehillim",
+        "path": "README.md",
+        "blob_sha": "eb7e204cfa8689b35528bf6be09f18459ab56270",
+        "url": "https://github.com/rdtaylorjr/tehillim/blob/main/README.md",
+        "bytes": 20497,
+        "content_sha256": "b3e5e03b01f959b27cda4afd5e2c8865c0d463250b066dd39eb58af4c5c9b8de",
+        "verification": "retrieved bytes match GitHub blob identity"
+      }
+    ],
+    "inspection_level": "documentation_and_selected_directory_metadata_only",
+    "external_code_executed": false,
+    "corpus_imported": false
+  },
+  {
+    "repository": "STEPBible/STEPBible-Data",
+    "url": "https://github.com/STEPBible/STEPBible-Data",
+    "checked_date": "2026-10-31",
+    "role": "Useful lexical, morphology and versification data source",
+    "observed_or_documented_features": "TAHOT Hebrew data, TBESH/TBESG lexicons, morphology-code expansions and TVTMS versification documentation. Tab-separated UTF-8 data and explicit attribution/change-recording requirements.",
+    "limits": "README lists TAGOT and TOTMM under datasets still being completed/checked. TAHOT Hebrew representations of LXX additions are not automatically preserved Hebrew manuscript readings. Its normalization conventions require a separate adapter.",
+    "license_assessment": "Repository README declares CC BY 4.0 for its data. Check file-level attribution and provenance before reuse; no grant is inferred for uncopied proprietary source apparatuses.",
+    "BHH_recommendation": "Prioritize TVTMS verse mapping and morphology-code crosswalks. Treat Hebrew retroversions and composite additions as editorial data, separate from WLC manuscript transcription.",
+    "priority": "high",
+    "evidence_files": [
+      {
+        "repo": "STEPBible/STEPBible-Data",
+        "path": "README.md",
+        "blob_sha": "708f06253e0cbb64dcbc1bd1842715bf37ddb102",
+        "url": "https://github.com/STEPBible/STEPBible-Data/blob/master/README.md",
+        "bytes": 14495,
+        "content_sha256": "261d5157c0ffeadeedad3f734db945a4c3642e3e4ce5fa28002985b6c52437b1",
+        "verification": "retrieved bytes match GitHub blob identity"
+      }
+    ],
+    "inspection_level": "documentation_and_selected_directory_metadata_only",
+    "external_code_executed": false,
+    "corpus_imported": false
+  },
+  {
+    "repository": "DT-UCPH/sp",
+    "url": "https://github.com/DT-UCPH/sp",
+    "checked_date": "2026-10-31",
+    "role": "Primary Samaritan dataset already used by BHH",
+    "observed_or_documented_features": "Text-Fabric SP based on Chester Beatty Library 751 and Garizim 1; README identifies source manuscripts, verse-regrouping after Gen 30:36 and research publications.",
+    "limits": "Already a BHH primary dependency; derivatives do not add independent witnesses. Source annotations are described as work in progress.",
+    "license_assessment": "Primary README explicitly states CC BY-NC 4.0, DOI 10.5281/zenodo.7734632.",
+    "BHH_recommendation": "Keep the pinned primary source and restrictions; resolve derivative license discrepancies against the primary terms.",
+    "priority": "existing_primary",
+    "evidence_files": [
+      {
+        "repo": "DT-UCPH/sp",
+        "path": "README.md",
+        "blob_sha": "03ba25a7e0d58d5ed5d805be99306ed2e7a30e8c",
+        "url": "https://github.com/DT-UCPH/sp/blob/main/README.md",
+        "bytes": 5072,
+        "content_sha256": "95d1b9ebb934e3c187c4000e55d024370ee0f305964ca20c0375e6e2b8a9a190",
+        "verification": "retrieved bytes match GitHub blob identity"
+      }
+    ],
+    "inspection_level": "documentation_and_selected_directory_metadata_only",
+    "external_code_executed": false,
+    "corpus_imported": false
+  },
+  {
+    "repository": "ETCBC/dss",
+    "url": "https://github.com/ETCBC/dss",
+    "checked_date": "2026-10-31",
+    "role": "Primary DSS dataset already used by BHH",
+    "observed_or_documented_features": "Annotated biblical and non-biblical DSS transcriptions with Abegg provenance, Text-Fabric features and project documentation.",
+    "limits": "Already a BHH primary dependency; a reader or repackaging is not an additional ancient witness. Preserve restoration and uncertainty features.",
+    "license_assessment": "Primary README states CC BY-NC 4.0.",
+    "BHH_recommendation": "Continue using primary feature data and source-specific physical locators; compare transformations and version labels when reviewing downstream projects.",
+    "priority": "existing_primary",
+    "evidence_files": [
+      {
+        "repo": "ETCBC/dss",
+        "path": "README.md",
+        "blob_sha": "e50e2c1f28ccbb35cf90c6f70ff8f7062151a9a0",
+        "url": "https://github.com/ETCBC/dss/blob/master/README.md",
+        "bytes": 4002,
+        "content_sha256": "2eb6d6e315aeb5b74f830030f54a090fa607f2338097f66dbdf6cefe0d9715ca",
+        "verification": "retrieved bytes match GitHub blob identity"
+      }
+    ],
+    "inspection_level": "documentation_and_selected_directory_metadata_only",
+    "external_code_executed": false,
+    "corpus_imported": false
+  }
+]

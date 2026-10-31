@@ -132,3 +132,5 @@ Recordings are streamed from Bible.is and are not bundled in the ZIP. Text and a
 ## Source rights
 
 Edition-specific copyright and attribution notices are in LICENSES.md and in the reader. The reader code MIT license does not replace the scripture licenses.
+
+Latest text addition: [four English comparison editions in 1.22](releases/v1.22/related-projects.md), with source rights and measured coverage.

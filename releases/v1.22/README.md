@@ -11,3 +11,7 @@ Import shows added/duplicate/final counts before saving. Confirm explicitly to m
 Word study now has Previous verse / Next verse buttons that follow the pinned source book's numeric verse order, crossing chapter boundaries within that book. Buttons stop at the source book edges. Moving clears the in-verse filter and loads the next source verse; missing offline packs show an error rather than displaying the previous verse's words. Source numbering may differ from Text 1, and these controls do not change the reading translation/reference. No automatic next-book or mass source download is introduced.
 
 The 1.21 library still has 60 entries and eight in-app sources; the public Bible catalog remains 62 editions. No new corpus or publisher-protected content is silently installed. Full NET notes/modern commentary texts remain provider-hosted. Hebrew/Greek source credits and CC BY 4.0 terms are retained in source readers and word backups. Physical iPhone/Safari animation quality and full linguistic review remain open.
+
+## Related English texts — 31 October 2026
+
+Added OET Literal/Readers drafts, POB canonical AI-assisted draft and the 44-book OEB US published release. Catalog now contains 66 editions. [Coverage, provenance and permission limits](related-projects.md). Use OET’s pair together. Existing text IDs, storage keys and earlier releases are retained.

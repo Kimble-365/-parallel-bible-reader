@@ -3,7 +3,7 @@ from pathlib import Path
 from http.server import ThreadingHTTPServer, SimpleHTTPRequestHandler
 from threading import Thread
 from playwright.sync_api import sync_playwright
-import itertools
+import itertools, sys
 ROOT = Path(__file__).resolve().parents[1]
 
 
@@ -44,7 +44,7 @@ try:
                 slots = page.locator('#verses [data-slot]').evaluate_all('(es)=>[...new Set(es.map(e=>Number(e.dataset.slot)))]')
                 assert sorted(slots) == [i + 1 for i, enabled in enumerate(mask) if enabled], (mask, slots)
             else:
-                page.wait_for_function('document.querySelector("#status").textContent.includes("Choose a translation")')
+                page.wait_for_function('document.querySelector("#heading").textContent.includes("Choose a translation")')
                 assert page.locator('#verses [data-edition]').count() == 0
         page.goto(base + '?edition=syc-dsc-nt&compare1=&compare2=&compare3=&text=original#JHN.1.1')
         page.wait_for_selector('[data-edition="syc-dsc-nt"] .original')
@@ -73,4 +73,10 @@ try:
         browser.close()
         print('PASS: 16 slot combinations, RTL, mobile, shared lexical lookup, duplicate-label warning, gzip fallback and saved NT offline Revelation; no page errors')
 finally:
+    if sys.exc_info()[0]:
+        print('Captured page errors:', errors, flush=True)
+        try:
+            print('Current heading/status:', page.locator('#heading').inner_text(), page.locator('#status').inner_text(), flush=True)
+        except Exception:
+            pass
     server.shutdown()

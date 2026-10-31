@@ -1,0 +1,1 @@
+window.NTGLStudyPack={"bytes": 2429224, "sha256": "0cc9f276de037b8ca5623de20155256532a51095a4778b6325cf86079d04e7d0", "packed_bytes": 784604, "packed_sha256": "90bbb06ebcbbdcac7c267a7f9f3bbb9d96a7f149d1ac88a5a943c6bc9acd1dcb", "lexicon_entries": 6153, "morphgnt_pilot_words": 61};

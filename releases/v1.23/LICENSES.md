@@ -893,6 +893,17 @@ TWV, AI Scribes and Swarm full texts are not distributed; see related-projects.m
 
 
 
+## Novum Testamentum Graece Aboensis — 31 October 2026
+
+Added five complete 27-book digital Greek texts: Tischendorf 8 (version 2.8 printed-form/kethiv), Nestle 1904 digital base text, official SBLGNT v1.2, unaccented Westcott–Hort, and the unaccented OpenGNT Koine module. Sinaiticus original and ca-corrected views cover John 1:1–5 only. Matching source labels are not verified cross-edition alignment.
+
+Tischendorf, Nestle base text and WH components declare public domain; SBLGNT is CC BY 4.0 (Society of Biblical Literature / Logos Bible Software, edited by Michael W. Holmes); OpenGNT main text is CC BY-SA 4.0 (Eliran Wong); Sinaiticus is CC BY-NC-SA 3.0 (Codex Sinaiticus Project / ITSEE). These source components retain their terms and are not relicensed under the app software license.
+
+Study library → NTGL opens the complete 6,153-entry Abbott–Smith TEI-derived historical lexicon, declared public domain by its source project. GreekResources crosswalks are CC BY 4.0, credited to Open Scriptures Septuagint Project, and retain the upstream mismatch warning. The 61-word MorphGNT John sample uses CC BY-SA 3.0 annotation, credited to James Tauber/MorphGNT; it is a separately versioned source.
+
+Edition revisions, source files and measured coverage are in `sources/ntgl-import.json`; source originals are stored once, compressed, under TheWay/NTGL/sources/reader-corpora. Mark’s unnumbered Nestle shorter-ending appendix is retained in `sources/ntgl-paratext.json`, not merged into Mark 16:20. The digital Tischendorf module has no printed apparatus.
+
+
 ## Syriac additions in 1.23
 
 ETCBC Peshitta OT and Syriac Corpus data: CC BY-NC 4.0, noncommercial only. DSC TEI: CC BY 4.0; George A. Kiraz and James E. Walters, with item-specific credits. Reader MIT code does not replace these terms. See syriac-sources.html and sources/dsc-items.json; original ETCBC notices are retained under sources/.

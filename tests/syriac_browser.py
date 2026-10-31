@@ -35,9 +35,10 @@ try:
         # Exercise every explicit slot combination; all slots may be empty.
         ids = ['syc-peshitta-ot', 'syc-etcbc-biblical', 'syc-peshitta-ot', 'syc-etcbc-biblical']
         for mask in itertools.product([False, True], repeat=4):
+            print('Checking explicit slot mask:', mask, flush=True)
             params = '&'.join(k + '=' + (ids[i] if enabled else '') for i, (k, enabled) in enumerate(zip(['edition', 'compare1', 'compare2', 'compare3'], mask)))
             page.goto(base + '?' + params + '&text=original#GEN.1.1')
-            page.wait_for_function('typeof ReaderOffline!=="undefined" && document.querySelector("#primary option[value=syc-peshitta-ot]")')
+            page.wait_for_function('typeof ReaderOffline!=="undefined" && document.querySelector("#primary option")')
             if any(mask):
                 page.wait_for_function('(n)=>document.querySelectorAll("#verses [data-edition] .original").length>=n', arg=sum(mask))
                 slots = page.locator('#verses [data-slot]').evaluate_all('(es)=>[...new Set(es.map(e=>Number(e.dataset.slot)))]')

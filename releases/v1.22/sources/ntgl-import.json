@@ -1,0 +1,77 @@
+{
+  "date": "2026-10-31",
+  "editions": [
+    {
+      "id": "grc-tischendorf8",
+      "label": "Greek — Tischendorf 8 (printed-form digital text)",
+      "books": 27,
+      "verses": 7939,
+      "source": "https://github.com/morphgnt/tischendorf-data/tree/795f2f4f9fe7cb98bf8736b0c5cb59c43aa9c32e",
+      "license": "Public domain",
+      "method": "Version 2.8 Unicode kethiv column; source punctuation and reference labels retained. Qere and morphology remain in compressed originals. Printed apparatus is not in this dataset."
+    },
+    {
+      "id": "grc-nestle1904",
+      "label": "Greek — Nestle 1904 digital base text",
+      "books": 27,
+      "verses": 7943,
+      "source": "https://github.com/biblicalhumanities/Nestle1904/tree/713f28a3b7d4d66132f5aa809fa223fe79762e5d",
+      "license": "Public domain",
+      "method": "Verse text extracted from the dos Santos XHTML component; punctuation retained, markup removed. Historical printing identity is not newly verified by this import."
+    },
+    {
+      "id": "grc-sblgnt",
+      "label": "Greek — SBLGNT (official text, v1.2)",
+      "books": 27,
+      "verses": 7939,
+      "source": "https://github.com/Faithlife/SBLGNT/tree/d7f35adca9ec410e1d1499c63b4dd989d76c8d4d",
+      "license": "CC BY 4.0",
+      "method": "Official verse text, including its textual marks, preserved. This is an edited comparison text, not an independent manuscript witness."
+    },
+    {
+      "id": "grc-westcott-hort",
+      "label": "Greek — Westcott–Hort (unaccented digital text)",
+      "books": 27,
+      "verses": 7941,
+      "source": "https://github.com/byztxt/greektext-westcott-hort/tree/91473892d7f36f1227e5c24f8d994d1da40311ad",
+      "license": "Public domain",
+      "method": "Mechanical ASCII-to-Greek alphabet conversion from the unaccented source; no accents, breathings or lost punctuation reconstructed. Source ASCII retained in compressed originals."
+    },
+    {
+      "id": "grc-opengnt-koine",
+      "label": "Greek — OpenGNT (unaccented Koine module)",
+      "books": 27,
+      "verses": 7941,
+      "source": "https://github.com/eliranwong/OpenGNT/tree/0029589cccd50bd48b1941aa041a956de6c29ac4",
+      "license": "CC BY-SA 4.0",
+      "method": "OGNT_KoineGreek module: original lunate sigma and unaccented text retained, font markup removed. Upstream NA-equivalence claim is not independent verification and does not include the NA apparatus."
+    },
+    {
+      "id": "grc-sinaiticus-original-pilot",
+      "label": "Greek — Sinaiticus original hand (John 1:1–5 sample)",
+      "books": 1,
+      "verses": 5,
+      "source": "https://github.com/itsee-birmingham/codex-sinaiticus/tree/af1633b5102cbe6200e79053cc618ac447e1bb16",
+      "license": "CC BY-NC-SA 3.0",
+      "method": "Normalized display derived from identified TEI words; source abbreviations/expansions and corrections are retained in NTGL originals. No image verification. Two views are one physical witness."
+    },
+    {
+      "id": "grc-sinaiticus-ca-pilot",
+      "label": "Greek — Sinaiticus ca-corrected view (John 1:1–5 sample)",
+      "books": 1,
+      "verses": 5,
+      "source": "https://github.com/itsee-birmingham/codex-sinaiticus/tree/af1633b5102cbe6200e79053cc618ac447e1bb16",
+      "license": "CC BY-NC-SA 3.0",
+      "method": "Normalized display derived from identified TEI words; source abbreviations/expansions and corrections are retained in NTGL originals. No image verification. Two views are one physical witness."
+    }
+  ],
+  "source_file_count": 108,
+  "packed_bytes": 1883840,
+  "limits": [
+    "Imported editions are comparison sources, not NTGL adopted readings",
+    "Tischendorf printed apparatus is NOT supplied by the 2.8 dataset",
+    "Sinaiticus is a five-verse sample only",
+    "Matching reference labels do not prove cross-edition verse equivalence"
+  ],
+  "project_name": "Novum Testamentum Graece Aboensis"
+}

@@ -17,6 +17,7 @@ try:
   # Exact open XML fixtures also exercise parser behavior without invented evidence.
   for file,method,book in [('sbl-phm.xml','sbl','PHM'),('oshb-ruth.xml','oshb','RUT')]:
    raw=(ROOT/'tests/fixtures/apparatus123'/file).read_text();pack=page.evaluate('([text,method,book])=>ReaderApparatus[method](text,book)',[raw,method,book]);assert pack['units'];assert all(u['reference'].startswith(book+' ') for u in pack['units'])
+  assert page.evaluate('ReaderApparatus.sbl("<book><verse>John 7:53-8:11</verse><note>SYNTHETIC RANGE TEST</note></book>","JHN").units[0].reference')=='JHN 7:53-8:11'
   assert page.evaluate('(raw)=>ReaderApparatus.oshb(raw,"RUT").units.some(x=>x.reference==="RUT 1:8"&&x.lemma==="יעשה")',(ROOT/'tests/fixtures/apparatus123/oshb-ruth.xml').read_text())
   def open_apparatus():
    page.click('#menu-study');page.click('#menu-apparatus');page.wait_for_function('!document.querySelector("#apparatus-family").disabled')

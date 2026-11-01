@@ -1,6 +1,6 @@
 # Reader 1.23 — BHH texts and manuscript research
 
-Adds three selectable text editions to the 66 inherited editions (69 editions in total, including the concurrent English comparison import): Samaritan Pentateuch (5 books, 5,841 records); Clementine Vulgate OT through THB (39 books, 23,480 records); MAM-simple Hebrew (39 books, 23,202 records). Source-local numbering, spelling and per-edition rights remain explicit. Matching numbers do not establish a critical verse alignment. No approved reconstructed BHH Bible is claimed.
+Adds three selectable text editions to the 77 inherited editions (80 editions in total, including concurrent English, Greek and LXXL imports): Samaritan Pentateuch (5 books, 5,841 records); Clementine Vulgate OT through THB (39 books, 23,480 records); MAM-simple Hebrew (39 books, 23,202 records). Source-local numbering, spelling and per-edition rights remain explicit. Matching numbers do not establish a critical verse alignment. No approved reconstructed BHH Bible is claimed.
 
 [BHH source library](bhh.html) opens the full local ETCBC/DSS index: 500,995 source units under 997 source labels, with fragment/line locators and sign-level reconstruction, uncertainty, correction and removal annotations. Labels include composite and non-Qumran material. All units remain separate; this is not a synthetic DSS Bible. Orange flags reconstructed material; exact annotation arrays remain visible. The view includes paged filtering, source downloads and independent verified offline saving.
 

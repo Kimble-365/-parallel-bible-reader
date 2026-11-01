@@ -43,4 +43,4 @@ import re
 sw=(O/'sw.js').read_text();assert "const readerRoutes=new Set(['./','index.html'" in sw;assets=re.search(r'const ASSETS=(\[.*?\]);',sw)[1]
 for a in json.loads(assets.replace("'",'"')):
  p=(O/a).resolve();assert p.exists(),p
-print('PASS: 69 editions; all new text/source/DSS packed and expanded checksums; 52,523 verse records; 500,995 unique source units; 997 labels; full metadata/search coverage; four decisive damage fixtures; closed MAM roles; nine project entries; all shell assets exist')
+print('PASS: 80 editions; all new text/source/DSS packed and expanded checksums; 52,523 verse records; 500,995 unique source units; 997 labels; full metadata/search coverage; four decisive damage fixtures; closed MAM roles; nine project entries; all shell assets exist')

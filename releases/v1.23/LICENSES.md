@@ -885,6 +885,29 @@ Generated from the unchanged Public Domain Bungo/Taisho source with PyKakasi (GP
 
 1.21 optional study datasets: STEPBible TAGNT/TAHOT via GabeBrPierce (CC BY 4.0), NEUU Bible Dictionary Dataset (CC BY 4.0; historical CCEL dictionaries), historical Henry/Gill/JFB/Wesley text via OpenChristianData (per-file PD/CC0 notices; metadata/provenance retained with noncommercial repository conditions), and Henry Concise Markdown by lyteword (CC0-1.0). See README.md and ../../docs/research/study-apps-and-rights-121.md for pinned commits, coverage and attribution. Only indexes/configuration are bundled; remote text packs are requested and optionally saved by the user. NET translator notes and modern commercial study-Bible/commentary editions remain external.
 
+## Related English comparison texts — 31 October 2026
+
+OET Literal and Readers versions: © OET contributors, CC BY-SA 4.0; intended for paired use. POB: © 2026 Cartha Inc. and contributors, CC BY 4.0, canonical translation only. OEB US published release: CC0. Reader conversion omits display notes/markup; source numbering and source translation notes are retained in compressed originals. Exact pinned commits, per-file hashes and raw paths: ../v1.22/sources/related-import.json. Changes: verse-display extraction and deterministic gzip packing, not source endorsement. Original projects retain their names and trademarks.
+
+TWV, AI Scribes and Swarm full texts are not distributed; see ../v1.22/related-projects.md for rights limits. Greek Room is a checker, not an edition. Existing WEB is reused instead of duplicating Open Bibles data.
+
+
+
+## Novum Testamentum Graece Aboensis — 31 October 2026
+
+Added five complete 27-book digital Greek texts: Tischendorf 8 (version 2.8 printed-form/kethiv), Nestle 1904 digital base text, official SBLGNT v1.2, unaccented Westcott–Hort, and the unaccented OpenGNT Koine module. Sinaiticus original and ca-corrected views cover John 1:1–5 only. Matching source labels are not verified cross-edition alignment.
+
+Tischendorf, Nestle base text and WH components declare public domain; SBLGNT is CC BY 4.0 (Society of Biblical Literature / Logos Bible Software, edited by Michael W. Holmes); OpenGNT main text is CC BY-SA 4.0 (Eliran Wong); Sinaiticus is CC BY-NC-SA 3.0 (Codex Sinaiticus Project / ITSEE). These source components retain their terms and are not relicensed under the app software license.
+
+Study library → NTGL opens the complete 6,153-entry Abbott–Smith TEI-derived historical lexicon, declared public domain by its source project. GreekResources crosswalks are CC BY 4.0, credited to Open Scriptures Septuagint Project, and retain the upstream mismatch warning. The 61-word MorphGNT John sample uses CC BY-SA 3.0 annotation, credited to James Tauber/MorphGNT; it is a separately versioned source.
+
+Edition revisions, source files and measured coverage are in `../v1.22/sources/ntgl-import.json`; source originals are stored once, compressed, under TheWay/NTGL/sources/reader-corpora. Mark’s unnumbered Nestle shorter-ending appendix is retained in `../v1.22/sources/ntgl-paratext.json`, not merged into Mark 16:20. The digital Tischendorf module has no printed apparatus.
+
+
+## LXXL Genesis research publication
+
+Four Genesis-only editions, source numbering retained. See [full credits and editorial limits](lxxl/index.html) and [machine-readable provenance](lxxl/provenance.json). Brenton-labelled Greek is provisional, not a new critical reconstruction. Samaritan Pentateuch and Peshitta text data retain CC BY-NC 4.0; Onkelos source declares Public Domain. The [digital Greek MIT notice](lxxl/BRENTON-LICENSE.txt) is retained. App licensing does not override source-data conditions.
+
 ## BHH additions (1.23)
 
 The reader code remains MIT; each source below keeps its own rights. These additions do not relicense earlier editions.
@@ -897,9 +920,3 @@ The reader code remains MIT; each source below keeps its own rights. These addit
 * **THB Hebrew lexicon**: enhanced Brown–Driver–Briggs via unfoldingWord / OpenScriptures, public-domain underlying BDB plus **CC BY 4.0** enhancements; Michael Muzar's THB data presentation. **THB Greek lexicon**: Liddell–Scott–Jones via the Perseus Digital Library, **CC BY-SA 4.0**. **THB versification**: Copenhagen Alliance source mapping, **CC BY-SA 4.0**. These source files are shown as research data with their source fields intact; mapped equivalence and generated gloss/morphology claims are unreviewed. https://github.com/evenderekh/THB . No GPL LXX code or dataset has been copied; the existing separately credited Greek editions remain in use.
 
 Source hashes, verified Git blob IDs and primary pinned manifests: bhh-sources/provenance.json. The MIT code license grants no rights to third-party text beyond the terms above. The Ginsburg/Aivazian digital text is linked, not redistributed, because a grant for that digital edition has not been verified. DDHB and Tehillim are represented as research sources, not invented full-text editions.
-
-## Related English comparison texts — 31 October 2026
-
-OET Literal and Readers versions: © OET contributors, CC BY-SA 4.0; intended for paired use. POB: © 2026 Cartha Inc. and contributors, CC BY 4.0, canonical translation only. OEB US published release: CC0. Reader conversion omits display notes/markup; source numbering and source translation notes are retained in compressed originals. Exact pinned commits, per-file hashes and raw paths: ../v1.22/sources/related-import.json. Changes: verse-display extraction and deterministic gzip packing, not source endorsement. Original projects retain their names and trademarks.
-
-TWV, AI Scribes and Swarm full texts are not distributed; see ../v1.22/related-projects.md for rights limits. Greek Room is a checker, not an edition. Existing WEB is reused instead of duplicating Open Bibles data.

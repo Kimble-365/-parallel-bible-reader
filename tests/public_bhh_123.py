@@ -2,9 +2,10 @@
 from pathlib import Path
 from concurrent.futures import ThreadPoolExecutor
 import urllib.request,hashlib,time,json
+from urllib.parse import quote
 R=Path(__file__).resolve().parents[1];O=R/'releases/v1.23';base='https://kimble-365.github.io/-parallel-bible-reader/'
 def fetch(p):
- req=urllib.request.Request(base+p+'?bhhverify=1.23',headers={'Cache-Control':'no-cache','User-Agent':'BHH-source-integrity-check'})
+ req=urllib.request.Request(base+quote(p,safe='/')+'?bhhverify=1.23',headers={'Cache-Control':'no-cache','User-Agent':'BHH-source-integrity-check'})
  with urllib.request.urlopen(req,timeout=25) as r:return r.read()
 expected=(R/'index.html').read_bytes();deadline=time.monotonic()+240
 while True:

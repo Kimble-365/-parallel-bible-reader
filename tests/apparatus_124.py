@@ -1,3 +1,4 @@
+import os
 """Real apparatus sources, TEI/JSONL imports, private persistence, offline and mobile."""
 from pathlib import Path
 from http.server import ThreadingHTTPServer,SimpleHTTPRequestHandler

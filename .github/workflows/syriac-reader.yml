@@ -1,0 +1,51 @@
+name: Syriac reader 1.25 checks
+on:
+  push:
+    branches: ['preview/syriac-1.23']
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Source, loader and format verification
+        run: |
+          python tests/syriac_import.py
+          python tests/syriac_sources.py
+          node tests/syriac_loader.cjs
+          node --check releases/v1.25/syriac-study.js
+          node --check releases/v1.25/sw.js
+      - name: Install browser
+        run: |
+          python -m pip install playwright
+          if [ -x /usr/bin/google-chrome ]; then
+            sudo ln -sf /usr/bin/google-chrome /usr/bin/chromium
+          else
+            python -m playwright install --with-deps chromium
+            browser_path=$(python -c 'from playwright.sync_api import sync_playwright; p=sync_playwright().start(); print(p.chromium.executable_path); p.stop()')
+            sudo ln -sf "$browser_path" /usr/bin/chromium
+          fi
+      - name: Real Syriac browser and offline flow
+        run: python tests/syriac_browser.py
+      - name: Existing alignment, gzip, ruby, notes and offline regression
+        env:
+          READER_VERSION: '1.25'
+        run: python tests/reader_119.py
+
+      - name: Preserve current apparatus, BHH, study tools and promoted root
+        env:
+          READER_VERSION: '1.25'
+        run: |
+          node tests/apparatus_124.cjs
+          python tests/apparatus_124.py
+          python tests/bhh_browser_123.py
+          python tests/root_route.py

@@ -1,7 +1,7 @@
 """Byte-for-byte verification of the published root and every BHH release file."""
 from pathlib import Path
 from concurrent.futures import ThreadPoolExecutor
-import urllib.request,hashlib,time,json
+import urllib.request,hashlib,time,json,tempfile
 from urllib.parse import quote
 R=Path(__file__).resolve().parents[1];O=R/'releases/v1.23';base='https://kimble-365.github.io/-parallel-bible-reader/'
 def fetch(p):
@@ -23,4 +23,4 @@ def check(p):
    if attempt==2:raise
 with ThreadPoolExecutor(max_workers=12) as pool:sizes=list(pool.map(check,paths))
 result=dict(status='passed',reader='1.23',files=len(paths),bytes=sum(sizes),root=base,checked_epoch=int(time.time()),scope='Public root, history, legacy and every 1.23 release file byte-identical to local artifacts')
-Path('/workspace/bhh-public-verification.json').write_text(json.dumps(result,indent=2));print(json.dumps(result))
+(Path(tempfile.gettempdir())/'bhh-public-verification.json').write_text(json.dumps(result,indent=2));print(json.dumps(result))

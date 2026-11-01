@@ -57,6 +57,7 @@ def run():
    assert not errors,errors
    ctx.close()
   print('PASS: all 16 slot combinations, including empty slot 1 and all empty; no data request when empty')
+  if os.environ.get('READER_SLOTS_ONLY')=='1':browser.close();return
   # Same edition in distinct slots must not collapse stable numbering.
   ctx,page,errors,requests=fixture(browser);open_page(page,['','',IDS[0],IDS[0]])
   assert page.locator('#v1 .translation').evaluate_all('(xs)=>xs.map(x=>x.dataset.slot)')==['3','4'];ctx.close()

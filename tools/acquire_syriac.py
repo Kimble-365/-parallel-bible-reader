@@ -6,7 +6,7 @@ ROOT = Path(__file__).resolve().parents[1]
 
 
 def acquire(destination):
-    lock = json.loads((ROOT / 'releases/v1.23/sources/syriac-lock.json').read_text())
+    lock = json.loads((ROOT / 'releases/v1.25/sources/syriac-lock.json').read_text())
     downloaded = 0
     for item in lock['files']:
         path = destination / item['repo'] / item['path']

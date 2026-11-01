@@ -1,0 +1,275 @@
+{
+  "project": "Septuaginta Leino LXXL",
+  "version": "0.3",
+  "source_project_commit": "be981a1708ec1479b814e5ddd76018cef2d3fe99",
+  "independent_manuscript_collations": 0,
+  "philological_validation": false,
+  "sources": [
+    {
+      "witness": "BRENTON-GEN",
+      "edition": "grc-lxxl-genesis",
+      "url": "https://github.com/thiagobodruk/bible/tree/98a52a5439c1cfe566676e8508795834424a5f3a",
+      "credit": "Brenton-labelled digital baseline; print ancestry unverified. Genesis 31 and 35 have unresolved numbering. No new Old Greek reconstruction.",
+      "license": "Public Domain text; MIT digital-source notice",
+      "verse_records": 1531
+    },
+    {
+      "witness": "SP-GEN",
+      "edition": "hbo-lxxl-samaritan-genesis",
+      "url": "https://github.com/DT-UCPH/sp/tree/bf87b0d73201751617b8ee843725e1cef830ae5b",
+      "credit": "Christian Canu Højgaard, Martijn Naaijer and Stefan Schorch, CACCHT Samaritan Pentateuch 7.2.12. CB 751-based sign transcription rendered in Hebrew script; Gen 30:36 additions grouped under 36.",
+      "license": "CC BY-NC 4.0",
+      "verse_records": 1533
+    },
+    {
+      "witness": "PESHITTA-GEN",
+      "edition": "syc-lxxl-peshitta-genesis",
+      "url": "https://github.com/ETCBC/peshitta/tree/9850f5addade26f681334aa475570bef9b0b440a",
+      "credit": "ETCBC Electronic Peshitta Text, plain/0.2; Leiden Peshitta Institute electronic main text. Printed apparatus excluded; no independent manuscript-image collation.",
+      "license": "CC BY-NC 4.0",
+      "verse_records": 1533
+    },
+    {
+      "witness": "ONKELOS-GEN",
+      "edition": "arc-lxxl-onkelos-genesis",
+      "url": "https://storage.googleapis.com/sefaria-export/json/Tanakh/Targum/Onkelos/Torah/Onkelos%20Genesis/Hebrew/Onkelos%20Genesis.json",
+      "credit": "Onkelos Genesis, named Torat Emet version via Sefaria export; source license field Public Domain. Later translation tradition, not direct Greek manuscript evidence.",
+      "license": "Public Domain",
+      "verse_records": 1533
+    }
+  ],
+  "variants": [
+    {
+      "id": "LXXL-GR-001",
+      "address": "Gen.1.3",
+      "kind": "greek_apparatus_report",
+      "lemma": "φῶς (first occurrence)",
+      "readings": [
+        {
+          "reading": "τὸ φῶς",
+          "source_siglum": "p",
+          "evidence": "Cambridge 1906 apparatus, visually inspected; manuscript not independently collated"
+        }
+      ],
+      "source_id": "CAM-IMAGE-16",
+      "source_locus": "Genesis p. 1, second apparatus, verse 3",
+      "commentary": "The apparatus prints φως 1°] pr το p. The article is an addition before the first occurrence of φῶς, not before its second occurrence. It may reflect grammatical smoothing or local textual history; this explanation remains a hypothesis. Hebrew אור lacks an article here, but that alone cannot decide the Greek reading. No dating or genealogical priority is inferred from the local siglum p.",
+      "status": "reported_not_adopted",
+      "decision": "Retain baseline provisionally; no claim of earliest recoverable reading",
+      "siglum_mapping": "Cambridge-local siglum; expansion and Göttingen concordance pending"
+    },
+    {
+      "id": "LXXL-GR-002",
+      "address": "Gen.1.3",
+      "kind": "greek_apparatus_report",
+      "lemma": "καὶ ἐγένετο φῶς",
+      "readings": [
+        {
+          "reading": "om.",
+          "source_siglum": "q*",
+          "evidence": "Cambridge 1906 apparatus, visually inspected; manuscript not independently collated"
+        }
+      ],
+      "source_id": "CAM-IMAGE-16",
+      "source_locus": "Genesis p. 1, second apparatus, verse 3",
+      "commentary": "The apparatus reports om και εγενετο φως q*. The star is retained as printed and is not silently converted into an identified hand. Omission could arise through similar surrounding phrases or a different textual development. The Hebrew and Onkelos result clauses provide comparative evidence, not sufficient proof of a Greek copying mechanism. The baseline is retained provisionally.",
+      "status": "reported_not_adopted",
+      "decision": "Retain baseline provisionally; no claim of earliest recoverable reading",
+      "siglum_mapping": "Cambridge-local siglum; expansion and Göttingen concordance pending"
+    },
+    {
+      "id": "LXXL-GR-003",
+      "address": "Gen.1.4",
+      "kind": "greek_apparatus_report",
+      "lemma": "ὁ θεός (first occurrence)",
+      "readings": [
+        {
+          "reading": "om.",
+          "source_siglum": "f",
+          "evidence": "Cambridge 1906 apparatus, visually inspected; manuscript not independently collated"
+        }
+      ],
+      "source_id": "CAM-IMAGE-16",
+      "source_locus": "Genesis p. 1, second apparatus, verse 4",
+      "commentary": "The apparatus reports om ο θεος 1° f. Only the subject of the first clause is affected; the later subject with διεχώρισεν is a different locus. An implicit subject is idiomatic Greek, so omission cannot be rejected solely as ungrammatical. The Hebrew explicit subject is relevant to translation technique but does not establish the original Greek reading.",
+      "status": "reported_not_adopted",
+      "decision": "Retain baseline provisionally; no claim of earliest recoverable reading",
+      "siglum_mapping": "Cambridge-local siglum; expansion and Göttingen concordance pending"
+    },
+    {
+      "id": "LXXL-GR-004",
+      "address": "Gen.1.4",
+      "kind": "greek_apparatus_report",
+      "lemma": "τὸ φῶς",
+      "readings": [
+        {
+          "reading": "om.",
+          "source_siglum": "b",
+          "evidence": "Cambridge 1906 apparatus, visually inspected; manuscript not independently collated"
+        }
+      ],
+      "source_id": "CAM-IMAGE-16",
+      "source_locus": "Genesis p. 1, second apparatus, verse 4",
+      "commentary": "The apparatus reports om το φως b Eus. Only the manuscript siglum b is registered as the reading witness in this unit; Eus is preserved in this comment as an edition-reported citation lead requiring work-level identification. Citation shortening could account for patristic omission independently of manuscript omission; their agreement must not be counted as two independent witnesses without analysis.",
+      "status": "reported_not_adopted",
+      "decision": "Retain baseline provisionally; no claim of earliest recoverable reading",
+      "siglum_mapping": "Cambridge-local siglum; expansion and Göttingen concordance pending"
+    },
+    {
+      "id": "LXXL-GR-005",
+      "address": "Gen.1.2",
+      "kind": "greek_apparatus_report",
+      "lemma": "ἐπεφέρετο",
+      "readings": [
+        {
+          "reading": "επεφερετω",
+          "source_siglum": "E",
+          "evidence": "Cambridge 1906 first apparatus, visually inspected; terminal omega as printed"
+        }
+      ],
+      "source_id": "CAM-IMAGE-16",
+      "source_locus": "Genesis p. 1, first apparatus, verse 2",
+      "commentary": "The first apparatus prints επεφερετω E against the reading text ἐπεφέρετο. The alternative is retained unaccented exactly as the apparatus gives it; no accentuation or morphological reinterpretation is silently supplied. The final-omega spelling belongs in an orthographic layer, not among automatically adopted substantive changes. The edition introduction identifies E as Codex Bodleianus, but a full witness/hand concordance and direct manuscript check remain outstanding. The baseline omicron spelling is retained provisionally. An initially considered U₂ entry is excluded: the special fragment/translation material requires separate identification before it can be treated as an ordinary LXX manuscript omission.",
+      "status": "reported_not_adopted",
+      "decision": "Retain baseline provisionally; no claim of earliest recoverable reading",
+      "siglum_mapping": "Cambridge-local siglum; expansion and Göttingen concordance pending"
+    },
+    {
+      "id": "LXXL-VERS-001",
+      "address": "Gen.2.2",
+      "kind": "versional_divergence",
+      "lemma": "ἕκτῃ versus השביעי",
+      "readings": [
+        {
+          "reading": "Καὶ συνετέλεσεν ὁ Θεὸς ἐν τῇ ἡμέρᾳ τῇ ἕκτῃ τὰ ἔργα αὐτοῦ, ἃ ἐποίησε· καὶ κατέπαυσε τῇ ἡμέρᾳ τῇ ἑβδόμῃ ἀπὸ πάντων τῶν ἔργων αὐτοῦ, ὧν ἐποίησε.",
+          "source_id": "BRENTON-GEN",
+          "evidence": "Named digital main text inspected; original manuscript and printed apparatus not independently collated"
+        },
+        {
+          "reading": "וַיְכַ֤ל אֱלֹהִים֙ בַּיּ֣וֹם הַשְּׁבִיעִ֔י מְלַאכְתּ֖וֹ אֲשֶׁ֣ר עָשָׂ֑ה וַיִּשְׁבֹּת֙ בַּיּ֣וֹם הַשְּׁבִיעִ֔י מִכָּל מְלַאכְתּ֖וֹ אֲשֶׁ֥ר עָשָֽׂה",
+          "source_id": "OSHB-GEN",
+          "evidence": "Named digital main text inspected; original manuscript and printed apparatus not independently collated"
+        },
+        {
+          "reading": "וְשֵׁיצֵי יְיָ בְּיוֹמָא שְׁבִיעָאָה עֲבִדְתֵּהּ דִּי עֲבָד וְנַח בְּיוֹמָא שְׁבִיעָאָה מִכָּל עֲבִדְתֵּהּ דִּי עֲבָד",
+          "source_id": "ONKELOS-GEN",
+          "evidence": "Named digital main text inspected; original manuscript and printed apparatus not independently collated"
+        },
+        {
+          "reading": "ויכל אלהים ביום הששי מלאכתו אשר עשה וישבת ביום השביעי מכל מלאכתו אשר עשה ",
+          "source_id": "SP-GEN",
+          "evidence": "Named digital main text inspected; original manuscript and printed apparatus not independently collated"
+        },
+        {
+          "reading": "ܘܫ̇ܠܡ ܐܠܗܐ ܒܝܘܡܐ ܫܬܝܬܝܐ ܥܒ̈ܕܘܗܝ ܕܥܒ̣ܕ. ܘܐܬܬܢܝܚ ܒܝܘܡܐ ܫܒܝܥܝܐ ܡܢ ܟܠܗܘܢ ܥܒ̈ܕܘܗܝ ܕܥܒ̣ܕ.",
+          "source_id": "PESHITTA-GEN",
+          "evidence": "Named digital main text inspected; original manuscript and printed apparatus not independently collated"
+        }
+      ],
+      "source_id": "BRENTON-GEN;OSHB-GEN;ONKELOS-GEN;SP-GEN;PESHITTA-GEN",
+      "source_locus": "Gen.2.2",
+      "commentary": "The imported Greek has completion on the sixth day, as do the newly acquired Samaritan CB 751-based transcription (הששי) and ETCBC Peshitta (ܫܬܝܬܝܐ). OSHB and the selected Onkelos version have the seventh. All five give the seventh day for resting. This is a checked comparison of named digital sources, not a full collation of the Samaritan or Peshitta traditions or their printed apparatuses. An early Hebrew difference and an interpretive adjustment avoiding completion on the Sabbath remain competing explanations; agreement does not by itself establish independence. Megillah 9a:13 reports a sixth/seventh distinction as a translation change, but its later reception story is not a direct early Greek witness. The imported DSS 4Q10 completion ordinal is entirely reconstructed: source nodes 1941895 (ה) and 1941896 (שביעי) have zero nonreconstructed consonants. It must not be cited as preserved seventh-day support. No new OG reading is adopted.",
+      "status": "comparison_verified_in_digital_sources_not_critically_adopted",
+      "decision": "Unresolved history; Greek baseline preserved",
+      "comparanda": [
+        {
+          "source_id": "DSS-GEN",
+          "nodes": [
+            1941895,
+            1941896
+          ],
+          "role": "editorial_reconstruction_not_preserved_reading_support"
+        }
+      ]
+    },
+    {
+      "id": "LXXL-VERS-002",
+      "address": "Gen.4.8",
+      "kind": "versional_divergence",
+      "lemma": "διέλθωμεν εἰς τὸ πεδίον",
+      "readings": [
+        {
+          "reading": "Καὶ εἶπεν Κάϊν πρὸς Ἄβελ τὸν ἀδελφὸν αὐτοῦ, διέλθωμεν εἰς τὸ πεδίον· καὶ ἐγένετο ἐν τῷ εἶναι αὐτοὺς ἐν τῷ πεδίῳ, ἀνέστη Κάϊν ἐπὶ Ἄβελ τὸν ἀδελφὸν αὐτοῦ, καὶ ἀπέκτεινεν αὐτόν.",
+          "source_id": "BRENTON-GEN",
+          "evidence": "Named digital main text inspected; original manuscript and printed apparatus not independently collated"
+        },
+        {
+          "reading": "וַיֹּ֥אמֶר קַ֖יִן אֶל הֶ֣בֶל אָחִ֑יו וַֽיְהִי֙ בִּהְיוֹתָ֣ם בַּשָּׂדֶ֔ה וַיָּ֥קָם קַ֛יִן אֶל הֶ֥בֶל אָחִ֖יו וַיַּהַרְגֵֽהוּ",
+          "source_id": "OSHB-GEN",
+          "evidence": "Named digital main text inspected; original manuscript and printed apparatus not independently collated"
+        },
+        {
+          "reading": "וַאֲמַר קַיִן לְהֶבֶל אַחוֹהִי וַהֲוָה בְּמֶהֱוֵיהוֹן בְּחַקְלָא וְקָם קַיִן עַל הֶבֶל אַחוֹהִי וְקַטְלֵהּ",
+          "source_id": "ONKELOS-GEN",
+          "evidence": "Named digital main text inspected; original manuscript and printed apparatus not independently collated"
+        },
+        {
+          "reading": "ויאמר קין אל הבל אחיו נלכה השדה ויהי בהיותם בשדה ויקם קין אל הבל אחיו ויהרגהו ",
+          "source_id": "SP-GEN",
+          "evidence": "Named digital main text inspected; original manuscript and printed apparatus not independently collated"
+        },
+        {
+          "reading": "ܘܐܡ̣ܪ ܩܐܝܢ ܠܗܒܝܠ ܐܚܘܗܝ. ܢܪܕܐ ܠܦܩܥܬܐ. ܘܗܘ̣ܐ ܕܟܕ ܗ̣ܢܘܢ ܒܚܩܠܐ . ܩܡ ܩܐܝܢ ܥܠ ܗܒܝܠ ܐܚܘܗܝ ܘܩܛܠܗ.",
+          "source_id": "PESHITTA-GEN",
+          "evidence": "Named digital main text inspected; original manuscript and printed apparatus not independently collated"
+        }
+      ],
+      "source_id": "BRENTON-GEN;OSHB-GEN;ONKELOS-GEN;SP-GEN;PESHITTA-GEN",
+      "source_locus": "Gen.4.8",
+      "commentary": "The imported Greek includes διέλθωμεν εἰς τὸ πεδίον; the acquired Samaritan transcription has נלכה השדה, and the Peshitta has ܢܪܕܐ ܠܦܩܥܬܐ, both invitations to go to the field/plain. OSHB and this Onkelos version lack the quoted invitation. Loss in a Hebrew ancestor, explanatory expansion and cross-traditional influence remain competing accounts. These named sources do not establish the readings of all Samaritan or Syriac witnesses. The imported 4Q2 context has both reconstructed and uncertain letters around Abel and the following narrative clause; the transcription alone is insufficient for a new palaeographic judgement about space for the invitation. Accordingly no independent Qumran support for either length is assigned. The fuller Greek baseline is retained provisionally, without an OG-priority claim.",
+      "status": "comparison_verified_in_digital_sources_not_critically_adopted",
+      "decision": "Unresolved history; Greek baseline preserved",
+      "comparanda": [
+        {
+          "source_id": "DSS-GEN",
+          "scroll": "4Q2",
+          "role": "fragmentary_context_requires_palaeographic_review"
+        }
+      ]
+    },
+    {
+      "id": "LXXL-VERS-003",
+      "address": "Gen.46.27",
+      "kind": "versional_divergence",
+      "lemma": "ἑβδομηκονταπέντε versus שבעים",
+      "readings": [
+        {
+          "reading": "Υἱοὶ δὲ Ἰωσὴφ οἱ γενόμενοι αὐτῷ ἐν γῇ Αἰγύπτῳ, ψυχαὶ ἐννέα. Πᾶσαι ψυχαὶ οἴκου Ἰακὼβ, αἱ εἰσελθοῦσαι μετὰ Ἰακὼβ εἰς Αἴγυπτον, ψυχαὶ ἑβδομηκονταπέντε.",
+          "source_id": "BRENTON-GEN",
+          "evidence": "Named digital main text inspected; original manuscript and printed apparatus not independently collated"
+        },
+        {
+          "reading": "וּבְנֵ֥י יוֹסֵ֛ף אֲשֶׁר יֻלַּד ל֥וֹ בְמִצְרַ֖יִם נֶ֣פֶשׁ שְׁנָ֑יִם כָּל הַנֶּ֧פֶשׁ לְבֵֽית יַעֲקֹ֛ב הַבָּ֥אָה מִצְרַ֖יְמָה שִׁבְעִֽים",
+          "source_id": "OSHB-GEN",
+          "evidence": "Named digital main text inspected; original manuscript and printed apparatus not independently collated"
+        },
+        {
+          "reading": "וּבְנֵי יוֹסֵף דִּי אִתְיְלִידוּ לֵהּ בְּמִצְרַיִם נַפְשָׁתָא תְרֵין כָּל נַפְשָׁתָא לְבֵית יַעֲקֹב דְּעַלּוּ לְמִצְרַיִם שִׁבְעִין",
+          "source_id": "ONKELOS-GEN",
+          "evidence": "Named digital main text inspected; original manuscript and printed apparatus not independently collated"
+        },
+        {
+          "reading": "ובני יוסף אשר ילדו לו במצרים נפש שנים כל הנפש לבית יעקב הבאה מצרימה שבעים ",
+          "source_id": "SP-GEN",
+          "evidence": "Named digital main text inspected; original manuscript and printed apparatus not independently collated"
+        },
+        {
+          "reading": "ܘܒܢ̈ܝ ܝܘܣܦ ܕܐܬܝܠܕܘ ܠܗ ܒܡܨܪܝܢ. ܢܦܫ̈ܬܐ ܬܪ̈ܬܝܢ. ܟܠܗܝܢ ܢܦܫ̈ܬܐ ܕܒܝܬ ܝܥܩܘܒ ܕܥܠ ܠܡܨܪܝܢ ܫܒܥܝܢ.",
+          "source_id": "PESHITTA-GEN",
+          "evidence": "Named digital main text inspected; original manuscript and printed apparatus not independently collated"
+        }
+      ],
+      "source_id": "BRENTON-GEN;OSHB-GEN;ONKELOS-GEN;SP-GEN;PESHITTA-GEN",
+      "source_locus": "Gen.46.27",
+      "commentary": "The Greek source gives nine for Joseph’s Egyptian descendants and seventy-five for the household. OSHB, Onkelos, the acquired Samaritan transcription and the Peshitta give two and seventy. These are related genealogical totals and require study with Gen 46:20 and the whole list, not correction of an isolated numeral. No imported Genesis-labelled DSS units occur at Gen 46:27; this is a statement of this extraction’s coverage, not a claim about all Judaean Desert evidence or the separate Exodus tradition. Peshitta/Samaritan main-text agreement is now checked digitally, while their apparatuses and manuscript histories remain uncollated. No reading is adopted solely from majority agreement.",
+      "status": "comparison_verified_in_digital_sources_not_critically_adopted",
+      "decision": "Unresolved history; Greek baseline preserved",
+      "comparanda": [
+        {
+          "source_id": "DSS-GEN",
+          "role": "no_imported_Genesis_units_at_this_address"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "checked_on": "2026-11-01",
+  "inspection_scope": "Two selected printed edition pages; no ancient manuscript images",
+  "independent_printed_pages_inspected": 2,
+  "independent_manuscript_collations": 0,
+  "baseline_reading_changes": 0,
+  "observations": [
+    {
+      "id": "PRINT-001",
+      "locus": "Gen.31.50-52",
+      "printed_page": 60,
+      "image_asset": "SWETE-PRINT-60",
+      "finding": "Printed main text skips reference 51; apparatus reports [51 om ADE]. Missing digital key is not itself a digital loss.",
+      "status": "printed_edition_observation_not_manuscript_collation"
+    },
+    {
+      "id": "PRINT-002",
+      "locus": "Gen.31.55-32.1",
+      "printed_page": 60,
+      "image_asset": "SWETE-PRINT-60",
+      "finding": "Print starts chapter 32:1 with Jacob departure; digital TEI/downstream place its opening at 31:55 and contaminate both with XXXII.",
+      "status": "digital_segmentation_error_confirmed_against_print"
+    },
+    {
+      "id": "PRINT-003",
+      "locus": "Gen.35.16;35.21-23",
+      "printed_page": 67,
+      "image_asset": "SWETE-PRINT-67",
+      "finding": "Tower-of-Gader journey printed at Greek 35:16 with alternative reference (21); it is already in the LXXL baseline. Reuben occurs at Greek 35:21 with alternative (22).",
+      "status": "earlier_possible_missing_baseline_material_hypothesis_corrected"
+    },
+    {
+      "id": "PRINT-004",
+      "locus": "Gen.35.16",
+      "printed_page": 67,
+      "image_asset": "SWETE-PRINT-67",
+      "finding": "Printed epekeina is present in LXXL baseline but absent from TEI and downstream Swete transcription.",
+      "status": "digital_word_omission_confirmed_against_print"
+    }
+  ],
+  "source_assets": [
+    {
+      "id": "SWETE-PRINT-60",
+      "sha256": "f1c48e3e4cd46efb59df52ffca32f58d82b8e30f8399e017839b8ac62c7443b0",
+      "bytes": 770066,
+      "url": "https://archive.org/download/oldtestamentingr01swetuoft/page/n91.jpg",
+      "rights": "Public-domain historical printed edition image"
+    },
+    {
+      "id": "SWETE-PRINT-67",
+      "sha256": "17d32afa2bbd7b47110308d95dc55be59cd3ac7b29ce75c77a70b8d8a4dd1a5d",
+      "bytes": 950999,
+      "url": "https://archive.org/download/oldtestamentingr01swetuoft/page/n98.jpg",
+      "rights": "Public-domain historical printed edition image"
+    },
+    {
+      "id": "SWETE-TEI-GEN",
+      "sha256": "6e410d3e8eae24874f103b63047ac89c7227c2733474cddbb592cf6c37e717f3",
+      "bytes": 603029,
+      "url": "https://raw.githubusercontent.com/OpenGreekAndLatin/First1KGreek/eb81494731fd632f582c4b94634127bdbd596b43/data/tlg0527/tlg001/tlg0527.tlg001.1st1K-grc1.xml",
+      "rights": "CC BY-SA 4.0; Open Greek and Latin, University of Leipzig and contributors"
+    },
+    {
+      "id": "SWETE-SCAN-META",
+      "sha256": "dce51ad0b64b87c387a5b3fd2ee69923303e349d7a8da3d771751d155675a061",
+      "bytes": 154658,
+      "url": "https://archive.org/metadata/oldtestamentingr01swetuoft",
+      "rights": "Archive bibliographic metadata"
+    },
+    {
+      "id": "SWETE-SCAN-PAGENUM",
+      "sha256": "5d418fec9880eb8d718d2b095dd3e30351951ce418a4e1e10224f7515feffbdd",
+      "bytes": 145164,
+      "url": "https://archive.org/download/oldtestamentingr01swetuoft/oldtestamentingr01swetuoft_page_numbers.json",
+      "rights": "Archive derived page lookup, subject to visual confirmation"
+    }
+  ],
+  "digital_contexts": {
+    "Gen.31.50": "εἰ ταπεινώσεις τὰς θυγατέρας μου, εἰ λήμψῃ γυναῖκας 50(50 a) ἐπὶ ταῖς θυγατράσιν μου, ὅρα, οὐθεὶς μεθ’ ἡμῶν ἐστίν.",
+    "Gen.31.51": null,
+    "Gen.31.54": "καὶ ὤμοσεν Ἰακὼβ κατὰ τοῦ Φόβου τοῦ πατρὸς αὐτοῦ Ἰσαάκ. καὶ ἴθυσεν Ἰακὼβ θυσίαν ἐν τῷ ὄρει· καὶ ἐκάλεσεν τοὺς ἀδελφοὺς αὐτοῦ, καὶ ἔφαγον καὶ ἔπιον, καὶ ἐκοιμήθησαν ἐν τῷ ὄρει.",
+    "Gen.31.55": "ἀναστὰς δὲ Λαβὰν τὸ πρωὶ κατεφίλησεν τοὺς υἱοὺς 55 (XXX) αὐτοῦ καὶ τὰς θυγατέρας αὐτοῦ, καὶ εὐλόγησεν αὐτούς· καὶ ἀποστρα- φεὶς Λαβὰν ἀπῆλθεν εἰς τὸν τόπον αὐτοῦ. Καὶ Ἰακὼβ ἀπῆλθεν XXXII",
+    "Gen.32.1": "XXXIIεἰς τὴν ἑαυτοῦ ὁδόν· καὶ ἀναβλέψας τοῖς ὀφθαλμοῖς ἴδεν παρεμβολὴν θεοῦ παρεμβεβληκυῖαν, καὶ συνήντησαν αὐτῷ οἱ ἄγγελοι τοῦ θεοῦ.",
+    "Gen.35.16": "Ἀπάρας δὲ Ἰακὼβ ἐκ Βαιθὴλ ἔπηξεν τὴν σκηνὴν αὐτοῦ τοῦ πύργου Γάδερ. ἐγένετο δὲ ἡνίκα ἤγγισεν χαβραθὰ εἰς γῆν ἐλθεῖν Ἐφράθα, ἔτεκεν Ῥαχήλ· καὶ ἐδυστόκησεν ἐν τῷ τοκετῷ.",
+    "Gen.35.21": "ἐγένετο δὲ ἡνίκα κατῴκησεν Ἰσραὴλ ἐν τῇ γῇ ἐκείνῃ, ἐπορεύθη Ῥουβὴν καὶ ἐκοιμήθη μετὰ Βάλλας τῆς παλλακῆς τοῦ πατρὸς αὐτοῦ· καὶ ἤκουσεν Ἰσραήλ, καὶ πονηρὸν ἐφάνη ἐναντίον αὐτοῦ.",
+    "Gen.35.22": "Ἦσαν δὲ οἱ υἱοὶ Ἰακὼβ δώδεκα·"
+  },
+  "baseline_Gen_35_16": "Ἀπάρας δὲ Ἰακὼβ ἐκ Βαιθὴλ, ἔπηξε τὴν σκηνὴν αὐτοῦ ἐπέκεινα τοῦ πύργου Γαδέρ· ἐγένετο δὲ ἡνίκα ἤγγισεν εἰς Χαβραθὰ τοῦ ἐλθεῖν εἰς τὴν Ἐφραθᾶ, ἔτεκε Ῥαχήλ· καὶ ἐδυστόκησεν ἐν τῷ τοκετῷ.",
+  "attribution": "First1KGreek, Open Greek and Latin / University of Leipzig and contributors; TEI content CC BY-SA 4.0. Printed historical Swete text public domain.",
+  "warning": "Integrity and context assertions do not reproduce the human visual judgment or establish the earliest Greek text."
+}

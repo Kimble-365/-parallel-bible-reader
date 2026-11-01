@@ -1,7 +1,7 @@
 'use strict';
 const fs=require('node:fs'),vm=require('node:vm'),assert=require('node:assert/strict');global.window=global;
 const storage=new Map();global.localStorage={getItem:k=>storage.get(k)??null,setItem:(k,v)=>storage.set(k,v)};
-for(const name of ['interlinear-manifest.js','word-study.js'])vm.runInThisContext(fs.readFileSync('releases/v1.22/'+name,'utf8'));
+for(const name of ['interlinear-manifest.js','word-study.js'])vm.runInThisContext(fs.readFileSync('releases/v'+(process.env.READER_VERSION||'1.22')+'/'+name,'utf8'));
 const W=ReaderWordStudy,key='parallel-reader-vocabulary-v1',word=JSON.parse(fs.readFileSync('tests/fixtures/study121/jhn-3-16.json')).words[0],hebrew=JSON.parse(fs.readFileSync('tests/fixtures/study121/gen-1-1.json')).words[0];
 W.add(word,'JHN 3:16');const original=W.backup();storage.clear();let p=W.previewImport(original);assert.equal(p.added,1);assert.equal(storage.size,0);W.importBackup(original,p.snapshot);assert.equal(W.cards()[0].source,ReaderInterlinearManifest.attribution);assert.equal(W.backup(),original);
 p=W.previewImport(original);assert.equal(p.duplicates,1);assert.equal(p.added,0);W.importBackup(original,p.snapshot);assert.equal(W.cards().length,1);

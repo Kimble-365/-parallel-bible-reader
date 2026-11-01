@@ -1,11 +1,11 @@
 'use strict';
 const fs=require('node:fs/promises'),path=require('node:path'),vm=require('node:vm'),assert=require('node:assert/strict');
 global.window=global;if(!global.crypto)Object.defineProperty(global,'crypto',{value:require('node:crypto').webcrypto});
-global.document={documentElement:{dataset:{dataPath:'../../data/'}}};global.location={href:'https://reader.test/releases/v1.23/'};
+global.document={documentElement:{dataset:{dataPath:'../../data/'}}};global.location={href:'https://reader.test/releases/v1.25/'};
 Object.defineProperty(global,'navigator',{value:{onLine:true},configurable:true});let corrupt=false;const urls=[];
 global.fetch=async input=>{const u=new URL(input,location.href);urls.push(u.pathname);try{let b=await fs.readFile(path.join(process.cwd(),u.pathname));if(corrupt&&u.pathname.includes('/syriac-data/')){b=Buffer.from(b);b[20]^=255}return {ok:true,status:200,arrayBuffer:async()=>b.buffer.slice(b.byteOffset,b.byteOffset+b.byteLength),text:async()=>b.toString()}}catch{return {ok:false,status:404}}};
 (async()=>{
- for(const file of ['catalog.js','vendor/pako_inflate.min.js','compression.js','syriac-manifest.js','syriac-data.js','offline-library.js'])vm.runInThisContext(await fs.readFile('releases/v1.23/'+file,'utf8'));
+ for(const file of ['catalog.js','vendor/pako_inflate.min.js','compression.js','syriac-manifest.js','syriac-data.js','offline-library.js'])vm.runInThisContext(await fs.readFile('releases/v1.25/'+file,'utf8'));
  const gen=await ReaderOffline.loadBook('GEN',['syc-peshitta-ot','syc-etcbc-biblical'],{forceOnline:true});
  assert.equal(Object.keys(gen.editions).length,2);assert.match(gen.editions['syc-peshitta-ot'][0][2],/^ܒܪܫܝܬ/);assert.equal(gen.editions['syc-peshitta-ot'][0][3],undefined);
  assert.ok(urls.every(u=>!u.includes('syriac-index')&&!u.includes('syriac-lexicon')),'ordinary reading must not download analyses');

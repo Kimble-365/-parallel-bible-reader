@@ -17,7 +17,7 @@ class Handler(SimpleHTTPRequestHandler):
 
 server = ThreadingHTTPServer(('127.0.0.1', 0), Handler)
 Thread(target=server.serve_forever, daemon=True).start()
-base = f'http://127.0.0.1:{server.server_port}/releases/v1.23/'
+base = f'http://127.0.0.1:{server.server_port}/releases/v1.25/'
 try:
     with sync_playwright() as p:
         browser = p.chromium.launch(executable_path='/usr/bin/chromium', args=['--no-sandbox'])

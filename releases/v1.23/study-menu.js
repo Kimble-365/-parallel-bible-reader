@@ -2,7 +2,7 @@
 (()=>{
  const $=id=>document.getElementById(id),node=(tag,text)=>{const e=document.createElement(tag);if(text!==undefined)e.textContent=text;return e},M=ReaderStudyModel;
  let state,blocked=false;try{state=M.load(localStorage)}catch{state=M.empty();blocked=true}
- const stamp=node('p','Reader 1.22');stamp.id='reader-release';stamp.className='notice';$('heading').before(stamp);
+ const stamp=node('p','Reader 1.23');stamp.id='reader-release';stamp.className='notice';$('heading').before(stamp);
  const dialog=node('dialog');dialog.id='study-dialog';dialog.setAttribute('aria-labelledby','study-title');const title=node('h2');title.id='study-title';const close=node('button','Back to reading');close.type='button';close.onclick=()=>dialog.close();const status=node('p');status.id='study-status';status.className='notice';status.setAttribute('role','status');const content=node('div');content.id='study-content';dialog.append(title,close,status,content);document.body.append(dialog);
  function save(){if(blocked){status.textContent='Study storage is unavailable or damaged. Existing data was not overwritten.';return false}try{M.save(localStorage,state);return true}catch{status.textContent='Could not save on this device. Changes remain for this visit.';return false}}
  function reset(label){title.textContent=label;status.textContent=blocked?'Study data cannot be saved in this browser.':'';content.replaceChildren();if(!dialog.open)dialog.showModal();dialog.scrollTop=0;close.focus()}

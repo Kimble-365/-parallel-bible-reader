@@ -2,7 +2,7 @@
 from pathlib import Path
 import collections, gzip, hashlib, json, sys, unittest
 ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT / 'releases/v1.23'
+OUT = ROOT / 'releases/v1.25'
 sys.path.insert(0, str(ROOT / 'tools'))
 from import_syriac import canonical, readjs
 
@@ -75,7 +75,7 @@ class SourceTests(unittest.TestCase):
         self.assertEqual(len(headers), 27)
         self.assertTrue(all(h['status'] == 'UncorrectedTranscription' and 'CC BY 4.0' in h['rights'] for h in headers))
         for e in self.catalog['editions']:
-            if e.get('data_group') == 'syriac-1.23':
+            if e.get('data_group') == 'syriac-1.25':
                 self.assertEqual(e['direction'], 'rtl')
                 self.assertFalse(e['has_transliteration'])
                 self.assertIn('CC BY', e['license'])

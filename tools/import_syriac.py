@@ -10,7 +10,7 @@ from datetime import datetime, timezone
 import xml.etree.ElementTree as ET
 
 ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT / 'releases/v1.23'
+OUT = ROOT / 'releases/v1.25'
 MORPH = ['sp', 'vs', 'vt', 'ps', 'gn', 'nu', 'st']
 PESH = dict(zip(
     'Gn Ex Lv Nm Dt Jb Jos Jd Sm1 Sm2 Ps Rg1 Rg2 Pr Sap Ec Ct Is Jr Thr EpJr EpBar_A EpBar_B Bar Ez Hs Jl Am Ob Jon Mi Na Hb Zf Hg Sa Ml Dn BelDr Ru Sus Est Jdt Sir Chr1 Chr2 ApBar Esr4 Ezr Neh Mc1_A Mc1_B Mc2 Mc3 Mc4 Oda OrM_A OrM_B ApcPs_A ApcPs_B ApcPs PsS Tb_A Tb_B Esr3'.split(),
@@ -229,9 +229,9 @@ def build(source):
         blob = hashlib.sha1(b'blob ' + str(len(data)).encode() + b'\0' + data).hexdigest()
         assert blob == obj['blob_sha'] and digest(data) == obj['sha256'], obj['path']
     writer, vocabulary = Writer(), {}
-    cat = readjs(ROOT / 'releases/v1.22/catalog.js')
-    directory = readjs(ROOT / 'releases/v1.22/translations/metadata.js')
-    search = readjs(ROOT / 'releases/v1.22/search-manifest.js')
+    cat = readjs(ROOT / 'releases/v1.24/catalog.js')
+    directory = readjs(ROOT / 'releases/v1.24/translations/metadata.js')
+    search = readjs(ROOT / 'releases/v1.24/search-manifest.js')
     known = dict(cat['books'])
     texts, evidence, all_coverage, exclusions = {}, {}, [], {}
     tei_headers = []
@@ -257,14 +257,14 @@ def build(source):
         'syc-dsc-nt': 'Syriac — New Testament (DSC print transcription)',
     }
     editions = []
-    manifest = dict(version='1.23', editions={}, lexicon={}, fields=['slot', 'offset', 'length', 'lexeme'] + MORPH)
+    manifest = dict(version='1.25', editions={}, lexicon={}, fields=['slot', 'offset', 'length', 'lexeme'] + MORPH)
     for edition, books in texts.items():
         spec = next(s for s in lock['datasets'] if s['id'] == ('syc-etcbc-biblical' if edition == 'syc-syrohexapla-ps' else edition))
         license = spec.get('license', 'CC BY-NC 4.0')
         report = dict(id=edition, repo=spec['repo'], commit=spec['commit'], version=spec['version'], license=license, books=len(books), verses=sum(map(len, books.values())))
         editions.append(report)
         positions = [[b, c] for b in order if b in books for c in sorted({r[0] for r in books[b]})]
-        meta = dict(id=edition, label=labels[edition], title=labels[edition], language='syc', latin_language='syc', script='Syriac', direction='rtl', available=True, scope='Exact available source books only; original source numbering; not a new critical edition.', source='https://github.com/' + spec['repo'] + '/tree/' + spec['commit'], license='CC BY-NC 4.0', license_url='https://creativecommons.org/licenses/by-nc/4.0/', attribution=spec['attribution'] + ' Source revision ' + spec['commit'] + '. Display adaptation by Parallel Bible Reader; no endorsement. Noncommercial use only. See sources/syriac-lock.json.', method='Text-Fabric source forms and trailers joined; trailing whitespace removed. Source node/slot ranges retained. Critical apparatus not included. No manuscript or translation verification claimed.', has_transliteration=False, books=len(books), verses=report['verses'], book_codes=[b for b in order if b in books], positions=positions, preserve_source_refs=True, versification_label='Source labels; matching references do not establish equivalent passages', data_group='syriac-1.23')
+        meta = dict(id=edition, label=labels[edition], title=labels[edition], language='syc', latin_language='syc', script='Syriac', direction='rtl', available=True, scope='Exact available source books only; original source numbering; not a new critical edition.', source='https://github.com/' + spec['repo'] + '/tree/' + spec['commit'], license='CC BY-NC 4.0', license_url='https://creativecommons.org/licenses/by-nc/4.0/', attribution=spec['attribution'] + ' Source revision ' + spec['commit'] + '. Display adaptation by Parallel Bible Reader; no endorsement. Noncommercial use only. See sources/syriac-lock.json.', method='Text-Fabric source forms and trailers joined; trailing whitespace removed. Source node/slot ranges retained. Critical apparatus not included. No manuscript or translation verification claimed.', has_transliteration=False, books=len(books), verses=report['verses'], book_codes=[b for b in order if b in books], positions=positions, preserve_source_refs=True, versification_label='Source labels; matching references do not establish equivalent passages', data_group='syriac-1.25')
         if spec.get('format') == 'tei':
             meta.update(license=license, license_url='https://creativecommons.org/licenses/by/4.0/', attribution=spec['attribution'] + ' Revision ' + spec['commit'] + '. Verse-display adaptation by Parallel Bible Reader. Item-specific credits and printed sources in sources/dsc-items.json.', method='Uncorrected print transcription, not a manuscript or reconstructed critical text. XML whitespace collapsed; Syriac code points retained. Source chapter/verse XPath recorded. Repository Peshitta label retained; later NT additions are not asserted to belong to the early 22-book Peshitta canon.')
         cat['editions'] = [e for e in cat['editions'] if e['id'] != edition] + [meta]

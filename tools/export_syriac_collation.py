@@ -1,7 +1,7 @@
 """Export source-qualified CollateX input; does not run CollateX or select readings."""
 from pathlib import Path
 import argparse, gzip, json, unicodedata
-ROOT = Path(__file__).resolve().parents[1] / 'releases/v1.23'
+ROOT = Path(__file__).resolve().parents[1] / 'releases/v1.25'
 
 
 def packet(book, chapter, verse):

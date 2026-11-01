@@ -27,3 +27,8 @@ Tischendorf, Nestle base text and WH components declare public domain; SBLGNT is
 Study library → NTGL opens the complete 6,153-entry Abbott–Smith TEI-derived historical lexicon, declared public domain by its source project. GreekResources crosswalks are CC BY 4.0, credited to Open Scriptures Septuagint Project, and retain the upstream mismatch warning. The 61-word MorphGNT John sample uses CC BY-SA 3.0 annotation, credited to James Tauber/MorphGNT; it is a separately versioned source.
 
 Edition revisions, source files and measured coverage are in `sources/ntgl-import.json`; source originals are stored once, compressed, under TheWay/NTGL/sources/reader-corpora. Mark’s unnumbered Nestle shorter-ending appendix is retained in `sources/ntgl-paratext.json`, not merged into Mark 16:20. The digital Tischendorf module has no printed apparatus.
+
+
+## LXXL Genesis research publication
+
+Adds four Genesis-only original-script editions: provisional Greek baseline, Samaritan CB 751-based Hebrew transcription, ETCBC Peshitta and named Onkelos export. Existing Swete/WLC remain separate comparanda. [Scope, eight commented units and credits](lxxl/index.html). Greek chapters 31/35 numbering is unresolved; source-reference preservation is enabled. Text packs are gzip-compressed and SHA-256 checked; save selected editions for offline use. No restored Qumran text is presented as continuous scripture. This release does not complete the LXXL critical edition.

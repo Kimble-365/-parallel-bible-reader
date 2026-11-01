@@ -14,10 +14,19 @@
       "title": "Novum Testamentum graece. Ad antiquissimos testes denuo recensuit, apparatum criticum omni studio perfectum apposuit commentationem isagogicam praetexuit",
       "volume": "1",
       "url": "https://archive.org/details/novumtestamentum01tisc",
-      "status": "identified_in_archive_catalogue_search",
-      "title_page_inspected": false,
+      "status": "title_page_and_bounded_pilot_images_inspected",
+      "title_page_inspected": true,
       "apparatus_content_verified": false,
-      "digital_tischendorf_module_contains_apparatus": false
+      "digital_tischendorf_module_contains_apparatus": false,
+      "catalogue_page_checked": "2026-10-31",
+      "publisher_as_catalogued": "Lipsiae : Giesecke & Devrient",
+      "contributing_library": "Wellesley College Library",
+      "catalogued_scan_pages": 1002,
+      "pdf_url": "https://archive.org/download/novumtestamentum01tisc/novumtestamentum01tisc.pdf",
+      "pdf_retrieval": "timeout",
+      "apparatus_review_scope": "Partial visual check: JHN 1:3–4, printed pp. 740–742; no complete transcription or sigla resolution",
+      "review_record": "data/tischendorf_pilot_review.json",
+      "edition_identity": "Editio octava critica maior, Volumen I, Lipsiae 1869"
     },
     {
       "date": "1872-01-01T00:00:00Z",
@@ -25,11 +34,17 @@
       "title": "Novum Testamentum graece. Ad antiquissimos testes denuo recensuit, apparatum criticum omni studio perfectum apposuit commentationem isagogicam praetexuit",
       "volume": "2",
       "url": "https://archive.org/details/novumtestamentum02tisc",
-      "status": "identified_in_archive_catalogue_search",
+      "status": "catalogue_page_and_download_link_inspected_images_pending",
       "title_page_inspected": false,
       "apparatus_content_verified": false,
-      "digital_tischendorf_module_contains_apparatus": false
+      "digital_tischendorf_module_contains_apparatus": false,
+      "catalogue_page_checked": "2026-10-31",
+      "publisher_as_catalogued": "Lipsiae : Giesecke & Devrient",
+      "contributing_library": "Wellesley College Library",
+      "catalogued_scan_pages": 1060,
+      "pdf_url": "https://archive.org/download/novumtestamentum02tisc/novumtestamentum02tisc.pdf",
+      "pdf_retrieval": "redirect_target_inaccessible_to_web_tool"
     }
   ],
-  "note": "Catalogue titles explicitly refer to an apparatus criticus. Printed title pages and apparatus pages still require image inspection. Do not confuse 1877 critica minor with 1869/1872 critica maior."
+  "note": "Volume I title page and a bounded John 1:1–5 page sample inspected on 2026-11-01. Volume II images remain unchecked. No full apparatus transcription. Do not confuse critica minor with critica maior."
 }

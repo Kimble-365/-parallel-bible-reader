@@ -1,6 +1,6 @@
 # Reader 1.24 — source-aware textual apparatus
 
-Prepared increment; integration browser verification and publication remain pending. Earlier apparatus checks passed on the older baseline; the current release requires its own combined run.
+Full combined verification passed in [Actions 41304855541](https://github.com/Kimble-365/-parallel-bible-reader/actions/runs/41304855541), immutable preview commit ff46800bab4deaa3c670d74ae3463bc51d5f8cf4. The run includes actual apparatus source loads, import/export/offline/mobile checks, BHH sources/browser and inherited reading tools.
 
 Study → Textual apparatus opens a separate source reader for Greek NT, Greek OT/LXX, Hebrew and Syriac. Search loaded readings/notes/status, filter source references and exact witness sigla, navigate previous/next recorded references and export an attributed JSON package. Right-to-left and mixed-script readings use Unicode direction isolation; no NFC/phonetic reconstruction or manuscript-identity guessing is applied.
 

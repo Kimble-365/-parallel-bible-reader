@@ -40,3 +40,12 @@ jobs:
         env:
           READER_VERSION: '1.25'
         run: python tests/reader_119.py
+
+      - name: Preserve current apparatus, BHH, study tools and promoted root
+        env:
+          READER_VERSION: '1.25'
+        run: |
+          node tests/apparatus_124.cjs
+          python tests/apparatus_124.py
+          python tests/bhh_browser_123.py
+          python tests/root_route.py

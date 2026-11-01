@@ -128,7 +128,7 @@ jobs:
 
   published-reader:
     env:
-      READER_VERSION: '1.24'
+      READER_VERSION: '1.25'
     if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     timeout-minutes: 15
@@ -153,3 +153,4 @@ jobs:
         run: |
           python tests/public_release_115.py
           python tests/public_bhh_123.py
+          python tests/public_syriac.py

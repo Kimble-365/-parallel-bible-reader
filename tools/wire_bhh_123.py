@@ -8,3 +8,7 @@ p=O/'study-catalog.js';d=json.loads(p.read_text().split('=',1)[1].rstrip(';\n'))
 p=O/'translations/metadata.js';s=p.read_text();print(s[:50]);d=json.loads(s.split('=',1)[1].rstrip(';\n'))
 for id,language,iso,script,family,branch in [('hbo-sp','Samaritan Hebrew','smp','Hebrew','Afro-Asiatic','Semitic'),('hbo-mam','Biblical Hebrew','hbo','Hebrew','Afro-Asiatic','Semitic'),('lat-clementine-thb','Latin','lat','Latin','Indo-European','Italic')]:d.append(dict(id=id,language=language,iso6393=iso,aliases=[language,'BHH',id],family=family,branch=branch,subfamily=branch,countries=[],continents=[],states=[],script=script,variety=id,classification_source='ISO language identity; project browsing groups; no asserted UBS provider identifier',ubs_id=None))
 p.write_text(s.split('=',1)[0]+'='+json.dumps(d,ensure_ascii=False,separators=(',',':'))+';\n')
+
+(O/"README.md").write_text((R/"tools/bhh-123/README.md").read_text())
+p=O/"LICENSES.md"
+if "## BHH additions (1.23)" not in p.read_text():p.write_text(p.read_text()+"\n"+(R/"tools/bhh-123/NOTICE.md").read_text())

@@ -28,7 +28,7 @@ def mam(n):
  raise ValueError('Unknown MAM role: '+t)
 def main():
  ap=argparse.ArgumentParser();ap.add_argument('--sources',type=Path,required=True);ap.add_argument('--bhh',type=Path,required=True);a=ap.parse_args();S=a.sources
- shutil.copytree(R/'releases/v1.22',O,dirs_exist_ok=True)
+ shutil.copytree(R/'releases/v1.22',O,dirs_exist_ok=True,ignore=shutil.ignore_patterns('related-data','sources'))
  # Version shell; immutable older payload paths and storage revision stay intact.
  for p in O.rglob('*'):
   if p.is_file() and p.suffix in {'.js','.html','.css','.webmanifest','.md'} and p.name not in {'catalog.js','pack-manifest.js','search-manifest.js'}:

@@ -1,0 +1,267 @@
+{
+  "id": "TISCH8-PRINT-JHN-PILOT-20261101",
+  "source_id": "TISCH8-MAIOR-1869-V1-SCAN",
+  "access_date": "2026-11-01",
+  "review_method": "AI-assisted visual inspection; independent human specialist review pending",
+  "edition": {
+    "editor": "Constantinus Tischendorf",
+    "title": "Novum Testamentum Graece",
+    "edition_statement": "Editio octava critica maior",
+    "volume": "I",
+    "place": "Lipsiae",
+    "publisher": "Giesecke & Devrient",
+    "year": 1869,
+    "title_page_leaf": 5,
+    "identity_image_checked": true
+  },
+  "rights_basis": "Underlying 1869 work is public domain by age; scan contributor Wellesley College Library. No new license claimed for archive metadata or other works.",
+  "local_cache": {
+    "path_hint": "/workspace/ntgl-scan-cache",
+    "tracked_in_git": false,
+    "total_bytes": 4005457,
+    "scope": "local scan and discovery cache; separate from NTGL tracked-content limit and reader packs",
+    "auxiliary_files": [
+      {
+        "file": "archive-ocr-discovery.txt.gz",
+        "bytes": 2046373,
+        "sha256": "d230c65991d9596fd9135557d8f54eb81a29301d5228bc50bd7296a22334d582",
+        "uncompressed_bytes": 5066474,
+        "uncompressed_sha256": "da7793d509bbb4ecaa1eea4278a42ee53d3307918d39dfab899272f00e3d43d1",
+        "use": "discovery only; not a checked transcription"
+      },
+      {
+        "file": "novumtestamentum01tisc_page_numbers.json.gz",
+        "bytes": 7569,
+        "sha256": "549243f9977a06f94e8194f0bedc4aab21a3807d10a93e44703a8cd0994e107e",
+        "uncompressed_bytes": 171253,
+        "uncompressed_sha256": "8f44f3949b6f17480c41a3e750f3760111818661ceb74c284ec48924951c93cf",
+        "use": "archive metadata and page mapping"
+      },
+      {
+        "file": "novumtestamentum01tisc_scandata.xml.gz",
+        "bytes": 15206,
+        "sha256": "fa6445d0d78ba0cbcfc8c04684a116a27fdb291094f1ccda9b1339679b04613e",
+        "uncompressed_bytes": 518648,
+        "uncompressed_sha256": "883e2b4cba586354d26fa5704a08b9f7db28f90dd5a6310863c017a1575c033f",
+        "use": "archive metadata and page mapping"
+      },
+      {
+        "file": "ntgl-tischendorf01-metadata.json.gz",
+        "bytes": 10992,
+        "sha256": "7eda145a5c2a7eb4e1a8ebcbf964470081041d5028399683c415f88a5f5c1496",
+        "uncompressed_bytes": 103141,
+        "uncompressed_sha256": "bd59bb869d7a4617acc93660f77cbdbf2d3508af79547058e1c0e5862b5c8eda",
+        "use": "archive metadata and page mapping"
+      }
+    ],
+    "image_files_recorded_in": "page_images"
+  },
+  "page_images": [
+    {
+      "file": "title-leaf0005.jpg",
+      "leaf": 5,
+      "scale": 2,
+      "printed_page": null,
+      "page_number_basis": "title page",
+      "url": "https://ia800708.us.archive.org/BookReader/BookReaderImages.php?zip=/10/items/novumtestamentum01tisc/novumtestamentum01tisc_jp2.zip&file=novumtestamentum01tisc_jp2/novumtestamentum01tisc_0005.jp2&id=novumtestamentum01tisc&scale=2&rotate=0",
+      "reader_url": "https://archive.org/details/novumtestamentum01tisc/page/n5/mode/1up",
+      "sha256": "33a895e755284388b0d47cfccdfc8772fb6b88acb8dcc1e44554edb348b7d6c9",
+      "bytes": 116712,
+      "dimensions_px": [
+        890,
+        1561
+      ],
+      "image_inspected": true,
+      "image_source": "Archive BookReader server-rendered JPEG; ZIP/JP2 not downloaded",
+      "download_date": "2026-11-01",
+      "region": "full image; no crop or preprocessing"
+    },
+    {
+      "file": "leaf0765-scale1.jpg",
+      "leaf": 765,
+      "scale": 1,
+      "printed_page": "739",
+      "page_number_basis": "scan map; no printed number visible on opening page",
+      "url": "https://ia800708.us.archive.org/BookReader/BookReaderImages.php?zip=/10/items/novumtestamentum01tisc/novumtestamentum01tisc_jp2.zip&file=novumtestamentum01tisc_jp2/novumtestamentum01tisc_0765.jp2&id=novumtestamentum01tisc&scale=1&rotate=0",
+      "reader_url": "https://archive.org/details/novumtestamentum01tisc/page/n765/mode/1up",
+      "sha256": "11c01264171f66bf87d78b6ebbea3d46716aa0ca09bb003d656d65d860ece658",
+      "bytes": 496102,
+      "dimensions_px": [
+        1779,
+        3121
+      ],
+      "image_inspected": true,
+      "image_source": "Archive BookReader server-rendered JPEG; ZIP/JP2 not downloaded",
+      "download_date": "2026-11-01",
+      "region": "full image; no crop or preprocessing"
+    },
+    {
+      "file": "leaf0766-scale1.jpg",
+      "leaf": 766,
+      "scale": 1,
+      "printed_page": "740",
+      "page_number_basis": "visible printed number",
+      "url": "https://ia800708.us.archive.org/BookReader/BookReaderImages.php?zip=/10/items/novumtestamentum01tisc/novumtestamentum01tisc_jp2.zip&file=novumtestamentum01tisc_jp2/novumtestamentum01tisc_0766.jp2&id=novumtestamentum01tisc&scale=1&rotate=0",
+      "reader_url": "https://archive.org/details/novumtestamentum01tisc/page/n766/mode/1up",
+      "sha256": "18fea9566d14623aa1f01aae1a1d2b246f18aa9d30af81c48930b9cf3f8883b3",
+      "bytes": 477280,
+      "dimensions_px": [
+        1779,
+        3121
+      ],
+      "image_inspected": true,
+      "image_source": "Archive BookReader server-rendered JPEG; ZIP/JP2 not downloaded",
+      "download_date": "2026-11-01",
+      "region": "full image; no crop or preprocessing"
+    },
+    {
+      "file": "leaf0767-scale2.jpg",
+      "leaf": 767,
+      "scale": 2,
+      "printed_page": "741",
+      "page_number_basis": "visible printed number",
+      "url": "https://ia800708.us.archive.org/BookReader/BookReaderImages.php?zip=/10/items/novumtestamentum01tisc/novumtestamentum01tisc_jp2.zip&file=novumtestamentum01tisc_jp2/novumtestamentum01tisc_0767.jp2&id=novumtestamentum01tisc&scale=2&rotate=0",
+      "reader_url": "https://archive.org/details/novumtestamentum01tisc/page/n767/mode/1up",
+      "sha256": "f371f2405260203d0110ba5775fbefbab8664257dfec254b6ef25d4bdef89822",
+      "bytes": 223713,
+      "dimensions_px": [
+        890,
+        1561
+      ],
+      "image_inspected": true,
+      "image_source": "Archive BookReader server-rendered JPEG; ZIP/JP2 not downloaded",
+      "download_date": "2026-11-01",
+      "region": "full image; no crop or preprocessing"
+    },
+    {
+      "file": "leaf0768-scale2.jpg",
+      "leaf": 768,
+      "scale": 2,
+      "printed_page": "742",
+      "page_number_basis": "visible printed number",
+      "url": "https://ia800708.us.archive.org/BookReader/BookReaderImages.php?zip=/10/items/novumtestamentum01tisc/novumtestamentum01tisc_jp2.zip&file=novumtestamentum01tisc_jp2/novumtestamentum01tisc_0768.jp2&id=novumtestamentum01tisc&scale=2&rotate=0",
+      "reader_url": "https://archive.org/details/novumtestamentum01tisc/page/n768/mode/1up",
+      "sha256": "ecb9ca8153f334b22706361a10ede4206351c9995b4c7ab3a38c166054531e7e",
+      "bytes": 170820,
+      "dimensions_px": [
+        890,
+        1561
+      ],
+      "image_inspected": true,
+      "image_source": "Archive BookReader server-rendered JPEG; ZIP/JP2 not downloaded",
+      "download_date": "2026-11-01",
+      "region": "full image; no crop or preprocessing"
+    },
+    {
+      "file": "leaf0768-scale1.jpg",
+      "leaf": 768,
+      "scale": 1,
+      "printed_page": "742",
+      "page_number_basis": "visible printed number",
+      "url": "https://ia800708.us.archive.org/BookReader/BookReaderImages.php?zip=/10/items/novumtestamentum01tisc/novumtestamentum01tisc_jp2.zip&file=novumtestamentum01tisc_jp2/novumtestamentum01tisc_0768.jp2&id=novumtestamentum01tisc&scale=1&rotate=0",
+      "reader_url": "https://archive.org/details/novumtestamentum01tisc/page/n768/mode/1up",
+      "sha256": "3d3b448d2b5ebd6380fc06b11730291e7161d847c0deb9343eba3655f4842e1b",
+      "bytes": 440690,
+      "dimensions_px": [
+        1779,
+        3121
+      ],
+      "image_inspected": true,
+      "image_source": "Archive BookReader server-rendered JPEG; ZIP/JP2 not downloaded",
+      "download_date": "2026-11-01",
+      "region": "full image; no crop or preprocessing"
+    }
+  ],
+  "observations": [
+    {
+      "id": "TISCH8-JHN1-3-DIVISION",
+      "reference": "JHN 1:3",
+      "page": "740",
+      "leaf": 766,
+      "region_fraction_xyxy": [
+        0.16,
+        0.105,
+        0.95,
+        0.16
+      ],
+      "layer": "printed_main_text",
+      "short_normalized_excerpt": "οὐδὲ ἕν ὃ γέγονεν.",
+      "observation": "Printed main text divides ουδε εν into two words and has a full stop after γέγονεν before verse 4.",
+      "not_a_manuscript_reading": true
+    },
+    {
+      "id": "TISCH8-JHN1-3-APP",
+      "reference": "JHN 1:3",
+      "page": "740",
+      "leaf": 766,
+      "region_fraction_xyxy": [
+        0.16,
+        0.48,
+        0.95,
+        0.68
+      ],
+      "layer": "historical_apparatus",
+      "short_normalized_excerpt": "οὐδὲ ἕν ... οὐδέν",
+      "observation": "Apparatus entry 3 discusses both word divisions and continues into clause-attachment discussion on pp. 741–742. Complete witness list and hand distinctions are not transcribed here.",
+      "full_sigla_resolution": false
+    },
+    {
+      "id": "TISCH8-JHN1-4-TEXT",
+      "reference": "JHN 1:4",
+      "page": "741",
+      "leaf": 767,
+      "region_fraction_xyxy": [
+        0.07,
+        0.1,
+        0.85,
+        0.14
+      ],
+      "layer": "printed_main_text",
+      "short_normalized_excerpt": "αὐτῷ ζωὴ ἐστιν",
+      "observation": "The first line continues verse 4 from page 740 and prints present ἐστιν. Normalized excerpt is not a diplomatic full-page transcription.",
+      "not_a_manuscript_reading": true
+    },
+    {
+      "id": "TISCH8-JHN1-4-APP",
+      "reference": "JHN 1:4",
+      "page": "742",
+      "leaf": 768,
+      "region_fraction_xyxy": [
+        0.15,
+        0.55,
+        0.95,
+        0.73
+      ],
+      "layer": "historical_apparatus",
+      "short_normalized_excerpt": "ἐστιν cum אD",
+      "printed_sigla_partial": [
+        "א",
+        "D"
+      ],
+      "observation": "Entry 4 prints ἐστιν with א and D in its initial support group, then discusses ἦν and further evidence. This is Tischendorf’s historical report, not direct inspection of these manuscripts. No cross-edition siglum or corrector equivalence is asserted.",
+      "full_sigla_resolution": false
+    }
+  ],
+  "digital_comparison": {
+    "reader_edition": "grc-tischendorf8",
+    "checks": [
+      {
+        "reference": "JHN 1:4",
+        "result": "digital ἐστιν agrees with inspected printed main text at this word only"
+      },
+      {
+        "reference": "JHN 1:3",
+        "result": "digital verse ends γέγονεν without the printed full stop; punctuation discrepancy recorded, upstream text retained"
+      }
+    ],
+    "whole_dataset_print_verified": false
+  },
+  "limits": [
+    "Five distinct printed pages visually inspected; six JPEG derivatives retained",
+    "No manuscript images inspected",
+    "No final reading adopted",
+    "No production OCR run; no CER or WER established",
+    "Archive OCR used solely to locate pages",
+    "Historical patristic citations remain bibliographic leads until their cited editions are checked"
+  ]
+}

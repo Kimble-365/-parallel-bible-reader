@@ -1,3 +1,4 @@
+import os
 """Real apparatus sources, TEI/JSONL imports, private persistence, offline and mobile."""
 from pathlib import Path
 from http.server import ThreadingHTTPServer,SimpleHTTPRequestHandler
@@ -8,7 +9,7 @@ ROOT=Path(__file__).resolve().parents[1]
 class H(SimpleHTTPRequestHandler):
  def __init__(self,*a,**k):super().__init__(*a,directory=str(ROOT),**k)
  def log_message(self,*a):pass
-s=ThreadingHTTPServer(('127.0.0.1',0),H);Thread(target=s.serve_forever,daemon=True).start();base=f'http://127.0.0.1:{s.server_port}/releases/v1.24/'
+s=ThreadingHTTPServer(('127.0.0.1',0),H);Thread(target=s.serve_forever,daemon=True).start();base=f'http://127.0.0.1:{s.server_port}/releases/v'+os.environ.get('READER_VERSION','1.24')+'/'
 tei='''<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title>SYNTHETIC SYRIAC FORMAT TEST</title></titleStmt><sourceDesc><listWit><witness xml:id="EXAMPLE-A">Synthetic witness, not historical evidence</witness></listWit></sourceDesc></fileDesc></teiHeader><text><body><ab n="GEN.1.1"><app type="unapproved-example"><lem wit="#EXAMPLE-A">ܐ</lem><rdg wit="#EXAMPLE-B" hand="test-hand">ܒ</rdg><note>Made-up format test, not a manuscript claim.</note></app></ab></body></text></TEI>'''
 try:
  with sync_playwright() as p:

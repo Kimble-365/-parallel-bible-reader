@@ -1,6 +1,6 @@
 # Reader 1.26 — saved apparatus and filtered UTF-8 export
 
-Prepared increment; browser verification and publication are pending.
+Full combined verification passed in [Actions 41361926401](https://github.com/Kimble-365/-parallel-bible-reader/actions/runs/41361926401), immutable preview 8c940d191ba7871b573bff3816a917c8bf22df8e. Includes saved-only races, partial store failure, offline reload, isolated removal, UTF-8 export, Syriac lexical/16-slot/offline checks and inherited apparatus/BHH/reader behavior.
 
 Study → Textual apparatus → Saved apparatus lists downloaded source books and private imports separately, and opens either directly. Downloaded books use saved bytes only; missing or outdated list entries never trigger a source download. After a missing-cache error, an explicit Load can retrieve the source. Current supported source pins are recognized by namespace/commit/book; older pins remain visible with an explanation and a remove option. Independent storage failures do not hide the other library.
 

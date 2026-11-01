@@ -1,0 +1,35 @@
+{
+  "query": {
+    "query": "creator:Tischendorf AND title:(Novum Testamentum) AND year:[1869 TO 1872]",
+    "qin": "creator:(Tischendorf) AND title:(Novum Testamentum) AND year:[1869 TO 1872]",
+    "fields": "identifier,title,date,volume",
+    "wt": "json",
+    "rows": 12,
+    "start": 0
+  },
+  "items": [
+    {
+      "date": "1869-01-01T00:00:00Z",
+      "identifier": "novumtestamentum01tisc",
+      "title": "Novum Testamentum graece. Ad antiquissimos testes denuo recensuit, apparatum criticum omni studio perfectum apposuit commentationem isagogicam praetexuit",
+      "volume": "1",
+      "url": "https://archive.org/details/novumtestamentum01tisc",
+      "status": "identified_in_archive_catalogue_search",
+      "title_page_inspected": false,
+      "apparatus_content_verified": false,
+      "digital_tischendorf_module_contains_apparatus": false
+    },
+    {
+      "date": "1872-01-01T00:00:00Z",
+      "identifier": "novumtestamentum02tisc",
+      "title": "Novum Testamentum graece. Ad antiquissimos testes denuo recensuit, apparatum criticum omni studio perfectum apposuit commentationem isagogicam praetexuit",
+      "volume": "2",
+      "url": "https://archive.org/details/novumtestamentum02tisc",
+      "status": "identified_in_archive_catalogue_search",
+      "title_page_inspected": false,
+      "apparatus_content_verified": false,
+      "digital_tischendorf_module_contains_apparatus": false
+    }
+  ],
+  "note": "Catalogue titles explicitly refer to an apparatus criticus. Printed title pages and apparatus pages still require image inspection. Do not confuse 1877 critica minor with 1869/1872 critica maior."
+}

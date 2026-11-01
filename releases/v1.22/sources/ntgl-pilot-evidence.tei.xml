@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>NTGL pilot evidence; no local stemmata supplied</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>CC BY-NC-SA 3.0 for Sinaiticus-derived evidence; source attribution in NTGL notices.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Codex Sinaiticus Project transcription v1.95; no manuscript images checked.</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <listWit>
+        <witness xml:id="GA01">One physical manuscript: Codex Sinaiticus</witness>
+      </listWit>
+      <app xml:id="VU-JHN-1-3-OUDE" loc="JHN 1:3">
+        <rdg n="OUDE-HEN" wit="#GA01" hand="ca">οὐδὲ ἕν</rdg>
+        <rdg n="OUDEN" wit="#GA01" hand="firsthand">οὐδέν</rdg>
+      </app>
+      <app xml:id="VU-JHN-1-4-EIMI" loc="JHN 1:4">
+        <rdg n="EN" type="comparison-edition-only">ἦν</rdg>
+        <rdg n="ESTIN" wit="#GA01" hand="firsthand">ἐστίν</rdg>
+      </app>
+    </body>
+  </text>
+</TEI>

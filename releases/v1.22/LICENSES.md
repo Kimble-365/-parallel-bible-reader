@@ -884,3 +884,9 @@ Generated from the unchanged Public Domain Bungo/Taisho source with PyKakasi (GP
 
 
 1.21 optional study datasets: STEPBible TAGNT/TAHOT via GabeBrPierce (CC BY 4.0), NEUU Bible Dictionary Dataset (CC BY 4.0; historical CCEL dictionaries), historical Henry/Gill/JFB/Wesley text via OpenChristianData (per-file PD/CC0 notices; metadata/provenance retained with noncommercial repository conditions), and Henry Concise Markdown by lyteword (CC0-1.0). See README.md and ../../docs/research/study-apps-and-rights-121.md for pinned commits, coverage and attribution. Only indexes/configuration are bundled; remote text packs are requested and optionally saved by the user. NET translator notes and modern commercial study-Bible/commentary editions remain external.
+
+## Related English comparison texts — 31 October 2026
+
+OET Literal and Readers versions: © OET contributors, CC BY-SA 4.0; intended for paired use. POB: © 2026 Cartha Inc. and contributors, CC BY 4.0, canonical translation only. OEB US published release: CC0. Reader conversion omits display notes/markup; source numbering and source translation notes are retained in compressed originals. Exact pinned commits, per-file hashes and raw paths: sources/related-import.json. Changes: verse-display extraction and deterministic gzip packing, not source endorsement. Original projects retain their names and trademarks.
+
+TWV, AI Scribes and Swarm full texts are not distributed; see related-projects.md for rights limits. Greek Room is a checker, not an edition. Existing WEB is reused instead of duplicating Open Bibles data.

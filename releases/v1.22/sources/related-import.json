@@ -1,0 +1,941 @@
+{
+  "date": "2026-10-31",
+  "editions": [
+    {
+      "id": "eng-oet-lv",
+      "repo": "Freely-Given-org/OpenEnglishTranslation--OET",
+      "commit": "9d135bfe6810976f102000030622ee5c4a8b6669",
+      "license": "CC BY-SA 4.0",
+      "books": 66,
+      "verses": 31127,
+      "scope": "Available canonical books; source draft, not expert-approved",
+      "files": [
+        {
+          "path": "sources/related/eng-oet-lv/OET-LV_1Ch.USFM.gz",
+          "sha256": "7522500f4d83c79d2b6f848a4e4e0fa1cc9614c2bcf4b62f59c1e5a866adc3c6",
+          "bytes": 174870
+        },
+        {
+          "path": "sources/related/eng-oet-lv/OET-LV_1Co.USFM.gz",
+          "sha256": "988117ba5195f712c5a67107508e998bf919814cae57d35b9787bf201f7d4ad8",
+          "bytes": 68848
+        },
+        {
+          "path": "sources/related/eng-oet-lv/OET-LV_1Jn.USFM.gz",
+          "sha256": "72513f3beefab270cd296f6b1b6bf26da5829045b0001f75933ac3694ebcdd52",
+          "bytes": 18125
+        },
+        {
+          "path": "sources/related/eng-oet-lv/OET-LV_1Ki.USFM.gz",
+          "sha256": "f6a7e37bb593f99e58b427bb012ebd617de2a273f97057ca2cae2e134013a5b6",
+          "bytes": 186912
+        },
+        {
+          "path": "sources/related/eng-oet-lv/OET-LV_1Pe.USFM.gz",
+          "sha256": "a3ff2fe76548a49f8cabd1f0f0150ce9f81936fb3df66ed0ce63916fa6233d81",
+          "bytes": 18431
+        },
+        {
+          "path": "sources/related/eng-oet-lv/OET-LV_1Sa.USFM.gz",
+          "sha256": "fd3a1413eaed738ed0b6e54de3dae48efec1f2199cd82491c3176f316a3facaf",
+          "bytes": 198686
+        },
+        {
+          "path": "sources/related/eng-oet-lv/OET-LV_1Th.USFM.gz",
+          "sha256": "4da9e1883af88f5a322d93569d479193e04ccb78b4e61dc1d06cee212897dbbb",
+          "bytes": 14738
+        },
+        {
+          "path": "sources/related/eng-oet-lv/OET-LV_1Ti.USFM.gz",
+          "sha256": "0f46efcefb214ad5422ef396b4ac929e8d86c57aacd95417e5f1ca3b3cac3413",
+          "bytes": 17317
+        },
+        {
+          "path": "sources/related/eng-oet-lv/OET-LV_2Ch.USFM.gz",
+          "sha256": "4f9c6b053c676c0927d3004d2603a158431d17cd55b7829e78db9c262dfd2554",
+          "bytes": 203566
+        },
+        {
+          "path": "sources/related/eng-oet-lv/OET-LV_2Co.USFM.gz",
+          "sha256": "e97885e36a04a5d481b64712774cc58a45ecffd215d81e963146f650750efeb3",
+          "bytes": 43751
+        },
+        {
+          "path": "sources/related/eng-oet-lv/OET-LV_2Jn.USFM.gz",
+          "sha256": "e1f84c948a24e53280892e77ab9806417ca88b083f8f7a61a0045dfd458ba7db",
+          "bytes": 2554
+        },
+        {
+          "path": "sources/related/eng-oet-lv/OET-LV_2Ki.USFM.gz",
+          "sha256": "468056a0370f1015117f1a4c7ed7a3b72fc26d05062644c1974fa5ce5e0b3259",
+          "bytes": 182669
+        },
+        {
+          "path": "sources/related/eng-oet-lv/OET-LV_2Pe.USFM.gz",
+          "sha256": "ca33ea292eb371c6975f8c2aa53a1b443b386c7b63df638dec57442c6ce840e2",
+          "bytes": 12037
+        },
+        {
+          "path": "sources/related/eng-oet-lv/OET-LV_2Sa.USFM.gz",
+          "sha256": "1d1e224b8c63e05d3bde2f4f9cf6a53c1d40c5462345cd5d774784e5870bd717",
+          "bytes": 167422
+        },
+        {
+          "path": "sources/related/eng-oet-lv/OET-LV_2Th.USFM.gz",
+          "sha256": "e56ff9054fdb53e52d09209f2bd26927b52eae071e3886a8d5fb85b811b3cc04",
+          "bytes": 8624
+        },
+        {
+          "path": "sources/related/eng-oet-lv/OET-LV_2Ti.USFM.gz",
+          "sha256": "5fc05545016269ae66a2eb252ee14d67e443d97fc5f71d6f2083289f54c1e879",
+          "bytes": 12763
+        },
+        {
+          "path": "sources/related/eng-oet-lv/OET-LV_3Jn.USFM.gz",
+          "sha256": "dfd766640d2df411fe7e4b7ffeb789448882f5aafa987314f2f5285af7a7e6fd",
+          "bytes": 2484
+        },
+        {
+          "path": "sources/related/eng-oet-lv/OET-LV_Act.USFM.gz",
+          "sha256": "6bc1a6c3ab437f5292500e6adcbc89fedf6f156bd1c21ef99bf086d7817fd030",
+          "bytes": 172999
+        },
+        {
+          "path": "sources/related/eng-oet-lv/OET-LV_Amo.USFM.gz",
+          "sha256": "13540eac9459ca8b18b4ce73a7afc139eb2016dfb48948c8c45376e9dbd7853e",
+          "bytes": 31565
+        },
+        {
+          "path": "sources/related/eng-oet-lv/OET-LV_Col.USFM.gz",
+          "sha256": "b7c9297ec86a53871cef0f07f2d1eb815fbd416db6349d295a2155fa2438a102",
+          "bytes": 15424
+        },
+        {
+          "path": "sources/related/eng-oet-lv/OET-LV_Dan.USFM.gz",
+          "sha256": "b944ea70094a272b4cb3a50893d10eb243103841750feb50185f3d13193f31c8",
+          "bytes": 107345
+        },
+        {
+          "path": "sources/related/eng-oet-lv/OET-LV_Deu.USFM.gz",
+          "sha256": "9e150545831f75afc19188e5118401aec9e39683e642702d4a15610481cdd9eb",
+          "bytes": 223882
+        },
+        {
+          "path": "sources/related/eng-oet-lv/OET-LV_Ecc.USFM.gz",
+          "sha256": "4077ec534173b0b092d928bb20c852018b871fb9d9ac3e613586871d26658c4e",
+          "bytes": 44558
+        },
+        {
+          "path": "sources/related/eng-oet-lv/OET-LV_Eph.USFM.gz",
+          "sha256": "92dfa80b97f0d98ec068738ce5b902d10abc4b8c04573dad870006ae05cfe349",
+          "bytes": 23378
+        },
+        {
+          "path": "sources/related/eng-oet-lv/OET-LV_Est.USFM.gz",
+          "sha256": "a67e221781b7e029250e3c3076ea502d58ab0b3662f80e1e13571a91c40b3b23",
+          "bytes": 43182
+        },
+        {
+          "path": "sources/related/eng-oet-lv/OET-LV_Exo.USFM.gz",
+          "sha256": "83de964dee647032ecaa11cc99bfc8ff16d29b4e31918a6a08ebc776b0ba1918",
+          "bytes": 242171
+        },
+        {
+          "path": "sources/related/eng-oet-lv/OET-LV_Ezk.USFM.gz",
+          "sha256": "0a647305807ef44b60196929ca2d2ddf4f85af47bc11341e99be579515b0d775",
+          "bytes": 297657
+        },
+        {
+          "path": "sources/related/eng-oet-lv/OET-LV_Ezr.USFM.gz",
+          "sha256": "d76e375d794d7cbfd902885197c4c58eb6a6abdd5c8596409fac5fa50149f535",
+          "bytes": 63647
+        },
+        {
+          "path": "sources/related/eng-oet-lv/OET-LV_Gal.USFM.gz",
+          "sha256": "f8340bb591d58b41615cfa25c20fa0a29f583afe0a3e8f6a4576742506f254ca",
+          "bytes": 23622
+        },
+        {
+          "path": "sources/related/eng-oet-lv/OET-LV_Gen.USFM.gz",
+          "sha256": "e7fe9521f4b1914d25f78decb94f64ee59221d7aed177823b8a02a6ce74bfba7",
+          "bytes": 288302
+        },
+        {
+          "path": "sources/related/eng-oet-lv/OET-LV_Hab.USFM.gz",
+          "sha256": "efa618fb9f9b0e429f769bb05df54f434889f528f6e3c71b45e6d0463c433b66",
+          "bytes": 11830
+        },
+        {
+          "path": "sources/related/eng-oet-lv/OET-LV_Hag.USFM.gz",
+          "sha256": "4f8dfedfaa8b560d3864f707577ff7202cb49ad8c902c2f04b8f408eee585643",
+          "bytes": 9038
+        },
+        {
+          "path": "sources/related/eng-oet-lv/OET-LV_Heb.USFM.gz",
+          "sha256": "5a323c09ad84772240e70965fef48dba1d6f44e909ce53c65bc804e9e3a729d8",
+          "bytes": 51850
+        },
+        {
+          "path": "sources/related/eng-oet-lv/OET-LV_Hos.USFM.gz",
+          "sha256": "37db0e27c2672db48f58fb266fa0dfb2ea7184bb8107423b6a726983294a015c",
+          "bytes": 40926
+        },
+        {
+          "path": "sources/related/eng-oet-lv/OET-LV_Isa.USFM.gz",
+          "sha256": "8201be501b01e73eb2eff6b91f0ecf504ff7b37491487ed91252c08fd9404465",
+          "bytes": 272975
+        },
+        {
+          "path": "sources/related/eng-oet-lv/OET-LV_Jas.USFM.gz",
+          "sha256": "252aaa0b4faa8888f417eccddcb6d4eccbf4572dcec3c6a3872332764b94684c",
+          "bytes": 17242
+        },
+        {
+          "path": "sources/related/eng-oet-lv/OET-LV_Jdg.USFM.gz",
+          "sha256": "89fc5d7fb5804a4dac43edc8cd14277ba64620a7f0a6c052be8859d46d40d6a0",
+          "bytes": 145694
+        },
+        {
+          "path": "sources/related/eng-oet-lv/OET-LV_Jer.USFM.gz",
+          "sha256": "0f9fddbf7497feb9ec4eda09c46681cc099605f86a5f1af16dbfd55c3a18baba",
+          "bytes": 335117
+        },
+        {
+          "path": "sources/related/eng-oet-lv/OET-LV_Jhn.USFM.gz",
+          "sha256": "e1e3b7f77943d2f73e3b6e0f47bdf45a0d8c2982226d91e01a0e72e3b9aad6cb",
+          "bytes": 137769
+        },
+        {
+          "path": "sources/related/eng-oet-lv/OET-LV_Job.USFM.gz",
+          "sha256": "f7a8502ff432a6e819c4ced668ec4501bd8cd4f4cfa8fd2cb8f03a01d82857b3",
+          "bytes": 143055
+        },
+        {
+          "path": "sources/related/eng-oet-lv/OET-LV_Jol.USFM.gz",
+          "sha256": "039907f62771170e750971136b0ec235caa7d67b52dcca5e5f0156a75385fe01",
+          "bytes": 16965
+        },
+        {
+          "path": "sources/related/eng-oet-lv/OET-LV_Jon.USFM.gz",
+          "sha256": "d1579d305b257757982f7b27308a6534a048e3a4f27c7161a47b23bc7baf9105",
+          "bytes": 10272
+        },
+        {
+          "path": "sources/related/eng-oet-lv/OET-LV_Jos.USFM.gz",
+          "sha256": "6ecce1597285400bd29773bb7a7dc16426d61d7a059992df5724809ea951ae6f",
+          "bytes": 146169
+        },
+        {
+          "path": "sources/related/eng-oet-lv/OET-LV_Jud.USFM.gz",
+          "sha256": "f9b636a8ba77a0942994392c3b49ee7da21da8bbfde9e1913aa6bc3ef0d0adf5",
+          "bytes": 5403
+        },
+        {
+          "path": "sources/related/eng-oet-lv/OET-LV_Lam.USFM.gz",
+          "sha256": "a1c13243baed5d1ed62007292794790d12ff25269529daf1a92ee6d828d216ed",
+          "bytes": 29340
+        },
+        {
+          "path": "sources/related/eng-oet-lv/OET-LV_Lev.USFM.gz",
+          "sha256": "17d70acf596c204349e3e040fd0b7b1c52ae7d67f975780572b4f7001707301a",
+          "bytes": 176310
+        },
+        {
+          "path": "sources/related/eng-oet-lv/OET-LV_Luk.USFM.gz",
+          "sha256": "f4a290b043ff1ce5f586a05a50f745a9f934f5e055df68b72200587980ed761c",
+          "bytes": 182243
+        },
+        {
+          "path": "sources/related/eng-oet-lv/OET-LV_Mal.USFM.gz",
+          "sha256": "e9d2806e28d040242ef1acde304f8aece3888b96c2d05c2f68ad53cd36f0aee0",
+          "bytes": 14253
+        },
+        {
+          "path": "sources/related/eng-oet-lv/OET-LV_Mat.USFM.gz",
+          "sha256": "ab7c3dab834c30fc4f7788a8f8afd526e061481ef7cfff9978a617f223954791",
+          "bytes": 168596
+        },
+        {
+          "path": "sources/related/eng-oet-lv/OET-LV_Mic.USFM.gz",
+          "sha256": "1565b9c9ffb6ba86c94dfdbb921cc08980b309488e4e4a8de96bf3a4a5f1ffe0",
+          "bytes": 23746
+        },
+        {
+          "path": "sources/related/eng-oet-lv/OET-LV_Mrk.USFM.gz",
+          "sha256": "d6df2f3bad5832f8d78e1363788573535398f11c66583b98612d7a3345084a08",
+          "bytes": 102879
+        },
+        {
+          "path": "sources/related/eng-oet-lv/OET-LV_Nam.USFM.gz",
+          "sha256": "325fa319a54a895dfd9b8e5b890ed8a1384045e079cae3701468fb3e116dc918",
+          "bytes": 10492
+        },
+        {
+          "path": "sources/related/eng-oet-lv/OET-LV_Neh.USFM.gz",
+          "sha256": "3e804bf00e957c3ce7132afb9ba61d058a84285f3db3682decee2e420c4fd505",
+          "bytes": 86506
+        },
+        {
+          "path": "sources/related/eng-oet-lv/OET-LV_Num.USFM.gz",
+          "sha256": "1f461a91af628c14e954f196b67b53f3fdd74141ae79a68a3a218e6dd5f80c52",
+          "bytes": 243586
+        },
+        {
+          "path": "sources/related/eng-oet-lv/OET-LV_Oba.USFM.gz",
+          "sha256": "6ddb4338c88d6e3ca5cdc4d04289214cc1b2758839f994f2fb58cdf7ddfd70bf",
+          "bytes": 5599
+        },
+        {
+          "path": "sources/related/eng-oet-lv/OET-LV_Phm.USFM.gz",
+          "sha256": "5ac63d562fbebf64bcfb3850b04ee129a10e1f015c403bdb23d37f8d24ae7c97",
+          "bytes": 3680
+        },
+        {
+          "path": "sources/related/eng-oet-lv/OET-LV_Php.USFM.gz",
+          "sha256": "942ac4e3e63234aeb42d8d5c7833820c3a2056638e7371e924dad6c2e3315815",
+          "bytes": 17405
+        },
+        {
+          "path": "sources/related/eng-oet-lv/OET-LV_Pro.USFM.gz",
+          "sha256": "ec7fbe1b08afab346f62e05dbb15ea5fcb6ce109167dcf07f89756dac2448d99",
+          "bytes": 129803
+        },
+        {
+          "path": "sources/related/eng-oet-lv/OET-LV_Psa.USFM.gz",
+          "sha256": "3477dbf38a16560eb23a0fc4c11fc3c1506c2ad1ab9a40e1f6a56215a9b8066d",
+          "bytes": 368976
+        },
+        {
+          "path": "sources/related/eng-oet-lv/OET-LV_Rev.USFM.gz",
+          "sha256": "bbb9d03a3fd76e11cf3754b0c0ae7bcaec3714dc7aa5250fbde0c9ddd553d30d",
+          "bytes": 81220
+        },
+        {
+          "path": "sources/related/eng-oet-lv/OET-LV_Rom.USFM.gz",
+          "sha256": "43ecb68a9e6b8ea5a092d8c190921a090edf57eda7e1c41587baef0846249d91",
+          "bytes": 70434
+        },
+        {
+          "path": "sources/related/eng-oet-lv/OET-LV_Rut.USFM.gz",
+          "sha256": "955ac86552bd597ab616be022c32406b6fd78568fae311c07d3e104659d7331a",
+          "bytes": 21708
+        },
+        {
+          "path": "sources/related/eng-oet-lv/OET-LV_Sng.USFM.gz",
+          "sha256": "f5193a83658da3a0108846831ff8d726a80daadb4b7a2cd0d133223729faad82",
+          "bytes": 23222
+        },
+        {
+          "path": "sources/related/eng-oet-lv/OET-LV_Tit.USFM.gz",
+          "sha256": "e72f4c2b7b40a21fd5046b1fef0f8203604bab427231e454b710b1d81b306a5d",
+          "bytes": 7226
+        },
+        {
+          "path": "sources/related/eng-oet-lv/OET-LV_Zec.USFM.gz",
+          "sha256": "3f5fdd00b0145293c2798cc8c0625f439b36e191813386088e8fc27c653790fc",
+          "bytes": 48829
+        },
+        {
+          "path": "sources/related/eng-oet-lv/OET-LV_Zep.USFM.gz",
+          "sha256": "1cdc5d34aaf11b316378e679759636bee23d965b0f0cce02a19cc77bcd6ac3d2",
+          "bytes": 12845
+        }
+      ]
+    },
+    {
+      "id": "eng-oet-rv",
+      "repo": "Freely-Given-org/OpenEnglishTranslation--OET",
+      "commit": "9d135bfe6810976f102000030622ee5c4a8b6669",
+      "license": "CC BY-SA 4.0",
+      "books": 66,
+      "verses": 30996,
+      "scope": "Available canonical books; source draft, not expert-approved",
+      "files": [
+        {
+          "path": "sources/related/eng-oet-rv/OET-RV_1Ch.USFM.gz",
+          "sha256": "5a3e920c9b974747a8d82d1c1d2d74958e83db6ef78678a688656a6ce8d9a7ec",
+          "bytes": 146587
+        },
+        {
+          "path": "sources/related/eng-oet-rv/OET-RV_1Co.USFM.gz",
+          "sha256": "4444fa89aadb4cdfb07060cb236a8f1a01c075753f983630b8382e14f287f919",
+          "bytes": 76689
+        },
+        {
+          "path": "sources/related/eng-oet-rv/OET-RV_1Jn.USFM.gz",
+          "sha256": "6248db753b47f26e81e1482645a54bb6f86aeba983c9898d21ccd78dd4507102",
+          "bytes": 20158
+        },
+        {
+          "path": "sources/related/eng-oet-rv/OET-RV_1Ki.USFM.gz",
+          "sha256": "55a34d5595c6e4943b0dcc000b26503a0fc765f9bb17c7d7a1a91149b71a045f",
+          "bytes": 166938
+        },
+        {
+          "path": "sources/related/eng-oet-rv/OET-RV_1Pe.USFM.gz",
+          "sha256": "bba8d2800ea177bdb41f4784c967557ac1d8da494f25300d0360bbf02a65cb54",
+          "bytes": 21412
+        },
+        {
+          "path": "sources/related/eng-oet-rv/OET-RV_1Sa.USFM.gz",
+          "sha256": "4a89dc5b06e05c3f25b08926f3131cfa8f5021415e43394b4894b3088eeb9764",
+          "bytes": 171501
+        },
+        {
+          "path": "sources/related/eng-oet-rv/OET-RV_1Th.USFM.gz",
+          "sha256": "d39025d7951ac59251102491eef4859f1ab40be8ccaa9ee96aef9f5ed4f6a26c",
+          "bytes": 16667
+        },
+        {
+          "path": "sources/related/eng-oet-rv/OET-RV_1Ti.USFM.gz",
+          "sha256": "9072f2f6a14dd2c3c1c73db3740ea3efbcaf682f27cfb3e9ef34d860d2cc4658",
+          "bytes": 20438
+        },
+        {
+          "path": "sources/related/eng-oet-rv/OET-RV_2Ch.USFM.gz",
+          "sha256": "a62fb8114976ed091742a2269e17f740c17b08b41b7c40fb0eb2ade5d847f284",
+          "bytes": 178664
+        },
+        {
+          "path": "sources/related/eng-oet-rv/OET-RV_2Co.USFM.gz",
+          "sha256": "8e556d401d51ccee95abc9089149d85d6ad55f3998b91ae26aecca4b07b7726b",
+          "bytes": 46144
+        },
+        {
+          "path": "sources/related/eng-oet-rv/OET-RV_2Jn.USFM.gz",
+          "sha256": "0336484a57507b922c8d5917bedf5f645dce754e93154487a53aa99460e27730",
+          "bytes": 3519
+        },
+        {
+          "path": "sources/related/eng-oet-rv/OET-RV_2Ki.USFM.gz",
+          "sha256": "176201b44b3488903ed0213ca4b6f3bc45bb9185c151f79f04e68f4bab226e46",
+          "bytes": 162699
+        },
+        {
+          "path": "sources/related/eng-oet-rv/OET-RV_2Pe.USFM.gz",
+          "sha256": "c240fb765497b81abb74b433d8d8dbe5f176b4bba02f4d5e6f83a50d00b031ce",
+          "bytes": 12372
+        },
+        {
+          "path": "sources/related/eng-oet-rv/OET-RV_2Sa.USFM.gz",
+          "sha256": "f2386490054e1cb44f4f7e5be6de88d47881755e0cac8604360fcea32844b3cf",
+          "bytes": 140375
+        },
+        {
+          "path": "sources/related/eng-oet-rv/OET-RV_2Th.USFM.gz",
+          "sha256": "ca717531bbd6df9d6717448f9df64233ec1a623b5324f52aa6841672716fdc9b",
+          "bytes": 10130
+        },
+        {
+          "path": "sources/related/eng-oet-rv/OET-RV_2Ti.USFM.gz",
+          "sha256": "3fc39dd18c12c6e2ebdbd9405a73a9dc20e7b60694f4fc867f67149226899bc4",
+          "bytes": 15592
+        },
+        {
+          "path": "sources/related/eng-oet-rv/OET-RV_3Jn.USFM.gz",
+          "sha256": "a51b337010a859fa59ebb203fc0a446fe1ae9d716354bbd0632e27caffad7b6a",
+          "bytes": 3450
+        },
+        {
+          "path": "sources/related/eng-oet-rv/OET-RV_Act.USFM.gz",
+          "sha256": "66358b8a92fe84d1aaac43a326d6746c2ec7aab4b7396da5966ada090b153ca2",
+          "bytes": 176918
+        },
+        {
+          "path": "sources/related/eng-oet-rv/OET-RV_Amo.USFM.gz",
+          "sha256": "813f940bb71cfb66ffeeb82fa6608483e1d80a1bac828c419e0b34544939dbc0",
+          "bytes": 32507
+        },
+        {
+          "path": "sources/related/eng-oet-rv/OET-RV_Col.USFM.gz",
+          "sha256": "e2b5794e2b1f20786bb36877f670e1d32c8987aedbdc2ca5ddcff146281c8cc2",
+          "bytes": 18947
+        },
+        {
+          "path": "sources/related/eng-oet-rv/OET-RV_Dan.USFM.gz",
+          "sha256": "eb1603e3a140498d8a3dfb9d4bdedd6ac14ce759c152795e5929c5f6b4a7377b",
+          "bytes": 80477
+        },
+        {
+          "path": "sources/related/eng-oet-rv/OET-RV_Deu.USFM.gz",
+          "sha256": "8fce50c51b8231d043fe8246dfa8432840bd64741f0c56b36bc3128517e4615b",
+          "bytes": 181146
+        },
+        {
+          "path": "sources/related/eng-oet-rv/OET-RV_Ecc.USFM.gz",
+          "sha256": "cb9a9763c9e3d168ab5a8fd2e1ba3f7fb32bfeeae4bbcd11f1f98ad178b66b9b",
+          "bytes": 41511
+        },
+        {
+          "path": "sources/related/eng-oet-rv/OET-RV_Eph.USFM.gz",
+          "sha256": "1b5d44b3f89fd0641321c78e02b2bedaf4e4fe94e6a0d9ed760cade86f9c77df",
+          "bytes": 26558
+        },
+        {
+          "path": "sources/related/eng-oet-rv/OET-RV_Est.USFM.gz",
+          "sha256": "79a8ce7965380a1f5315fb8dbd890990cbedeab5c5c803d04783925efef9103c",
+          "bytes": 41146
+        },
+        {
+          "path": "sources/related/eng-oet-rv/OET-RV_Exo.USFM.gz",
+          "sha256": "9c4a657ec3d2a382f29a839e5a7f9590f347947d25512cc0de0605b1f01ae027",
+          "bytes": 217074
+        },
+        {
+          "path": "sources/related/eng-oet-rv/OET-RV_Ezk.USFM.gz",
+          "sha256": "8b2b8be8a0f582c08cb795c010b7c47edbb16e41e232a1b3782f1a8fb972bec0",
+          "bytes": 256695
+        },
+        {
+          "path": "sources/related/eng-oet-rv/OET-RV_Ezr.USFM.gz",
+          "sha256": "008f3e69738d40c5ca6c69a7e2de992c00dad01d33cb255314edaf5a25b5721f",
+          "bytes": 51065
+        },
+        {
+          "path": "sources/related/eng-oet-rv/OET-RV_Gal.USFM.gz",
+          "sha256": "1d7d214be5a91b458afbe2eb85708ce704a0fc92abb7bccb05e7d46d863cd2bc",
+          "bytes": 27873
+        },
+        {
+          "path": "sources/related/eng-oet-rv/OET-RV_Gen.USFM.gz",
+          "sha256": "3b6ffafbb5e516b886c7ba8355fb2cb3ebc6cc709bab87619d7bf78c5796f62a",
+          "bytes": 271811
+        },
+        {
+          "path": "sources/related/eng-oet-rv/OET-RV_Hab.USFM.gz",
+          "sha256": "517fdfbff3fca4bb3da1ebe68f687547b31b8fcd2fff8031e45da81d1b6b98b4",
+          "bytes": 13323
+        },
+        {
+          "path": "sources/related/eng-oet-rv/OET-RV_Hag.USFM.gz",
+          "sha256": "4d51f4ae601f6a8ebc8a9a81015b989948c1fa9553bec5dbd08793e7bb081a9f",
+          "bytes": 8838
+        },
+        {
+          "path": "sources/related/eng-oet-rv/OET-RV_Heb.USFM.gz",
+          "sha256": "534fb343af9eb64a1a05b65df3e2cd14cbd9ced5dc8188afec40e58e3b4b3c34",
+          "bytes": 57818
+        },
+        {
+          "path": "sources/related/eng-oet-rv/OET-RV_Hos.USFM.gz",
+          "sha256": "fcbacebd687b47f6516aed9f9e4c415c7287fd20416f158aa62d50cbf57f3d7c",
+          "bytes": 42098
+        },
+        {
+          "path": "sources/related/eng-oet-rv/OET-RV_Isa.USFM.gz",
+          "sha256": "7dbeacdbf2a3ef30aa193d0239bc7c0311a0426b4882f7581666f237a755bb54",
+          "bytes": 274313
+        },
+        {
+          "path": "sources/related/eng-oet-rv/OET-RV_Jas.USFM.gz",
+          "sha256": "879c534187473e1679e58202c0af64e4706230459e63a301b4ef5d27f495acde",
+          "bytes": 20199
+        },
+        {
+          "path": "sources/related/eng-oet-rv/OET-RV_Jdg.USFM.gz",
+          "sha256": "a48dd7cbcd1ff67220549bcacf678237fa97110c599ab462cea5128f09db7037",
+          "bytes": 126249
+        },
+        {
+          "path": "sources/related/eng-oet-rv/OET-RV_Jer.USFM.gz",
+          "sha256": "5938cda79d8d6f1805a9325623a5b48f2373a1bb8ea45a4a6e4fa56fe0f333f4",
+          "bytes": 306288
+        },
+        {
+          "path": "sources/related/eng-oet-rv/OET-RV_Jhn.USFM.gz",
+          "sha256": "69494c9e764b4cc99a5676109bc788ef8ccfe768c8f98792dcf62cea56e74443",
+          "bytes": 146713
+        },
+        {
+          "path": "sources/related/eng-oet-rv/OET-RV_Job.USFM.gz",
+          "sha256": "754de0731dd05725919a2c324afdd67c2c859879ac7a1f758c165fb895f45c46",
+          "bytes": 140169
+        },
+        {
+          "path": "sources/related/eng-oet-rv/OET-RV_Jol.USFM.gz",
+          "sha256": "edc4f234c87d54b34e576a1a539c94a3151f5b88bc5badd1034959ad2c146508",
+          "bytes": 16733
+        },
+        {
+          "path": "sources/related/eng-oet-rv/OET-RV_Jon.USFM.gz",
+          "sha256": "acabd5a6244650a15a297350b72e9ec36e0bddb95a44c6b9d843da5c92c3e3a7",
+          "bytes": 9505
+        },
+        {
+          "path": "sources/related/eng-oet-rv/OET-RV_Jos.USFM.gz",
+          "sha256": "7629a385dce67a27c6bd9bd9d3ed29f46b4f12470509d306d5e1315fd63bdc27",
+          "bytes": 123211
+        },
+        {
+          "path": "sources/related/eng-oet-rv/OET-RV_Jud.USFM.gz",
+          "sha256": "b30c07021f5fd666268f3d248f2f5e1f7bdf31544ca15acfa779e6237c288413",
+          "bytes": 7123
+        },
+        {
+          "path": "sources/related/eng-oet-rv/OET-RV_Lam.USFM.gz",
+          "sha256": "ca02d42de706d7e9dfc52b4092b5eda7fc09d5d0640a60f07cc0ccd581429ba3",
+          "bytes": 27769
+        },
+        {
+          "path": "sources/related/eng-oet-rv/OET-RV_Lev.USFM.gz",
+          "sha256": "658d2ceda9279d94ffb7348e6b31204aa5c567ae787555cecf7e85b12ccba95a",
+          "bytes": 155678
+        },
+        {
+          "path": "sources/related/eng-oet-rv/OET-RV_Luk.USFM.gz",
+          "sha256": "85cfe33853e074ebcc94c93c8901eddd42807e94a6ee8d453fe2c691c77865bb",
+          "bytes": 202774
+        },
+        {
+          "path": "sources/related/eng-oet-rv/OET-RV_Mal.USFM.gz",
+          "sha256": "c9e1293b533affa94922f5bd565e8dc71d5b408b21eecbc698c31c890c514912",
+          "bytes": 15014
+        },
+        {
+          "path": "sources/related/eng-oet-rv/OET-RV_Mat.USFM.gz",
+          "sha256": "a6a5413071bd447f5b608870800d7199d7db0d0f92135817859f394876cccec3",
+          "bytes": 195099
+        },
+        {
+          "path": "sources/related/eng-oet-rv/OET-RV_Mic.USFM.gz",
+          "sha256": "febadf8401b46149f1414318a05f22e985d91cd6e7ccf97f24307d3d2adfba3b",
+          "bytes": 25349
+        },
+        {
+          "path": "sources/related/eng-oet-rv/OET-RV_Mrk.USFM.gz",
+          "sha256": "6e163c0f7b8ea8e12467c9d0ff40183a7d5d6b46d1b35f2bc5981588877319d2",
+          "bytes": 143522
+        },
+        {
+          "path": "sources/related/eng-oet-rv/OET-RV_Nam.USFM.gz",
+          "sha256": "52daf4d99b2346f1e7f0960750436148896885f6af34bba4a6fc46552602a132",
+          "bytes": 11139
+        },
+        {
+          "path": "sources/related/eng-oet-rv/OET-RV_Neh.USFM.gz",
+          "sha256": "332e2aefbfdc099a77e094d87cd7426398bc361d2453a5de478804a745b1b4be",
+          "bytes": 73536
+        },
+        {
+          "path": "sources/related/eng-oet-rv/OET-RV_Num.USFM.gz",
+          "sha256": "a22539fecd5ea473ffa504aeb53cdc5571e9e40e7934ad4162f98297359c7d29",
+          "bytes": 191328
+        },
+        {
+          "path": "sources/related/eng-oet-rv/OET-RV_Oba.USFM.gz",
+          "sha256": "cf88ddf3e394555e3adfcc06cb9df6d2ae0bf71d1a6c3f5b2f6ad32e46e90fc3",
+          "bytes": 6906
+        },
+        {
+          "path": "sources/related/eng-oet-rv/OET-RV_Phm.USFM.gz",
+          "sha256": "e6aa6f27adfd5e9cb3002fcad6731988edc79c958473287f7600db564189c516",
+          "bytes": 5532
+        },
+        {
+          "path": "sources/related/eng-oet-rv/OET-RV_Php.USFM.gz",
+          "sha256": "007c27566e57e934494073a981ea806a1ea4b13feaee4c6a3e33c87c1b96316b",
+          "bytes": 19275
+        },
+        {
+          "path": "sources/related/eng-oet-rv/OET-RV_Pro.USFM.gz",
+          "sha256": "a05c635d34be9c6bdd744f9e9a89604af95b557130500bd5d1691fe5da26a2c9",
+          "bytes": 124546
+        },
+        {
+          "path": "sources/related/eng-oet-rv/OET-RV_Psa.USFM.gz",
+          "sha256": "53c2be743ba0f0bb59d442c9b669567441ffc25f9eb9e7678fd12285a32745fb",
+          "bytes": 342535
+        },
+        {
+          "path": "sources/related/eng-oet-rv/OET-RV_Rev.USFM.gz",
+          "sha256": "16fd92cb78fe203486c449dd6ad86596e6ee20e4d402f8f12532fdd0a07ecbb2",
+          "bytes": 89357
+        },
+        {
+          "path": "sources/related/eng-oet-rv/OET-RV_Rom.USFM.gz",
+          "sha256": "cc4442678dd05777ce0451812eed401f596a1f06b8bf442927bddc31d603d68f",
+          "bytes": 77904
+        },
+        {
+          "path": "sources/related/eng-oet-rv/OET-RV_Rut.USFM.gz",
+          "sha256": "67a7dfcf1cfd6992c248267d83e720f34bc8e567e591e084b563cd1fee773850",
+          "bytes": 20859
+        },
+        {
+          "path": "sources/related/eng-oet-rv/OET-RV_Sng.USFM.gz",
+          "sha256": "cac7b8d4ea9687429702754ade8f233b6b7e0f546efe6939758df8f0733e0b2d",
+          "bytes": 20042
+        },
+        {
+          "path": "sources/related/eng-oet-rv/OET-RV_Tit.USFM.gz",
+          "sha256": "12804349207d5a6493bf9d950fab6df4204eedd53ebea054490c175674e18ab1",
+          "bytes": 9616
+        },
+        {
+          "path": "sources/related/eng-oet-rv/OET-RV_Zec.USFM.gz",
+          "sha256": "82b7602d6626f10c61e37e4c8685987686eb55799a50d6bca5dcf40c750bc7f4",
+          "bytes": 44656
+        },
+        {
+          "path": "sources/related/eng-oet-rv/OET-RV_Zep.USFM.gz",
+          "sha256": "1d73aca70b8543ca6e06a89c4a74cf7c4c3f010a873b94ff6bdf16b7da3ff200",
+          "bytes": 14219
+        }
+      ]
+    },
+    {
+      "id": "eng-oeb",
+      "repo": "openenglishbible/Open-English-Bible",
+      "commit": "1965127de5c3c103af3fdbc9288c1abec5f39994",
+      "license": "CC0",
+      "books": 44,
+      "verses": 13894,
+      "scope": "Published release books only; incomplete OT",
+      "files": [
+        {
+          "path": "sources/related/eng-oeb/01-Genesis.usfm.gz",
+          "sha256": "419b28da373d8e89ba8bf214423b98fddfb4b093d817bfc175f4551e1e1a5460",
+          "bytes": 202579
+        },
+        {
+          "path": "sources/related/eng-oeb/06-Joshua.usfm.gz",
+          "sha256": "f71107e4e44db3426cec540c2efe2281b2e77c3535e0ef1e07f51645a1c055ba",
+          "bytes": 94060
+        },
+        {
+          "path": "sources/related/eng-oeb/08-Ruth.usfm.gz",
+          "sha256": "ee1e8486214a675b4b9139c0b1ef4b07002f2c576a65c1c7c2e4197cc44a21d3",
+          "bytes": 13423
+        },
+        {
+          "path": "sources/related/eng-oeb/17-Esther.usfm.gz",
+          "sha256": "c7bdb0cca7e3f6e4f3a607b823493e7f3974dd6e0919ec83b680c8beeac9a886",
+          "bytes": 30147
+        },
+        {
+          "path": "sources/related/eng-oeb/19-Psalms.usfm.gz",
+          "sha256": "b8bff007ddd714368ed1cd4e628f9d04fcb1d67f4a432ce5e698718b51257e3b",
+          "bytes": 257357
+        },
+        {
+          "path": "sources/related/eng-oeb/28-Hosea.usfm.gz",
+          "sha256": "507dc81885b41d9eedd815eac0ea2464f1e961094e739cf6707441806c03952b",
+          "bytes": 31782
+        },
+        {
+          "path": "sources/related/eng-oeb/29-Joel.usfm.gz",
+          "sha256": "8d1f440c57345fee56b4f685a167405f638481f04b06aca430619dfa2039a0b3",
+          "bytes": 11858
+        },
+        {
+          "path": "sources/related/eng-oeb/30-Amos.usfm.gz",
+          "sha256": "4352df451c2765f6ae9d90e021b091e52fb8a302f11cd0ac34bbef3db8d508e7",
+          "bytes": 24039
+        },
+        {
+          "path": "sources/related/eng-oeb/31-Obadiah.usfm.gz",
+          "sha256": "77c3cae731a05b7da0ec5a365914b19a29220370dbd4ce55628195d6a3cd1027",
+          "bytes": 3865
+        },
+        {
+          "path": "sources/related/eng-oeb/32-Jonah.usfm.gz",
+          "sha256": "2888fc5a87b28ab06af12d9d591a7e0ebdffcba9ed815cc6bc18ebdf0c40d51f",
+          "bytes": 7394
+        },
+        {
+          "path": "sources/related/eng-oeb/33-Micah.usfm.gz",
+          "sha256": "7471c96a26a4076926c61bd1b1c0cb61f306e225ba765ac0bda78b4213f3b410",
+          "bytes": 17601
+        },
+        {
+          "path": "sources/related/eng-oeb/34-Nahum.usfm.gz",
+          "sha256": "eb727a06eb2bc1315845cafbd6b4b6588811a82510f7be9e252af14bb4e41c8f",
+          "bytes": 7282
+        },
+        {
+          "path": "sources/related/eng-oeb/35-Habakkuk.usfm.gz",
+          "sha256": "930bccd9221b09924a3c75037a7a8b1897f616db646e13eb5eb3cf93fde08441",
+          "bytes": 8406
+        },
+        {
+          "path": "sources/related/eng-oeb/36-Zephaniah.usfm.gz",
+          "sha256": "15771abc75ecf40316555328c6d73985aaf69c2cbd228eb644d019d3940ce695",
+          "bytes": 9503
+        },
+        {
+          "path": "sources/related/eng-oeb/37-Haggai.usfm.gz",
+          "sha256": "182c55f8812488a6d40ade4f277104c86d1843253f15bf8a57806230e7767d81",
+          "bytes": 6782
+        },
+        {
+          "path": "sources/related/eng-oeb/38-Zechariah.usfm.gz",
+          "sha256": "64e51d9b26c6aa2e749f7f7c20271dada448352552f12962e863a26e2e1bbe99",
+          "bytes": 34132
+        },
+        {
+          "path": "sources/related/eng-oeb/39-Malachi.usfm.gz",
+          "sha256": "e1cd81017d4c62c69bb9aa04c3e2a8a73430af5c1ff6f4225992670ae0847443",
+          "bytes": 10081
+        },
+        {
+          "path": "sources/related/eng-oeb/40-Matthew.usfm.gz",
+          "sha256": "67e574e487b5eb3900dfbc13ac683869adcbbdb7b8c92076eb8b483f28fe6ae0",
+          "bytes": 141270
+        },
+        {
+          "path": "sources/related/eng-oeb/41-Mark.usfm.gz",
+          "sha256": "e07b6f413317bff41815a96782c3e8744146582d3e8d655f8e0d4c89ed8a6b36",
+          "bytes": 90306
+        },
+        {
+          "path": "sources/related/eng-oeb/42-Luke.usfm.gz",
+          "sha256": "14b031bdd462db004bda711c5fdd2f103d3a45cc5f20bb1c30221b94fe8b0515",
+          "bytes": 153284
+        },
+        {
+          "path": "sources/related/eng-oeb/43-John.usfm.gz",
+          "sha256": "29faafbc10d35538b60b5efe057659148254120f4ceed23e8384544e2d867214",
+          "bytes": 116369
+        },
+        {
+          "path": "sources/related/eng-oeb/44-Acts.usfm.gz",
+          "sha256": "2abf106a672231be7ba903628b80a56671f7e4d8c70b9ffdfe05514c2ab3748c",
+          "bytes": 148600
+        },
+        {
+          "path": "sources/related/eng-oeb/45-Romans.usfm.gz",
+          "sha256": "966bf463448c5e9a99e6320baf412186ba3d3fe98c0032aac7ff853388b42a20",
+          "bytes": 61834
+        },
+        {
+          "path": "sources/related/eng-oeb/46-1 Corinthians.usfm.gz",
+          "sha256": "220bf620d39eca707e03536ef6b39905e55e94ea39893c106c2e34162ea97fd1",
+          "bytes": 58986
+        },
+        {
+          "path": "sources/related/eng-oeb/47-2 Corinthians.usfm.gz",
+          "sha256": "febe1fbcd9c11f292337d67f7668a634ea2918d14cf0e84cb3db28f3d60f45e0",
+          "bytes": 39642
+        },
+        {
+          "path": "sources/related/eng-oeb/48-Galatians.usfm.gz",
+          "sha256": "34879ddd8b4c16de1914c639e0a55ad7d829517bdbd4dc20efd6629f8b97ee5d",
+          "bytes": 21021
+        },
+        {
+          "path": "sources/related/eng-oeb/49-Ephesians.usfm.gz",
+          "sha256": "0c0e7dacc30dfecce03a85af23453a1027f3064ea93dad653dc5ace03b95bebf",
+          "bytes": 20595
+        },
+        {
+          "path": "sources/related/eng-oeb/50-Philippians.usfm.gz",
+          "sha256": "710aefdd4ac9c30ff48cc61615cabab5e219c277f27d740f14014ff3e36c5d0f",
+          "bytes": 14652
+        },
+        {
+          "path": "sources/related/eng-oeb/51-Colossians.usfm.gz",
+          "sha256": "9c212f4593f2e74242c6a546ef3422417f8fd185a76b27288e8f606acc57b639",
+          "bytes": 14116
+        },
+        {
+          "path": "sources/related/eng-oeb/52-1 Thessalonians.usfm.gz",
+          "sha256": "50057a34b05e947c7197571a9ac85514bd095007f9cedaa5f043fdaee482543d",
+          "bytes": 12290
+        },
+        {
+          "path": "sources/related/eng-oeb/53-2 Thessalonians.usfm.gz",
+          "sha256": "a60de86395718301d1e6b97928f17bf353c0788d8dafe631da2639968eaf166f",
+          "bytes": 7110
+        },
+        {
+          "path": "sources/related/eng-oeb/54-1 Timothy.usfm.gz",
+          "sha256": "d28115a012a77aaab0a024ed96a4e7ec4b1237936fa853f8d500ffabeacfe464",
+          "bytes": 16280
+        },
+        {
+          "path": "sources/related/eng-oeb/55-2 Timothy.usfm.gz",
+          "sha256": "c702a6c663904f5f5475a8654071a66407d2872f24fc241f167b9b340290ad30",
+          "bytes": 11403
+        },
+        {
+          "path": "sources/related/eng-oeb/56-Titus.usfm.gz",
+          "sha256": "cdb11f593cced04b66d80e7d98f4833d8bd7301322f6c7854340b34a12eb0302",
+          "bytes": 6857
+        },
+        {
+          "path": "sources/related/eng-oeb/57-Philemon.usfm.gz",
+          "sha256": "7bf802c6339a34185ec526713ca80b151d04106f2694031a06675568e59638fe",
+          "bytes": 3479
+        },
+        {
+          "path": "sources/related/eng-oeb/58-Hebrews.usfm.gz",
+          "sha256": "d20839208f0b1a5a9d81ba5baea44ce7153a3ea19fea8e5ba03b7bea592e1644",
+          "bytes": 46170
+        },
+        {
+          "path": "sources/related/eng-oeb/59-James.usfm.gz",
+          "sha256": "fb0f33dec9418386556b41792867ab9488fa2dcb1ec80e68e669766fbe9b8572",
+          "bytes": 14840
+        },
+        {
+          "path": "sources/related/eng-oeb/60-1 Peter.usfm.gz",
+          "sha256": "b08b5032282abc3b4ffa7c15d9ee254ce714012f740adecbce443240eb024c0a",
+          "bytes": 16457
+        },
+        {
+          "path": "sources/related/eng-oeb/61-2 Peter.usfm.gz",
+          "sha256": "8c6382ec40b345749b97592730da6b47ed9214d9ffe10289ac0a5b01415c15db",
+          "bytes": 10522
+        },
+        {
+          "path": "sources/related/eng-oeb/62-1 John.usfm.gz",
+          "sha256": "557387d9b05c3668fbe737b9014408bc0c1ce43318454c5aa1b3153fb3934df0",
+          "bytes": 14471
+        },
+        {
+          "path": "sources/related/eng-oeb/63-2 John.usfm.gz",
+          "sha256": "f229632130d9e37aa4cbacabe42499c1622c826337357f139c49e665f5f8a231",
+          "bytes": 2269
+        },
+        {
+          "path": "sources/related/eng-oeb/64-3 John.usfm.gz",
+          "sha256": "8cc0e6aba8f1ffa9678e965fa7e6a1eafa139a0a2cc78da46fa4365c75a5eb9e",
+          "bytes": 2370
+        },
+        {
+          "path": "sources/related/eng-oeb/65-Jude.usfm.gz",
+          "sha256": "40fcc4eeb95bb018a1b4175edf94d149d1b2e4cf94dddaf49f0dc41dee195596",
+          "bytes": 4680
+        },
+        {
+          "path": "sources/related/eng-oeb/66-Revelation.usfm.gz",
+          "sha256": "d3a22e44031504e4b057b8420fded8176c3544ecc5795e0a3c86f92acd4f05f7",
+          "bytes": 68278
+        }
+      ]
+    },
+    {
+      "id": "eng-pob",
+      "repo": "zackseyun/peoples-open-bible",
+      "commit": "5a6633695bfcc3264f508974c104ad556892c036",
+      "license": "CC BY 4.0",
+      "books": 66,
+      "verses": 31221,
+      "scope": "Canonical OT/NT source draft; AI reviews are not independent expert approval",
+      "files": [
+        {
+          "path": "sources/related/eng-pob/translation-records.jsonl.gz",
+          "sha256": "e397dd91e0c3824d3c265b80324d7cb30d77d6fc3f61b66c0839ff20d79c4b23",
+          "bytes": 18820560
+        }
+      ]
+    }
+  ],
+  "limits": [
+    "TWV derivative/full-text redistribution requires permission",
+    "AI Scribes lacks a verified content license",
+    "Swarm README/LICENSE conflict pending clarification; not imported",
+    "Greek Room is a checking tool, not a Bible text",
+    "Open Bibles WEB candidate already represented by engwebp; no duplicate import"
+  ]
+}

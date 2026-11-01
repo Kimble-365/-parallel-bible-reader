@@ -6,7 +6,7 @@ R=Path(__file__).resolve().parents[1];O=R/'releases/v1.23';sys.path.insert(0,str
 def js(p):return json.loads(p.read_text().split('=',1)[1].rstrip(';\n'))
 def unpack(p,m):
  b=p.read_bytes();assert hashlib.sha256(b).hexdigest()==m['packed_sha256'];assert len(b)==m['packed_bytes'];raw=gzip.decompress(b);assert len(raw)==m['bytes'];assert hashlib.sha256(raw).hexdigest()==m['sha256'];return raw
-C=js(O/'catalog.js');old=js(R/'releases/v1.22/catalog.js');assert len(C['editions'])==65;assert C['editions'][:62]==old['editions'];assert C['version']==old['version'] # keep old permitted private data/offline keys
+C=js(O/'catalog.js');old=js(R/'releases/v1.22/catalog.js');assert len(C['editions'])==len(old['editions'])+3;assert C['editions'][:len(old['editions'])]==old['editions'];assert C['version']==old['version'] # keep old permitted private data/offline keys
 P=js(O/'bhh-manifest.js');library=js(O/'bhh-library.js');search=js(O/'search-manifest.js')['editions'];data=collections.defaultdict(dict)
 for b,m in P.items():
  d=json.loads(unpack(O/'bhh-data'/(b+'.json.gz'),m));assert d['book']==b
@@ -34,9 +34,13 @@ for k in ['dss:1988971','dss:1988972']:assert not critical[k]['flags'].get('rec'
 for m in library['assets']:unpack(O/m['url'],m)
 assert len([m for m in library['assets'] if m['id'].startswith('step-TAHOT')])==4
 assert len(library['projects'])==9
+provenance=json.loads((O/'bhh-sources/provenance.json').read_text())
+for entry in provenance['acquired']:
+ p=O/'bhh-sources'/(entry['local']+'.gz')
+ if p.exists():assert hashlib.sha256(gzip.decompress(p.read_bytes())).hexdigest()==entry['sha256'],entry['local']
 # Every service-worker precache URL exists locally (ignoring inherited query strings).
 import re
 sw=(O/'sw.js').read_text();assert "const readerRoutes=new Set(['./','index.html'" in sw;assets=re.search(r'const ASSETS=(\[.*?\]);',sw)[1]
 for a in json.loads(assets.replace("'",'"')):
  p=(O/a).resolve();assert p.exists(),p
-print('PASS: 65 editions; all new text/source/DSS packed and expanded checksums; 52,523 verse records; 500,995 unique source units; 997 labels; full metadata/search coverage; four decisive damage fixtures; closed MAM roles; nine project entries; all shell assets exist')
+print('PASS: 69 editions; all new text/source/DSS packed and expanded checksums; 52,523 verse records; 500,995 unique source units; 997 labels; full metadata/search coverage; four decisive damage fixtures; closed MAM roles; nine project entries; all shell assets exist')

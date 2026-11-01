@@ -1,0 +1,41 @@
+name: BHH reader 1.23 verification
+on:
+  push:
+    branches: [main, 'preview/bhh-reader-1.23']
+    paths: ['releases/v1.23/**', 'tests/bhh*', 'tools/*bhh*', '.github/workflows/bhh-reader.yml']
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  bhh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    env:
+      READER_VERSION: '1.23'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install browser
+        run: |
+          python -m pip install playwright lxml
+          python -m playwright install --with-deps chromium
+          browser_path=$(python -c 'from playwright.sync_api import sync_playwright; p=sync_playwright().start(); print(p.chromium.executable_path); p.stop()')
+          sudo ln -sf "$browser_path" /usr/bin/chromium
+      - name: Verify sources and stored data compatibility
+        run: |
+          python tests/bhh_123.py
+          python tests/release_static_121.py
+          node tests/vocabulary_122.cjs
+          node tests/notes_model.cjs
+          node tests/search_engine.cjs
+          node tests/verse_text_116.cjs
+      - name: Verify source library, all slots and inherited reading
+        run: |
+          python tests/bhh_browser_123.py
+          READER_SLOTS_ONLY=1 python tests/reader_v12.py
+          python tests/reader_119.py

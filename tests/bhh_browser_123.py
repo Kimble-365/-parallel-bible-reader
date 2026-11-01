@@ -14,6 +14,7 @@ try:
   page.wait_for_function('window.ReaderOffline && window.BHHTextPacks')
   out=page.evaluate('''async()=>{const ids=['hbo-sp','hbo-mam','lat-clementine-thb'];const d=await ReaderOffline.loadBook('GEN',ids);return Object.fromEntries(ids.map(id=>[id,d.editions[id].find(r=>r[0]===2&&r[1]===2)[2]]))}''');assert 'הששי' in out['hbo-sp'].replace('שׁ','ש');assert 'בַּיּ֣וֹם' in out['hbo-mam'];assert 'sexto' in out['lat-clementine-thb'] or 'séptimo' in out['lat-clementine-thb'] or 'septimo' in out['lat-clementine-thb']
   assert page.evaluate('document.documentElement.scrollWidth<=innerWidth+1')
+  assert page.evaluate("async()=>{for(const e of BibleCatalog.editions.filter(x=>x.data_group==='related-english')){const d=await ReaderOffline.loadBook(e.book_codes[0],[e.id]);if(!d.editions[e.id]?.length)return false}return true}")
   # Exercise normal IndexedDB selected-text installation and reload in an offline context.
   page.evaluate("ReaderOffline.download(['hbo-sp'])");assert page.evaluate("ReaderOffline.list().then(x=>x.filter(y=>y.id==='hbo-sp').length)")==5
   ctx.set_offline(True);saved=page.evaluate("ReaderOffline.loadBook('DEU',['hbo-sp']).then(x=>x.editions['hbo-sp'].length)");assert saved>900;ctx.set_offline(False)

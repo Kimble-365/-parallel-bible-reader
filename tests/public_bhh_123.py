@@ -22,5 +22,4 @@ def check(p):
    if attempt==2:raise
 with ThreadPoolExecutor(max_workers=12) as pool:sizes=list(pool.map(check,paths))
 result=dict(status='passed',reader='1.23',files=len(paths),bytes=sum(sizes),root=base,checked_epoch=int(time.time()),scope='Public root, history, legacy and every 1.23 release file byte-identical to local artifacts')
-(R/'/tmp/unused') if False else None
 Path('/workspace/bhh-public-verification.json').write_text(json.dumps(result,indent=2));print(json.dumps(result))

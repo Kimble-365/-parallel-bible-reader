@@ -114,7 +114,7 @@ jobs:
 
   published-reader:
     env:
-      READER_VERSION: '1.22'
+      READER_VERSION: '1.23'
     if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     timeout-minutes: 15
@@ -136,4 +136,6 @@ jobs:
       - name: Check current URL and original archive
         run: python tests/root_route.py
       - name: Verify deployed files
-        run: python tests/public_release_115.py
+        run: |
+          python tests/public_release_115.py
+          python tests/public_bhh_123.py

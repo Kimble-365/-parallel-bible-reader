@@ -19,3 +19,7 @@ Added OET Literal/Readers drafts, POB canonical AI-assisted draft and the 44-boo
 ## Current baseline
 
 This release extends the published 1.24 reader and preserves its 80 BHH/NTGL/LXXL editions and textual-apparatus features. Four Syriac additions bring the selectable catalog to 84. Number 1.25 avoids replacing the independently published BHH 1.23 release. Existing large packs remain referenced from their original release paths.
+
+## Publication evidence
+
+Merged PR: https://github.com/Kimble-365/-parallel-bible-reader/pull/1. Exact-head preview checks: Syriac/apparatus/BHH/browser suite [41358011540](https://github.com/Kimble-365/-parallel-bible-reader/actions/runs/41358011540) and full historical suite [41358011441](https://github.com/Kimble-365/-parallel-bible-reader/actions/runs/41358011441), both successful. Main publication additionally checks Pages delivery, public file hashes and real live Syriac reading/lexical lookup. Source and scholarly limitations above remain in force.

@@ -1,0 +1,32 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "title":"LXXL current source-report evidence register (not primary collation)",
+  "type":"object",
+  "required":["id","unit_id","locus","evidence_class","baseline_anchor","readings","interpretation","primary_manuscript_collation_claim","positive_apparatus_complete","agreement_witnesses","specialist_approved","responsible_specialist","review_status"],
+  "properties":{
+    "id":{"type":"string","pattern":"^EVID:LXXL-"},
+    "unit_id":{"type":"string","pattern":"^LXXL-(GR|VERS)-[0-9]{3}$"},
+    "locus":{"type":"string","pattern":"^Gen\\.[0-9]+\\.[0-9]+$"},
+    "evidence_class":{"enum":["edition_report","cross_version_comparison"]},
+    "baseline_anchor":{"type":"object","required":["witness","token_ids","status"],"properties":{"token_ids":{"type":"array","items":{"type":"string"}},"witness":{"const":"BRENTON-GEN"}}},
+    "interpretation":{"type":"string","minLength":1},
+    "primary_manuscript_collation_claim":{"const":false},
+    "positive_apparatus_complete":{"const":false},
+    "agreement_witnesses":{"type":"null"},
+    "specialist_approved":{"const":false},
+    "responsible_specialist":{"type":"null"},
+    "review_status":{"const":"specialist_review_required"},
+    "readings":{"type":"array","minItems":1,"items":{
+      "type":"object",
+      "required":["reading_id","reported_form","diplomatic_form","diplomatic_status","reported_siglum","manuscript_identifier","manuscript_folio","hand_identification","primary_image_verified","source_id","source_locus","source_region","source_assets","certainty","interpretation","missing_reason"],
+      "properties":{
+        "reading_id":{"type":"string"},"reported_form":{"type":"string"},
+        "diplomatic_form":{"type":"null"},"diplomatic_status":{"const":"not_independently_encoded"},
+        "reported_siglum":{"type":["string","null"]},"manuscript_identifier":{"type":"null"},"manuscript_folio":{"type":"null"},"hand_identification":{"type":"null"},"primary_image_verified":{"const":false},
+        "source_id":{"type":"string","minLength":1},"source_locus":{"type":"string","minLength":1},"source_region":{"type":"null"},
+        "source_assets":{"type":"array","minItems":1,"items":{"type":"object","required":["asset_id","sha256","url"],"properties":{"asset_id":{"type":"string"},"sha256":{"type":"string","pattern":"^[0-9a-f]{64}$"},"url":{"type":"string"}}}},
+        "certainty":{"enum":["selected_printed_edition_report_checked","named_digital_source_content_checked"]},"interpretation":{"type":"string","minLength":1},"missing_reason":{"type":"string","minLength":1}
+      }
+    }}
+  }
+}

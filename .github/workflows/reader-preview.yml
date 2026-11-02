@@ -28,6 +28,13 @@ jobs:
             browser_path=$(python -c 'from playwright.sync_api import sync_playwright; p=sync_playwright().start(); print(p.chromium.executable_path); p.stop()')
             sudo ln -sf "$browser_path" /usr/bin/chromium
           fi
+      - name: Verify 1.27 linked-verse startup and compact controls
+        env:
+          READER_VERSION: '1.27'
+        run: |
+          node tests/tracker_127.cjs
+          python tests/compact_127.py
+          python tests/reader_119.py
       - name: Verify sources, storage, search and exports
         env:
           READER_VERSION: '1.18'

@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "status": "running",
+  "owner": "interactive-reader-20261102T183300Z",
+  "started_at": "2026-11-02T18:33:00Z",
+  "branch": "project/parallel-reader",
+  "milestone": "M1-catalog-discovery",
+  "base_sha": "89afb00cfa94b7630bf8e48419d95d73bd5f5181",
+  "rule": "Acquire by expected-head fast-forward lease; never overwrite an active owner or treat elapsed time as completion. Only the owner releases."
+}

@@ -11,7 +11,7 @@ s=ThreadingHTTPServer(('127.0.0.1',0),H);Thread(target=s.serve_forever,daemon=Tr
 try:
  with sync_playwright() as p:
   browser=p.chromium.launch(executable_path='/usr/bin/chromium',args=['--no-sandbox'])
-  for width in [320,390,768,1280]:
+  for width in [320,375,390,430,768,1280]:
    ctx=browser.new_context(viewport={'width':width,'height':844},accept_downloads=True);page=ctx.new_page();errors=[];page.on('pageerror',lambda e:errors.append(str(e)))
    page.goto(f'http://127.0.0.1:{s.server_port}/releases/v1.27/?edition=engwebp&compare1=&compare2=&compare3=&text=original#GEN.1.1');page.wait_for_selector('#v1 .main-text');page.wait_for_selector('#menu-study');page.wait_for_function('window.ReaderApparatusUI')
    assert page.locator('#top-menu #chapter-navigation #prev').count()==1
@@ -34,6 +34,11 @@ try:
     page.evaluate('async()=>{await ReaderLayoutReady;await new Promise(resolve=>requestAnimationFrame(()=>requestAnimationFrame(resolve)))}');quote=page.evaluate('ReaderNotebookSource.passage(null,"reference")');assert 'Kuuntele' in quote['text'] and quote['reference'].endswith('5:3'),quote
     assert page.evaluate('ReaderStateUrl()').endswith('#PSA.5.3')
     geometry=page.evaluate('''()=>({top:document.querySelector("#v3").getBoundingClientRect().top,header:document.querySelector("#top-menu").getBoundingClientRect().bottom,padding:getComputedStyle(document.documentElement).scrollPaddingTop})''');assert geometry['header']<=geometry['top']<=146,geometry;assert geometry['padding']=='0px',geometry
+   for chapter in [100,119,150]:
+    page.goto(f'http://127.0.0.1:{s.server_port}/releases/v1.27/?edition=engwebp&compare1=&compare2=&compare3=&text=original#PSA.{chapter}.1');page.wait_for_selector('#v1 .main-text');page.wait_for_selector('#top-menu #chapter')
+    d=page.evaluate('''()=>{const e=document.querySelector('#chapter'),s=getComputedStyle(e),c=document.createElement('canvas').getContext('2d');c.font=s.font;return {value:e.value,width:e.clientWidth,text:c.measureText(e.value).width,padding:parseFloat(s.paddingLeft)+parseFloat(s.paddingRight),overflow:document.documentElement.scrollWidth>innerWidth}}''')
+    assert d['value']==str(chapter) and d['width']>=d['text']+d['padding']+24 and not d['overflow'],(width,chapter,d)
+   print('PASS three-digit chapters',width,flush=True)
    assert not errors,errors;ctx.close()
   browser.close()
  print('PASS: compact single-row tools at 320/390/768/1280px, sticky header, grouped navigation, real LXXL filters/export and saved-only offline reopening')

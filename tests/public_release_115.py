@@ -20,21 +20,22 @@ for value in re.findall(r"'([^']+)'",(APP/'sw.js').read_text().split('const ASSE
  p=(APP/value).resolve()
  if p.is_dir():p=p/'index.html'
  paths.add(str(p.relative_to(ROOT)))
+if VERSION=='1.27':paths.add('releases/v1.27/lxxl-source-register.jsonl')
 for v in ['1.14','1.15']:
  for folder in ['extra-data','sources']:
   for p in (ROOT/'releases'/('v'+v)/folder).iterdir():
    if p.is_file():paths.add(str(p.relative_to(ROOT)))
 paths.add('releases/v1.13/extra-data/JHN.js')
-if VERSION in ['1.19','1.20','1.21','1.22','1.23','1.24','1.25','1.26']:
+if VERSION in ['1.19','1.20','1.21','1.22','1.23','1.24','1.25','1.26','1.27']:
  for p in (ROOT/'releases/v1.19/ruby-data').iterdir():
   if p.is_file():paths.add(str(p.relative_to(ROOT)))
-if VERSION in ['1.18','1.19','1.20','1.21','1.22','1.23','1.24','1.25','1.26']:
+if VERSION in ['1.18','1.19','1.20','1.21','1.22','1.23','1.24','1.25','1.26','1.27']:
  for folder in ['packed-data','japanese-data','sources']:
   for p in (ROOT/'releases/v1.18'/folder).iterdir():
    if p.is_file():paths.add(str(p.relative_to(ROOT)))
-if VERSION in ['1.25','1.26']:
+if VERSION in ['1.25','1.26','1.27']:
  for folder in ['syriac-data','syriac-index','syriac-lexicon','sources']:
-  for p in ((ROOT/'releases/v1.25' if VERSION=='1.26' and folder!='sources' else APP)/folder).rglob('*'):
+  for p in ((ROOT/'releases/v1.25' if VERSION in ('1.26','1.27') and folder!='sources' else APP)/folder).rglob('*'):
    if p.is_file():paths.add(str(p.relative_to(ROOT)))
 def check(path):
  data=fetch(path);assert hashlib.sha256(data).digest()==hashlib.sha256((ROOT/path).read_bytes()).digest(),path

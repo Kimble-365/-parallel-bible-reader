@@ -2,13 +2,14 @@
 from pathlib import Path
 from http.server import ThreadingHTTPServer,SimpleHTTPRequestHandler
 from threading import Thread
-import json
+import json,os
 from playwright.sync_api import sync_playwright
+VERSION=os.environ.get('READER_VERSION','1.26')
 ROOT=Path(__file__).resolve().parents[1]
 class H(SimpleHTTPRequestHandler):
  def __init__(self,*a,**k):super().__init__(*a,directory=str(ROOT),**k)
  def log_message(self,*a):pass
-s=ThreadingHTTPServer(('127.0.0.1',0),H);Thread(target=s.serve_forever,daemon=True).start();base=f'http://127.0.0.1:{s.server_port}/releases/v1.26/'
+s=ThreadingHTTPServer(('127.0.0.1',0),H);Thread(target=s.serve_forever,daemon=True).start();base=f'http://127.0.0.1:{s.server_port}/releases/v{VERSION}/'
 try:
  with sync_playwright() as p:
   b=p.chromium.launch(executable_path='/usr/bin/chromium',args=['--no-sandbox']);ctx=b.new_context(accept_downloads=True,viewport={'width':390,'height':844});page=ctx.new_page();errors=[];calls=[];page.on('pageerror',lambda e:errors.append(str(e)))
@@ -16,7 +17,7 @@ try:
   def source(route):
    calls.append(route.request.url);route.fulfill(body=fixture,headers={'Access-Control-Allow-Origin':'*','Content-Type':'application/xml'})
   page.route('https://raw.githubusercontent.com/Faithlife/SBLGNT/**/data/sblgntapp/xml/Phlm.xml',source)
-  page.goto(base+'?edition=engwebp&compare1=&compare2=&compare3=&text=original#PHM.1.2');page.wait_for_selector('#v2 .main-text');page.wait_for_selector('#menu-study');page.wait_for_selector('#reader-release');assert page.locator('#reader-release').inner_text()=='Reader 1.26';page.wait_for_function('window.ReaderApparatusUI');assert page.evaluate('BibleCatalog.editions.length')==84
+  page.goto(base+'?edition=engwebp&compare1=&compare2=&compare3=&text=original#PHM.1.2');page.wait_for_selector('#v2 .main-text');page.wait_for_selector('#menu-study');page.wait_for_selector('#reader-release');assert page.locator('#reader-release').inner_text()=='Reader '+VERSION;page.wait_for_function('window.ReaderApparatusUI');assert page.evaluate('BibleCatalog.editions.length')==84
   def open_app():
    page.click('#menu-study');page.click('#menu-apparatus');page.wait_for_function('!document.querySelector("#apparatus-family").disabled')
   def saved():

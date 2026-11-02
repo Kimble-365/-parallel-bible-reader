@@ -1,7 +1,7 @@
 /* Translation-name discovery only. Never normalize Scripture payloads. */
 'use strict';
 window.ReaderDirectorySearch=(()=>{
- const key=value=>String(value??'').normalize('NFKC').toLocaleLowerCase('en').normalize('NFD').replace(/(\p{Script=Latin})\p{M}+/gu,'$1').normalize('NFC').replace(/\s+/g,' ').trim();
+ const key=value=>String(value??'').normalize('NFKC').toLocaleLowerCase('en').normalize('NFD').replace(/(\p{Script=Latin})[\u0300-\u036f]+/gu,'$1').normalize('NFC').replace(/\s+/g,' ').trim();
  const strings=values=>[...new Set(values.filter(v=>typeof v==='string'&&v.trim()).map(v=>v.trim()))];
  function build(rows,labels={}){return rows.map(row=>{const aliases=strings(row.aliases||[]),language=strings([row.language]),codes=strings([row.iso6393,row.id]),titles=strings([labels[row.id],row.variety]);return {row,codes:codes.map(key),language:language.map(key),aliases:aliases.map(key),titles:titles.map(key),fields:strings([...codes,...language,...aliases,...titles]).map(key),names:[...language,...aliases]}})}
  function distance(a,b,limit){

@@ -1,0 +1,23 @@
+{
+  "edition": "Cambridge Genesis 1906",
+  "source_id": "CAM-SYMBOLS-12",
+  "printed_page": "v",
+  "source_locus": "List of Symbols, N.B., first two paragraphs",
+  "original_hand_mark": "*",
+  "original_hand_meaning": "The original writing of the scribe, as defined by the printed edition; not an independent identification of a physical hand.",
+  "holmes_parsons_rule": "Numbers in brackets after the edition symbols are Holmes and Parsons numbers.",
+  "generic_correctors": {
+    "exceptions": [
+      "B",
+      "A",
+      "D",
+      "E",
+      "F",
+      "S"
+    ],
+    "a": "same or approximately contemporary hand",
+    "b": "later hand"
+  },
+  "inspection_status": "selected_printed_conventions_visually_checked",
+  "modern_hand_concordance_complete": false
+}

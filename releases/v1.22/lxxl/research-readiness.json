@@ -32,12 +32,40 @@
       "complete_positive_apparatus": false,
       "complete_hexaplaric_apparatus": false,
       "specialist_approval": false,
-      "established_critical_text": false
+      "established_critical_text": false,
+      "selected_cambridge_symbol_pages_inspected": 2,
+      "selected_cambridge_local_identifications_checked": 5,
+      "modern_siglum_concordance_checked": false
     }
   },
-  "phase_1": {"goal": "edition_verified_page_bound_Swete_diplomatic_corpus", "ready": false, "missing": ["candidate title pages verified", "volume-specific terms and storage", "page inventories", "reviewed stratified gold set", "two-engine held-out OCR benchmark", "reviewed diplomatic corpus"]},
-  "phase_2": {"goal": "Gottingen_anchored_Genesis_1_1_to_5_critical_pilot", "ready": false, "missing": ["volume introduction and exact consulted apparatus loci", "checked edition-specific siglum concordance", "declared Greek witness coverage and agreement", "independent manuscript images where attestation is claimed", "qualified specialist review"]},
-  "phase_3": {"goal": "book_by_book_critical_editions", "ready": false, "status": "not_started"},
+  "phase_1": {
+    "goal": "edition_verified_page_bound_Swete_diplomatic_corpus",
+    "ready": false,
+    "missing": [
+      "candidate title pages verified",
+      "volume-specific terms and storage",
+      "page inventories",
+      "reviewed stratified gold set",
+      "two-engine held-out OCR benchmark",
+      "reviewed diplomatic corpus"
+    ]
+  },
+  "phase_2": {
+    "goal": "Gottingen_anchored_Genesis_1_1_to_5_critical_pilot",
+    "ready": false,
+    "missing": [
+      "volume introduction and exact consulted apparatus loci",
+      "checked edition-specific siglum concordance",
+      "declared Greek witness coverage and agreement",
+      "independent manuscript images where attestation is claimed",
+      "qualified specialist review"
+    ]
+  },
+  "phase_3": {
+    "goal": "book_by_book_critical_editions",
+    "ready": false,
+    "status": "not_started"
+  },
   "technical_integrity_is_philological_validation": false,
   "research_preview_publication_is_complete_edition_publication": false,
   "overall_critical_edition_ready": false,

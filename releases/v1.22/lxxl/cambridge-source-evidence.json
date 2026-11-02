@@ -1,0 +1,34 @@
+{
+  "checked_on": "2026-11-02",
+  "project_commit": "375615628f50321ddc5eddc578d605e280961d10",
+  "assets": [
+    {
+      "id": "CAM-SYMBOLS-12",
+      "url": "https://archive.org/download/p1oldtestamentin01broouoft/page/n12.jpg",
+      "path": "sources/assets/39d46dc4bdbb5d25c76e31772dcabe5a81b7fd1345a9b3bd99f3c16ce4c740c0.gz",
+      "sha256": "39d46dc4bdbb5d25c76e31772dcabe5a81b7fd1345a9b3bd99f3c16ce4c740c0",
+      "bytes": 443654,
+      "retrieved_at": "2026-11-02T08:11:10.690755+00:00",
+      "status": "retrieved",
+      "identity": "Brooke–McLean Genesis 1906, printed p. v; edition symbols, not manuscript image",
+      "rights": "Historical 1906 printed text public domain; selected Archive derivative retained as research evidence; no modern apparatus copied",
+      "inspection_status": "selected_entries_visually_checked",
+      "printed_page": "v"
+    },
+    {
+      "id": "CAM-SYMBOLS-13",
+      "url": "https://archive.org/download/p1oldtestamentin01broouoft/page/n13.jpg",
+      "path": "sources/assets/d58290507cd787859abf44422eb64237ebbc803f53c1b0e9eed9e404d336ba86.gz",
+      "sha256": "d58290507cd787859abf44422eb64237ebbc803f53c1b0e9eed9e404d336ba86",
+      "bytes": 529922,
+      "retrieved_at": "2026-11-02T08:11:10.712256+00:00",
+      "status": "retrieved",
+      "identity": "Brooke–McLean Genesis 1906, printed p. vi; edition symbols, not manuscript image",
+      "rights": "Historical 1906 printed text public domain; selected Archive derivative retained as research evidence; no modern apparatus copied",
+      "inspection_status": "selected_entries_visually_checked",
+      "printed_page": "vi"
+    }
+  ],
+  "primary_manuscript_collations": 0,
+  "readings_adopted": 0
+}

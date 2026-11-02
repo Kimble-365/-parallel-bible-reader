@@ -1,10 +1,18 @@
 {
   "version": 1,
-  "status": "running",
-  "owner": "interactive-reader-20261102T183300Z",
-  "started_at": "2026-11-02T18:33:00Z",
+  "status": "idle",
+  "owner": null,
   "branch": "project/parallel-reader",
-  "milestone": "M1-catalog-discovery",
-  "base_sha": "89afb00cfa94b7630bf8e48419d95d73bd5f5181",
+  "next_milestone": "M2-discovery-state-navigation",
+  "last_run": {
+    "owner": "interactive-reader-20261102T183300Z",
+    "started_at": "2026-11-02T18:33:00Z",
+    "completed_at": "2026-11-02T19:01:09Z",
+    "milestone": "M1-catalog-discovery",
+    "code_commit": "a79bb2c8d7b07f1252b0f3d2f4446a8a1bc05a43",
+    "verification_run": 41505810695,
+    "verification_status": "passed",
+    "result": "Ranked catalog discovery, explicit filtered spelling suggestions, Latin-only accent folding, native mark preservation, wrapped mobile edition names and offline asset inclusion. 84 editions retained; no production changes."
+  },
   "rule": "Acquire by expected-head fast-forward lease; never overwrite an active owner or treat elapsed time as completion. Only the owner releases."
 }

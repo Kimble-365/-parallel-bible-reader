@@ -46,7 +46,7 @@ ruby{ruby-position:over;ruby-align:center}rt{font-size:.55em;line-height:1.2;fon
 #top-menu #quick-bible{width:100%;min-width:0;font:14px/1.3 system-ui,sans-serif;padding:5px 20px 5px 6px;text-overflow:ellipsis}
 #reader-menu-actions{display:flex;align-items:center;gap:3px;flex-wrap:nowrap;overflow-x:auto;min-width:0;scrollbar-width:thin;padding:1px 0 3px}
 #top-menu #reader-menu-actions>button,#top-menu #reader-menu-actions>a{flex:0 0 auto;margin:0;white-space:nowrap;font:12px/1.3 system-ui,sans-serif;padding:6px 7px;min-height:30px}
-#top-menu #chapter-navigation{display:grid;grid-template-columns:32px minmax(0,1fr) minmax(65px,.32fr) 32px;align-items:center;gap:6px;width:100%;max-width:none;margin:0}
+#top-menu #chapter-navigation{display:grid;grid-template-columns:32px minmax(0,1fr) minmax(116px,.42fr) 32px;align-items:center;gap:6px;width:100%;max-width:none;margin:0}
 #top-menu #chapter-navigation label{display:flex;align-items:center;gap:5px;min-width:0;font:11px/1.2 system-ui,sans-serif}
 #top-menu #chapter-navigation select{width:100%;min-width:0;padding:5px;font:14px/1.3 system-ui,sans-serif}
 #top-menu #chapter-navigation button{width:32px;min-height:32px;padding:3px;font:16px/1.2 system-ui,sans-serif}
@@ -54,7 +54,10 @@ ruby{ruby-position:over;ruby-align:center}rt{font-size:.55em;line-height:1.2;fon
 #reading .reader-toolbar{display:none}
 #reading article{margin-top:8px;padding-top:4px}
 html{scroll-padding-top:0}.verse,.source-verse,#reading{scroll-margin-top:145px}
-@media(max-width:420px){#top-menu #reader-home label{font-size:0;max-width:62%;flex-basis:215px}#top-menu #reader-menu-actions>button,#top-menu #reader-menu-actions>a{font-size:11px;padding:6px}#top-menu #chapter-navigation{gap:4px;grid-template-columns:30px minmax(0,1fr) minmax(66px,.35fr) 30px}#top-menu #chapter-navigation label{font-size:10px;gap:3px}}
+@media(max-width:420px){#top-menu #reader-home label{font-size:0;max-width:62%;flex-basis:215px}#top-menu #reader-menu-actions>button,#top-menu #reader-menu-actions>a{font-size:11px;padding:6px}#top-menu #chapter-navigation{gap:4px;grid-template-columns:30px minmax(0,1fr) minmax(110px,.45fr) 30px}#top-menu #chapter-navigation label{font-size:10px;gap:3px}}
 @media(min-width:1000px){#top-menu{grid-template-columns:minmax(280px,1fr) minmax(360px,1.5fr);align-items:center}#reader-home{grid-column:1}#reader-menu-actions{grid-column:2;grid-row:1}#top-menu #chapter-navigation{grid-column:1/-1;max-width:760px;justify-self:center}}
 @media print{#top-menu{display:none}}
 
+
+/* Reserve room for three digits and the native select arrow (Psalms 100–150). */
+#top-menu #chapter-navigation #chapter{flex:0 0 68px;width:68px;min-width:68px;font-variant-numeric:tabular-nums}

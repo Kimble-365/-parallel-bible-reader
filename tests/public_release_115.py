@@ -20,6 +20,7 @@ for value in re.findall(r"'([^']+)'",(APP/'sw.js').read_text().split('const ASSE
  p=(APP/value).resolve()
  if p.is_dir():p=p/'index.html'
  paths.add(str(p.relative_to(ROOT)))
+if VERSION=='1.27':paths.add('releases/v1.27/lxxl-source-register.jsonl')
 for v in ['1.14','1.15']:
  for folder in ['extra-data','sources']:
   for p in (ROOT/'releases'/('v'+v)/folder).iterdir():

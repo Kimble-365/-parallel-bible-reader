@@ -140,6 +140,7 @@ jobs:
           node tests/apparatus_124.cjs
           node tests/apparatus_126.cjs
           node tests/lxxl_127.cjs
+          node tests/tracker_127.cjs
           python tests/compact_127.py
           node tests/study_121.cjs
           node tests/vocabulary_122.cjs

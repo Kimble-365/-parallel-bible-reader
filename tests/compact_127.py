@@ -29,6 +29,9 @@ try:
     page.select_option('#apparatus-witness','q*');assert page.locator('.apparatus-entry').count()==1;assert 'Not independently encoded (null)' in page.locator('#apparatus-entries').inner_text()
     with page.expect_download() as d:page.click('#apparatus-export-text')
     assert 'q*' in Path(d.value.path()).read_text();page.click('#apparatus-save');page.wait_for_function('document.querySelector("#apparatus-status").textContent.includes("saved on this device")');page.click('#apparatus-saved');page.wait_for_selector('button[data-source="lxxl"]');ctx.set_offline(True);page.click('button[data-source="lxxl"]');page.wait_for_function('document.querySelector("#apparatus-count")?.textContent.startsWith("8 matching")');ctx.set_offline(False)
+   if width==1280:
+    page.goto(f'http://127.0.0.1:{s.server_port}/releases/v1.27/?edition=fin-kr1938&compare1=engwebp&compare2=&compare3=&text=original#PSA.5.3');page.wait_for_selector('#v3 .main-text');page.evaluate('()=>new Promise(resolve=>requestAnimationFrame(()=>requestAnimationFrame(resolve)))');quote=page.evaluate('ReaderNotebookSource.passage(null,"reference")');assert 'Kuuntele' in quote['text'] and quote['reference'].endswith('5:3'),quote
+    assert page.evaluate('ReaderStateUrl()').endswith('#PSA.5.3')
    assert not errors,errors;ctx.close()
   browser.close()
  print('PASS: compact single-row tools at 320/390/768/1280px, sticky header, grouped navigation, real LXXL filters/export and saved-only offline reopening')

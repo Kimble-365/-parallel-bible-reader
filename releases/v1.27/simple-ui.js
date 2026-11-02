@@ -9,7 +9,7 @@
  const header=document.querySelector('body > header');const chapterNav=header.querySelector('nav[aria-label="Book and chapter"]');chapterNav.id='chapter-navigation';
  const tools=make('div');tools.id='additional-tools';
  for(const node of [...document.body.children])if(node!==header&&node.matches('aside,details.reader-extras,footer'))tools.append(node);
- const intro=$('book-intro');if(intro)tools.append(intro);dialog.append(header,tools);chapterNav.prepend($('prev'));chapterNav.append($('next'));bar.append(chapterNav);document.body.prepend(bar);document.body.append(dialog);
+ const intro=$('book-intro');if(intro)tools.append(intro);const publication=$('lxxl-publication');if(publication)tools.append(publication);dialog.append(header,tools);chapterNav.prepend($('prev'));chapterNav.append($('next'));bar.append(chapterNav);document.body.prepend(bar);document.body.append(dialog);
  function open(target){if(!dialog.open)dialog.showModal();if(target){const el=$(target);if(el){if(el.tagName==='DETAILS')el.open=true;el.scrollIntoView({block:'start'});el.querySelector('input,select,button,summary')?.focus()}}else{dialog.scrollTop=0;close.focus()}}
  for(const [label,target]of [['Settings',null],['Search','search-panel'],['Listen','audio-panel'],['Watch','film-panel'],['Offline','offline-panel']]){const b=make('button',label);b.type='button';b.setAttribute('aria-haspopup','dialog');b.onclick=()=>open(target);menu.append(b)}
  const notes=make('button','Notes');notes.type='button';notes.onclick=()=>$('notes-open').click();menu.append(notes);

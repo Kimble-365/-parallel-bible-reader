@@ -4,6 +4,10 @@
 
 A standalone English-interface Bible reader with original scripts, Latin transliterations, Finnish KR33/38 and World English Bible comparisons. No ChatGPT account is required. This distribution contains only the Bible reader.
 
+## DavarQadosh lexical research reader
+
+A parallel Hebrew/Aramaic lexical reader is developed under [`davarqadosh/`](davarqadosh/). Its reproducible artifact contains 39 independently readable compressed SQLite book packs, source-defined word lookup and source-labelled WEB/Swete/MAM comparisons. Download the `davarqadosh-reader-and-corpus` artifact from the [DavarQadosh workflow](https://github.com/Kimble-365/-parallel-bible-reader/actions/workflows/davarqadosh.yml), extract it, and serve it locally as described in the [build/read guide](davarqadosh/README.md). The source tree does not include generated databases or packs. Imported morphology and historical dictionary glosses do not mean completed lexical research.
+
 ## Latest development reader
 
 Version **1.27** compacts the reader into a sticky header: narrower favorites, one scrolling tool row including Languages/Study/Contents, and book/chapter/arrows grouped above the scripture. The large LXXL announcement moves to Settings. **Study → Textual apparatus** adds the pinned LXXL Genesis source-report register (8 units / 20 reported readings), evidence-class filtering and recorded provenance; unknown manuscript/diplomatic fields and review limits remain explicit. All **84 editions**, BHH/Syriac tools and existing stores are retained. [Open 1.27](https://kimble-365.github.io/-parallel-bible-reader/releases/v1.27/) · [Details](releases/v1.27/README.md) · [Combined verification](https://github.com/Kimble-365/-parallel-bible-reader/actions/runs/41422488879).

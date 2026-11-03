@@ -33,7 +33,9 @@ jobs:
         env:
           OSHB_SOURCE: .dq-sources/oshb/wlc
           OSHB_LEXICON: .dq-sources/lexicon/HebrewStrong.xml
-        run: python tests/davarqadosh/test_corpus.py
+        run: |
+          python tests/davarqadosh/test_corpus.py
+          node tests/davarqadosh/research_scope.cjs
       - name: Build all 39 books and parallel reader artifact
         run: python tools/davarqadosh/build_site.py --source .dq-sources/oshb/wlc --lexicon .dq-sources/lexicon/HebrewStrong.xml --book all --work /tmp/dq-work --out /tmp/dq-site
       - name: Install browser test dependencies

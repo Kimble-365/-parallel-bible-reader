@@ -74,5 +74,6 @@ window.LexicalPackReader=(()=>{
   return {data:JSON.parse(decode(raw)),bytes,url:url.href};
  }
  async function saveCompanion(c){if(c&&c.bytes.length<=8*1024*1024)await(await caches.open(CACHE)).put(c.url,new Response(c.bytes,{headers:{'x-pack-bytes':String(c.bytes.length)}}))}
- return {open,load,save,clear,companion,saveCompanion,hash,inflate,boundedResponse,validateManifest,limits:{MAX_PACK,MAX_DB,MAX_CACHE}};
+ function researchFor(book,token){return book.research.filter(record=>record.verse_key===token.verse_key&&(record.token_id==null||record.token_id===token.id))}
+ return {open,load,save,clear,companion,saveCompanion,hash,inflate,boundedResponse,validateManifest,researchFor,limits:{MAX_PACK,MAX_DB,MAX_CACHE}};
 })();

@@ -1,7 +1,7 @@
 'use strict';
 (()=>{
  const $=id=>document.getElementById(id),R=LexicalPackReader,base=new URL('packs/manifest.json',location.href);
- let library=null,loaded=null,companion=null,active=null,chapter='1',request=0,tokenIndex=new Map(),eventsIndex=new Map(),segmentsIndex=new Map(),recordIndex=new Map(),selected=null;
+ let library=null,loaded=null,companion=null,active=null,chapter='1',request=0,tokenIndex=new Map(),eventsIndex=new Map(),segmentsIndex=new Map(),selected=null;
  const el=(tag,text,cls)=>{const n=document.createElement(tag);if(text!==undefined)n.textContent=text;if(cls)n.className=cls;return n};
  function status(text,error=false){$('status').textContent=text;$('status').classList.toggle('error',error)}
  function option(select,value,label){const o=el('option',label);o.value=String(value);select.append(o)}
@@ -9,7 +9,7 @@
  function chapters(){return [...new Set(active.verses.map(v=>v.chapter))]}
  function safeLink(label,url){const a=el('a',label);try{const u=new URL(url);if(u.protocol==='https:'){a.href=u.href;a.rel='noopener'}}catch{}return a}
  function install(book){
-  active=book;selected=null;tokenIndex=group(book.tokens,'verse_key');eventsIndex=group(book.events,'verse_key');segmentsIndex=group(book.segments,'token_id');recordIndex=group(book.research,'verse_key');
+  active=book;selected=null;tokenIndex=group(book.tokens,'verse_key');eventsIndex=group(book.events,'verse_key');segmentsIndex=group(book.segments,'token_id');
   $('chapter').replaceChildren();for(const c of chapters())option($('chapter'),c,c);$('save').disabled=!loaded;
   const count=book.manifest.coverage;$('coverage').textContent=`${book.manifest.book}: ${book.manifest.verses.toLocaleString()} source verses · ${count.ingested.toLocaleString()} word attestations · ${count.morphologically_analyzed.toLocaleString()} imported morphology annotations · ${count.semantically_reviewed} contextually reviewed · ${count.manuscript_checked} manuscript checked · ${count.translations_checked} translations checked · ${count.fully_verified} fully verified.`;
   $('study').replaceChildren(el('h2','Study this Hebrew word'),el('p','Select a source word. Research gaps remain pending.'));
@@ -50,7 +50,7 @@
   }
   pane.append(lexical,el('h3','Contextual meaning'),el('p','Pending: this occurrence has not received independent semantic review.'));
   const evidence=el('details');evidence.append(el('summary','Manuscripts, ancient versions and research'));
-  const imported=recordIndex.get(t.verse_key)||[],published=companion?.data.research_records?.filter(r=>r.locus===t.verse_key)||[];
+  const imported=R.researchFor(active,t),published=companion?.data.research_records?.filter(r=>r.locus===t.verse_key)||[];
   for(const record of [...imported,...published]){const item=el('details');item.append(el('summary',(record.id||'Research record')+' · '+(record.evidence_class||'editorial draft')),el('p','Source report / inherited research status; no new manuscript collation or occurrence-level adoption is asserted.','notice'),el('pre',record.record_json||JSON.stringify(record,null,2)));evidence.append(item)}
   if(!imported.length&&!published.length)evidence.append(el('p','Not checked for this occurrence. No absence of variants or manuscript agreement is inferred.'));
   evidence.append(safeLink('Existing BHH source library','https://kimble-365.github.io/-parallel-bible-reader/releases/v1.27/bhh.html'),document.createTextNode(' · '),safeLink('Existing LXXL source apparatus','https://kimble-365.github.io/-parallel-bible-reader/releases/v1.27/?edition=hbo-wlc#'+active.manifest.book+'.'+v.chapter+'.'+v.verse_label));pane.append(evidence);

@@ -2,7 +2,15 @@
 
 Independent development entry point: `davarqadosh/index.html`. The existing reader and numbered releases remain intact. TheWay research home: `Kimble-365/TheWay/DavarQadosh`.
 
+The maintained reader 1.27 now loads the optional `reader-integration.js` adapter. With a built `davarqadosh/packs/` library available, its existing Study dialog offers DavarQadosh for WLC columns only. A Hebrew word becomes a direct occurrence action only after the complete displayed source verse exactly matches the verified SQLite projection. Source text, punctuation, RTL, copy text and other editions are preserved. Mismatched or alternative displays keep a separate source-token picker; no occurrence is guessed from whitespace. Missing/corrupt optional packs leave the existing reader usable. This branch change is not a deployment or a promotion of a new release.
+
 The generated reader opens one verified, compressed SQLite book at a time and renders source-defined Hebrew/Aramaic token buttons. The study pane shows occurrence identity, source morphology, segments, historical dictionary explanations, inherited research reports and honest pending contextual research. Parallel WEB, Swete and MAM text follows each edition's own source labels. No word alignment or manuscript agreement is inferred from matching verse labels.
+
+## Maintained-reader integration
+
+The optional `reader-integration.js` adapter is loaded by the current reader 1.27 entry point. With the generated `davarqadosh/packs/` library available, WLC columns expose verified occurrence buttons and an entry in the existing Study dialog. Complete displayed-verse equality is required before source text is wrapped in text-identical word buttons; a mismatch retains a separate explicit source-token picker. Missing or corrupt optional packs leave existing reading available. Historical dictionary explanations remain separate from pending contextual meanings. Other editions are not tokenized. This is a development-branch change, not a deployment.
+
+Run `python tests/davarqadosh/integration.py --site /tmp/dq-site` to verify the bridge against the maintained reader and a previously built pack library. The test serves existing pack artifacts without rebuilding the corpus.
 
 ## Build the complete reader
 
@@ -27,6 +35,7 @@ python tools/davarqadosh/corpus.py verify-pack /tmp/dq-site/packs/GEN.wlexpack -
 python tools/davarqadosh/corpus.py unpack-book /tmp/dq-site/packs/GEN.wlexpack --manifest /tmp/dq-site/packs/GEN.manifest.json --out /tmp/GEN.sqlite
 OSHB_SOURCE=/tmp/dq-oshb/wlc OSHB_LEXICON=/tmp/dq-lexicon/HebrewStrong.xml python tests/davarqadosh/test_corpus.py
 python tests/davarqadosh/browser.py --site /tmp/dq-site
+python tests/davarqadosh/integration.py --site /tmp/dq-site
 ```
 
 The UI saves only the selected book and its comparison sidecar when requested. Its caches are separate from existing reader stores. The book-pack cache has a 64 MiB budget; a book payload has a 128 MiB limit and a packed input a 32 MiB limit. One open book is retained in memory; browser objects require additional memory beyond the SQLite payload. Physical mobile device memory testing remains outstanding.

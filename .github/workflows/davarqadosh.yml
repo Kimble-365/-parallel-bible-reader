@@ -7,6 +7,9 @@ on:
   workflow_dispatch:
 permissions:
   contents: read
+concurrency:
+  group: davarqadosh-${{ github.head_ref || github.ref_name }}
+  cancel-in-progress: false
 jobs:
   build-and-verify:
     runs-on: ubuntu-latest
@@ -45,6 +48,8 @@ jobs:
           fi
       - name: Verify token lookup, parallel text, keyboard, touch, RTL and offline
         run: python tests/davarqadosh/browser.py --site /tmp/dq-site --report /tmp/dq-site/browser-report.json
+      - name: Verify maintained-reader WLC integration
+        run: python tests/davarqadosh/integration.py --site /tmp/dq-site --report /tmp/dq-site/integration-report.json
       - name: Upload self-contained reader with packed databases
         uses: actions/upload-artifact@v4
         with:

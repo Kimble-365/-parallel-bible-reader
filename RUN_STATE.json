@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "status": "running",
-  "owner": "reader-129-intake-20261106",
+  "status": "idle",
+  "owner": null,
   "branch": "project/parallel-reader",
   "next_milestone": "1.28-verse-action-menu",
   "last_run": {
@@ -14,5 +14,11 @@
     "result": "Six reading fonts with Unicode fallback, local persistence and offline UI verified at 320/390/1280px. 84 editions and existing stores retained; verse actions and prayers pending. No merge or deployment."
   },
   "rule": "Acquire by expected-head fast-forward lease; never overwrite an active owner or treat elapsed time as completion. Only the owner releases.",
-  "milestone": "1.28-verse-action-menu"
+  "milestone": "1.28-verse-action-menu",
+  "last_intake_setup": {
+    "owner": "reader-129-intake-20261106",
+    "path": "incoming/v1.29/",
+    "protected_baseline": "abfef9de48f93cd0a2d05a78a2d8464e666efe03",
+    "status": "folder prepared; package not yet received or verified"
+  }
 }

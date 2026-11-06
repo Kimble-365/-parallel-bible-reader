@@ -302,3 +302,6 @@ Verify real mobile/desktop browsers, keyboard/focus, touch versus text selection
 
 
 On 6 November the user explicitly lifted the 1.29 waiting restriction for other approved improvements. Its unavailable package remains a separate import task; continue the numbered 1.28 work without reconstructing that package.
+
+
+Manual 1.29 uploads belong under `incoming/v1.29/` on `project/parallel-reader`. Treat the incoming runtime as an older parallel development line: retain the current 1.28 font milestone and all subsequent approved improvements, compare against current HEAD and port compatible reviewed additions. Never overwrite 1.28 with the incoming package merely because it is numbered 1.29. No package completeness, edition counts, source rights or integration is inferred from upload alone.

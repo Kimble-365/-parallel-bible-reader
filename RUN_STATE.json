@@ -1,14 +1,18 @@
 {
   "version": 1,
-  "status": "running",
-  "owner": "reader-128-fonts-20261106",
+  "status": "idle",
+  "owner": null,
   "branch": "project/parallel-reader",
-  "next_milestone": "1.28-fonts-verse-actions-prayer-library",
+  "next_milestone": "1.28-verse-action-menu",
   "last_run": {
-    "owner": "reader-128-unblock-20261106",
-    "milestone": "restore-project-writes",
-    "result": "Connector tree, commit and expected-head fast-forward write succeeded. Approved 1.28 scope recorded; implementation and browser tests remain pending. No merge or deployment."
+    "owner": "reader-128-fonts-20261106",
+    "completed_at": "2026-11-06 18:49:53 UTC",
+    "milestone": "1.28-reading-fonts",
+    "code_commit": "55e824f4f0c1627975b51151a63a44054b007c0c",
+    "verification_run": 42273926324,
+    "verification_status": "passed",
+    "result": "Six reading fonts with Unicode fallback, local persistence and offline UI verified at 320/390/1280px. 84 editions and existing stores retained; verse actions and prayers pending. No merge or deployment."
   },
   "rule": "Acquire by expected-head fast-forward lease; never overwrite an active owner or treat elapsed time as completion. Only the owner releases.",
-  "milestone": "1.28-reading-fonts"
+  "milestone": "1.28-verse-action-menu"
 }

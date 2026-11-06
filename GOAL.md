@@ -299,3 +299,6 @@ Implement Unicode-aware reading font choices in Settings with per-script fallbac
 Add an optional English introduction to the Bible, Christian theology and salvation, original prayers for confession of faith/sins, spiritual growth, healing/freedom, thanksgiving and praise of God and Jesus, plus short attributed historic prayers whose wording and reuse rights are verified. Distinguish original editorial material from Scripture and tradition-specific doctrine. Express healing/deliverance as prayer rather than guaranteed outcomes or medical advice. Do not diagnose demonic oppression.
 
 Verify real mobile/desktop browsers, keyboard/focus, touch versus text selection, Unicode/RTL fallback, attributed clipboard output, Notes/bookmark compatibility, highlight persistence/removal, failed storage, image export, all four slots and offline reopening. Version UI/metadata/cache and document exact results. No production merge or deployment without separate confirmation.
+
+
+On 6 November the user explicitly lifted the 1.29 waiting restriction for other approved improvements. Its unavailable package remains a separate import task; continue the numbered 1.28 work without reconstructing that package.

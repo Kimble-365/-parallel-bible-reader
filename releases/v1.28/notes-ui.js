@@ -26,5 +26,14 @@
  function officeExport(kind){try{const chosen=exportSelection();if(!chosen.length)throw Error('Create a note first.');const bytes=ReaderOfficeExport[kind](chosen),type={text:'text/plain;charset=utf-8',docx:'application/vnd.openxmlformats-officedocument.wordprocessingml.document',pptx:'application/vnd.openxmlformats-officedocument.presentationml.presentation'}[kind];download(bytes,'bible-notes.'+(kind==='text'?'txt':kind),type);say('File created on this device. Your notes were not uploaded.')}catch(e){say(e.message,true)}}
  $('notes-export-text').onclick=()=>officeExport('text');$('notes-export-docx').onclick=()=>officeExport('docx');$('notes-export-pptx').onclick=()=>officeExport('pptx');
  $('notes-import').onclick=()=>operation(async()=>{if(!capture())return;const file=$('notes-file').files[0];if(!file)throw Error('Choose a notes backup first.');if(file.size>M.MAX_BYTES+100000)throw Error('This backup is too large.');const imported=M.parseBackup(await file.text()),merged=M.validate([...notes,...imported]);notes=merged;active=imported[0]?.id||active;commit();$('notes-file').value=''});
+ window.ReaderNotesUI={addQuote(input){
+  if(loadError||busy)throw Error('Notes are unavailable. Existing notes have not been overwritten.');
+  if(!capture())throw Error('Your current note could not be saved. Keep it open and export a backup.');
+  if(notes.length>=100)throw Error('Notebook limit reached. Export a backup before removing notes.');
+  const q=M.quote(input),n=M.create(q),previous=active;notes.push(n);active=n.id;
+  if(!commit()){notes.pop();active=previous;draw();throw Error('Quotation not saved. Your browser could not save the new note.');}
+  draw();panel.hidden=false;$('notes-open').setAttribute('aria-expanded','true');$('notes-source').textContent='Quotation copied from the selected verse and edition.';panel.scrollIntoView({block:'start'});requestAnimationFrame(()=>$('notes-title').focus());
+ }};
  active=notes[0]?.id||null;draw();if(loadError)$('notes-new').disabled=true;
 })();
+

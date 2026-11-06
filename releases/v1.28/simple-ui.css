@@ -61,3 +61,18 @@ html{scroll-padding-top:0}.verse,.source-verse,#reading{scroll-margin-top:145px}
 
 /* Reserve room for three digits and the native select arrow (Psalms 100–150). */
 #top-menu #chapter-navigation #chapter{flex:0 0 68px;width:68px;min-width:68px;font-variant-numeric:tabular-nums}
+
+
+#verses .verse{grid-template-columns:minmax(0,1fr)}
+#verses .translation[role=button]{cursor:pointer;border-radius:5px}
+#verse-actions{max-width:620px;max-height:85dvh;overflow:auto}
+#verse-actions-preview{white-space:pre-wrap;overflow-wrap:anywhere;font-size:1.1em}
+#verse-actions fieldset{display:flex;flex-wrap:wrap;gap:8px;border:1px solid var(--line)}
+#verses .translation[data-highlight=yellow]{background:#fff2a6;color:#252318}
+#verses .translation[data-highlight=green]{background:#ccebd1;color:#17331c}
+#verses .translation[data-highlight=blue]{background:#cee5ff;color:#162b42}
+#verses .translation[data-highlight=pink]{background:#f7d7e7;color:#402131}
+#verses .translation[data-highlight] .original{color:inherit}
+#verse-actions-status:empty{display:none}
+
+#verse-copy-fallback[hidden]{display:none}

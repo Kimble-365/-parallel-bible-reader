@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "status": "idle",
-  "owner": null,
+  "status": "running",
+  "owner": "reader-128-unblock-20261106",
   "branch": "project/parallel-reader",
   "next_milestone": "M2-discovery-state-navigation",
   "last_run": {
@@ -14,5 +14,6 @@
     "verification_status": "passed",
     "result": "Ranked catalog discovery, explicit filtered spelling suggestions, Latin-only accent folding, native mark preservation, wrapped mobile edition names and offline asset inclusion. 84 editions retained; no production changes."
   },
-  "rule": "Acquire by expected-head fast-forward lease; never overwrite an active owner or treat elapsed time as completion. Only the owner releases."
+  "rule": "Acquire by expected-head fast-forward lease; never overwrite an active owner or treat elapsed time as completion. Only the owner releases.",
+  "milestone": "1.28-fonts-verse-actions-prayer-library"
 }

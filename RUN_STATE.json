@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "status": "idle",
-  "owner": null,
+  "status": "running",
+  "owner": "reader-128-fonts-20261106",
   "branch": "project/parallel-reader",
   "next_milestone": "1.28-fonts-verse-actions-prayer-library",
   "last_run": {
@@ -10,5 +10,5 @@
     "result": "Connector tree, commit and expected-head fast-forward write succeeded. Approved 1.28 scope recorded; implementation and browser tests remain pending. No merge or deployment."
   },
   "rule": "Acquire by expected-head fast-forward lease; never overwrite an active owner or treat elapsed time as completion. Only the owner releases.",
-  "milestone": "1.28-fonts-verse-actions-prayer-library"
+  "milestone": "1.28-reading-fonts"
 }

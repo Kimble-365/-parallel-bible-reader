@@ -1,0 +1,12 @@
+/* Device fonts with Unicode fallback; no external font service. */
+:root[data-reader-font]:not([data-reader-font=default]) #reading :is(.main-text,.original,.roman),
+:root[data-reader-font]:not([data-reader-font=default]) .font-sample{font-family:var(--reading-font-family)}
+:root[data-reader-font]:not([data-reader-font=default]) #reading .original:lang(ja){font-family:'Hiragino Mincho ProN','Yu Mincho','Noto Serif CJK JP',var(--reading-font-family)}
+:root[data-reader-font]:not([data-reader-font=default]) #reading .original:lang(zh){font-family:'PingFang TC','Microsoft JhengHei','Noto Sans CJK TC',var(--reading-font-family)}
+:root[data-reader-font]:not([data-reader-font=default]) #reading .original:lang(ko){font-family:'Apple SD Gothic Neo','Malgun Gothic','Noto Sans CJK KR',var(--reading-font-family)}
+:root[data-reader-font]:not([data-reader-font=default]) #reading .original:is(:lang(he),:lang(hbo)){font-family:'Noto Serif Hebrew','SBL Hebrew','Ezra SIL',var(--reading-font-family)}
+:root[data-reader-font]:not([data-reader-font=default]) #reading .original:lang(syc){font-family:'Noto Sans Syriac','Estrangelo Edessa','Segoe UI Historic',var(--reading-font-family)}
+:root[data-reader-font]:not([data-reader-font=default]) #reading .original:is(:lang(ur),:lang(ar)){font-family:'Noto Naskh Arabic','Geeza Pro',var(--reading-font-family)}
+#reading-font-preview{padding:8px 0;border-bottom:1px solid var(--line)}
+#reading-font-preview .font-sample{margin:5px 0;overflow-wrap:anywhere;font-size:var(--reader-font-size);line-height:1.9;unicode-bidi:isolate}
+#reading-font-status:empty{display:none}

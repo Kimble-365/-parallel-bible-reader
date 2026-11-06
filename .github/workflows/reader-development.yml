@@ -26,3 +26,12 @@ jobs:
       - run: python tests/release_static_121.py
         env:
           READER_VERSION: '1.27'
+
+      - name: Verify 1.28 reading fonts and inherited reading
+        env:
+          READER_VERSION: '1.28'
+        run: |
+          node tests/fonts_128.cjs
+          python tests/fonts_128.py
+          python tests/release_static_121.py
+          python tests/reader_119.py

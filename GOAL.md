@@ -288,3 +288,14 @@ Preserve the current main's LXXL scholarly-readiness and Cambridge symbol-identi
 The compact header also requires the reading-position observer to use actual scroll-margin/header geometry, keeping linked verse quotations stable (including short landscape viewports).
 
 Browser measurements exposed additive root scroll padding and verse scroll margin (145px + 145px). Use one verse/main offset, zero root padding and finish startup layout before anchor scrolling and observation. The linked Finnish quotation is checked before/after boot and its actual viewport position is asserted.
+
+
+## Approved 1.28 reader interaction milestone (6 November 2026)
+
+The user explicitly authorizes a separate 1.28 reader increment while the unpushed 1.29 source package remains unavailable. This supersedes waiting for 1.29 for this interface/content work only; do not reconstruct 1.29 or alter its source acquisition work. Preserve M1 discovery improvements, all 84 editions, existing source bytes/identities and user stores; retain production 1.27 r2 and use the nondeploying project branch.
+
+Implement Unicode-aware reading font choices in Settings with per-script fallback; no single font is claimed to cover every script. Replace left-side verse action icons with a verse-activated, keyboard-accessible menu: copy attributed verse text to clipboard, copy to existing Notes, bookmark, persistent color highlights/remove highlight, share, downloadable verse image, compare and pray. Preserve intentional empty slots, exact source-local references, RTL, selection/copy behavior and storage failure handling. Follow the supplied screenshots as interaction references with an independent design.
+
+Add an optional English introduction to the Bible, Christian theology and salvation, original prayers for confession of faith/sins, spiritual growth, healing/freedom, thanksgiving and praise of God and Jesus, plus short attributed historic prayers whose wording and reuse rights are verified. Distinguish original editorial material from Scripture and tradition-specific doctrine. Express healing/deliverance as prayer rather than guaranteed outcomes or medical advice. Do not diagnose demonic oppression.
+
+Verify real mobile/desktop browsers, keyboard/focus, touch versus text selection, Unicode/RTL fallback, attributed clipboard output, Notes/bookmark compatibility, highlight persistence/removal, failed storage, image export, all four slots and offline reopening. Version UI/metadata/cache and document exact results. No production merge or deployment without separate confirmation.

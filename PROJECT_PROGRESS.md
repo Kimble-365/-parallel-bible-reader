@@ -22,3 +22,8 @@ DavarQadosh and whole-WLC integration already have project branches/PRs and anot
 
 
 Latest completed run: 2026-11-02T19:01:09Z. M2 is next. Production `main` remains `89afb00cfa94b7630bf8e48419d95d73bd5f5181`. No merge, deployment, repository-access change or formal PR approval was performed.
+
+
+## 1.28 interaction work authorized; write blocker cleared (6 November 2026)
+
+GitHub connector writes now succeed: tree creation, commit creation and an expected-head non-forced fast-forward acquired the exclusive guard. Direct native Git remains unavailable because the workspace proxy cannot be reached. This run records the newly approved 1.28 scope in GOAL.md and releases only its own guard. No application changes or feature/browser verification are claimed. Next: implement the 1.28 font/verse-action/prayer-library milestone. M2 navigation remains pending and must not be reported complete. The unavailable 1.29 source package remains separate; do not rebuild it. Keep main and deployed reader unchanged.

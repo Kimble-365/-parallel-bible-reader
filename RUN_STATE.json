@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "status": "idle",
-  "owner": null,
+  "status": "running",
+  "owner": "reader-128-actions-20261106",
   "branch": "project/parallel-reader",
   "next_milestone": "1.28-verse-action-menu",
   "last_run": {

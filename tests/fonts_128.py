@@ -42,7 +42,7 @@ try:
    page.reload();page.wait_for_selector('#reading-font',state='attached')
    if width==390:
     settings(page);page.select_option('#reading-font','mono');page.get_by_role('button',name='Back to reading',exact=True).click()
-    page.evaluate('navigator.serviceWorker.register("sw.js")');page.evaluate('navigator.serviceWorker.ready');page.wait_for_function('!!navigator.serviceWorker.controller');ctx.set_offline(True);page.reload();page.wait_for_selector('#reading-font',state='attached');assert page.locator('html').get_attribute('data-reader-font')=='mono';settings(page);page.select_option('#reading-font','system');assert 'saved' in page.locator('#reading-font-status').inner_text()
+    page.evaluate('navigator.serviceWorker.register("sw.js")');page.wait_for_function('!!navigator.serviceWorker.controller');ctx.set_offline(True);page.reload();page.wait_for_selector('#reading-font',state='attached');assert page.locator('html').get_attribute('data-reader-font')=='mono';settings(page);page.select_option('#reading-font','system');assert 'saved' in page.locator('#reading-font-status').inner_text()
    assert not errors,errors;ctx.close()
   browser.close()
  print('PASS: 320/390/1280px real font settings, exact text preservation, script fallback, persistence, corrupt values, cross-tab updates, failed storage and offline settings')

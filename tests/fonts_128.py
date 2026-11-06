@@ -37,7 +37,7 @@ try:
    assert page.locator('html').get_attribute('data-reader-font')=='classic'
    page.evaluate("localStorage.setItem('bible-reader-font-v1','url(evil)');dispatchEvent(new StorageEvent('storage',{key:'bible-reader-font-v1'}))")
    assert page.locator('html').get_attribute('data-reader-font')=='default'
-   settings(page);page.evaluate("Storage.prototype.setItem=function(){throw new DOMException('quota','QuotaExceededError')}")
+   settings(page);page.evaluate("()=>{Storage.prototype.setItem=function(){throw new DOMException('quota','QuotaExceededError')};}")
    page.select_option('#reading-font','humanist');assert 'could not save' in page.locator('#reading-font-status').inner_text();assert page.locator('html').get_attribute('data-reader-font')=='humanist'
    page.reload();page.wait_for_selector('#reading-font',state='attached')
    if width==390:

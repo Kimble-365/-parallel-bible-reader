@@ -1,20 +1,20 @@
 {
   "version": 1,
-  "status": "running",
-  "owner": "reader-128-media-20261107",
+  "status": "idle",
+  "owner": null,
   "branch": "project/parallel-reader",
-  "next_milestone": "1.28-verse-images-and-comparison",
+  "next_milestone": "1.28-introduction-and-prayer-library",
   "last_run": {
-    "owner": "reader-128-actions-20261106",
-    "completed_at": "2026-11-07 00:03:56 UTC",
-    "milestone": "1.28-verse-action-menu-core",
-    "code_commit": "8e6b3ac23efd0ce4490f66311bed479b84e7af47",
-    "verification_run": 42315635956,
+    "owner": "reader-128-media-20261107",
+    "completed_at": "2026-11-07 00:39:28 UTC",
+    "milestone": "1.28-verse-images-and-comparison",
+    "code_commit": "66ecf3273dcd96ffc8b4b63ae475e12cdcb4596a",
+    "verification_run": 42319320612,
     "verification_status": "passed",
-    "result": "Verse-specific clipboard/Notes/bookmarks/share and four persistent highlight colors; left gutter buttons removed. Chromium mobile/desktop/offline, empty Text 1 and inherited font/reading checks passed. Image, Compare and prayer resources pending. No merge or deployment."
+    "result": "Local attributed PNG export and selected-slot Compare verified in Chromium mobile/desktop/offline, including Hebrew RTL and empty slots. Existing fonts, verse actions and 84 editions retained. Introduction/prayer library pending; no merge or deployment."
   },
   "rule": "Acquire by expected-head fast-forward lease; never overwrite an active owner or treat elapsed time as completion. Only the owner releases.",
-  "milestone": "1.28-verse-images-and-comparison",
+  "milestone": "1.28-introduction-and-prayer-library",
   "last_intake_setup": {
     "owner": "reader-129-intake-20261106",
     "path": "incoming/v1.29/",

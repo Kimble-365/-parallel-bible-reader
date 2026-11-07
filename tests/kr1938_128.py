@@ -20,7 +20,7 @@ try:
     page.eval_on_selector('#text-display','(e,v)=>{e.value=v;e.dispatchEvent(new Event("change"))}',view);page.wait_for_selector('#v13 [role=button]');assert '&lt;' not in page.locator('#v13').inner_text()
    cell=page.locator('#v13 [data-slot="1"]');cell.click();assert '&lt;' not in page.locator('#verse-actions-preview').inner_text()
    page.get_by_role('button',name='Copy',exact=True).click();copied=page.evaluate('navigator.clipboard.readText()');assert 'KR33/38' in copied and 'Amen.' in copied and '&lt;' not in copied
-   page.evaluate("""window.drawn=[];const old=CanvasRenderingContext2D.prototype.fillText;CanvasRenderingContext2D.prototype.fillText=function(t,...args){drawn.push(t);return old.call(this,t,...args)}""")
+   page.evaluate("""()=>{window.drawn=[];const old=CanvasRenderingContext2D.prototype.fillText;CanvasRenderingContext2D.prototype.fillText=function(t,...args){drawn.push(t);return old.call(this,t,...args)}}""")
    with page.expect_download() as d:page.get_by_role('button',name='Verse image',exact=True).click()
    assert Path(d.value.path()).read_bytes().startswith(b'\x89PNG');drawn=page.evaluate('drawn.join(" ")');assert 'Amen.' in drawn and '&lt;' not in drawn
    page.get_by_role('button',name='Copy to Notes',exact=True).click();assert '&lt;' not in page.locator('#notes-quotes').inner_text();assert 'valtakunta' in page.locator('#notes-quotes').inner_text();page.click('#notes-close')

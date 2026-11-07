@@ -68,7 +68,7 @@ jobs:
           paths=subprocess.check_output(['git','diff','--name-only','HEAD^','HEAD'],text=True).splitlines()
           def relevant(p):
             if p in {'releases/v1.28/README.md','releases/v1.28/RELEASE-1.28.md'}:return False
-            return p.startswith(('releases/v1.28/','data/')) or p in {'tools/package_reader_128.py','tests/package_128.py'}
+            return p.startswith(('releases/v1.28/','data/')) or p in {'tools/package_reader_128.py','tests/package_128.py','tests/kr1938_128.py','tests/kr1938_128.cjs'}
           with open(os.environ['GITHUB_OUTPUT'],'a') as output:output.write('build='+str(any(map(relevant,paths))).lower()+'\n')
           PY
       - name: Build and verify final 1.28 package

@@ -37,7 +37,7 @@ Local model and manifest checks passed. Actual Chromium passed 320/390/1280px Se
 
 The first browser attempt exposed a test expression that returned and invoked its throwing quota function; the second exposed an omitted nested translation-directory page during packaging. Both are corrected. The complete inherited directory page is now byte-identical, and the browser test uses a bounded controller wait. Project-only CI now cancels superseded test runs and bounds the new verification step; no deployment workflow was changed.
 
-## Next concrete milestone — 1.28 verse action menu
+## 1.28 verse action menu — scope (core completed below)
 
 Replace left-gutter action icons with an accessible verse-activated menu. Reuse existing edition-aware copy/share/bookmark and Notes paths; add persistent color highlights/removal, verse-image export, Compare and Pray. Preserve exact source references, all four slots including intentional empties, native text selection, keyboard/focus and offline/user-store behavior. Then complete the separately recorded introduction/theology/salvation and original/rights-verified historic prayer library. These features and a final 1.28 package are pending, not delivered by the font milestone.
 
@@ -47,3 +47,12 @@ The user explicitly lifted the 1.29 waiting restriction. The existing hourly aut
 ## Manual 1.29 upload inbox (6 November 2026)
 
 Created `incoming/v1.29/README.md` on the nondeploying project branch at the user's request. It explains browser upload limits and lossless intake, and requires preserving all 1.28 improvements and subsequent work. Incoming runtime/workflow/control files must remain staged under this folder; do not overwrite releases or activate uploaded code. The package remains unreceived/unverified. Validate complete upload parts, checksums, rights, identities and counts before any integration; 85 packs is not an edition count. Continue `1.28-verse-action-menu` independently. No application/source/store/workflow changes, merge or deployment. This setup releases only its own run guard.
+
+
+## 1.28 verse action menu core — verified (7 November 2026)
+
+Code `8e6b3ac23efd0ce4490f66311bed479b84e7af47` passed [Actions 42315635956](https://github.com/Kimble-365/-parallel-bible-reader/actions/runs/42315635956). Each available verse/edition cell opens a keyboard-accessible action dialog by click/tap or Enter/Space. Left-gutter bookmark/share icons are removed in grouped and independent-source views. Native text selection suppresses menu opening. Actions: attributed clipboard copy with manual fallback, explicit clicked-edition quotation into a new existing-format Note, existing bookmark toggle, existing edition-aware Share, four saved highlight colors and removal. Highlight writes use a separate bounded store, whitelist colors, refuse corrupt data and report failed writes without claiming a saved color. No corpus/source metadata was edited; six font choices remain.
+
+Actual Chromium at 320/390/1280px passed clipboard content, Finnish Text 3 Notes/bookmark identity, intentional empty Text 1, source-mode actions, highlight persistence/removal, native text selection, keyboard activation, slot-preserving share links, unchanged note data on failed highlight writes, mobile width and saved-text offline actions. 154 shell assets pass static validation. Inherited 84-edition catalog/discovery/offline, font settings/fallback/storage, four-column alignment/mobile, Finnish quotes, gzip fallback, Japanese ruby/Latin/copy, tracker and complete offline source/aid saving all pass with no page errors. Physical iOS/Safari/Edge and extensive scholarly/linguistic review remain separate.
+
+Next: implement verse-image export and Compare using the selected verse/edition without filling intentionally empty slots. Then add the optional Bible/theology/salvation introduction and original/attributed rights-verified prayer library, with Pray access from the verse menu. These remaining options and a final packaged 1.28 release are not complete. Continue without waiting for 1.29; retain its separate upload inbox and never overwrite this work with incoming runtime files. No merge, deployment, access change or formal PR approval. Final progress commit releases only this run's guard.

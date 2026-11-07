@@ -27,7 +27,7 @@ window.ReaderNotesModel=(()=>{
   if(!request.chapterOnly&&(first<0||last<first))throw Error('That verse or range is not present in Text 1. Use its own source reference labels.');
   const chosen=request.chapterOnly?chapter:chapter.slice(first,last+1);if(!chosen.length||chosen.some(r=>!r[2]?.trim()))throw Error('The requested source text is unavailable or empty.');
   const label=row=>String(row[1])+(row[4]&&row[4]!==row[1]?'–'+row[4]:''),name=new Map(books).get(request.book)||request.book,ref=name+' '+request.chapter+(request.chapterOnly?'':':'+(chosen.length===1?label(chosen[0]):chosen[0][1]+'–'+(chosen.at(-1)[4]||chosen.at(-1)[1])));
-  return quote({reference:ref,edition:edition.label,editionId:edition.id,language:edition.language,direction:edition.direction||'auto',text:chosen.length===1?chosen[0][2]:chosen.map(r=>label(r)+' '+r[2]).join('\n')});
+  return quote({reference:ref,edition:edition.label,editionId:edition.id,language:edition.language,direction:edition.direction||'auto',text:chosen.length===1?(window.ReaderVerseText?.clean(edition.id,chosen[0][2])??chosen[0][2]):chosen.map(r=>label(r)+' '+(window.ReaderVerseText?.clean(edition.id,r[2])??r[2])).join('\n')});
  }
  return {KEY,MAX_BYTES,read,save,create,quote,validate,parseBackup,backup,plain,plan,passage};
 })();

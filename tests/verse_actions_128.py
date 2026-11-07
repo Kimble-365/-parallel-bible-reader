@@ -36,7 +36,7 @@ try:
    # Failed writes do not falsely show a saved highlight or destroy notes.
    if not page.locator('#verse-actions').evaluate('(e)=>e.open'):page.locator('#s3-v16 .translation').click()
    before=page.evaluate("localStorage.getItem('parallel-reader-notes-v1')");page.evaluate("()=>{Storage.prototype.setItem=function(){throw new DOMException('quota','QuotaExceededError')};}");page.get_by_role('button',name='Green',exact=True).click();assert 'not saved' in page.locator('#verse-actions-status').inner_text();assert page.evaluate("localStorage.getItem('parallel-reader-notes-v1')")==before
-   page.goto(base+'?edition=&compare1=&compare2=fin-kr1938&compare3=#JHN.3.16');page.wait_for_selector('#v16 [data-slot="3"][role=button]');page.locator('#v16 [data-slot="3"]').click();page.get_by_role('button',name='Copy to Notes',exact=True).click();assert 'KR33/38' in page.locator('#notes-quotes').inner_text();assert page.locator('#primary').input_value()==''
+   page.goto(base+'?edition=&compare1=&compare2=fin-kr1938&compare3=&layout=auto#JHN.3.16');page.wait_for_selector('#v16 [data-slot="3"][role=button]');page.locator('#v16 [data-slot="3"]').click();page.get_by_role('button',name='Copy to Notes',exact=True).click();assert 'KR33/38' in page.locator('#notes-quotes').inner_text();assert page.locator('#primary').input_value()==''
    assert not errors,errors;ctx.close()
   browser.close()
  print('PASS: verse-specific clipboard/Notes/bookmarks/highlights, selection, keyboard, source mode, empty slot preservation, storage failure and mobile/offline behavior')

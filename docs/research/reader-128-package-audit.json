@@ -1,0 +1,69 @@
+{
+  "version": "1.28",
+  "source_commit": "70ae0eabdd950f5c4cffabca747a9dbe7130e323",
+  "verification_run": 42330023025,
+  "verification_status": "success",
+  "archive": "parallel-bible-reader-1.28.zip",
+  "archive_bytes": 174304492,
+  "archive_sha256": "ba9fcca82f5c0a2b9a349abfbbead1b369a3035573b81ea29f92275d2fb2dd0b",
+  "file_count": 2223,
+  "uncompressed_bytes": 618932188,
+  "edition_count": 84,
+  "reproducible": true,
+  "artifact": {
+    "id": 13556588392,
+    "url": "https://github.com/Kimble-365/-parallel-bible-reader/actions/runs/42330023025/artifacts/13556588392",
+    "expires_at": "2026-12-07T02:38:15Z",
+    "outer_archive_bytes": 174313120,
+    "outer_sha256": "ab49fe6985b270c31f62bcb33557b7791ee09d93f257b366e4f01d2ae27b235d"
+  },
+  "kr1938": {
+    "rows_audited": 31087,
+    "rows_adapted": 1,
+    "reference": "MAT 6:13",
+    "delimiters": [
+      "&lt;FO&gt;",
+      "&lt;Fo&gt;"
+    ],
+    "source_modified": false,
+    "mat_git_blob": "ba2e81d0e95ed5683cea5a6851c97f53b1e96ba7",
+    "method": "Edition-scoped display/search/new-quotation adapter; textual brackets retained; no stored-note migration",
+    "checks": [
+      "pre-fix regression fails on the original symptom",
+      "all source rows audited",
+      "display original/Latin/both",
+      "attributed clipboard",
+      "verse action Notes",
+      "notebook single/range passage",
+      "actual canvas text and PNG download",
+      "search index revision",
+      "mobile/desktop and offline"
+    ]
+  },
+  "package_checks": [
+    "two byte-identical builds",
+    "ZIP CRC and path safety",
+    "every manifest file size and SHA-256",
+    "verbatim repository/source hashes",
+    "actual extracted reader and loopback launcher",
+    "all 84 edition representative books",
+    "no outside or failed local requests",
+    "Unicode/RTL and gzip fallback",
+    "Notes/highlights/font persistence and PNG/Pray",
+    "file:// limitations shown"
+  ],
+  "preserved": [
+    "84 edition identities and coverage",
+    "original source bytes and rights metadata",
+    "all existing user-store keys",
+    "production 1.27 r2",
+    "separate 1.29 intake"
+  ],
+  "limitations": [
+    "Physical Safari/Edge/iPhone not tested",
+    "No exhaustive linguistic/theological review",
+    "Source-hosted study links and media may require Internet",
+    "No merge, Release publication or deployment"
+  ],
+  "production_main": "89afb00cfa94b7630bf8e48419d95d73bd5f5181"
+}

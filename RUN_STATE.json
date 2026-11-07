@@ -1,17 +1,19 @@
 {
   "version": 1,
-  "status": "running",
-  "owner": "reader-128-final-package-20261107",
+  "status": "idle",
+  "owner": null,
   "branch": "project/parallel-reader",
-  "next_milestone": "1.28-release-package-audit",
+  "next_milestone": "1.28-promotion-review",
   "last_run": {
-    "owner": "reader-128-prayers-20261107",
-    "completed_at": "2026-11-07 01:37:15 UTC",
-    "milestone": "1.28-introduction-and-prayer-library",
-    "code_commit": "7a37fadfc29f766f0369b8575061b9c26cb50015",
-    "verification_run": 42324819651,
+    "owner": "reader-128-final-package-20261107",
+    "completed_at": "2026-11-07 02:40:35 UTC",
+    "milestone": "1.28-release-package-audit-and-KR33/38-fix",
+    "code_commit": "70ae0eabdd950f5c4cffabca747a9dbe7130e323",
+    "verification_run": 42330023025,
     "verification_status": "passed",
-    "result": "3 introductions, 8 original prayers and 3 attributed historic selections with Settings and selected-verse Pray access. Chromium mobile/desktop/offline and inherited checks passed; 84 editions/stores retained. Release packaging/review pending; no merge or deployment."
+    "result": "Final 174,304,492-byte reproducible ZIP verified with all 84 edition samples; KR33/38 MAT 6:13 formatting delimiters removed in display/search/new quotations only. Source bytes and stores preserved. Await separate production/download publication decision; broader roadmap remains open.",
+    "report": "docs/research/reader-128-package-audit.json",
+    "artifact": "https://github.com/Kimble-365/-parallel-bible-reader/actions/runs/42330023025/artifacts/13556588392"
   },
   "rule": "Acquire by expected-head fast-forward lease; never overwrite an active owner or treat elapsed time as completion. Only the owner releases.",
   "milestone": "1.28-release-package-audit",

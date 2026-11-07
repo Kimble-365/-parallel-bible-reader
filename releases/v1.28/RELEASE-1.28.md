@@ -26,3 +26,10 @@ The original generic `tools/package_release.py` is retained for older versions; 
 Retain 1.27 r2 and every user-store key. If the deployment fails, restore the production redirect to the then-verified previous release in a normal reviewed commit; do not delete 1.28 or clear user stores/caches indiscriminately. Validate the rollback deployment and public bytes. Never reset `main` or force a ref. Current packaging does not change the production redirect.
 
 Broader GOAL acquisition, M2 navigation, storage benchmarks and scholarly/physical browser review remain open; this is final preparation of the specifically requested 1.28 feature set, not completion of the global roadmap.
+
+
+## Verified final review artifact (7 November 2026)
+
+Code `70ae0eabdd950f5c4cffabca747a9dbe7130e323`, [Actions 42330023025](https://github.com/Kimble-365/-parallel-bible-reader/actions/runs/42330023025), all checks successful including the KR33/38 Matthew 6:13 escaped-formatting repair. All Scripture words and original corpus bytes are retained; only known FO/Fo delimiters are omitted from display/search/new quotations. Existing stored notes are not rewritten.
+
+[Review ZIP and reports](https://github.com/Kimble-365/-parallel-bible-reader/actions/runs/42330023025/artifacts/13556588392), available until 7 December 2026. Inner reader ZIP: **174,304,492 bytes**, **2,223 files**, **84 editions**; SHA-256 `ba9fcca82f5c0a2b9a349abfbbead1b369a3035573b81ea29f92275d2fb2dd0b`. Two builds matched byte-for-byte; all manifest/verbatim hashes and the extracted 84-edition local-reader browser checks passed. This supersedes the earlier e102064 artifact. Full measurements: `../../docs/research/reader-128-package-audit.json`. This review artifact has not been merged, published as a Release or deployed.

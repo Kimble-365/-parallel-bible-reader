@@ -13,6 +13,8 @@ jobs:
     timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
@@ -52,3 +54,28 @@ jobs:
         run: |
           node tests/faith_128.cjs
           python tests/faith_128.py
+
+      - name: Detect package input changes
+        id: package-inputs
+        run: |
+          python - <<'PY'
+          import os,subprocess
+          paths=subprocess.check_output(['git','diff','--name-only','HEAD^','HEAD'],text=True).splitlines()
+          def relevant(p):
+            if p in {'releases/v1.28/README.md','releases/v1.28/RELEASE-1.28.md'}:return False
+            return p.startswith(('releases/v1.28/','data/')) or p in {'tools/package_reader_128.py','tests/package_128.py'}
+          with open(os.environ['GITHUB_OUTPUT'],'a') as output:output.write('build='+str(any(map(relevant,paths))).lower()+'\n')
+          PY
+      - name: Build and verify final 1.28 package
+        if: steps.package-inputs.outputs.build == 'true'
+        timeout-minutes: 12
+        run: python tests/package_128.py --out "${{ runner.temp }}/reader-1.28-package" --commit "${{ github.sha }}"
+      - name: Retain final 1.28 review ZIP and reports
+        if: steps.package-inputs.outputs.build == 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: reader-1.28-review-package
+          path: ${{ runner.temp }}/reader-1.28-package/
+          compression-level: 0
+          retention-days: 30
+          if-no-files-found: error

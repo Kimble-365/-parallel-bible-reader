@@ -40,3 +40,9 @@ jobs:
       - name: Verify 1.28 verse actions
         timeout-minutes: 5
         run: python tests/verse_actions_128.py
+
+      - name: Verify 1.28 verse images and comparison
+        timeout-minutes: 5
+        run: |
+          node tests/verse_media_128.cjs
+          python tests/verse_media_128.py

@@ -76,3 +76,8 @@ html{scroll-padding-top:0}.verse,.source-verse,#reading{scroll-margin-top:145px}
 #verse-actions-status:empty{display:none}
 
 #verse-copy-fallback[hidden]{display:none}
+
+
+#verse-comparison[hidden]{display:none}
+#verse-comparison section{padding:10px 0;border-top:1px solid var(--line)}
+#verse-comparison p{white-space:pre-wrap;overflow-wrap:anywhere}

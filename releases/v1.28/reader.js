@@ -190,6 +190,7 @@ window.ReaderNotebookSource={
 
 
 window.ReaderVerseBridge={
+ comparison(r){const cells=[...$('verses').querySelectorAll('.translation')],chosen=cells.find(n=>n._verseActionRecord===r),row=chosen?.closest('.verse');return selectedSlots().map(slot=>{let cell;if(row)cell=[...row.querySelectorAll('.translation')].find(n=>n.dataset.slot===String(slot.number));else{const pane=[...$('verses').querySelectorAll('.source-pane')].find(n=>n.dataset.slot===String(slot.number));cell=[...(pane?.querySelectorAll('.translation')||[])].find(n=>String(n._verseActionRecord?.verse)===String(r.verse));}const record=cell?._verseActionRecord;return {slot:slot.number,edition:byId.get(slot.id).label,quote:record?window.ReaderVerseBridge.quote(record):null,reason:cell?.textContent||'This verse label is not present in the displayed source chapter.'};});},
  reference:r=>reference(r.book,r.chapter,r.verse,r.row[4]),
  quote(r){const e=formMeta(r.edition,r.slot,r.book);return ReaderNotesModel.quote({reference:reference(r.book,r.chapter,r.verse,r.row[4]),edition:e.label,editionId:r.edition,text:ReaderVerseText.plain(r.edition,r.row,r.row[2]||r.row[3])+(e.required_attribution?'\n\n'+e.required_attribution:''),language:e.language,direction:e.direction||'auto'});},
  copy(r){const e=byId.get(r.edition);return reference(r.book,r.chapter,r.verse,r.row[4])+' — '+e.label+'\n'+textView(e,r.row)+(e.required_attribution?'\n\n'+e.required_attribution:'');},
@@ -197,3 +198,4 @@ window.ReaderVerseBridge={
  isBookmarked:r=>isBookmarked({edition:r.edition,book:r.book,chapter:r.chapter,verse:r.verse,nativeReference:r.nativeReference}),
  share:r=>openShare(r.edition,r.book,r.chapter,r.row)
 };
+

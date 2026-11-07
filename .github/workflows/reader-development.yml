@@ -46,3 +46,9 @@ jobs:
         run: |
           node tests/verse_media_128.cjs
           python tests/verse_media_128.py
+
+      - name: Verify 1.28 introduction and prayer resources
+        timeout-minutes: 5
+        run: |
+          node tests/faith_128.cjs
+          python tests/faith_128.py

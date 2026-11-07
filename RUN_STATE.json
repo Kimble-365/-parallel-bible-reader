@@ -1,20 +1,20 @@
 {
   "version": 1,
-  "status": "running",
-  "owner": "reader-128-prayers-20261107",
+  "status": "idle",
+  "owner": null,
   "branch": "project/parallel-reader",
-  "next_milestone": "1.28-introduction-and-prayer-library",
+  "next_milestone": "1.28-release-package-audit",
   "last_run": {
-    "owner": "reader-128-media-20261107",
-    "completed_at": "2026-11-07 00:39:28 UTC",
-    "milestone": "1.28-verse-images-and-comparison",
-    "code_commit": "66ecf3273dcd96ffc8b4b63ae475e12cdcb4596a",
-    "verification_run": 42319320612,
+    "owner": "reader-128-prayers-20261107",
+    "completed_at": "2026-11-07 01:37:15 UTC",
+    "milestone": "1.28-introduction-and-prayer-library",
+    "code_commit": "7a37fadfc29f766f0369b8575061b9c26cb50015",
+    "verification_run": 42324819651,
     "verification_status": "passed",
-    "result": "Local attributed PNG export and selected-slot Compare verified in Chromium mobile/desktop/offline, including Hebrew RTL and empty slots. Existing fonts, verse actions and 84 editions retained. Introduction/prayer library pending; no merge or deployment."
+    "result": "3 introductions, 8 original prayers and 3 attributed historic selections with Settings and selected-verse Pray access. Chromium mobile/desktop/offline and inherited checks passed; 84 editions/stores retained. Release packaging/review pending; no merge or deployment."
   },
   "rule": "Acquire by expected-head fast-forward lease; never overwrite an active owner or treat elapsed time as completion. Only the owner releases.",
-  "milestone": "1.28-introduction-and-prayer-library",
+  "milestone": "1.28-release-package-audit",
   "last_intake_setup": {
     "owner": "reader-129-intake-20261106",
     "path": "incoming/v1.29/",

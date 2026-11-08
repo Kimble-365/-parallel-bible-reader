@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "status": "idle",
-  "owner": null,
+  "status": "running",
+  "owner": "reader-hebrew-greek-20261108",
   "branch": "project/parallel-reader",
   "next_milestone": "1.28-promotion-review",
   "last_run": {
@@ -16,7 +16,7 @@
     "artifact": "https://github.com/Kimble-365/-parallel-bible-reader/actions/runs/42330023025/artifacts/13556588392"
   },
   "rule": "Acquire by expected-head fast-forward lease; never overwrite an active owner or treat elapsed time as completion. Only the owner releases.",
-  "milestone": "1.28-release-package-audit",
+  "milestone": "Hebrew-formatting-and-pronunciation-readers",
   "last_intake_setup": {
     "owner": "reader-129-intake-20261106",
     "path": "incoming/v1.29/",

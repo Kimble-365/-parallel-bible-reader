@@ -5,7 +5,9 @@ ROOT=Path(__file__).resolve().parents[2]
 sys.path.insert(0,str(ROOT/'tools'))
 from package_reader_20 import inventory,digest
 def main():
- out=ROOT/'apps/native-20/dist';out.mkdir(parents=True,exist_ok=True);files=inventory(ROOT)
+ out=ROOT/'apps/native-20/dist';files=inventory(ROOT)
+ if out.exists():shutil.rmtree(out) # Generated build output only, never application/profile data.
+ out.mkdir(parents=True)
  for name,source in files.items():
   target=out/name;target.parent.mkdir(parents=True,exist_ok=True);shutil.copyfile(source,target)
  (out/'index.html').write_text('<!doctype html><html lang="en"><meta charset="utf-8"><title>Parallel Bible Reader 2.0</title><a href="releases/v2.0/">Open Reader 2.0</a><script>location.replace("releases/v2.0/"+location.search+location.hash)</script></html>')

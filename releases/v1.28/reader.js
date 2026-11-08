@@ -68,7 +68,7 @@ function cell(id,row,slot,sourceC=current.chapter){const e=formMeta(id,slot),col
  if(row[6])col.append(element('p',row[6],'notice'));if(row[5])col.append(element('p','Combined '+row[5]+' source units with this verse number. Original units are preserved in USFM.','notice'));if(row.notice)col.append(element('p',row.notice,'notice'));if(row[4]&&row[4]>row[1])col.append(element('p','Source verse range: '+row[1]+'–'+row[4],'notice'));
  if(!row[2]&&!row[3]){col.append(element('p','Empty verse record in the source.','missing'));return col;}
  const view=$('text-display').value;
- function add(text,original,first){const node=element('div',undefined,(original?'original':'roman')+(first?' main-text':''));node.lang=original?e.language:e.latin_language||e.language;node.dir=original?(e.direction||'auto'):'ltr';for(const part of ReaderVerseText.segments(id,row,text)){const line=element('p',undefined,'verse-line'),ref=element('span',part.reference,'verse-reference');line.append(ref,document.createTextNode(' '));if(!(original&&id==='jpn-bungo'&&$('ruby-readings').checked&&ReaderJapaneseRuby.annotate(line,current.book,row)))line.append(document.createTextNode(part.text));node.append(line)}col.append(node);}
+ function add(text,original,first){const node=element('div',undefined,(original?'original':'roman')+(first?' main-text':''));node.lang=original?e.language:e.latin_language||e.language;node.dir=original?(e.direction||'auto'):'ltr';for(const part of ReaderVerseText.segments(id,row,text)){const line=element('p',undefined,'verse-line'),ref=element('span',part.reference,'verse-reference');line.append(ref,document.createTextNode(' '));if(!(original&&id==='jpn-bungo'&&$('ruby-readings').checked&&ReaderJapaneseRuby.annotate(line,current.book,row)))ReaderVerseText.append(line,part);node.append(line)}col.append(node);}
  if(view==='original'){add(row[2]||row[3],Boolean(row[2]),true);}
  else{add(row[3]||row[2],!row[3],true);if(view==='both'&&row[2]&&row[3]&&row[2]!==row[3])add(row[2],true,false);if(view==='latin'&&!row[3]&&e.script!=='Latin')col.append(element('p','Latin transliteration is unavailable; the original is shown.','notice'));}
  col._verseActionRecord={edition:id,book:current.book,chapter:sourceC,verse:row[1],row:[...row],slot,nativeReference:!sourcePanels()};if(window.ReaderVerseActions)ReaderVerseActions.bind(col,col._verseActionRecord);
@@ -198,4 +198,5 @@ window.ReaderVerseBridge={
  isBookmarked:r=>isBookmarked({edition:r.edition,book:r.book,chapter:r.chapter,verse:r.verse,nativeReference:r.nativeReference}),
  share:r=>openShare(r.edition,r.book,r.chapter,r.row)
 };
+
 

@@ -305,3 +305,12 @@ On 6 November the user explicitly lifted the 1.29 waiting restriction for other 
 
 
 Manual 1.29 uploads belong under `incoming/v1.29/` on `project/parallel-reader`. Treat the incoming runtime as an older parallel development line: retain the current 1.28 font milestone and all subsequent approved improvements, compare against current HEAD and port compatible reviewed additions. Never overwrite 1.28 with the incoming package merely because it is numbered 1.29. No package completeness, edition counts, source rights or integration is inferred from upload alone.
+
+
+## Approved Hebrew source repair and separate reading volumes (8 November 2026)
+
+The user reports Hebrew control/formatting artifacts at Deuteronomy 6:4 and requests a wider audit. Preserve original letters, vowels, cantillation, exceptional lettering and source bytes; correct display/copy/search/new-quotation handling of serialized formatting only. The user confirmed current Israeli Hebrew as the intended reading tradition and requested a Modern Greek pronunciation version. Provide separately named source, written-transliteration and pronunciation reading volumes with explicit method/quality/rights labels and attributed exports; do not collapse them into independent ancient witnesses or replace the main 84-edition baseline.
+
+The user additionally requests Salkinson–Ginsburg and Delitzsch in their own Hebrew and Latin versions. Reuse the already identified historical Delitzsch source and verify any newly acquired Salkinson source's actual edition, archive/member checksums, numbering and rights before integration. They are Hebrew NT translations, not the Greek source text. Retain raw sources, all 1.28 work and every user store.
+
+Apostolic Bible Polyglot and its Modern Greek reading file were requested. Check publisher copyright and seek a genuinely free/expired edition; free viewing or CrossWire-specific permission does not authorize this project to republish/adapt it. Use a clearly external link/private general converter while applicable permission is absent. Do not rename Swete or another historical source ABP. The user's question about early printed editions helping LXXL permits a research note; do not modify the separately owned LXXL project or imply primary manuscript evidence. No merge, Release publication or deployment is authorized.

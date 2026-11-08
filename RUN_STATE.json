@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "status": "idle",
-  "owner": null,
+  "status": "running",
+  "owner": "reader-native-runtime-20261108",
   "branch": "project/parallel-reader",
   "next_milestone": "2.0-native-runtime-smoke-and-distribution-audit",
   "last_run": {
@@ -21,11 +21,13 @@
     "downloads": "change-logs/reports/reader-20-review.md"
   },
   "rule": "Acquire by expected-head fast-forward lease; never overwrite an active owner or treat elapsed time as completion. Only the owner releases.",
-  "milestone": null,
+  "milestone": "2.0-native-runtime-smoke-and-distribution-audit",
   "last_intake_setup": {
     "owner": "reader-129-intake-20261106",
     "path": "incoming/v1.29/",
     "protected_baseline": "abfef9de48f93cd0a2d05a78a2d8464e666efe03",
     "status": "folder prepared; package not yet received or verified"
-  }
+  },
+  "acquired_at": "2026-11-08 18:28:11 UTC",
+  "expected_head": "86584ecdd1a96da20c0752c37e2553a52598c93a"
 }

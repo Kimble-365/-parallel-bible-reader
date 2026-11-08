@@ -19,7 +19,7 @@ try:
   browser=p.chromium.launch(executable_path='/usr/bin/chromium',args=['--no-sandbox'])
   for width in [390,1280]:
    ctx=browser.new_context(viewport={'width':width,'height':844},permissions=['clipboard-read','clipboard-write'],accept_downloads=True);page=ctx.new_page();errors=[];outside=[];page.on('pageerror',lambda e:errors.append(str(e)));page.on('request',lambda r:outside.append(r.url) if not r.url.startswith('http://127.0.0.1:') else None)
-   base=f'http://127.0.0.1:{s.server_port}/releases/v1.28/'
+   base=f'http://127.0.0.1:{s.server_port}/releases/v2.0/'
    page.goto(base+'?edition=&compare1=&compare2=hbo-wlc&compare3=#DEU.6.4');page.wait_for_selector('#v4 [data-slot="3"][role=button]');page.wait_for_function('window.ReaderVerseMedia')
    cell=page.locator('#v4 [data-slot="3"]');assert 'seg type' not in cell.inner_text() and 'H8085' not in cell.inner_text();assert ''.join(cell.locator('[data-source-typography="large"]').all_text_contents())=='עד'
    cell.click();page.get_by_role('button',name='Copy',exact=True).click();copied=page.evaluate('navigator.clipboard.readText()');assert 'שְׁמַ' in copied and 'seg' not in copied and 'H8085' not in copied
@@ -33,6 +33,7 @@ try:
     else:assert not any('\u05d0'<=c<='\u05ea' for c in content)
     with page.expect_download() as d:page.click('#export')
     text=Path(d.value.path()).read_text();assert '1:1' in text and content in text and 'Source:' in text;assert d.value.suggested_filename==volume+'-'+b+'.txt'
+   page.goto(base+'reading-volumes.html?volume=swete-modern&book=EST&chapter=prologue');page.wait_for_selector('#verses article');assert page.locator('#chapter').input_value()=='prologue';assert 'prologue:' in page.locator('#verses article').first.inner_text()
    # Full source coverage, not just the displayed chapter, must reach each volume export.
    page.goto(base+'reading-volumes.html?volume=salkinson-written&book=JHN&chapter=1');page.wait_for_selector('#verses article')
    with page.expect_download(timeout=120000) as d:page.click('#export-volume')

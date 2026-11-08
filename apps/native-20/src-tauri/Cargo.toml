@@ -1,0 +1,30 @@
+[package]
+name = "parallel-bible-reader"
+version = "2.0.0"
+description = "Account-free parallel Bible reader with retained source rights"
+authors = ["Parallel Bible Reader contributors"]
+edition = "2021"
+rust-version = "1.90"
+license = "MIT"
+
+[lib]
+name = "parallel_bible_reader_lib"
+crate-type = ["staticlib", "cdylib", "rlib"]
+
+[build-dependencies]
+tauri-build = { version = "=2.7.4", features = [] }
+
+[dependencies]
+tauri = { version = "=2.12.5", features = [] }
+tauri-plugin-clipboard-manager = "=2.5.0"
+tauri-plugin-opener = "=2.7.2"
+serde = { version = "1", features = ["derive"] }
+url = "2"
+
+[profile.release]
+strip = true
+lto = "thin"
+codegen-units = 16
+
+[features]
+custom-protocol = ["tauri/custom-protocol"]

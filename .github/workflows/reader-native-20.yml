@@ -1,0 +1,166 @@
+name: Reader 2.0 native review builds
+on:
+  push:
+    branches: ['project/parallel-reader']
+    paths: ['apps/native-20/**', 'releases/v2.0/**', 'tools/*20*', 'tools/local/*', 'tests/*20*', 'tests/hebrew_reading*', '.github/workflows/reader-native-20.yml']
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: reader-native-20-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  reader:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: python -m pip install playwright lxml
+      - run: sudo ln -sf /usr/bin/google-chrome /usr/bin/chromium
+      - run: node tests/native_20.cjs
+      - run: node tests/hebrew_reading.cjs
+      - run: python tests/hebrew_reading.py
+      - run: python tests/release_static_121.py
+        env:
+          READER_VERSION: '2.0'
+      - run: python tests/reader_119.py
+        env:
+          READER_VERSION: '2.0'
+      - run: python tests/package_20.py --out "${{ runner.temp }}/reader-2.0" --commit "${{ github.sha }}"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: reader-2.0-web-review
+          path: ${{ runner.temp }}/reader-2.0/
+          compression-level: 0
+          retention-days: 14
+          if-no-files-found: error
+  desktop:
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - os: windows-latest
+            target: x86_64-pc-windows-msvc
+            bundle: nsis
+          - os: macos-15
+            target: aarch64-apple-darwin
+            bundle: app
+          - os: macos-15
+            target: x86_64-apple-darwin
+            bundle: app
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 60
+    defaults:
+      run:
+        working-directory: apps/native-20
+        shell: bash
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: dtolnay/rust-toolchain@master
+        with:
+          toolchain: '1.92.0'
+          targets: ${{ matrix.target }}
+      - run: npm ci --ignore-scripts
+      - run: npm run tauri -- icon ../../releases/v2.0/icons/icon-512.png
+      - run: python ../../tools/local/prepare_native_20.py
+      - run: cargo test --manifest-path src-tauri/Cargo.toml --lib --target ${{ matrix.target }}
+        if: matrix.target != 'x86_64-apple-darwin'
+      - run: npm run tauri -- build --ci --debug --target ${{ matrix.target }} --bundles ${{ matrix.bundle }} --no-sign
+      - name: Preserve Mac application permissions and symlinks
+        if: runner.os == 'macOS'
+        run: tar -czf reader-2.0-${{ matrix.target }}.tar.gz -C src-tauri/target/${{ matrix.target }}/debug/bundle/macos 'Parallel Bible Reader.app'
+      - uses: actions/upload-artifact@v4
+        with:
+          name: reader-2.0-${{ matrix.target }}-unsigned-review
+          path: |
+            apps/native-20/reader-2.0-*.tar.gz
+            apps/native-20/src-tauri/target/**/bundle/nsis/*.exe
+            apps/native-20/src-tauri/Cargo.lock
+          compression-level: 0
+          retention-days: 14
+          if-no-files-found: error
+  android:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    defaults:
+      run:
+        working-directory: apps/native-20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+      - uses: dtolnay/rust-toolchain@master
+        with:
+          toolchain: '1.92.0'
+          targets: aarch64-linux-android
+      - run: sdkmanager 'ndk;27.2.12479018' 'platforms;android-35' 'build-tools;35.0.0'
+      - run: echo "NDK_HOME=$ANDROID_HOME/ndk/27.2.12479018" >> "$GITHUB_ENV"
+      - run: npm ci --ignore-scripts
+      - run: npm run tauri -- icon ../../releases/v2.0/icons/icon-512.png
+      - run: npm run tauri -- android init --ci
+      - run: npm run tauri -- android build --debug --apk --target aarch64 --ci
+      - uses: actions/upload-artifact@v4
+        with:
+          name: reader-2.0-android-arm64-debug-review
+          path: |
+            apps/native-20/src-tauri/gen/android/**/outputs/apk/**/*.apk
+            apps/native-20/src-tauri/Cargo.lock
+          compression-level: 0
+          retention-days: 14
+          if-no-files-found: error
+  ios:
+    runs-on: macos-15
+    timeout-minutes: 60
+    defaults:
+      run:
+        working-directory: apps/native-20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - uses: dtolnay/rust-toolchain@master
+        with:
+          toolchain: '1.92.0'
+          targets: aarch64-apple-ios-sim
+      - run: command -v xcodegen || brew install xcodegen
+      - run: npm ci --ignore-scripts
+      - run: npm run tauri -- icon ../../releases/v2.0/icons/icon-512.png
+      - run: npm run tauri -- ios init --ci
+      - run: npm run tauri -- ios build --debug --target aarch64-sim --ci
+      - name: Preserve simulator app
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import subprocess
+          apps=list(Path('src-tauri/gen/apple').rglob('*.app'))
+          assert apps, 'No iOS simulator application produced'
+          app=apps[0]
+          subprocess.run(['tar','-czf','reader-2.0-ios-simulator.tar.gz','-C',str(app.parent),app.name],check=True)
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: reader-2.0-ios-simulator-review
+          path: |
+            apps/native-20/reader-2.0-ios-simulator.tar.gz
+            apps/native-20/src-tauri/Cargo.lock
+          compression-level: 0
+          retention-days: 14
+          if-no-files-found: error

@@ -1,0 +1,31 @@
+{
+  "milestone": "2.0-native-runtime-smoke-and-distribution-audit",
+  "status": "blocked; not verified",
+  "owner": "reader-native-runtime-20261108",
+  "guard_commit": "ccf153d3fd53f20041cc49341fb1b4906c6395bc",
+  "attempt_started_at": "2026-11-08 18:28:11 UTC",
+  "recorded_at": "2026-11-08 22:25:18 UTC",
+  "reason": "Execution-tool calls repeatedly stalled and were interrupted while the selected environment returned to starting state. A worktree was created successfully, but subsequent file/metadata checks did not yield completed results. No native GUI smoke test or distribution audit was completed.",
+  "completed_before_this_attempt": {
+    "commit": "86584ecdd1a96da20c0752c37e2553a52598c93a",
+    "report": "change-logs/reports/native-20-build-audit.json",
+    "downloads": "change-logs/reports/reader-20-review.md",
+    "native_code_commit": "620a78efd3507f28f757d773c1b920ce1f5b42a1",
+    "verified_runs": [
+      42504060531,
+      42504608301,
+      42504608237
+    ]
+  },
+  "app_source_changes": [],
+  "new_native_tests_run": [],
+  "new_browser_tests_run": [],
+  "unverified": [
+    "Actual Windows native Rust/webview/clipboard/export smoke testing",
+    "Native distribution notices/source-offer audit",
+    "Other native GUI and physical-device behavior"
+  ],
+  "resume": "Read the fresh remote branch and acquire a new idle guard by expected-head fast-forward. Verify execution-environment readiness before dependent commands. Reuse the completed 2.0 build/source/browser evidence; do not recreate 1.28/1.29 work. Select a stable Tauri-compatible driver only after checking its actual version/MSRV.",
+  "guard_release": "Only this attempt's owner is released; no time-based ownership takeover.",
+  "production_actions": []
+}

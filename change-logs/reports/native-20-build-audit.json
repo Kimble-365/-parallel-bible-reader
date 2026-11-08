@@ -1,0 +1,242 @@
+{
+  "version": "2.0.0",
+  "status": "native compilation and source/browser review milestone verified; not signed public/device release",
+  "code_commit": "620a78efd3507f28f757d773c1b920ce1f5b42a1",
+  "android_workflow_commit": "ce499a4e04cd5d7f3df87dcd5664c2acdd0bb801",
+  "completed_at": "2026-11-08 17:35:52 UTC",
+  "production_head": "89afb00cfa94b7630bf8e48419d95d73bd5f5181",
+  "native_framework": "Tauri 2 Rust host and platform system webview",
+  "builds": [
+    {
+      "target": "x86_64-pc-windows-msvc",
+      "kind": "unsigned NSIS review installer",
+      "run": 42504060531,
+      "job": 128803590548,
+      "status": "success"
+    },
+    {
+      "target": "aarch64-apple-darwin",
+      "kind": "unsigned Mac review app",
+      "run": 42504060531,
+      "job": 128803590561,
+      "status": "success"
+    },
+    {
+      "target": "x86_64-apple-darwin",
+      "kind": "unsigned Mac review app",
+      "run": 42504060531,
+      "job": 128803590686,
+      "status": "success"
+    },
+    {
+      "target": "aarch64-apple-ios-sim",
+      "kind": "iOS simulator app; not physical-device IPA",
+      "run": 42504060531,
+      "job": 128803590312,
+      "status": "success"
+    },
+    {
+      "target": "aarch64-linux-android",
+      "kind": "Android ARM64 debug APK",
+      "run": 42504608301,
+      "job": 128804505328,
+      "status": "success"
+    }
+  ],
+  "artifacts": [
+    {
+      "name": "reader-2.0-ios-simulator-review",
+      "id": 13627670181,
+      "artifact_zip_bytes": 209123524,
+      "artifact_zip_digest": "sha256:840aaf03ee6217268637112c39520bf2eca6e94c2ca0bdd01fa5ba29acb2f29e",
+      "expires_at": "2026-11-22T17:29:34Z",
+      "run": 42504060531,
+      "url": "https://github.com/Kimble-365/-parallel-bible-reader/actions/runs/42504060531/artifacts/13627670181"
+    },
+    {
+      "name": "reader-2.0-aarch64-apple-darwin-unsigned-review",
+      "id": 13627371340,
+      "artifact_zip_bytes": 199157546,
+      "artifact_zip_digest": "sha256:41d1dd7c657ea900e6dd9756e24f6acfc385990c19984505dfba77b1befa1b0d",
+      "expires_at": "2026-11-22T17:30:07Z",
+      "run": 42504060531,
+      "url": "https://github.com/Kimble-365/-parallel-bible-reader/actions/runs/42504060531/artifacts/13627371340"
+    },
+    {
+      "name": "reader-2.0-web-review",
+      "id": 13626628980,
+      "artifact_zip_bytes": 204109389,
+      "artifact_zip_digest": "sha256:0b6492b097580c6ce65a0e3e0bb3d992256e737542e2a5495a65e73e3698647f",
+      "expires_at": "2026-11-22T17:23:02Z",
+      "run": 42504060531,
+      "url": "https://github.com/Kimble-365/-parallel-bible-reader/actions/runs/42504060531/artifacts/13626628980"
+    },
+    {
+      "name": "reader-2.0-x86_64-apple-darwin-unsigned-review",
+      "id": 13626399196,
+      "artifact_zip_bytes": 197249529,
+      "artifact_zip_digest": "sha256:6fa4308bfd2251293f860b7936ec430e5dc38997d2a39760f96c8081c1baffb8",
+      "expires_at": "2026-11-22T17:30:28Z",
+      "run": 42504060531,
+      "url": "https://github.com/Kimble-365/-parallel-bible-reader/actions/runs/42504060531/artifacts/13626399196"
+    },
+    {
+      "name": "reader-2.0-x86_64-pc-windows-msvc-unsigned-review",
+      "id": 13626264319,
+      "artifact_zip_bytes": 194649694,
+      "artifact_zip_digest": "sha256:ffb62c8270d3a3ce0bc8532860c27c039f3a99326dcd9bda7bd82912843a77a0",
+      "expires_at": "2026-11-22T17:29:53Z",
+      "run": 42504060531,
+      "url": "https://github.com/Kimble-365/-parallel-bible-reader/actions/runs/42504060531/artifacts/13626264319"
+    },
+    {
+      "name": "reader-2.0-android-arm64-debug-review",
+      "id": 13626224843,
+      "artifact_zip_bytes": 306805646,
+      "artifact_zip_digest": "sha256:b3f05f970787180fa713a4fd799deab115c2943f050e33d2281e536f67159731",
+      "expires_at": "2026-11-22T17:33:03Z",
+      "run": 42504608301,
+      "url": "https://github.com/Kimble-365/-parallel-bible-reader/actions/runs/42504608301/artifacts/13626224843"
+    }
+  ],
+  "tools": {
+    "rust": "1.92.0",
+    "cargo": "1.92.0",
+    "rustfmt": "1.8.0-stable",
+    "clippy": "0.1.92",
+    "powershell": "7.6.9 (Windows and Mac)",
+    "node": "22.23.4",
+    "npm": "10.9.9",
+    "python": "3.12 (3.12.10 desktop; 3.12.16 reader runner)",
+    "playwright": "1.64.1",
+    "browsers": [
+      "Chromium",
+      "Firefox",
+      "WebKit"
+    ],
+    "sqlite": {
+      "reader_runner": "3.45.1",
+      "desktop": "3.49.1",
+      "fts5_verified": true
+    },
+    "unicode": "15.0.0",
+    "xcode": "16.4 (16F6)",
+    "java": "Temurin 17.0.21-9",
+    "android_ndk": "27.2.12479018",
+    "android_requested_platform": "android-35",
+    "android_requested_build_tools": "35.0.0",
+    "tauri": "2.12.5",
+    "tauri_build": "2.7.4",
+    "tauri_cli": "2.12.4",
+    "cargo_audit": "0.22.2"
+  },
+  "source_and_browser_tests": {
+    "run": 42504060531,
+    "job": 128803590463,
+    "baseline_editions": 84,
+    "native_runtime_files": 2252,
+    "native_runtime_bytes": 620315779,
+    "zip": {
+      "bytes": 174764530,
+      "files": 2258,
+      "uncompressed_bytes": 620813088,
+      "sha256": "a701b268f15ba22e3a3189ab3d804bd657227d6a8de4cffc1a5f5e821142f3c3",
+      "repeat_builds_identical": true
+    },
+    "wlc_rows_audited": 23213,
+    "wlc_formatting_cases": 10,
+    "salkinson": {
+      "books": 27,
+      "rows": 7957,
+      "archive_sha256": "71f137fd188b81b12e1379e52389bb4ab32efee6deb863a0ebad35102c535986"
+    },
+    "full_reading_volume_files": 12,
+    "full_reading_volume_bytes": 29322134,
+    "source_counts": {
+      "wlc": 23213,
+      "swete": 28796,
+      "ugnt": 7958,
+      "delitzsch": 7969,
+      "salkinson": 7957
+    },
+    "verified": [
+      "three real browser engines: actual reader, Shema typography, mobile layout, app choices and Unicode store",
+      "actual Chromium 390/1280 source typography/copy/Notes/reading volumes/offline caching",
+      "native CSP blob-export regression and exact Unicode bytes with mocked bridge",
+      "all 84 edition-book samples from actual extracted ZIP",
+      "fonts, Notes, highlights, PNG/Pray, empty slots and gzip fallback",
+      "12 complete attributed reading-volume exports with exact source row counts and repeated Salkinson written bytes",
+      "in-memory SQLite FTS5 and Unicode normalization/byte-preserving roundtrip",
+      "Rustfmt and Clippy -D warnings on desktop targets; two Rust URL/path tests on Windows and Apple Silicon",
+      "source corpus, existing 1.28 and 1.29 inbox unchanged by native line"
+    ],
+    "inherited_suite_run": 42504608237,
+    "inherited_suite_status": "success"
+  },
+  "dependency_audit": {
+    "run": 42504060531,
+    "job": 128803590632,
+    "cargo_exit_success": true,
+    "npm_vulnerabilities": 0,
+    "lock_sha256": "72e917b3bfb60243d4ed8f1a510f8b779788c5fcaa16c3d242c193321d0e7c3d",
+    "npm_lock_sha256": "52305e3aff99a984e216eb7edc259edafb0341643ae7bdcb98b3fd6623b7810c",
+    "resolved_packages": 483,
+    "declared_license_missing": 0,
+    "warnings": [
+      {
+        "crate": "proc-macro-error",
+        "version": "1.0.4",
+        "advisory": "RUSTSEC-2024-0370",
+        "type": "unmaintained"
+      },
+      {
+        "crate": "zbus_names",
+        "version": "4.3.5",
+        "advisory": "RUSTSEC-2026-0371",
+        "type": "unmaintained"
+      },
+      {
+        "crate": "zvariant",
+        "version": "5.15.1",
+        "advisory": "RUSTSEC-2026-0370",
+        "type": "unmaintained"
+      },
+      {
+        "crate": "zvariant_derive",
+        "version": "5.15.1",
+        "advisory": "RUSTSEC-2026-0372",
+        "type": "unmaintained"
+      },
+      {
+        "crate": "glib",
+        "version": "0.18.5",
+        "advisory": "RUSTSEC-2024-0429",
+        "type": "unsound"
+      }
+    ],
+    "warning_scope": "All five warning crates absent from cargo tree --locked --offline --target <each of the five requested targets> --invert <crate>. Linux-target dependencies remain in cross-platform lockfile; no advisory ignore configuration added."
+  },
+  "diagnostics": [
+    "Initial Android SDK manager absent; explicit setup installed it. Setup action default then requested retired tools package; selecting platform-tools fixed it. Successful Android result supersedes those attempts.",
+    "One inherited verse-media CI run timed out at service-worker control; isolated local repeat and both subsequent complete inherited suites passed without changing 1.28 runtime or test.",
+    "Managed local Chromium policy blocked file:// at the final package test step; real CI completed the same file-mode limitation check.",
+    "Initial native CSP blocked blob export; exact regression passed after adding blob: to connect-src.",
+    "Android build retains upstream Kotlin/Java deprecation/type-mismatch warnings; build succeeded."
+  ],
+  "limits": [
+    "Compiler success is not native GUI/device parity verification.",
+    "No physical Windows/Mac/Android/iPad interaction or native export/share UX verified in this milestone.",
+    "Unsigned desktop and Android debug artifacts are review builds; iOS is simulator-only.",
+    "No automatic browser-store migration; existing browser profiles and stores untouched.",
+    "Pronunciation outputs remain estimates pending linguistic review; ABP remains external pending rights.",
+    "Native distribution notice/source-offer audit, runtime smoke tests and signing/distribution review remain open.",
+    "No merge, deployment, public Release, store publication, access change or formal PR approval."
+  ],
+  "automation": {
+    "id": "6ae8d739b1d48191b1b80a0f0361268a",
+    "prompt_updated_to_2xx": true,
+    "cadence_unchanged": true,
+    "enabled": true
+  },
+  "next_milestone": "2.0 native runtime smoke tests and distribution/source-rights audit"
+}

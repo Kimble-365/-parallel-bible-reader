@@ -1,22 +1,27 @@
 {
   "version": 1,
-  "status": "running",
-  "owner": "reader-hebrew-greek-20261108",
+  "status": "idle",
+  "owner": null,
   "branch": "project/parallel-reader",
-  "next_milestone": "2.0-native-build-and-browser-verification",
+  "next_milestone": "2.0-native-runtime-smoke-and-distribution-audit",
   "last_run": {
-    "owner": "reader-128-final-package-20261107",
-    "completed_at": "2026-11-07 02:40:35 UTC",
-    "milestone": "1.28-release-package-audit-and-KR33/38-fix",
-    "code_commit": "70ae0eabdd950f5c4cffabca747a9dbe7130e323",
-    "verification_run": 42330023025,
-    "verification_status": "passed",
-    "result": "Final 174,304,492-byte reproducible ZIP verified with all 84 edition samples; KR33/38 MAT 6:13 formatting delimiters removed in display/search/new quotations only. Source bytes and stores preserved. Await separate production/download publication decision; broader roadmap remains open.",
-    "report": "docs/research/reader-128-package-audit.json",
-    "artifact": "https://github.com/Kimble-365/-parallel-bible-reader/actions/runs/42330023025/artifacts/13556588392"
+    "owner": "reader-hebrew-greek-20261108",
+    "completed_at": "2026-11-08 17:35:52 UTC",
+    "milestone": "2.0-native-builds-source-browser-and-development-tools",
+    "code_commit": "620a78efd3507f28f757d773c1b920ce1f5b42a1",
+    "android_workflow_commit": "ce499a4e04cd5d7f3df87dcd5664c2acdd0bb801",
+    "verification_runs": [
+      42504060531,
+      42504608301,
+      42504608237
+    ],
+    "verification_status": "passed: all five target builds, source/browser/package checks, requested tools; obsolete Android setup failure superseded",
+    "result": "Windows x64, Intel/Apple Silicon Mac, Android ARM64 debug and iOS simulator compiled. Three browser engines, 84 edition samples, exact/repeat ZIP hashes, 12 reading-volume exports, PowerShell/Rust quality/dependency/SQLite/Unicode tools verified. Native GUI/device and distribution audits remain open; no deployment or automatic store migration.",
+    "report": "change-logs/reports/native-20-build-audit.json",
+    "downloads": "change-logs/reports/reader-20-review.md"
   },
   "rule": "Acquire by expected-head fast-forward lease; never overwrite an active owner or treat elapsed time as completion. Only the owner releases.",
-  "milestone": "2.0-native-review-builds",
+  "milestone": null,
   "last_intake_setup": {
     "owner": "reader-129-intake-20261106",
     "path": "incoming/v1.29/",

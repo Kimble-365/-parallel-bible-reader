@@ -2,17 +2,17 @@
 
 Rebuilds the acquisition workspace expected by import_europe_english_129.py:
 
-    <work>/rights-scan.json      (from the pins file)
+    <work>/rights-scan.json      (from the base64 chunk files)
     <work>/details/<id>.html     (details.php rights page per edition)
     <work>/sources/<id>_usfm.zip (USFM source archive per edition)
 
-The pins file (tools/europe_129_pins.json) carries the rights-reviewed
-selection as gzip+base64 JSON so the import is reproducible without the
-original workstation. Downloads are retried and politely paced; existing
-complete files are reused so reruns are cheap.
+The pinned selection lives in tools/europe_129_rights_scan.b64part* (ordered
+base64 chunks of the gzipped rights scan) so the import is reproducible
+without the original workstation. Downloads are retried and politely paced;
+existing complete files are reused so reruns are cheap.
 """
 from pathlib import Path
-import argparse, base64, gzip, json, time, urllib.request, urllib.error
+import argparse, base64, glob, gzip, json, time, urllib.request, urllib.error
 
 DETAILS = 'https://ebible.org/Scriptures/details.php?id='
 UA = {'User-Agent': 'parallel-bible-reader-ci/1.29 (rights-reviewed import; contact via repository)'}
@@ -44,12 +44,16 @@ def fetch(url, dest, retries=4):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('--work', type=Path, required=True)
-    ap.add_argument('--pins', type=Path, required=True)
+    ap.add_argument('--scan-glob', required=True,
+                    help="glob for the ordered base64 chunks, e.g. 'tools/europe_129_rights_scan.b64part*'")
     ap.add_argument('--delay', type=float, default=1.0)
     args = ap.parse_args()
 
-    pins = json.loads(args.pins.read_text(encoding='utf-8'))
-    scan = json.loads(gzip.decompress(base64.b64decode(pins['rights_scan_gz_b64'])).decode('utf-8'))
+    chunks = sorted(glob.glob(args.scan_glob))
+    if not chunks:
+        raise SystemExit('No scan chunks match ' + args.scan_glob)
+    b64 = ''.join(Path(c).read_text(encoding='ascii').strip() for c in chunks)
+    scan = json.loads(gzip.decompress(base64.b64decode(b64)).decode('utf-8'))
     work = args.work
     (work / 'details').mkdir(parents=True, exist_ok=True)
     (work / 'sources').mkdir(parents=True, exist_ok=True)

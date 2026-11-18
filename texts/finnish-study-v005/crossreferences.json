@@ -1,0 +1,996 @@
+{
+  "edition": "finnish-study-v005",
+  "pairs": 55,
+  "links": [
+    {
+      "pair_id": "xref-1",
+      "reference": "GEN 1:1",
+      "target": "JHN 1:1",
+      "kind": "temaattinen",
+      "topic": "Luominen ja alku",
+      "status": "editorial_unreviewed",
+      "pair_source_collation": false
+    },
+    {
+      "pair_id": "xref-1",
+      "reference": "JHN 1:1",
+      "target": "GEN 1:1",
+      "kind": "temaattinen",
+      "topic": "Luominen ja alku",
+      "status": "editorial_unreviewed",
+      "pair_source_collation": false
+    },
+    {
+      "pair_id": "xref-2",
+      "reference": "GEN 1:27",
+      "target": "MAT 19:4",
+      "kind": "lainaus",
+      "topic": "Mies ja nainen",
+      "status": "editorial_unreviewed",
+      "pair_source_collation": false
+    },
+    {
+      "pair_id": "xref-2",
+      "reference": "MAT 19:4",
+      "target": "GEN 1:27",
+      "kind": "lainaus",
+      "topic": "Mies ja nainen",
+      "status": "editorial_unreviewed",
+      "pair_source_collation": false
+    },
+    {
+      "pair_id": "xref-3",
+      "reference": "GEN 2:24",
+      "target": "MAT 19:5",
+      "kind": "lainaus",
+      "topic": "Yksi liha",
+      "status": "editorial_unreviewed",
+      "pair_source_collation": false
+    },
+    {
+      "pair_id": "xref-3",
+      "reference": "MAT 19:5",
+      "target": "GEN 2:24",
+      "kind": "lainaus",
+      "topic": "Yksi liha",
+      "status": "editorial_unreviewed",
+      "pair_source_collation": false
+    },
+    {
+      "pair_id": "xref-4",
+      "reference": "GEN 12:3",
+      "target": "GAL 3:8",
+      "kind": "lainaus",
+      "topic": "Kansojen siunaus",
+      "status": "editorial_unreviewed",
+      "pair_source_collation": false
+    },
+    {
+      "pair_id": "xref-4",
+      "reference": "GAL 3:8",
+      "target": "GEN 12:3",
+      "kind": "lainaus",
+      "topic": "Kansojen siunaus",
+      "status": "editorial_unreviewed",
+      "pair_source_collation": false
+    },
+    {
+      "pair_id": "xref-5",
+      "reference": "GEN 15:6",
+      "target": "ROM 4:3",
+      "kind": "lainaus",
+      "topic": "Abrahamin usko",
+      "status": "editorial_unreviewed",
+      "pair_source_collation": false
+    },
+    {
+      "pair_id": "xref-5",
+      "reference": "ROM 4:3",
+      "target": "GEN 15:6",
+      "kind": "lainaus",
+      "topic": "Abrahamin usko",
+      "status": "editorial_unreviewed",
+      "pair_source_collation": false
+    },
+    {
+      "pair_id": "xref-6",
+      "reference": "GEN 22:18",
+      "target": "GAL 3:16",
+      "kind": "lainaus",
+      "topic": "Siemen ja lupaus",
+      "status": "editorial_unreviewed",
+      "pair_source_collation": false
+    },
+    {
+      "pair_id": "xref-6",
+      "reference": "GAL 3:16",
+      "target": "GEN 22:18",
+      "kind": "lainaus",
+      "topic": "Siemen ja lupaus",
+      "status": "editorial_unreviewed",
+      "pair_source_collation": false
+    },
+    {
+      "pair_id": "xref-7",
+      "reference": "EXO 3:14",
+      "target": "JHN 8:58",
+      "kind": "mahdollinen alluusio",
+      "topic": "Minä olen; ei erisnimen automaattikorvaus",
+      "status": "editorial_unreviewed",
+      "pair_source_collation": false
+    },
+    {
+      "pair_id": "xref-7",
+      "reference": "JHN 8:58",
+      "target": "EXO 3:14",
+      "kind": "mahdollinen alluusio",
+      "topic": "Minä olen; ei erisnimen automaattikorvaus",
+      "status": "editorial_unreviewed",
+      "pair_source_collation": false
+    },
+    {
+      "pair_id": "xref-8",
+      "reference": "EXO 12:46",
+      "target": "JHN 19:36",
+      "kind": "lainausyhteys",
+      "topic": "Luita ei rikota; myösPs34:21",
+      "status": "editorial_unreviewed",
+      "pair_source_collation": false
+    },
+    {
+      "pair_id": "xref-8",
+      "reference": "JHN 19:36",
+      "target": "EXO 12:46",
+      "kind": "lainausyhteys",
+      "topic": "Luita ei rikota; myösPs34:21",
+      "status": "editorial_unreviewed",
+      "pair_source_collation": false
+    },
+    {
+      "pair_id": "xref-9",
+      "reference": "EXO 20:12",
+      "target": "EPH 6:2",
+      "kind": "lainaus",
+      "topic": "Vanhempien kunnioitus",
+      "status": "editorial_unreviewed",
+      "pair_source_collation": false
+    },
+    {
+      "pair_id": "xref-9",
+      "reference": "EPH 6:2",
+      "target": "EXO 20:12",
+      "kind": "lainaus",
+      "topic": "Vanhempien kunnioitus",
+      "status": "editorial_unreviewed",
+      "pair_source_collation": false
+    },
+    {
+      "pair_id": "xref-10",
+      "reference": "LEV 19:18",
+      "target": "MAT 22:39",
+      "kind": "lainaus",
+      "topic": "Lähimmäisenrakkaus",
+      "status": "editorial_unreviewed",
+      "pair_source_collation": false
+    },
+    {
+      "pair_id": "xref-10",
+      "reference": "MAT 22:39",
+      "target": "LEV 19:18",
+      "kind": "lainaus",
+      "topic": "Lähimmäisenrakkaus",
+      "status": "editorial_unreviewed",
+      "pair_source_collation": false
+    },
+    {
+      "pair_id": "xref-11",
+      "reference": "NUM 21:8",
+      "target": "JHN 3:14",
+      "kind": "alluusio",
+      "topic": "Käärmeen korottaminen",
+      "status": "editorial_unreviewed",
+      "pair_source_collation": false
+    },
+    {
+      "pair_id": "xref-11",
+      "reference": "JHN 3:14",
+      "target": "NUM 21:8",
+      "kind": "alluusio",
+      "topic": "Käärmeen korottaminen",
+      "status": "editorial_unreviewed",
+      "pair_source_collation": false
+    },
+    {
+      "pair_id": "xref-12",
+      "reference": "DEU 6:4",
+      "target": "MRK 12:29",
+      "kind": "lainaus",
+      "topic": "KuuleIsrael",
+      "status": "editorial_unreviewed",
+      "pair_source_collation": false
+    },
+    {
+      "pair_id": "xref-12",
+      "reference": "MRK 12:29",
+      "target": "DEU 6:4",
+      "kind": "lainaus",
+      "topic": "KuuleIsrael",
+      "status": "editorial_unreviewed",
+      "pair_source_collation": false
+    },
+    {
+      "pair_id": "xref-13",
+      "reference": "DEU 6:5",
+      "target": "MAT 22:37",
+      "kind": "lainaus",
+      "topic": "Jumalan rakastaminen",
+      "status": "editorial_unreviewed",
+      "pair_source_collation": false
+    },
+    {
+      "pair_id": "xref-13",
+      "reference": "MAT 22:37",
+      "target": "DEU 6:5",
+      "kind": "lainaus",
+      "topic": "Jumalan rakastaminen",
+      "status": "editorial_unreviewed",
+      "pair_source_collation": false
+    },
+    {
+      "pair_id": "xref-14",
+      "reference": "DEU 8:3",
+      "target": "MAT 4:4",
+      "kind": "lainaus",
+      "topic": "Ihminen ei elä vain leivästä",
+      "status": "editorial_unreviewed",
+      "pair_source_collation": false
+    },
+    {
+      "pair_id": "xref-14",
+      "reference": "MAT 4:4",
+      "target": "DEU 8:3",
+      "kind": "lainaus",
+      "topic": "Ihminen ei elä vain leivästä",
+      "status": "editorial_unreviewed",
+      "pair_source_collation": false
+    },
+    {
+      "pair_id": "xref-15",
+      "reference": "DEU 15:11",
+      "target": "JHN 12:8",
+      "kind": "alluusio",
+      "topic": "Köyhät keskuudessa",
+      "status": "editorial_unreviewed",
+      "pair_source_collation": false
+    },
+    {
+      "pair_id": "xref-15",
+      "reference": "JHN 12:8",
+      "target": "DEU 15:11",
+      "kind": "alluusio",
+      "topic": "Köyhät keskuudessa",
+      "status": "editorial_unreviewed",
+      "pair_source_collation": false
+    },
+    {
+      "pair_id": "xref-16",
+      "reference": "DEU 18:15",
+      "target": "ACT 3:22",
+      "kind": "lainaus",
+      "topic": "Profeetta",
+      "status": "editorial_unreviewed",
+      "pair_source_collation": false
+    },
+    {
+      "pair_id": "xref-16",
+      "reference": "ACT 3:22",
+      "target": "DEU 18:15",
+      "kind": "lainaus",
+      "topic": "Profeetta",
+      "status": "editorial_unreviewed",
+      "pair_source_collation": false
+    },
+    {
+      "pair_id": "xref-17",
+      "reference": "DEU 19:15",
+      "target": "JHN 8:17",
+      "kind": "rajattu lainausyhteys",
+      "topic": "Kaksi todistajaa; ei koko sanasanainen lause",
+      "status": "editorial_unreviewed",
+      "pair_source_collation": false
+    },
+    {
+      "pair_id": "xref-17",
+      "reference": "JHN 8:17",
+      "target": "DEU 19:15",
+      "kind": "rajattu lainausyhteys",
+      "topic": "Kaksi todistajaa; ei koko sanasanainen lause",
+      "status": "editorial_unreviewed",
+      "pair_source_collation": false
+    },
+    {
+      "pair_id": "xref-18",
+      "reference": "PSA 2:7",
+      "target": "ACT 13:33",
+      "kind": "lainaus",
+      "topic": "Minun poikani",
+      "status": "editorial_unreviewed",
+      "pair_source_collation": false
+    },
+    {
+      "pair_id": "xref-18",
+      "reference": "ACT 13:33",
+      "target": "PSA 2:7",
+      "kind": "lainaus",
+      "topic": "Minun poikani",
+      "status": "editorial_unreviewed",
+      "pair_source_collation": false
+    },
+    {
+      "pair_id": "xref-19",
+      "reference": "PSA 22:2",
+      "target": "MAT 27:46",
+      "kind": "lainaus",
+      "topic": "Hylkäämisen huuto;jaenumerointi tarkistettava",
+      "status": "editorial_unreviewed",
+      "pair_source_collation": false
+    },
+    {
+      "pair_id": "xref-19",
+      "reference": "MAT 27:46",
+      "target": "PSA 22:2",
+      "kind": "lainaus",
+      "topic": "Hylkäämisen huuto;jaenumerointi tarkistettava",
+      "status": "editorial_unreviewed",
+      "pair_source_collation": false
+    },
+    {
+      "pair_id": "xref-20",
+      "reference": "PSA 23:1",
+      "target": "JHN 10:11",
+      "kind": "temaattinen",
+      "topic": "Paimen",
+      "status": "editorial_unreviewed",
+      "pair_source_collation": false
+    },
+    {
+      "pair_id": "xref-20",
+      "reference": "JHN 10:11",
+      "target": "PSA 23:1",
+      "kind": "temaattinen",
+      "topic": "Paimen",
+      "status": "editorial_unreviewed",
+      "pair_source_collation": false
+    },
+    {
+      "pair_id": "xref-21",
+      "reference": "PSA 78:24",
+      "target": "JHN 6:31",
+      "kind": "rajattu lainausyhteys",
+      "topic": "Leipä taivaasta",
+      "status": "editorial_unreviewed",
+      "pair_source_collation": false
+    },
+    {
+      "pair_id": "xref-21",
+      "reference": "JHN 6:31",
+      "target": "PSA 78:24",
+      "kind": "rajattu lainausyhteys",
+      "topic": "Leipä taivaasta",
+      "status": "editorial_unreviewed",
+      "pair_source_collation": false
+    },
+    {
+      "pair_id": "xref-22",
+      "reference": "PSA 82:6",
+      "target": "JHN 10:34",
+      "kind": "lainaus",
+      "topic": "Te olette jumalia",
+      "status": "editorial_unreviewed",
+      "pair_source_collation": false
+    },
+    {
+      "pair_id": "xref-22",
+      "reference": "JHN 10:34",
+      "target": "PSA 82:6",
+      "kind": "lainaus",
+      "topic": "Te olette jumalia",
+      "status": "editorial_unreviewed",
+      "pair_source_collation": false
+    },
+    {
+      "pair_id": "xref-23",
+      "reference": "PSA 110:1",
+      "target": "MRK 12:36",
+      "kind": "lainaus",
+      "topic": "Istu oikealle puolelleni",
+      "status": "editorial_unreviewed",
+      "pair_source_collation": false
+    },
+    {
+      "pair_id": "xref-23",
+      "reference": "MRK 12:36",
+      "target": "PSA 110:1",
+      "kind": "lainaus",
+      "topic": "Istu oikealle puolelleni",
+      "status": "editorial_unreviewed",
+      "pair_source_collation": false
+    },
+    {
+      "pair_id": "xref-24",
+      "reference": "PSA 118:26",
+      "target": "JHN 12:13",
+      "kind": "lainaus",
+      "topic": "Siunattu tulija",
+      "status": "editorial_unreviewed",
+      "pair_source_collation": false
+    },
+    {
+      "pair_id": "xref-24",
+      "reference": "JHN 12:13",
+      "target": "PSA 118:26",
+      "kind": "lainaus",
+      "topic": "Siunattu tulija",
+      "status": "editorial_unreviewed",
+      "pair_source_collation": false
+    },
+    {
+      "pair_id": "xref-25",
+      "reference": "ISA 7:14",
+      "target": "MAT 1:23",
+      "kind": "lainaus",
+      "topic": "Immanuel",
+      "status": "editorial_unreviewed",
+      "pair_source_collation": false
+    },
+    {
+      "pair_id": "xref-25",
+      "reference": "MAT 1:23",
+      "target": "ISA 7:14",
+      "kind": "lainaus",
+      "topic": "Immanuel",
+      "status": "editorial_unreviewed",
+      "pair_source_collation": false
+    },
+    {
+      "pair_id": "xref-26",
+      "reference": "ISA 9:1",
+      "target": "MAT 4:15",
+      "kind": "lainausyhteys",
+      "topic": "Galilean valo;jaeraja tarkistettava",
+      "status": "editorial_unreviewed",
+      "pair_source_collation": false
+    },
+    {
+      "pair_id": "xref-26",
+      "reference": "MAT 4:15",
+      "target": "ISA 9:1",
+      "kind": "lainausyhteys",
+      "topic": "Galilean valo;jaeraja tarkistettava",
+      "status": "editorial_unreviewed",
+      "pair_source_collation": false
+    },
+    {
+      "pair_id": "xref-27",
+      "reference": "ISA 40:3",
+      "target": "MRK 1:3",
+      "kind": "lainaus",
+      "topic": "Huutavan ääni",
+      "status": "editorial_unreviewed",
+      "pair_source_collation": false
+    },
+    {
+      "pair_id": "xref-27",
+      "reference": "MRK 1:3",
+      "target": "ISA 40:3",
+      "kind": "lainaus",
+      "topic": "Huutavan ääni",
+      "status": "editorial_unreviewed",
+      "pair_source_collation": false
+    },
+    {
+      "pair_id": "xref-28",
+      "reference": "ISA 53:1",
+      "target": "JHN 12:38",
+      "kind": "lainaus",
+      "topic": "Kuka uskoi",
+      "status": "editorial_unreviewed",
+      "pair_source_collation": false
+    },
+    {
+      "pair_id": "xref-28",
+      "reference": "JHN 12:38",
+      "target": "ISA 53:1",
+      "kind": "lainaus",
+      "topic": "Kuka uskoi",
+      "status": "editorial_unreviewed",
+      "pair_source_collation": false
+    },
+    {
+      "pair_id": "xref-29",
+      "reference": "ISA 53:7",
+      "target": "ACT 8:32",
+      "kind": "lainaus",
+      "topic": "Karitsa",
+      "status": "editorial_unreviewed",
+      "pair_source_collation": false
+    },
+    {
+      "pair_id": "xref-29",
+      "reference": "ACT 8:32",
+      "target": "ISA 53:7",
+      "kind": "lainaus",
+      "topic": "Karitsa",
+      "status": "editorial_unreviewed",
+      "pair_source_collation": false
+    },
+    {
+      "pair_id": "xref-30",
+      "reference": "ISA 61:1",
+      "target": "LUK 4:18",
+      "kind": "lainaus",
+      "topic": "Herran henki",
+      "status": "editorial_unreviewed",
+      "pair_source_collation": false
+    },
+    {
+      "pair_id": "xref-30",
+      "reference": "LUK 4:18",
+      "target": "ISA 61:1",
+      "kind": "lainaus",
+      "topic": "Herran henki",
+      "status": "editorial_unreviewed",
+      "pair_source_collation": false
+    },
+    {
+      "pair_id": "xref-31",
+      "reference": "JER 31:31",
+      "target": "HEB 8:8",
+      "kind": "lainausyhteys",
+      "topic": "Uusi liitto",
+      "status": "editorial_unreviewed",
+      "pair_source_collation": false
+    },
+    {
+      "pair_id": "xref-31",
+      "reference": "HEB 8:8",
+      "target": "JER 31:31",
+      "kind": "lainausyhteys",
+      "topic": "Uusi liitto",
+      "status": "editorial_unreviewed",
+      "pair_source_collation": false
+    },
+    {
+      "pair_id": "xref-32",
+      "reference": "EZK 36:26",
+      "target": "JHN 3:5",
+      "kind": "mahdollinen alluusio",
+      "topic": "Uusi sydän,henki ja puhdistus",
+      "status": "editorial_unreviewed",
+      "pair_source_collation": false
+    },
+    {
+      "pair_id": "xref-32",
+      "reference": "JHN 3:5",
+      "target": "EZK 36:26",
+      "kind": "mahdollinen alluusio",
+      "topic": "Uusi sydän,henki ja puhdistus",
+      "status": "editorial_unreviewed",
+      "pair_source_collation": false
+    },
+    {
+      "pair_id": "xref-33",
+      "reference": "DAN 7:13",
+      "target": "MRK 14:62",
+      "kind": "alluusio",
+      "topic": "Ihmisen Poika ja pilvet",
+      "status": "editorial_unreviewed",
+      "pair_source_collation": false
+    },
+    {
+      "pair_id": "xref-33",
+      "reference": "MRK 14:62",
+      "target": "DAN 7:13",
+      "kind": "alluusio",
+      "topic": "Ihmisen Poika ja pilvet",
+      "status": "editorial_unreviewed",
+      "pair_source_collation": false
+    },
+    {
+      "pair_id": "xref-34",
+      "reference": "HOS 6:6",
+      "target": "MAT 9:13",
+      "kind": "lainaus",
+      "topic": "Laupeus",
+      "status": "editorial_unreviewed",
+      "pair_source_collation": false
+    },
+    {
+      "pair_id": "xref-34",
+      "reference": "MAT 9:13",
+      "target": "HOS 6:6",
+      "kind": "lainaus",
+      "topic": "Laupeus",
+      "status": "editorial_unreviewed",
+      "pair_source_collation": false
+    },
+    {
+      "pair_id": "xref-35",
+      "reference": "JOL 3:1",
+      "target": "ACT 2:17",
+      "kind": "lainausyhteys",
+      "topic": "Hengen vuodatus;heprean numerointi",
+      "status": "editorial_unreviewed",
+      "pair_source_collation": false
+    },
+    {
+      "pair_id": "xref-35",
+      "reference": "ACT 2:17",
+      "target": "JOL 3:1",
+      "kind": "lainausyhteys",
+      "topic": "Hengen vuodatus;heprean numerointi",
+      "status": "editorial_unreviewed",
+      "pair_source_collation": false
+    },
+    {
+      "pair_id": "xref-36",
+      "reference": "JON 2:1",
+      "target": "MAT 12:40",
+      "kind": "alluusio",
+      "topic": "Joonan merkki",
+      "status": "editorial_unreviewed",
+      "pair_source_collation": false
+    },
+    {
+      "pair_id": "xref-36",
+      "reference": "MAT 12:40",
+      "target": "JON 2:1",
+      "kind": "alluusio",
+      "topic": "Joonan merkki",
+      "status": "editorial_unreviewed",
+      "pair_source_collation": false
+    },
+    {
+      "pair_id": "xref-37",
+      "reference": "MIC 5:1",
+      "target": "MAT 2:6",
+      "kind": "lainausyhteys",
+      "topic": "Betlehem;numerointi",
+      "status": "editorial_unreviewed",
+      "pair_source_collation": false
+    },
+    {
+      "pair_id": "xref-37",
+      "reference": "MAT 2:6",
+      "target": "MIC 5:1",
+      "kind": "lainausyhteys",
+      "topic": "Betlehem;numerointi",
+      "status": "editorial_unreviewed",
+      "pair_source_collation": false
+    },
+    {
+      "pair_id": "xref-38",
+      "reference": "HAB 2:4",
+      "target": "ROM 1:17",
+      "kind": "lainaus",
+      "topic": "Uskosta eläminen",
+      "status": "editorial_unreviewed",
+      "pair_source_collation": false
+    },
+    {
+      "pair_id": "xref-38",
+      "reference": "ROM 1:17",
+      "target": "HAB 2:4",
+      "kind": "lainaus",
+      "topic": "Uskosta eläminen",
+      "status": "editorial_unreviewed",
+      "pair_source_collation": false
+    },
+    {
+      "pair_id": "xref-39",
+      "reference": "ZEC 9:9",
+      "target": "JHN 12:15",
+      "kind": "lainaus",
+      "topic": "Aasilla saapuva kuningas",
+      "status": "editorial_unreviewed",
+      "pair_source_collation": false
+    },
+    {
+      "pair_id": "xref-39",
+      "reference": "JHN 12:15",
+      "target": "ZEC 9:9",
+      "kind": "lainaus",
+      "topic": "Aasilla saapuva kuningas",
+      "status": "editorial_unreviewed",
+      "pair_source_collation": false
+    },
+    {
+      "pair_id": "xref-40",
+      "reference": "ZEC 12:10",
+      "target": "JHN 19:37",
+      "kind": "lainaus",
+      "topic": "Lävistetty",
+      "status": "editorial_unreviewed",
+      "pair_source_collation": false
+    },
+    {
+      "pair_id": "xref-40",
+      "reference": "JHN 19:37",
+      "target": "ZEC 12:10",
+      "kind": "lainaus",
+      "topic": "Lävistetty",
+      "status": "editorial_unreviewed",
+      "pair_source_collation": false
+    },
+    {
+      "pair_id": "xref-41",
+      "reference": "MAL 3:1",
+      "target": "MRK 1:2",
+      "kind": "lainausyhteys",
+      "topic": "Sanansaattaja",
+      "status": "editorial_unreviewed",
+      "pair_source_collation": false
+    },
+    {
+      "pair_id": "xref-41",
+      "reference": "MRK 1:2",
+      "target": "MAL 3:1",
+      "kind": "lainausyhteys",
+      "topic": "Sanansaattaja",
+      "status": "editorial_unreviewed",
+      "pair_source_collation": false
+    },
+    {
+      "pair_id": "xref-42",
+      "reference": "MAT 5:3",
+      "target": "LUK 6:20",
+      "kind": "rinnakkaiskohta",
+      "topic": "Autuaaksijulistukset",
+      "status": "editorial_unreviewed",
+      "pair_source_collation": false
+    },
+    {
+      "pair_id": "xref-42",
+      "reference": "LUK 6:20",
+      "target": "MAT 5:3",
+      "kind": "rinnakkaiskohta",
+      "topic": "Autuaaksijulistukset",
+      "status": "editorial_unreviewed",
+      "pair_source_collation": false
+    },
+    {
+      "pair_id": "xref-43",
+      "reference": "MAT 6:9",
+      "target": "LUK 11:2",
+      "kind": "rinnakkaiskohta",
+      "topic": "Isämeidän",
+      "status": "editorial_unreviewed",
+      "pair_source_collation": false
+    },
+    {
+      "pair_id": "xref-43",
+      "reference": "LUK 11:2",
+      "target": "MAT 6:9",
+      "kind": "rinnakkaiskohta",
+      "topic": "Isämeidän",
+      "status": "editorial_unreviewed",
+      "pair_source_collation": false
+    },
+    {
+      "pair_id": "xref-44",
+      "reference": "MAT 26:26",
+      "target": "1CO 11:23",
+      "kind": "rinnakkaiskohta",
+      "topic": "Aterian asettaminen",
+      "status": "editorial_unreviewed",
+      "pair_source_collation": false
+    },
+    {
+      "pair_id": "xref-44",
+      "reference": "1CO 11:23",
+      "target": "MAT 26:26",
+      "kind": "rinnakkaiskohta",
+      "topic": "Aterian asettaminen",
+      "status": "editorial_unreviewed",
+      "pair_source_collation": false
+    },
+    {
+      "pair_id": "xref-45",
+      "reference": "MRK 16:6",
+      "target": "1CO 15:4",
+      "kind": "temaattinen",
+      "topic": "Ylösnousemus",
+      "status": "editorial_unreviewed",
+      "pair_source_collation": false
+    },
+    {
+      "pair_id": "xref-45",
+      "reference": "1CO 15:4",
+      "target": "MRK 16:6",
+      "kind": "temaattinen",
+      "topic": "Ylösnousemus",
+      "status": "editorial_unreviewed",
+      "pair_source_collation": false
+    },
+    {
+      "pair_id": "xref-46",
+      "reference": "LUK 15:11",
+      "target": "ROM 8:15",
+      "kind": "temaattinen",
+      "topic": "Lapseus",
+      "status": "editorial_unreviewed",
+      "pair_source_collation": false
+    },
+    {
+      "pair_id": "xref-46",
+      "reference": "ROM 8:15",
+      "target": "LUK 15:11",
+      "kind": "temaattinen",
+      "topic": "Lapseus",
+      "status": "editorial_unreviewed",
+      "pair_source_collation": false
+    },
+    {
+      "pair_id": "xref-47",
+      "reference": "JHN 1:14",
+      "target": "PHP 2:7",
+      "kind": "temaattinen",
+      "topic": "Ihmiseksi tuleminen",
+      "status": "editorial_unreviewed",
+      "pair_source_collation": false
+    },
+    {
+      "pair_id": "xref-47",
+      "reference": "PHP 2:7",
+      "target": "JHN 1:14",
+      "kind": "temaattinen",
+      "topic": "Ihmiseksi tuleminen",
+      "status": "editorial_unreviewed",
+      "pair_source_collation": false
+    },
+    {
+      "pair_id": "xref-48",
+      "reference": "JHN 3:16",
+      "target": "ROM 5:8",
+      "kind": "temaattinen",
+      "topic": "Rakkaus",
+      "status": "editorial_unreviewed",
+      "pair_source_collation": false
+    },
+    {
+      "pair_id": "xref-48",
+      "reference": "ROM 5:8",
+      "target": "JHN 3:16",
+      "kind": "temaattinen",
+      "topic": "Rakkaus",
+      "status": "editorial_unreviewed",
+      "pair_source_collation": false
+    },
+    {
+      "pair_id": "xref-49",
+      "reference": "JHN 14:6",
+      "target": "ACT 4:12",
+      "kind": "temaattinen",
+      "topic": "Pelastus",
+      "status": "editorial_unreviewed",
+      "pair_source_collation": false
+    },
+    {
+      "pair_id": "xref-49",
+      "reference": "ACT 4:12",
+      "target": "JHN 14:6",
+      "kind": "temaattinen",
+      "topic": "Pelastus",
+      "status": "editorial_unreviewed",
+      "pair_source_collation": false
+    },
+    {
+      "pair_id": "xref-50",
+      "reference": "ROM 3:23",
+      "target": "1JN 1:8",
+      "kind": "temaattinen",
+      "topic": "Synti",
+      "status": "editorial_unreviewed",
+      "pair_source_collation": false
+    },
+    {
+      "pair_id": "xref-50",
+      "reference": "1JN 1:8",
+      "target": "ROM 3:23",
+      "kind": "temaattinen",
+      "topic": "Synti",
+      "status": "editorial_unreviewed",
+      "pair_source_collation": false
+    },
+    {
+      "pair_id": "xref-51",
+      "reference": "ROM 8:1",
+      "target": "JHN 5:24",
+      "kind": "temaattinen",
+      "topic": "Tuomio ja elämä",
+      "status": "editorial_unreviewed",
+      "pair_source_collation": false
+    },
+    {
+      "pair_id": "xref-51",
+      "reference": "JHN 5:24",
+      "target": "ROM 8:1",
+      "kind": "temaattinen",
+      "topic": "Tuomio ja elämä",
+      "status": "editorial_unreviewed",
+      "pair_source_collation": false
+    },
+    {
+      "pair_id": "xref-52",
+      "reference": "1CO 13:13",
+      "target": "GAL 5:22",
+      "kind": "temaattinen",
+      "topic": "Rakkaus ja Hengen hedelmä",
+      "status": "editorial_unreviewed",
+      "pair_source_collation": false
+    },
+    {
+      "pair_id": "xref-52",
+      "reference": "GAL 5:22",
+      "target": "1CO 13:13",
+      "kind": "temaattinen",
+      "topic": "Rakkaus ja Hengen hedelmä",
+      "status": "editorial_unreviewed",
+      "pair_source_collation": false
+    },
+    {
+      "pair_id": "xref-53",
+      "reference": "EPH 2:8",
+      "target": "TIT 3:5",
+      "kind": "temaattinen",
+      "topic": "Armo",
+      "status": "editorial_unreviewed",
+      "pair_source_collation": false
+    },
+    {
+      "pair_id": "xref-53",
+      "reference": "TIT 3:5",
+      "target": "EPH 2:8",
+      "kind": "temaattinen",
+      "topic": "Armo",
+      "status": "editorial_unreviewed",
+      "pair_source_collation": false
+    },
+    {
+      "pair_id": "xref-54",
+      "reference": "HEB 11:1",
+      "target": "2CO 5:7",
+      "kind": "temaattinen",
+      "topic": "Usko",
+      "status": "editorial_unreviewed",
+      "pair_source_collation": false
+    },
+    {
+      "pair_id": "xref-54",
+      "reference": "2CO 5:7",
+      "target": "HEB 11:1",
+      "kind": "temaattinen",
+      "topic": "Usko",
+      "status": "editorial_unreviewed",
+      "pair_source_collation": false
+    },
+    {
+      "pair_id": "xref-55",
+      "reference": "REV 21:4",
+      "target": "ISA 25:8",
+      "kind": "lainausyhteys",
+      "topic": "Kuoleman poistaminen",
+      "status": "editorial_unreviewed",
+      "pair_source_collation": false
+    },
+    {
+      "pair_id": "xref-55",
+      "reference": "ISA 25:8",
+      "target": "REV 21:4",
+      "kind": "lainausyhteys",
+      "topic": "Kuoleman poistaminen",
+      "status": "editorial_unreviewed",
+      "pair_source_collation": false
+    }
+  ]
+}

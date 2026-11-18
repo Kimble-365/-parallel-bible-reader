@@ -1,0 +1,346 @@
+{
+  "id": "finnish-study-v005",
+  "title": "Suomenkielinen tutkimusraamattu",
+  "language": "fi",
+  "version": "v005",
+  "editorial_date": "2026-11-18",
+  "status": "unreviewed",
+  "books": [
+    {
+      "code": "GEN",
+      "source_code": "Gen",
+      "title": "Ensimmäinen Mooseksen kirja"
+    },
+    {
+      "code": "EXO",
+      "source_code": "Exod",
+      "title": "Toinen Mooseksen kirja"
+    },
+    {
+      "code": "LEV",
+      "source_code": "Lev",
+      "title": "Kolmas Mooseksen kirja"
+    },
+    {
+      "code": "NUM",
+      "source_code": "Num",
+      "title": "Neljäs Mooseksen kirja"
+    },
+    {
+      "code": "DEU",
+      "source_code": "Deut",
+      "title": "Viides Mooseksen kirja"
+    },
+    {
+      "code": "JOS",
+      "source_code": "Josh",
+      "title": "Joosuan kirja"
+    },
+    {
+      "code": "JDG",
+      "source_code": "Judg",
+      "title": "Tuomarien kirja"
+    },
+    {
+      "code": "RUT",
+      "source_code": "Ruth",
+      "title": "Ruutin kirja"
+    },
+    {
+      "code": "1SA",
+      "source_code": "1Sam",
+      "title": "Ensimmäinen Samuelin kirja"
+    },
+    {
+      "code": "2SA",
+      "source_code": "2Sam",
+      "title": "Toinen Samuelin kirja"
+    },
+    {
+      "code": "1KI",
+      "source_code": "1Kgs",
+      "title": "Ensimmäinen kuninkaiden kirja"
+    },
+    {
+      "code": "2KI",
+      "source_code": "2Kgs",
+      "title": "Toinen kuninkaiden kirja"
+    },
+    {
+      "code": "1CH",
+      "source_code": "1Chr",
+      "title": "Ensimmäinen aikakirja"
+    },
+    {
+      "code": "2CH",
+      "source_code": "2Chr",
+      "title": "Toinen aikakirja"
+    },
+    {
+      "code": "EZR",
+      "source_code": "Ezra",
+      "title": "Esran kirja"
+    },
+    {
+      "code": "NEH",
+      "source_code": "Neh",
+      "title": "Nehemian kirja"
+    },
+    {
+      "code": "EST",
+      "source_code": "Esth",
+      "title": "Esterin kirja"
+    },
+    {
+      "code": "JOB",
+      "source_code": "Job",
+      "title": "Jobin kirja"
+    },
+    {
+      "code": "PSA",
+      "source_code": "Ps",
+      "title": "Psalmit"
+    },
+    {
+      "code": "PRO",
+      "source_code": "Prov",
+      "title": "Sananlaskut"
+    },
+    {
+      "code": "ECC",
+      "source_code": "Eccl",
+      "title": "Saarnaajan kirja"
+    },
+    {
+      "code": "SNG",
+      "source_code": "Song",
+      "title": "Laulujen laulu"
+    },
+    {
+      "code": "ISA",
+      "source_code": "Isa",
+      "title": "Jesajan kirja"
+    },
+    {
+      "code": "JER",
+      "source_code": "Jer",
+      "title": "Jeremian kirja"
+    },
+    {
+      "code": "LAM",
+      "source_code": "Lam",
+      "title": "Valitusvirret"
+    },
+    {
+      "code": "EZK",
+      "source_code": "Ezek",
+      "title": "Hesekielin kirja"
+    },
+    {
+      "code": "DAN",
+      "source_code": "Dan",
+      "title": "Danielin kirja"
+    },
+    {
+      "code": "HOS",
+      "source_code": "Hos",
+      "title": "Hoosean kirja"
+    },
+    {
+      "code": "JOL",
+      "source_code": "Joel",
+      "title": "Joelin kirja"
+    },
+    {
+      "code": "AMO",
+      "source_code": "Amos",
+      "title": "Aamoksen kirja"
+    },
+    {
+      "code": "OBA",
+      "source_code": "Obad",
+      "title": "Obadjan kirja"
+    },
+    {
+      "code": "JON",
+      "source_code": "Jonah",
+      "title": "Joonan kirja"
+    },
+    {
+      "code": "MIC",
+      "source_code": "Mic",
+      "title": "Miikan kirja"
+    },
+    {
+      "code": "NAM",
+      "source_code": "Nah",
+      "title": "Nahumin kirja"
+    },
+    {
+      "code": "HAB",
+      "source_code": "Hab",
+      "title": "Habakukin kirja"
+    },
+    {
+      "code": "ZEP",
+      "source_code": "Zeph",
+      "title": "Sefanjan kirja"
+    },
+    {
+      "code": "HAG",
+      "source_code": "Hag",
+      "title": "Haggain kirja"
+    },
+    {
+      "code": "ZEC",
+      "source_code": "Zech",
+      "title": "Sakarjan kirja"
+    },
+    {
+      "code": "MAL",
+      "source_code": "Mal",
+      "title": "Malakian kirja"
+    },
+    {
+      "code": "MAT",
+      "source_code": "Matt",
+      "title": "Matteuksen evankeliumi"
+    },
+    {
+      "code": "MRK",
+      "source_code": "Mark",
+      "title": "Markuksen evankeliumi"
+    },
+    {
+      "code": "LUK",
+      "source_code": "Luke",
+      "title": "Luukkaan evankeliumi"
+    },
+    {
+      "code": "JHN",
+      "source_code": "John",
+      "title": "Johanneksen evankeliumi"
+    },
+    {
+      "code": "ACT",
+      "source_code": "Acts",
+      "title": "Apostolien teot"
+    },
+    {
+      "code": "ROM",
+      "source_code": "Rom",
+      "title": "Kirje roomalaisille"
+    },
+    {
+      "code": "1CO",
+      "source_code": "1Cor",
+      "title": "Ensimmäinen kirje korinttilaisille"
+    },
+    {
+      "code": "2CO",
+      "source_code": "2Cor",
+      "title": "Toinen kirje korinttilaisille"
+    },
+    {
+      "code": "GAL",
+      "source_code": "Gal",
+      "title": "Kirje galatalaisille"
+    },
+    {
+      "code": "EPH",
+      "source_code": "Eph",
+      "title": "Kirje efesolaisille"
+    },
+    {
+      "code": "PHP",
+      "source_code": "Phil",
+      "title": "Kirje filippiläisille"
+    },
+    {
+      "code": "COL",
+      "source_code": "Col",
+      "title": "Kirje kolossalaisille"
+    },
+    {
+      "code": "1TH",
+      "source_code": "1Thess",
+      "title": "Ensimmäinen kirje tessalonikalaisille"
+    },
+    {
+      "code": "2TH",
+      "source_code": "2Thess",
+      "title": "Toinen kirje tessalonikalaisille"
+    },
+    {
+      "code": "1TI",
+      "source_code": "1Tim",
+      "title": "Ensimmäinen kirje Timoteukselle"
+    },
+    {
+      "code": "2TI",
+      "source_code": "2Tim",
+      "title": "Toinen kirje Timoteukselle"
+    },
+    {
+      "code": "TIT",
+      "source_code": "Titus",
+      "title": "Kirje Titukselle"
+    },
+    {
+      "code": "PHM",
+      "source_code": "Phlm",
+      "title": "Kirje Filemonille"
+    },
+    {
+      "code": "HEB",
+      "source_code": "Heb",
+      "title": "Kirje heprealaisille"
+    },
+    {
+      "code": "JAS",
+      "source_code": "Jas",
+      "title": "Jaakobin kirje"
+    },
+    {
+      "code": "1PE",
+      "source_code": "1Pet",
+      "title": "Ensimmäinen Pietarin kirje"
+    },
+    {
+      "code": "2PE",
+      "source_code": "2Pet",
+      "title": "Toinen Pietarin kirje"
+    },
+    {
+      "code": "1JN",
+      "source_code": "1John",
+      "title": "Ensimmäinen Johanneksen kirje"
+    },
+    {
+      "code": "2JN",
+      "source_code": "2John",
+      "title": "Toinen Johanneksen kirje"
+    },
+    {
+      "code": "3JN",
+      "source_code": "3John",
+      "title": "Kolmas Johanneksen kirje"
+    },
+    {
+      "code": "JUD",
+      "source_code": "Jude",
+      "title": "Juudaksen kirje"
+    },
+    {
+      "code": "REV",
+      "source_code": "Rev",
+      "title": "Ilmestyskirja"
+    }
+  ],
+  "bible": "bible.json",
+  "footnotes": "footnotes.json",
+  "crossreferences": "crossreferences.json",
+  "text_format": "Frozen source wording; source emphasis asterisks and poetry slash markers retained. Footnote text and cross-references are separate.",
+  "rights": "User-authorized export of this project edition. No third-party source corpora or source modules included; no new license grant inferred.",
+  "source_database_sha256": "c6479aa2114044c23a4862a128f67bef260e5a3da0c478c68d17a9b29e54157c"
+}

@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "books": 66,
+  "chapters": 1189,
+  "verses": 31170,
+  "footnotes": 24531,
+  "crossreference_pairs": 55,
+  "crossreference_links": 110,
+  "all_annotation_references_resolve": true,
+  "verse_text_exactly_matches_frozen_database": true,
+  "translation_review_performed": false,
+  "reader_integration": "Importable Bible JSON; separate annotation datasets, not installed into the reader annotation UI."
+}

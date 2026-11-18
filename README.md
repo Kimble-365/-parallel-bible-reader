@@ -1,5 +1,9 @@
 # Parallel Bible Reader
 
+## Finnish project edition data
+
+[Suomenkielinen tutkimusraamattu v005](texts/finnish-study-v005/) contains the complete Finnish verse text as importable Bible JSON, with footnotes and cross-references in separate, verse-keyed files. This data package does not change the installed edition catalog or annotation UI.
+
 [Open the current reader](https://kimble-365.github.io/-parallel-bible-reader/) · [Archived original reader](https://kimble-365.github.io/-parallel-bible-reader/legacy/) · [Original offline ZIP](https://kimble-365.github.io/-parallel-bible-reader/parallel-bible-reader.zip)
 
 A standalone English-interface Bible reader with original scripts, Latin transliterations, Finnish KR33/38 and World English Bible comparisons. No ChatGPT account is required. This distribution contains only the Bible reader.

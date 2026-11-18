@@ -9,7 +9,7 @@ a = p.parse_args(); source = a.source; out = a.output
 out.mkdir(parents=True, exist_ok=True)
 def read(path): return json.loads(path.read_text(encoding='utf-8'))
 def write(name, data):
-    (out/name).write_text(json.dumps(data, ensure_ascii=False, indent=2)+'\n', encoding='utf-8')
+    (out/name).write_text(json.dumps(data, ensure_ascii=False, indent=2)+'\n', encoding='utf-8', newline='\n')
 books = [read(f) for f in sorted((source/'books').glob('*/keruutiedosto.json'))]
 codes = 'GEN EXO LEV NUM DEU JOS JDG RUT 1SA 2SA 1KI 2KI 1CH 2CH EZR NEH EST JOB PSA PRO ECC SNG ISA JER LAM EZK DAN HOS JOL AMO OBA JON MIC NAM HAB ZEP HAG ZEC MAL MAT MRK LUK JHN ACT ROM 1CO 2CO GAL EPH PHP COL 1TH 2TH 1TI 2TI TIT PHM HEB JAS 1PE 2PE 1JN 2JN 3JN JUD REV'.split()
 assert len(books)==len(codes)==66

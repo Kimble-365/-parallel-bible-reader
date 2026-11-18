@@ -1,1 +1,2 @@
 tests/fixtures/study121/concise-phm.md -whitespace
+texts/finnish-study-v005/*.json text eol=lf

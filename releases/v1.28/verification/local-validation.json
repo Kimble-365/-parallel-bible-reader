@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "viewports": {
+    "390": {
+      "three_independent_panes": true,
+      "clickable_finnish_and_tsk_refs": true,
+      "aligned_cells": true,
+      "none_slot_preserved": true,
+      "offline_saved_items": 198,
+      "offline_reopen_and_last_book": true,
+      "page_errors": []
+    },
+    "1280": {
+      "three_independent_panes": true,
+      "clickable_finnish_and_tsk_refs": true,
+      "aligned_cells": true,
+      "none_slot_preserved": true,
+      "offline_saved_items": 198,
+      "offline_reopen_and_last_book": true,
+      "page_errors": []
+    },
+    "tampered_pack_rejected": true
+  },
+  "environment": "Local Windows Chromium via Playwright; not hosted CI",
+  "source_checks": "tests/references_128.py: PASS",
+  "focused_regressions": [
+    "verse_text_116",
+    "notes_model",
+    "search_engine",
+    "tracker_127"
+  ]
+}

@@ -1,0 +1,521 @@
+{
+  "date": "2026-10-31",
+  "files": [
+    {
+      "repo": "ETCBC/peshitta",
+      "path": "tf/0.2/otype.tf",
+      "commit": "9850f5addade26f681334aa475570bef9b0b440a",
+      "blob_sha": "5e4c0df9d129456888f2cd35d5438887e2a652f6",
+      "sha256": "bb3a6a7eb417c80560d263a9fe40f8b97f9609ab9175db1bb5928c5088e9a730",
+      "bytes": 483,
+      "url": "https://raw.githubusercontent.com/ETCBC/peshitta/9850f5addade26f681334aa475570bef9b0b440a/tf/0.2/otype.tf"
+    },
+    {
+      "repo": "ETCBC/peshitta",
+      "path": "tf/0.2/oslots.tf",
+      "commit": "9850f5addade26f681334aa475570bef9b0b440a",
+      "blob_sha": "57501c630448ee0559a911185e650274952bb31b",
+      "sha256": "b2054aa0f8880c5d6564eb54777e6b105a13551ca21ed219188ed350d4977047",
+      "bytes": 440119,
+      "url": "https://raw.githubusercontent.com/ETCBC/peshitta/9850f5addade26f681334aa475570bef9b0b440a/tf/0.2/oslots.tf"
+    },
+    {
+      "repo": "ETCBC/peshitta",
+      "path": "tf/0.2/book.tf",
+      "commit": "9850f5addade26f681334aa475570bef9b0b440a",
+      "blob_sha": "3b48d28607890f212e44e465f6b9bc0b8601f611",
+      "sha256": "836eaacd8f21f6d93297e96f7d5f06de9e17ac3b6ea9bcb0cc632bdd9e686c7c",
+      "bytes": 123087,
+      "url": "https://raw.githubusercontent.com/ETCBC/peshitta/9850f5addade26f681334aa475570bef9b0b440a/tf/0.2/book.tf"
+    },
+    {
+      "repo": "ETCBC/peshitta",
+      "path": "tf/0.2/chapter.tf",
+      "commit": "9850f5addade26f681334aa475570bef9b0b440a",
+      "blob_sha": "d4b0f4b96205855cbb4d279a1884016bbe5cc37d",
+      "sha256": "ecc4a9489acc86970d6a0e9da827ccbaf69adc7556dd0224738621d97dd7422b",
+      "bytes": 87371,
+      "url": "https://raw.githubusercontent.com/ETCBC/peshitta/9850f5addade26f681334aa475570bef9b0b440a/tf/0.2/chapter.tf"
+    },
+    {
+      "repo": "ETCBC/peshitta",
+      "path": "tf/0.2/verse.tf",
+      "commit": "9850f5addade26f681334aa475570bef9b0b440a",
+      "blob_sha": "baf543cb6b08715c5febff0f4777e4ebc1af6157",
+      "sha256": "793c95041bf21f704ba0f5d4bb21e46316df1c99ab0d69c151b9c3b8ced0d955",
+      "bytes": 83728,
+      "url": "https://raw.githubusercontent.com/ETCBC/peshitta/9850f5addade26f681334aa475570bef9b0b440a/tf/0.2/verse.tf"
+    },
+    {
+      "repo": "ETCBC/peshitta",
+      "path": "tf/0.2/word.tf",
+      "commit": "9850f5addade26f681334aa475570bef9b0b440a",
+      "blob_sha": "285f14ba15212517f4a675a55e52b16da281ce54",
+      "sha256": "9de933cd38bec320ba5cf950fbc60c358c02ea815e8d6046e10a51a51cace083",
+      "bytes": 4353441,
+      "url": "https://raw.githubusercontent.com/ETCBC/peshitta/9850f5addade26f681334aa475570bef9b0b440a/tf/0.2/word.tf"
+    },
+    {
+      "repo": "ETCBC/peshitta",
+      "path": "tf/0.2/trailer.tf",
+      "commit": "9850f5addade26f681334aa475570bef9b0b440a",
+      "blob_sha": "1e520c30cf9bf5f711ff67dd06682d3d653f84bf",
+      "sha256": "48ad2b02cdda8cf615f4143f62099e6cade6d7ab41e03d2a2e47570ca1b9e848",
+      "bytes": 882602,
+      "url": "https://raw.githubusercontent.com/ETCBC/peshitta/9850f5addade26f681334aa475570bef9b0b440a/tf/0.2/trailer.tf"
+    },
+    {
+      "repo": "ETCBC/peshitta",
+      "path": "README.md",
+      "commit": "9850f5addade26f681334aa475570bef9b0b440a",
+      "blob_sha": "40510ec3006bbca32f0e35d772af661c4e1a99d6",
+      "sha256": "77a570c549e8fa0bea3d8f37d700e801c25c89567c0509ee11b9f7fdf9549938",
+      "bytes": 3567,
+      "url": "https://raw.githubusercontent.com/ETCBC/peshitta/9850f5addade26f681334aa475570bef9b0b440a/README.md"
+    },
+    {
+      "repo": "ETCBC/peshitta",
+      "path": "docs/about.md",
+      "commit": "9850f5addade26f681334aa475570bef9b0b440a",
+      "blob_sha": "29fcf50b525bba91728bbe72933bc89983187837",
+      "sha256": "c40dd91e96a6099f61466701681faff1086f067547880b8cf1599578eeaae9f4",
+      "bytes": 4855,
+      "url": "https://raw.githubusercontent.com/ETCBC/peshitta/9850f5addade26f681334aa475570bef9b0b440a/docs/about.md"
+    },
+    {
+      "repo": "ETCBC/syriac",
+      "path": "tf/0.92/otype.tf",
+      "commit": "0b6ded2b369c7d81589a98c92325290e24b20af6",
+      "blob_sha": "4b5a4342c24e5e78123dd334aa6f46f1d3b7a4e9",
+      "sha256": "8ed8a2b97870670c6ea5f3d4f485d9685a175c153567918b43753d3ead467f82",
+      "bytes": 254,
+      "url": "https://raw.githubusercontent.com/ETCBC/syriac/0b6ded2b369c7d81589a98c92325290e24b20af6/tf/0.92/otype.tf"
+    },
+    {
+      "repo": "ETCBC/syriac",
+      "path": "tf/0.92/oslots.tf",
+      "commit": "0b6ded2b369c7d81589a98c92325290e24b20af6",
+      "blob_sha": "4354bce1141329719f7d1525a143a3874022d4fd",
+      "sha256": "da800c95a00fac5adb6e6d286f8a975552cb6a4a4e6c690ed97e932005319295",
+      "bytes": 255105,
+      "url": "https://raw.githubusercontent.com/ETCBC/syriac/0b6ded2b369c7d81589a98c92325290e24b20af6/tf/0.92/oslots.tf"
+    },
+    {
+      "repo": "ETCBC/syriac",
+      "path": "tf/0.92/book.tf",
+      "commit": "0b6ded2b369c7d81589a98c92325290e24b20af6",
+      "blob_sha": "fee4f43f3f8ec05d9a3d1c5a5a8f04b29411611b",
+      "sha256": "e4982c161bffc2405e391629183b0cb5e99aee3934bd1b067649c759e059b34d",
+      "bytes": 419,
+      "url": "https://raw.githubusercontent.com/ETCBC/syriac/0b6ded2b369c7d81589a98c92325290e24b20af6/tf/0.92/book.tf"
+    },
+    {
+      "repo": "ETCBC/syriac",
+      "path": "tf/0.92/chapter.tf",
+      "commit": "0b6ded2b369c7d81589a98c92325290e24b20af6",
+      "blob_sha": "54d5b46e664dc65f0704404f409b9018a19d15f4",
+      "sha256": "b93c747e188c85c7c8509c8d6e80343a9ed58dc3c62ed75e4aab6fd2e65266d4",
+      "bytes": 2404,
+      "url": "https://raw.githubusercontent.com/ETCBC/syriac/0b6ded2b369c7d81589a98c92325290e24b20af6/tf/0.92/chapter.tf"
+    },
+    {
+      "repo": "ETCBC/syriac",
+      "path": "tf/0.92/verse.tf",
+      "commit": "0b6ded2b369c7d81589a98c92325290e24b20af6",
+      "blob_sha": "4805dd200a14443687f0cd599bd855de09f557c1",
+      "sha256": "2f3ad1da3ab9bfdafd26a14c87f435662fb76da625adb904cfeb997cc8bd8cac",
+      "bytes": 48905,
+      "url": "https://raw.githubusercontent.com/ETCBC/syriac/0b6ded2b369c7d81589a98c92325290e24b20af6/tf/0.92/verse.tf"
+    },
+    {
+      "repo": "ETCBC/syriac",
+      "path": "tf/0.92/g_cons_utf8.tf",
+      "commit": "0b6ded2b369c7d81589a98c92325290e24b20af6",
+      "blob_sha": "e11d4869bf3c551a1a324a3c754058f2af07ce56",
+      "sha256": "9c1f6c32df5b44d9b70be615ed5e18c4f34363b6ddc737f172a7eef4ea4d45bb",
+      "bytes": 2648509,
+      "url": "https://raw.githubusercontent.com/ETCBC/syriac/0b6ded2b369c7d81589a98c92325290e24b20af6/tf/0.92/g_cons_utf8.tf"
+    },
+    {
+      "repo": "ETCBC/syriac",
+      "path": "tf/0.92/trailer.tf",
+      "commit": "0b6ded2b369c7d81589a98c92325290e24b20af6",
+      "blob_sha": "51653d076513d0a1ba5354d6ec5d793174600155",
+      "sha256": "0bc680aafe8ddcc490ad843992187be05667c7820e8d3b8485c7d185cc758358",
+      "bytes": 1390727,
+      "url": "https://raw.githubusercontent.com/ETCBC/syriac/0b6ded2b369c7d81589a98c92325290e24b20af6/tf/0.92/trailer.tf"
+    },
+    {
+      "repo": "ETCBC/syriac",
+      "path": "tf/0.92/lex.tf",
+      "commit": "0b6ded2b369c7d81589a98c92325290e24b20af6",
+      "blob_sha": "3b5e99de94d033c9ed094bb440356da7f59b5109",
+      "sha256": "88480a7ae47e1c4b820db92509c0050112fe5442d3e8fb9ba9811e796a67744e",
+      "bytes": 1399665,
+      "url": "https://raw.githubusercontent.com/ETCBC/syriac/0b6ded2b369c7d81589a98c92325290e24b20af6/tf/0.92/lex.tf"
+    },
+    {
+      "repo": "ETCBC/syriac",
+      "path": "tf/0.92/gloss.tf",
+      "commit": "0b6ded2b369c7d81589a98c92325290e24b20af6",
+      "blob_sha": "33b415a92a426f02b58cf2073ec3ecc5406d53f7",
+      "sha256": "13c4aa797d61e52ca5ad6815a70beca400781017c673e7f13c2a92f7b1c5480a",
+      "bytes": 5642244,
+      "url": "https://raw.githubusercontent.com/ETCBC/syriac/0b6ded2b369c7d81589a98c92325290e24b20af6/tf/0.92/gloss.tf"
+    },
+    {
+      "repo": "ETCBC/syriac",
+      "path": "tf/0.92/sp.tf",
+      "commit": "0b6ded2b369c7d81589a98c92325290e24b20af6",
+      "blob_sha": "9b3e2e9c838b362c07e9fc3d4ea852244cd6efea",
+      "sha256": "b7d5c3420b383a679adb593615e31a17719248eefaca59953ee7eb9abda7c695",
+      "bytes": 2036812,
+      "url": "https://raw.githubusercontent.com/ETCBC/syriac/0b6ded2b369c7d81589a98c92325290e24b20af6/tf/0.92/sp.tf"
+    },
+    {
+      "repo": "ETCBC/syriac",
+      "path": "tf/0.92/vs.tf",
+      "commit": "0b6ded2b369c7d81589a98c92325290e24b20af6",
+      "blob_sha": "cb670c2edf87c923e5d7c657119088d364cdeeb1",
+      "sha256": "6f5702c2deea16712fa14d9617a6c43c3600e172051b6ee722d2f3221f1f4d34",
+      "bytes": 593053,
+      "url": "https://raw.githubusercontent.com/ETCBC/syriac/0b6ded2b369c7d81589a98c92325290e24b20af6/tf/0.92/vs.tf"
+    },
+    {
+      "repo": "ETCBC/syriac",
+      "path": "tf/0.92/vt.tf",
+      "commit": "0b6ded2b369c7d81589a98c92325290e24b20af6",
+      "blob_sha": "e0b7eb38b95e91f14a907b705adde96697c0f794",
+      "sha256": "dea11e3bab90799e881bbfcf4a47d3672363a3ab17f9933bbecb072583b26086",
+      "bytes": 630384,
+      "url": "https://raw.githubusercontent.com/ETCBC/syriac/0b6ded2b369c7d81589a98c92325290e24b20af6/tf/0.92/vt.tf"
+    },
+    {
+      "repo": "ETCBC/syriac",
+      "path": "tf/0.92/ps.tf",
+      "commit": "0b6ded2b369c7d81589a98c92325290e24b20af6",
+      "blob_sha": "46ca162ab46c9f4244e9e83806029617258d7644",
+      "sha256": "9f7b60417342a189570c5ad5ddda5a16ee4375f56a020b1e4b7290159f56337e",
+      "bytes": 1177392,
+      "url": "https://raw.githubusercontent.com/ETCBC/syriac/0b6ded2b369c7d81589a98c92325290e24b20af6/tf/0.92/ps.tf"
+    },
+    {
+      "repo": "ETCBC/syriac",
+      "path": "tf/0.92/gn.tf",
+      "commit": "0b6ded2b369c7d81589a98c92325290e24b20af6",
+      "blob_sha": "8f4b94383019ec707af766e75f770ab213991912",
+      "sha256": "e75d6cb9e52e64d3cdc91e8037240fbc1d551f4a9e73cb5b8374b995523519b4",
+      "bytes": 1491189,
+      "url": "https://raw.githubusercontent.com/ETCBC/syriac/0b6ded2b369c7d81589a98c92325290e24b20af6/tf/0.92/gn.tf"
+    },
+    {
+      "repo": "ETCBC/syriac",
+      "path": "tf/0.92/nu.tf",
+      "commit": "0b6ded2b369c7d81589a98c92325290e24b20af6",
+      "blob_sha": "892a0a12c329a50f7ec5a81aecf4a3738f8dedde",
+      "sha256": "e7409bc40844faba4f152af97d972def5c667c0404f9e713f9d7a1257fee1f27",
+      "bytes": 1613901,
+      "url": "https://raw.githubusercontent.com/ETCBC/syriac/0b6ded2b369c7d81589a98c92325290e24b20af6/tf/0.92/nu.tf"
+    },
+    {
+      "repo": "ETCBC/syriac",
+      "path": "tf/0.92/st.tf",
+      "commit": "0b6ded2b369c7d81589a98c92325290e24b20af6",
+      "blob_sha": "22d8b7b9547e09e311e2562b91534d2eb8735632",
+      "sha256": "8032c19df172a5f65505c417f0feb9c8ab1ef3fba3b96a1500e8413cb4be2048",
+      "bytes": 1502848,
+      "url": "https://raw.githubusercontent.com/ETCBC/syriac/0b6ded2b369c7d81589a98c92325290e24b20af6/tf/0.92/st.tf"
+    },
+    {
+      "repo": "ETCBC/syriac",
+      "path": "README.md",
+      "commit": "0b6ded2b369c7d81589a98c92325290e24b20af6",
+      "blob_sha": "1a68909098e381da2c4b6d0c228eda567d180c6e",
+      "sha256": "a50f86f5a3b6830cfabd4f2ab77495ca3cf8fb76f0d97a29e41aa112741e9aa3",
+      "bytes": 5571,
+      "url": "https://raw.githubusercontent.com/ETCBC/syriac/0b6ded2b369c7d81589a98c92325290e24b20af6/README.md"
+    },
+    {
+      "repo": "ETCBC/syriac",
+      "path": "LICENSE",
+      "commit": "0b6ded2b369c7d81589a98c92325290e24b20af6",
+      "blob_sha": "fe463e0f7888bbf8b82e42d55f5743508ddafb7e",
+      "sha256": "41003d4a74749c0220e33dd415042164b5a1093ed401f36277234f772d22d3d0",
+      "bytes": 19347,
+      "url": "https://raw.githubusercontent.com/ETCBC/syriac/0b6ded2b369c7d81589a98c92325290e24b20af6/LICENSE"
+    },
+    {
+      "repo": "srophe/syriac-corpus",
+      "path": "data/tei/142.xml",
+      "commit": "833adc148cc356a6c70c16f81b22df9188df717a",
+      "blob_sha": "a2ee651a1b692a66f6f2b25b93d8961f25cbf106",
+      "sha256": "052feecfb76460d4e301c70b4a3a14510cd41b57e768d7e3249c93f16f9e1ad7",
+      "bytes": 12178,
+      "url": "https://raw.githubusercontent.com/srophe/syriac-corpus/833adc148cc356a6c70c16f81b22df9188df717a/data/tei/142.xml"
+    },
+    {
+      "repo": "srophe/syriac-corpus",
+      "path": "data/tei/143.xml",
+      "commit": "833adc148cc356a6c70c16f81b22df9188df717a",
+      "blob_sha": "73c7c68cff9be1a3de3d2d355c0bbec68272b651",
+      "sha256": "dc8a80ff3c8d900ceb3a17f43d24889fcf506d65e4d96642a7a343f05e0396ad",
+      "bytes": 12341,
+      "url": "https://raw.githubusercontent.com/srophe/syriac-corpus/833adc148cc356a6c70c16f81b22df9188df717a/data/tei/143.xml"
+    },
+    {
+      "repo": "srophe/syriac-corpus",
+      "path": "data/tei/144.xml",
+      "commit": "833adc148cc356a6c70c16f81b22df9188df717a",
+      "blob_sha": "9b5548c916b2e75d70b93f3b778bf56557bafc1e",
+      "sha256": "eaaa989aebde04ed17ae9a545118a9b4b0384508234c4b9a80f1cd43274ab1d0",
+      "bytes": 17114,
+      "url": "https://raw.githubusercontent.com/srophe/syriac-corpus/833adc148cc356a6c70c16f81b22df9188df717a/data/tei/144.xml"
+    },
+    {
+      "repo": "srophe/syriac-corpus",
+      "path": "data/tei/136.xml",
+      "commit": "833adc148cc356a6c70c16f81b22df9188df717a",
+      "blob_sha": "8c331a99f7e231547dd2e33bd20e8502ba7fb5e0",
+      "sha256": "8e6f47a61f7e7d6911ff3b580a1dcc9c03f3f9c402757585246e1cdac96d7bda",
+      "bytes": 13845,
+      "url": "https://raw.githubusercontent.com/srophe/syriac-corpus/833adc148cc356a6c70c16f81b22df9188df717a/data/tei/136.xml"
+    },
+    {
+      "repo": "srophe/syriac-corpus",
+      "path": "data/tei/132.xml",
+      "commit": "833adc148cc356a6c70c16f81b22df9188df717a",
+      "blob_sha": "ac1df0df9a570e05cbc8161bfe6d34152fe03db1",
+      "sha256": "266249b3fc214fb44715a73897d30f68030561ac399bb35c55e84bbb9a6b0160",
+      "bytes": 21774,
+      "url": "https://raw.githubusercontent.com/srophe/syriac-corpus/833adc148cc356a6c70c16f81b22df9188df717a/data/tei/132.xml"
+    },
+    {
+      "repo": "srophe/syriac-corpus",
+      "path": "data/tei/135.xml",
+      "commit": "833adc148cc356a6c70c16f81b22df9188df717a",
+      "blob_sha": "1f34ee77187d459e0390132b7a2502d44068ec8e",
+      "sha256": "9990bb2d1b674f0c6d5ba0d03440dd67b142d6f71124b7062d71d1239c569abc",
+      "bytes": 22808,
+      "url": "https://raw.githubusercontent.com/srophe/syriac-corpus/833adc148cc356a6c70c16f81b22df9188df717a/data/tei/135.xml"
+    },
+    {
+      "repo": "srophe/syriac-corpus",
+      "path": "data/tei/140.xml",
+      "commit": "833adc148cc356a6c70c16f81b22df9188df717a",
+      "blob_sha": "ff1a98833f50bc5c1a9b2b3dfbec92edd11253b8",
+      "sha256": "989874e0e67601ab36a9013120e3eb7f483fc37f273ddfdbd0c70db42c569847",
+      "bytes": 30544,
+      "url": "https://raw.githubusercontent.com/srophe/syriac-corpus/833adc148cc356a6c70c16f81b22df9188df717a/data/tei/140.xml"
+    },
+    {
+      "repo": "srophe/syriac-corpus",
+      "path": "data/tei/138.xml",
+      "commit": "833adc148cc356a6c70c16f81b22df9188df717a",
+      "blob_sha": "92d9c25184f9e7d5d2492d3cd12c2b72aa513f22",
+      "sha256": "279c6e153ad0bd960b18e61b378ef295e4e592b52ba142b1200223dd4c65d322",
+      "bytes": 39786,
+      "url": "https://raw.githubusercontent.com/srophe/syriac-corpus/833adc148cc356a6c70c16f81b22df9188df717a/data/tei/138.xml"
+    },
+    {
+      "repo": "srophe/syriac-corpus",
+      "path": "data/tei/141.xml",
+      "commit": "833adc148cc356a6c70c16f81b22df9188df717a",
+      "blob_sha": "4ed66686fa2ef6501c758c2128309d56afe6bbb4",
+      "sha256": "de3ea1579fa75398c4cf3a1520a89e5c788f4719a865ea443a6dc503b8c68228",
+      "bytes": 39967,
+      "url": "https://raw.githubusercontent.com/srophe/syriac-corpus/833adc148cc356a6c70c16f81b22df9188df717a/data/tei/141.xml"
+    },
+    {
+      "repo": "srophe/syriac-corpus",
+      "path": "data/tei/134.xml",
+      "commit": "833adc148cc356a6c70c16f81b22df9188df717a",
+      "blob_sha": "7eaacf6b32f9809d0794c6675e43c59a35b92ddd",
+      "sha256": "a2eee9f32250f18ef847714fcf674c879fed6c0d1d77e984bde3f91b274d9361",
+      "bytes": 31584,
+      "url": "https://raw.githubusercontent.com/srophe/syriac-corpus/833adc148cc356a6c70c16f81b22df9188df717a/data/tei/134.xml"
+    },
+    {
+      "repo": "srophe/syriac-corpus",
+      "path": "data/tei/139.xml",
+      "commit": "833adc148cc356a6c70c16f81b22df9188df717a",
+      "blob_sha": "65fed01f72669d1bccb47146c43a590b14de8600",
+      "sha256": "1519695e729192741a38eff9cd07b4888de7a700b0327fa3309f102a61271930",
+      "bytes": 43345,
+      "url": "https://raw.githubusercontent.com/srophe/syriac-corpus/833adc148cc356a6c70c16f81b22df9188df717a/data/tei/139.xml"
+    },
+    {
+      "repo": "srophe/syriac-corpus",
+      "path": "data/tei/131.xml",
+      "commit": "833adc148cc356a6c70c16f81b22df9188df717a",
+      "blob_sha": "4844209d30b7298c1ef91731ac42c0415c700d4f",
+      "sha256": "b318eee1f335761624a18b66d4e90329247accf0afca93b3ae7f005434326051",
+      "bytes": 33903,
+      "url": "https://raw.githubusercontent.com/srophe/syriac-corpus/833adc148cc356a6c70c16f81b22df9188df717a/data/tei/131.xml"
+    },
+    {
+      "repo": "srophe/syriac-corpus",
+      "path": "data/tei/130.xml",
+      "commit": "833adc148cc356a6c70c16f81b22df9188df717a",
+      "blob_sha": "2819112b7a66b246b23691b29392454afad3f43d",
+      "sha256": "812569148ca53d0df958185052be38ac5f9d18fda45cb4d1f3306417a0839451",
+      "bytes": 35449,
+      "url": "https://raw.githubusercontent.com/srophe/syriac-corpus/833adc148cc356a6c70c16f81b22df9188df717a/data/tei/130.xml"
+    },
+    {
+      "repo": "srophe/syriac-corpus",
+      "path": "data/tei/129.xml",
+      "commit": "833adc148cc356a6c70c16f81b22df9188df717a",
+      "blob_sha": "6b9f323d4182f545ef4c8af6cb6d22e68a9d7625",
+      "sha256": "50a00df7b43e04677b07a52f0b8bd9ea2f2d932adbe3185d540e0fb0f516c4dc",
+      "bytes": 37811,
+      "url": "https://raw.githubusercontent.com/srophe/syriac-corpus/833adc148cc356a6c70c16f81b22df9188df717a/data/tei/129.xml"
+    },
+    {
+      "repo": "srophe/syriac-corpus",
+      "path": "data/tei/133.xml",
+      "commit": "833adc148cc356a6c70c16f81b22df9188df717a",
+      "blob_sha": "39557df644b760a58a87f700a7cba8dc913dd28e",
+      "sha256": "9da57586c828cf7139fe79d1814716894ce58558ac7d396477cac327d05b1cb1",
+      "bytes": 42847,
+      "url": "https://raw.githubusercontent.com/srophe/syriac-corpus/833adc148cc356a6c70c16f81b22df9188df717a/data/tei/133.xml"
+    },
+    {
+      "repo": "srophe/syriac-corpus",
+      "path": "data/tei/127.xml",
+      "commit": "833adc148cc356a6c70c16f81b22df9188df717a",
+      "blob_sha": "6a9ee8285459a1a1252bf82850d87c4675358ee4",
+      "sha256": "e9a2dfeb7d4d233339c27aaf7f5c3696411467fd87acf137a69a71d4e1e2adf0",
+      "bytes": 50057,
+      "url": "https://raw.githubusercontent.com/srophe/syriac-corpus/833adc148cc356a6c70c16f81b22df9188df717a/data/tei/127.xml"
+    },
+    {
+      "repo": "srophe/syriac-corpus",
+      "path": "data/tei/128.xml",
+      "commit": "833adc148cc356a6c70c16f81b22df9188df717a",
+      "blob_sha": "9e86dcfdc9476c1ca9d6ce430915a2a8bbc9dbc6",
+      "sha256": "b35f634b98b2c4e82b90787517ffa2a8d1c8a3309ea731e72b0f86b23ed82181",
+      "bytes": 50124,
+      "url": "https://raw.githubusercontent.com/srophe/syriac-corpus/833adc148cc356a6c70c16f81b22df9188df717a/data/tei/128.xml"
+    },
+    {
+      "repo": "srophe/syriac-corpus",
+      "path": "data/tei/126.xml",
+      "commit": "833adc148cc356a6c70c16f81b22df9188df717a",
+      "blob_sha": "19f17a27196164dd839d4426522567e9df285d1f",
+      "sha256": "e8973c0b8046a17529e32215551d2d306f30ff1ef2be12466e732260f4babc37",
+      "bytes": 90399,
+      "url": "https://raw.githubusercontent.com/srophe/syriac-corpus/833adc148cc356a6c70c16f81b22df9188df717a/data/tei/126.xml"
+    },
+    {
+      "repo": "srophe/syriac-corpus",
+      "path": "data/tei/137.xml",
+      "commit": "833adc148cc356a6c70c16f81b22df9188df717a",
+      "blob_sha": "69367f4a5b8b048c788b8679b9ed84f6da159c87",
+      "sha256": "daadc16494b2f7c21d78962c92964272db1751478dbbc9592631347e70708c3a",
+      "bytes": 101505,
+      "url": "https://raw.githubusercontent.com/srophe/syriac-corpus/833adc148cc356a6c70c16f81b22df9188df717a/data/tei/137.xml"
+    },
+    {
+      "repo": "srophe/syriac-corpus",
+      "path": "data/tei/124.xml",
+      "commit": "833adc148cc356a6c70c16f81b22df9188df717a",
+      "blob_sha": "7c193405add1ba9aa1945dd2aa9a90c6e797904b",
+      "sha256": "7a57b13932e986e5a14647f4b9d3604d9af582947ef6935b9b5bd8430361de78",
+      "bytes": 135454,
+      "url": "https://raw.githubusercontent.com/srophe/syriac-corpus/833adc148cc356a6c70c16f81b22df9188df717a/data/tei/124.xml"
+    },
+    {
+      "repo": "srophe/syriac-corpus",
+      "path": "data/tei/123.xml",
+      "commit": "833adc148cc356a6c70c16f81b22df9188df717a",
+      "blob_sha": "de939644e481362236a439b5f6249392e83ba7ed",
+      "sha256": "996ca9e1e7834ba69105ac4d438d167bb8b9b8b258425a5550f8e580b729ffbe",
+      "bytes": 135731,
+      "url": "https://raw.githubusercontent.com/srophe/syriac-corpus/833adc148cc356a6c70c16f81b22df9188df717a/data/tei/123.xml"
+    },
+    {
+      "repo": "srophe/syriac-corpus",
+      "path": "data/tei/119.xml",
+      "commit": "833adc148cc356a6c70c16f81b22df9188df717a",
+      "blob_sha": "88c32e7af48ed4d767a66c75fff84fe85e7fa9cb",
+      "sha256": "55a2320f0eccf31571cf07f34bcb684ef012b785239258047b65d37108d1a86b",
+      "bytes": 195986,
+      "url": "https://raw.githubusercontent.com/srophe/syriac-corpus/833adc148cc356a6c70c16f81b22df9188df717a/data/tei/119.xml"
+    },
+    {
+      "repo": "srophe/syriac-corpus",
+      "path": "data/tei/121.xml",
+      "commit": "833adc148cc356a6c70c16f81b22df9188df717a",
+      "blob_sha": "1ec24bc7006a7ce9ed1a36c96a1779fd072228e3",
+      "sha256": "ce63ffa8da5ddf083056cce28046079eb6a0738445dcd255acc5de6eb1dd0454",
+      "bytes": 258008,
+      "url": "https://raw.githubusercontent.com/srophe/syriac-corpus/833adc148cc356a6c70c16f81b22df9188df717a/data/tei/121.xml"
+    },
+    {
+      "repo": "srophe/syriac-corpus",
+      "path": "data/tei/100.xml",
+      "commit": "833adc148cc356a6c70c16f81b22df9188df717a",
+      "blob_sha": "d7ba693f934e7265d9a57331771735e8123a6338",
+      "sha256": "1233556a4bc22bf03185dbf6d1b1f44327498729a9a99da3cb638d17f75cc0db",
+      "bytes": 295033,
+      "url": "https://raw.githubusercontent.com/srophe/syriac-corpus/833adc148cc356a6c70c16f81b22df9188df717a/data/tei/100.xml"
+    },
+    {
+      "repo": "srophe/syriac-corpus",
+      "path": "data/tei/120.xml",
+      "commit": "833adc148cc356a6c70c16f81b22df9188df717a",
+      "blob_sha": "28783c43ca854aac4ab3d42cc547dc89ead366d4",
+      "sha256": "1ad850fc12c6ac6b8b82c998c59095bb26798774297059ad0454ecfe916d62d1",
+      "bytes": 331945,
+      "url": "https://raw.githubusercontent.com/srophe/syriac-corpus/833adc148cc356a6c70c16f81b22df9188df717a/data/tei/120.xml"
+    },
+    {
+      "repo": "srophe/syriac-corpus",
+      "path": "data/tei/122.xml",
+      "commit": "833adc148cc356a6c70c16f81b22df9188df717a",
+      "blob_sha": "175589b50d10439f75316cbb5278131c6e2c8382",
+      "sha256": "e1fb5de5668c4b5cc8027958dcab742d681e99715df6e447a86ec245df66e000",
+      "bytes": 336095,
+      "url": "https://raw.githubusercontent.com/srophe/syriac-corpus/833adc148cc356a6c70c16f81b22df9188df717a/data/tei/122.xml"
+    },
+    {
+      "repo": "srophe/syriac-corpus",
+      "path": "data/tei/145.xml",
+      "commit": "833adc148cc356a6c70c16f81b22df9188df717a",
+      "blob_sha": "bcc53088aead5a2f120c759a2a25439c71f8073a",
+      "sha256": "3f253a09cf77ef1c0f0160e21167e1279a675bb54eb3725289dea8aa4649f7d1",
+      "bytes": 146925,
+      "url": "https://raw.githubusercontent.com/srophe/syriac-corpus/833adc148cc356a6c70c16f81b22df9188df717a/data/tei/145.xml"
+    }
+  ],
+  "datasets": [
+    {
+      "repo": "ETCBC/peshitta",
+      "commit": "9850f5addade26f681334aa475570bef9b0b440a",
+      "version": "0.2",
+      "text": "word",
+      "id": "syc-peshitta-ot",
+      "annotated": false,
+      "attribution": "Willem Th. van Peursen, Geert Jan Veldman, Constantijn Sikkel, Hannes Vlaardingerbroek and Dirk Roorda; ETCBC/Peshitta Institute. CC BY-NC 4.0."
+    },
+    {
+      "repo": "ETCBC/syriac",
+      "commit": "0b6ded2b369c7d81589a98c92325290e24b20af6",
+      "version": "0.92",
+      "text": "g_cons_utf8",
+      "id": "syc-etcbc-biblical",
+      "annotated": true,
+      "attribution": "ETCBC and CACCHT, ETCBC Syriac Corpus; contributors and source editions as recorded in the preserved README. CC BY-NC 4.0."
+    },
+    {
+      "repo": "srophe/syriac-corpus",
+      "commit": "833adc148cc356a6c70c16f81b22df9188df717a",
+      "version": "TEI snapshot 2026-10-31",
+      "format": "tei",
+      "id": "syc-dsc-nt",
+      "license": "CC BY 4.0",
+      "annotated": false,
+      "attribution": "Digital Syriac Corpus / Oxford-BYU Syriac Corpus, George A. Kiraz (transcription), James E. Walters (TEI encoding/copyright); book-specific contributors and printed editions retained. CC BY 4.0."
+    }
+  ]
+}

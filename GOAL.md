@@ -1,5 +1,9 @@
 # GOAL — Multilingual Parallel Bible Reader
 
+## 1.28 — Finnish notes and source-checked TSK companions
+
+User requested reference data selectable like a Bible and checked TSK references in the program. Keep Finnish v005 scripture, Finnish notes and CrossWire TSK 1.4 as three separate catalog entries. Preserve 84 existing editions and the shared storage revision. Per-book reference packs must pass SHA-256 verification before display. Keep TSK KJV numbering and Finnish project numbering distinct, with source chapter controls and clickable references. Preserve original TSK articles; retain malformed/out-of-bound source notation without invented links. Report technical validation separately from theological review of each reference association. Do not start another Finnish translation review. New numbered implementation is releases/v1.28; 1.27 remains unchanged.
+
 Project instruction and acceptance contract. Updated 2026-10-23.
 
 ## Mission

@@ -1,0 +1,61 @@
+name: DavarQadosh corpus and reader
+on:
+  push:
+    branches: ['feature/davarqadosh-reader', 'preview/davarqadosh/**']
+  pull_request:
+    paths: ['davarqadosh/**', 'tools/davarqadosh/**', 'tests/davarqadosh/**', '.github/workflows/davarqadosh.yml']
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: davarqadosh-${{ github.head_ref || github.ref_name }}
+  cancel-in-progress: false
+jobs:
+  build-and-verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/checkout@v4
+        with:
+          repository: openscriptures/morphhb
+          ref: 3d15126fb1ef74867fc1434be1942e837932691f
+          path: .dq-sources/oshb
+      - uses: actions/checkout@v4
+        with:
+          repository: openscriptures/HebrewLexicon
+          ref: 21c9add13bc727d3a951361778e97e3ff7afd1ce
+          path: .dq-sources/lexicon
+      - name: Verify deterministic source, schema, pack and resume behavior
+        env:
+          OSHB_SOURCE: .dq-sources/oshb/wlc
+          OSHB_LEXICON: .dq-sources/lexicon/HebrewStrong.xml
+        run: |
+          python tests/davarqadosh/test_corpus.py
+          node tests/davarqadosh/research_scope.cjs
+      - name: Build all 39 books and parallel reader artifact
+        run: python tools/davarqadosh/build_site.py --source .dq-sources/oshb/wlc --lexicon .dq-sources/lexicon/HebrewStrong.xml --book all --work /tmp/dq-work --out /tmp/dq-site
+      - name: Install browser test dependencies
+        run: |
+          python -m pip install playwright
+          if [ -x /usr/bin/google-chrome ]; then
+            sudo ln -sf /usr/bin/google-chrome /usr/bin/chromium
+          else
+            python -m playwright install --with-deps chromium
+            python -c 'from playwright.sync_api import sync_playwright; from pathlib import Path; p=sync_playwright().start(); Path("/tmp/dq-browser").write_text(p.chromium.executable_path); p.stop()'
+            sudo ln -sf "$(cat /tmp/dq-browser)" /usr/bin/chromium
+          fi
+      - name: Verify token lookup, parallel text, keyboard, touch, RTL and offline
+        run: python tests/davarqadosh/browser.py --site /tmp/dq-site --report /tmp/dq-site/browser-report.json
+      - name: Verify maintained-reader WLC integration
+        run: python tests/davarqadosh/integration.py --site /tmp/dq-site --report /tmp/dq-site/integration-report.json
+      - name: Upload self-contained reader with packed databases
+        uses: actions/upload-artifact@v4
+        with:
+          name: davarqadosh-reader-and-corpus
+          path: /tmp/dq-site/
+          compression-level: 0
+          retention-days: 30

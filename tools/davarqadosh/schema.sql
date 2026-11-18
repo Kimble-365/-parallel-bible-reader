@@ -1,0 +1,17 @@
+PRAGMA foreign_keys=ON;
+PRAGMA user_version=1;
+CREATE TABLE metadata(key TEXT PRIMARY KEY, value TEXT NOT NULL);
+CREATE TABLE sources(id TEXT PRIMARY KEY, url TEXT NOT NULL, revision TEXT NOT NULL, sha256 TEXT NOT NULL, license TEXT NOT NULL, attribution TEXT NOT NULL);
+CREATE TABLE source_files(id TEXT PRIMARY KEY REFERENCES sources(id), gzip_bytes BLOB NOT NULL);
+CREATE TABLE verses(verse_key TEXT PRIMARY KEY, book TEXT NOT NULL, chapter TEXT NOT NULL, verse_label TEXT NOT NULL, ordinal INTEGER NOT NULL UNIQUE, display_text TEXT NOT NULL, source_xml TEXT NOT NULL, byte_start INTEGER NOT NULL, byte_end INTEGER NOT NULL);
+CREATE TABLE tokens(id TEXT PRIMARY KEY, verse_key TEXT NOT NULL REFERENCES verses(verse_key), position INTEGER NOT NULL, attestation TEXT NOT NULL CHECK(attestation IN ('main','ketiv','qere','alternative')), form TEXT NOT NULL, display_form TEXT NOT NULL, lemma TEXT, morphology TEXT, language TEXT NOT NULL, source_word_id TEXT, aligned_to TEXT REFERENCES tokens(id), source_id TEXT NOT NULL REFERENCES sources(id), verification TEXT NOT NULL DEFAULT 'source_annotation', display_start INTEGER, display_end INTEGER, UNIQUE(verse_key,position));
+CREATE TABLE lemmas(id TEXT PRIMARY KEY, language TEXT NOT NULL, source_lemma TEXT NOT NULL, headword TEXT, transliteration TEXT, gloss TEXT, source_id TEXT REFERENCES sources(id), verification TEXT NOT NULL DEFAULT 'pending');
+CREATE TABLE token_segments(id TEXT PRIMARY KEY, token_id TEXT NOT NULL REFERENCES tokens(id), position INTEGER NOT NULL, form TEXT NOT NULL, lemma_id TEXT REFERENCES lemmas(id), morphology TEXT, UNIQUE(token_id,position));
+CREATE TABLE display_events(verse_key TEXT NOT NULL REFERENCES verses(verse_key), position INTEGER NOT NULL, text TEXT NOT NULL, token_id TEXT REFERENCES tokens(id), PRIMARY KEY(verse_key,position));
+CREATE TABLE research_records(id TEXT PRIMARY KEY, verse_key TEXT NOT NULL REFERENCES verses(verse_key), token_id TEXT REFERENCES tokens(id), source_id TEXT NOT NULL REFERENCES sources(id), evidence_class TEXT NOT NULL, verification TEXT NOT NULL, record_json TEXT NOT NULL);
+CREATE TABLE occurrence_senses(token_id TEXT PRIMARY KEY REFERENCES tokens(id), sense TEXT, source_id TEXT REFERENCES sources(id), verification TEXT NOT NULL DEFAULT 'pending');
+CREATE TABLE research_progress(metric TEXT PRIMARY KEY, count INTEGER NOT NULL CHECK(count>=0));
+CREATE INDEX tokens_verse ON tokens(verse_key,position);
+CREATE INDEX segments_lemma ON token_segments(lemma_id);
+CREATE INDEX records_verse ON research_records(verse_key);
+CREATE INDEX verses_chapter ON verses(chapter,ordinal);

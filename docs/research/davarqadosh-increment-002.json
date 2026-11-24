@@ -1,0 +1,18 @@
+{
+  "date": "2026-11-03",
+  "milestone": "maintained_reader_wlc_word_study_integration",
+  "source_commit": "4d92d63e067a296f4971b71c448d7fbd0ad74a15",
+  "ci_run": "https://github.com/Kimble-365/-parallel-bible-reader/actions/runs/41555682567",
+  "ci_conclusion": "success",
+  "checks": [
+    "Python corpus/schema/determinism/resume tests",
+    "Standalone reader keyboard/touch/RTL/offline browser tests",
+    "Maintained reader WLC-only Study integration at 390/1280",
+    "Genesis/Psalms/Isaiah/Daniel and Biblical Aramaic",
+    "Exact text/copy preservation",
+    "Mismatched display uses explicit source-token picker",
+    "Corrupt optional packs leave original reading usable"
+  ],
+  "deployment": "not_performed",
+  "research_status": "contextual_and_manuscript_review_pending"
+}

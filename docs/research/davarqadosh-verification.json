@@ -1,0 +1,51 @@
+{
+  "date": "2026-11-02",
+  "coverage": {
+    "books": 39,
+    "companion_bytes": 3839146,
+    "coverage": {
+      "fully_verified": 0,
+      "ingested": 306785,
+      "manuscript_checked": 0,
+      "morphologically_analyzed": 306785,
+      "semantically_reviewed": 0,
+      "translations_checked": 0
+    },
+    "pack_bytes": 64519461,
+    "research_complete": false,
+    "sqlite_bytes": 360935424,
+    "verses": 23213
+  },
+  "browser": [
+    {
+      "width": 390,
+      "genesis_load_seconds": 1.177,
+      "page_errors": []
+    },
+    {
+      "width": 1280,
+      "genesis_load_seconds": 1.164,
+      "page_errors": []
+    }
+  ],
+  "checks": [
+    "3 Python acceptance tests passed",
+    "39 book builds each pass integrity_check and foreign_key_check",
+    "every source verse slice and displayed token boundary verified",
+    "deterministic Genesis rebuild/pack byte identity and resumed checkpoint verified",
+    "corrupt pack rejection",
+    "Chromium keyboard/touch/RTL and 390/1280 layouts",
+    "Genesis/Psalms/Isaiah/Daniel lookup",
+    "Biblical Aramaic Dan 2:4",
+    "Saved book and comparison sidecar offline reload",
+    "Current reader 1.27 Chromium regression at 320/390/768/1280px passed",
+    "Existing study model, notes model and search engine regression suites passed",
+    "All 39 final packs freshly verified from discovery hashes and audited SQLite payloads"
+  ],
+  "limits": [
+    "No independent contextual semantic review",
+    "No new manuscript image collation",
+    "Physical Safari/Edge/mobile devices not tested",
+    "Compression byte identity across toolchain versions not guaranteed"
+  ]
+}

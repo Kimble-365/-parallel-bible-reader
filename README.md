@@ -8,6 +8,10 @@
 
 A standalone English-interface Bible reader with original scripts, Latin transliterations, Finnish KR33/38 and World English Bible comparisons. No ChatGPT account is required. This distribution contains only the Bible reader.
 
+## DavarQadosh lexical research reader
+
+A parallel Hebrew/Aramaic lexical reader is developed under [`davarqadosh/`](davarqadosh/). Its reproducible artifact contains 39 independently readable compressed SQLite book packs, source-defined word lookup and source-labelled WEB/Swete/MAM comparisons. Download the `davarqadosh-reader-and-corpus` artifact from the [DavarQadosh workflow](https://github.com/Kimble-365/-parallel-bible-reader/actions/workflows/davarqadosh.yml), extract it, and serve it locally as described in the [build/read guide](davarqadosh/README.md). The source tree does not include generated databases or packs. Imported morphology and historical dictionary glosses do not mean completed lexical research.
+
 ## Latest development reader
 
 Version **1.29** applies the owner-approved Adam name in Genesis 2:20 (both occurrences), 3:17, 3:20–21 and 4:1, with an explanatory note at 2:20. The v006 text, notes and PDF were checked; all other verse words and TSK links are unchanged. [Open updated Finnish reading](https://kimble-365.github.io/-parallel-bible-reader/releases/v1.29/?edition=fin-study-v005&compare1=fin-study-notes-v005&compare2=&compare3=&layout=auto#GEN.2.20) · [Separate v006 data](texts/finnish-study-v006/).

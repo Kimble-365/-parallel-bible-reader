@@ -1,0 +1,5 @@
+'use strict';
+const CACHE='davarqadosh-shell-v1',SHELL=['./','index.html','reader.css','reader.js','lexical-pack-reader.js','vendor/pako_inflate.min.js','vendor/sqlite-reader.js','NOTICE.md','packs/manifest.json'];
+self.addEventListener('install',event=>event.waitUntil((async()=>{const cache=await caches.open(CACHE);for(const path of SHELL){const r=await fetch(new URL(path,self.location),{cache:'reload'});if(r.ok)await cache.put(new URL(path,self.location),r)}await self.skipWaiting()})()));
+self.addEventListener('activate',event=>event.waitUntil(self.clients.claim()));
+self.addEventListener('fetch',event=>{if(event.request.method!=='GET')return;const url=new URL(event.request.url);if(url.origin!==location.origin||!SHELL.some(path=>new URL(path,self.location).pathname===url.pathname))return;event.respondWith((async()=>{const cache=await caches.open(CACHE);try{const r=await fetch(event.request);if(r.ok)await cache.put(event.request,r.clone());return r}catch(e){const saved=await cache.match(event.request);if(saved)return saved;throw e}})())});

@@ -172,7 +172,7 @@ jobs:
 
   published-reader:
     env:
-      READER_VERSION: '1.28'
+      READER_VERSION: '1.29'
     if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     timeout-minutes: 15

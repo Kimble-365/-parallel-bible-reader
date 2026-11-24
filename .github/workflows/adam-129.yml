@@ -1,0 +1,39 @@
+name: TSK and Finnish references 1.29
+on:
+  push:
+    branches: [main]
+    paths: ['releases/v1.29/**', 'tests/adam_129.py', 'tests/references_browser_128.py', 'tools/*128.py', '.github/workflows/adam-129.yml']
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  references:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    env:
+      READER_VERSION: '1.29'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: |
+          python -m pip install playwright
+          python -m playwright install --with-deps chromium
+      - run: |
+          python tests/adam_129.py
+          node --check releases/v1.29/reader.js
+          node --check releases/v1.29/offline-library.js
+          node tests/verse_text_116.cjs
+          node tests/notes_model.cjs
+          node tests/search_engine.cjs
+          READER_SCRIPT=releases/v1.29/reader.js node tests/tracker_127.cjs
+          python tests/references_browser_128.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: references-1.29-browser
+          path: test-results/references-1.29/

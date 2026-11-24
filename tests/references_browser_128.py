@@ -5,11 +5,12 @@ from threading import Thread
 import os,json
 from playwright.sync_api import sync_playwright
 ROOT=Path(__file__).resolve().parents[1]
+VERSION=os.environ.get('READER_VERSION','1.28')
 class H(SimpleHTTPRequestHandler):
  def __init__(self,*a,**k):super().__init__(*a,directory=str(ROOT),**k)
  def log_message(self,*a):pass
 server=ThreadingHTTPServer(('127.0.0.1',0),H);Thread(target=server.serve_forever,daemon=True).start()
-base=f'http://127.0.0.1:{server.server_port}/releases/v1.28/'
+base=f'http://127.0.0.1:{server.server_port}/releases/v{VERSION}/'
 report={};out=Path(os.environ.get('REFERENCE_TEST_OUTPUT',str(ROOT/'test-results/references-1.28')));out.mkdir(parents=True,exist_ok=True)
 try:
  with sync_playwright() as p:
@@ -21,7 +22,7 @@ try:
    ctx=browser.new_context(viewport={'width':width,'height':900},accept_downloads=True);page=ctx.new_page();errors=[];page.on('pageerror',lambda e:errors.append(str(e)))
    page.goto(base+'?edition=fin-study-v005&compare1=fin-study-notes-v005&compare2=tsk-crosswire&compare3=&layout=source&text=original#GEN.1.1')
    print('PAGE OPENED',flush=True)
-   page.wait_for_selector('#s3-v1 .reference-links',timeout=60000);page.wait_for_selector('#top-menu');page.wait_for_function('window.ReaderLayoutReady&&document.querySelector("#reader-release")?.textContent==="Reader 1.28"')
+   page.wait_for_selector('#s3-v1 .reference-links',timeout=60000);page.wait_for_selector('#top-menu');page.wait_for_function('(v)=>window.ReaderLayoutReady&&document.querySelector("#reader-release")?.textContent==="Reader "+v',arg=VERSION)
    assert page.locator('#verses .source-pane').count()==3
    assert 'Alussa Jumala loi' in page.locator('#s1-v1').inner_text()
    assert 'Alun voi kääntää myös' in page.locator('#s2-v1').inner_text()
@@ -53,7 +54,7 @@ try:
    report[str(width)]={'three_independent_panes':True,'clickable_finnish_and_tsk_refs':True,'aligned_cells':True,'none_slot_preserved':True,'offline_saved_items':198,'offline_reopen_and_last_book':True,'page_errors':errors}
    ctx.close()
   ctx=browser.new_context();page=ctx.new_page()
-  broken=bytearray((ROOT/'releases/v1.28/study-data/GEN.json').read_bytes());broken[20]^=1
+  broken=bytearray((ROOT/f'releases/v{VERSION}/study-data/GEN.json').read_bytes());broken[20]^=1
   page.route('**/study-data/GEN.json?*',lambda route:route.fulfill(body=bytes(broken),content_type='application/json'))
   page.goto(base+'?edition=tsk-crosswire&compare1=&compare2=&compare3=#GEN.1.1')
   page.wait_for_function('document.querySelector("#reading-feedback").textContent.includes("No selected text could be loaded")',timeout=60000)

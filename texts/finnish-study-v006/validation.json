@@ -1,0 +1,36 @@
+{
+  "status": "PASS",
+  "books": 66,
+  "chapters": 1189,
+  "verses": 31170,
+  "footnotes": 24531,
+  "crossreference_pairs": 55,
+  "crossreference_links": 110,
+  "all_annotation_references_resolve": true,
+  "verse_text_exactly_matches_frozen_database": false,
+  "translation_review_performed": false,
+  "reader_integration": "Importable Bible JSON; separate annotation datasets, not installed into the reader annotation UI.",
+  "authorized_changes": {
+    "Gen 2:20": {
+      "before": "Ihminen antoi nimet kaikille karjaeläimille, taivaan linnuille ja kaikille kedon villieläimille. Mutta ihmiselle ei löytynyt häntä vastaavaa apua.",
+      "after": "Adam antoi nimet kaikille karjaeläimille, taivaan linnuille ja kaikille kedon villieläimille. Mutta Adamille ei löytynyt häntä vastaavaa apua."
+    },
+    "Gen 3:17": {
+      "before": "Ihmiselle hän sanoi: ”Koska kuuntelit vaimosi ääntä ja söit puusta, josta kielsin sinua syömästä, / maa on kirottu sinun vuoksesi. / Vaivaa nähden saat siitä ravintosi / kaikkina elämäsi päivinä.",
+      "after": "Adamille hän sanoi: ”Koska kuuntelit vaimosi ääntä ja söit puusta, josta kielsin sinua syömästä, / maa on kirottu sinun vuoksesi. / Vaivaa nähden saat siitä ravintosi / kaikkina elämäsi päivinä."
+    },
+    "Gen 3:20": {
+      "before": "Ihminen antoi vaimolleen nimeksi Eeva, sillä hänestä tuli kaikkien elävien äiti.",
+      "after": "Adam antoi vaimolleen nimeksi Eeva, sillä hänestä tuli kaikkien elävien äiti."
+    },
+    "Gen 3:21": {
+      "before": "Jahwe Jumala teki ihmiselle ja hänen vaimolleen nahkaiset paidat ja puki heidät niihin.",
+      "after": "Jahwe Jumala teki Adamille ja hänen vaimolleen nahkaiset paidat ja puki heidät niihin."
+    },
+    "Gen 4:1": {
+      "before": "Ihminen yhtyi vaimoonsa Eevaan. Tämä tuli raskaaksi ja synnytti Kainin. Hän sanoi: ”Olen saanut miehen Jahwen avulla.”",
+      "after": "Adam yhtyi vaimoonsa Eevaan. Tämä tuli raskaaksi ja synnytti Kainin. Hän sanoi: ”Olen saanut miehen Jahwen avulla.”"
+    }
+  },
+  "all_other_verse_text_matches_frozen_database": true
+}

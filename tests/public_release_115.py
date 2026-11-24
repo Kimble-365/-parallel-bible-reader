@@ -43,8 +43,15 @@ if VERSION in ['1.28','1.29']:
    if p.is_file():paths.add(str(p.relative_to(ROOT)))
 
 def check(path):
- data=fetch(path);assert hashlib.sha256(data).digest()==hashlib.sha256((ROOT/path).read_bytes()).digest(),path
- return path
+ expected_hash=hashlib.sha256((ROOT/path).read_bytes()).digest();until=time.monotonic()+180
+ while True:
+  try:
+   data=fetch(path)
+   if hashlib.sha256(data).digest()==expected_hash:return path
+   problem=AssertionError('Published bytes have not reached this commit: '+path)
+  except Exception as e:problem=e
+  if time.monotonic()>=until:raise problem
+  time.sleep(5)
 with ThreadPoolExecutor(max_workers=4) as pool:results=list(pool.map(check,sorted(paths)))
 assert ("'releases/v"+VERSION+"/'").encode() in fetch('index.html')
 print('PASS: live Pages root is '+VERSION+';',len(results),'public files HTTP 200 and byte-identical, including app shell, reused texts, all new book bundles and source archives; verification commit',SHA,flush=True)

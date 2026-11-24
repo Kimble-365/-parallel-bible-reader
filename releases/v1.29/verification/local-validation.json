@@ -1,6 +1,7 @@
 {
   "status": "PASS",
   "viewports": {
+    "old_saved_wording_not_served_or_listed_as_new": true,
     "390": {
       "three_independent_panes": true,
       "clickable_finnish_and_tsk_refs": true,
@@ -21,12 +22,6 @@
     },
     "tampered_pack_rejected": true
   },
-  "environment": "Local Windows Chromium via Playwright; not hosted CI",
-  "source_checks": "tests/references_128.py: PASS",
-  "focused_regressions": [
-    "verse_text_116",
-    "notes_model",
-    "search_engine",
-    "tracker_127"
-  ]
+  "version": "1.29",
+  "scope": "Local Chromium; exact five verse changes and note38 verified separately by tests/adam_129.py"
 }

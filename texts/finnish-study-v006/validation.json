@@ -9,7 +9,7 @@
   "all_annotation_references_resolve": true,
   "verse_text_exactly_matches_frozen_database": false,
   "translation_review_performed": false,
-  "reader_integration": "Importable Bible JSON; separate annotation datasets, not installed into the reader annotation UI.",
+  "reader_integration": "Installed in reader 1.29 as separate Bible and note companion editions.",
   "authorized_changes": {
     "Gen 2:20": {
       "before": "Ihminen antoi nimet kaikille karjaeläimille, taivaan linnuille ja kaikille kedon villieläimille. Mutta ihmiselle ei löytynyt häntä vastaavaa apua.",

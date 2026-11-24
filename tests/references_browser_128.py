@@ -17,6 +17,15 @@ try:
   print('PLAYWRIGHT READY',flush=True)
   exe=os.environ.get('CHROMIUM_EXECUTABLE')
   browser=p.chromium.launch(**({'executable_path':exe} if exe else {}),args=['--no-sandbox'])
+  if VERSION=='1.29':
+   ctx=browser.new_context();page=ctx.new_page()
+   page.goto(base.replace('v1.29','v1.28')+'?edition=fin-study-v005&compare1=&compare2=&compare3=#GEN.2.20');page.wait_for_selector('#v20 .main-text')
+   assert 'Ihminen antoi' in page.locator('#v20').inner_text()
+   page.evaluate("async()=>ReaderOffline.download(['fin-study-v005','fin-study-notes-v005'])")
+   page.goto(base+'?edition=fin-study-v005&compare1=fin-study-notes-v005&compare2=&compare3=#GEN.2.20');page.wait_for_selector('#v20 .reference-note')
+   assert 'Adam antoi' in page.locator('#v20').inner_text() and 'Adam on tässä' in page.locator('#v20').inner_text()
+   assert page.evaluate("async()=>(await ReaderOffline.list()).filter(x=>['fin-study-v005','fin-study-notes-v005'].includes(x.id)).length") == 0
+   report['old_saved_wording_not_served_or_listed_as_new']=True;ctx.close()
   for width in [390,1280]:
    print('VIEWPORT',width,flush=True)
    ctx=browser.new_context(viewport={'width':width,'height':900},accept_downloads=True);page=ctx.new_page();errors=[];page.on('pageerror',lambda e:errors.append(str(e)))

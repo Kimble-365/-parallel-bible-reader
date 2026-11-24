@@ -16,7 +16,7 @@ for v in data['editions']['fin-study-notes-v005']:
    if b.get('note_id')=='note-38':assert b['text']==change['note_before'];b['text']=change['note_after']
 dump(pack,data)
 # Use a new offline revision only for the changed companions; existing stores remain intact.
-p=D/'offline-library.js';s=p.read_text(encoding='utf-8').replace("revision+'|'+id+'|'+book","revision+'|'+id+'|'+(['fin-study-v005','fin-study-notes-v005'].includes(id)?'adam-20261124|':'')+book");p.write_text(s,encoding='utf-8',newline='\n')
+p=D/'offline-library.js';s=p.read_text(encoding='utf-8').replace("revision+'|'+id+'|'+book","revision+'|'+id+'|'+(['fin-study-v005','fin-study-notes-v005'].includes(id)?'adam-20261124|':'')+book");s=s.replace("x.revision===revision","x.revision===revision&&(!['fin-study-v005','fin-study-notes-v005'].includes(x.id)||x.content_revision==='adam-20261124')").replace("{id,book,revision,bytes,verses:rows.length}","{id,book,revision,bytes,verses:rows.length,content_revision:['fin-study-v005','fin-study-notes-v005'].includes(id)?'adam-20261124':null}");p.write_text(s,encoding='utf-8',newline='\n')
 manifest=json.loads((D/'reference-manifest.js').read_text().split('=',1)[1].strip().rstrip(';'));b=pack.read_bytes();manifest['GEN']={'bytes':len(b),'sha256':hashlib.sha256(b).hexdigest()};(D/'reference-manifest.js').write_text('window.ReaderReferencePacks='+json.dumps(manifest,separators=(',',':'))+';\n',encoding='utf-8',newline='\n')
 cat=json.loads((D/'catalog.js').read_text(encoding='utf-8').split('=',1)[1].strip().rstrip(';'));cat['release_version']='1.29'
 for e in cat['editions']:

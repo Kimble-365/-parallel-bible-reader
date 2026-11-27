@@ -1,0 +1,16 @@
+{
+  "id": "rmn",
+  "title": "Balkan Romani Bible portions",
+  "vernacular_title": "Библия опэр крымски романи чиб",
+  "source": "https://ebible.org/Scriptures/details.php?id=rmn",
+  "source_archive": "https://eBible.org/Scriptures/rmn_usfm.zip",
+  "source_sha256": "7f579263ce4cc7b4dd598a6407b99887446611caff6004a98c99cac61f400227",
+  "source_updated": "2025-06-27",
+  "retrieved": "2026-11-03",
+  "license": "CC BY NC ND 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0",
+  "books": 5,
+  "verse_rows": 3813,
+  "conversion": "Plain-verse format conversion; headings, notes, cross references and front/back matter omitted from display. Raw USFM and complete source page retained.",
+  "attribution": "Библия опэр крымски романи чиб. Copyright © 2021 Pioneer Bible Translators and Bible Translators of Ukraine copyright © 2021 copyright and source information. Source: eBible.org, reviewed 2025-06-27. CC BY NC ND 4.0. Plain-verse format conversion; source words and punctuation retained. Headings, footnotes, cross references and publication-only material are omitted from display, not asserted to be absent from the source. Complete notices are retained in the source archive. No publisher endorsement."
+}

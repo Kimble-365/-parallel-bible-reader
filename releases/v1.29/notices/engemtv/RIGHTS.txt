@@ -1,0 +1,66 @@
+English Majority Text Version
+eBible.org
+Translations
+Territories
+English Majority Text Version
+Language:
+[eng]
+English
+English
+Title:
+English Majority Text Version
+English Majority Text Version
+Abbreviation:
+EMTV
+ID: ENGEMTV or engemtv
+Copyright © 2014 Dr. Paul W. Esposito
+Format
+Link
+Browser Bible
+Study online with Browser Bible
+Mobile HTML
+Read Mobile HTML online
+Zipped mobile HTML
+engemtv_html.zip
+ePub 3
+and
+Kindle
+engemtv.epub
+PDF
+PDF file list
+Crosswire Sword module
+engemtveb.zip
+Plain text canon only chapter files
+engemtv_readaloud.zip
+BibleWorks import (VPL) + SQL
+engemtv_vpl.zip
+Browser Bible module
+engemtv_browserBible.zip
+USFX
+engemtv_usfx.zip
+USFM
+engemtv_usfm.zip
+XeTeX
+engemtv_xetex.zip
+The New Testament, English Majority Text Version
+But seek first the kingdom of God and His righteousness, and all these things shall be added unto you.
+—Matthew 6:33
+For God so loved the world that He gave His only begotten Son, that whoever believes in Him should not perish but have eternal life.
+—John 3:16
+And we know that all things work together for good to those who love God, to those who are called according to His purpose.
+—Romans 8:28
+English Majority Text Version
+The New Testament, English Majority Text Version
+Copyright © 2014 Dr. Paul W. Esposito
+Language:
+English
+This translation is made available to you under the terms of the
+Creative Commons Attribution-Noncommercial-No Derivatives license 4.0.
+You may share and redistribute this Bible translation or extracts from it in any format, provided that:
+You include the above copyright and source information.
+You do not sell this work for a profit.
+You do not change any of the words or punctuation of the Scriptures.
+Pictures included with Scriptures and other documents on this site are licensed just for use with those Scriptures and documents.
+For other uses, please contact the respective copyright owners.
+2020-12-20
+Last updated 2020-12-20   e

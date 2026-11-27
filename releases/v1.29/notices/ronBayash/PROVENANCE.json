@@ -1,0 +1,16 @@
+{
+  "id": "ronBayash",
+  "title": "Bayash Bible",
+  "vernacular_title": "Sfanta Biblie",
+  "source": "https://ebible.org/Scriptures/details.php?id=ronBayash",
+  "source_archive": "https://eBible.org/Scriptures/ronBayash_usfm.zip",
+  "source_sha256": "bf62fb07d9df8243401289ddc44f1cfe8e1b43a4449c3ee9862c64bce8c6b334",
+  "source_updated": "2026-10-30",
+  "retrieved": "2026-11-03",
+  "license": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0",
+  "books": 1,
+  "verse_rows": 1149,
+  "conversion": "Plain-verse format conversion; headings, notes, cross references and front/back matter omitted from display. Raw USFM and complete source page retained.",
+  "attribution": "Sfanta Biblie. Copyright © copyright and source information. Source: eBible.org, reviewed 2026-10-30. CC BY 4.0. Plain-verse format conversion; source words and punctuation retained. Headings, footnotes, cross references and publication-only material are omitted from display, not asserted to be absent from the source. Complete notices are retained in the source archive. No publisher endorsement."
+}

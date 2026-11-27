@@ -1,0 +1,70 @@
+Bible J.N. Darby
+eBible.org
+Translations
+Territories
+Bible J.N. Darby
+French: Bible J.N. Darby
+Language:
+[fra]
+Français
+French
+Title:
+Bible J.N. Darby
+French: Bible J.N. Darby
+Abbreviation:
+JND
+ID: FRAJND or frajnd
+public domain
+Format
+Link
+Browser Bible
+Study online with Browser Bible
+Mobile HTML
+Read Mobile HTML online
+Zipped mobile HTML
+frajnd_html.zip
+ePub 3
+and
+Kindle
+frajnd.epub
+PDF
+PDF file list
+Crosswire Sword module
+frajnd2024eb.zip
+Plain text canon only chapter files
+frajnd_readaloud.zip
+BibleWorks import (VPL) + SQL
+frajnd_vpl.zip
+Browser Bible module
+frajnd_browserBible.zip
+USFX
+frajnd_usfx.zip
+USFM
+frajnd_usfm.zip
+XeTeX
+frajnd_xetex.zip
+French: Bible J.N. Darby
+Au commencement Dieu créa les cieux et la terre.
+—Genesis 1:1
+Psaume de David. L’Éternel est mon berger : je ne manquerai de rien.
+—Psalm 23:1
+mais cherchez premièrement le royaume de Dieu et sa justice, et toutes ces choses vous seront données par-dessus.
+—Matthew 6:33
+Car Dieu a tant aimé le monde, qu’il a donné son Fils unique, afin que quiconque croit en lui ne périsse pas, mais qu’il ait la vie éternelle.
+—John 3:16
+– mais nous savons que toutes choses travaillent ensemble pour le bien de ceux qui aiment Dieu, de ceux qui sont appelés selon son propos.
+—Romans 8:28
+Bible J.N. Darby
+French: Bible J.N. Darby
+Public Domain
+Language:
+Français (French)
+Contributor: Bibles et Publications Chrétiennes
+La version J.N. Darby est une traduction littérale, considérée comme une des traductions françaises les plus proches du texte original.
+Première édition de la Bible complète en 1885, rééditée en 1916, puis en 2024. La numérotation des versets de cette édition de 2024 suit celle de la Bible hébraïque.
+Texte dans le domaine public.
+Source :
+éditeur BPC
+, Bibles et Publications Chrétiennes (révision JND v2.0)
+2025-05-02
+Last updated 2025-05-02   e

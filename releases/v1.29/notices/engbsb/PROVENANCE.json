@@ -1,0 +1,16 @@
+{
+  "id": "engbsb",
+  "title": "English Berean Standard Bible",
+  "vernacular_title": "Berean Standard Bible",
+  "source": "https://ebible.org/Scriptures/details.php?id=engbsb",
+  "source_archive": "https://eBible.org/Scriptures/engbsb_usfm.zip",
+  "source_sha256": "75ca91d5a5c69ca4cbdeabdb03ea1a458db20cf3966abe15d86df086acf7fbc4",
+  "source_updated": "2026-10-30",
+  "retrieved": "2026-11-03",
+  "license": "Public Domain",
+  "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "books": 66,
+  "verse_rows": 31086,
+  "conversion": "Plain-verse format conversion; headings, notes, cross references and front/back matter omitted from display. Raw USFM and complete source page retained.",
+  "attribution": "Berean Standard Bible.  Source: eBible.org, reviewed 2026-10-30. Public Domain. Plain-verse format conversion; source words and punctuation retained. Headings, footnotes, cross references and publication-only material are omitted from display, not asserted to be absent from the source. Complete notices are retained in the source archive. No publisher endorsement."
+}

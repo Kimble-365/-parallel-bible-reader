@@ -1,0 +1,160 @@
+{
+  "date": "2026-11-03",
+  "title": "Europe and English reference-edition import (Parallel Bible Reader 1.29)",
+  "type": "reference-import",
+  "summary": {
+    "editions_total": 200,
+    "editions_preserved_from_1_27": 84,
+    "editions_imported": 116,
+    "source_books_imported": 5394,
+    "verse_rows_imported": 2431331,
+    "pack_files": 85,
+    "packed_bytes": 111501632,
+    "candidates_reviewed": 133,
+    "duplicates_skipped": 13,
+    "excluded": 4,
+    "languages": 29
+  },
+  "source_inventory": {
+    "catalogue": "eBible.org Scriptures catalogue",
+    "retrieved": "2026-11-03",
+    "rows_total": 1552,
+    "rows_redistributable": 1295,
+    "candidates_english_european": 133
+  },
+  "revisions": {
+    "reader_main_baseline": "89afb00cfa94b7630bf8e48419d95d73bd5f5181",
+    "reader_1_28_dev_head": "96762dea788802570f833fbc26eed293f6f8e66e",
+    "theway_base_revision": "827dd32a00036886fada82f5b43bd7041f9c8906",
+    "theway_base_committer_date": "2026-10-27T17:35:29Z"
+  },
+  "nordic_target_editions": {
+    "existing_preserved": [
+      "fin-kr1938",
+      "fin-biblia1776",
+      "swe-1917",
+      "nob-1930",
+      "nno-1921",
+      "dan-1819",
+      "isl-olo1995"
+    ],
+    "new": [
+      "dan1931",
+      "fin",
+      "isl316",
+      "noblb",
+      "swe"
+    ]
+  },
+  "licence_distribution": {
+    "CC BY SA 4.0": 31,
+    "CC BY NC ND 4.0": 11,
+    "CC BY NC 4.0": 2,
+    "Public Domain": 58,
+    "CC BY ND 4.0": 5,
+    "CC0 1.0": 2,
+    "CC BY 4.0": 5,
+    "GNU Free Documentation License 1.3": 1,
+    "Free noncommercial distribution; no textual changes; commercial reproduction prohibited": 1
+  },
+  "duplicates": [
+    {
+      "id": "ces1613",
+      "title": "Czech Kralická Bible 1613",
+      "existing_id": "ces-bkr1613"
+    },
+    {
+      "id": "ekkpkp",
+      "title": "Estonian Bible: Piibel Kõigile",
+      "existing_id": "ekk-pkp-partial"
+    },
+    {
+      "id": "ekk",
+      "title": "Estonian Contemporary NT",
+      "existing_id": "ekk-ocv2022"
+    },
+    {
+      "id": "fraLSG",
+      "title": "French Louis Segond 1910 Bible",
+      "existing_id": "fra-lsg1910"
+    },
+    {
+      "id": "grcsbl",
+      "title": "SBL Greek NT",
+      "existing_id": "grc-sblgnt"
+    },
+    {
+      "id": "grc-tisch",
+      "title": "Tischendorf Greek NT",
+      "existing_id": "grc-tischendorf8"
+    },
+    {
+      "id": "hun",
+      "title": "Hungarian Bible",
+      "existing_id": "hun-karoli1908"
+    },
+    {
+      "id": "isl",
+      "title": "Icelandic: Biblica® Opna Lifandi Orð Nýja testamentið og Sálmarnir™ (New Testament+)",
+      "existing_id": "isl-olo1995"
+    },
+    {
+      "id": "epo",
+      "title": "Esperanto Bible",
+      "existing_id": "epo-londona"
+    },
+    {
+      "id": "russyn",
+      "title": "Russian Synodal Bible",
+      "existing_id": "rus-synodal"
+    },
+    {
+      "id": "spaRV1909",
+      "title": "Reina Valera 1909",
+      "existing_id": "spa-rv1909"
+    },
+    {
+      "id": "engoebus",
+      "title": "Open English Bible (US)",
+      "existing_id": "eng-oeb"
+    },
+    {
+      "id": "engwebp",
+      "title": "World English Bible",
+      "existing_id": "engwebp"
+    }
+  ],
+  "excluded": [
+    {
+      "id": "spav1602p",
+      "title": "Spanish Valera Purificada",
+      "source": "https://ebible.org/Scriptures/details.php?id=spav1602p",
+      "reason": "The reviewed notice explicitly permits printing but does not clearly grant electronic redistribution."
+    },
+    {
+      "id": "swef",
+      "title": "Swedish Folkbibleln",
+      "source": "https://ebible.org/Scriptures/details.php?id=swef",
+      "reason": "Copyright notice only; no explicit redistribution licence on the reviewed source page."
+    },
+    {
+      "id": "ukr1996",
+      "title": "Ukrainian Bible, BJU 1996",
+      "source": "https://ebible.org/Scriptures/details.php?id=ukr1996",
+      "reason": "Source permission imposes a doctrinal condition on redistributors, so it is not a general public redistribution grant."
+    },
+    {
+      "id": "engnet",
+      "title": "NET Bible",
+      "source": "https://ebible.org/Scriptures/details.php?id=engnet",
+      "reason": "Separate licence review required; verse-only display would omit the integral translators’ notes."
+    }
+  ],
+  "no_derivatives_handling": "CC BY-ND and CC BY-NC-ND editions receive format conversion only; translated words and punctuation are not revised; headings, notes, cross references and front/back matter are omitted from display while the raw source and complete notices remain in the source archives.",
+  "verification": {
+    "tool": "tools/local/audit_2026_11_03_europe_english_reader.py",
+    "result": "ALL CHECKS PASSED",
+    "runtime": "Chromium headless: all 116 new editions load through ReaderOffline.loadBook; representative preserved editions (swe-1917, fin-kr1938) load; search indexes build and match for new and old editions; offline save path verified."
+  },
+  "scope_note": "This package is third-party reference material for consultation alongside The Way Version. It is not a The Way Version release and does not modify current-form-documents/ or the mobile reader feed."
+}

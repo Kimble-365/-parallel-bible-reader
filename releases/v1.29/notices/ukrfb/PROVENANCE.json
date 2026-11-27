@@ -1,0 +1,16 @@
+{
+  "id": "ukrfb",
+  "title": "Ukrainian Freedom Bible",
+  "vernacular_title": "Біблія свободи",
+  "source": "https://ebible.org/Scriptures/details.php?id=ukrfb",
+  "source_archive": "https://eBible.org/Scriptures/ukrfb_usfm.zip",
+  "source_sha256": "29d9ec68b38991aea34037aa606cf78a38b3320214386b76c1774fd167ec842c",
+  "source_updated": "2025-02-05",
+  "retrieved": "2026-11-03",
+  "license": "Public Domain",
+  "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "books": 66,
+  "verse_rows": 31082,
+  "conversion": "Plain-verse format conversion; headings, notes, cross references and front/back matter omitted from display. Raw USFM and complete source page retained.",
+  "attribution": "Біблія свободи.  Source: eBible.org, reviewed 2025-02-05. Public Domain. Plain-verse format conversion; source words and punctuation retained. Headings, footnotes, cross references and publication-only material are omitted from display, not asserted to be absent from the source. Complete notices are retained in the source archive. No publisher endorsement."
+}

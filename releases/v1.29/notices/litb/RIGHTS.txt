@@ -1,0 +1,110 @@
+Biblica® Naudojimo teisės atviros „Jėzus ir Jo pasekėjai“
+eBible.org
+Translations
+Territories
+Biblica® Naudojimo teisės atviros „Jėzus ir Jo pasekėjai“
+Open Lithuanian Scriptures
+Language:
+[lit]
+Lietuvių
+Lietuvių
+Title:
+Biblica® Naudojimo teisės atviros „Jėzus ir Jo pasekėjai“
+Open Lithuanian Scriptures
+Abbreviation:
+OJJP
+ID: LITBBI or litb
+Copyright © 1995 Biblica, Inc.
+Format
+Link
+Browser Bible
+Study online with Browser Bible
+Mobile HTML
+Read Mobile HTML online
+Zipped mobile HTML
+litb_html.zip
+ePub 3
+and
+Kindle
+litb.epub
+PDF
+PDF file list
+Crosswire Sword module
+litb1995eb.zip
+Plain text canon only chapter files
+litb_readaloud.zip
+BibleWorks import (VPL) + SQL
+litb_vpl.zip
+Browser Bible module
+litb_browserBible.zip
+USFX
+litb_usfx.zip
+USFM
+litb_usfm.zip
+XeTeX
+litb_xetex.zip
+Lithuanian: Biblica® Naudojimo teisės atviros „Jėzus ir Jo pasekėjai“ (Portions)
+Biblica® Naudojimo teisės atviros „Jėzus ir Jo pasekėjai“
+Lithuanian: Biblica® Naudojimo teisės atviros „Jėzus ir Jo pasekėjai“ (Portions)
+copyright © 1995
+Biblica, Inc.
+Language:
+Lietuvių
+Contributor: Biblica, Inc.
+Biblica® Naudojimo teisės atviros „Jėzus ir Jo pasekėjai“™
+Autorių teisės © 1995 Biblica, Inc.
+Biblica® Open Lithuanian Luke-Acts™
+Copyright © 1995 by Biblica, Inc.
+„Biblica“ yra firmos ženklas, įregistruotas Jungtinių Valstijų patentų ir prekių ženklų biure Biblica, Inc. Naudojamas su leidimu.
+“Biblica” is a trademark registered in the United States Patent and Trademark Office by Biblica, Inc. Used with permission.
+Creative Commons License
+Biblica® Naudojimo teisės atviros „Jėzus ir Jo pasekėjai“, arba „Kūrinys“, yra prieinamas pagal Creative Commons Attribution-ShareAlike 4.0 tarptautinę licenciją (CC BY-SA). Šią licenciją galite rasti interneto svetainėje
+https://creativecommons.org/licenses/by-sa/4.0
+arba užsisakyti paštu, išsiuntę laišką šiuo adresu: Creative Commons, PO Box 1866, Mountain View, CA 94042, JAV
+„Biblica“ yra firmos ženklas, įregistruotas Biblica, Inc. Jeigu norite naudoti Biblica® firmos ženklą, turite gauti raštišką leidimą iš Biblica, Inc. Jums leidžiama kopijuoti ir platinti šį „Kūrinį“, jei nekeičiate jo turinio ir pavadinimo. Taip pat privalote nurodyti „Biblica®“ firmos ženklą. Pakeitus šio „Kūrinio“ turinį arba išvertus jį į kitą kalbą, bus sukurtas išvestinis kūrinys, todėl turėsite pašalinti Biblica® firmos ženklą. Jei norėsite publikuoti tokį išvestinį kūrinį, turėsite nurodyti, kokius pakeitimus atlikote, kad jie būtų aiškiai matomi. Taip pat turėsite nurodyti, kur patalpintas originalus „Kūrinys“: „Originalus „Kūrinys“, priklausantis Biblica, Inc., nemokamai yra prieinamas šiose interneto svetainėse:
+www.biblica.com
+ir
+www.open.bible
+“.
+Nesvarbu, ar naudosite šį „Kūrinį“ be pakeitimų, ar kursite išvestinį kūrinį, informacija apie autorių teises turi būti pateikta tituliniame arba autorių teisių puslapyje šitokiu būdu:
+Biblica® Naudojimo teisės atviros „Jėzus ir Jo pasekėjai“™
+Autorių teisės © 1995 Biblica, Inc.
+Biblica® Open Lithuanian Luke-Acts™
+Copyright © 1995 by Biblica, Inc.
+„Biblica“ yra firmos ženklas, įregistruotas Jungtinių Valstijų patentų ir prekių ženklų biure Biblica, Inc. Naudojamas su leidimu.
+“Biblica” is a trademark registered in the United States Patent and Trademark Office by Biblica, Inc. Used with permission.
+Jūsų išvestinis darbas taip pat turės būti prieinamas pagal tą pačią licenciją (CC BY-SA) ir taisykles.
+Jei ketinate išversti šį „Kūrinį“ į kitą kalbą ir norite pranešti apie tai Biblica, Inc., susiekite su mumis šiuo internetiniu adresu:
+https://open.bible/#feedback
+.
+This work is made available under the Creative Commons Attribution-ShareAlike 4‪.0 International License (CC BY-SA). To view a copy of this license, visit
+https://creativecommons.org/licenses/by-sa/4.0
+or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
+Biblica® is a trademark registered by Biblica, Inc., and use of the Biblica® trademark requires the written permission of Biblica, Inc. Under the terms of the CC BY-SA license, you may copy and redistribute this unmodified work as long as you keep the Biblica® trademark intact. If you modify a copy or translate this work, thereby creating a derivative work, you must remove the Biblica® trademark. On the derivative work, you must indicate what changes you have made and attribute the work as follows: “The original work by Biblica, Inc. is available for free at
+www.biblica.com
+and
+www.open.bible
+.”
+‪
+Notice of copyright must appear on the title or copyright page of the work as follows:
+Biblica® Naudojimo teisės atviros „Jėzus ir Jo pasekėjai“™
+Autorių teisės © 1995 Biblica, Inc.
+Biblica® Open Lithuanian Luke-Acts™
+Copyright © 1995 by Biblica, Inc.
+„Biblica“ yra firmos ženklas, įregistruotas Jungtinių Valstijų patentų ir prekių ženklų biure Biblica, Inc. Naudojamas su leidimu.
+“Biblica” is a trademark registered in the United States Patent and Trademark Office by Biblica, Inc. Used with permission.
+You must also make your derivative work available under the same license (CC BY-SA).
+‪If you would like to notify Biblica, Inc. regarding your translation of this work, please contact us at
+https://open.bible/#feedback
+.
+This translation is made available to you under the terms of the
+Creative Commons Attribution Share-Alike license 4.0.
+You have permission to share and redistribute this Bible translation in any format and to make reasonable revisions and adaptations of this translation, provided that:
+You include the above copyright and source information.
+If you make any changes to the text, you must indicate that you did so in a way that makes it clear that the original licensor is not necessarily endorsing your changes.
+If you redistribute this text, you must distribute your contributions under the same license as the original.
+Pictures included with Scriptures and other documents on this site are licensed just for use with those Scriptures and documents.
+For other uses, please contact the respective copyright owners.
+Note that in addition to the rules above, revising and adapting God's Word involves a great responsibility to be true to God's Word. See Revelation 22:18-19.
+2025-05-10
+Last updated 2025-05-10   tiny3

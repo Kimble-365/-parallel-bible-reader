@@ -1,0 +1,16 @@
+{
+  "id": "rusfb",
+  "title": "Russian Freedom Bible",
+  "vernacular_title": "Библия свободы",
+  "source": "https://ebible.org/Scriptures/details.php?id=rusfb",
+  "source_archive": "https://eBible.org/Scriptures/rusfb_usfm.zip",
+  "source_sha256": "e07e791960f289a51b1fe960681db08ad767b083a61b16af1c3492b8dadd7000",
+  "source_updated": "2026-10-30",
+  "retrieved": "2026-11-03",
+  "license": "Public Domain",
+  "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "books": 30,
+  "verse_rows": 13160,
+  "conversion": "Plain-verse format conversion; headings, notes, cross references and front/back matter omitted from display. Raw USFM and complete source page retained.",
+  "attribution": "Библия свободы.  Source: eBible.org, reviewed 2026-10-30. Public Domain. Plain-verse format conversion; source words and punctuation retained. Headings, footnotes, cross references and publication-only material are omitted from display, not asserted to be absent from the source. Complete notices are retained in the source archive. No publisher endorsement."
+}

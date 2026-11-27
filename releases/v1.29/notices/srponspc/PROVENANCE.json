@@ -1,0 +1,16 @@
+{
+  "id": "srponspc",
+  "title": "Serbian ONSP Cyrillic",
+  "vernacular_title": "Biblica® Нови српски превод, слободна права",
+  "source": "https://ebible.org/Scriptures/details.php?id=srponspc",
+  "source_archive": "https://eBible.org/Scriptures/srponspc_usfm.zip",
+  "source_sha256": "e78bde4ff616869e7c51c0a294cb695e8be09de96dab8e32086d7f15a3958130",
+  "source_updated": "2025-05-21",
+  "retrieved": "2026-11-03",
+  "license": "CC BY SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "books": 66,
+  "verse_rows": 31102,
+  "conversion": "Plain-verse format conversion; headings, notes, cross references and front/back matter omitted from display. Raw USFM and complete source page retained.",
+  "attribution": "Biblica® Нови српски превод, слободна права. Copyright © 2005, 2017 Biblica, Inc. copyright © 2005, 2017 © 2005, 2017 Biblica, Inc. Source: eBible.org, reviewed 2025-05-21. CC BY SA 4.0. Plain-verse format conversion; source words and punctuation retained. Headings, footnotes, cross references and publication-only material are omitted from display, not asserted to be absent from the source. Complete notices are retained in the source archive. No publisher endorsement."
+}

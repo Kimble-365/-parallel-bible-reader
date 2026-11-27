@@ -1,0 +1,62 @@
+Anindilyakwa English Bible
+eBible.org
+Translations
+Territories
+Anindilyakwa English Bible
+Language:
+[eng]
+English
+English
+Title:
+Anindilyakwa English Bible
+Anindilyakwa English Bible
+Abbreviation:
+AEB
+ID: ENGAOI or engaoi
+Copyright © 2021 Bible Society Australia
+Format
+Link
+Browser Bible
+Study online with Browser Bible
+Mobile HTML
+Read Mobile HTML online
+Zipped mobile HTML
+engaoi_html.zip
+ePub 3
+and
+Kindle
+engaoi.epub
+PDF
+PDF file list
+Crosswire Sword module
+engaoi2021eb.zip
+Plain text canon only chapter files
+engaoi_readaloud.zip
+BibleWorks import (VPL) + SQL
+engaoi_vpl.zip
+Browser Bible module
+engaoi_browserBible.zip
+USFX
+engaoi_usfx.zip
+USFM
+engaoi_usfm.zip
+XeTeX
+engaoi_xetex.zip
+Portions of the Holy Bible in English easy for Anindilyakwa speakers in Australia to understand.
+In the very beginning, long, long ago, God made the earth below and the heavens above. At the time when God first started creating the world,
+—Genesis 1:1
+Anindilyakwa English Bible
+Portions of the Holy Bible in English easy for Anindilyakwa speakers in Australia to understand.
+Copyright © 2021 Bible Society Australia
+Language:
+English
+This translation is made available to you under the terms of the
+Creative Commons Attribution-Noncommercial-No Derivatives license 4.0.
+You may share and redistribute this Bible translation or extracts from it in any format, provided that:
+You include the above copyright and source information.
+You do not sell this work for a profit.
+You do not change any of the words or punctuation of the Scriptures.
+Pictures included with Scriptures and other documents on this site are licensed just for use with those Scriptures and documents.
+For other uses, please contact the respective copyright owners.
+2021-11-23
+Last updated 2021-11-23   c

@@ -1,0 +1,59 @@
+μετάφραση των εβδομήκοντα
+eBible.org
+Translations
+Territories
+μετάφραση των εβδομήκοντα
+Brenton Septuagint
+Language:
+[grc]
+Ἑλληνική
+Greek, Ancient
+Dialect:
+Koine
+Title:
+μετάφραση των εβδομήκοντα
+Brenton Septuagint
+Abbreviation:
+ID: GRCBRE or grcbrent
+public domain
+Format
+Link
+Browser Bible
+Study online with Browser Bible
+MP3 Audio
+Stream or download MP3 audio
+Mobile HTML
+Read Mobile HTML online
+Zipped mobile HTML
+grcbrent_html.zip
+ePub 3
+and
+Kindle
+grcbrent.epub
+PDF
+PDF file list
+Plain text canon only chapter files
+grcbrent_readaloud.zip
+BibleWorks import (VPL) + SQL
+grcbrent_vpl.zip
+Browser Bible module
+grcbrent_browserBible.zip
+USFX
+grcbrent_usfx.zip
+USFM
+grcbrent_usfm.zip
+XeTeX
+grcbrent_xetex.zip
+The Greek Septuagint with Apocrypha, compiled by Sir Lancelot C. L. Brenton
+ἘΝ ἀρχῇ ἐποίησεν ὁ Θεὸς τὸν οὐρανὸν καὶ τὴν γῆν.
+—Genesis 1:1
+Ψαλμὸς τῷ Δαυὶδ τῆς μιᾶς σαββάτου. Τοῦ Κυρίου ἡ γῆ καὶ τὸ πλήρωμα αὐτῆς, ἡ οἰκουμένη καὶ πάντες οἱ κατοικοῦντες ἐν αὐτῇ.
+—Psalm 23:1
+μετάφραση των εβδομήκοντα
+The Greek Septuagint with Apocrypha, compiled by Sir Lancelot C. L. Brenton
+Public Domain
+Language:
+Ἑλληνική (Greek, Ancient)
+Dialect: Koine
+2026-04-08
+Last updated 2026-04-08   e

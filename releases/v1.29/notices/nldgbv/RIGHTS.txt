@@ -1,0 +1,73 @@
+Gods Boek
+eBible.org
+Translations
+Territories
+Gods Boek
+Dutch: Gods Boek
+Language:
+[nld]
+Nederlands
+Nederlands
+Dialect:
+Belgian
+Title:
+Gods Boek
+Dutch: Gods Boek
+Abbreviation:
+GBV
+ID: NLDGBV or nldgbv
+Copyright ©  Operation Mobilization International
+Format
+Link
+Browser Bible
+Study online with Browser Bible
+Mobile HTML
+Read Mobile HTML online
+Zipped mobile HTML
+nldgbv_html.zip
+ePub 3
+and
+Kindle
+nldgbv.epub
+PDF
+PDF file list
+Crosswire Sword module
+nldgbveb.zip
+Plain text canon only chapter files
+nldgbv_readaloud.zip
+BibleWorks import (VPL) + SQL
+nldgbv_vpl.zip
+Browser Bible module
+nldgbv_browserBible.zip
+USFX
+nldgbv_usfx.zip
+USFM
+nldgbv_usfm.zip
+XeTeX
+nldgbv_xetex.zip
+Bible Translation in Dutch (Belgium)
+Jullie moeten echter prioriteit geven aan Gods koninkrijk en doen wat Hij van je vraagt; dan zullen ook al die dingen aan jullie worden gegeven.
+—Matthew 6:33
+Zo had God de wereld lief: door zijn enige Zoon te geven, opdat ieder die in Hem gelooft het eeuwig leven zou hebben en niet verloren zou gaan.
+—John 3:16
+Wij weten dat God alles doet meewerken ten goede voor de mensen die van Hem houden, die volgens zijn plan geroepen zijn.
+—Romans 8:28
+Gods Boek
+Bible Translation in Dutch (Belgium)
+copyright ©
+Operation Mobilization International
+Language:
+Nederlands
+Dialect: Belgian
+Contributor: Operation Mobilization International
+This translation is made available to you under the terms of the
+Creative Commons Attribution Share-Alike license 4.0.
+You have permission to share and redistribute this Bible translation in any format and to make reasonable revisions and adaptations of this translation, provided that:
+You include the above copyright and source information.
+If you make any changes to the text, you must indicate that you did so in a way that makes it clear that the original licensor is not necessarily endorsing your changes.
+If you redistribute this text, you must distribute your contributions under the same license as the original.
+Pictures included with Scriptures and other documents on this site are licensed just for use with those Scriptures and documents.
+For other uses, please contact the respective copyright owners.
+Note that in addition to the rules above, revising and adapting God's Word involves a great responsibility to be true to God's Word. See Revelation 22:18-19.
+2025-05-17
+Last updated 2025-05-17   tiny3

@@ -1,0 +1,16 @@
+{
+  "id": "englee",
+  "title": "Leeser Tanakh",
+  "vernacular_title": "Isaac Leeser Tanakh",
+  "source": "https://ebible.org/Scriptures/details.php?id=englee",
+  "source_archive": "https://eBible.org/Scriptures/englee_usfm.zip",
+  "source_sha256": "6c0ffbe7d24fd9d4b0c6bc4f4a9ef3f0474dfcd82c7aab745bc3f420201d59a4",
+  "source_updated": "2020-10-14",
+  "retrieved": "2026-11-03",
+  "license": "Public Domain",
+  "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "books": 39,
+  "verse_rows": 23143,
+  "conversion": "Plain-verse format conversion; headings, notes, cross references and front/back matter omitted from display. Raw USFM and complete source page retained.",
+  "attribution": "Isaac Leeser Tanakh.  Source: eBible.org, reviewed 2020-10-14. Public Domain. Plain-verse format conversion; source words and punctuation retained. Headings, footnotes, cross references and publication-only material are omitted from display, not asserted to be absent from the source. Complete notices are retained in the source archive. No publisher endorsement."
+}

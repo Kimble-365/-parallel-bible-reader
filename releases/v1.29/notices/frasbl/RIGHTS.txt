@@ -1,0 +1,74 @@
+Sainte Bible libre pour le monde
+eBible.org
+Translations
+Territories
+Sainte Bible libre pour le monde
+French Free Holy Bible for the World
+Language:
+[fra]
+français
+French
+Title:
+Sainte Bible libre pour le monde
+French Free Holy Bible for the World
+Abbreviation:
+SBL
+ID: FRASBL or frasbl
+public domain
+Format
+Link
+Browser Bible
+Study online with Browser Bible
+MP3 Audio
+Stream or download MP3 audio
+Mobile HTML
+Read Mobile HTML online
+Zipped mobile HTML
+frasbl_html.zip
+ePub 3
+and
+Kindle
+frasbl.epub
+PDF
+PDF file list
+Crosswire Sword module
+frasbl2022eb.zip
+Plain text canon only chapter files
+frasbl_readaloud.zip
+BibleWorks import (VPL) + SQL
+frasbl_vpl.zip
+Browser Bible module
+frasbl_browserBible.zip
+USFX
+frasbl_usfx.zip
+USFM
+frasbl_usfm.zip
+XeTeX
+frasbl_xetex.zip
+The Holy Bible in French, Sainte Bible Libre pour le monde translation
+Au commencement, Dieu créa les cieux et la terre.
+—Genesis 1:1
+Psaume de David. Le SEIGNEUR est mon berger ; je ne manquerai de rien.
+—Psalm 23:1
+Mais cherchez d'abord le Royaume de Dieu et sa justice, et toutes ces choses vous seront données en plus.
+—Matthew 6:33
+Car Dieu a tant aimé le monde qu'il a donné son Fils unique, afin que quiconque croit en lui ne périsse pas, mais qu'il ait la vie éternelle.
+—John 3:16
+Nous savons, du reste, que toutes choses concourent au bien de ceux qui aiment Dieu, de ceux qui sont appelés selon son dessein.
+—Romans 8:28
+Sainte Bible libre pour le monde
+The Holy Bible in French, Sainte Bible Libre pour le monde translation
+Public Domain
+Language:
+français (French)
+Translation by: David Williams
+Contributor: Michael Paul Johnson
+Domaine Public
+Il s'agit d'un brouillon de traduction. Il est en cours de relecture et d'édition. Si vous trouvez des erreurs, veuillez nous en informer à
+https://eBible.org/cgi-bin/contact.cgi
+.
+This is a draft translation. It is being proofread and edited. If you find errors, please let us know at
+https://eBible.org/cgi-bin/contact.cgi
+.
+2026-10-30
+Last updated 2026-10-30   c

@@ -1,0 +1,16 @@
+{
+  "id": "eng-lxx2012",
+  "title": "LXX2012 U. S. English",
+  "vernacular_title": "LXX2012: Septuagint in American English 2012",
+  "source": "https://ebible.org/Scriptures/details.php?id=eng-lxx2012",
+  "source_archive": "https://eBible.org/Scriptures/eng-lxx2012_usfm.zip",
+  "source_sha256": "4eb06a8f7f477105ac6a057255c2825331f6283a309f8e244534de4e9511e506",
+  "source_updated": "2026-03-12",
+  "retrieved": "2026-11-03",
+  "license": "Public Domain",
+  "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "books": 54,
+  "verse_rows": 28324,
+  "conversion": "Plain-verse format conversion; headings, notes, cross references and front/back matter omitted from display. Raw USFM and complete source page retained.",
+  "attribution": "LXX2012: Septuagint in American English 2012.  Source: eBible.org, reviewed 2026-03-12. Public Domain. Plain-verse format conversion; source words and punctuation retained. Headings, footnotes, cross references and publication-only material are omitted from display, not asserted to be absent from the source. Complete notices are retained in the source archive. No publisher endorsement."
+}

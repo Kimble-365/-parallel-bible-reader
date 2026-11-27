@@ -1,0 +1,16 @@
+{
+  "id": "engoebcw",
+  "title": "Open English Bible (Commonwealth)",
+  "vernacular_title": "Open English Bible (Commonwealth Spelling)",
+  "source": "https://ebible.org/Scriptures/details.php?id=engoebcw",
+  "source_archive": "https://eBible.org/Scriptures/engoebcw_usfm.zip",
+  "source_sha256": "85e5d854094d9d59a94cf6ec70547699899957c8b488600827a64a8c3ad029b1",
+  "source_updated": "2026-10-30",
+  "retrieved": "2026-11-03",
+  "license": "Public Domain",
+  "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "books": 44,
+  "verse_rows": 13894,
+  "conversion": "Plain-verse format conversion; headings, notes, cross references and front/back matter omitted from display. Raw USFM and complete source page retained.",
+  "attribution": "Open English Bible (Commonwealth Spelling).  Source: eBible.org, reviewed 2026-10-30. Public Domain. Plain-verse format conversion; source words and punctuation retained. Headings, footnotes, cross references and publication-only material are omitted from display, not asserted to be absent from the source. Complete notices are retained in the source archive. No publisher endorsement."
+}

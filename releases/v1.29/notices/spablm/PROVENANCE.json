@@ -1,0 +1,16 @@
+{
+  "id": "spablm",
+  "title": "Spanish Free Bible for the World",
+  "vernacular_title": "Santa Biblia libre para el mundo",
+  "source": "https://ebible.org/Scriptures/details.php?id=spablm",
+  "source_archive": "https://eBible.org/Scriptures/spablm_usfm.zip",
+  "source_sha256": "69ff87d19976bfc2306cb11ffeffd9fe0b4163eac9bd09da7f687b53a4de90f5",
+  "source_updated": "2026-10-30",
+  "retrieved": "2026-11-03",
+  "license": "Public Domain",
+  "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "books": 80,
+  "verse_rows": 37499,
+  "conversion": "Plain-verse format conversion; headings, notes, cross references and front/back matter omitted from display. Raw USFM and complete source page retained.",
+  "attribution": "Santa Biblia libre para el mundo.  Source: eBible.org, reviewed 2026-10-30. Public Domain. Plain-verse format conversion; source words and punctuation retained. Headings, footnotes, cross references and publication-only material are omitted from display, not asserted to be absent from the source. Complete notices are retained in the source archive. No publisher endorsement."
+}

@@ -1,0 +1,61 @@
+Updated Brenton English Septuagint
+eBible.org
+Translations
+Territories
+Updated Brenton English Septuagint
+Language:
+[eng]
+English
+English
+Dialect:
+Mixed
+Title:
+Updated Brenton English Septuagint
+Updated Brenton English Septuagint
+Abbreviation:
+ENGLXXUP
+ID: ENGBOY or englxxup
+public domain
+Format
+Link
+Browser Bible
+Study online with Browser Bible
+Mobile HTML
+Read Mobile HTML online
+Zipped mobile HTML
+englxxup_html.zip
+ePub 3
+and
+Kindle
+englxxup.epub
+PDF
+PDF file list
+Plain text canon only chapter files
+englxxup_readaloud.zip
+BibleWorks import (VPL) + SQL
+englxxup_vpl.zip
+Browser Bible module
+englxxup_browserBible.zip
+USFX
+englxxup_usfx.zip
+USFM
+englxxup_usfm.zip
+XeTeX
+englxxup_xetex.zip
+Spelling and formatting update of the Brenton English Septuagint with Apocrypha
+In the beginning God made the heaven and the earth.
+—Genesis 1:1
+A Psalm for David on the first day of the week. The earth is the Lord’s and the fullness thereof; The world, and all that dwell in it.
+—Psalm 23:1
+Updated Brenton English Septuagint
+Spelling and formatting update of the Brenton English Septuagint with Apocrypha
+Public Domain
+Language:
+English
+Dialect: Mixed
+Translation by: Sir Lancelot C. L. Brenton
+Contributor: Adam Boyd
+Original work was by Sir Lancelot C. L. Brenton in 1851.
+CC0 Public Domain dedication on language updates by Adam Boyd in 2020.
+2026-02-18
+Last updated 2026-02-18   www

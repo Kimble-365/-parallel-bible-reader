@@ -1,0 +1,16 @@
+{
+  "id": "enge2t",
+  "title": "E2T Jonah",
+  "vernacular_title": "Easy to Translate English Jonah",
+  "source": "https://ebible.org/Scriptures/details.php?id=enge2t",
+  "source_archive": "https://eBible.org/Scriptures/enge2t_usfm.zip",
+  "source_sha256": "aabeeb9bf31d974790adae8efb4da65a1b435943548ffcec8ad4dc58b94e8aa9",
+  "source_updated": "2025-10-24",
+  "retrieved": "2026-11-03",
+  "license": "CC BY SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "books": 1,
+  "verse_rows": 47,
+  "conversion": "Plain-verse format conversion; headings, notes, cross references and front/back matter omitted from display. Raw USFM and complete source page retained.",
+  "attribution": "Easy to Translate English Jonah. Copyright © 2025 Tyndale Bible Translators copyright and source information. Source: eBible.org, reviewed 2025-10-24. CC BY SA 4.0. Plain-verse format conversion; source words and punctuation retained. Headings, footnotes, cross references and publication-only material are omitted from display, not asserted to be absent from the source. Complete notices are retained in the source archive. No publisher endorsement."
+}

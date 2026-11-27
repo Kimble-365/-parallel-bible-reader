@@ -1,0 +1,16 @@
+{
+  "id": "bel",
+  "title": "Belarusan Bible, A. Boken",
+  "vernacular_title": "Біблія (пераклад А.Бокуна)",
+  "source": "https://ebible.org/Scriptures/details.php?id=bel",
+  "source_archive": "https://eBible.org/Scriptures/bel_usfm.zip",
+  "source_sha256": "4d1272ea07c4196f6c06e4f517a0815d1ee6d81341f789b25c7534b2203cecd7",
+  "source_updated": "2025-05-09",
+  "retrieved": "2026-11-03",
+  "license": "CC BY NC 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-nc/4.0",
+  "books": 66,
+  "verse_rows": 31170,
+  "conversion": "Plain-verse format conversion; headings, notes, cross references and front/back matter omitted from display. Raw USFM and complete source page retained.",
+  "attribution": "Біблія (пераклад А.Бокуна). Copyright © 2016-2023 John the Forerunner Church of Christians of Evangelical Faith of Minsk City copyright © 2016-2023 copyright and source information. Source: eBible.org, reviewed 2025-05-09. CC BY NC 4.0. Plain-verse format conversion; source words and punctuation retained. Headings, footnotes, cross references and publication-only material are omitted from display, not asserted to be absent from the source. Complete notices are retained in the source archive. No publisher endorsement."
+}

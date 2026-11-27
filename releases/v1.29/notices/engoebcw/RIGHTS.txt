@@ -1,0 +1,67 @@
+Open English Bible (Commonwealth Spelling)
+eBible.org
+Translations
+Territories
+Open English Bible (Commonwealth Spelling)
+Open English Bible (Commonwealth)
+Language:
+[eng]
+English
+English
+Title:
+Open English Bible (Commonwealth Spelling)
+Open English Bible (Commonwealth)
+Abbreviation:
+OEBCW
+ID: ENGOE1 or engoebcw
+public domain
+Format
+Link
+Browser Bible
+Study online with Browser Bible
+Mobile HTML
+Read Mobile HTML online
+Zipped mobile HTML
+engoebcw_html.zip
+ePub 3
+and
+Kindle
+engoebcw.epub
+PDF
+PDF file list
+Crosswire Sword module
+engoebcweb.zip
+Plain text canon only chapter files
+engoebcw_readaloud.zip
+BibleWorks import (VPL) + SQL
+engoebcw_vpl.zip
+Browser Bible module
+engoebcw_browserBible.zip
+USFX
+engoebcw_usfx.zip
+USFM
+engoebcw_usfm.zip
+XeTeX
+engoebcw_xetex.zip
+The Holy Bible, Open English Bible translation, with Commonwealth spelling
+In the beginning when God created the heavens and the earth,
+—Genesis 1:1
+A psalm of David. The Lord is my shepherd: I am never in need.
+—Psalm 23:1
+But first seek his kingdom and the righteousness that he requires, and then all these things will be added for you.
+—Matthew 6:33
+For God so loved the world, that he gave his only Son, so that everyone who believes in him may not be lost, but have eternal life.
+—John 3:16
+But we do know that God causes all things to work together for the good of those who love him – those who have received the call in accordance with his purpose.
+—Romans 8:28
+Open English Bible (Commonwealth Spelling)
+The Holy Bible, Open English Bible translation, with Commonwealth spelling
+Public Domain
+Language:
+English
+Translation by: OpenEnglishBible.org
+Please see
+OpenEnglishBible.org/
+for information about this translation.
+2026-10-30
+Last updated 2026-10-30   c

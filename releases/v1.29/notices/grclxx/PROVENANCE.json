@@ -1,0 +1,16 @@
+{
+  "id": "grclxx",
+  "title": "SEPTUAGINTA",
+  "vernacular_title": "Η Παλαιά Διαθήκη κατά τη μετάφραση των εβδομήκοντα (Ο') | SEPTUAGINTA",
+  "source": "https://ebible.org/Scriptures/details.php?id=grclxx",
+  "source_archive": "https://eBible.org/Scriptures/grclxx_usfm.zip",
+  "source_sha256": "49644576735532b46c3f452ec79f0d9ad2346ac6eb53706e07f532245d8d2fbe",
+  "source_updated": "2026-02-13",
+  "retrieved": "2026-11-03",
+  "license": "Public Domain",
+  "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "books": 51,
+  "verse_rows": 27409,
+  "conversion": "Plain-verse format conversion; headings, notes, cross references and front/back matter omitted from display. Raw USFM and complete source page retained.",
+  "attribution": "Η Παλαιά Διαθήκη κατά τη μετάφραση των εβδομήκοντα (Ο') | SEPTUAGINTA. copyright or demanded takedowns of these reproductions — because our goal is not profit, but the free and faithful dissemination of the Word of God and the blessing it brings to the world. Source: eBible.org, reviewed 2026-02-13. Public Domain. Plain-verse format conversion; source words and punctuation retained. Headings, footnotes, cross references and publication-only material are omitted from display, not asserted to be absent from the source. Complete notices are retained in the source archive. No publisher endorsement."
+}

@@ -1,0 +1,16 @@
+{
+  "id": "ronludari",
+  "title": "Ludari Luke",
+  "vernacular_title": "Luka",
+  "source": "https://ebible.org/Scriptures/details.php?id=ronludari",
+  "source_archive": "https://eBible.org/Scriptures/ronludari_usfm.zip",
+  "source_sha256": "5111c575df94d67124dc5163ed5b59d894bb0cd2f0417a4b2705d1af5ea21686",
+  "source_updated": "2026-07-15",
+  "retrieved": "2026-11-03",
+  "license": "CC BY SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "books": 1,
+  "verse_rows": 1141,
+  "conversion": "Plain-verse format conversion; headings, notes, cross references and front/back matter omitted from display. Raw USFM and complete source page retained.",
+  "attribution": "Luka. Copyright © 2019 Pioneer copyright © 2019 copyright and source information. Source: eBible.org, reviewed 2026-07-15. CC BY SA 4.0. Plain-verse format conversion; source words and punctuation retained. Headings, footnotes, cross references and publication-only material are omitted from display, not asserted to be absent from the source. Complete notices are retained in the source archive. No publisher endorsement."
+}

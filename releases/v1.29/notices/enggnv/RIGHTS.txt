@@ -1,0 +1,68 @@
+Geneva Bible 1599
+eBible.org
+Translations
+Territories
+Geneva Bible 1599
+Language:
+[eng]
+English
+English
+Dialect:
+Old
+Title:
+Geneva Bible 1599
+Geneva Bible 1599
+Abbreviation:
+GNV
+ID: ENGGNV or enggnv
+public domain
+Format
+Link
+Browser Bible
+Study online with Browser Bible
+Mobile HTML
+Read Mobile HTML online
+Zipped mobile HTML
+enggnv_html.zip
+ePub 3
+and
+Kindle
+enggnv.epub
+PDF
+PDF file list
+Crosswire Sword module
+enggnv1599eb.zip
+Plain text canon only chapter files
+enggnv_readaloud.zip
+BibleWorks import (VPL) + SQL
+enggnv_vpl.zip
+Browser Bible module
+enggnv_browserBible.zip
+USFX
+enggnv_usfx.zip
+USFM
+enggnv_usfm.zip
+XeTeX
+enggnv_xetex.zip
+The Geneva Bible in Old English of 1599
+In the beginning God created the heauen and the earth.
+—Genesis 1:1
+A Psalme of David. The Lord is my shepheard, I shall not want.
+—Psalm 23:1
+But seeke ye first the kingdome of God, and his righteousnesse, and all these things shall be ministred vnto you.
+—Matthew 6:33
+For God so loued the worlde, that hee hath giuen his onely begotten Sonne, that whosoeuer beleeueth in him, should not perish, but haue euerlasting life.
+—John 3:16
+Also we knowe that all thinges worke together for the best vnto them that loue God, euen to them that are called of his purpose.
+—Romans 8:28
+Geneva Bible 1599
+The Geneva Bible in Old English of 1599
+Public Domain
+Language:
+English
+Dialect: Old
+This digital copy is freely available world-wide, with no copyright restrictions, courtesy of
+eBible.org
+and many others. Note that the spelling used is the original spelling, which is not modern English.
+2024-03-16
+Last updated 2024-03-16   e

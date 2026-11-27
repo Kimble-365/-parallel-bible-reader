@@ -1,0 +1,66 @@
+God's Living Word
+eBible.org
+Translations
+Territories
+God's Living Word
+Language:
+[eng]
+English
+English
+Dialect:
+American
+Title:
+God's Living Word
+God's Living Word
+Abbreviation:
+GLW
+ID: ENGGLW or eng-glw
+Copyright © 1996 Michael Paul Johnson
+Format
+Link
+Browser Bible
+Study online with Browser Bible
+Mobile HTML
+Read Mobile HTML online
+Zipped mobile HTML
+eng-glw_html.zip
+ePub 3
+and
+Kindle
+eng-glw.epub
+PDF
+PDF file list
+Crosswire Sword module
+engGLW1996eb.zip
+Plain text canon only chapter files
+eng-glw_readaloud.zip
+BibleWorks import (VPL) + SQL
+eng-glw_vpl.zip
+Browser Bible module
+eng-glw_browserBible.zip
+USFX
+eng-glw_usfx.zip
+USFM
+eng-glw_usfm.zip
+XeTeX
+eng-glw_xetex.zip
+God's Living Word—a translation of John and John's Letters into modern English
+For God so sincerely loved the world that He gave His only born Son, that whoever believes in Him should not perish, but have everlasting life.
+—John 3:16
+God's Living Word
+God's Living Word—a translation of John and John's Letters into modern English
+copyright © 1996
+Michael Paul Johnson
+Language:
+English
+Dialect: American
+Translation by: Michael Paul Johnson
+This translation is made available to you under the terms of the
+Creative Commons Attribution-No Derivatives license 4.0.
+You may share and redistribute this Bible translation or extracts from it in any format, provided that:
+You include the above copyright and source information.
+You do not make any derivative works that change any of the actual words or punctuation of the Scriptures.
+Pictures included with Scriptures and other documents on this site are licensed just for use with those Scriptures and documents.
+For other uses, please contact the respective copyright owners.
+2018-08-24
+Last updated 2018-08-24   c

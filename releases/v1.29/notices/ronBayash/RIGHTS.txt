@@ -1,0 +1,63 @@
+Sfanta Biblie
+eBible.org
+Translations
+Territories
+Sfanta Biblie
+Bayash Bible
+Language:
+[ron]
+Bayash
+Romanian
+Dialect:
+Bayash
+Title:
+Sfanta Biblie
+Bayash Bible
+Abbreviation:
+ID: RONBAYASH or ronBayash
+Copyright ©
+Format
+Link
+Browser Bible
+Study online with Browser Bible
+Mobile HTML
+Read Mobile HTML online
+Zipped mobile HTML
+ronBayash_html.zip
+ePub 3
+and
+Kindle
+ronBayash.epub
+PDF
+PDF file list
+Crosswire Sword module
+ronBayash2023eb.zip
+Plain text canon only chapter files
+ronBayash_readaloud.zip
+BibleWorks import (VPL) + SQL
+ronBayash_vpl.zip
+Browser Bible module
+ronBayash_browserBible.zip
+USFX
+ronBayash_usfx.zip
+USFM
+ronBayash_usfm.zip
+XeTeX
+ronBayash_xetex.zip
+Portions of the Holy Bible in the Bayash dialect of the Romanian language
+Sfanta Biblie
+Portions of the Holy Bible in the Bayash dialect of the Romanian language
+Copyright ©
+Language:
+Bayash (Romanian)
+Dialect: Bayash
+This translation is made available to you under the terms of the
+Creative Commons Attribution license 4.0.
+You may share and redistribute this Bible translation or extracts from it in any format, provided that:
+You include the above copyright and source information.
+If you make any changes to the text, you must indicate that you did so in a way that makes it clear that the original licensor is not necessarily endorsing your changes.
+Pictures included with Scriptures and other documents on this site are licensed just for use with those Scriptures and documents.
+For other uses, please contact the respective copyright owners.
+Note that in addition to the rules above, revising and adapting God's Word involves a great responsibility to be true to God's Word. See Revelation 22:18-19.
+2026-10-30
+Last updated 2026-10-30   c

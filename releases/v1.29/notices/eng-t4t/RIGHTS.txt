@@ -1,0 +1,74 @@
+Translation for Translators
+eBible.org
+Translations
+Territories
+Translation for Translators
+Language:
+[eng]
+English
+English
+Dialect:
+American
+Title:
+Translation for Translators
+Translation for Translators
+Abbreviation:
+T4T
+ID: ENGT4T or eng-t4t
+Copyright © 2008-2017 Ellis W. Deibler, Jr.
+Format
+Link
+Browser Bible
+Study online with Browser Bible
+Mobile HTML
+Read Mobile HTML online
+Zipped mobile HTML
+eng-t4t_html.zip
+ePub 3
+and
+Kindle
+eng-t4t.epub
+PDF
+PDF file list
+Crosswire Sword module
+engT4T2014eb.zip
+Plain text canon only chapter files
+eng-t4t_readaloud.zip
+BibleWorks import (VPL) + SQL
+eng-t4t_vpl.zip
+Browser Bible module
+eng-t4t_browserBible.zip
+USFX
+eng-t4t_usfx.zip
+USFM
+eng-t4t_usfm.zip
+XeTeX
+eng-t4t_xetex.zip
+A Bible Translation for Bible Translators which makes implied information explicit in the text as an aid to the translator who may need that information to correctly translate into a particular language.
+Long, long ago God created the heavens and the earth.
+—Genesis 1:1
+Yahweh, you care for me like a shepherd cares for his sheep. So I have everything that I need.
+—Psalm 23:1
+Instead, the most important thing you should be concerned about is to let God completely direct your life, and to strive to live righteously. If you do that, all the things that you need will be given to you {God will give you all the things that you need}.
+—Matthew 6:33
+God loved us people MTY in the world so much that he gave his only Son as a sacrifice for us, in order that everyone who believes in him would not be separated from God forever. Instead, they would have eternal life.
+—John 3:16
+And we know that to those/us who love God, he works out all things that happen to them/us in a way that produces good spiritual benefits for us. He does these things for those/us whom he has chosen, because that was (OR, was according to) what he planned to do.
+—Romans 8:28
+Translation for Translators
+A Bible Translation for Bible Translators which makes implied information explicit in the text as an aid to the translator who may need that information to correctly translate into a particular language.
+Copyright © 2008-2017 Ellis W. Deibler, Jr.
+Language:
+English
+Dialect: American
+This translation is made available to you under the terms of the
+Creative Commons Attribution Share-Alike license 4.0.
+You have permission to share and redistribute this Bible translation in any format and to make reasonable revisions and adaptations of this translation, provided that:
+You include the above copyright and source information.
+If you make any changes to the text, you must indicate that you did so in a way that makes it clear that the original licensor is not necessarily endorsing your changes.
+If you redistribute this text, you must distribute your contributions under the same license as the original.
+Pictures included with Scriptures and other documents on this site are licensed just for use with those Scriptures and documents.
+For other uses, please contact the respective copyright owners.
+Note that in addition to the rules above, revising and adapting God's Word involves a great responsibility to be true to God's Word. See Revelation 22:18-19.
+2026-10-30
+Last updated 2026-10-30   www

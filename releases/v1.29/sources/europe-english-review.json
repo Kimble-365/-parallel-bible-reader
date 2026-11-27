@@ -1,0 +1,99 @@
+{
+  "inventory": "eBible.org Scriptures catalogue",
+  "retrieved": "2026-11-03",
+  "candidate_count": 133,
+  "imported_count": 116,
+  "duplicates": [
+    {
+      "id": "ces1613",
+      "title": "Czech Kralická Bible 1613",
+      "existing_id": "ces-bkr1613"
+    },
+    {
+      "id": "ekkpkp",
+      "title": "Estonian Bible: Piibel Kõigile",
+      "existing_id": "ekk-pkp-partial"
+    },
+    {
+      "id": "ekk",
+      "title": "Estonian Contemporary NT",
+      "existing_id": "ekk-ocv2022"
+    },
+    {
+      "id": "fraLSG",
+      "title": "French Louis Segond 1910 Bible",
+      "existing_id": "fra-lsg1910"
+    },
+    {
+      "id": "grcsbl",
+      "title": "SBL Greek NT",
+      "existing_id": "grc-sblgnt"
+    },
+    {
+      "id": "grc-tisch",
+      "title": "Tischendorf Greek NT",
+      "existing_id": "grc-tischendorf8"
+    },
+    {
+      "id": "hun",
+      "title": "Hungarian Bible",
+      "existing_id": "hun-karoli1908"
+    },
+    {
+      "id": "isl",
+      "title": "Icelandic: Biblica® Opna Lifandi Orð Nýja testamentið og Sálmarnir™ (New Testament+)",
+      "existing_id": "isl-olo1995"
+    },
+    {
+      "id": "epo",
+      "title": "Esperanto Bible",
+      "existing_id": "epo-londona"
+    },
+    {
+      "id": "russyn",
+      "title": "Russian Synodal Bible",
+      "existing_id": "rus-synodal"
+    },
+    {
+      "id": "spaRV1909",
+      "title": "Reina Valera 1909",
+      "existing_id": "spa-rv1909"
+    },
+    {
+      "id": "engoebus",
+      "title": "Open English Bible (US)",
+      "existing_id": "eng-oeb"
+    },
+    {
+      "id": "engwebp",
+      "title": "World English Bible",
+      "existing_id": "engwebp"
+    }
+  ],
+  "excluded": [
+    {
+      "id": "spav1602p",
+      "title": "Spanish Valera Purificada",
+      "source": "https://ebible.org/Scriptures/details.php?id=spav1602p",
+      "reason": "The reviewed notice explicitly permits printing but does not clearly grant electronic redistribution."
+    },
+    {
+      "id": "swef",
+      "title": "Swedish Folkbibleln",
+      "source": "https://ebible.org/Scriptures/details.php?id=swef",
+      "reason": "Copyright notice only; no explicit redistribution licence on the reviewed source page."
+    },
+    {
+      "id": "ukr1996",
+      "title": "Ukrainian Bible, BJU 1996",
+      "source": "https://ebible.org/Scriptures/details.php?id=ukr1996",
+      "reason": "Source permission imposes a doctrinal condition on redistributors, so it is not a general public redistribution grant."
+    },
+    {
+      "id": "engnet",
+      "title": "NET Bible",
+      "source": "https://ebible.org/Scriptures/details.php?id=engnet",
+      "reason": "Separate licence review required; verse-only display would omit the integral translators’ notes."
+    }
+  ]
+}

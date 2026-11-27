@@ -1,0 +1,64 @@
+Berean Standard Bible
+eBible.org
+Translations
+Territories
+Berean Standard Bible
+English Berean Standard Bible
+Language:
+[eng]
+English
+English
+Title:
+Berean Standard Bible
+English Berean Standard Bible
+Abbreviation:
+BSB
+ID: ENGBSB or engbsb
+public domain
+Format
+Link
+Browser Bible
+Study online with Browser Bible
+Mobile HTML
+Read Mobile HTML online
+Zipped mobile HTML
+engbsb_html.zip
+ePub 3
+and
+Kindle
+engbsb.epub
+PDF
+PDF file list
+Crosswire Sword module
+engbsb2020eb.zip
+Plain text canon only chapter files
+engbsb_readaloud.zip
+BibleWorks import (VPL) + SQL
+engbsb_vpl.zip
+Browser Bible module
+engbsb_browserBible.zip
+USFX
+engbsb_usfx.zip
+USFM
+engbsb_usfm.zip
+XeTeX
+engbsb_xetex.zip
+The Holy Bible in English: Berean Standard Bible
+In the beginning God created the heavens and the earth.
+—Genesis 1:1
+A Psalm of David. The LORD is my shepherd; I shall not want.
+—Psalm 23:1
+But seek first the kingdom of God and His righteousness, and all these things will be added unto you.
+—Matthew 6:33
+For God so loved the world that He gave His one and only Son, that everyone who believes in Him shall not perish but have eternal life.
+—John 3:16
+And we know that God works all things together for the good of those who love Him, who are called according to His purpose.
+—Romans 8:28
+Berean Standard Bible
+The Holy Bible in English: Berean Standard Bible
+Public Domain
+Language:
+English
+Contributor: BSB Publishing, LLC
+2026-10-30
+Last updated 2026-10-30   c

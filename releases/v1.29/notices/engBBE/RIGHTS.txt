@@ -1,0 +1,67 @@
+Bible in Basic English
+eBible.org
+Translations
+Territories
+Bible in Basic English
+Language:
+[eng]
+English
+English
+Dialect:
+simple British
+Title:
+Bible in Basic English
+Bible in Basic English
+Abbreviation:
+BBE
+ID: ENGBBE or engBBE
+public domain
+Format
+Link
+Browser Bible
+Study online with Browser Bible
+Mobile HTML
+Read Mobile HTML online
+Zipped mobile HTML
+engBBE_html.zip
+ePub 3
+and
+Kindle
+engBBE.epub
+PDF
+PDF file list
+Crosswire Sword module
+engBBE1964eb.zip
+Plain text canon only chapter files
+engBBE_readaloud.zip
+BibleWorks import (VPL) + SQL
+engBBE_vpl.zip
+Browser Bible module
+engBBE_browserBible.zip
+USFX
+engBBE_usfx.zip
+USFM
+engBBE_usfm.zip
+XeTeX
+engBBE_xetex.zip
+The Bible in Basic English
+At the first God made the heaven and the earth.
+—Genesis 1:1
+A Psalm. Of David. The Lord takes care of me as his sheep; I will not be without any good thing.
+—Psalm 23:1
+But let your first care be for his kingdom and his righteousness; and all these other things will be given to you in addition.
+—Matthew 6:33
+For God had such love for the world that he gave his only Son, so that whoever has faith in him may not come to destruction but have eternal life.
+—John 3:16
+And we are conscious that all things are working together for good to those who have love for God, and have been marked out by his purpose.
+—Romans 8:28
+Bible in Basic English
+The Bible in Basic English
+Public Domain
+Language:
+English
+Dialect: simple British
+Translation by: Samuel Henry Hooke
+The Bible In Basic English was printed in 1965 by Cambridge Press in England. Published without any copyright notice and distributed in America, this work fell immediately and irretrievably into the Public Domain in the United States according to the UCC convention of that time. A call to Cambridge prior to placing this work in etext resulted in an admission of this fact.
+2020-04-17
+Last updated 2020-04-17   c

@@ -1,0 +1,16 @@
+{
+  "id": "beln",
+  "title": "Belarusian New Testament and Books of Old Testament",
+  "vernacular_title": "Новы Запавет і Кнігі Старога Запавету",
+  "source": "https://ebible.org/Scriptures/details.php?id=beln",
+  "source_archive": "https://eBible.org/Scriptures/beln_usfm.zip",
+  "source_sha256": "79ba2dc784d948a2a25721a4de73b35173e5d6a6cc389664726975088b622124",
+  "source_updated": "2021-05-20",
+  "retrieved": "2026-11-03",
+  "license": "CC BY NC 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-nc/4.0",
+  "books": 31,
+  "verse_rows": 13154,
+  "conversion": "Plain-verse format conversion; headings, notes, cross references and front/back matter omitted from display. Raw USFM and complete source page retained.",
+  "attribution": "Новы Запавет і Кнігі Старога Запавету. Copyright © 2016 John the Forerunner Church of Christians of Evangelical Faith of Minsk City copyright © 2016 copyright and source information. Source: eBible.org, reviewed 2021-05-20. CC BY NC 4.0. Plain-verse format conversion; source words and punctuation retained. Headings, footnotes, cross references and publication-only material are omitted from display, not asserted to be absent from the source. Complete notices are retained in the source archive. No publisher endorsement."
+}

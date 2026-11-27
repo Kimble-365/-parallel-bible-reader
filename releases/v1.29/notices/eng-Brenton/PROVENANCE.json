@@ -1,0 +1,16 @@
+{
+  "id": "eng-Brenton",
+  "title": "Brenton English Septuagint",
+  "vernacular_title": "Brenton Septuagint Translation",
+  "source": "https://ebible.org/Scriptures/details.php?id=eng-Brenton",
+  "source_archive": "https://eBible.org/Scriptures/eng-Brenton_usfm.zip",
+  "source_sha256": "9b1a4e09381885c658c1cc70ea56a64c125c85d8697a4f03cb6ad66a1bcd985c",
+  "source_updated": "2026-10-07",
+  "retrieved": "2026-11-03",
+  "license": "Public Domain",
+  "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "books": 52,
+  "verse_rows": 28582,
+  "conversion": "Plain-verse format conversion; headings, notes, cross references and front/back matter omitted from display. Raw USFM and complete source page retained.",
+  "attribution": "Brenton Septuagint Translation.  Source: eBible.org, reviewed 2026-10-07. Public Domain. Plain-verse format conversion; source words and punctuation retained. Headings, footnotes, cross references and publication-only material are omitted from display, not asserted to be absent from the source. Complete notices are retained in the source archive. No publisher endorsement."
+}

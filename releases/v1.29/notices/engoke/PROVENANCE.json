@@ -1,0 +1,16 @@
+{
+  "id": "engoke",
+  "title": "Targum Onkelos Etheridge",
+  "vernacular_title": "Targum Onkelos Etheridge",
+  "source": "https://ebible.org/Scriptures/details.php?id=engoke",
+  "source_archive": "https://eBible.org/Scriptures/engoke_usfm.zip",
+  "source_sha256": "c349c2008b891f4ab37c9f59e8340d3884f48a0d0094138857b0f3ec56c0b805",
+  "source_updated": "2020-12-20",
+  "retrieved": "2026-11-03",
+  "license": "Public Domain",
+  "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "books": 5,
+  "verse_rows": 5848,
+  "conversion": "Plain-verse format conversion; headings, notes, cross references and front/back matter omitted from display. Raw USFM and complete source page retained.",
+  "attribution": "Targum Onkelos Etheridge.  Source: eBible.org, reviewed 2020-12-20. Public Domain. Plain-verse format conversion; source words and punctuation retained. Headings, footnotes, cross references and publication-only material are omitted from display, not asserted to be absent from the source. Complete notices are retained in the source archive. No publisher endorsement."
+}

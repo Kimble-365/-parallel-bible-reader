@@ -1,0 +1,16 @@
+{
+  "id": "rmna",
+  "title": "Balkans Arli Bible",
+  "vernacular_title": "I Biblija ki Arli romani čhib Srbija",
+  "source": "https://ebible.org/Scriptures/details.php?id=rmna",
+  "source_archive": "https://eBible.org/Scriptures/rmna_usfm.zip",
+  "source_sha256": "c357bdb6e882095f71f1558676be91172d98ce0736a2c6ea3440627bd18dad89",
+  "source_updated": "2025-06-27",
+  "retrieved": "2026-11-03",
+  "license": "CC BY SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "books": 27,
+  "verse_rows": 7956,
+  "conversion": "Plain-verse format conversion; headings, notes, cross references and front/back matter omitted from display. Raw USFM and complete source page retained.",
+  "attribution": "I Biblija ki Arli romani čhib Srbija. Copyright © 2025 The Word for the World International copyright © 2025 copyright and source information. Source: eBible.org, reviewed 2025-06-27. CC BY SA 4.0. Plain-verse format conversion; source words and punctuation retained. Headings, footnotes, cross references and publication-only material are omitted from display, not asserted to be absent from the source. Complete notices are retained in the source archive. No publisher endorsement."
+}

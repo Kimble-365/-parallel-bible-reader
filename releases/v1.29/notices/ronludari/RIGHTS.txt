@@ -1,0 +1,67 @@
+Luka
+eBible.org
+Translations
+Territories
+Luka
+Ludari Luke
+Language:
+[ron]
+Ludari
+Romanian
+Dialect:
+Ludari
+Title:
+Luka
+Ludari Luke
+Abbreviation:
+RMRBSL
+ID: RONLUD or ronludari
+Copyright © 2019 Pioneer
+Format
+Link
+Browser Bible
+Study online with Browser Bible
+Mobile HTML
+Read Mobile HTML online
+Zipped mobile HTML
+ronludari_html.zip
+ePub 3
+and
+Kindle
+ronludari.epub
+PDF
+PDF file list
+Crosswire Sword module
+ronludari12019eb.zip
+Plain text canon only chapter files
+ronludari_readaloud.zip
+BibleWorks import (VPL) + SQL
+ronludari_vpl.zip
+Browser Bible module
+ronludari_browserBible.zip
+USFX
+ronludari_usfx.zip
+USFM
+ronludari_usfm.zip
+XeTeX
+ronludari_xetex.zip
+The Gospel According to Luke in the Ludari Dialect of the Romanian Language, as spoken in Croatia
+Luka
+The Gospel According to Luke in the Ludari Dialect of the Romanian Language, as spoken in Croatia
+copyright © 2019
+Pioneer
+Language:
+Ludari (Romanian)
+Dialect: Ludari
+DRAFT VERSION
+This translation is made available to you under the terms of the
+Creative Commons Attribution Share-Alike license 4.0.
+You have permission to share and redistribute this Bible translation in any format and to make reasonable revisions and adaptations of this translation, provided that:
+You include the above copyright and source information.
+If you make any changes to the text, you must indicate that you did so in a way that makes it clear that the original licensor is not necessarily endorsing your changes.
+If you redistribute this text, you must distribute your contributions under the same license as the original.
+Pictures included with Scriptures and other documents on this site are licensed just for use with those Scriptures and documents.
+For other uses, please contact the respective copyright owners.
+Note that in addition to the rules above, revising and adapting God's Word involves a great responsibility to be true to God's Word. See Revelation 22:18-19.
+2026-07-15
+Last updated 2026-07-15   tiny3

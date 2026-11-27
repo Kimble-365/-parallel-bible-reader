@@ -1,0 +1,64 @@
+La Sainte Bible
+eBible.org
+Translations
+Territories
+La Sainte Bible
+French Ostervald Bible
+Language:
+[fra]
+français
+French
+Title:
+La Sainte Bible
+French Ostervald Bible
+Abbreviation:
+FOB
+ID: FRAOST or fra_fob
+public domain
+Format
+Link
+Browser Bible
+Study online with Browser Bible
+Mobile HTML
+Read Mobile HTML online
+Zipped mobile HTML
+fra_fob_html.zip
+ePub 3
+and
+Kindle
+fra_fob.epub
+PDF
+PDF file list
+Crosswire Sword module
+fraFOB1744eb.zip
+Plain text canon only chapter files
+fra_fob_readaloud.zip
+BibleWorks import (VPL) + SQL
+fra_fob_vpl.zip
+Browser Bible module
+fra_fob_browserBible.zip
+USFX
+fra_fob_usfx.zip
+USFM
+fra_fob_usfm.zip
+XeTeX
+fra_fob_xetex.zip
+The Holy Bible in French, Ostervald
+Au commencement, Dieu créa les cieux et la terre.
+—Genesis 1:1
+Psaume de David. L'Éternel est mon berger; je n'aurai point de disette.
+—Psalm 23:1
+Mais cherchez premièrement le royaume de Dieu et sa justice, et toutes ces choses vous seront données par-dessus.
+—Matthew 6:33
+Car Dieu a tant aimé le monde, qu'il a donné son Fils unique, afin que quiconque croit en lui ne périsse point, mais qu'il ait la vie éternelle.
+—John 3:16
+Or, nous savons aussi que toutes choses concourent au bien de ceux qui aiment Dieu, de ceux qui sont appelés, selon son dessein.
+—Romans 8:28
+La Sainte Bible
+The Holy Bible in French, Ostervald
+Public Domain
+Language:
+français (French)
+Translation by: Ostervald
+2026-10-30
+Last updated 2026-10-30   tiny3

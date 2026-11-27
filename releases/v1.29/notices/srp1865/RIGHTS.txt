@@ -1,0 +1,66 @@
+Sveto Pismo ili Biblija
+eBible.org
+Translations
+Territories
+Sveto Pismo ili Biblija
+Serbian DK Bible (Latin)
+Language:
+[srp]
+srpski jezik
+Serbian
+Title:
+Sveto Pismo ili Biblija
+Serbian DK Bible (Latin)
+Abbreviation:
+ID: SRPDKL or srp1865
+public domain
+Format
+Link
+Browser Bible
+Study online with Browser Bible
+Mobile HTML
+Read Mobile HTML online
+Zipped mobile HTML
+srp1865_html.zip
+ePub 3
+and
+Kindle
+srp1865.epub
+PDF
+PDF file list
+Crosswire Sword module
+srp1865eb.zip
+Plain text canon only chapter files
+srp1865_readaloud.zip
+BibleWorks import (VPL) + SQL
+srp1865_vpl.zip
+Browser Bible module
+srp1865_browserBible.zip
+USFX
+srp1865_usfx.zip
+USFM
+srp1865_usfm.zip
+XeTeX
+srp1865_xetex.zip
+The Holy Bible in Serbian (Latin alphabet), translated by Vuk Karadžić and Đura Daničić
+U početku stvori Bog nebo i zemlju.
+—Genesis 1:1
+Psalam Davidov. Gospod je pastir moj, ništa mi neće nedostajati.
+—Psalm 23:1
+Nego ištite najpre carstvo Božje, i pravdu Njegovu, i ovo će vam se sve dodati.
+—Matthew 6:33
+Jer Bogu tako omile svet da je i Sina svog Jedinorodnog dao, da nijedan koji Ga veruje ne pogine, nego da ima život večni.
+—John 3:16
+A znamo da onima koji ljube Boga sve ide na dobro, koji su pozvani po namerenju.
+—Romans 8:28
+Sveto Pismo ili Biblija
+The Holy Bible in Serbian (Latin alphabet), translated by Vuk Karadžić and Đura Daničić
+Public Domain
+Language:
+srpski jezik (Serbian)
+Translation by: Vuk Karadžić,  Đura Daničić
+Vuk Karadžić translated the New Testament of the Bible in Serbian, publishing it in Vienna in 1847. Đura Daničić assisted Karadžić in that work, and later added an Old Testament translation in 1867. The whole Bible was published in 1868. This copy was brought to you by
+eBible.org
+.
+2026-01-03
+Last updated 2026-01-03   e

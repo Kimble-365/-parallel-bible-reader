@@ -1,0 +1,75 @@
+Die Schlachter-Bibel 1951
+eBible.org
+Translations
+Territories
+Die Schlachter-Bibel 1951
+German Schlachter Bible 1951
+Language:
+[deu]
+Deutsch
+German, Standard
+Title:
+Die Schlachter-Bibel 1951
+German Schlachter Bible 1951
+Abbreviation:
+SCH1951
+ID: DEUSCH or deu1951
+Copyright © 1951 Genfer Bibelgeschellschaft (Geneva Bible Society)
+Format
+Link
+Browser Bible
+Study online with Browser Bible
+Mobile HTML
+Read Mobile HTML online
+Zipped mobile HTML
+deu1951_html.zip
+ePub 3
+and
+Kindle
+deu1951.epub
+PDF
+PDF file list
+Crosswire Sword module
+deu1951eb.zip
+Plain text canon only chapter files
+deu1951_readaloud.zip
+BibleWorks import (VPL) + SQL
+deu1951_vpl.zip
+Browser Bible module
+deu1951_browserBible.zip
+USFX
+deu1951_usfx.zip
+USFM
+deu1951_usfm.zip
+XeTeX
+deu1951_xetex.zip
+The Holy Bible in German, Schlachter 1951 version
+Im Anfang schuf Gott den Himmel und die Erde.
+—Genesis 1:1
+Ein Psalm Davids. Der HERR ist mein Hirte; mir wird nichts mangeln.
+—Psalm 23:1
+Trachtet aber zuerst nach dem Reiche Gottes und nach seiner Gerechtigkeit, so wird euch solches alles hinzugelegt werden.
+—Matthew 6:33
+Denn Gott hat die Welt so geliebt, daß er seinen eingeborenen Sohn gab, damit jeder, der an ihn glaubt, nicht verloren gehe, sondern ewiges Leben habe.
+—John 3:16
+Wir wissen aber, daß denen, die Gott lieben, alles zum Besten mitwirkt, denen, die nach dem Vorsatz berufen sind.
+—Romans 8:28
+Die Schlachter-Bibel 1951
+The Holy Bible in German, Schlachter 1951 version
+copyright © 1951
+Genfer Bibelgeschellschaft (Geneva Bible Society)
+Language:
+Deutsch (German, Standard)
+Translation by: Franz-Eugen Schlachter
+Contributor: Genfer Bibelgesellschaft
+Die Heilige Schrift des Alten und Neuen Testaments nach dem Urtext Übersetzt von Franz Eugen Schlachter. Neue Überarbeitung 1951 durch Genfer Bibelgesellschaft.
+This translation is made available to you under the terms of the
+Creative Commons Attribution license 4.0.
+You may share and redistribute this Bible translation or extracts from it in any format, provided that:
+You include the above copyright and source information.
+If you make any changes to the text, you must indicate that you did so in a way that makes it clear that the original licensor is not necessarily endorsing your changes.
+Pictures included with Scriptures and other documents on this site are licensed just for use with those Scriptures and documents.
+For other uses, please contact the respective copyright owners.
+Note that in addition to the rules above, revising and adapting God's Word involves a great responsibility to be true to God's Word. See Revelation 22:18-19.
+2022-03-30
+Last updated 2022-03-30   e

@@ -1,0 +1,63 @@
+EUROPEAN REFERENCE EDITIONS — PARALLEL BIBLE READER 1.29
+========================================================
+Date: 2026-11-03
+Status: reference material imported; available for consultation
+
+SCOPE
+-----
+Collection of redistributable English and European Bible editions for
+side-by-side consultation with The Way Version. The material lives in the
+Parallel Bible Reader (release 1.29) and is packaged under
+original-documents/reference-editions/parallel-reader-1.29/.
+
+Target languages from the original request: Finnish, Swedish, Norwegian,
+Danish, Icelandic, plus English and other European languages.
+
+METHOD
+------
+1. Enumerated the eBible.org Scriptures catalogue (1,552 rows; 1,295 marked
+   redistributable) on 2026-11-03.
+2. Filtered to 133 English/European candidate editions; downloaded and read
+   each edition's details page and USFM archive.
+3. Skipped 13 candidates already present in the reader under another id
+   (duplicate mapping is recorded in the review register).
+4. Excluded 4 candidates whose notices did not grant general electronic
+   redistribution (reasons in the review register and the rights review).
+5. Imported 116 editions through a deterministic plain-verse pipeline:
+   USFM -> verse rows -> per-book gzip packs with recorded SHA-256 for both
+   the expanded and packed bytes.
+6. Verified the result with an audit script and a headless-browser runtime
+   check (all 116 new editions load; preserved editions still load; search
+   and offline save work).
+
+LIMITATIONS
+-----------
+- Coverage is whatever the source edition contains at the snapshot date:
+  several editions are New Testament only; the Icelandic 316-biblían
+  currently contains Mark only.
+- Versification is the source's own. Cross-edition alignment is not
+  asserted; the reader labels this per edition.
+- No-derivatives editions (CC BY-ND, CC BY-NC-ND) received format conversion
+  only. Words and punctuation are the source's; headings, notes, cross
+  references and front/back matter are omitted from display but remain in
+  the source archives.
+- The import is technical ingestion, not scholarly verification of the
+  underlying texts.
+
+EXCLUSIONS
+----------
+- swef: copyright notice only; no explicit redistribution licence on the
+  reviewed source page.
+- engnet: separate licence review required; verse-only display would omit
+  the integral translators' notes.
+- ukr1996: the source permission imposes a doctrinal condition on
+  redistributors, so it is not a general public redistribution grant.
+- spav1602p: the reviewed notice permits printing but does not clearly grant
+  electronic redistribution.
+
+RELATION TO THE WAY VERSION
+---------------------------
+These are third-party reference editions. They are not The Way Version text,
+do not imply endorsement by The Way Partners LLC, and are not inputs to the
+canonical EPUB or the mobile reader feed. The Way Version text remains
+© 2026 The Way Partners LLC under its own terms.

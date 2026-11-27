@@ -1,0 +1,72 @@
+King James Version + Apocrypha
+eBible.org
+Translations
+Territories
+King James Version + Apocrypha
+Language:
+[eng]
+English
+English
+Dialect:
+archaic British
+Title:
+King James Version + Apocrypha
+King James Version + Apocrypha
+Abbreviation:
+KJVD
+ID: ENGKJA or eng-kjv
+public domain
+Format
+Link
+Browser Bible
+Study online with Browser Bible
+Mobile HTML
+Read Mobile HTML online
+Zipped mobile HTML
+eng-kjv_html.zip
+ePub 3
+and
+Kindle
+eng-kjv.epub
+PDF
+PDF file list
+Crosswire Sword module
+engKJV1769eb.zip
+Plain text canon only chapter files
+eng-kjv_readaloud.zip
+BibleWorks import (VPL) + SQL
+eng-kjv_vpl.zip
+Browser Bible module
+eng-kjv_browserBible.zip
+USFX
+eng-kjv_usfx.zip
+USFM
+eng-kjv_usfm.zip
+XeTeX
+eng-kjv_xetex.zip
+The King James Version or Authorized Version of the Holy Bible, using the standardized text of 1769, with Apocrypha/Deuterocanon
+In the beginning God created the heaven and the earth.
+—Genesis 1:1
+A Psalm of David. The LORD is my shepherd; I shall not want.
+—Psalm 23:1
+But seek ye first the kingdom of God, and his righteousness; and all these things shall be added unto you.
+—Matthew 6:33
+¶ For God so loved the world, that he gave his only begotten Son, that whosoever believeth in him should not perish, but have everlasting life.
+—John 3:16
+And we know that all things work together for good to them that love God, to them who are the called according to his purpose.
+—Romans 8:28
+King James Version + Apocrypha
+The King James Version or Authorized Version of the Holy Bible, using the standardized text of 1769, with Apocrypha/Deuterocanon
+Public Domain
+Language:
+English
+Dialect: archaic British
+Letters patent issued by King James with no expiration date means that to print this translation in the United Kingdom or import printed copies into the UK, you need permission. Currently, the Cambridge University Press, the Oxford University Press, and Collins have the exclusive right to print this Bible translation in the UK. This royal decree has no effect outside of the UK, where this work is firmly in the Public Domain. Please see http://www.cambridge.org/about-us/who-we-are/queens-printers-patent and https://en.wikipedia.org/wiki/King_James_Version#Copyright_status for more information.
+
+This free text of the King James Version of the Holy Bible is brought to you courtesy of the
+Crosswire Bible Society
+and
+eBible.org
+.
+2026-09-26
+Last updated 2026-09-26   e

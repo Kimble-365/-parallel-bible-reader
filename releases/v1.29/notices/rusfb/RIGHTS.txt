@@ -1,0 +1,67 @@
+Библия свободы
+eBible.org
+Translations
+Territories
+Библия свободы
+Russian Freedom Bible
+Language:
+[rus]
+Русский
+Russian
+Title:
+Библия свободы
+Russian Freedom Bible
+Abbreviation:
+ID: RUSFBD or rusfb
+public domain
+Format
+Link
+Browser Bible
+Study online with Browser Bible
+Mobile HTML
+Read Mobile HTML online
+Zipped mobile HTML
+rusfb_html.zip
+ePub 3
+and
+Kindle
+rusfb.epub
+PDF
+PDF file list
+Crosswire Sword module
+rusfb2026eb.zip
+Plain text canon only chapter files
+rusfb_readaloud.zip
+BibleWorks import (VPL) + SQL
+rusfb_vpl.zip
+Browser Bible module
+rusfb_browserBible.zip
+USFX
+rusfb_usfx.zip
+USFM
+rusfb_usfm.zip
+XeTeX
+rusfb_xetex.zip
+The Holy Bible in Russian, Freedom Bible translation
+Священное Писание на русском языке, перевод «Библия Свободы»
+В начале Бог создал небо и землю.
+—Genesis 1:1
+Псалом Давида. Господь — мой пастух, мне ни в чём не будет недостатка.
+—Psalm 23:1
+Прежде всего ищите Божьего Царства и Его праведности — и всё это будет дано вам в придачу.
+—Matthew 6:33
+Ведь Бог так полюбил мир, что отдал Своего единородного Сына, чтобы каждый, кто верит в Него, не погиб, а имел вечную жизнь.
+—John 3:16
+Мы знаем, что всё содействует благу тех, кто любит Бога, кто призван по Его замыслу.
+—Romans 8:28
+Библия свободы
+The Holy Bible in Russian, Freedom Bible translation
+Священное Писание на русском языке, перевод «Библия Свободы»
+Public Domain
+Language:
+Русский (Russian)
+Это черновой вариант перевода. Пожалуйста, присылайте свои замечания и предложения по улучшению на адрес
+[email protected]
+.
+2026-10-30
+Last updated 2026-10-30   c

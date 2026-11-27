@@ -1,0 +1,104 @@
+Biblica® Novi srpski prevod, slobodna prava
+eBible.org
+Translations
+Territories
+Biblica® Novi srpski prevod, slobodna prava
+Serbian ONST Latin
+Language:
+[srp]
+Српски/ Srpski
+Serbian
+Title:
+Biblica® Novi srpski prevod, slobodna prava
+Serbian ONST Latin
+Abbreviation:
+ONST
+ID: SRPONSTL or srponstl
+Copyright © 2005 2017 Biblica, Inc.
+Format
+Link
+Browser Bible
+Study online with Browser Bible
+Mobile HTML
+Read Mobile HTML online
+Zipped mobile HTML
+srponstl_html.zip
+ePub 3
+and
+Kindle
+srponstl.epub
+PDF
+PDF file list
+Crosswire Sword module
+srponstl2017eb.zip
+Plain text canon only chapter files
+srponstl_readaloud.zip
+BibleWorks import (VPL) + SQL
+srponstl_vpl.zip
+Browser Bible module
+srponstl_browserBible.zip
+USFX
+srponstl_usfx.zip
+USFM
+srponstl_usfm.zip
+XeTeX
+srponstl_xetex.zip
+The Holy Bible in the Serbian language, Latin script: Biblica® Novi srpski prevod, slobodna prava
+U početku stvori Bog nebo i zemlju.
+—Genesis 1:1
+Psalam Davidov. Gospod je meni Pastir, ni u čemu ja ne oskudevam.
+—Psalm 23:1
+Tražite prvo Carstvo Božije i njegovu pravednost, a sve ovo će vam se dodati.
+—Matthew 6:33
+Jer Bog je tako zavoleo svet, da je svog jedinorođenog Sina dao, da ko god poveruje u njega, ne propadne, nego da ima večni život.
+—John 3:16
+Jer znamo da sve ide na dobro onima koji vole Boga, onima koje je on pozvao po svojoj volji.
+—Romans 8:28
+Biblica® Novi srpski prevod, slobodna prava
+The Holy Bible in the Serbian language, Latin script: Biblica® Novi srpski prevod, slobodna prava
+copyright © 2005 2017
+Biblica, Inc.
+Language:
+Српски/ Srpski (Serbian)
+Contributor: Biblica, Inc.
+Biblica® Novi srpski prevod, slobodna prava™
+Autorska prava © 2005, 2017 Biblica, Inc.
+Biblica® Open New Serbian Translation™
+Copyright © 2005, 2017 by Biblica, Inc.
+„Biblica“ je zaštićeni znak registrovan od strane Biblica, Inc u Zavodu za patente i žigove Sjedinjenih Američkih Država. Koristi se sa dozvolom.
+“Biblica” is a trademark registered in the United States Patent and Trademark Office by Biblica, Inc. Used with permission.
+Creative Commons License
+Ovo Sveti pismo ili „Delo“ je dostupna pod međunarodnom licencom Creative Commons Attribution-ShareAlike 4.0 (CC BY-SA). Da biste videli ovu licencu, posetite https://creativecommons.org/licenses/by-sa/4.0|https://creativecommons.org/licenses/by-sa/4.0 ili pošaljite pismo na adresu: Creative Commons, PO Box 1866, Mountain Viev, CA 94042, SAD.
+“Biblica” je zaštićeni znak registrovan od strane Biblica, Inc. Svaki put kada koristite žig Biblica®, morate da imate pisanu dozvolu od Biblica, Inc. Imate dozvolu da kopirate i distribuirate ovo delo, sve dok ga ne menjate i zadržavate naslov kakav jeste, koji uključuje zaštićeni znak „Biblica®“. Promena ili prevođenje ovog dela će stvoriti izvedeno delo, koje će zahtevati da uklonite zaštićeni znak Biblica®. Kada objavite ovo izvedeno delo, morate da navedete koje ste promene napravili tamo gde ljudi mogu da ih vide, na primer na internet stranici. Takođe, morate da pokažete odakle je originalno delo: „Originalno delo Biblica, Inc. je besplatno dostupno na www.biblica.com fi https://open.bible.“
+Bez obzira da li koristite ovo delo bez promena ili napravite izvedeno delo, izjava o autorskim pravima mora da bude navedena na naslovnoj strani ili strani o autorskim pravima dela/proizvеdnog dela na sledeći način:
+Biblica® Novi srpski prevod, slobodna prava™
+Autorska prava © 2005, 2017 Biblica, Inc.
+Biblica® Open New Serbian Translation™
+Copyright © 2005, 2017 by Biblica, Inc.
+„Biblica“ je zaštićeni znak registrovan od strane Biblica, Inc u Zavodu za patente i žigove Sjedinjenih Američkih Država. Koristi se sa dozvolom.
+“Biblica” is a trademark registered in the United States Patent and Trademark Office by Biblica, Inc. Used with permission.
+Takođe, morate da ponudite svoj izvedeni rad koristeći istu licencu (CC BY-SA) i pravila.
+Ukoliko želite da obavestite Biblicu, Inc. u vezi sa vašim prevodom ovog dela, molimo vas da nas kontaktirate na https://open.bible/contact-us.
+――――――
+This work is made available under the Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA). To view a copy of this license, visit https://creativecommons.org/licenses/by-sa/4.0|https://creativecommons.org/licenses/by-sa/4.0 or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
+Biblica® is a trademark registered by Biblica, Inc., and use of the Biblica® trademark requires the written permission of Biblica, Inc. Under the terms of the CC BY-SA license, you may copy and redistribute this unmodified work as long as you keep the Biblica® trademark intact. If you modify a copy or translate this work, thereby creating a derivative work, you must remove the Biblica® trademark. On the derivative work, you must indicate what changes you have made and attribute the work as follows: “The original work by Biblica, Inc. is available for free at www.biblica.com and open.bible.”
+Notice of copyright must appear on the title or copyright page of the work as follows:
+Biblica® Novi srpski prevod, slobodna prava™
+Autorska prava © 2005, 2017 Biblica, Inc.
+Biblica® Open New Serbian Translation™
+Copyright © 2005, 2017 by Biblica, Inc.
+„Biblica“ je zaštićeni znak registrovan od strane Biblica, Inc u Zavodu za patente i žigove Sjedinjenih Američkih Država. Koristi se sa dozvolom.
+“Biblica” is a trademark registered in the United States Patent and Trademark Office by Biblica, Inc. Used with permission.
+You must also make your derivative work available under the same license (CC BY-SA).
+If you would like to notify Biblica, Inc. regarding your translation of this work, please contact us at open.bible/contact-us.
+This translation is made available to you under the terms of the
+Creative Commons Attribution Share-Alike license 4.0.
+You have permission to share and redistribute this Bible translation in any format and to make reasonable revisions and adaptations of this translation, provided that:
+You include the above copyright and source information.
+If you make any changes to the text, you must indicate that you did so in a way that makes it clear that the original licensor is not necessarily endorsing your changes.
+If you redistribute this text, you must distribute your contributions under the same license as the original.
+Pictures included with Scriptures and other documents on this site are licensed just for use with those Scriptures and documents.
+For other uses, please contact the respective copyright owners.
+Note that in addition to the rules above, revising and adapting God's Word involves a great responsibility to be true to God's Word. See Revelation 22:18-19.
+2025-05-20
+Last updated 2025-05-20   c

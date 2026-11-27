@@ -1,0 +1,16 @@
+{
+  "id": "engULB",
+  "title": "Unlocked Literal Bible",
+  "vernacular_title": "Unlocked Literal Bible",
+  "source": "https://ebible.org/Scriptures/details.php?id=engULB",
+  "source_archive": "https://eBible.org/Scriptures/engULB_usfm.zip",
+  "source_sha256": "fc8c949fdb6430b05977b6a6276519c17db83d61a0e98f2693de22dcc41ed278",
+  "source_updated": "2020-12-04",
+  "retrieved": "2026-11-03",
+  "license": "CC BY SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "books": 66,
+  "verse_rows": 31078,
+  "conversion": "Plain-verse format conversion; headings, notes, cross references and front/back matter omitted from display. Raw USFM and complete source page retained.",
+  "attribution": "Unlocked Literal Bible. Copyright © 2017 Door43 World Missions Community copyright © 2017 copyright and source information. Source: eBible.org, reviewed 2020-12-04. CC BY SA 4.0. Plain-verse format conversion; source words and punctuation retained. Headings, footnotes, cross references and publication-only material are omitted from display, not asserted to be absent from the source. Complete notices are retained in the source archive. No publisher endorsement."
+}

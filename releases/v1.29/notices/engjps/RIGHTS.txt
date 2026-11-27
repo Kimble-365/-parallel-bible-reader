@@ -1,0 +1,67 @@
+JPS TaNaKH 1917
+eBible.org
+Translations
+Territories
+JPS TaNaKH 1917
+Language:
+[eng]
+English
+English
+Dialect:
+American
+Title:
+JPS TaNaKH 1917
+JPS TaNaKH 1917
+Abbreviation:
+OJPS
+ID: ENGJPS or engjps
+public domain
+Format
+Link
+Browser Bible
+Study online with Browser Bible
+Mobile HTML
+Read Mobile HTML online
+Zipped mobile HTML
+engjps_html.zip
+ePub 3
+and
+Kindle
+engjps.epub
+PDF
+PDF file list
+Crosswire Sword module
+engjps1917eb.zip
+Plain text canon only chapter files
+engjps_readaloud.zip
+BibleWorks import (VPL) + SQL
+engjps_vpl.zip
+Browser Bible module
+engjps_browserBible.zip
+USFX
+engjps_usfx.zip
+USFM
+engjps_usfm.zip
+XeTeX
+engjps_xetex.zip
+The Jewish Bible (Old Testament) in English, published by the Jewish Publication Society in 1917
+IN THE beginning God created the heaven and the earth.
+—Genesis 1:1
+A Psalm of David. The LORD is my shepherd; I shall not want.
+—Psalm 23:1
+JPS TaNaKH 1917
+The Jewish Bible (Old Testament) in English, published by the Jewish Publication Society in 1917
+Public Domain
+Language:
+English
+Dialect: American
+Translation by: Jewish Publication Society
+This copy of the Old JPS TaNaKH by the
+Jewish Publication Society
+is brought to you courtesy of
+eBible.org
+. For the new JPS TaNaKH (1972, 1978, 1980), please see
+jps.org
+.
+2023-09-19
+Last updated 2023-09-19   tiny3

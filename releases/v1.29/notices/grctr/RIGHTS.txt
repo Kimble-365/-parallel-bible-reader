@@ -1,0 +1,59 @@
+Η Καινή Διαθήκη
+eBible.org
+Translations
+Territories
+Η Καινή Διαθήκη
+Textus Receptus
+Language:
+[grc]
+Ελληνικά
+Greek, Ancient
+Title:
+Η Καινή Διαθήκη
+Textus Receptus
+Abbreviation:
+ID: GRCGTR or grctr
+public domain
+Format
+Link
+Browser Bible
+Study online with Browser Bible
+Mobile HTML
+Read Mobile HTML online
+Zipped mobile HTML
+grctr_html.zip
+ePub 3
+and
+Kindle
+grctr.epub
+PDF
+PDF file list
+Crosswire Sword module
+grctreb.zip
+Plain text canon only chapter files
+grctr_readaloud.zip
+BibleWorks import (VPL) + SQL
+grctr_vpl.zip
+Browser Bible module
+grctr_browserBible.zip
+USFX
+grctr_usfx.zip
+USFM
+grctr_usfm.zip
+XeTeX
+grctr_xetex.zip
+The Greek Textus Receptus New Testament with manuscript annotations by Adam Boyd
+Ζητεῖτε δὲ πρῶτον τὴν βασιλείαν τοῦ Θεοῦ καὶ τὴν δικαιοσύνην αὐτοῦ, καὶ ταῦτα πάντα προστεθήσεται ὑμῖν.
+—Matthew 6:33
+Οὕτω γὰρ ἠγάπησεν ὁ Θεὸς τὸν κόσμον, ὥστε τὸν υἱὸν αὐτοῦ τὸν μονογενῆ ἔδωκεν, ἵνα πᾶς ὁ πιστεύων εἰς αὐτὸν μὴ ἀπόληται, ἀλλ᾿ ἔχῃ ζωὴν αἰώνιον.
+—John 3:16
+Οἴδαμεν δὲ ὅτι τοῖς ἀγαπῶσι τὸν Θεὸν πάντα συνεργεῖ εἰς ἀγαθόν, τοῖς κατὰ πρόθεσιν κλητοῖς οὖσιν.
+—Romans 8:28
+Η Καινή Διαθήκη
+The Greek Textus Receptus New Testament with manuscript annotations by Adam Boyd
+Public Domain
+Language:
+Ελληνικά (Greek, Ancient)
+Manuscript comparison footnotes dedicated to the Public Domain by Adam Boyd. The Greek Textus Receptus New Testament is firmly in the Public Domain due to its age.
+2026-10-30
+Last updated 2026-10-30   tiny3

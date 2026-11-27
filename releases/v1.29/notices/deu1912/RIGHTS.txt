@@ -1,0 +1,64 @@
+Lutherbibel 1912
+eBible.org
+Translations
+Territories
+Lutherbibel 1912
+German Luther Bible 1912
+Language:
+[deu]
+Deutsch
+German, Standard
+Title:
+Lutherbibel 1912
+German Luther Bible 1912
+Abbreviation:
+L1912
+ID: GERL12 or deu1912
+public domain
+Format
+Link
+Browser Bible
+Study online with Browser Bible
+Mobile HTML
+Read Mobile HTML online
+Zipped mobile HTML
+deu1912_html.zip
+ePub 3
+and
+Kindle
+deu1912.epub
+PDF
+PDF file list
+Crosswire Sword module
+deu1912eb.zip
+Plain text canon only chapter files
+deu1912_readaloud.zip
+BibleWorks import (VPL) + SQL
+deu1912_vpl.zip
+Browser Bible module
+deu1912_browserBible.zip
+USFX
+deu1912_usfx.zip
+USFM
+deu1912_usfm.zip
+XeTeX
+deu1912_xetex.zip
+The Holy Bible in German, Luther 1912
+Am Anfang schuf Gott Himmel und Erde.
+—Genesis 1:1
+Ein Psalm Davids. Der HERR ist mein Hirte; mir wird nichts mangeln.
+—Psalm 23:1
+Trachtet am ersten nach dem Reich Gottes und nach seiner Gerechtigkeit, so wird euch solches alles zufallen.
+—Matthew 6:33
+Also hat Gott die Welt geliebt, daß er seinen eingeborenen Sohn gab, auf daß alle, die an ihn glauben, nicht verloren werden, sondern das ewige Leben haben.
+—John 3:16
+Wir wissen aber, daß denen, die Gott lieben, alle Dinge zum Besten dienen, denen, die nach dem Vorsatz berufen sind.
+—Romans 8:28
+Lutherbibel 1912
+The Holy Bible in German, Luther 1912
+Public Domain
+Language:
+Deutsch (German, Standard)
+Translation by: Martin Luther
+2025-12-29
+Last updated 2025-12-29   c

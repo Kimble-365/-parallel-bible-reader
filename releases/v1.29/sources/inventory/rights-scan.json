@@ -1,0 +1,2359 @@
+[
+  {
+    "id": "rup",
+    "territory": "Albania",
+    "language": "Armãneashti/Arumanisht",
+    "english_language": "Armãneashti/Arumanisht",
+    "vernacular": "Biblija tu limba Rrãmãnã",
+    "title": "Aromanian Bible",
+    "redist": true,
+    "restricted": false,
+    "cc": [
+      "https://creativecommons.org/licenses/by-sa/4.0",
+      "https://creativecommons.org/licenses/by-sa/4.0/'"
+    ],
+    "flags": [],
+    "usfm": "https://eBible.org/Scriptures/rup_usfm.zip",
+    "updated": "2025-07-02",
+    "text_chars": 3434
+  },
+  {
+    "id": "engbarkly",
+    "territory": "Australia",
+    "language": "Barkly English",
+    "english_language": "English",
+    "vernacular": "Barkly Bible Portions",
+    "title": "Barkly Bible Portions",
+    "redist": true,
+    "restricted": false,
+    "cc": [
+      "https://creativecommons.org/licenses/by-nc-nd/4.0",
+      "https://creativecommons.org/licenses/by-nc-nd/4.0/'"
+    ],
+    "flags": [
+      "nd"
+    ],
+    "usfm": "https://eBible.org/Scriptures/engbarkly_usfm.zip",
+    "updated": "2026-04-14",
+    "text_chars": 1740
+  },
+  {
+    "id": "engnna",
+    "territory": "Australia",
+    "language": "English",
+    "english_language": "English",
+    "vernacular": "Nyangumarta English Bible",
+    "title": "Nyangumarta English Bible",
+    "redist": true,
+    "restricted": false,
+    "cc": [
+      "https://creativecommons.org/licenses/by-nc-nd/4.0",
+      "https://creativecommons.org/licenses/by-nc-nd/4.0/'"
+    ],
+    "flags": [
+      "nd"
+    ],
+    "usfm": "https://eBible.org/Scriptures/engnna_usfm.zip",
+    "updated": "2026-01-06",
+    "text_chars": 2239
+  },
+  {
+    "id": "engPEV",
+    "territory": "Australia",
+    "language": "Aboriginal English",
+    "english_language": "English",
+    "vernacular": "Plain English Version",
+    "title": "Plain English Version",
+    "redist": true,
+    "restricted": false,
+    "cc": [
+      "https://creativecommons.org/licenses/by-sa/4.0",
+      "https://creativecommons.org/licenses/by-sa/4.0/'"
+    ],
+    "flags": [],
+    "usfm": "https://eBible.org/Scriptures/engPEV_usfm.zip",
+    "updated": "2026-10-30",
+    "text_chars": 3957
+  },
+  {
+    "id": "bel",
+    "territory": "Belarus",
+    "language": "Belarusian",
+    "english_language": "Belarusian",
+    "vernacular": "Біблія (пераклад А.Бокуна)",
+    "title": "Belarusan Bible, A. Boken",
+    "redist": true,
+    "restricted": false,
+    "cc": [
+      "https://creativecommons.org/licenses/by-nc/4.0",
+      "https://creativecommons.org/licenses/by-nc/4.0/'"
+    ],
+    "flags": [
+      "nd"
+    ],
+    "usfm": "https://eBible.org/Scriptures/bel_usfm.zip",
+    "updated": "2025-05-09",
+    "text_chars": 2265
+  },
+  {
+    "id": "beln",
+    "territory": "Belarus",
+    "language": "беларуская",
+    "english_language": "беларуская",
+    "vernacular": "Новы Запавет і Кнігі Старога Запавету",
+    "title": "Belarusian New Testament and Books of Old Testament",
+    "redist": true,
+    "restricted": false,
+    "cc": [
+      "https://creativecommons.org/licenses/by-nc/4.0",
+      "https://creativecommons.org/licenses/by-nc/4.0/'"
+    ],
+    "flags": [
+      "nd"
+    ],
+    "usfm": "https://eBible.org/Scriptures/beln_usfm.zip",
+    "updated": "2021-05-20",
+    "text_chars": 2271
+  },
+  {
+    "id": "nldgbv",
+    "territory": "Belgium",
+    "language": "Nederlands",
+    "english_language": "Nederlands",
+    "vernacular": "Gods Boek",
+    "title": "Dutch: Gods Boek",
+    "redist": true,
+    "restricted": false,
+    "cc": [
+      "https://creativecommons.org/licenses/by-sa/4.0",
+      "https://creativecommons.org/licenses/by-sa/4.0/'"
+    ],
+    "flags": [],
+    "usfm": "https://eBible.org/Scriptures/nldgbv_usfm.zip",
+    "updated": "2025-05-17",
+    "text_chars": 2362
+  },
+  {
+    "id": "hrv",
+    "territory": "Croatia",
+    "language": "Hrvatski",
+    "english_language": "Croatian",
+    "vernacular": "Sveta Biblija",
+    "title": "Croatian Bible",
+    "redist": true,
+    "restricted": false,
+    "cc": [],
+    "flags": [
+      "pd"
+    ],
+    "usfm": "https://eBible.org/Scriptures/hrv_usfm.zip",
+    "updated": "2019-12-16",
+    "text_chars": 1308
+  },
+  {
+    "id": "hrvbib",
+    "territory": "Croatia",
+    "language": "Hrvatski",
+    "english_language": "Hrvatski",
+    "vernacular": "Biblica® Open Knjiga O Kristu",
+    "title": "Croatian NT (Biblica)",
+    "redist": true,
+    "restricted": false,
+    "cc": [
+      "https://creativecommons.org/licenses/by-sa/4.0",
+      "https://creativecommons.org/licenses/by-sa/4‪.0",
+      "https://creativecommons.org/licenses/by-sa/4.0/'"
+    ],
+    "flags": [],
+    "usfm": "https://eBible.org/Scriptures/hrvbib_usfm.zip",
+    "updated": "2025-05-03",
+    "text_chars": 3906
+  },
+  {
+    "id": "ronludari",
+    "territory": "Croatia",
+    "language": "Ludari",
+    "english_language": "Romanian",
+    "vernacular": "Luka",
+    "title": "Ludari Luke",
+    "redist": true,
+    "restricted": false,
+    "cc": [
+      "https://creativecommons.org/licenses/by-sa/4.0",
+      "https://creativecommons.org/licenses/by-sa/4.0/'"
+    ],
+    "flags": [],
+    "usfm": "https://eBible.org/Scriptures/ronludari_usfm.zip",
+    "updated": "2026-07-15",
+    "text_chars": 1958
+  },
+  {
+    "id": "ces1613",
+    "territory": "Czech Republic",
+    "language": "český",
+    "english_language": "Czech",
+    "vernacular": "Bible Kralická 1613",
+    "title": "Czech Kralická Bible 1613",
+    "redist": true,
+    "restricted": false,
+    "cc": [],
+    "flags": [
+      "pd"
+    ],
+    "usfm": "https://eBible.org/Scriptures/ces1613_usfm.zip",
+    "updated": "2023-10-20",
+    "text_chars": 2315
+  },
+  {
+    "id": "ceslb",
+    "territory": "Czech Republic",
+    "language": "Čeština",
+    "english_language": "Czech",
+    "vernacular": "Biblica® Open Slovo na cestu",
+    "title": "Czech Living New Testament",
+    "redist": true,
+    "restricted": false,
+    "cc": [
+      "https://creativecommons.org/licenses/by-sa/4.0",
+      "https://creativecommons.org/licenses/by-sa/4.0/'"
+    ],
+    "flags": [],
+    "usfm": "https://eBible.org/Scriptures/ceslb_usfm.zip",
+    "updated": "2025-04-30",
+    "text_chars": 4100
+  },
+  {
+    "id": "cesnkb",
+    "territory": "Czech Republic",
+    "language": "Češka",
+    "english_language": "Czech",
+    "vernacular": "Nova Bible Kralicka",
+    "title": "Czech NBK NT",
+    "redist": true,
+    "restricted": false,
+    "cc": [
+      "https://creativecommons.org/licenses/by-nd/4.0",
+      "https://creativecommons.org/licenses/by-nd/4.0/'"
+    ],
+    "flags": [
+      "nd"
+    ],
+    "usfm": "https://eBible.org/Scriptures/cesnkb_usfm.zip",
+    "updated": "2014-09-10",
+    "text_chars": 2234
+  },
+  {
+    "id": "dan1931",
+    "territory": "Denmark",
+    "language": "Dansk",
+    "english_language": "Danish",
+    "vernacular": "Hellig Bibel",
+    "title": "Danish Bible 1931",
+    "redist": true,
+    "restricted": false,
+    "cc": [],
+    "flags": [
+      "pd",
+      "custom"
+    ],
+    "usfm": "https://eBible.org/Scriptures/dan1931_usfm.zip",
+    "updated": "2021-07-19",
+    "text_chars": 6587
+  },
+  {
+    "id": "ekkpkp",
+    "territory": "Estonia",
+    "language": "Eesti",
+    "english_language": "Eestonian",
+    "vernacular": "Piibel Kõigile",
+    "title": "Estonian Bible: Piibel Kõigile",
+    "redist": true,
+    "restricted": false,
+    "cc": [
+      "https://creativecommons.org/licenses/by-sa/4.0",
+      "https://creativecommons.org/licenses/by-sa/4.0/'"
+    ],
+    "flags": [],
+    "usfm": "https://eBible.org/Scriptures/ekkpkp_usfm.zip",
+    "updated": "2023-04-10",
+    "text_chars": 2871
+  },
+  {
+    "id": "ekk",
+    "territory": "Estonia",
+    "language": "Eesti",
+    "english_language": "Estonian, Standard",
+    "vernacular": "Biblica® Vaba kasutusega Uus Testament, Pühakiri kaasaegses eesti keeles",
+    "title": "Estonian Contemporary NT",
+    "redist": true,
+    "restricted": false,
+    "cc": [
+      "https://creativecommons.org/licenses/by-sa/4.0",
+      "https://creativecommons.org/licenses/by-sa/4.0/'"
+    ],
+    "flags": [],
+    "usfm": "https://eBible.org/Scriptures/ekk_usfm.zip",
+    "updated": "2025-01-10",
+    "text_chars": 6815
+  },
+  {
+    "id": "fin",
+    "territory": "Finland",
+    "language": "Suomi",
+    "english_language": "Finnish",
+    "vernacular": "Biblica® Avoin Elävä uutinen: Uusi testamentti vapaasti kerrottuna",
+    "title": "Finnish: Biblica® Avoin Elävä uutinen: Uusi testamentti vapaasti kerrottuna (New Testament)",
+    "redist": true,
+    "restricted": false,
+    "cc": [
+      "https://creativecommons.org/licenses/by-sa/4.0",
+      "https://creativecommons.org/licenses/by-sa/4.0/'"
+    ],
+    "flags": [],
+    "usfm": "https://eBible.org/Scriptures/fin_usfm.zip",
+    "updated": "2025-05-02",
+    "text_chars": 6002
+  },
+  {
+    "id": "breBRG",
+    "territory": "France",
+    "language": "Brezhoneg",
+    "english_language": "Breton",
+    "vernacular": "an Bibl",
+    "title": "Breton Gospels",
+    "redist": true,
+    "restricted": false,
+    "cc": [],
+    "flags": [
+      "pd"
+    ],
+    "usfm": "https://eBible.org/Scriptures/breBRG_usfm.zip",
+    "updated": "2014-08-11",
+    "text_chars": 1214
+  },
+  {
+    "id": "frasbl",
+    "territory": "France",
+    "language": "français",
+    "english_language": "French",
+    "vernacular": "Sainte Bible libre pour le monde",
+    "title": "French Free Holy Bible for the World",
+    "redist": true,
+    "restricted": false,
+    "cc": [
+      "https://creativecommons.org/publicdomain/zero/1.0/deed.fr"
+    ],
+    "flags": [
+      "pd"
+    ],
+    "usfm": "https://eBible.org/Scriptures/frasbl_usfm.zip",
+    "updated": "2026-10-30",
+    "text_chars": 1992
+  },
+  {
+    "id": "fraLSG",
+    "territory": "France",
+    "language": "français",
+    "english_language": "French",
+    "vernacular": "Louis Segond 1910",
+    "title": "French Louis Segond 1910 Bible",
+    "redist": true,
+    "restricted": false,
+    "cc": [],
+    "flags": [
+      "pd"
+    ],
+    "usfm": "https://eBible.org/Scriptures/fraLSG_usfm.zip",
+    "updated": "2026-10-30",
+    "text_chars": 1698
+  },
+  {
+    "id": "francl",
+    "territory": "France",
+    "language": "français",
+    "english_language": "French",
+    "vernacular": "Sainte Bible néo-Crampon Libre",
+    "title": "French néo-Crampon Libre",
+    "redist": true,
+    "restricted": false,
+    "cc": [
+      "https://creativecommons.org/licenses/by-sa/4.0",
+      "https://creativecommons.org/licenses/by-sa/4.0/'"
+    ],
+    "flags": [],
+    "usfm": "https://eBible.org/Scriptures/francl_usfm.zip",
+    "updated": "2026-10-30",
+    "text_chars": 2771
+  },
+  {
+    "id": "fra_fob",
+    "territory": "France",
+    "language": "français",
+    "english_language": "French",
+    "vernacular": "La Sainte Bible",
+    "title": "French Ostervald Bible",
+    "redist": true,
+    "restricted": false,
+    "cc": [],
+    "flags": [
+      "pd"
+    ],
+    "usfm": "https://eBible.org/Scriptures/fra_fob_usfm.zip",
+    "updated": "2026-10-30",
+    "text_chars": 1431
+  },
+  {
+    "id": "frajnd",
+    "territory": "France",
+    "language": "Français",
+    "english_language": "French",
+    "vernacular": "Bible J.N. Darby",
+    "title": "French: Bible J.N. Darby",
+    "redist": true,
+    "restricted": false,
+    "cc": [],
+    "flags": [
+      "pd"
+    ],
+    "usfm": "https://eBible.org/Scriptures/frajnd_usfm.zip",
+    "updated": "2025-05-02",
+    "text_chars": 1840
+  },
+  {
+    "id": "deuelbbk",
+    "territory": "Germany",
+    "language": "Deutsch",
+    "english_language": "German",
+    "vernacular": "Elberfelder Übersetzung (Version von bibelkommentare.de)",
+    "title": "German ELBBK Bible",
+    "redist": true,
+    "restricted": false,
+    "cc": [
+      "https://creativecommons.org/licenses/by-nc-nd/4.0",
+      "https://creativecommons.org/licenses/by-nc-nd/4.0/'"
+    ],
+    "flags": [
+      "nd"
+    ],
+    "usfm": "https://eBible.org/Scriptures/deuelbbk_usfm.zip",
+    "updated": "2023-10-23",
+    "text_chars": 4038
+  },
+  {
+    "id": "deu1912",
+    "territory": "Germany",
+    "language": "Deutsch",
+    "english_language": "German, Standard",
+    "vernacular": "Lutherbibel 1912",
+    "title": "German Luther Bible 1912",
+    "redist": true,
+    "restricted": false,
+    "cc": [],
+    "flags": [
+      "pd"
+    ],
+    "usfm": "https://eBible.org/Scriptures/deu1912_usfm.zip",
+    "updated": "2025-12-29",
+    "text_chars": 1439
+  },
+  {
+    "id": "deu1951",
+    "territory": "Germany",
+    "language": "Deutsch",
+    "english_language": "German, Standard",
+    "vernacular": "Die Schlachter-Bibel 1951",
+    "title": "German Schlachter Bible 1951",
+    "redist": true,
+    "restricted": false,
+    "cc": [
+      "https://creativecommons.org/licenses/by/4.0",
+      "https://creativecommons.org/licenses/by/4.0/'"
+    ],
+    "flags": [],
+    "usfm": "https://eBible.org/Scriptures/deu1951_usfm.zip",
+    "updated": "2022-03-30",
+    "text_chars": 2625
+  },
+  {
+    "id": "deutkw",
+    "territory": "Germany",
+    "language": "Deutsch",
+    "english_language": "German, Standard",
+    "vernacular": "Textbibel von Kautzsch und Weizsäcker",
+    "title": "German Textbibel",
+    "redist": true,
+    "restricted": false,
+    "cc": [],
+    "flags": [
+      "pd"
+    ],
+    "usfm": "https://eBible.org/Scriptures/deutkw_usfm.zip",
+    "updated": "2025-08-30",
+    "text_chars": 1933
+  },
+  {
+    "id": "deuelo",
+    "territory": "Germany",
+    "language": "Deutsch",
+    "english_language": "German, Standard",
+    "vernacular": "Darby Unrevidierte Elberfelder",
+    "title": "German Unrevised Elberfelder Bible",
+    "redist": true,
+    "restricted": false,
+    "cc": [],
+    "flags": [
+      "pd"
+    ],
+    "usfm": "https://eBible.org/Scriptures/deuelo_usfm.zip",
+    "updated": "2023-09-19",
+    "text_chars": 1693
+  },
+  {
+    "id": "grcbrent",
+    "territory": "Greece",
+    "language": "Ἑλληνική",
+    "english_language": "Greek, Ancient",
+    "vernacular": "μετάφραση των εβδομήκοντα",
+    "title": "Brenton Septuagint",
+    "redist": true,
+    "restricted": false,
+    "cc": [],
+    "flags": [
+      "pd"
+    ],
+    "usfm": "https://eBible.org/Scriptures/grcbrent_usfm.zip",
+    "updated": "2026-04-08",
+    "text_chars": 1185
+  },
+  {
+    "id": "grcbyz",
+    "territory": "Greece",
+    "language": "Ελληνικά",
+    "english_language": "Greek, Ancient",
+    "vernacular": "Η Καινή Διαθήκη",
+    "title": "Byzantine Greek  NT",
+    "redist": true,
+    "restricted": false,
+    "cc": [],
+    "flags": [
+      "pd"
+    ],
+    "usfm": "https://eBible.org/Scriptures/grcbyz_usfm.zip",
+    "updated": "2026-10-30",
+    "text_chars": 1322
+  },
+  {
+    "id": "grcmt",
+    "territory": "Greece",
+    "language": "Ελληνικά",
+    "english_language": "Greek, Ancient",
+    "vernacular": "Η Καινή Διαθήκη",
+    "title": "Greek Majority Text NT",
+    "redist": true,
+    "restricted": false,
+    "cc": [],
+    "flags": [
+      "pd"
+    ],
+    "usfm": "https://eBible.org/Scriptures/grcmt_usfm.zip",
+    "updated": "2024-01-09",
+    "text_chars": 1619
+  },
+  {
+    "id": "grcf35",
+    "territory": "Greece",
+    "language": "Ελληνικά",
+    "english_language": "Greek, Ancient",
+    "vernacular": "Η Καινή Διαθήκη",
+    "title": "Greek NT Family 35",
+    "redist": true,
+    "restricted": false,
+    "cc": [
+      "https://creativecommons.org/licenses/by-nc-nd/4.0",
+      "https://creativecommons.org/licenses/by-nc-nd/4.0/'"
+    ],
+    "flags": [
+      "nd"
+    ],
+    "usfm": "https://eBible.org/Scriptures/grcf35_usfm.zip",
+    "updated": "2026-10-30",
+    "text_chars": 1978
+  },
+  {
+    "id": "grcsbl",
+    "territory": "Greece",
+    "language": "Ελληνικά",
+    "english_language": "Greek, Ancient",
+    "vernacular": "Η Καινή Διαθήκη",
+    "title": "SBL Greek NT",
+    "redist": true,
+    "restricted": false,
+    "cc": [
+      "https://creativecommons.org/licenses/by/4.0",
+      "https://creativecommons.org/licenses/by/4.0/'"
+    ],
+    "flags": [],
+    "usfm": "https://eBible.org/Scriptures/grcsbl_usfm.zip",
+    "updated": "2026-10-30",
+    "text_chars": 2205
+  },
+  {
+    "id": "grclxx",
+    "territory": "Greece",
+    "language": "Ελληνικά",
+    "english_language": "Greek, Ancient",
+    "vernacular": "Η Παλαιά Διαθήκη κατά τη μετάφραση των εβδομήκοντα (Ο') | SEPTUAGINTA",
+    "title": "SEPTUAGINTA",
+    "redist": true,
+    "restricted": false,
+    "cc": [],
+    "flags": [
+      "pd"
+    ],
+    "usfm": "https://eBible.org/Scriptures/grclxx_usfm.zip",
+    "updated": "2026-02-13",
+    "text_chars": 2966
+  },
+  {
+    "id": "grcsr",
+    "territory": "Greece",
+    "language": "Ελληνικά",
+    "english_language": "Greek, Ancient",
+    "vernacular": "Η Καινή Διαθήκη",
+    "title": "Solid Rock Greek New Testament",
+    "redist": true,
+    "restricted": false,
+    "cc": [],
+    "flags": [
+      "pd"
+    ],
+    "usfm": "https://eBible.org/Scriptures/grcsr_usfm.zip",
+    "updated": "2026-10-30",
+    "text_chars": 1345
+  },
+  {
+    "id": "grctcgnt",
+    "territory": "Greece",
+    "language": "Ελληνικά",
+    "english_language": "Greek, Ancient",
+    "vernacular": "Η Καινή Διαθήκη",
+    "title": "Text-Critical Greek NT",
+    "redist": true,
+    "restricted": false,
+    "cc": [],
+    "flags": [
+      "pd"
+    ],
+    "usfm": "https://eBible.org/Scriptures/grctcgnt_usfm.zip",
+    "updated": "2026-10-30",
+    "text_chars": 2988
+  },
+  {
+    "id": "grctr",
+    "territory": "Greece",
+    "language": "Ελληνικά",
+    "english_language": "Greek, Ancient",
+    "vernacular": "Η Καινή Διαθήκη",
+    "title": "Textus Receptus",
+    "redist": true,
+    "restricted": false,
+    "cc": [],
+    "flags": [
+      "pd"
+    ],
+    "usfm": "https://eBible.org/Scriptures/grctr_usfm.zip",
+    "updated": "2026-10-30",
+    "text_chars": 1444
+  },
+  {
+    "id": "grc-tisch",
+    "territory": "Greece",
+    "language": "Ελληνικά",
+    "english_language": "Greek, Ancient",
+    "vernacular": "Η Καινή Διαθήκη",
+    "title": "Tischendorf Greek NT",
+    "redist": true,
+    "restricted": false,
+    "cc": [],
+    "flags": [
+      "pd"
+    ],
+    "usfm": "https://eBible.org/Scriptures/grc-tisch_usfm.zip",
+    "updated": "2014-01-11",
+    "text_chars": 1802
+  },
+  {
+    "id": "hun",
+    "territory": "Hungary",
+    "language": "Magyar",
+    "english_language": "Magyar",
+    "vernacular": "Biblica® Nyitott Újszövetség: élet, igazság és világosság",
+    "title": "Hungarian Bible",
+    "redist": true,
+    "restricted": false,
+    "cc": [
+      "https://creativecommons.org/licenses/by-sa/4.0",
+      "https://creativecommons.org/licenses/by-sa/4‪.0",
+      "https://creativecommons.org/licenses/by-sa/4.0/'"
+    ],
+    "flags": [],
+    "usfm": "https://eBible.org/Scriptures/hun_usfm.zip",
+    "updated": "2025-05-03",
+    "text_chars": 5866
+  },
+  {
+    "id": "isl316",
+    "territory": "Iceland",
+    "language": "Íslenska",
+    "english_language": "Icelandic",
+    "vernacular": "316-biblían",
+    "title": "Icelandic 3:16",
+    "redist": true,
+    "restricted": false,
+    "cc": [
+      "https://creativecommons.org/licenses/by-sa/4.0",
+      "https://creativecommons.org/licenses/by-sa/4.0/deed.is",
+      "https://creativecommons.org/licenses/by-sa/4.0/'"
+    ],
+    "flags": [
+      "pd"
+    ],
+    "usfm": "https://eBible.org/Scriptures/isl316_usfm.zip",
+    "updated": "2026-10-09",
+    "text_chars": 3385
+  },
+  {
+    "id": "isl",
+    "territory": "Iceland",
+    "language": "Íslenska",
+    "english_language": "Icelandic",
+    "vernacular": "Biblica® Opna Lifandi Orð Nýja testamentið og Sálmarnir™",
+    "title": "Icelandic: Biblica® Opna Lifandi Orð Nýja testamentið og Sálmarnir™ (New Testament+)",
+    "redist": true,
+    "restricted": false,
+    "cc": [
+      "https://creativecommons.org/licenses/by-sa/4.0",
+      "https://creativecommons.org/licenses/by-sa/4",
+      "https://creativecommons.org/licenses/by-sa/4.0/'"
+    ],
+    "flags": [],
+    "usfm": "https://eBible.org/Scriptures/isl_usfm.zip",
+    "updated": "2025-05-03",
+    "text_chars": 6446
+  },
+  {
+    "id": "ita1885",
+    "territory": "Italy",
+    "language": "Italiano",
+    "english_language": "Italian",
+    "vernacular": "Diodati Bibbia 1885",
+    "title": "Italian Diodati Bible",
+    "redist": true,
+    "restricted": false,
+    "cc": [],
+    "flags": [
+      "pd"
+    ],
+    "usfm": "https://eBible.org/Scriptures/ita1885_usfm.zip",
+    "updated": "2025-05-03",
+    "text_chars": 1564
+  },
+  {
+    "id": "ita1927",
+    "territory": "Italy",
+    "language": "lingua italiana",
+    "english_language": "Italian",
+    "vernacular": "Riveduta Bibbia 1927",
+    "title": "Italian Riveduta Bible",
+    "redist": true,
+    "restricted": false,
+    "cc": [],
+    "flags": [
+      "pd"
+    ],
+    "usfm": "https://eBible.org/Scriptures/ita1927_usfm.zip",
+    "updated": "2019-12-17",
+    "text_chars": 1485
+  },
+  {
+    "id": "litb",
+    "territory": "Lithuania",
+    "language": "Lietuvių",
+    "english_language": "Lietuvių",
+    "vernacular": "Biblica® Naudojimo teisės atviros „Jėzus ir Jo pasekėjai“",
+    "title": "Open Lithuanian Scriptures",
+    "redist": true,
+    "restricted": false,
+    "cc": [
+      "https://creativecommons.org/licenses/by-sa/4.0",
+      "https://creativecommons.org/licenses/by-sa/4.0/'"
+    ],
+    "flags": [],
+    "usfm": "https://eBible.org/Scriptures/litb_usfm.zip",
+    "updated": "2025-05-10",
+    "text_chars": 6185
+  },
+  {
+    "id": "lit",
+    "territory": "Lithuania",
+    "language": "lietuvių",
+    "english_language": "Lithuanian",
+    "vernacular": "Tikinčiųjų paveldo vertimas",
+    "title": "Lithuanian Believers' Heritage Translation",
+    "redist": true,
+    "restricted": false,
+    "cc": [
+      "https://creativecommons.org/licenses/by-sa/4.0",
+      "https://creativecommons.org/licenses/by-sa/4.0/'"
+    ],
+    "flags": [],
+    "usfm": "https://eBible.org/Scriptures/lit_usfm.zip",
+    "updated": "2026-04-04",
+    "text_chars": 4495
+  },
+  {
+    "id": "nld",
+    "territory": "Netherlands",
+    "language": "Nederlands",
+    "english_language": "Dutch",
+    "vernacular": "De Heilige Schrift 1917",
+    "title": "Dutch Bible 1917",
+    "redist": true,
+    "restricted": false,
+    "cc": [],
+    "flags": [
+      "pd"
+    ],
+    "usfm": "https://eBible.org/Scriptures/nld_usfm.zip",
+    "updated": "2023-01-23",
+    "text_chars": 1397
+  },
+  {
+    "id": "nld1939",
+    "territory": "Netherlands",
+    "language": "Nederlandse taal",
+    "english_language": "Dutch",
+    "vernacular": "De Heilige Schrift, Petrus Canisiusvertaling, 1939",
+    "title": "Dutch Bible, Petrus Canisius",
+    "redist": true,
+    "restricted": false,
+    "cc": [],
+    "flags": [
+      "pd"
+    ],
+    "usfm": "https://eBible.org/Scriptures/nld1939_usfm.zip",
+    "updated": "2024-08-06",
+    "text_chars": 3990
+  },
+  {
+    "id": "nldnbg",
+    "territory": "Netherlands",
+    "language": "Nederlandse taal",
+    "english_language": "Dutch",
+    "vernacular": "NBG-vertaling 1951",
+    "title": "Dutch NBG 1951 Bible",
+    "redist": true,
+    "restricted": false,
+    "cc": [],
+    "flags": [],
+    "usfm": "https://eBible.org/Scriptures/nldnbg_usfm.zip",
+    "updated": "2024-08-13",
+    "text_chars": 1576
+  },
+  {
+    "id": "noblb",
+    "territory": "Norway",
+    "language": "Norsk: Bokmål",
+    "english_language": "Norwegian",
+    "vernacular": "Biblica® Open En Levende Bok: Det Nye Testamentet",
+    "title": "Norwegian Living NT",
+    "redist": true,
+    "restricted": false,
+    "cc": [
+      "https://creativecommons.org/licenses/by-sa/4.0",
+      "https://creativecommons.org/licenses/by-sa/4",
+      "https://creativecommons.org/licenses/by-sa/4.0/'"
+    ],
+    "flags": [],
+    "usfm": "https://eBible.org/Scriptures/noblb_usfm.zip",
+    "updated": "2025-05-17",
+    "text_chars": 4269
+  },
+  {
+    "id": "epo",
+    "territory": "Poland",
+    "language": "Esperanto",
+    "english_language": "Esperanto",
+    "vernacular": "Londona Biblio",
+    "title": "Esperanto Bible",
+    "redist": true,
+    "restricted": false,
+    "cc": [],
+    "flags": [
+      "pd"
+    ],
+    "usfm": "https://eBible.org/Scriptures/epo_usfm.zip",
+    "updated": "2020-02-13",
+    "text_chars": 1266
+  },
+  {
+    "id": "polsz",
+    "territory": "Poland",
+    "language": "Polski",
+    "english_language": "Polish",
+    "vernacular": "Biblica® Słowo Życia, otwarty dostęp",
+    "title": "Polish OPLNT",
+    "redist": true,
+    "restricted": false,
+    "cc": [
+      "https://creativecommons.org/licenses/by-sa/4.0",
+      "https://creativecommons.org/licenses/by-sa/4‪.0",
+      "https://creativecommons.org/licenses/by-sa/4.0/'"
+    ],
+    "flags": [],
+    "usfm": "https://eBible.org/Scriptures/polsz_usfm.zip",
+    "updated": "2025-05-20",
+    "text_chars": 5829
+  },
+  {
+    "id": "polubg",
+    "territory": "Poland",
+    "language": "Polskie",
+    "english_language": "Polish",
+    "vernacular": "Święta Biblia",
+    "title": "Polish Updated Gdansk Bible",
+    "redist": true,
+    "restricted": false,
+    "cc": [
+      "https://creativecommons.org/licenses/by-nd/4.0",
+      "https://creativecommons.org/licenses/by-nd/4.0/'"
+    ],
+    "flags": [
+      "nd"
+    ],
+    "usfm": "https://eBible.org/Scriptures/polubg_usfm.zip",
+    "updated": "2018-10-23",
+    "text_chars": 2104
+  },
+  {
+    "id": "ronBayash",
+    "territory": "Romania",
+    "language": "Bayash",
+    "english_language": "Romanian",
+    "vernacular": "Sfanta Biblie",
+    "title": "Bayash Bible",
+    "redist": true,
+    "restricted": false,
+    "cc": [
+      "https://creativecommons.org/licenses/by/4.0",
+      "https://creativecommons.org/licenses/by/4.0/'"
+    ],
+    "flags": [],
+    "usfm": "https://eBible.org/Scriptures/ronBayash_usfm.zip",
+    "updated": "2026-10-30",
+    "text_chars": 1713
+  },
+  {
+    "id": "ron1924",
+    "territory": "Romania",
+    "language": "Romanian",
+    "english_language": "Romanian",
+    "vernacular": "Библия Думитру Корнилеску 1924 (БДК)",
+    "title": "Romanian Bible (Cyrillic)",
+    "redist": true,
+    "restricted": false,
+    "cc": [],
+    "flags": [
+      "pd"
+    ],
+    "usfm": "https://eBible.org/Scriptures/ron1924_usfm.zip",
+    "updated": "2022-01-13",
+    "text_chars": 1939
+  },
+  {
+    "id": "ronbl",
+    "territory": "Romania",
+    "language": "Română",
+    "english_language": "Romanian",
+    "vernacular": "Biblia Liberă",
+    "title": "Romanian Free Holy Bible",
+    "redist": true,
+    "restricted": false,
+    "cc": [],
+    "flags": [
+      "pd"
+    ],
+    "usfm": "https://eBible.org/Scriptures/ronbl_usfm.zip",
+    "updated": "2026-10-28",
+    "text_chars": 1515
+  },
+  {
+    "id": "kca",
+    "territory": "Russian Federation",
+    "language": "ханты ясаң‎",
+    "english_language": "Khanty",
+    "vernacular": "Хӑнты Перевод Библии",
+    "title": "Khanty Bible",
+    "redist": true,
+    "restricted": false,
+    "cc": [
+      "https://creativecommons.org/licenses/by-nc-nd/4.0",
+      "https://creativecommons.org/licenses/by-nc-nd/4.0/'"
+    ],
+    "flags": [
+      "nd"
+    ],
+    "usfm": "https://eBible.org/Scriptures/kca_usfm.zip",
+    "updated": "2023-04-12",
+    "text_chars": 1698
+  },
+  {
+    "id": "rusfb",
+    "territory": "Russian Federation",
+    "language": "Русский",
+    "english_language": "Russian",
+    "vernacular": "Библия свободы",
+    "title": "Russian Freedom Bible",
+    "redist": true,
+    "restricted": false,
+    "cc": [],
+    "flags": [
+      "pd"
+    ],
+    "usfm": "https://eBible.org/Scriptures/rusfb_usfm.zip",
+    "updated": "2026-10-30",
+    "text_chars": 1549
+  },
+  {
+    "id": "russyn",
+    "territory": "Russian Federation",
+    "language": "русский",
+    "english_language": "Russian",
+    "vernacular": "Синодальный перевод",
+    "title": "Russian Synodal Bible",
+    "redist": true,
+    "restricted": false,
+    "cc": [],
+    "flags": [
+      "pd"
+    ],
+    "usfm": "https://eBible.org/Scriptures/russyn_usfm.zip",
+    "updated": "2022-11-25",
+    "text_chars": 1320
+  },
+  {
+    "id": "rmna",
+    "territory": "Serbia",
+    "language": "Romani",
+    "english_language": "Romani",
+    "vernacular": "I Biblija ki Arli romani čhib Srbija",
+    "title": "Balkans Arli Bible",
+    "redist": true,
+    "restricted": false,
+    "cc": [
+      "https://creativecommons.org/licenses/by-sa/4.0",
+      "https://creativecommons.org/licenses/by-sa/4.0/'"
+    ],
+    "flags": [],
+    "usfm": "https://eBible.org/Scriptures/rmna_usfm.zip",
+    "updated": "2025-06-27",
+    "text_chars": 3408
+  },
+  {
+    "id": "rmyArli",
+    "territory": "Serbia",
+    "language": "Arli",
+    "english_language": "Romani, Vlax",
+    "vernacular": "Luka",
+    "title": "Arli Luke",
+    "redist": true,
+    "restricted": false,
+    "cc": [
+      "https://creativecommons.org/licenses/by/4.0",
+      "https://creativecommons.org/licenses/by/4.0/'"
+    ],
+    "flags": [],
+    "usfm": "https://eBible.org/Scriptures/rmyArli_usfm.zip",
+    "updated": "2026-10-30",
+    "text_chars": 1688
+  },
+  {
+    "id": "rmyChergash",
+    "territory": "Serbia",
+    "language": "Chergash",
+    "english_language": "Romani, Vlax",
+    "vernacular": "Biblija pe romani Čergarsko čhib Srbija (Vojvodin Romani/Shiyak)",
+    "title": "Chergash NT",
+    "redist": true,
+    "restricted": false,
+    "cc": [
+      "https://creativecommons.org/licenses/by-sa/4.0",
+      "https://creativecommons.org/licenses/by-sa/4.0/'"
+    ],
+    "flags": [],
+    "usfm": "https://eBible.org/Scriptures/rmyChergash_usfm.zip",
+    "updated": "2025-06-28",
+    "text_chars": 3307
+  },
+  {
+    "id": "rmyGurbet",
+    "territory": "Serbia",
+    "language": "Gurbet",
+    "english_language": "Romani, Vlax",
+    "vernacular": "E Devleso Lafi ko Gurbetsko dijalekt Srbija",
+    "title": "Gurbet NT",
+    "redist": true,
+    "restricted": false,
+    "cc": [
+      "https://creativecommons.org/licenses/by-sa/4.0",
+      "https://creativecommons.org/licenses/by-sa/4.0/'"
+    ],
+    "flags": [],
+    "usfm": "https://eBible.org/Scriptures/rmyGurbet_usfm.zip",
+    "updated": "2025-06-28",
+    "text_chars": 3269
+  },
+  {
+    "id": "srp1868",
+    "territory": "Serbia",
+    "language": "српски",
+    "english_language": "Serbian",
+    "vernacular": "Свето писмо или Библија Превод Даничић-Караџић",
+    "title": "Serbian DK Bible (Cyrillic)",
+    "redist": true,
+    "restricted": false,
+    "cc": [],
+    "flags": [
+      "pd"
+    ],
+    "usfm": "https://eBible.org/Scriptures/srp1868_usfm.zip",
+    "updated": "2026-01-03",
+    "text_chars": 1556
+  },
+  {
+    "id": "srp1865",
+    "territory": "Serbia",
+    "language": "srpski jezik",
+    "english_language": "Serbian",
+    "vernacular": "Sveto Pismo ili Biblija",
+    "title": "Serbian DK Bible (Latin)",
+    "redist": true,
+    "restricted": false,
+    "cc": [],
+    "flags": [
+      "pd"
+    ],
+    "usfm": "https://eBible.org/Scriptures/srp1865_usfm.zip",
+    "updated": "2026-01-03",
+    "text_chars": 1746
+  },
+  {
+    "id": "srponspc",
+    "territory": "Serbia",
+    "language": "Српски/ Srpski",
+    "english_language": "Serbian",
+    "vernacular": "Biblica® Нови српски превод, слободна права",
+    "title": "Serbian ONSP Cyrillic",
+    "redist": true,
+    "restricted": false,
+    "cc": [
+      "https://creativecommons.org/licenses/by-sa/4.0",
+      "https://creativecommons.org/licenses/by-sa/4.0/'"
+    ],
+    "flags": [],
+    "usfm": "https://eBible.org/Scriptures/srponspc_usfm.zip",
+    "updated": "2025-05-21",
+    "text_chars": 6585
+  },
+  {
+    "id": "srponstl",
+    "territory": "Serbia",
+    "language": "Српски/ Srpski",
+    "english_language": "Serbian",
+    "vernacular": "Biblica® Novi srpski prevod, slobodna prava",
+    "title": "Serbian ONST Latin",
+    "redist": true,
+    "restricted": false,
+    "cc": [
+      "https://creativecommons.org/licenses/by-sa/4.0",
+      "https://creativecommons.org/licenses/by-sa/4.0|https://creativecommons.org/licenses/by-sa/4.0",
+      "https://creativecommons.org/licenses/by-sa/4.0/'"
+    ],
+    "flags": [],
+    "usfm": "https://eBible.org/Scriptures/srponstl_usfm.zip",
+    "updated": "2025-05-20",
+    "text_chars": 6667
+  },
+  {
+    "id": "rmc",
+    "territory": "Slovakia",
+    "language": "Romanes",
+    "english_language": "Romani, Carpathian",
+    "vernacular": "Le Devleskero Lav Andre Romaňi Čhib, Slovensko 2022",
+    "title": "Eastern Slovak Romani Bible",
+    "redist": true,
+    "restricted": false,
+    "cc": [
+      "https://creativecommons.org/licenses/by-nd/4.0",
+      "https://creativecommons.org/licenses/by-nd/4.0/'"
+    ],
+    "flags": [
+      "nd"
+    ],
+    "usfm": "https://eBible.org/Scriptures/rmc_usfm.zip",
+    "updated": "2019-12-29",
+    "text_chars": 3041
+  },
+  {
+    "id": "slk",
+    "territory": "Slovakia",
+    "language": "Slovenčina",
+    "english_language": "Slovak",
+    "vernacular": "Biblica® Nádej pre každého, verejne dostupné",
+    "title": "Slovak NT",
+    "redist": true,
+    "restricted": false,
+    "cc": [
+      "https://creativecommons.org/licenses/by-sa/4.0",
+      "https://creativecommons.org/licenses/by-sa/4.0/'"
+    ],
+    "flags": [],
+    "usfm": "https://eBible.org/Scriptures/slk_usfm.zip",
+    "updated": "2025-05-21",
+    "text_chars": 6551
+  },
+  {
+    "id": "spaRV1909",
+    "territory": "Spain",
+    "language": "Español",
+    "english_language": "Spanish",
+    "vernacular": "Santa Biblia — Reina Valera 1909",
+    "title": "Reina Valera 1909",
+    "redist": true,
+    "restricted": false,
+    "cc": [],
+    "flags": [
+      "pd"
+    ],
+    "usfm": "https://eBible.org/Scriptures/spaRV1909_usfm.zip",
+    "updated": "2013-12-13",
+    "text_chars": 1589
+  },
+  {
+    "id": "sparvg",
+    "territory": "Spain",
+    "language": "Español",
+    "english_language": "Spanish",
+    "vernacular": "Santa Biblia Reina Valera Gómez",
+    "title": "RVG Spanish Bible",
+    "redist": true,
+    "restricted": false,
+    "cc": [],
+    "flags": [],
+    "usfm": "https://eBible.org/Scriptures/sparvg_usfm.zip",
+    "updated": "2026-10-30",
+    "text_chars": 2733
+  },
+  {
+    "id": "spablm",
+    "territory": "Spain",
+    "language": "Español",
+    "english_language": "Spanish",
+    "vernacular": "Santa Biblia libre para el mundo",
+    "title": "Spanish Free Bible for the World",
+    "redist": true,
+    "restricted": false,
+    "cc": [],
+    "flags": [
+      "pd"
+    ],
+    "usfm": "https://eBible.org/Scriptures/spablm_usfm.zip",
+    "updated": "2026-10-30",
+    "text_chars": 1749
+  },
+  {
+    "id": "spavbl",
+    "territory": "Spain",
+    "language": "Español",
+    "english_language": "Spanish",
+    "vernacular": "Versión Biblia Libre",
+    "title": "Spanish Free Bible Version",
+    "redist": true,
+    "restricted": false,
+    "cc": [
+      "https://creativecommons.org/licenses/by-sa/4.0",
+      "https://creativecommons.org/licenses/by-sa/4.0/'"
+    ],
+    "flags": [],
+    "usfm": "https://eBible.org/Scriptures/spavbl_usfm.zip",
+    "updated": "2026-10-30",
+    "text_chars": 2706
+  },
+  {
+    "id": "spav1602p",
+    "territory": "Spain",
+    "language": "Español",
+    "english_language": "Spanish",
+    "vernacular": "Santa Biblia Valera 1602 Purificada",
+    "title": "Spanish Valera Purificada",
+    "redist": true,
+    "restricted": false,
+    "cc": [],
+    "flags": [],
+    "usfm": "https://eBible.org/Scriptures/spav1602p_usfm.zip",
+    "updated": "2026-10-30",
+    "text_chars": 2068
+  },
+  {
+    "id": "swef",
+    "territory": "Sweden",
+    "language": "Svenska",
+    "english_language": "Swedish",
+    "vernacular": "Svenska Folkbibeln",
+    "title": "Swedish Folkbibleln",
+    "redist": true,
+    "restricted": false,
+    "cc": [],
+    "flags": [],
+    "usfm": "https://eBible.org/Scriptures/swef_usfm.zip",
+    "updated": "2024-12-18",
+    "text_chars": 1786
+  },
+  {
+    "id": "swe",
+    "territory": "Sweden",
+    "language": "Swedish",
+    "english_language": "Swedish",
+    "vernacular": "Svenska Kärnbibeln - en expanderad översättning",
+    "title": "Swedish NT+",
+    "redist": true,
+    "restricted": false,
+    "cc": [
+      "https://creativecommons.org/licenses/by-nc-nd/4.0",
+      "https://creativecommons.org/licenses/by-nc-nd/4.0/'"
+    ],
+    "flags": [
+      "nd"
+    ],
+    "usfm": "https://eBible.org/Scriptures/swe_usfm.zip",
+    "updated": "2025-07-10",
+    "text_chars": 4593
+  },
+  {
+    "id": "rmyvlakh",
+    "territory": "Ukraine",
+    "language": "Romani",
+    "english_language": "Romani",
+    "vernacular": "Библия пэ влахицко романи шыб",
+    "title": "Eastern Vlakh Romani",
+    "redist": true,
+    "restricted": false,
+    "cc": [
+      "https://creativecommons.org/licenses/by-sa/4.0",
+      "https://creativecommons.org/licenses/by-sa/4.0/'"
+    ],
+    "flags": [],
+    "usfm": "https://eBible.org/Scriptures/rmyvlakh_usfm.zip",
+    "updated": "2025-06-28",
+    "text_chars": 2071
+  },
+  {
+    "id": "rmylovari",
+    "territory": "Ukraine",
+    "language": "Romani",
+    "english_language": "Romani",
+    "vernacular": "Библия пэ ловарицко романы щиб",
+    "title": "Lovari Vlax Romani Bible",
+    "redist": true,
+    "restricted": false,
+    "cc": [
+      "https://creativecommons.org/licenses/by-sa/4.0",
+      "https://creativecommons.org/licenses/by-sa/4.0/'"
+    ],
+    "flags": [],
+    "usfm": "https://eBible.org/Scriptures/rmylovari_usfm.zip",
+    "updated": "2025-06-28",
+    "text_chars": 2170
+  },
+  {
+    "id": "rmn",
+    "territory": "Ukraine",
+    "language": "Romani",
+    "english_language": "Romani, Balkan",
+    "vernacular": "Библия опэр крымски романи чиб",
+    "title": "Balkan Romani Bible portions",
+    "redist": true,
+    "restricted": false,
+    "cc": [
+      "https://creativecommons.org/licenses/by-nc-nd/4.0",
+      "https://creativecommons.org/licenses/by-nc-nd/4.0/'"
+    ],
+    "flags": [
+      "nd"
+    ],
+    "usfm": "https://eBible.org/Scriptures/rmn_usfm.zip",
+    "updated": "2025-06-27",
+    "text_chars": 1851
+  },
+  {
+    "id": "rmczrb",
+    "territory": "Ukraine",
+    "language": "Romanes",
+    "english_language": "Romani, Carpathian",
+    "vernacular": "Біблія про закарпатцько романо чіб",
+    "title": "Carpathian Romani Luke",
+    "redist": true,
+    "restricted": false,
+    "cc": [
+      "https://creativecommons.org/licenses/by-nd/4.0",
+      "https://creativecommons.org/licenses/by-nd/4.0/'"
+    ],
+    "flags": [
+      "nd"
+    ],
+    "usfm": "https://eBible.org/Scriptures/rmczrb_usfm.zip",
+    "updated": "2023-04-13",
+    "text_chars": 1745
+  },
+  {
+    "id": "rmyservi",
+    "territory": "Ukraine",
+    "language": "Romani",
+    "english_language": "Romani, Vlax",
+    "vernacular": "Библия пы сэрвицко ромско чиб",
+    "title": "Servi Romani Bible portions",
+    "redist": true,
+    "restricted": false,
+    "cc": [
+      "https://creativecommons.org/licenses/by-sa/4.0",
+      "https://creativecommons.org/licenses/by-sa/4.0/'"
+    ],
+    "flags": [],
+    "usfm": "https://eBible.org/Scriptures/rmyservi_usfm.zip",
+    "updated": "2025-06-27",
+    "text_chars": 2237
+  },
+  {
+    "id": "ukr1871",
+    "territory": "Ukraine",
+    "language": "Українська",
+    "english_language": "Ukrainian",
+    "vernacular": "Біблія в пер. П.Куліша та І.Пулюя, 1905",
+    "title": "Ukrainian Bible by P. Kulish",
+    "redist": true,
+    "restricted": false,
+    "cc": [],
+    "flags": [
+      "pd"
+    ],
+    "usfm": "https://eBible.org/Scriptures/ukr1871_usfm.zip",
+    "updated": "2025-01-31",
+    "text_chars": 1620
+  },
+  {
+    "id": "ukr1996",
+    "territory": "Ukraine",
+    "language": "Українська",
+    "english_language": "Ukrainian",
+    "vernacular": "Біблія",
+    "title": "Ukrainian Bible, BJU 1996",
+    "redist": true,
+    "restricted": false,
+    "cc": [],
+    "flags": [],
+    "usfm": "https://eBible.org/Scriptures/ukr1996_usfm.zip",
+    "updated": "2025-01-31",
+    "text_chars": 2227
+  },
+  {
+    "id": "ukrfb",
+    "territory": "Ukraine",
+    "language": "Українська",
+    "english_language": "Ukrainian",
+    "vernacular": "Біблія свободи",
+    "title": "Ukrainian Freedom Bible",
+    "redist": true,
+    "restricted": false,
+    "cc": [],
+    "flags": [
+      "pd"
+    ],
+    "usfm": "https://eBible.org/Scriptures/ukrfb_usfm.zip",
+    "updated": "2025-02-05",
+    "text_chars": 1534
+  },
+  {
+    "id": "ukronpu",
+    "territory": "Ukraine",
+    "language": "Українська",
+    "english_language": "Ukranian",
+    "vernacular": "Бібліка ® Відкрита Новий Переклад Українською",
+    "title": "New Ukranian Translation NT+Psalms",
+    "redist": true,
+    "restricted": false,
+    "cc": [
+      "https://creativecommons.org/licenses/by-sa/4.0",
+      "https://creativecommons.org/licenses/by-sa/4‪.0",
+      "https://creativecommons.org/licenses/by-sa/4.0/'"
+    ],
+    "flags": [],
+    "usfm": "https://eBible.org/Scriptures/ukronpu_usfm.zip",
+    "updated": "2025-05-21",
+    "text_chars": 4734
+  },
+  {
+    "id": "engaoi",
+    "territory": "United Kingdom",
+    "language": "English",
+    "english_language": "English",
+    "vernacular": "Anindilyakwa English Bible",
+    "title": "Anindilyakwa English Bible",
+    "redist": true,
+    "restricted": false,
+    "cc": [
+      "https://creativecommons.org/licenses/by-nc-nd/4.0",
+      "https://creativecommons.org/licenses/by-nc-nd/4.0/'"
+    ],
+    "flags": [
+      "nd"
+    ],
+    "usfm": "https://eBible.org/Scriptures/engaoi_usfm.zip",
+    "updated": "2021-11-23",
+    "text_chars": 1764
+  },
+  {
+    "id": "engBBE",
+    "territory": "United Kingdom",
+    "language": "English",
+    "english_language": "English",
+    "vernacular": "Bible in Basic English",
+    "title": "Bible in Basic English",
+    "redist": true,
+    "restricted": false,
+    "cc": [],
+    "flags": [
+      "pd"
+    ],
+    "usfm": "https://eBible.org/Scriptures/engBBE_usfm.zip",
+    "updated": "2020-04-17",
+    "text_chars": 1876
+  },
+  {
+    "id": "eng-Brenton",
+    "territory": "United Kingdom",
+    "language": "English",
+    "english_language": "English",
+    "vernacular": "Brenton Septuagint Translation",
+    "title": "Brenton English Septuagint",
+    "redist": true,
+    "restricted": false,
+    "cc": [],
+    "flags": [
+      "pd"
+    ],
+    "usfm": "https://eBible.org/Scriptures/eng-Brenton_usfm.zip",
+    "updated": "2026-10-07",
+    "text_chars": 1277
+  },
+  {
+    "id": "eng-uk-lxx2012",
+    "territory": "United Kingdom",
+    "language": "English",
+    "english_language": "English",
+    "vernacular": "LXX2012: Septuagint in British/International English 2012",
+    "title": "British English Septuagint 2012",
+    "redist": true,
+    "restricted": false,
+    "cc": [],
+    "flags": [
+      "pd"
+    ],
+    "usfm": "https://eBible.org/Scriptures/eng-uk-lxx2012_usfm.zip",
+    "updated": "2025-12-19",
+    "text_chars": 3341
+  },
+  {
+    "id": "engDBY",
+    "territory": "United Kingdom",
+    "language": "English",
+    "english_language": "English",
+    "vernacular": "Darby Translation",
+    "title": "Darby Translation",
+    "redist": true,
+    "restricted": false,
+    "cc": [],
+    "flags": [
+      "pd"
+    ],
+    "usfm": "https://eBible.org/Scriptures/engDBY_usfm.zip",
+    "updated": "2019-11-15",
+    "text_chars": 1503
+  },
+  {
+    "id": "engDRA",
+    "territory": "United Kingdom",
+    "language": "English",
+    "english_language": "English",
+    "vernacular": "Douay-Rheims 1899",
+    "title": "Douay-Rheims 1899",
+    "redist": true,
+    "restricted": false,
+    "cc": [],
+    "flags": [
+      "pd"
+    ],
+    "usfm": "https://eBible.org/Scriptures/engDRA_usfm.zip",
+    "updated": "2022-11-03",
+    "text_chars": 1789
+  },
+  {
+    "id": "engemtv",
+    "territory": "United Kingdom",
+    "language": "English",
+    "english_language": "English",
+    "vernacular": "English Majority Text Version",
+    "title": "English Majority Text Version",
+    "redist": true,
+    "restricted": false,
+    "cc": [
+      "https://creativecommons.org/licenses/by-nc-nd/4.0",
+      "https://creativecommons.org/licenses/by-nc-nd/4.0/'"
+    ],
+    "flags": [
+      "nd"
+    ],
+    "usfm": "https://eBible.org/Scriptures/engemtv_usfm.zip",
+    "updated": "2020-12-20",
+    "text_chars": 1928
+  },
+  {
+    "id": "engwyc2018",
+    "territory": "United Kingdom",
+    "language": "English",
+    "english_language": "English",
+    "vernacular": "Wycliffe's Bible with Modern Spelling (Enhanced)",
+    "title": "English: Wycliffe's Bible Modern Spelling (Enhanced) (with Deuterocanon)",
+    "redist": true,
+    "restricted": false,
+    "cc": [
+      "https://creativecommons.org/licenses/by-nc-nd/4.0",
+      "https://creativecommons.org/licenses/by-nc-nd/4.0/'"
+    ],
+    "flags": [
+      "nd"
+    ],
+    "usfm": "https://eBible.org/Scriptures/engwyc2018_usfm.zip",
+    "updated": "2019-09-25",
+    "text_chars": 3526
+  },
+  {
+    "id": "engwyc2017",
+    "territory": "United Kingdom",
+    "language": "English",
+    "english_language": "English",
+    "vernacular": "Wycliffe's Bible with Modern Spelling",
+    "title": "English: Wycliffe's Bible Modern Spelling (with Deuterocanon)",
+    "redist": true,
+    "restricted": false,
+    "cc": [
+      "https://creativecommons.org/licenses/by-nc-nd/4.0",
+      "https://creativecommons.org/licenses/by-nc-nd/4.0/'"
+    ],
+    "flags": [
+      "nd"
+    ],
+    "usfm": "https://eBible.org/Scriptures/engwyc2017_usfm.zip",
+    "updated": "2019-09-26",
+    "text_chars": 3082
+  },
+  {
+    "id": "enggnv",
+    "territory": "United Kingdom",
+    "language": "English",
+    "english_language": "English",
+    "vernacular": "Geneva Bible 1599",
+    "title": "Geneva Bible 1599",
+    "redist": true,
+    "restricted": false,
+    "cc": [],
+    "flags": [
+      "pd"
+    ],
+    "usfm": "https://eBible.org/Scriptures/enggnv_usfm.zip",
+    "updated": "2024-03-16",
+    "text_chars": 1606
+  },
+  {
+    "id": "eng-kjv2006",
+    "territory": "United Kingdom",
+    "language": "English",
+    "english_language": "English",
+    "vernacular": "King James (Authorized) Version",
+    "title": "King James Version",
+    "redist": true,
+    "restricted": false,
+    "cc": [],
+    "flags": [
+      "pd"
+    ],
+    "usfm": "https://eBible.org/Scriptures/eng-kjv2006_usfm.zip",
+    "updated": "2026-09-26",
+    "text_chars": 2474
+  },
+  {
+    "id": "eng-kjv",
+    "territory": "United Kingdom",
+    "language": "English",
+    "english_language": "English",
+    "vernacular": "King James Version + Apocrypha",
+    "title": "King James Version + Apocrypha",
+    "redist": true,
+    "restricted": false,
+    "cc": [],
+    "flags": [
+      "pd"
+    ],
+    "usfm": "https://eBible.org/Scriptures/eng-kjv_usfm.zip",
+    "updated": "2026-09-26",
+    "text_chars": 2392
+  },
+  {
+    "id": "engkjvcpb",
+    "territory": "United Kingdom",
+    "language": "English",
+    "english_language": "English",
+    "vernacular": "KJV Cambridge Paragraph Bible",
+    "title": "KJV Cambridge Paragraph",
+    "redist": true,
+    "restricted": false,
+    "cc": [],
+    "flags": [
+      "pd"
+    ],
+    "usfm": "https://eBible.org/Scriptures/engkjvcpb_usfm.zip",
+    "updated": "2026-09-26",
+    "text_chars": 2175
+  },
+  {
+    "id": "englee",
+    "territory": "United Kingdom",
+    "language": "English",
+    "english_language": "English",
+    "vernacular": "Isaac Leeser Tanakh",
+    "title": "Leeser Tanakh",
+    "redist": true,
+    "restricted": false,
+    "cc": [],
+    "flags": [
+      "pd"
+    ],
+    "usfm": "https://eBible.org/Scriptures/englee_usfm.zip",
+    "updated": "2020-10-14",
+    "text_chars": 1035
+  },
+  {
+    "id": "engnoy",
+    "territory": "United Kingdom",
+    "language": "English",
+    "english_language": "English",
+    "vernacular": "George Noyes Bible",
+    "title": "Noyes Bible",
+    "redist": true,
+    "restricted": false,
+    "cc": [],
+    "flags": [
+      "pd"
+    ],
+    "usfm": "https://eBible.org/Scriptures/engnoy_usfm.zip",
+    "updated": "2019-10-24",
+    "text_chars": 1417
+  },
+  {
+    "id": "engoebcw",
+    "territory": "United Kingdom",
+    "language": "English",
+    "english_language": "English",
+    "vernacular": "Open English Bible (Commonwealth Spelling)",
+    "title": "Open English Bible (Commonwealth)",
+    "redist": true,
+    "restricted": false,
+    "cc": [],
+    "flags": [
+      "pd"
+    ],
+    "usfm": "https://eBible.org/Scriptures/engoebcw_usfm.zip",
+    "updated": "2026-10-30",
+    "text_chars": 1741
+  },
+  {
+    "id": "eng-rv",
+    "territory": "United Kingdom",
+    "language": "English",
+    "english_language": "English",
+    "vernacular": "Revised Version with Apocrypha (1895)",
+    "title": "Revised Version",
+    "redist": true,
+    "restricted": false,
+    "cc": [],
+    "flags": [
+      "pd"
+    ],
+    "usfm": "https://eBible.org/Scriptures/eng-rv_usfm.zip",
+    "updated": "2026-10-30",
+    "text_chars": 1592
+  },
+  {
+    "id": "engoke",
+    "territory": "United Kingdom",
+    "language": "English",
+    "english_language": "English",
+    "vernacular": "Targum Onkelos Etheridge",
+    "title": "Targum Onkelos Etheridge",
+    "redist": true,
+    "restricted": false,
+    "cc": [],
+    "flags": [
+      "pd"
+    ],
+    "usfm": "https://eBible.org/Scriptures/engoke_usfm.zip",
+    "updated": "2020-12-20",
+    "text_chars": 1178
+  },
+  {
+    "id": "engojb",
+    "territory": "United Kingdom",
+    "language": "English",
+    "english_language": "English",
+    "vernacular": "The Orthodox Jewish Bible",
+    "title": "The Orthodox Jewish Bible -  Tanakh and Orthodox Jewish Brit Chadasha - The Holy Bible",
+    "redist": true,
+    "restricted": false,
+    "cc": [
+      "https://creativecommons.org/licenses/by/4.0",
+      "https://creativecommons.org/licenses/by/4.0/'"
+    ],
+    "flags": [],
+    "usfm": "https://eBible.org/Scriptures/engojb_usfm.zip",
+    "updated": "2026-01-06",
+    "text_chars": 3073
+  },
+  {
+    "id": "engtnt",
+    "territory": "United Kingdom",
+    "language": "English",
+    "english_language": "English",
+    "vernacular": "Tyndale New Testament",
+    "title": "Tyndale NT",
+    "redist": true,
+    "restricted": false,
+    "cc": [],
+    "flags": [
+      "pd"
+    ],
+    "usfm": "https://eBible.org/Scriptures/engtnt_usfm.zip",
+    "updated": "2020-12-20",
+    "text_chars": 1291
+  },
+  {
+    "id": "engwebpb",
+    "territory": "United Kingdom",
+    "language": "English",
+    "english_language": "English",
+    "vernacular": "World English Bible British Edition",
+    "title": "World English Bible British Edition",
+    "redist": true,
+    "restricted": false,
+    "cc": [],
+    "flags": [
+      "pd"
+    ],
+    "usfm": "https://eBible.org/Scriptures/engwebpb_usfm.zip",
+    "updated": "2026-10-17",
+    "text_chars": 2797
+  },
+  {
+    "id": "eng-webbe",
+    "territory": "United Kingdom",
+    "language": "English",
+    "english_language": "English",
+    "vernacular": "World English Bible British Edition with Deuterocanon",
+    "title": "World English Bible British Edition with Deuterocanon",
+    "redist": true,
+    "restricted": false,
+    "cc": [],
+    "flags": [
+      "pd"
+    ],
+    "usfm": "https://eBible.org/Scriptures/eng-webbe_usfm.zip",
+    "updated": "2026-10-30",
+    "text_chars": 2974
+  },
+  {
+    "id": "engwmbb",
+    "territory": "United Kingdom",
+    "language": "English",
+    "english_language": "English",
+    "vernacular": "World Messianic Bible British Edition",
+    "title": "World Messianic Bible British Edition",
+    "redist": true,
+    "restricted": false,
+    "cc": [],
+    "flags": [
+      "pd"
+    ],
+    "usfm": "https://eBible.org/Scriptures/engwmbb_usfm.zip",
+    "updated": "2026-10-30",
+    "text_chars": 2691
+  },
+  {
+    "id": "engWycliffe",
+    "territory": "United Kingdom",
+    "language": "Middle English",
+    "english_language": "English",
+    "vernacular": "Wycliffe Bible",
+    "title": "Wycliffe Bible portions",
+    "redist": true,
+    "restricted": false,
+    "cc": [],
+    "flags": [
+      "pd"
+    ],
+    "usfm": "https://eBible.org/Scriptures/engWycliffe_usfm.zip",
+    "updated": "2016-11-08",
+    "text_chars": 1671
+  },
+  {
+    "id": "engylt",
+    "territory": "United Kingdom",
+    "language": "ENGLISH",
+    "english_language": "English",
+    "vernacular": "Young's Literal Translation",
+    "title": "Young's Literal Translation",
+    "redist": true,
+    "restricted": false,
+    "cc": [],
+    "flags": [
+      "pd"
+    ],
+    "usfm": "https://eBible.org/Scriptures/engylt_usfm.zip",
+    "updated": "2019-10-20",
+    "text_chars": 1721
+  },
+  {
+    "id": "eng-asv",
+    "territory": "United States",
+    "language": "English",
+    "english_language": "English",
+    "vernacular": "American Standard Version (1901)",
+    "title": "American Standard Version (1901)",
+    "redist": true,
+    "restricted": false,
+    "cc": [],
+    "flags": [
+      "pd"
+    ],
+    "usfm": "https://eBible.org/Scriptures/eng-asv_usfm.zip",
+    "updated": "2026-10-30",
+    "text_chars": 1754
+  },
+  {
+    "id": "engasvbt",
+    "territory": "United States",
+    "language": "English",
+    "english_language": "English",
+    "vernacular": "American Standard Version Byzantine Text",
+    "title": "ASV Byzantine Text",
+    "redist": true,
+    "restricted": false,
+    "cc": [],
+    "flags": [
+      "pd"
+    ],
+    "usfm": "https://eBible.org/Scriptures/engasvbt_usfm.zip",
+    "updated": "2026-10-30",
+    "text_chars": 1806
+  },
+  {
+    "id": "enge2t",
+    "territory": "United States",
+    "language": "English",
+    "english_language": "English",
+    "vernacular": "Easy to Translate English Jonah",
+    "title": "E2T Jonah",
+    "redist": true,
+    "restricted": false,
+    "cc": [
+      "https://creativecommons.org/licenses/by-sa/4.0",
+      "https://creativecommons.org/licenses/by-sa/4.0/'"
+    ],
+    "flags": [],
+    "usfm": "https://eBible.org/Scriptures/enge2t_usfm.zip",
+    "updated": "2025-10-24",
+    "text_chars": 1920
+  },
+  {
+    "id": "englsv",
+    "territory": "United States",
+    "language": "English",
+    "english_language": "English",
+    "vernacular": "Literal Standard Version",
+    "title": "English LSV",
+    "redist": true,
+    "restricted": false,
+    "cc": [
+      "https://creativecommons.org/licenses/by-sa/4.0",
+      "https://creativecommons.org/licenses/by-sa/4.0/'"
+    ],
+    "flags": [],
+    "usfm": "https://eBible.org/Scriptures/englsv_usfm.zip",
+    "updated": "2026-10-30",
+    "text_chars": 3269
+  },
+  {
+    "id": "eng-glw",
+    "territory": "United States",
+    "language": "English",
+    "english_language": "English",
+    "vernacular": "God's Living Word",
+    "title": "God's Living Word",
+    "redist": true,
+    "restricted": false,
+    "cc": [
+      "https://creativecommons.org/licenses/by-nd/4.0",
+      "https://creativecommons.org/licenses/by-nd/4.0/'"
+    ],
+    "flags": [
+      "nd"
+    ],
+    "usfm": "https://eBible.org/Scriptures/eng-glw_usfm.zip",
+    "updated": "2018-08-24",
+    "text_chars": 1743
+  },
+  {
+    "id": "eng-lxx2012",
+    "territory": "United States",
+    "language": "English",
+    "english_language": "English",
+    "vernacular": "LXX2012: Septuagint in American English 2012",
+    "title": "LXX2012 U. S. English",
+    "redist": true,
+    "restricted": false,
+    "cc": [],
+    "flags": [
+      "pd"
+    ],
+    "usfm": "https://eBible.org/Scriptures/eng-lxx2012_usfm.zip",
+    "updated": "2026-03-12",
+    "text_chars": 3186
+  },
+  {
+    "id": "engmsb",
+    "territory": "United States",
+    "language": "English",
+    "english_language": "English",
+    "vernacular": "Majority Standard Bible",
+    "title": "Majority Standard BIble",
+    "redist": true,
+    "restricted": false,
+    "cc": [],
+    "flags": [
+      "pd"
+    ],
+    "usfm": "https://eBible.org/Scriptures/engmsb_usfm.zip",
+    "updated": "2026-10-30",
+    "text_chars": 1789
+  },
+  {
+    "id": "engnet",
+    "territory": "United States",
+    "language": "English",
+    "english_language": "English",
+    "vernacular": "NET Bible",
+    "title": "NET Bible",
+    "redist": true,
+    "restricted": false,
+    "cc": [],
+    "flags": [],
+    "usfm": "https://eBible.org/Scriptures/engnet_usfm.zip",
+    "updated": "2026-10-30",
+    "text_chars": 3045
+  },
+  {
+    "id": "engourb",
+    "territory": "United States",
+    "language": "English",
+    "english_language": "English",
+    "vernacular": "One Unity Resource Bible",
+    "title": "One Unity Resource Bible",
+    "redist": true,
+    "restricted": false,
+    "cc": [
+      "https://creativecommons.org/licenses/by-sa/4.0",
+      "https://creativecommons.org/licenses/by-sa/4.0/'"
+    ],
+    "flags": [],
+    "usfm": "https://eBible.org/Scriptures/engourb_usfm.zip",
+    "updated": "2024-12-05",
+    "text_chars": 2613
+  },
+  {
+    "id": "engoebus",
+    "territory": "United States",
+    "language": "English",
+    "english_language": "English",
+    "vernacular": "Open English Bible (U. S. spelling)",
+    "title": "Open English Bible (US)",
+    "redist": true,
+    "restricted": false,
+    "cc": [],
+    "flags": [
+      "pd"
+    ],
+    "usfm": "https://eBible.org/Scriptures/engoebus_usfm.zip",
+    "updated": "2026-10-30",
+    "text_chars": 1685
+  },
+  {
+    "id": "engtcent",
+    "territory": "United States",
+    "language": "English",
+    "english_language": "English",
+    "vernacular": "Text-Critical English New Testament",
+    "title": "Text-Critical English NT",
+    "redist": true,
+    "restricted": false,
+    "cc": [
+      "https://creativecommons.org/licenses/by/4.0",
+      "https://creativecommons.org/licenses/by/4.0/'"
+    ],
+    "flags": [],
+    "usfm": "https://eBible.org/Scriptures/engtcent_usfm.zip",
+    "updated": "2026-10-30",
+    "text_chars": 2530
+  },
+  {
+    "id": "eng-t4t",
+    "territory": "United States",
+    "language": "English",
+    "english_language": "English",
+    "vernacular": "Translation for Translators",
+    "title": "Translation for Translators",
+    "redist": true,
+    "restricted": false,
+    "cc": [
+      "https://creativecommons.org/licenses/by-sa/4.0",
+      "https://creativecommons.org/licenses/by-sa/4.0/'"
+    ],
+    "flags": [],
+    "usfm": "https://eBible.org/Scriptures/eng-t4t_usfm.zip",
+    "updated": "2026-10-30",
+    "text_chars": 3206
+  },
+  {
+    "id": "engULB",
+    "territory": "United States",
+    "language": "English",
+    "english_language": "English",
+    "vernacular": "Unlocked Literal Bible",
+    "title": "Unlocked Literal Bible",
+    "redist": true,
+    "restricted": false,
+    "cc": [
+      "https://creativecommons.org/licenses/by-sa/4.0",
+      "https://creativecommons.org/licenses/by-sa/4.0/'"
+    ],
+    "flags": [],
+    "usfm": "https://eBible.org/Scriptures/engULB_usfm.zip",
+    "updated": "2020-12-04",
+    "text_chars": 4088
+  },
+  {
+    "id": "engwebster",
+    "territory": "United States",
+    "language": "English",
+    "english_language": "English",
+    "vernacular": "Noah Webster Bible",
+    "title": "Webster Bible",
+    "redist": true,
+    "restricted": false,
+    "cc": [],
+    "flags": [
+      "pd"
+    ],
+    "usfm": "https://eBible.org/Scriptures/engwebster_usfm.zip",
+    "updated": "2024-08-01",
+    "text_chars": 1677
+  },
+  {
+    "id": "engwebp",
+    "territory": "United States",
+    "language": "English",
+    "english_language": "English",
+    "vernacular": "World English Bible",
+    "title": "World English Bible",
+    "redist": true,
+    "restricted": false,
+    "cc": [],
+    "flags": [
+      "pd"
+    ],
+    "usfm": "https://eBible.org/Scriptures/engwebp_usfm.zip",
+    "updated": "2026-10-30",
+    "text_chars": 2671
+  },
+  {
+    "id": "eng-web-c",
+    "territory": "United States",
+    "language": "English",
+    "english_language": "English",
+    "vernacular": "World English Bible (Catholic)",
+    "title": "World English Bible (Catholic)",
+    "redist": true,
+    "restricted": false,
+    "cc": [],
+    "flags": [
+      "pd"
+    ],
+    "usfm": "https://eBible.org/Scriptures/eng-web-c_usfm.zip",
+    "updated": "2026-10-30",
+    "text_chars": 2940
+  },
+  {
+    "id": "eng-web",
+    "territory": "United States",
+    "language": "English",
+    "english_language": "English",
+    "vernacular": "World English Bible Classic",
+    "title": "World English Bible Classic",
+    "redist": true,
+    "restricted": false,
+    "cc": [],
+    "flags": [
+      "pd"
+    ],
+    "usfm": "https://eBible.org/Scriptures/eng-web_usfm.zip",
+    "updated": "2026-10-30",
+    "text_chars": 3134
+  },
+  {
+    "id": "engwebu",
+    "territory": "United States",
+    "language": "English",
+    "english_language": "English",
+    "vernacular": "World English Bible Updated",
+    "title": "World English Bible Updated",
+    "redist": true,
+    "restricted": false,
+    "cc": [],
+    "flags": [
+      "pd"
+    ],
+    "usfm": "https://eBible.org/Scriptures/engwebu_usfm.zip",
+    "updated": "2026-10-30",
+    "text_chars": 2953
+  },
+  {
+    "id": "engwmb",
+    "territory": "United States",
+    "language": "English",
+    "english_language": "English",
+    "vernacular": "World Messianic Bible",
+    "title": "World Messianic Bible",
+    "redist": true,
+    "restricted": false,
+    "cc": [],
+    "flags": [
+      "pd"
+    ],
+    "usfm": "https://eBible.org/Scriptures/engwmb_usfm.zip",
+    "updated": "2026-10-30",
+    "text_chars": 2543
+  },
+  {
+    "id": "engbsb",
+    "territory": "United States of America",
+    "language": "English",
+    "english_language": "English",
+    "vernacular": "Berean Standard Bible",
+    "title": "English Berean Standard Bible",
+    "redist": true,
+    "restricted": false,
+    "cc": [],
+    "flags": [
+      "pd"
+    ],
+    "usfm": "https://eBible.org/Scriptures/engbsb_usfm.zip",
+    "updated": "2026-10-30",
+    "text_chars": 1448
+  },
+  {
+    "id": "engf35",
+    "territory": "United States of America",
+    "language": "English",
+    "english_language": "English",
+    "vernacular": "The New Testament with Commentary",
+    "title": "Family 35 NT",
+    "redist": true,
+    "restricted": false,
+    "cc": [
+      "https://creativecommons.org/licenses/by-sa/4.0",
+      "https://creativecommons.org/licenses/by-sa/4.0/'"
+    ],
+    "flags": [],
+    "usfm": "https://eBible.org/Scriptures/engf35_usfm.zip",
+    "updated": "2026-10-30",
+    "text_chars": 2438
+  },
+  {
+    "id": "engfbv",
+    "territory": "United States of America",
+    "language": "English",
+    "english_language": "English",
+    "vernacular": "Free Bible Version",
+    "title": "Free Bible Version",
+    "redist": true,
+    "restricted": false,
+    "cc": [
+      "https://creativecommons.org/licenses/by-sa/4.0",
+      "https://creativecommons.org/licenses/by-sa/4.0/'"
+    ],
+    "flags": [],
+    "usfm": "https://eBible.org/Scriptures/engfbv_usfm.zip",
+    "updated": "2026-10-30",
+    "text_chars": 2590
+  },
+  {
+    "id": "engjps",
+    "territory": "United States of America",
+    "language": "English",
+    "english_language": "English",
+    "vernacular": "JPS TaNaKH 1917",
+    "title": "JPS TaNaKH 1917",
+    "redist": true,
+    "restricted": false,
+    "cc": [],
+    "flags": [
+      "pd"
+    ],
+    "usfm": "https://eBible.org/Scriptures/engjps_usfm.zip",
+    "updated": "2023-09-19",
+    "text_chars": 1299
+  },
+  {
+    "id": "englxxup",
+    "territory": "United States of America",
+    "language": "English",
+    "english_language": "English",
+    "vernacular": "Updated Brenton English Septuagint",
+    "title": "Updated Brenton English Septuagint",
+    "redist": true,
+    "restricted": false,
+    "cc": [],
+    "flags": [
+      "pd"
+    ],
+    "usfm": "https://eBible.org/Scriptures/englxxup_usfm.zip",
+    "updated": "2026-02-18",
+    "text_chars": 1383
+  }
+]

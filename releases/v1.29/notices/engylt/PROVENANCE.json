@@ -1,0 +1,16 @@
+{
+  "id": "engylt",
+  "title": "Young's Literal Translation",
+  "vernacular_title": "Young's Literal Translation",
+  "source": "https://ebible.org/Scriptures/details.php?id=engylt",
+  "source_archive": "https://eBible.org/Scriptures/engylt_usfm.zip",
+  "source_sha256": "c526b4e362fef13916a14765a7e331267f6a1227db58549fc61d3288a930a12b",
+  "source_updated": "2019-10-20",
+  "retrieved": "2026-11-03",
+  "license": "Public Domain",
+  "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "books": 66,
+  "verse_rows": 31102,
+  "conversion": "Plain-verse format conversion; headings, notes, cross references and front/back matter omitted from display. Raw USFM and complete source page retained.",
+  "attribution": "Young's Literal Translation.  Source: eBible.org, reviewed 2019-10-20. Public Domain. Plain-verse format conversion; source words and punctuation retained. Headings, footnotes, cross references and publication-only material are omitted from display, not asserted to be absent from the source. Complete notices are retained in the source archive. No publisher endorsement."
+}

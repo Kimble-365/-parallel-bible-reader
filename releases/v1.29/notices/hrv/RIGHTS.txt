@@ -1,0 +1,60 @@
+Sveta Biblija
+eBible.org
+Translations
+Territories
+Sveta Biblija
+Croatian Bible
+Language:
+[hrv]
+Hrvatski
+Croatian
+Title:
+Sveta Biblija
+Croatian Bible
+Abbreviation:
+ID: HRVIVA or hrv
+public domain
+Format
+Link
+Browser Bible
+Study online with Browser Bible
+Mobile HTML
+Read Mobile HTML online
+Zipped mobile HTML
+hrv_html.zip
+ePub 3
+and
+Kindle
+hrv.epub
+PDF
+PDF file list
+Plain text canon only chapter files
+hrv_readaloud.zip
+BibleWorks import (VPL) + SQL
+hrv_vpl.zip
+Browser Bible module
+hrv_browserBible.zip
+USFX
+hrv_usfx.zip
+USFM
+hrv_usfm.zip
+XeTeX
+hrv_xetex.zip
+The Holy Bible in the Croatian language, translated by Ivan Šarić Sarajevo
+U početku stvori Bog nebo i zemlju.
+—Genesis 1:1
+Psalam. Davidov. Jahve je pastir moj: ni u čem ja ne oskudijevam;
+—Psalm 23:1
+Tražite stoga najprije Kraljevstvo i pravednost njegovu, a sve će vam se ostalo dodati.
+—Matthew 6:33
+Uistinu, Bog je tako ljubio svijet te je dao svoga Sina Jedinorođenca da nijedan koji u njega vjeruje ne propadne, nego da ima život vječni.
+—John 3:16
+Znamo pak da Bog u svemu na dobro surađuje s onima koji ga ljube, s onima koji su odlukom njegovom pozvani.
+—Romans 8:28
+Sveta Biblija
+The Holy Bible in the Croatian language, translated by Ivan Šarić Sarajevo
+Public Domain
+Language:
+Hrvatski (Croatian)
+2019-12-16
+Last updated 2019-12-16   e

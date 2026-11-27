@@ -1,0 +1,16 @@
+{
+  "id": "engtnt",
+  "title": "Tyndale NT",
+  "vernacular_title": "Tyndale New Testament",
+  "source": "https://ebible.org/Scriptures/details.php?id=engtnt",
+  "source_archive": "https://eBible.org/Scriptures/engtnt_usfm.zip",
+  "source_sha256": "a86faa9c69f021686e95bc26a7b598d6d7b33da391f523cac49cf8d3cd93822c",
+  "source_updated": "2020-12-20",
+  "retrieved": "2026-11-03",
+  "license": "Public Domain",
+  "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "books": 27,
+  "verse_rows": 7954,
+  "conversion": "Plain-verse format conversion; headings, notes, cross references and front/back matter omitted from display. Raw USFM and complete source page retained.",
+  "attribution": "Tyndale New Testament.  Source: eBible.org, reviewed 2020-12-20. Public Domain. Plain-verse format conversion; source words and punctuation retained. Headings, footnotes, cross references and publication-only material are omitted from display, not asserted to be absent from the source. Complete notices are retained in the source archive. No publisher endorsement."
+}

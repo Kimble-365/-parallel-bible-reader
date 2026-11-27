@@ -1,0 +1,92 @@
+Biblica® Open En Levende Bok: Det Nye Testamentet
+eBible.org
+Translations
+Territories
+Biblica® Open En Levende Bok: Det Nye Testamentet
+Norwegian Living NT
+Language:
+[nob]
+Norsk: Bokmål
+Norwegian
+Title:
+Biblica® Open En Levende Bok: Det Nye Testamentet
+Norwegian Living NT
+Abbreviation:
+OELB
+ID: NOBLBB or noblb
+Copyright © 1978, 1988, 2005 Biblica, Inc.
+Format
+Link
+Browser Bible
+Study online with Browser Bible
+Mobile HTML
+Read Mobile HTML online
+Zipped mobile HTML
+noblb_html.zip
+ePub 3
+and
+Kindle
+noblb.epub
+PDF
+PDF file list
+Crosswire Sword module
+noblb2005eb.zip
+Plain text canon only chapter files
+noblb_readaloud.zip
+BibleWorks import (VPL) + SQL
+noblb_vpl.zip
+Browser Bible module
+noblb_browserBible.zip
+USFX
+noblb_usfx.zip
+USFM
+noblb_usfm.zip
+XeTeX
+noblb_xetex.zip
+The Holy Bible in Norwegian Bokmål: Biblica® Open En Levende Bok: Det Nye Testamentet
+Han kommer til å gi dere alt dette, dersom dere først og fremst strever etter å gjøre hans vilje, og dermed at han får bestemme over dere.
+—Matthew 6:33
+Gud elsket jo menneskene så høyt at han ga sin eneste Sønn, for at alle som tror på ham, ikke skal gå fortapt, men ha evig liv.
+—John 3:16
+Vi vet at Gud kan bruke alt som skjer, til noe godt for dem som elsker ham, de som i trå med hans plan får tilhøre ham.
+—Romans 8:28
+Biblica® Open En Levende Bok: Det Nye Testamentet
+The Holy Bible in Norwegian Bokmål: Biblica® Open En Levende Bok: Det Nye Testamentet
+copyright © 1978, 1988, 2005
+Biblica, Inc.
+Language:
+Norsk: Bokmål (Norwegian)
+Contributor: Biblica, Inc.
+Biblica® Open En Levende Bok: Det Nye Testamentet™
+Biblica® Open Norwegian Living New Testament™
+Copyright © 1978, 1988, 2005 by Biblica, Inc.
+“Biblica” is a trademark registered in the United States Patent and Trademark Office by Biblica, Inc. Used with permission.
+This work is made available under the Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA). To view a copy of this license, visit
+https://creativecommons.org/licenses/by-sa/4.
+0
+or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
+Biblica® is a trademark registered by Biblica, Inc., and use of the Biblica® trademark requires the written permission of Biblica, Inc. Under the terms of the CC BY-SA license, you may copy and redistribute this unmodified work as long as you keep the Biblica® trademark intact. If you modify a copy or translate this work, thereby creating a derivative work, you must remove the Biblica® trademark. On the derivative work, you must indicate what changes you have made and attribute the work as follows: “The original work by Biblica, Inc. is available for free at
+www.biblica.com
+and
+open.bible
+.”
+Notice of copyright must appear on the title or copyright page of the work as follows:
+Biblica® Open En Levende Bok: Det Nye Testamentet™
+Biblica® Open Norwegian Living New Testament™
+Copyright © 1978, 1988, 2005 by Biblica, Inc.
+“Biblica” is a trademark registered in the United States Patent and Trademark Office by Biblica, Inc. Used with permission.
+You must also make your derivative work available under the same license (CC BY-SA).
+If you would like to notify Biblica, Inc. regarding your translation of this work, please contact us at
+https://open.bible/contact-us
+.
+This translation is made available to you under the terms of the
+Creative Commons Attribution Share-Alike license 4.0.
+You have permission to share and redistribute this Bible translation in any format and to make reasonable revisions and adaptations of this translation, provided that:
+You include the above copyright and source information.
+If you make any changes to the text, you must indicate that you did so in a way that makes it clear that the original licensor is not necessarily endorsing your changes.
+If you redistribute this text, you must distribute your contributions under the same license as the original.
+Pictures included with Scriptures and other documents on this site are licensed just for use with those Scriptures and documents.
+For other uses, please contact the respective copyright owners.
+Note that in addition to the rules above, revising and adapting God's Word involves a great responsibility to be true to God's Word. See Revelation 22:18-19.
+2025-05-17
+Last updated 2025-05-17   tiny3

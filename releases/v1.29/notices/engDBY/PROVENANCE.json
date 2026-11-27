@@ -1,0 +1,16 @@
+{
+  "id": "engDBY",
+  "title": "Darby Translation",
+  "vernacular_title": "Darby Translation",
+  "source": "https://ebible.org/Scriptures/details.php?id=engDBY",
+  "source_archive": "https://eBible.org/Scriptures/engDBY_usfm.zip",
+  "source_sha256": "ebdd506c5cb8c2dccb3e94f834e012123e538ef294556a981f323bd855ab332e",
+  "source_updated": "2019-11-15",
+  "retrieved": "2026-11-03",
+  "license": "Public Domain",
+  "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "books": 66,
+  "verse_rows": 31099,
+  "conversion": "Plain-verse format conversion; headings, notes, cross references and front/back matter omitted from display. Raw USFM and complete source page retained.",
+  "attribution": "Darby Translation.  Source: eBible.org, reviewed 2019-11-15. Public Domain. Plain-verse format conversion; source words and punctuation retained. Headings, footnotes, cross references and publication-only material are omitted from display, not asserted to be absent from the source. Complete notices are retained in the source archive. No publisher endorsement."
+}

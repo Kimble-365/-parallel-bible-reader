@@ -1,0 +1,16 @@
+{
+  "id": "engWycliffe",
+  "title": "Wycliffe Bible portions",
+  "vernacular_title": "Wycliffe Bible",
+  "source": "https://ebible.org/Scriptures/details.php?id=engWycliffe",
+  "source_archive": "https://eBible.org/Scriptures/engWycliffe_usfm.zip",
+  "source_sha256": "8702afe48f1f3e0527107d23f938ecd7fbfcbe0e55ceaf386f129bd279a5b4d9",
+  "source_updated": "2016-11-08",
+  "retrieved": "2026-11-03",
+  "license": "Public Domain",
+  "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "books": 9,
+  "verse_rows": 9622,
+  "conversion": "Plain-verse format conversion; headings, notes, cross references and front/back matter omitted from display. Raw USFM and complete source page retained.",
+  "attribution": "Wycliffe Bible.  Source: eBible.org, reviewed 2016-11-08. Public Domain. Plain-verse format conversion; source words and punctuation retained. Headings, footnotes, cross references and publication-only material are omitted from display, not asserted to be absent from the source. Complete notices are retained in the source archive. No publisher endorsement."
+}

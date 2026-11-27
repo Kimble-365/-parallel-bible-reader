@@ -1,0 +1,65 @@
+Riveduta Bibbia 1927
+eBible.org
+Translations
+Territories
+Riveduta Bibbia 1927
+Italian Riveduta Bible
+Language:
+[ita]
+lingua italiana
+Italian
+Title:
+Riveduta Bibbia 1927
+Italian Riveduta Bible
+Abbreviation:
+DO885
+ID: ITARIV or ita1927
+public domain
+Format
+Link
+Browser Bible
+Study online with Browser Bible
+Mobile HTML
+Read Mobile HTML online
+Zipped mobile HTML
+ita1927_html.zip
+ePub 3
+and
+Kindle
+ita1927.epub
+PDF
+PDF file list
+Crosswire Sword module
+ita1927eb.zip
+Plain text canon only chapter files
+ita1927_readaloud.zip
+BibleWorks import (VPL) + SQL
+ita1927_vpl.zip
+Browser Bible module
+ita1927_browserBible.zip
+USFX
+ita1927_usfx.zip
+USFM
+ita1927_usfm.zip
+XeTeX
+ita1927_xetex.zip
+The Holy Bible in Italian, Riveduta 1927
+Nel principio Iddio creò i cieli e la terra.
+—Genesis 1:1
+Salmo di Davide. L’Eterno è il mio pastore, nulla mi mancherà.
+—Psalm 23:1
+Ma cercate prima il regno e la giustizia di Dio, e tutte queste cose vi saranno sopraggiunte.
+—Matthew 6:33
+Poiché Iddio ha tanto amato il mondo, che ha dato il suo unigenito Figliuolo, affinché chiunque crede in lui non perisca, ma abbia vita eterna.
+—John 3:16
+Or noi sappiamo che tutte le cose cooperano al bene di quelli che amano Dio, i quali son chiamati secondo il suo proponimento.
+—Romans 8:28
+Riveduta Bibbia 1927
+The Holy Bible in Italian, Riveduta 1927
+Public Domain
+Language:
+lingua italiana (Italian)
+Contributor: Bible Society in Italy
+The Diodati Bible was published in 1885
+2019-12-17
+Last updated 2019-12-17   e

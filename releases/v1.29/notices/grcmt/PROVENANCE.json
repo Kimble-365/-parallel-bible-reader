@@ -1,0 +1,16 @@
+{
+  "id": "grcmt",
+  "title": "Greek Majority Text NT",
+  "vernacular_title": "Η Καινή Διαθήκη",
+  "source": "https://ebible.org/Scriptures/details.php?id=grcmt",
+  "source_archive": "https://eBible.org/Scriptures/grcmt_usfm.zip",
+  "source_sha256": "33b208ee58a1862696689dcd5db69ed0ae891cd08aea3c7c68a5055501874048",
+  "source_updated": "2024-01-09",
+  "retrieved": "2026-11-03",
+  "license": "Public Domain",
+  "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "books": 27,
+  "verse_rows": 7953,
+  "conversion": "Plain-verse format conversion; headings, notes, cross references and front/back matter omitted from display. Raw USFM and complete source page retained.",
+  "attribution": "Η Καινή Διαθήκη.  Source: eBible.org, reviewed 2024-01-09. Public Domain. Plain-verse format conversion; source words and punctuation retained. Headings, footnotes, cross references and publication-only material are omitted from display, not asserted to be absent from the source. Complete notices are retained in the source archive. No publisher endorsement."
+}

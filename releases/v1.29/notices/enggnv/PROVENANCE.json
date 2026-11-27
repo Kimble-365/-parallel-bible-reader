@@ -1,0 +1,16 @@
+{
+  "id": "enggnv",
+  "title": "Geneva Bible 1599",
+  "vernacular_title": "Geneva Bible 1599",
+  "source": "https://ebible.org/Scriptures/details.php?id=enggnv",
+  "source_archive": "https://eBible.org/Scriptures/enggnv_usfm.zip",
+  "source_sha256": "6ed7356ea8bee3c042e168c8a1650aefed08f1bf24f158794506608b27715ebe",
+  "source_updated": "2024-03-16",
+  "retrieved": "2026-11-03",
+  "license": "Public Domain",
+  "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "books": 66,
+  "verse_rows": 31090,
+  "conversion": "Plain-verse format conversion; headings, notes, cross references and front/back matter omitted from display. Raw USFM and complete source page retained.",
+  "attribution": "Geneva Bible 1599. copyright restrictions, courtesy of Source: eBible.org, reviewed 2024-03-16. Public Domain. Plain-verse format conversion; source words and punctuation retained. Headings, footnotes, cross references and publication-only material are omitted from display, not asserted to be absent from the source. Complete notices are retained in the source archive. No publisher endorsement."
+}

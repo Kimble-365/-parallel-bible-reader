@@ -1,0 +1,59 @@
+an Bibl
+eBible.org
+Translations
+Territories
+an Bibl
+Breton Gospels
+Language:
+[bre]
+Brezhoneg
+Breton
+Title:
+an Bibl
+Breton Gospels
+Abbreviation:
+ID: BREBRG or breBRG
+public domain
+Format
+Link
+Browser Bible
+Study online with Browser Bible
+Mobile HTML
+Read Mobile HTML online
+Zipped mobile HTML
+breBRG_html.zip
+ePub 3
+and
+Kindle
+breBRG.epub
+PDF
+PDF file list
+Crosswire Sword module
+breBRG1827eb.zip
+Plain text canon only chapter files
+breBRG_readaloud.zip
+BibleWorks import (VPL) + SQL
+breBRG_vpl.zip
+Browser Bible module
+breBRG_browserBible.zip
+USFX
+breBRG_usfx.zip
+USFM
+breBRG_usfm.zip
+XeTeX
+breBRG_xetex.zip
+The Gospels in the Breton language of France, 1827 edition
+Les Évangiles en breton, édition de 1827
+Klaskit kentoc'h rouantelezh Doue hag e reizhder, hag an holl draoù-se a vo roet deoc'h ouzhpenn.
+—Matthew 6:33
+Rak kement en deus Doue karet ar bed, m'en deus roet e Vab nemetañ, evit na vo ket kollet piv bennak a gred ennañ, met m'en devo ar vuhez peurbadus.
+—John 3:16
+an Bibl
+The Gospels in the Breton language of France, 1827 edition
+Les Évangiles en breton, édition de 1827
+Public Domain
+Language:
+Brezhoneg (Breton)
+Translation by: Jean-François le Gonidec
+2014-08-11
+Last updated 2014-08-11   tiny3

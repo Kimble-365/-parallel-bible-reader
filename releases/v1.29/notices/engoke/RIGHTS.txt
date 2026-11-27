@@ -1,0 +1,54 @@
+Targum Onkelos Etheridge
+eBible.org
+Translations
+Territories
+Targum Onkelos Etheridge
+Language:
+[eng]
+English
+English
+Title:
+Targum Onkelos Etheridge
+Targum Onkelos Etheridge
+Abbreviation:
+TOE
+ID: ENGOKE or engoke
+public domain
+Format
+Link
+Browser Bible
+Study online with Browser Bible
+Mobile HTML
+Read Mobile HTML online
+Zipped mobile HTML
+engoke_html.zip
+ePub 3
+and
+Kindle
+engoke.epub
+PDF
+PDF file list
+Crosswire Sword module
+engoke1865eb.zip
+Plain text canon only chapter files
+engoke_readaloud.zip
+BibleWorks import (VPL) + SQL
+engoke_vpl.zip
+Browser Bible module
+engoke_browserBible.zip
+USFX
+engoke_usfx.zip
+USFM
+engoke_usfm.zip
+XeTeX
+engoke_xetex.zip
+The Targums of Onkelos and Jonathan Ben Uzziel On the Pentateuch With The Fragments of the Jerusalem Targum From the Chaldee by J. W. Etheridge, M.A. First Published 1862-65.
+In the first times the Lord created the heavens and the earth.
+—Genesis 1:1
+Targum Onkelos Etheridge
+The Targums of Onkelos and Jonathan Ben Uzziel On the Pentateuch With The Fragments of the Jerusalem Targum From the Chaldee by J. W. Etheridge, M.A. First Published 1862-65.
+Public Domain
+Language:
+English
+2020-12-20
+Last updated 2020-12-20   e

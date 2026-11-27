@@ -1,0 +1,16 @@
+{
+  "id": "ita1885",
+  "title": "Italian Diodati Bible",
+  "vernacular_title": "Diodati Bibbia 1885",
+  "source": "https://ebible.org/Scriptures/details.php?id=ita1885",
+  "source_archive": "https://eBible.org/Scriptures/ita1885_usfm.zip",
+  "source_sha256": "509c769e98c1de3c963dc84d77643581359d6e1acbccaa926b3c8a2271c61000",
+  "source_updated": "2025-05-03",
+  "retrieved": "2026-11-03",
+  "license": "Public Domain",
+  "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "books": 66,
+  "verse_rows": 31095,
+  "conversion": "Plain-verse format conversion; headings, notes, cross references and front/back matter omitted from display. Raw USFM and complete source page retained.",
+  "attribution": "Diodati Bibbia 1885.  Source: eBible.org, reviewed 2025-05-03. Public Domain. Plain-verse format conversion; source words and punctuation retained. Headings, footnotes, cross references and publication-only material are omitted from display, not asserted to be absent from the source. Complete notices are retained in the source archive. No publisher endorsement."
+}

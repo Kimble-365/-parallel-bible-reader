@@ -1,0 +1,67 @@
+Библия Думитру Корнилеску 1924 (БДК)
+eBible.org
+Translations
+Territories
+Библия Думитру Корнилеску 1924 (БДК)
+Romanian Bible (Cyrillic)
+Language:
+[ron]
+Romanian
+Romanian
+Dialect:
+Cyrillic script
+Title:
+Библия Думитру Корнилеску 1924 (БДК)
+Romanian Bible (Cyrillic)
+Abbreviation:
+ID: RON924 or ron1924
+public domain
+Format
+Link
+Browser Bible
+Study online with Browser Bible
+Mobile HTML
+Read Mobile HTML online
+Zipped mobile HTML
+ron1924_html.zip
+ePub 3
+and
+Kindle
+ron1924.epub
+PDF
+PDF file list
+Crosswire Sword module
+ron1924eb.zip
+Plain text canon only chapter files
+ron1924_readaloud.zip
+BibleWorks import (VPL) + SQL
+ron1924_vpl.zip
+Browser Bible module
+ron1924_browserBible.zip
+USFX
+ron1924_usfx.zip
+USFM
+ron1924_usfm.zip
+XeTeX
+ron1924_xetex.zip
+Romanian Bible by Dumitru Cornilescu 1924 in Cyrillic Script
+Ла ынчепут, Думнезеу а фэкут черуриле ши пэмынтул.
+—Genesis 1:1
+Домнул есте Пэсторул меу: ну вой дуче липсэ де нимик.
+—Psalm 23:1
+Кэутацьмай ынтый Ымпэрэция луй Думнезеу ши неприхэниря Луй, ши тоате ачесте лукрурь ви се вор да пе дясупра.
+—Matthew 6:33
+Фииндкэатыт де мулт а юбит Думнезеу лумя, кэ а дат пе сингурул Луй Фиу, пентру ка орьчине креде ын Ел сэ ну пярэ, чи сэ айбэ вяца вешникэ.
+—John 3:16
+Де алтэ парте, штим кэ тоате лукруриле лукрязэ ымпреунэ спре бинеле челор че юбеск пе Думнезеу, ши ануме спре бинеле челор че сунт кемаць дупэ планул Сэу.
+—Romans 8:28
+Библия Думитру Корнилеску 1924 (БДК)
+Romanian Bible by Dumitru Cornilescu 1924 in Cyrillic Script
+Public Domain
+Language:
+(Romanian)
+Dialect: Cyrillic script
+Translation by: Dumitru Cornilescu
+This Bible translation is permanently in the public domain (not copyrighted) due to copyright expiration. You may copy and distribute it freely.  Această traducere biblică este permanent în domeniul public (fără drepturi de autor) din cauza expirării drepturilor de autor. Puteți să o copiați și să o distribuiți în mod liber.
+2022-01-13
+Last updated 2022-01-13   c

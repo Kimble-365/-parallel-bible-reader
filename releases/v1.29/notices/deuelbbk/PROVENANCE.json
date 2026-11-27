@@ -1,0 +1,16 @@
+{
+  "id": "deuelbbk",
+  "title": "German ELBBK Bible",
+  "vernacular_title": "Elberfelder Übersetzung (Version von bibelkommentare.de)",
+  "source": "https://ebible.org/Scriptures/details.php?id=deuelbbk",
+  "source_archive": "https://eBible.org/Scriptures/deuelbbk_usfm.zip",
+  "source_sha256": "044e2f63f47f45c4648ab5fbd638d1672e862c975c97db7c066e433742a670c3",
+  "source_updated": "2023-10-23",
+  "retrieved": "2026-11-03",
+  "license": "CC BY NC ND 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0",
+  "books": 66,
+  "verse_rows": 31165,
+  "conversion": "Plain-verse format conversion; headings, notes, cross references and front/back matter omitted from display. Raw USFM and complete source page retained.",
+  "attribution": "Elberfelder Übersetzung (Version von bibelkommentare.de). Copyright © 2019 Verbreitung des christlichen Glaubens e.V. copyright © 2019 copyright and source information. Source: eBible.org, reviewed 2023-10-23. CC BY NC ND 4.0. Plain-verse format conversion; source words and punctuation retained. Headings, footnotes, cross references and publication-only material are omitted from display, not asserted to be absent from the source. Complete notices are retained in the source archive. No publisher endorsement."
+}

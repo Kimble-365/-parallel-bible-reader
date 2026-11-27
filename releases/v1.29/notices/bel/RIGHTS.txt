@@ -1,0 +1,76 @@
+Біблія (пераклад А.Бокуна)
+eBible.org
+Translations
+Territories
+Біблія (пераклад А.Бокуна)
+Belarusan Bible, A. Boken
+Language:
+[bel]
+Belarusian
+Belarusian
+Title:
+Біблія (пераклад А.Бокуна)
+Belarusan Bible, A. Boken
+Abbreviation:
+ББЛ
+ID: BELJFC or bel
+Copyright © 2016-2023 John the Forerunner Church of Christians of Evangelical Faith of Minsk City
+Format
+Link
+Browser Bible
+Study online with Browser Bible
+Mobile HTML
+Read Mobile HTML online
+Zipped mobile HTML
+bel_html.zip
+ePub 3
+and
+Kindle
+bel.epub
+PDF
+PDF file list
+Crosswire Sword module
+bel2016eb.zip
+Plain text canon only chapter files
+bel_readaloud.zip
+BibleWorks import (VPL) + SQL
+bel_vpl.zip
+Browser Bible module
+bel_browserBible.zip
+USFX
+bel_usfx.zip
+USFM
+bel_usfm.zip
+XeTeX
+bel_xetex.zip
+The Holy Bible in Belarusan, Antoni Boken translation
+Белорусское Новый Завет и Притчи
+На пачатку стварыў Бог неба і зямлю.
+—Genesis 1:1
+Псальм Давіда. ГОСПАД ёсьць Пастыр мой, ні ў чым ня буду мець нястачы!
+—Psalm 23:1
+Шукайце ж перш Валадарства Божага і праведнасьці Яго, і тое ўсё дадасца вам.
+—Matthew 6:33
+Бо так палюбіў Бог сьвет, што Сына Свайго Адзінароднага аддаў, каб кожны, хто верыць у Яго, не загінуў, але меў жыцьцё вечнае.
+—John 3:16
+А мы ведаем, што тым, якія любяць Бога, пакліканым паводле Яго вызначэньня, усё дапамагае на дабро.
+—Romans 8:28
+Біблія (пераклад А.Бокуна)
+The Holy Bible in Belarusan, Antoni Boken translation
+Белорусское Новый Завет и Притчи
+copyright © 2016-2023
+John the Forerunner Church of Christians of Evangelical Faith of Minsk City
+Language:
+Belarusian
+Translation by: Antoni Bokun
+Contributor: John the Forerunner Church of Christians of Evangelical Faith of Minsk City
+Біблія (пераклад А.Бокуна)
+This translation is made available to you under the terms of the
+Creative Commons Attribution-No Derivatives license 4.0.
+You may share, redistribute, or adapt this Bible translation or extracts from it in any format, provided that:
+You include the above copyright and source information.
+You do not use this work for commercial purposes.
+Pictures included with Scriptures and other documents on this site are licensed just for use with those Scriptures and documents.
+For other uses, please contact the respective copyright owners.
+2025-05-09
+Last updated 2025-05-09   tiny3

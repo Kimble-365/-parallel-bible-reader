@@ -1,0 +1,16 @@
+{
+  "id": "eng-web-c",
+  "title": "World English Bible (Catholic)",
+  "vernacular_title": "World English Bible (Catholic)",
+  "source": "https://ebible.org/Scriptures/details.php?id=eng-web-c",
+  "source_archive": "https://eBible.org/Scriptures/eng-web-c_usfm.zip",
+  "source_sha256": "85a6599ccd65c8d71a62fb0d7e1739e4c776a970e05f25d5f881684550e7620c",
+  "source_updated": "2026-10-30",
+  "retrieved": "2026-11-03",
+  "license": "Public Domain",
+  "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "books": 72,
+  "verse_rows": 34849,
+  "conversion": "Plain-verse format conversion; headings, notes, cross references and front/back matter omitted from display. Raw USFM and complete source page retained.",
+  "attribution": "World English Bible (Catholic). copyrighted. However, \"World English Bible\" is a Trademark of eBible.org. Source: eBible.org, reviewed 2026-10-30. Public Domain. Plain-verse format conversion; source words and punctuation retained. Headings, footnotes, cross references and publication-only material are omitted from display, not asserted to be absent from the source. Complete notices are retained in the source archive. No publisher endorsement."
+}

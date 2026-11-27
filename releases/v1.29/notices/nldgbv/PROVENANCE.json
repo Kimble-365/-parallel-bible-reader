@@ -1,0 +1,16 @@
+{
+  "id": "nldgbv",
+  "title": "Dutch: Gods Boek",
+  "vernacular_title": "Gods Boek",
+  "source": "https://ebible.org/Scriptures/details.php?id=nldgbv",
+  "source_archive": "https://eBible.org/Scriptures/nldgbv_usfm.zip",
+  "source_sha256": "730a5f1020d64dc75d2e3ac0787deca21f1f0652bbdc66518ab2466e0c2e53da",
+  "source_updated": "2025-05-17",
+  "retrieved": "2026-11-03",
+  "license": "CC BY SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "books": 27,
+  "verse_rows": 7942,
+  "conversion": "Plain-verse format conversion; headings, notes, cross references and front/back matter omitted from display. Raw USFM and complete source page retained.",
+  "attribution": "Gods Boek. Copyright © Operation Mobilization International copyright © copyright and source information. Source: eBible.org, reviewed 2025-05-17. CC BY SA 4.0. Plain-verse format conversion; source words and punctuation retained. Headings, footnotes, cross references and publication-only material are omitted from display, not asserted to be absent from the source. Complete notices are retained in the source archive. No publisher endorsement."
+}

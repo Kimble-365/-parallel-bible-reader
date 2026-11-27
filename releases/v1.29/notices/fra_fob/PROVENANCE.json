@@ -1,0 +1,16 @@
+{
+  "id": "fra_fob",
+  "title": "French Ostervald Bible",
+  "vernacular_title": "La Sainte Bible",
+  "source": "https://ebible.org/Scriptures/details.php?id=fra_fob",
+  "source_archive": "https://eBible.org/Scriptures/fra_fob_usfm.zip",
+  "source_sha256": "4631037b5b9e137f8496ad02424d1968da5405537f3bc98e2b2a44e08334d3ec",
+  "source_updated": "2026-10-30",
+  "retrieved": "2026-11-03",
+  "license": "Public Domain",
+  "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "books": 66,
+  "verse_rows": 31107,
+  "conversion": "Plain-verse format conversion; headings, notes, cross references and front/back matter omitted from display. Raw USFM and complete source page retained.",
+  "attribution": "La Sainte Bible.  Source: eBible.org, reviewed 2026-10-30. Public Domain. Plain-verse format conversion; source words and punctuation retained. Headings, footnotes, cross references and publication-only material are omitted from display, not asserted to be absent from the source. Complete notices are retained in the source archive. No publisher endorsement."
+}

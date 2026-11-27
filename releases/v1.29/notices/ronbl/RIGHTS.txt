@@ -1,0 +1,62 @@
+Biblia Liberă
+eBible.org
+Translations
+Territories
+Biblia Liberă
+Romanian Free Holy Bible
+Language:
+[ron]
+Română
+Romanian
+Title:
+Biblia Liberă
+Romanian Free Holy Bible
+Abbreviation:
+BL
+ID: RONSBL or ronbl
+public domain
+Format
+Link
+Browser Bible
+Study online with Browser Bible
+Mobile HTML
+Read Mobile HTML online
+Zipped mobile HTML
+ronbl_html.zip
+ePub 3
+and
+Kindle
+ronbl.epub
+PDF
+PDF file list
+Crosswire Sword module
+ronbl2022eb.zip
+Plain text canon only chapter files
+ronbl_readaloud.zip
+BibleWorks import (VPL) + SQL
+ronbl_vpl.zip
+Browser Bible module
+ronbl_browserBible.zip
+USFX
+ronbl_usfx.zip
+USFM
+ronbl_usfm.zip
+XeTeX
+ronbl_xetex.zip
+The New Testament in the Romanian Language, using Latin script, Biblia Liberă translation
+Căutați însă mai întâi Împărăția lui Dumnezeu și dreptatea Lui, și toate aceste lucruri vi se vor da pe deasupra.
+—Matthew 6:33
+Fiindcă atât de mult a iubit Dumnezeu lumea, încât L-a dat pe singurul Său Fiu născut, pentru ca oricine crede în El să nu piară, ci să aibă viață veșnică.
+—John 3:16
+De altă parte, știm că toate lucrurile lucrează împreună spre binele celor ce-L iubesc pe Dumnezeu, și anume al celor ce sunt chemați după planul Său.
+—Romans 8:28
+Biblia Liberă
+The New Testament in the Romanian Language, using Latin script, Biblia Liberă translation
+Public Domain
+Language:
+Română (Romanian)
+Aceasta este o schiță de traducere. Este în curs de revizuire și editare. Dacă găsiți erori, vă rugăm să ni le raportați la
+[email protected]
+.
+2026-10-28
+Last updated 2026-10-28   c

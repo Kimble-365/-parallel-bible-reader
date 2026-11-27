@@ -1,0 +1,16 @@
+{
+  "id": "spavbl",
+  "title": "Spanish Free Bible Version",
+  "vernacular_title": "Versión Biblia Libre",
+  "source": "https://ebible.org/Scriptures/details.php?id=spavbl",
+  "source_archive": "https://eBible.org/Scriptures/spavbl_usfm.zip",
+  "source_sha256": "7c7b35801c6d18789fd4f4dbc259d0686d1322b6269f9c70db84526627485638",
+  "source_updated": "2026-10-30",
+  "retrieved": "2026-11-03",
+  "license": "CC BY SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "books": 66,
+  "verse_rows": 31086,
+  "conversion": "Plain-verse format conversion; headings, notes, cross references and front/back matter omitted from display. Raw USFM and complete source page retained.",
+  "attribution": "Versión Biblia Libre. Copyright © 2018-2020 Jonathan Gallagher y Shelly Barrios de Avila copyright © 2018-2020 copyright and source information. Source: eBible.org, reviewed 2026-10-30. CC BY SA 4.0. Plain-verse format conversion; source words and punctuation retained. Headings, footnotes, cross references and publication-only material are omitted from display, not asserted to be absent from the source. Complete notices are retained in the source archive. No publisher endorsement."
+}

@@ -1,0 +1,61 @@
+Isaac Leeser Tanakh
+eBible.org
+Translations
+Territories
+Isaac Leeser Tanakh
+Leeser Tanakh
+Language:
+[eng]
+English
+English
+Dialect:
+archaic British
+Title:
+Isaac Leeser Tanakh
+Leeser Tanakh
+Abbreviation:
+LEE
+ID: ENGLEE or englee
+public domain
+Format
+Link
+Browser Bible
+Study online with Browser Bible
+Mobile HTML
+Read Mobile HTML online
+Zipped mobile HTML
+englee_html.zip
+ePub 3
+and
+Kindle
+englee.epub
+PDF
+PDF file list
+Crosswire Sword module
+englee1853eb.zip
+Plain text canon only chapter files
+englee_readaloud.zip
+BibleWorks import (VPL) + SQL
+englee_vpl.zip
+Browser Bible module
+englee_browserBible.zip
+USFX
+englee_usfx.zip
+USFM
+englee_usfm.zip
+XeTeX
+englee_xetex.zip
+The Isaac Leeser Tanakh (Jewish Bible)
+In the beginning God created the heaven and the earth.
+—Genesis 1:1
+“A psalm of David.” The Lord is my shepherd, I shall not want.
+—Psalm 23:1
+Isaac Leeser Tanakh
+The Isaac Leeser Tanakh (Jewish Bible)
+Public Domain
+Language:
+English
+Dialect: archaic British
+Translation by: Isaac Leeser
+2020-10-14
+Last updated 2020-10-14   c

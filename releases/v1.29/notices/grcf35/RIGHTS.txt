@@ -1,0 +1,70 @@
+Η Καινή Διαθήκη
+eBible.org
+Translations
+Territories
+Η Καινή Διαθήκη
+Greek NT Family 35
+Language:
+[grc]
+Ελληνικά
+Greek, Ancient
+Dialect:
+Koine
+Title:
+Η Καινή Διαθήκη
+Greek NT Family 35
+Abbreviation:
+ID: GRCF35 or grcf35
+Copyright © 2020 Wilbur N. Pickering
+Format
+Link
+Browser Bible
+Study online with Browser Bible
+Mobile HTML
+Read Mobile HTML online
+Zipped mobile HTML
+grcf35_html.zip
+ePub 3
+and
+Kindle
+grcf35.epub
+PDF
+PDF file list
+Crosswire Sword module
+grcf35eb.zip
+Plain text canon only chapter files
+grcf35_readaloud.zip
+BibleWorks import (VPL) + SQL
+grcf35_vpl.zip
+Browser Bible module
+grcf35_browserBible.zip
+USFX
+grcf35_usfx.zip
+USFM
+grcf35_usfm.zip
+XeTeX
+grcf35_xetex.zip
+The Greek New Testament According to Family 35, Wilbur Pickering
+Ζητεῖτε δὲ πρῶτον τὴν βασιλείαν τοῦ Θεοῦ καὶ τὴν δικαιοσύνην αὐτοῦ, καὶ ταῦτα πάντα προστεθήσεται ὑμῖν.
+—Matthew 6:33
+Οὕτως γὰρ ἠγάπησεν ὁ Θεὸς τὸν κόσμον ὥστε τὸν Υἱὸν αὐτοῦ τὸν μονογενῆ ἔδωκεν, ἵνα πᾶς ὁ πιστεύων εἰς αὐτὸν μὴ ἀπόληται, ἀλλ᾿ ἔχῃ ζωὴν αἰώνιον.
+—John 3:16
+Οἴδαμεν δὲ ὅτι τοῖς ἀγαπῶσιν τὸν Θεὸν πάντα συνεργεῖ εἰς ἀγαθόν, τοῖς κατὰ πρόθεσιν κλητοῖς οὖσιν.
+—Romans 8:28
+Η Καινή Διαθήκη
+The Greek New Testament According to Family 35, Wilbur Pickering
+Copyright © 2020 Wilbur N. Pickering
+Language:
+Ελληνικά (Greek, Ancient)
+Dialect: Koine
+Contributor: Dwayne Green, Robert A. Boyd
+This translation is made available to you under the terms of the
+Creative Commons Attribution-Noncommercial-No Derivatives license 4.0.
+You may share and redistribute this Bible translation or extracts from it in any format, provided that:
+You include the above copyright and source information.
+You do not sell this work for a profit.
+You do not change any of the words or punctuation of the Scriptures.
+Pictures included with Scriptures and other documents on this site are licensed just for use with those Scriptures and documents.
+For other uses, please contact the respective copyright owners.
+2026-10-30
+Last updated 2026-10-30   e

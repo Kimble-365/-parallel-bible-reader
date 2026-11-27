@@ -1,0 +1,16 @@
+{
+  "id": "engasvbt",
+  "title": "ASV Byzantine Text",
+  "vernacular_title": "American Standard Version Byzantine Text",
+  "source": "https://ebible.org/Scriptures/details.php?id=engasvbt",
+  "source_archive": "https://eBible.org/Scriptures/engasvbt_usfm.zip",
+  "source_sha256": "386996c30172f88c3532b04f021c429cd072e29c8cebf901fb6219a3e52c45c1",
+  "source_updated": "2026-10-30",
+  "retrieved": "2026-11-03",
+  "license": "Public Domain",
+  "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "books": 84,
+  "verse_rows": 37843,
+  "conversion": "Plain-verse format conversion; headings, notes, cross references and front/back matter omitted from display. Raw USFM and complete source page retained.",
+  "attribution": "American Standard Version Byzantine Text. copyright expiration. Source: eBible.org, reviewed 2026-10-30. Public Domain. Plain-verse format conversion; source words and punctuation retained. Headings, footnotes, cross references and publication-only material are omitted from display, not asserted to be absent from the source. Complete notices are retained in the source archive. No publisher endorsement."
+}

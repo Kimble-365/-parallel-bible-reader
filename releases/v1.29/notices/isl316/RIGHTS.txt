@@ -1,0 +1,76 @@
+316-biblían
+eBible.org
+Translations
+Territories
+316-biblían
+Icelandic 3:16
+Language:
+[isl]
+Íslenska
+Icelandic
+Title:
+316-biblían
+Icelandic 3:16
+Abbreviation:
+ISL316
+ID: ISL316 or isl316
+Copyright © 2026 Every Nation Iceland
+Format
+Link
+Browser Bible
+Study online with Browser Bible
+Mobile HTML
+Read Mobile HTML online
+Zipped mobile HTML
+isl316_html.zip
+ePub 3
+and
+Kindle
+isl316.epub
+PDF
+PDF file list
+Crosswire Sword module
+isl3162026eb.zip
+Plain text canon only chapter files
+isl316_readaloud.zip
+BibleWorks import (VPL) + SQL
+isl316_vpl.zip
+Browser Bible module
+isl316_browserBible.zip
+USFX
+isl316_usfx.zip
+USFM
+isl316_usfm.zip
+XeTeX
+isl316_xetex.zip
+Portions of the Holy Bible in Icelandic, 316-biblían translation
+316-biblían
+Portions of the Holy Bible in Icelandic, 316-biblían translation
+copyright © 2026
+Every Nation Iceland
+Language:
+Íslenska (Icelandic)
+https://316.is/316-biblian/
+https://creativecommons.org/licenses/by-sa/4.0/deed.is
+Þér er frjálst að:
+Deila — afrita og dreifa efninu á hvaða sniði eða miðli sem er í hvaða tilgangi sem er, jafnvel gegn gjaldi.
+Aðlaga — endurvinna, umbreyta, og byggja á efninu í hvaða tilgangi sem er, jafnvel gegn gjaldi.
+Leyfisveitandanum er óheimilt að afturkalla þetta frelsi svo framarlega að þú fylgir skilyrðum leyfisins.
+Samkvæmt eftirfarandi skilyrðum:
+TilvísunHöfundar — Þú verður að gefa upp viðeigandi tilvísanir, gefa upp tengil á notkunarleyfi, og gefa til kynna ef breytingar hafa verið gerðar. Þú mátt gera þetta á einhvern skynsamlegan hátt, en þó ekki þannig að gefið sé til kynna að leyfisgjafinn styðji við þig eða notkun þína.
+DeilaEins — Ef þú endurvinnur, umbreytir, eða byggir á efninu, verðurðu að dreifa breytingunum þínum með sama notkunarleyfi og upprunalega efnið er með.
+Engar frekari takmarkanir — Þú mátt ekki setja inn lagaleg ákvæði eða tæknilegar úrlausnir sem gætu hindrað aðra á lagalega vísu við að gera eitthvað það sem notkunarleyfið heimilar.
+Athugasemdir:
+Þú þarft ekki að uppfylla ákvæði notkunarleyfisins fyrir þá hluta efnisins sem séu í almannaeigu (public domain) eða þar sem notkun þín sé leyfð samkvæmt undanþágum eða takmörkunum.
+Engin ábyrgð fylgir. Notkunarleyfið gæti ekki gefið þér allar nauðsynlegar heimildir fyrir þá notkun sem þú hafðir í huga. Til dæmis, önnur réttarákvæði sem varða birtingu, friðhelgi, eða sæmdarrétt gætu takmarkað hvernig þú getur notað efnið.
+This translation is made available to you under the terms of the
+Creative Commons Attribution Share-Alike license 4.0.
+You have permission to share and redistribute this Bible translation in any format and to make reasonable revisions and adaptations of this translation, provided that:
+You include the above copyright and source information.
+If you make any changes to the text, you must indicate that you did so in a way that makes it clear that the original licensor is not necessarily endorsing your changes.
+If you redistribute this text, you must distribute your contributions under the same license as the original.
+Pictures included with Scriptures and other documents on this site are licensed just for use with those Scriptures and documents.
+For other uses, please contact the respective copyright owners.
+Note that in addition to the rules above, revising and adapting God's Word involves a great responsibility to be true to God's Word. See Revelation 22:18-19.
+2026-10-09
+Last updated 2026-10-09   c

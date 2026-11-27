@@ -1,0 +1,92 @@
+Biblica® Open Slovo na cestu
+eBible.org
+Translations
+Territories
+Biblica® Open Slovo na cestu
+Czech Living New Testament
+Language:
+[ces]
+Čeština
+Czech
+Title:
+Biblica® Open Slovo na cestu
+Czech Living New Testament
+Abbreviation:
+OSNC
+ID: CESBIB or ceslb
+Copyright © 1988, 2000, 2012 Biblica, Inc.
+Format
+Link
+Browser Bible
+Study online with Browser Bible
+Mobile HTML
+Read Mobile HTML online
+Zipped mobile HTML
+ceslb_html.zip
+ePub 3
+and
+Kindle
+ceslb.epub
+PDF
+PDF file list
+Crosswire Sword module
+ceslb2012eb.zip
+Plain text canon only chapter files
+ceslb_readaloud.zip
+BibleWorks import (VPL) + SQL
+ceslb_vpl.zip
+Browser Bible module
+ceslb_browserBible.zip
+USFX
+ceslb_usfx.zip
+USFM
+ceslb_usfm.zip
+XeTeX
+ceslb_xetex.zip
+Czech: Biblica® Open Slovo na cestu (New Testament)
+Dejte jeho na první místo a žijte tak, jak on si přeje, a on se o vás postará.
+—Matthew 6:33
+Vždyť Bůh tak miloval svět, že dal svého jediného Syna, aby každý, kdo v něho uvěří, unikl záhubě a získal věčný život.
+—John 3:16
+Víme, že vše nakonec slouží k prospěchu těch, kteří Boha milují. Ti jsou podle jeho vůle povoláni, aby získali podobu Božího Syna. Mají se stát jeho rodinou a Ježíš bude nejpřednější. Proč jsou k tomu povoláni?
+—Romans 8:28
+Biblica® Open Slovo na cestu
+Czech: Biblica® Open Slovo na cestu (New Testament)
+copyright © 1988, 2000, 2012
+Biblica, Inc.
+Language:
+Čeština (Czech)
+Contributor: Biblica, Inc.
+Biblica® Open Slovo na cestu™
+Biblica® Open Czech Living New Testament™
+Copyright © 1988, 2000, 2012 by Biblica, Inc.
+“Biblica” is a trademark registered in the United States Patent and Trademark Office by Biblica, Inc. Used with permission.
+Creative Commons License
+This work is made available under the Creative Commons Attribution-ShareAlike 4‪.0 International License (CC BY-SA). To view a copy of this license, visit
+creativecommons.org/licenses/by-sa/4‪.0/
+or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
+Biblica® is a trademark registered by Biblica, Inc., and use of the Biblica® trademark requires the written permission of Biblica, Inc. Under the terms of the CC BY-SA license, you may copy and redistribute this unmodified work as long as you keep the Biblica® trademark intact. If you modify a copy or translate this work, thereby creating a derivative work, you must remove the Biblica® trademark. On the derivative work, you must indicate what changes you have made and attribute the work as follows: “The original work by Biblica, Inc. is available for free at
+www.biblica.com
+and
+open.bible
+.”
+Notice of copyright must appear on the title or copyright page of the work as follows:
+Biblica® Open Slovo na cestu™
+Biblica® Open Czech Living New Testament™
+Copyright © 1988, 2000, 2012 by Biblica, Inc.
+“Biblica” is a trademark registered in the United States Patent and Trademark Office by Biblica, Inc. Used with permission.
+You must also make your derivative work available under the same license (CC BY-SA).
+If you would like to notify Biblica, Inc. regarding your translation of this work, please contact us at
+https://open.bible/contact
+.
+This translation is made available to you under the terms of the
+Creative Commons Attribution Share-Alike license 4.0.
+You have permission to share and redistribute this Bible translation in any format and to make reasonable revisions and adaptations of this translation, provided that:
+You include the above copyright and source information.
+If you make any changes to the text, you must indicate that you did so in a way that makes it clear that the original licensor is not necessarily endorsing your changes.
+If you redistribute this text, you must distribute your contributions under the same license as the original.
+Pictures included with Scriptures and other documents on this site are licensed just for use with those Scriptures and documents.
+For other uses, please contact the respective copyright owners.
+Note that in addition to the rules above, revising and adapting God's Word involves a great responsibility to be true to God's Word. See Revelation 22:18-19.
+2025-04-30
+Last updated 2025-04-30   tiny3

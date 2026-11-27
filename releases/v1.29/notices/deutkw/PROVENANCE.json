@@ -1,0 +1,16 @@
+{
+  "id": "deutkw",
+  "title": "German Textbibel",
+  "vernacular_title": "Textbibel von Kautzsch und Weizsäcker",
+  "source": "https://ebible.org/Scriptures/details.php?id=deutkw",
+  "source_archive": "https://eBible.org/Scriptures/deutkw_usfm.zip",
+  "source_sha256": "c142f2c8297a8fb2694e23ac380d651b6fe3831dd9bb9f0912c6198ae0f78328",
+  "source_updated": "2025-08-30",
+  "retrieved": "2026-11-03",
+  "license": "Public Domain",
+  "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "books": 66,
+  "verse_rows": 31157,
+  "conversion": "Plain-verse format conversion; headings, notes, cross references and front/back matter omitted from display. Raw USFM and complete source page retained.",
+  "attribution": "Textbibel von Kautzsch und Weizsäcker.  Source: eBible.org, reviewed 2025-08-30. Public Domain. Plain-verse format conversion; source words and punctuation retained. Headings, footnotes, cross references and publication-only material are omitted from display, not asserted to be absent from the source. Complete notices are retained in the source archive. No publisher endorsement."
+}

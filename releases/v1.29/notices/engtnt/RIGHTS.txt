@@ -1,0 +1,63 @@
+Tyndale New Testament
+eBible.org
+Translations
+Territories
+Tyndale New Testament
+Tyndale NT
+Language:
+[eng]
+English
+English
+Dialect:
+archaic British
+Title:
+Tyndale New Testament
+Tyndale NT
+Abbreviation:
+TNT
+ID: ENGTNT or engtnt
+public domain
+Format
+Link
+Browser Bible
+Study online with Browser Bible
+Mobile HTML
+Read Mobile HTML online
+Zipped mobile HTML
+engtnt_html.zip
+ePub 3
+and
+Kindle
+engtnt.epub
+PDF
+PDF file list
+Crosswire Sword module
+engtnteb.zip
+Plain text canon only chapter files
+engtnt_readaloud.zip
+BibleWorks import (VPL) + SQL
+engtnt_vpl.zip
+Browser Bible module
+engtnt_browserBible.zip
+USFX
+engtnt_usfx.zip
+USFM
+engtnt_usfm.zip
+XeTeX
+engtnt_xetex.zip
+The Tyndale New Testament (1534)
+But rather seke ye fyrst the kyngdome of heuen and the rightwisnes therof and all these thynges shalbe ministred vnto you.
+—Matthew 6:33
+For God so loveth the worlde that he hath geven his only sonne that none that beleve in him shuld perisshe: but shuld have everlastinge lyfe.
+—John 3:16
+For we knowe that all thinges worke for the best vnto them that love God which also are called of purpose.
+—Romans 8:28
+Tyndale New Testament
+The Tyndale New Testament (1534)
+Public Domain
+Language:
+English
+Dialect: archaic British
+Translation by: William Tyndale
+2020-12-20
+Last updated 2020-12-20   c

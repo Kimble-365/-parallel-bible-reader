@@ -1,0 +1,16 @@
+{
+  "id": "isl316",
+  "title": "Icelandic 3:16",
+  "vernacular_title": "316-biblían",
+  "source": "https://ebible.org/Scriptures/details.php?id=isl316",
+  "source_archive": "https://eBible.org/Scriptures/isl316_usfm.zip",
+  "source_sha256": "5591118afda90b8f1b03beaecc78d12d478ddae1f5307e978bcca1b217967508",
+  "source_updated": "2026-10-09",
+  "retrieved": "2026-11-03",
+  "license": "CC BY SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "books": 1,
+  "verse_rows": 678,
+  "conversion": "Plain-verse format conversion; headings, notes, cross references and front/back matter omitted from display. Raw USFM and complete source page retained.",
+  "attribution": "316-biblían. Copyright © 2026 Every Nation Iceland copyright © 2026 copyright and source information. Source: eBible.org, reviewed 2026-10-09. CC BY SA 4.0. Plain-verse format conversion; source words and punctuation retained. Headings, footnotes, cross references and publication-only material are omitted from display, not asserted to be absent from the source. Complete notices are retained in the source archive. No publisher endorsement."
+}

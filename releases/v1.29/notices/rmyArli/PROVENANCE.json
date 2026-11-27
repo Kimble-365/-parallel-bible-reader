@@ -1,0 +1,16 @@
+{
+  "id": "rmyArli",
+  "title": "Arli Luke",
+  "vernacular_title": "Luka",
+  "source": "https://ebible.org/Scriptures/details.php?id=rmyArli",
+  "source_archive": "https://eBible.org/Scriptures/rmyArli_usfm.zip",
+  "source_sha256": "23e521ae63fb5992a6a9917ac44c72585e2462c73ae314140fa1bd3fedf6c040",
+  "source_updated": "2026-10-30",
+  "retrieved": "2026-11-03",
+  "license": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0",
+  "books": 1,
+  "verse_rows": 1150,
+  "conversion": "Plain-verse format conversion; headings, notes, cross references and front/back matter omitted from display. Raw USFM and complete source page retained.",
+  "attribution": "Luka. Copyright © 2018 anonymous © 2018. copyright and source information. Source: eBible.org, reviewed 2026-10-30. CC BY 4.0. Plain-verse format conversion; source words and punctuation retained. Headings, footnotes, cross references and publication-only material are omitted from display, not asserted to be absent from the source. Complete notices are retained in the source archive. No publisher endorsement."
+}

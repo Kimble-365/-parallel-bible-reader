@@ -1,0 +1,16 @@
+{
+  "id": "swe",
+  "title": "Swedish NT+",
+  "vernacular_title": "Svenska Kärnbibeln - en expanderad översättning",
+  "source": "https://ebible.org/Scriptures/details.php?id=swe",
+  "source_archive": "https://eBible.org/Scriptures/swe_usfm.zip",
+  "source_sha256": "1d2083bcbdc543e41e110760c4af5c00ef38d4843af9adac07edec1202e923f8",
+  "source_updated": "2025-07-10",
+  "retrieved": "2026-11-03",
+  "license": "CC BY NC ND 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0",
+  "books": 66,
+  "verse_rows": 31161,
+  "conversion": "Plain-verse format conversion; headings, notes, cross references and front/back matter omitted from display. Raw USFM and complete source page retained.",
+  "attribution": "Svenska Kärnbibeln - en expanderad översättning. Copyright © 2017-2024 Svenska Kärnbibeln copyright © 2017-2024 copyright and source information. Source: eBible.org, reviewed 2025-07-10. CC BY NC ND 4.0. Plain-verse format conversion; source words and punctuation retained. Headings, footnotes, cross references and publication-only material are omitted from display, not asserted to be absent from the source. Complete notices are retained in the source archive. No publisher endorsement."
+}

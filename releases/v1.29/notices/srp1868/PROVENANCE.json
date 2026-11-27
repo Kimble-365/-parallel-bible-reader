@@ -1,0 +1,16 @@
+{
+  "id": "srp1868",
+  "title": "Serbian DK Bible (Cyrillic)",
+  "vernacular_title": "Свето писмо или Библија Превод Даничић-Караџић",
+  "source": "https://ebible.org/Scriptures/details.php?id=srp1868",
+  "source_archive": "https://eBible.org/Scriptures/srp1868_usfm.zip",
+  "source_sha256": "ff301782373925feea78fdd77768a9adf1e4eb18dc7b886f88e97844f308f187",
+  "source_updated": "2026-01-03",
+  "retrieved": "2026-11-03",
+  "license": "Public Domain",
+  "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "books": 66,
+  "verse_rows": 31111,
+  "conversion": "Plain-verse format conversion; headings, notes, cross references and front/back matter omitted from display. Raw USFM and complete source page retained.",
+  "attribution": "Свето писмо или Библија Превод Даничић-Караџић.  Source: eBible.org, reviewed 2026-01-03. Public Domain. Plain-verse format conversion; source words and punctuation retained. Headings, footnotes, cross references and publication-only material are omitted from display, not asserted to be absent from the source. Complete notices are retained in the source archive. No publisher endorsement."
+}

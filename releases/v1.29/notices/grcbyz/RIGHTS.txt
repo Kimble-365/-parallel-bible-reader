@@ -1,0 +1,61 @@
+Η Καινή Διαθήκη
+eBible.org
+Translations
+Territories
+Η Καινή Διαθήκη
+Byzantine Greek  NT
+Language:
+[grc]
+Ελληνικά
+Greek, Ancient
+Dialect:
+Koine
+Title:
+Η Καινή Διαθήκη
+Byzantine Greek  NT
+Abbreviation:
+ID: GRCBYZ or grcbyz
+public domain
+Format
+Link
+Browser Bible
+Study online with Browser Bible
+Mobile HTML
+Read Mobile HTML online
+Zipped mobile HTML
+grcbyz_html.zip
+ePub 3
+and
+Kindle
+grcbyz.epub
+PDF
+PDF file list
+Crosswire Sword module
+grcbyz1904eb.zip
+Plain text canon only chapter files
+grcbyz_readaloud.zip
+BibleWorks import (VPL) + SQL
+grcbyz_vpl.zip
+Browser Bible module
+grcbyz_browserBible.zip
+USFX
+grcbyz_usfx.zip
+USFM
+grcbyz_usfm.zip
+XeTeX
+grcbyz_xetex.zip
+1904 Patriarchal Greek New Testament with 20 correcctions from later editions
+ζητεῖτε δὲ πρῶτον τὴν βασιλείαν τοῦ Θεοῦ καὶ τὴν δικαιοσύνην αὐτοῦ, καὶ ταῦτα πάντα προστεθήσεται ὑμῖν.
+—Matthew 6:33
+οὕτω γὰρ ἠγάπησεν ὁ Θεὸς τὸν κόσμον, ὥστε τὸν υἱὸν αὐτοῦ τὸν μονογενῆ ἔδωκεν, ἵνα πᾶς ὁ πιστεύων εἰς αὐτὸν μὴ ἀπόληται, ἀλλ᾽ ἔχῃ ζωὴν αἰώνιον.
+—John 3:16
+Οἴδαμεν δὲ ὅτι τοῖς ἀγαπῶσι τὸν Θεὸν πάντα συνεργεῖ εἰς ἀγαθόν, τοῖς κατὰ πρόθεσιν κλητοῖς οὖσιν·
+—Romans 8:28
+Η Καινή Διαθήκη
+1904 Patriarchal Greek New Testament with 20 correcctions from later editions
+Public Domain
+Language:
+Ελληνικά (Greek, Ancient)
+Dialect: Koine
+2026-10-30
+Last updated 2026-10-30   e

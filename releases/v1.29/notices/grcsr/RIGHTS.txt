@@ -1,0 +1,61 @@
+Η Καινή Διαθήκη
+eBible.org
+Translations
+Territories
+Η Καινή Διαθήκη
+Solid Rock Greek New Testament
+Language:
+[grc]
+Ελληνικά
+Greek, Ancient
+Title:
+Η Καινή Διαθήκη
+Solid Rock Greek New Testament
+Abbreviation:
+SRGNT
+ID: GRCSRG or grcsr
+public domain
+Format
+Link
+Browser Bible
+Study online with Browser Bible
+Mobile HTML
+Read Mobile HTML online
+Zipped mobile HTML
+grcsr_html.zip
+ePub 3
+and
+Kindle
+grcsr.epub
+PDF
+PDF file list
+Crosswire Sword module
+grcsr2022eb.zip
+Plain text canon only chapter files
+grcsr_readaloud.zip
+BibleWorks import (VPL) + SQL
+grcsr_vpl.zip
+Browser Bible module
+grcsr_browserBible.zip
+USFX
+grcsr_usfx.zip
+USFM
+grcsr_usfm.zip
+XeTeX
+grcsr_xetex.zip
+Solid Rock Greek New Testament, Scholar's Edition
+Ζητεῖτε δὲ πρῶτον τὴν βασιλείαν ⸋τοῦ θεοῦ⸌ καὶ τὴν δικαιοσύνην αὐτοῦ, καὶ ταῦτα πάντα προστεθήσεται ὑμῖν.
+—Matthew 6:33
+Οὕτως γὰρ ἠγάπησεν ὁ θεὸς τὸν κόσμον, ὥστε τὸν υἱὸν ⸋αὐτοῦ⸌ τὸν μονογενῆ ἔδωκεν, ἵνα πᾶς ὁ πιστεύων εἰς αὐτὸν μὴ ἀπόληται, ἀλλ᾽ ἔχῃ ζωὴν αἰώνιον.
+—John 3:16
+Οἴδαμεν δὲ ὅτι τοῖς ἀγαπῶσιν τὸν θεὸν πάντα συνεργεῖ ⸆ εἰς ἀγαθόν, τοῖς κατὰ πρόθεσιν κλητοῖς οὖσιν.
+—Romans 8:28
+Η Καινή Διαθήκη
+Solid Rock Greek New Testament, Scholar's Edition
+Public Domain
+Language:
+Ελληνικά (Greek, Ancient)
+Translation by: Robinson and Pierpont
+Contributor: Joey McCollum and Stephen Brown
+2026-10-30
+Last updated 2026-10-30   e

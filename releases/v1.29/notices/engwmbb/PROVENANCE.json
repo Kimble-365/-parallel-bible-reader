@@ -1,0 +1,16 @@
+{
+  "id": "engwmbb",
+  "title": "World Messianic Bible British Edition",
+  "vernacular_title": "World Messianic Bible British Edition",
+  "source": "https://ebible.org/Scriptures/details.php?id=engwmbb",
+  "source_archive": "https://eBible.org/Scriptures/engwmbb_usfm.zip",
+  "source_sha256": "988c162bba60ad81c6ba623dd708938207174f91499d5eb774f5b8b0f6f5775d",
+  "source_updated": "2026-10-30",
+  "retrieved": "2026-11-03",
+  "license": "Public Domain",
+  "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "books": 66,
+  "verse_rows": 31098,
+  "conversion": "Plain-verse format conversion; headings, notes, cross references and front/back matter omitted from display. Raw USFM and complete source page retained.",
+  "attribution": "World Messianic Bible British Edition. copyrighted, however \"World Messianic Bible\" is a Trademark. Source: eBible.org, reviewed 2026-10-30. Public Domain. Plain-verse format conversion; source words and punctuation retained. Headings, footnotes, cross references and publication-only material are omitted from display, not asserted to be absent from the source. Complete notices are retained in the source archive. No publisher endorsement."
+}

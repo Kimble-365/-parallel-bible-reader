@@ -1,0 +1,77 @@
+Le Devleskero Lav Andre Romaňi Čhib, Slovensko 2022
+eBible.org
+Translations
+Territories
+Le Devleskero Lav Andre Romaňi Čhib, Slovensko 2022
+Eastern Slovak Romani Bible
+Language:
+[rmc]
+Romanes
+Romani, Carpathian
+Title:
+Le Devleskero Lav Andre Romaňi Čhib, Slovensko 2022
+Eastern Slovak Romani Bible
+Abbreviation:
+EMOU
+ID: RMCTHE or rmc
+Copyright © 2019 The Word for the World International and The Word for the World Slovakia
+Format
+Link
+Browser Bible
+Study online with Browser Bible
+Mobile HTML
+Read Mobile HTML online
+Zipped mobile HTML
+rmc_html.zip
+ePub 3
+and
+Kindle
+rmc.epub
+PDF
+PDF file list
+Crosswire Sword module
+rmc2019eb.zip
+Plain text canon only chapter files
+rmc_readaloud.zip
+BibleWorks import (VPL) + SQL
+rmc_vpl.zip
+Browser Bible module
+rmc_browserBible.zip
+USFX
+rmc_usfx.zip
+USFM
+rmc_usfm.zip
+XeTeX
+rmc_xetex.zip
+Romani, Carpathian: Le Devleskero Lav Andre Romaňi Čhib 2022 (New Testament+)
+Ešebnovarestar o Del stvorinďa o ňebos the e phuv.
+—Genesis 1:1
+Le Davidoskro žalmos. O RAJ hino miro pasťjeris, ňič mange na chibaľinela.
+—Psalm 23:1
+Ale roden ešeb o kraľišagos le Devleskro the leskro spravodľišagos a savore kala veci tumenge ena dine paš oda.
+—Matthew 6:33
+Bo o Del avke kamelas o svetos, hoj diňa peskre jekhore Čhas, hoj ňiko, ko pačal andre leste, te na merel, ale te avel les o večno dživipen.
+—John 3:16
+Amen džanas, hoj savoro, so avel andro dživipen, hin pro lačho olenge, ko kamen le Devles a kas peske vičinďa andre peskro planos.
+—Romans 8:28
+Le Devleskero Lav Andre Romaňi Čhib, Slovensko 2022
+Romani, Carpathian: Le Devleskero Lav Andre Romaňi Čhib 2022 (New Testament+)
+copyright © 2019
+The Word for the World International and The Word for the World Slovakia
+Language:
+Romanes (Romani, Carpathian)
+Contributor: Eastern European Mission
+Eastern Slovak Romani Bible
+The Word for the World International
+Eastern Slovak Romani belongs to the larger cluster of dialects designated 'Carpathian Romani.' The Roma people of Slovakia and the Czech Republic can read and understand the printed text. The audio is also understood by Roma in parts of Poland, Ukraine, and Romania.
+Audio of the New Testament is available and that of the Old Testament is expected by the end of 2023.
+The text and audio are accessible on YouVersion, Bible.com, Biblia.sk, Bible.is, https://romani.global.bible; etc. A standalone app can be downloaded from GooglePlay: search for E Biblia Andre Romani Chib.
+This translation is made available to you under the terms of the
+Creative Commons Attribution-No Derivatives license 4.0.
+You may share and redistribute this Bible translation or extracts from it in any format, provided that:
+You include the above copyright and source information.
+You do not make any derivative works that change any of the actual words or punctuation of the Scriptures.
+Pictures included with Scriptures and other documents on this site are licensed just for use with those Scriptures and documents.
+For other uses, please contact the respective copyright owners.
+2019-12-29
+Last updated 2019-12-29   tiny3

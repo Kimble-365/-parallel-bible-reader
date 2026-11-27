@@ -1,0 +1,16 @@
+{
+  "id": "litb",
+  "title": "Open Lithuanian Scriptures",
+  "vernacular_title": "Biblica® Naudojimo teisės atviros „Jėzus ir Jo pasekėjai“",
+  "source": "https://ebible.org/Scriptures/details.php?id=litb",
+  "source_archive": "https://eBible.org/Scriptures/litb_usfm.zip",
+  "source_sha256": "b4432bf4b9a3b6e8bfd21a8fe8397986a7b295132f5fdd4411fbabc6114c9f35",
+  "source_updated": "2025-05-10",
+  "retrieved": "2026-11-03",
+  "license": "CC BY SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "books": 2,
+  "verse_rows": 2072,
+  "conversion": "Plain-verse format conversion; headings, notes, cross references and front/back matter omitted from display. Raw USFM and complete source page retained.",
+  "attribution": "Biblica® Naudojimo teisės atviros „Jėzus ir Jo pasekėjai“. Copyright © 1995 Biblica, Inc. copyright © 1995 © 1995 Biblica, Inc. Source: eBible.org, reviewed 2025-05-10. CC BY SA 4.0. Plain-verse format conversion; source words and punctuation retained. Headings, footnotes, cross references and publication-only material are omitted from display, not asserted to be absent from the source. Complete notices are retained in the source archive. No publisher endorsement."
+}

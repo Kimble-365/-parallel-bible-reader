@@ -1,0 +1,16 @@
+{
+  "id": "ukr1871",
+  "title": "Ukrainian Bible by P. Kulish",
+  "vernacular_title": "Біблія в пер. П.Куліша та І.Пулюя, 1905",
+  "source": "https://ebible.org/Scriptures/details.php?id=ukr1871",
+  "source_archive": "https://eBible.org/Scriptures/ukr1871_usfm.zip",
+  "source_sha256": "df5f0a70ed9720352b9a36c3c8bb981ebf3298a9e660cb552de4a71800344356",
+  "source_updated": "2025-01-31",
+  "retrieved": "2026-11-03",
+  "license": "Public Domain",
+  "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "books": 66,
+  "verse_rows": 31082,
+  "conversion": "Plain-verse format conversion; headings, notes, cross references and front/back matter omitted from display. Raw USFM and complete source page retained.",
+  "attribution": "Біблія в пер. П.Куліша та І.Пулюя, 1905.  Source: eBible.org, reviewed 2025-01-31. Public Domain. Plain-verse format conversion; source words and punctuation retained. Headings, footnotes, cross references and publication-only material are omitted from display, not asserted to be absent from the source. Complete notices are retained in the source archive. No publisher endorsement."
+}

@@ -1,0 +1,16 @@
+{
+  "id": "ukronpu",
+  "title": "New Ukranian Translation NT+Psalms",
+  "vernacular_title": "Бібліка ® Відкрита Новий Переклад Українською",
+  "source": "https://ebible.org/Scriptures/details.php?id=ukronpu",
+  "source_archive": "https://eBible.org/Scriptures/ukronpu_usfm.zip",
+  "source_sha256": "f34e96184db11be41b0d3b2fa0b6c286f57a34192735ef677ea436f62b490b01",
+  "source_updated": "2025-05-21",
+  "retrieved": "2026-11-03",
+  "license": "CC BY SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "books": 28,
+  "verse_rows": 10483,
+  "conversion": "Plain-verse format conversion; headings, notes, cross references and front/back matter omitted from display. Raw USFM and complete source page retained.",
+  "attribution": "Бібліка ® Відкрита Новий Переклад Українською. Copyright © 2022 Biblica, Inc. copyright © 2022 © 2022 Biblica, Inc. Source: eBible.org, reviewed 2025-05-21. CC BY SA 4.0. Plain-verse format conversion; source words and punctuation retained. Headings, footnotes, cross references and publication-only material are omitted from display, not asserted to be absent from the source. Complete notices are retained in the source archive. No publisher endorsement."
+}

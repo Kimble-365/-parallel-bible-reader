@@ -1,0 +1,16 @@
+{
+  "id": "engPEV",
+  "title": "Plain English Version",
+  "vernacular_title": "Plain English Version",
+  "source": "https://ebible.org/Scriptures/details.php?id=engPEV",
+  "source_archive": "https://eBible.org/Scriptures/engPEV_usfm.zip",
+  "source_sha256": "ca159ed20a0a71874b227a7dce8f48488e5e66105cdcf5763ab33d7520debe09",
+  "source_updated": "2026-10-30",
+  "retrieved": "2026-11-03",
+  "license": "CC BY SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "books": 30,
+  "verse_rows": 7374,
+  "conversion": "Plain-verse format conversion; headings, notes, cross references and front/back matter omitted from display. Raw USFM and complete source page retained.",
+  "attribution": "Plain English Version. Copyright © 2026 Wycliffe Bible Translators Australia © 2026 by Wycliffe Bible Translators Australia, licensed under Creative Commons Attribution-Share Alike 4.0 International (CC BY SA 4.0) Source: eBible.org, reviewed 2026-10-30. CC BY SA 4.0. Plain-verse format conversion; source words and punctuation retained. Headings, footnotes, cross references and publication-only material are omitted from display, not asserted to be absent from the source. Complete notices are retained in the source archive. No publisher endorsement."
+}

@@ -1,0 +1,68 @@
+Barkly Bible Portions
+eBible.org
+Translations
+Territories
+Barkly Bible Portions
+Language:
+[eng]
+Barkly English
+English
+Dialect:
+Barkly
+Title:
+Barkly Bible Portions
+Barkly Bible Portions
+Abbreviation:
+Barkly
+ID: ENGBAR or engbarkly
+Copyright © 2024 Bible Society of Australia
+Format
+Link
+Browser Bible
+Study online with Browser Bible
+MP3 Audio
+Stream or download MP3 audio
+Mobile HTML
+Read Mobile HTML online
+Zipped mobile HTML
+engbarkly_html.zip
+ePub 3
+and
+Kindle
+engbarkly.epub
+PDF
+PDF file list
+Crosswire Sword module
+engbarkly2024eb.zip
+Plain text canon only chapter files
+engbarkly_readaloud.zip
+BibleWorks import (VPL) + SQL
+engbarkly_vpl.zip
+Browser Bible module
+engbarkly_browserBible.zip
+USFX
+engbarkly_usfx.zip
+USFM
+engbarkly_usfm.zip
+XeTeX
+engbarkly_xetex.zip
+The Holy Bible in the Barkly dialect of English, spoken in Australia
+First of all God made everything. He made the earth and the sky.
+—Genesis 1:1
+Barkly Bible Portions
+The Holy Bible in the Barkly dialect of English, spoken in Australia
+copyright © 2024
+Bible Society of Australia
+Language:
+Barkly English (English)
+Dialect: Barkly
+This translation is made available to you under the terms of the
+Creative Commons Attribution-Noncommercial-No Derivatives license 4.0.
+You may share and redistribute this Bible translation or extracts from it in any format, provided that:
+You include the above copyright and source information.
+You do not sell this work for a profit.
+You do not change any of the words or punctuation of the Scriptures.
+Pictures included with Scriptures and other documents on this site are licensed just for use with those Scriptures and documents.
+For other uses, please contact the respective copyright owners.
+2026-04-14
+Last updated 2026-04-14   e

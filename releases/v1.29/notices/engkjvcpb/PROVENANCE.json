@@ -1,0 +1,16 @@
+{
+  "id": "engkjvcpb",
+  "title": "KJV Cambridge Paragraph",
+  "vernacular_title": "KJV Cambridge Paragraph Bible",
+  "source": "https://ebible.org/Scriptures/details.php?id=engkjvcpb",
+  "source_archive": "https://eBible.org/Scriptures/engkjvcpb_usfm.zip",
+  "source_sha256": "70af6d12ca81f1c9b6d18beffa5558914af1517d4f0853533cd61a38e6fa2bd0",
+  "source_updated": "2026-09-26",
+  "retrieved": "2026-11-03",
+  "license": "Public Domain",
+  "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "books": 80,
+  "verse_rows": 36822,
+  "conversion": "Plain-verse format conversion; headings, notes, cross references and front/back matter omitted from display. Raw USFM and complete source page retained.",
+  "attribution": "KJV Cambridge Paragraph Bible. Copyright_status for more information. Source: eBible.org, reviewed 2026-09-26. Public Domain. Plain-verse format conversion; source words and punctuation retained. Headings, footnotes, cross references and publication-only material are omitted from display, not asserted to be absent from the source. Complete notices are retained in the source archive. No publisher endorsement."
+}

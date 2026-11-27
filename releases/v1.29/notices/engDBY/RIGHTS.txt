@@ -1,0 +1,66 @@
+Darby Translation
+eBible.org
+Translations
+Territories
+Darby Translation
+Language:
+[eng]
+English
+English
+Dialect:
+archaic British
+Title:
+Darby Translation
+Darby Translation
+Abbreviation:
+DBY
+ID: ENGDBY or engDBY
+public domain
+Format
+Link
+Browser Bible
+Study online with Browser Bible
+Mobile HTML
+Read Mobile HTML online
+Zipped mobile HTML
+engDBY_html.zip
+ePub 3
+and
+Kindle
+engDBY.epub
+PDF
+PDF file list
+Crosswire Sword module
+engDBY1884eb.zip
+Plain text canon only chapter files
+engDBY_readaloud.zip
+BibleWorks import (VPL) + SQL
+engDBY_vpl.zip
+Browser Bible module
+engDBY_browserBible.zip
+USFX
+engDBY_usfx.zip
+USFM
+engDBY_usfm.zip
+XeTeX
+engDBY_xetex.zip
+The Holy Scriptures, a New Translation from the Original Languages by J. N. Darby
+In the beginning God created the heavens and the earth.
+—Genesis 1:1
+A Psalm of David. Jehovah is my shepherd; I shall not want.
+—Psalm 23:1
+But seek ye first the kingdom of God and his righteousness, and all these things shall be added unto you.
+—Matthew 6:33
+For God so loved the world, that he gave his only-begotten Son, that whosoever believes on him may not perish, but have life eternal.
+—John 3:16
+But we do know that all things work together for good to those who love God, to those who are called according to purpose.
+—Romans 8:28
+Darby Translation
+The Holy Scriptures, a New Translation from the Original Languages by J. N. Darby
+Public Domain
+Language:
+English
+Dialect: archaic British
+Translation by: J. N. Darby
+2019-11-15
+Last updated 2019-11-15   www

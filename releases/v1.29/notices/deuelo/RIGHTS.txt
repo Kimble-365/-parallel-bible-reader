@@ -1,0 +1,67 @@
+Darby Unrevidierte Elberfelder
+eBible.org
+Translations
+Territories
+Darby Unrevidierte Elberfelder
+German Unrevised Elberfelder Bible
+Language:
+[deu]
+Deutsch
+German, Standard
+Title:
+Darby Unrevidierte Elberfelder
+German Unrevised Elberfelder Bible
+Abbreviation:
+ID: DEUELO or deuelo
+public domain
+Format
+Link
+Browser Bible
+Study online with Browser Bible
+Mobile HTML
+Read Mobile HTML online
+Zipped mobile HTML
+deuelo_html.zip
+ePub 3
+and
+Kindle
+deuelo.epub
+PDF
+PDF file list
+Crosswire Sword module
+deuelo1905eb.zip
+Plain text canon only chapter files
+deuelo_readaloud.zip
+BibleWorks import (VPL) + SQL
+deuelo_vpl.zip
+Browser Bible module
+deuelo_browserBible.zip
+USFX
+deuelo_usfx.zip
+USFM
+deuelo_usfm.zip
+XeTeX
+deuelo_xetex.zip
+The Holy Bible in German, Unrevised Elberfelder 1905
+Im Anfang schuf Gott die Himmel und die Erde.
+—Genesis 1:1
+Ein Psalm von David. Jehova ist mein Hirte, mir wird nichts mangeln.
+—Psalm 23:1
+Trachtet aber zuerst nach dem Reiche Gottes und nach seiner Gerechtigkeit, und dies alles wird euch hinzugefügt werden.
+—Matthew 6:33
+Denn also hat Gott die Welt geliebt, daß er seinen eingeborenen Sohn gab, auf daß jeder, der an ihn glaubt, nicht verloren gehe, sondern ewiges Leben habe.
+—John 3:16
+Wir wissen aber, daß denen, die Gott lieben, alle Dinge zum Guten mitwirken, denen, die nach Vorsatz berufen sind.
+—Romans 8:28
+Darby Unrevidierte Elberfelder
+The Holy Bible in German, Unrevised Elberfelder 1905
+Public Domain
+Language:
+Deutsch (German, Standard)
+Translation by: Julius Anton von Poseck, Carl Brockhaus, and John Nelson Darby
+https://de.wikipedia.org/wiki/Elberfelder_Bibel
+Diese Bibel ist bei
+eBible.org
+verfügbar.
+2023-09-19
+Last updated 2023-09-19   tiny3

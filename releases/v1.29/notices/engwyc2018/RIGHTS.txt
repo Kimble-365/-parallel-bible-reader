@@ -1,0 +1,78 @@
+Wycliffe's Bible with Modern Spelling (Enhanced)
+eBible.org
+Translations
+Territories
+Wycliffe's Bible with Modern Spelling (Enhanced)
+English: Wycliffe's Bible Modern Spelling (Enhanced) (with Deuterocanon)
+Language:
+[eng]
+English
+English
+Dialect:
+Archaic
+Title:
+Wycliffe's Bible with Modern Spelling (Enhanced)
+English: Wycliffe's Bible Modern Spelling (Enhanced) (with Deuterocanon)
+Abbreviation:
+WYCmse
+ID: ENGWYC2018 or engwyc2018
+Copyright © 2001,2010,2011,2012,2013,2015 Terry Noble
+Format
+Link
+Browser Bible
+Study online with Browser Bible
+Mobile HTML
+Read Mobile HTML online
+Zipped mobile HTML
+engwyc2018_html.zip
+ePub 3
+and
+Kindle
+engwyc2018.epub
+PDF
+PDF file list
+Crosswire Sword module
+engwyc2018eb.zip
+Plain text canon only chapter files
+engwyc2018_readaloud.zip
+BibleWorks import (VPL) + SQL
+engwyc2018_vpl.zip
+Browser Bible module
+engwyc2018_browserBible.zip
+USFX
+engwyc2018_usfx.zip
+USFM
+engwyc2018_usfm.zip
+XeTeX
+engwyc2018_xetex.zip
+English: Wycliffe's Bible Modern Spelling (Enhanced) (with Deuterocanon)
+In the beginning God made of nought heaven and earth. (In the beginning God made out of nothing the heavens and the earth.)
+—Genesis 1:1
+The psalm of David. The Lord governeth me, and nothing shall fail to me; (A song by David. The Lord governeth me, and there is nothing that I shall lack;)
+—Psalm 23:1
+Therefore seek ye first the kingdom of God, and his rightwiseness, and all these things shall be cast to you. (And so seek first the Kingdom of God, and his righteousness, and all these other things shall be thrown, or shall come, unto you.)
+—Matthew 6:33
+For God loved so the world or Forsooth God so loved the world, that he gave his one begotten Son, that each man that believeth in him perish not, but have everlasting life (or but have eternal life).
+—John 3:16
+And we know, that to men that love God, all things work together into good, to them that after (the) purpose be called saints (or for them who according to his purpose be called God’s people).
+—Romans 8:28
+Wycliffe's Bible with Modern Spelling (Enhanced)
+English: Wycliffe's Bible Modern Spelling (Enhanced) (with Deuterocanon)
+Copyright © 2001,2010,2011,2012,2013,2015 Terry Noble
+Language:
+English
+Dialect: Archaic
+Translation by: Terry Noble
+Wycliffe's Bible with Modern Spelling (Enhanced)
+Wycliffe’s Bible with Modern Spelling (Enhanced)
+is a composite of my Wycliffe’s Bible, a modern-spelling version of the 14th century Middle English translation, consisting of Wycliffe’s Old Testament and Wycliffe’s New Testament, and my modern-spelling version of Wycliffe’s Apocrypha. These books contain literally tens of thousands of rewritten verses, presented in parentheses “( ) “, to provide help in comprehending the 14th century Middle English vocabulary and grammar. Wycliffe’s Apocrypha also includes the books of the Apocrypha from the 1st edition of the King James Version of the Bible.
+This translation is made available to you under the terms of the
+Creative Commons Attribution-Noncommercial-No Derivatives license 4.0.
+You may share and redistribute this Bible translation or extracts from it in any format, provided that:
+You include the above copyright and source information.
+You do not sell this work for a profit.
+You do not change any of the words or punctuation of the Scriptures.
+Pictures included with Scriptures and other documents on this site are licensed just for use with those Scriptures and documents.
+For other uses, please contact the respective copyright owners.
+2019-09-25
+Last updated 2019-09-25   e

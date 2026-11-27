@@ -1,0 +1,71 @@
+Textbibel von Kautzsch und Weizsäcker
+eBible.org
+Translations
+Territories
+Textbibel von Kautzsch und Weizsäcker
+German Textbibel
+Language:
+[deu]
+Deutsch
+German, Standard
+Title:
+Textbibel von Kautzsch und Weizsäcker
+German Textbibel
+Abbreviation:
+Textbibel
+ID: DEUTKW or deutkw
+public domain
+Format
+Link
+Browser Bible
+Study online with Browser Bible
+Mobile HTML
+Read Mobile HTML online
+Zipped mobile HTML
+deutkw_html.zip
+ePub 3
+and
+Kindle
+deutkw.epub
+PDF
+PDF file list
+Crosswire Sword module
+deutkw1906eb.zip
+Plain text canon only chapter files
+deutkw_readaloud.zip
+BibleWorks import (VPL) + SQL
+deutkw_vpl.zip
+Browser Bible module
+deutkw_browserBible.zip
+USFX
+deutkw_usfx.zip
+USFM
+deutkw_usfm.zip
+XeTeX
+deutkw_xetex.zip
+The Holy Bible in German, translation by Kautzsch und Weizsäcker 1906
+Im Anfang schuf Gott den Himmel und die Erde.
+—Genesis 1:1
+Ein Psalm Davids. Jahwe ist mein Hirte, mir wird nichts mangeln.
+—Psalm 23:1
+Trachtet aber zuerst nach seinem Reich und Recht, so wird euch dies alles zugelegt werden.
+—Matthew 6:33
+Denn also hat Gott die Welt geliebt, dass er seinen einzigen Sohn gab, damit jeder, der an ihn glaubt, nicht verloren gehe, sondern ewiges Leben habe.
+—John 3:16
+Wir wissen aber, daß denen die Gott lieben, Gott in allem zum Besten hilft, als die da sind nach dem Vorsatz Berufene.
+—Romans 8:28
+Textbibel von Kautzsch und Weizsäcker
+The Holy Bible in German, translation by Kautzsch und Weizsäcker 1906
+Public Domain
+Language:
+Deutsch (German, Standard)
+Dieser Textbibel wird Ihnen mit freundlicher Genehmigung von
+eBible.org
+zur Verfügung gestellt, mit der Hilfe unserer Partner, die für den Erhalt unserer Dienste spenden.
+
+This Public Domain Bible text is provided to you courtesy of
+eBible.org
+with help from our partners who donate to keep our servers and services running.
+Quelle: Textbibel.de (Hans J. Herbst Mitarbeit bei der Digitalisierung) ist frei!
+2025-08-30
+Last updated 2025-08-30   tiny3

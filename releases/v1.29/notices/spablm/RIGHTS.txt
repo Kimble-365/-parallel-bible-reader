@@ -1,0 +1,72 @@
+Santa Biblia libre para el mundo
+eBible.org
+Translations
+Territories
+Santa Biblia libre para el mundo
+Spanish Free Bible for the World
+Language:
+[spa]
+Español
+Spanish
+Dialect:
+España
+Title:
+Santa Biblia libre para el mundo
+Spanish Free Bible for the World
+Abbreviation:
+SBLM
+ID: SPABLM or spablm
+public domain
+Format
+Link
+Browser Bible
+Study online with Browser Bible
+MP3 Audio
+Stream or download MP3 audio
+Mobile HTML
+Read Mobile HTML online
+Zipped mobile HTML
+spablm_html.zip
+ePub 3
+and
+Kindle
+spablm.epub
+PDF
+PDF file list
+Crosswire Sword module
+spablm2022eb.zip
+Plain text canon only chapter files
+spablm_readaloud.zip
+BibleWorks import (VPL) + SQL
+spablm_vpl.zip
+Browser Bible module
+spablm_browserBible.zip
+USFX
+spablm_usfx.zip
+USFM
+spablm_usfm.zip
+XeTeX
+spablm_xetex.zip
+The Holy Bible in Spanish, Santa Biblia libre para el mundo translation
+En el principio, Dios creó los cielos y la tierra.
+—Genesis 1:1
+Salmo de David. Yahvé es mi pastor; nada me faltará.
+—Psalm 23:1
+Mas buscad primeramente el Reino de Dios y su justicia, y todas estas cosas os serán añadidas.
+—Matthew 6:33
+Porque tanto amó Dios al mundo, que dio a su Hijo unigénito, para que todo el que crea en él no perezca, sino que tenga vida eterna.
+—John 3:16
+Sabemos que todas las cosas cooperan para el bien de los que aman a Dios, de los que son llamados según su propósito.
+—Romans 8:28
+Santa Biblia libre para el mundo
+The Holy Bible in Spanish, Santa Biblia libre para el mundo translation
+Public Domain
+Language:
+Español (Spanish)
+Dialect: España
+Translation by: David Williams & Michael Paul Johnson
+Este es un borrador de traducción. Está siendo revisado y editado. Si encuentra algún error, infórmenos en
+[email protected]
+.
+2026-10-30
+Last updated 2026-10-30   tiny3

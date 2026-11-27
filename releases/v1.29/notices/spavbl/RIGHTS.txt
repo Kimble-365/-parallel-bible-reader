@@ -1,0 +1,77 @@
+Versión Biblia Libre
+eBible.org
+Translations
+Territories
+Versión Biblia Libre
+Spanish Free Bible Version
+Language:
+[spa]
+Español
+Spanish
+Title:
+Versión Biblia Libre
+Spanish Free Bible Version
+Abbreviation:
+VBL
+ID: SPNVBL or spavbl
+Copyright © 2018-2020 Jonathan Gallagher y Shelly Barrios de Avila
+Format
+Link
+Browser Bible
+Study online with Browser Bible
+Mobile HTML
+Read Mobile HTML online
+Zipped mobile HTML
+spavbl_html.zip
+ePub 3
+and
+Kindle
+spavbl.epub
+PDF
+PDF file list
+Crosswire Sword module
+spavbl2018eb.zip
+Plain text canon only chapter files
+spavbl_readaloud.zip
+BibleWorks import (VPL) + SQL
+spavbl_vpl.zip
+Browser Bible module
+spavbl_browserBible.zip
+USFX
+spavbl_usfx.zip
+USFM
+spavbl_usfm.zip
+XeTeX
+spavbl_xetex.zip
+The Holy Bible in Spanish, Free Bible Version
+Versión Biblia Libre, Nuevo Testamento
+En el principio, Dios creó los cielos y la tierra.
+—Genesis 1:1
+Un Salmo de David. El Señor es mi pastor, y por ello tengo todo lo que necesito.
+—Psalm 23:1
+Busquen su reino en primer lugar, y su senda de justicia, y todo se les dará.
+—Matthew 6:33
+“Porque Dios amó al mundo, y lo hizo de esta manera: entregó a su único Hijo, a fin de que todos los que crean en él no mueran, sino que tengan vida eterna.
+—John 3:16
+Sabemos que en todas las cosas Dios obra para el bien de los que le aman, aquellos a quienes él ha llamado para formar parte de su plan.
+—Romans 8:28
+Versión Biblia Libre
+The Holy Bible in Spanish, Free Bible Version
+Versión Biblia Libre, Nuevo Testamento
+copyright © 2018-2020
+Jonathan Gallagher y Shelly Barrios de Avila
+Language:
+Español (Spanish)
+Translation by: Jonathan Gallagher y Shelly Barrios de Avila
+Contributor: Gustavo Sanabria y Rebekah Põldaas
+This translation is made available to you under the terms of the
+Creative Commons Attribution Share-Alike license 4.0.
+You have permission to share and redistribute this Bible translation in any format and to make reasonable revisions and adaptations of this translation, provided that:
+You include the above copyright and source information.
+If you make any changes to the text, you must indicate that you did so in a way that makes it clear that the original licensor is not necessarily endorsing your changes.
+If you redistribute this text, you must distribute your contributions under the same license as the original.
+Pictures included with Scriptures and other documents on this site are licensed just for use with those Scriptures and documents.
+For other uses, please contact the respective copyright owners.
+Note that in addition to the rules above, revising and adapting God's Word involves a great responsibility to be true to God's Word. See Revelation 22:18-19.
+2026-10-30
+Last updated 2026-10-30   tiny3

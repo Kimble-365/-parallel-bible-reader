@@ -1,0 +1,16 @@
+{
+  "id": "rmyChergash",
+  "title": "Chergash NT",
+  "vernacular_title": "Biblija pe romani Čergarsko čhib Srbija (Vojvodin Romani/Shiyak)",
+  "source": "https://ebible.org/Scriptures/details.php?id=rmyChergash",
+  "source_archive": "https://eBible.org/Scriptures/rmyChergash_usfm.zip",
+  "source_sha256": "d8083ee371f226ce4f98191caa226053ab22442afe3447e8e8ef3b43a9856d0b",
+  "source_updated": "2025-06-28",
+  "retrieved": "2026-11-03",
+  "license": "CC BY SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "books": 27,
+  "verse_rows": 7959,
+  "conversion": "Plain-verse format conversion; headings, notes, cross references and front/back matter omitted from display. Raw USFM and complete source page retained.",
+  "attribution": "Biblija pe romani Čergarsko čhib Srbija (Vojvodin Romani/Shiyak). Copyright © 2018 Pioneers copyright © 2018 copyright and source information. Source: eBible.org, reviewed 2025-06-28. CC BY SA 4.0. Plain-verse format conversion; source words and punctuation retained. Headings, footnotes, cross references and publication-only material are omitted from display, not asserted to be absent from the source. Complete notices are retained in the source archive. No publisher endorsement."
+}

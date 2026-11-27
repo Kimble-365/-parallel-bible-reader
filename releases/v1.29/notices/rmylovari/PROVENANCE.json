@@ -1,0 +1,16 @@
+{
+  "id": "rmylovari",
+  "title": "Lovari Vlax Romani Bible",
+  "vernacular_title": "Библия пэ ловарицко романы щиб",
+  "source": "https://ebible.org/Scriptures/details.php?id=rmylovari",
+  "source_archive": "https://eBible.org/Scriptures/rmylovari_usfm.zip",
+  "source_sha256": "4aa8ab662b07833c91c5a93e7152c77bd496e96e5e1e58bc0af94e4cb61bb990",
+  "source_updated": "2025-06-28",
+  "retrieved": "2026-11-03",
+  "license": "CC BY SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "books": 3,
+  "verse_rows": 1666,
+  "conversion": "Plain-verse format conversion; headings, notes, cross references and front/back matter omitted from display. Raw USFM and complete source page retained.",
+  "attribution": "Библия пэ ловарицко романы щиб. Copyright © 2021 Pioneer Bible Translators and Bible Translators of Ukraine copyright © 2021 copyright and source information. Source: eBible.org, reviewed 2025-06-28. CC BY SA 4.0. Plain-verse format conversion; source words and punctuation retained. Headings, footnotes, cross references and publication-only material are omitted from display, not asserted to be absent from the source. Complete notices are retained in the source archive. No publisher endorsement."
+}

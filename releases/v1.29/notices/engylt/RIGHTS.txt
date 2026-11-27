@@ -1,0 +1,70 @@
+Young's Literal Translation
+eBible.org
+Translations
+Territories
+Young's Literal Translation
+Language:
+[eng]
+ENGLISH
+English
+Dialect:
+archaic British
+Title:
+Young's Literal Translation
+Young's Literal Translation
+Abbreviation:
+YLT
+ID: ENGYLT or engylt
+public domain
+Format
+Link
+Browser Bible
+Study online with Browser Bible
+Mobile HTML
+Read Mobile HTML online
+Zipped mobile HTML
+engylt_html.zip
+ePub 3
+and
+Kindle
+engylt.epub
+PDF
+PDF file list
+Crosswire Sword module
+engylt1898eb.zip
+Plain text canon only chapter files
+engylt_readaloud.zip
+BibleWorks import (VPL) + SQL
+engylt_vpl.zip
+Browser Bible module
+engylt_browserBible.zip
+USFX
+engylt_usfx.zip
+USFM
+engylt_usfm.zip
+XeTeX
+engylt_xetex.zip
+Young's Literal Translation of the Holy Bible
+In the beginning of God's preparing the heavens and the earth —
+—Genesis 1:1
+A Psalm of David. Jehovah is my shepherd, I do not lack,
+—Psalm 23:1
+but seek ye first the reign of God and His righteousness, and all these shall be added to you.
+—Matthew 6:33
+for God did so love the world, that His Son — the only begotten — He gave, that every one who is believing in him may not perish, but may have life age-during.
+—John 3:16
+And we have known that to those loving God all things do work together for good, to those who are called according to purpose;
+—Romans 8:28
+Young's Literal Translation
+Young's Literal Translation of the Holy Bible
+Public Domain
+Language:
+ENGLISH (English)
+Dialect: archaic British
+Translation by: Robert Young
+This public domain Bible translation is brought to you courtesy of eBible.org.
+If you would like to make a donation to help keep free Bible access like this going, please visit
+https://eBible.org/give.php
+.
+2019-10-20
+Last updated 2019-10-20   c

@@ -1,0 +1,16 @@
+{
+  "id": "ronbl",
+  "title": "Romanian Free Holy Bible",
+  "vernacular_title": "Biblia Liberă",
+  "source": "https://ebible.org/Scriptures/details.php?id=ronbl",
+  "source_archive": "https://eBible.org/Scriptures/ronbl_usfm.zip",
+  "source_sha256": "7b6dc00c789ff0eed8f2b54299493418045eafbd5c66f02f00b52fcee9534450",
+  "source_updated": "2026-10-28",
+  "retrieved": "2026-11-03",
+  "license": "Public Domain",
+  "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "books": 27,
+  "verse_rows": 7952,
+  "conversion": "Plain-verse format conversion; headings, notes, cross references and front/back matter omitted from display. Raw USFM and complete source page retained.",
+  "attribution": "Biblia Liberă.  Source: eBible.org, reviewed 2026-10-28. Public Domain. Plain-verse format conversion; source words and punctuation retained. Headings, footnotes, cross references and publication-only material are omitted from display, not asserted to be absent from the source. Complete notices are retained in the source archive. No publisher endorsement."
+}

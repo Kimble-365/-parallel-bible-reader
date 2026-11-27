@@ -1,0 +1,16 @@
+{
+  "id": "engwebu",
+  "title": "World English Bible Updated",
+  "vernacular_title": "World English Bible Updated",
+  "source": "https://ebible.org/Scriptures/details.php?id=engwebu",
+  "source_archive": "https://eBible.org/Scriptures/engwebu_usfm.zip",
+  "source_sha256": "6408bba4ee3428d94472092069a7222680abf2382c6f93ee15cec0f0f4cc06fb",
+  "source_updated": "2026-10-30",
+  "retrieved": "2026-11-03",
+  "license": "Public Domain",
+  "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "books": 80,
+  "verse_rows": 37499,
+  "conversion": "Plain-verse format conversion; headings, notes, cross references and front/back matter omitted from display. Raw USFM and complete source page retained.",
+  "attribution": "World English Bible Updated. copyrighted. However, \"World English Bible\" is a Trademark of eBible.org. Source: eBible.org, reviewed 2026-10-30. Public Domain. Plain-verse format conversion; source words and punctuation retained. Headings, footnotes, cross references and publication-only material are omitted from display, not asserted to be absent from the source. Complete notices are retained in the source archive. No publisher endorsement."
+}

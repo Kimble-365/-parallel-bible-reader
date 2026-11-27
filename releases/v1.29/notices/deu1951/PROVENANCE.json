@@ -1,0 +1,16 @@
+{
+  "id": "deu1951",
+  "title": "German Schlachter Bible 1951",
+  "vernacular_title": "Die Schlachter-Bibel 1951",
+  "source": "https://ebible.org/Scriptures/details.php?id=deu1951",
+  "source_archive": "https://eBible.org/Scriptures/deu1951_usfm.zip",
+  "source_sha256": "c61ecc937a33fb8d9946ba49169bcb6648d4774a4b8a639ba1daac86c7614076",
+  "source_updated": "2022-03-30",
+  "retrieved": "2026-11-03",
+  "license": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0",
+  "books": 66,
+  "verse_rows": 31101,
+  "conversion": "Plain-verse format conversion; headings, notes, cross references and front/back matter omitted from display. Raw USFM and complete source page retained.",
+  "attribution": "Die Schlachter-Bibel 1951. Copyright © 1951 Genfer Bibelgeschellschaft (Geneva Bible Society) copyright © 1951 copyright and source information. Source: eBible.org, reviewed 2022-03-30. CC BY 4.0. Plain-verse format conversion; source words and punctuation retained. Headings, footnotes, cross references and publication-only material are omitted from display, not asserted to be absent from the source. Complete notices are retained in the source archive. No publisher endorsement."
+}

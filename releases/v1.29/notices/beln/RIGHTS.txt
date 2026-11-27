@@ -1,0 +1,73 @@
+Новы Запавет і Кнігі Старога Запавету
+eBible.org
+Translations
+Territories
+Новы Запавет і Кнігі Старога Запавету
+Belarusian New Testament and Books of Old Testament
+Language:
+[bel]
+беларуская
+беларуская
+Title:
+Новы Запавет і Кнігі Старога Запавету
+Belarusian New Testament and Books of Old Testament
+Abbreviation:
+НЗПрп
+ID: BELNJO or beln
+Copyright © 2016 John the Forerunner Church of Christians of Evangelical Faith of Minsk City
+Format
+Link
+Browser Bible
+Study online with Browser Bible
+Mobile HTML
+Read Mobile HTML online
+Zipped mobile HTML
+beln_html.zip
+ePub 3
+and
+Kindle
+beln.epub
+PDF
+PDF file list
+Crosswire Sword module
+beln2021eb.zip
+Plain text canon only chapter files
+beln_readaloud.zip
+BibleWorks import (VPL) + SQL
+beln_vpl.zip
+Browser Bible module
+beln_browserBible.zip
+USFX
+beln_usfx.zip
+USFM
+beln_usfm.zip
+XeTeX
+beln_xetex.zip
+Belarusian New Testament and Books of Old Testament
+На пачатку стварыў Бог неба і зямлю.
+—Genesis 1:1
+Псальм Давіда. ГОСПАД ёсьць Пастыр мой, ні ў чым ня буду мець нястачы!
+—Psalm 23:1
+Шукайце ж перш Валадарства Божага і праведнасьці Яго, і тое ўсё дадасца вам.
+—Matthew 6:33
+Бо так палюбіў Бог сьвет, што Сына Свайго Адзінароднага аддаў, каб кожны, хто верыць у Яго, не загінуў, але меў жыцьцё вечнае.
+—John 3:16
+А мы ведаем, што тым, якія любяць Бога, пакліканым паводле Яго вызначэньня, усё дапамагае на дабро.
+—Romans 8:28
+Новы Запавет і Кнігі Старога Запавету
+Belarusian New Testament and Books of Old Testament
+copyright © 2016
+John the Forerunner Church of Christians of Evangelical Faith of Minsk City
+Language:
+беларуская
+Contributor: John the Forerunner Church of Christians of Evangelical Faith of Minsk City
+Новы Запавет і Кнігі Старога Запавету
+This translation is made available to you under the terms of the
+Creative Commons Attribution-No Derivatives license 4.0.
+You may share, redistribute, or adapt this Bible translation or extracts from it in any format, provided that:
+You include the above copyright and source information.
+You do not use this work for commercial purposes.
+Pictures included with Scriptures and other documents on this site are licensed just for use with those Scriptures and documents.
+For other uses, please contact the respective copyright owners.
+2021-05-20
+Last updated 2021-05-20   e

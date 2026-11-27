@@ -1,0 +1,16 @@
+{
+  "id": "eng-kjv2006",
+  "title": "King James Version",
+  "vernacular_title": "King James (Authorized) Version",
+  "source": "https://ebible.org/Scriptures/details.php?id=eng-kjv2006",
+  "source_archive": "https://eBible.org/Scriptures/eng-kjv2006_usfm.zip",
+  "source_sha256": "ce1f526c64c2376f407308c2c23cb2d2fb58efaf5296327d2d8e408c3700650d",
+  "source_updated": "2026-09-26",
+  "retrieved": "2026-11-03",
+  "license": "Public Domain",
+  "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "books": 66,
+  "verse_rows": 31102,
+  "conversion": "Plain-verse format conversion; headings, notes, cross references and front/back matter omitted from display. Raw USFM and complete source page retained.",
+  "attribution": "King James (Authorized) Version. Copyright_status for more information. Source: eBible.org, reviewed 2026-09-26. Public Domain. Plain-verse format conversion; source words and punctuation retained. Headings, footnotes, cross references and publication-only material are omitted from display, not asserted to be absent from the source. Complete notices are retained in the source archive. No publisher endorsement."
+}

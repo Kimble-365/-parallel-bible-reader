@@ -1,0 +1,16 @@
+{
+  "id": "grcbrent",
+  "title": "Brenton Septuagint",
+  "vernacular_title": "μετάφραση των εβδομήκοντα",
+  "source": "https://ebible.org/Scriptures/details.php?id=grcbrent",
+  "source_archive": "https://eBible.org/Scriptures/grcbrent_usfm.zip",
+  "source_sha256": "5b777b54e662de634858a409dd6b1b50ea3ef1e18afc395075183a7773184aca",
+  "source_updated": "2026-04-08",
+  "retrieved": "2026-11-03",
+  "license": "Public Domain",
+  "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "books": 51,
+  "verse_rows": 28175,
+  "conversion": "Plain-verse format conversion; headings, notes, cross references and front/back matter omitted from display. Raw USFM and complete source page retained.",
+  "attribution": "μετάφραση των εβδομήκοντα.  Source: eBible.org, reviewed 2026-04-08. Public Domain. Plain-verse format conversion; source words and punctuation retained. Headings, footnotes, cross references and publication-only material are omitted from display, not asserted to be absent from the source. Complete notices are retained in the source archive. No publisher endorsement."
+}

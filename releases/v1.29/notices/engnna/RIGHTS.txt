@@ -1,0 +1,69 @@
+Nyangumarta English Bible
+eBible.org
+Translations
+Territories
+Nyangumarta English Bible
+Language:
+[eng]
+English
+English
+Title:
+Nyangumarta English Bible
+Nyangumarta English Bible
+Abbreviation:
+NyEB
+ID: ENGNNA or engnna
+Copyright © 1980-2010 Wycliffe Bible Translators, Inc.
+Format
+Link
+Browser Bible
+Study online with Browser Bible
+Mobile HTML
+Read Mobile HTML online
+Zipped mobile HTML
+engnna_html.zip
+ePub 3
+and
+Kindle
+engnna.epub
+PDF
+PDF file list
+Crosswire Sword module
+engnna2010eb.zip
+Plain text canon only chapter files
+engnna_readaloud.zip
+BibleWorks import (VPL) + SQL
+engnna_vpl.zip
+Browser Bible module
+engnna_browserBible.zip
+USFX
+engnna_usfx.zip
+USFM
+engnna_usfm.zip
+XeTeX
+engnna_xetex.zip
+Portions of the Holy Bible in English, translated to be a companion to the Nyangumarta Bible
+At the first, long ago God made the sky and the ground.
+—Genesis 1:1
+God looks after me; I have everything to stay alive.
+—Psalm 23:1
+Human beings are very much in God's feelings. Because of that he gave his very own male child for them, so that the ones who habitually believe in him should not become worthless dregs, but should live for ever in his camp.
+—John 3:16
+Nyangumarta English Bible
+Portions of the Holy Bible in English, translated to be a companion to the Nyangumarta Bible
+copyright © 1980-2010
+Wycliffe Bible Translators, Inc.
+Language:
+English
+Bible translation copyright © 1980-2010 Wycliffe Bible Translators, Inc.
+Reader Series (book XXC) copyright © 1996 Bible Society Australia. Bible overview (XXA) copyright © 1996 Mission Publications of Australia (PO Box 21, Lawson NSW 2783)
+This translation is made available to you under the terms of the
+Creative Commons Attribution-Noncommercial-No Derivatives license 4.0.
+You may share and redistribute this Bible translation or extracts from it in any format, provided that:
+You include the above copyright and source information.
+You do not sell this work for a profit.
+You do not change any of the words or punctuation of the Scriptures.
+Pictures included with Scriptures and other documents on this site are licensed just for use with those Scriptures and documents.
+For other uses, please contact the respective copyright owners.
+2026-01-06
+Last updated 2026-01-06   tiny3

@@ -1,0 +1,16 @@
+{
+  "id": "grctcgnt",
+  "title": "Text-Critical Greek NT",
+  "vernacular_title": "Η Καινή Διαθήκη",
+  "source": "https://ebible.org/Scriptures/details.php?id=grctcgnt",
+  "source_archive": "https://eBible.org/Scriptures/grctcgnt_usfm.zip",
+  "source_sha256": "38f40c038244b10b72bb116083562fd83ba36b6194c7ff31e66ac87901749d4b",
+  "source_updated": "2026-10-30",
+  "retrieved": "2026-11-03",
+  "license": "Public Domain",
+  "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "books": 27,
+  "verse_rows": 7954,
+  "conversion": "Plain-verse format conversion; headings, notes, cross references and front/back matter omitted from display. Raw USFM and complete source page retained.",
+  "attribution": "Η Καινή Διαθήκη. Copyright is not claimed nor asserted for either the preface, notes, or the new and revised form of the Greek NT text of this edition, nor for the original form of such as initially released into the public domain by the editors, first as printed textual notes in 1979, continuous-text electronic form 1986–pr Source: eBible.org, reviewed 2026-10-30. Public Domain. Plain-verse format conversion; source words and punctuation retained. Headings, footnotes, cross references and publication-only material are omitted from display, not asserted to be absent from the source. Complete notices are retained in the source archive. No publisher endorsement."
+}

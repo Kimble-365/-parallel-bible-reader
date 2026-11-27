@@ -1,0 +1,73 @@
+Święta Biblia
+eBible.org
+Translations
+Territories
+Święta Biblia
+Polish Updated Gdansk Bible
+Language:
+[pol]
+Polskie
+Polish
+Title:
+Święta Biblia
+Polish Updated Gdansk Bible
+Abbreviation:
+ID: POLUBG or polubg
+Copyright © 2018 Fundacja Wrota Nadziei
+Format
+Link
+Browser Bible
+Study online with Browser Bible
+Mobile HTML
+Read Mobile HTML online
+Zipped mobile HTML
+polubg_html.zip
+ePub 3
+and
+Kindle
+polubg.epub
+PDF
+PDF file list
+Crosswire Sword module
+polubg2018eb.zip
+Plain text canon only chapter files
+polubg_readaloud.zip
+BibleWorks import (VPL) + SQL
+polubg_vpl.zip
+Browser Bible module
+polubg_browserBible.zip
+USFX
+polubg_usfx.zip
+USFM
+polubg_usfm.zip
+XeTeX
+polubg_xetex.zip
+The Holy Bible in Polish, Updated Gdansk Version
+UWSPÓŁCZEŚNIONA BIBLIA GDAŃSKA
+Na początku Bóg stworzył niebo i ziemię.
+—Genesis 1:1
+Psalm Dawida. PAN jest moim pasterzem, niczego mi nie zabraknie.
+—Psalm 23:1
+Ale szukajcie najpierw królestwa Bożego i jego sprawiedliwości, a to wszystko będzie wam dodane.
+—Matthew 6:33
+Tak bowiem Bóg umiłował świat, że dał swego jednorodzonego Syna, aby każdy, kto w niego wierzy, nie zginął, ale miał życie wieczne.
+—John 3:16
+A wiemy, że wszystko współdziała dla dobra tych, którzy miłują Boga, to jest tych, którzy są powołani według postanowienia Boga.
+—Romans 8:28
+Święta Biblia
+The Holy Bible in Polish, Updated Gdansk Version
+UWSPÓŁCZEŚNIONA BIBLIA GDAŃSKA
+copyright © 2018
+Fundacja Wrota Nadziei
+Language:
+Polskie (Polish)
+Translation by: Fundacja Wrota Nadziei
+This translation is made available to you under the terms of the
+Creative Commons Attribution-No Derivatives license 4.0.
+You may share and redistribute this Bible translation or extracts from it in any format, provided that:
+You include the above copyright and source information.
+You do not make any derivative works that change any of the actual words or punctuation of the Scriptures.
+Pictures included with Scriptures and other documents on this site are licensed just for use with those Scriptures and documents.
+For other uses, please contact the respective copyright owners.
+2018-10-23
+Last updated 2018-10-23   e

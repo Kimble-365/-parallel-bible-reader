@@ -1,0 +1,16 @@
+{
+  "id": "nld1939",
+  "title": "Dutch Bible, Petrus Canisius",
+  "vernacular_title": "De Heilige Schrift, Petrus Canisiusvertaling, 1939",
+  "source": "https://ebible.org/Scriptures/details.php?id=nld1939",
+  "source_archive": "https://eBible.org/Scriptures/nld1939_usfm.zip",
+  "source_sha256": "5a811477f5df00f473781b3bcc26c69a9e0842c7350f506b90e8be540db33c1c",
+  "source_updated": "2024-08-06",
+  "retrieved": "2026-11-03",
+  "license": "Public Domain",
+  "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "books": 72,
+  "verse_rows": 34872,
+  "conversion": "Plain-verse format conversion; headings, notes, cross references and front/back matter omitted from display. Raw USFM and complete source page retained.",
+  "attribution": "De Heilige Schrift, Petrus Canisiusvertaling, 1939. copyright copyright contacts have been made with the original publisher (1), the Katholieke Vereniging voor Oecumene (Catholic Society for Ecumenism) (2) and the Katholieke Bijbelstichting (Catholic Bible Foundation) (3) and no objections have been found against this publication. Taking into account the legal terms, t Source: eBible.org, reviewed 2024-08-06. Public Domain. Plain-verse format conversion; source words and punctuation retained. Headings, footnotes, cross references and publication-only material are omitted from display, not asserted to be absent from the source. Complete notices are retained in the source archive. No publisher endorsement."
+}

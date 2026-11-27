@@ -1,0 +1,16 @@
+{
+  "id": "engnoy",
+  "title": "Noyes Bible",
+  "vernacular_title": "George Noyes Bible",
+  "source": "https://ebible.org/Scriptures/details.php?id=engnoy",
+  "source_archive": "https://eBible.org/Scriptures/engnoy_usfm.zip",
+  "source_sha256": "5dc89d987c2ec63e8138f3a1dc03d0534003aee69e72de9294aff0ad54deec9e",
+  "source_updated": "2019-10-24",
+  "retrieved": "2026-11-03",
+  "license": "Public Domain",
+  "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "books": 49,
+  "verse_rows": 18213,
+  "conversion": "Plain-verse format conversion; headings, notes, cross references and front/back matter omitted from display. Raw USFM and complete source page retained.",
+  "attribution": "George Noyes Bible.  Source: eBible.org, reviewed 2019-10-24. Public Domain. Plain-verse format conversion; source words and punctuation retained. Headings, footnotes, cross references and publication-only material are omitted from display, not asserted to be absent from the source. Complete notices are retained in the source archive. No publisher endorsement."
+}

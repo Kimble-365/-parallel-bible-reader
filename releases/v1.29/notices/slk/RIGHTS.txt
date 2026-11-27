@@ -1,0 +1,116 @@
+Biblica® Nádej pre každého, verejne dostupné
+eBible.org
+Translations
+Territories
+Biblica® Nádej pre každého, verejne dostupné
+Slovak NT
+Language:
+[slk]
+Slovenčina
+Slovak
+Title:
+Biblica® Nádej pre každého, verejne dostupné
+Slovak NT
+Abbreviation:
+ONPK
+ID: SLKBIB or slk
+Copyright © 1993, 2023 Biblica, Inc.
+Format
+Link
+Browser Bible
+Study online with Browser Bible
+Mobile HTML
+Read Mobile HTML online
+Zipped mobile HTML
+slk_html.zip
+ePub 3
+and
+Kindle
+slk.epub
+PDF
+PDF file list
+Crosswire Sword module
+slk2023eb.zip
+Plain text canon only chapter files
+slk_readaloud.zip
+BibleWorks import (VPL) + SQL
+slk_vpl.zip
+Browser Bible module
+slk_browserBible.zip
+USFX
+slk_usfx.zip
+USFM
+slk_usfm.zip
+XeTeX
+slk_xetex.zip
+The New Testament in the Slovak language of Slovakia: Biblica® Nádej pre každého, verejne dostupné
+Hľadajte najprv Božie kráľovstvo a jeho spravodlivosť a všetko toto vám bude pridané.
+—Matthew 6:33
+Lebo tak Boh miloval svet, že dal svojho jediného Syna, aby nik, kto v neho verí, nezahynul, ale mal večný život.
+—John 3:16
+Jedno vieme určite: Boh koná tak, aby všetko, čokoľvek sa deje, slúžilo na dobré tým, ktorí ho milujú a ktorých si povolal podľa svojho odvekého plánu.
+—Romans 8:28
+Biblica® Nádej pre každého, verejne dostupné
+The New Testament in the Slovak language of Slovakia: Biblica® Nádej pre každého, verejne dostupné
+copyright © 1993, 2023
+Biblica, Inc.
+Language:
+Slovenčina (Slovak)
+Contributor: Biblica, Inc.
+Biblica® Nádej pre každého, verejne dostupné™
+Copyright © 1993, 2023 od Biblica, Inc.
+Biblica® Open Slovak Hope for All New Testament™
+Copyright © 1993, 2023 by Biblica, Inc.
+„Biblica“ je ochranná známka registrovaná na Úrade pre patenty a ochranné známky Spojených štátov amerických spoločnosťou Biblica, Inc. Použité so súhlasom spoločnosti.
+“Biblica” is a trademark registered in the United States Patent and Trademark Office by Biblica, Inc. Used with permission.
+Creative Commons License
+Táto NZ alebo „dielo“ je sprístupnené pod licenciou vlastníka Creative Commons-Zdieľanie autorských práv 4.0 Medzinárodná licencia (CC BY-SA). Ak chcete vidieť túto licenciu, navštívte stránku
+https://creativecommons.org/licenses/by-sa/4.0
+alebo pošlite list na adresu Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
+„Biblica“ je ochranná známka registrovaná spoločnosťou Biblica, Inc. Pri každom použití ochrannej známky Biblica® musíte mať písomné povolenie od spoločnosti Biblica, Inc. Máte povolenie kopírovať a šíriť toto dielo, pokiaľ ho nezmeníte a zachováte jeho názov, ktorý obsahuje ochrannú známku „Biblica®“. Zmenou alebo prekladom tohto diela vznikne odvodené dielo, ktoré si bude vyžadovať odstránenie ochrannej známky Biblica®. Pri zverejnení tohto odvodeného diela musíte uviesť, aké zmeny ste vykonali, na mieste, kde ich ľudia môžu vidieť, napríklad na webovej stránke. Musíte tiež uviesť, odkiaľ pochádza pôvodné dielo: „Pôvodné dielo od spoločnosti Biblica, Inc. je k dispozícii zdarma na
+www.biblica.com
+a
+open.bible
+.“
+Bez ohľadu na to, či toto dielo použijete bez zmien alebo vytvoríte odvodené dielo, vyhlásenie o autorských právach musí byť uvedené na titulnej alebo autorskej strane diela/odvodeného diela takto:
+Biblica® Nádej pre každého, verejne dostupné™
+Copyright © 1993, 2023 od Biblica, Inc.
+Biblica® Open Slovak Hope for All New Testament™
+Copyright © 1993, 2023 by Biblica, Inc.
+„Biblica“ je ochranná známka registrovaná na Úrade pre patenty a ochranné známky Spojených štátov amerických spoločnosťou Biblica, Inc. Použité so súhlasom spoločnosti.
+“Biblica” is a trademark registered in the United States Patent and Trademark Office by Biblica, Inc. Used with permission.
+Svoje odvodené dielo musíte tiež ponúkať s použitím rovnakej licencie (CC BY-SA) a podľa pravidiel.
+Ak chcete informovať spoločnosť Biblica, Inc. o preklade tohto diela, kontaktujte nás na adrese
+https://open.bible/#feedback
+.
+‪
+This work is made available under the Creative Commons Attribution-ShareAlike 4‪.0 International License (CC BY-SA). To view a copy of this license, visit
+https://creativecommons.org/licenses/by-sa/4.0
+or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
+‪Biblica® is a trademark registered by Biblica, Inc., and use of the Biblica® trademark requires the written permission of Biblica, Inc. Under the terms of the CC BY-SA license, you may copy and redistribute this unmodified work as long as you keep the Biblica® trademark intact. If you modify a copy or translate this work, thereby creating a derivative work, you must remove the Biblica® trademark. On the derivative work, you must indicate what changes you have made and attribute the work as follows: “The original work by Biblica, Inc. is available for free at
+www.biblica.com
+and
+open.bible
+.”
+‪Notice of copyright must appear on the title or copyright page of the work as follows:
+Biblica® Nádej pre každého, verejne dostupné™
+Copyright © 1993, 2023 od Biblica, Inc.
+Biblica® Open Slovak Hope for All New Testament™
+Copyright © 1993, 2023 by Biblica, Inc.
+„Biblica“ je ochranná známka registrovaná na Úrade pre patenty a ochranné známky Spojených štátov amerických spoločnosťou Biblica, Inc. Použité so súhlasom spoločnosti.
+“Biblica” is a trademark registered in the United States Patent and Trademark Office by Biblica, Inc. Used with permission.
+‪You must also make your derivative work available under the same license (CC BY-SA).
+‪If you would like to notify Biblica, Inc. regarding your translation of this work, please contact us at
+https://open.bible/#feedback
+.
+This translation is made available to you under the terms of the
+Creative Commons Attribution Share-Alike license 4.0.
+You have permission to share and redistribute this Bible translation in any format and to make reasonable revisions and adaptations of this translation, provided that:
+You include the above copyright and source information.
+If you make any changes to the text, you must indicate that you did so in a way that makes it clear that the original licensor is not necessarily endorsing your changes.
+If you redistribute this text, you must distribute your contributions under the same license as the original.
+Pictures included with Scriptures and other documents on this site are licensed just for use with those Scriptures and documents.
+For other uses, please contact the respective copyright owners.
+Note that in addition to the rules above, revising and adapting God's Word involves a great responsibility to be true to God's Word. See Revelation 22:18-19.
+2025-05-21
+Last updated 2025-05-21   c

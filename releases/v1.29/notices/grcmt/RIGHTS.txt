@@ -1,0 +1,66 @@
+Η Καινή Διαθήκη
+eBible.org
+Translations
+Territories
+Η Καινή Διαθήκη
+Greek Majority Text NT
+Language:
+[grc]
+Ελληνικά
+Greek, Ancient
+Dialect:
+Koine
+Title:
+Η Καινή Διαθήκη
+Greek Majority Text NT
+Abbreviation:
+ID: GRCMTK or grcmt
+public domain
+Format
+Link
+Browser Bible
+Study online with Browser Bible
+Mobile HTML
+Read Mobile HTML online
+Zipped mobile HTML
+grcmt_html.zip
+ePub 3
+and
+Kindle
+grcmt.epub
+PDF
+PDF file list
+Crosswire Sword module
+grcrp2018eb.zip
+Plain text canon only chapter files
+grcmt_readaloud.zip
+BibleWorks import (VPL) + SQL
+grcmt_vpl.zip
+Browser Bible module
+grcmt_browserBible.zip
+USFX
+grcmt_usfx.zip
+USFM
+grcmt_usfm.zip
+XeTeX
+grcmt_xetex.zip
+The Greek New Testament according to the Byzantine Text form. Robinson-Pierpont 2018 edition
+ζητειτε δε πρωτον την βασιλειαν του θεου και την δικαιοσυνην αυτου και ταυτα παντα προστεθησεται υμιν
+—Matthew 6:33
+ουτωσ γαρ ηγαπησεν ο θεοσ τον κοσμον ωστε τον υιον αυτου τον μονογενη εδωκεν ινα πασ ο πιστευων εισ αυτον μη αποληται αλλ εχη ζωην αιωνιον
+—John 3:16
+οιδαμεν δε οτι τοισ αγαπωσιν τον θεον παντα 3956 A-APN συνεργει εισ αγαθον τοισ κατα προθεσιν κλητοισ ουσιν
+—Romans 8:28
+Η Καινή Διαθήκη
+The Greek New Testament according to the Byzantine Text form. Robinson-Pierpont 2018 edition
+Public Domain
+Language:
+Ελληνικά (Greek, Ancient)
+Dialect: Koine
+Translation by: Maurice A. Robinson and William G. Pierpont
+This public domain Bible translation is brought to you courtesy of eBible.org.
+If you would like to make a donation to help keep free Bible access like this going, please visit
+https://eBible.org/give.php
+.
+2024-01-09
+Last updated 2024-01-09   e

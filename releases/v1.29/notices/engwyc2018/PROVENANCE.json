@@ -1,0 +1,16 @@
+{
+  "id": "engwyc2018",
+  "title": "English: Wycliffe's Bible Modern Spelling (Enhanced) (with Deuterocanon)",
+  "vernacular_title": "Wycliffe's Bible with Modern Spelling (Enhanced)",
+  "source": "https://ebible.org/Scriptures/details.php?id=engwyc2018",
+  "source_archive": "https://eBible.org/Scriptures/engwyc2018_usfm.zip",
+  "source_sha256": "21efe5bd5eaf262a8b139ed1320ec02424e24354aba5e0e207f473205e12ebb7",
+  "source_updated": "2019-09-25",
+  "retrieved": "2026-11-03",
+  "license": "CC BY NC ND 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0",
+  "books": 80,
+  "verse_rows": 36010,
+  "conversion": "Plain-verse format conversion; headings, notes, cross references and front/back matter omitted from display. Raw USFM and complete source page retained.",
+  "attribution": "Wycliffe's Bible with Modern Spelling (Enhanced). Copyright © 2001,2010,2011,2012,2013,2015 Terry Noble copyright and source information. Source: eBible.org, reviewed 2019-09-25. CC BY NC ND 4.0. Plain-verse format conversion; source words and punctuation retained. Headings, footnotes, cross references and publication-only material are omitted from display, not asserted to be absent from the source. Complete notices are retained in the source archive. No publisher endorsement."
+}

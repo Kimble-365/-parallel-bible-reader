@@ -1,0 +1,16 @@
+{
+  "id": "slk",
+  "title": "Slovak NT",
+  "vernacular_title": "Biblica® Nádej pre každého, verejne dostupné",
+  "source": "https://ebible.org/Scriptures/details.php?id=slk",
+  "source_archive": "https://eBible.org/Scriptures/slk_usfm.zip",
+  "source_sha256": "3772a1ada5c45091f492dbab7793a922d99023fb988d3b95a9e59d717e7d0092",
+  "source_updated": "2025-05-21",
+  "retrieved": "2026-11-03",
+  "license": "CC BY SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "books": 27,
+  "verse_rows": 7955,
+  "conversion": "Plain-verse format conversion; headings, notes, cross references and front/back matter omitted from display. Raw USFM and complete source page retained.",
+  "attribution": "Biblica® Nádej pre každého, verejne dostupné. Copyright © 1993, 2023 Biblica, Inc. copyright © 1993, 2023 Copyright © 1993, 2023 od Biblica, Inc. Source: eBible.org, reviewed 2025-05-21. CC BY SA 4.0. Plain-verse format conversion; source words and punctuation retained. Headings, footnotes, cross references and publication-only material are omitted from display, not asserted to be absent from the source. Complete notices are retained in the source archive. No publisher endorsement."
+}

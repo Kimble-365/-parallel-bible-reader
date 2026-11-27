@@ -1,0 +1,16 @@
+{
+  "id": "eng-kjv",
+  "title": "King James Version + Apocrypha",
+  "vernacular_title": "King James Version + Apocrypha",
+  "source": "https://ebible.org/Scriptures/details.php?id=eng-kjv",
+  "source_archive": "https://eBible.org/Scriptures/eng-kjv_usfm.zip",
+  "source_sha256": "206085ace5494f7eb46975990c0734fd8354e5ecce4d12cc74ce6f1aa8efd129",
+  "source_updated": "2026-09-26",
+  "retrieved": "2026-11-03",
+  "license": "Public Domain",
+  "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "books": 80,
+  "verse_rows": 36822,
+  "conversion": "Plain-verse format conversion; headings, notes, cross references and front/back matter omitted from display. Raw USFM and complete source page retained.",
+  "attribution": "King James Version + Apocrypha. Copyright_status for more information. Source: eBible.org, reviewed 2026-09-26. Public Domain. Plain-verse format conversion; source words and punctuation retained. Headings, footnotes, cross references and publication-only material are omitted from display, not asserted to be absent from the source. Complete notices are retained in the source archive. No publisher endorsement."
+}

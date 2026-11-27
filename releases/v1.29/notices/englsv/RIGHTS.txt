@@ -1,0 +1,80 @@
+Literal Standard Version
+eBible.org
+Translations
+Territories
+Literal Standard Version
+English LSV
+Language:
+[eng]
+English
+English
+Dialect:
+American
+Title:
+Literal Standard Version
+English LSV
+Abbreviation:
+LSV
+ID: ENGLSV or englsv
+Copyright © 2020 Covenant Press
+Format
+Link
+Browser Bible
+Study online with Browser Bible
+Mobile HTML
+Read Mobile HTML online
+Zipped mobile HTML
+englsv_html.zip
+ePub 3
+and
+Kindle
+englsv.epub
+PDF
+PDF file list
+Crosswire Sword module
+englsv2020eb.zip
+Plain text canon only chapter files
+englsv_readaloud.zip
+BibleWorks import (VPL) + SQL
+englsv_vpl.zip
+Browser Bible module
+englsv_browserBible.zip
+USFX
+englsv_usfx.zip
+USFM
+englsv_usfm.zip
+XeTeX
+englsv_xetex.zip
+The Holy Bible in English, Literal Standard Version
+In the beginning God created the heavens and the earth,
+—Genesis 1:1
+A PSALM OF DAVID. YHWH is my shepherd, I do not lack,
+—Psalm 23:1
+but seek first the Kingdom of God and His righteousness, and all these will be added to you.
+—Matthew 6:33
+for God so loved the world that He gave the only begotten Son, that everyone who is believing in Him may not perish, but may have continuous life.
+—John 3:16
+And we have known that to those loving God all things work together for good, to those who are called according to purpose;
+—Romans 8:28
+Literal Standard Version
+The Holy Bible in English, Literal Standard Version
+copyright © 2020
+Covenant Press
+Language:
+English
+Dialect: American
+Contributor: Covenant Press
+The Literal Standard Version of the Holy Bible is a registered copyright of Covanet Press and the Covenant Christian Coalition (© 2020). Covenant Press is soliciting partnerships with Bible publishers that are interested in the LSV project. For queries about partnering with us, please email the translation team at
+[email protected]
+. To learn more, visit lsvbible.com. The purpose behind the LSV is to provide readers with a modern, easy-to-read, literal, and accurate translation of the Bible that is free to read, distribute, and translate from. We pray that God will use the LSV to illuminate the hearts and minds of multitudes with the good news that His Son Jesus Christ came in the flesh, died for our sins as a substitutionary sacrifice, rose bodily from the dead, and is coming back again.
+This translation is made available to you under the terms of the
+Creative Commons Attribution Share-Alike license 4.0.
+You have permission to share and redistribute this Bible translation in any format and to make reasonable revisions and adaptations of this translation, provided that:
+You include the above copyright and source information.
+If you make any changes to the text, you must indicate that you did so in a way that makes it clear that the original licensor is not necessarily endorsing your changes.
+If you redistribute this text, you must distribute your contributions under the same license as the original.
+Pictures included with Scriptures and other documents on this site are licensed just for use with those Scriptures and documents.
+For other uses, please contact the respective copyright owners.
+Note that in addition to the rules above, revising and adapting God's Word involves a great responsibility to be true to God's Word. See Revelation 22:18-19.
+2026-10-30
+Last updated 2026-10-30   www

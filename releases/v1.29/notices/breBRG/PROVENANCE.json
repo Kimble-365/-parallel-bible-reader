@@ -1,0 +1,16 @@
+{
+  "id": "breBRG",
+  "title": "Breton Gospels",
+  "vernacular_title": "an Bibl",
+  "source": "https://ebible.org/Scriptures/details.php?id=breBRG",
+  "source_archive": "https://eBible.org/Scriptures/breBRG_usfm.zip",
+  "source_sha256": "20b720c88ab66d76bf1c645922844833471f613c0810b50028283934fa8d95dc",
+  "source_updated": "2014-08-11",
+  "retrieved": "2026-11-03",
+  "license": "Public Domain",
+  "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "books": 4,
+  "verse_rows": 3779,
+  "conversion": "Plain-verse format conversion; headings, notes, cross references and front/back matter omitted from display. Raw USFM and complete source page retained.",
+  "attribution": "an Bibl.  Source: eBible.org, reviewed 2014-08-11. Public Domain. Plain-verse format conversion; source words and punctuation retained. Headings, footnotes, cross references and publication-only material are omitted from display, not asserted to be absent from the source. Complete notices are retained in the source archive. No publisher endorsement."
+}

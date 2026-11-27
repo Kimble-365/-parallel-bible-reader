@@ -1,0 +1,64 @@
+Свето писмо или Библија Превод Даничић-Караџић
+eBible.org
+Translations
+Territories
+Свето писмо или Библија Превод Даничић-Караџић
+Serbian DK Bible (Cyrillic)
+Language:
+[srp]
+српски
+Serbian
+Title:
+Свето писмо или Библија Превод Даничић-Караџић
+Serbian DK Bible (Cyrillic)
+Abbreviation:
+DK
+ID: SRPDKC or srp1868
+public domain
+Format
+Link
+Browser Bible
+Study online with Browser Bible
+Mobile HTML
+Read Mobile HTML online
+Zipped mobile HTML
+srp1868_html.zip
+ePub 3
+and
+Kindle
+srp1868.epub
+PDF
+PDF file list
+Crosswire Sword module
+srp1868eb.zip
+Plain text canon only chapter files
+srp1868_readaloud.zip
+BibleWorks import (VPL) + SQL
+srp1868_vpl.zip
+Browser Bible module
+srp1868_browserBible.zip
+USFX
+srp1868_usfx.zip
+USFM
+srp1868_usfm.zip
+XeTeX
+srp1868_xetex.zip
+The Holy Bible in Serbian, Daničić-Karadžić translation, Cyrillic Alphabet
+У почетку створи Бог небо и земљу.
+—Genesis 1:1
+Псалам Давидов. Господ је пастир мој, ништа ми неће недостајати.
+—Psalm 23:1
+Него иштите најпре царство Божје, и правду Његову, и ово ће вам се све додати.
+—Matthew 6:33
+Јер Богу тако омиле свет да је и Сина свог Јединородног дао, да ниједан који Га верује не погине, него да има живот вечни.
+—John 3:16
+А знамо да онима који љубе Бога све иде на добро, који су позвани по намерењу.
+—Romans 8:28
+Свето писмо или Библија Превод Даничић-Караџић
+The Holy Bible in Serbian, Daničić-Karadžić translation, Cyrillic Alphabet
+Public Domain
+Language:
+српски (Serbian)
+Овај превод Библије је у јавном власништву (није заштићен ауторским правима).
+2026-01-03
+Last updated 2026-01-03   e

@@ -1,0 +1,16 @@
+{
+  "id": "ita1927",
+  "title": "Italian Riveduta Bible",
+  "vernacular_title": "Riveduta Bibbia 1927",
+  "source": "https://ebible.org/Scriptures/details.php?id=ita1927",
+  "source_archive": "https://eBible.org/Scriptures/ita1927_usfm.zip",
+  "source_sha256": "437eebe0f1b7a1bca857a36df76b8f473f0093a45b6ec42af78a889b202768f5",
+  "source_updated": "2019-12-17",
+  "retrieved": "2026-11-03",
+  "license": "Public Domain",
+  "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "books": 66,
+  "verse_rows": 31102,
+  "conversion": "Plain-verse format conversion; headings, notes, cross references and front/back matter omitted from display. Raw USFM and complete source page retained.",
+  "attribution": "Riveduta Bibbia 1927.  Source: eBible.org, reviewed 2019-12-17. Public Domain. Plain-verse format conversion; source words and punctuation retained. Headings, footnotes, cross references and publication-only material are omitted from display, not asserted to be absent from the source. Complete notices are retained in the source archive. No publisher endorsement."
+}

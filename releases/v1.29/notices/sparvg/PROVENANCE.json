@@ -1,0 +1,16 @@
+{
+  "id": "sparvg",
+  "title": "RVG Spanish Bible",
+  "vernacular_title": "Santa Biblia Reina Valera Gómez",
+  "source": "https://ebible.org/Scriptures/details.php?id=sparvg",
+  "source_archive": "https://eBible.org/Scriptures/sparvg_usfm.zip",
+  "source_sha256": "fa839fbe14a06a9db8e57cea780896338fe8bd7b5b8434de576b3a48ecd9147a",
+  "source_updated": "2026-10-30",
+  "retrieved": "2026-11-03",
+  "license": "Free noncommercial distribution; no textual changes; commercial reproduction prohibited",
+  "license_url": "https://ebible.org/Scriptures/details.php?id=sparvg",
+  "books": 66,
+  "verse_rows": 31102,
+  "conversion": "Plain-verse format conversion; headings, notes, cross references and front/back matter omitted from display. Raw USFM and complete source page retained.",
+  "attribution": "Santa Biblia Reina Valera Gómez. Copyright © 2004, 2010, 2023 Dr. Humberto Gómez Caballero copyright © 2004, 2010, 2023 Copyright 2004, 2010, 2023 By Dr. Humberto Gómez Caballero. Source: eBible.org, reviewed 2026-10-30. Free noncommercial distribution; no textual changes; commercial reproduction prohibited. Plain-verse format conversion; source words and punctuation retained. Headings, footnotes, cross references and publication-only material are omitted from display, not asserted to be absent from the source. Complete notices are retained in the source archive. No publisher endorsement."
+}

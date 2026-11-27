@@ -1,0 +1,92 @@
+Biblica® Słowo Życia, otwarty dostęp
+eBible.org
+Translations
+Territories
+Biblica® Słowo Życia, otwarty dostęp
+Polish OPLNT
+Language:
+[pol]
+Polski
+Polish
+Title:
+Biblica® Słowo Życia, otwarty dostęp
+Polish OPLNT
+Abbreviation:
+OPLNT
+ID: POLBIB or polsz
+Copyright © 1991, 2005, 2016 Biblica, Inc.
+Format
+Link
+Browser Bible
+Study online with Browser Bible
+Mobile HTML
+Read Mobile HTML online
+Zipped mobile HTML
+polsz_html.zip
+ePub 3
+and
+Kindle
+polsz.epub
+PDF
+PDF file list
+Crosswire Sword module
+polsz2016eb.zip
+Plain text canon only chapter files
+polsz_readaloud.zip
+BibleWorks import (VPL) + SQL
+polsz_vpl.zip
+Browser Bible module
+polsz_browserBible.zip
+USFX
+polsz_usfx.zip
+USFM
+polsz_usfm.zip
+XeTeX
+polsz_xetex.zip
+Biblica® Open Polish Living New Testament 2016 Polish: Biblica® Słowo Życia, otwarty dostęp
+W pierwszej kolejności zabiegajcie o Jego królestwo i prawość, a wtedy Bóg zatroszczy się o pozostałe rzeczy.
+—Matthew 6:33
+Tak bowiem Bóg ukochał świat, że oddał swojego jedynego Syna, aby każdy, kto Mu uwierzy, nie zginął, ale miał życie wieczne.
+—John 3:16
+Wiemy, że Bóg kieruje wszystkim tak, aby działało to na korzyść tych, którzy Go kochają i którzy zgodnie z Jego wolą zostali powołani.
+—Romans 8:28
+Biblica® Słowo Życia, otwarty dostęp
+Biblica® Open Polish Living New Testament 2016 Polish: Biblica® Słowo Życia, otwarty dostęp
+copyright © 1991, 2005, 2016
+Biblica, Inc.
+Language:
+Polski (Polish)
+Contributor: Biblica, Inc.
+Dzieło udostępniane na licencji Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA). Aby wyświetlić treść tej licencji, odwiedź stronę http://creativecommons.org/licenses/by-sa/4.0 lub napisz na adres: Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
+Biblica® jest znakiem towarowym zarejestrowanym przez Biblica, Inc. i używanie go wymaga pisemnej zgody Biblica, Inc. Zgodnie z warunkami licencji CC BY-SA możesz kopiować i rozpowszechniać to dzieło w niezmienionej formie pod warunkiem zachowania oryginalnego znaku towarowego Biblica®. Jeśli zmodyfikujesz dzieło lub przetłumaczysz je, tworząc w ten sposób utwór zależny, musisz usunąć znak towarowy Biblica®. W przypadku utworu zależnego należy wskazać, jakie zmiany zostały wprowadzone i opisać pracę w następujący sposób: „Oryginalne dzieło należące do Biblica, Inc. jest dostępne bezpłatnie na stronie www.biblica.com oraz open.bible”.
+Następująca informacja o prawach autorskich musi zostać umieszczona na stronie tytułowej lub redakcyjnej:
+Biblica® Słowo Życia, otwarty dostęp™
+Copyright © 1991, 2005, 2016 by Biblica, Inc.
+Biblica® Open Polish Living New Testament™
+Copyright © 1991, 2005, 2016 by Biblica, Inc.
+„Biblica” jest znakiem towarowym zarejestrowanym w Amerykańskim Urzędzie ds. Patentów i Znaków Towarowych przez Biblica, Inc. Wykorzystano za zgodą.
+“Biblica” is a trademark registered in the United States Patent and Trademark Office by Biblica, Inc. Used with permission.
+Twoje dzieło pochodne również musi zostać udostępnione na tej samej licencji (CC BY-SA).
+Jeśli chcesz powiadomić Biblica, Inc. o swoim tłumaczeniu tego dzieła, skontaktuj się z nami przez formularz kontaktowy dostępny pod adresem: https://open.bible/contact-us.
+This work is made available under the Creative Commons Attribution-ShareAlike 4‪.0 International License (CC BY-SA). To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4‪.0 or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
+Biblica® is a trademark registered by Biblica, Inc., and use of the Biblica® trademark requires the written permission of Biblica, Inc. Under the terms of the CC BY-SA license, you may copy and redistribute this unmodified work as long as you keep the Biblica® trademark intact. If you modify a copy or translate this work, thereby creating a derivative work, you must remove the Biblica® trademark. On the derivative work, you must indicate what changes you have made and attribute the work as follows: “The original work by Biblica, Inc. is available for free at www.biblica.com and open.bible.”
+Notice of copyright must appear on the title or copyright page of the work as follows:
+Biblica® Słowo Życia, otwarty dostęp™
+Copyright © 1991, 2005, 2016 by Biblica, Inc.
+Biblica® Open Polish Living New Testament™
+Copyright © 1991, 2005, 2016 by Biblica, Inc.
+„Biblica” jest znakiem towarowym zarejestrowanym w Amerykańskim Urzędzie ds. Patentów i Znaków Towarowych przez Biblica, Inc. Wykorzystano za zgodą.
+“Biblica” is a trademark registered in the United States Patent and Trademark Office by Biblica, Inc. Used with permission.
+You must also make your derivative work available under the same license (CC BY-SA).
+If you would like to notify Biblica, Inc. regarding your translation of this work, please contact us at https://open.bible/contact-us.
+This translation is made available to you under the terms of the
+Creative Commons Attribution Share-Alike license 4.0.
+You have permission to share and redistribute this Bible translation in any format and to make reasonable revisions and adaptations of this translation, provided that:
+You include the above copyright and source information.
+If you make any changes to the text, you must indicate that you did so in a way that makes it clear that the original licensor is not necessarily endorsing your changes.
+If you redistribute this text, you must distribute your contributions under the same license as the original.
+Pictures included with Scriptures and other documents on this site are licensed just for use with those Scriptures and documents.
+For other uses, please contact the respective copyright owners.
+Note that in addition to the rules above, revising and adapting God's Word involves a great responsibility to be true to God's Word. See Revelation 22:18-19.
+2025-05-20
+Last updated 2025-05-20   c

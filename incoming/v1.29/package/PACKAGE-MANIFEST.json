@@ -1,0 +1,74 @@
+{
+  "package": "theway-europe-english-reference-editions-1.29",
+  "created": "2026-11-03",
+  "theway_repository": "Wayback-Project/thewaytranslations",
+  "theway_base_revision": "827dd32a00036886fada82f5b43bd7041f9c8906",
+  "theway_base_committer_date": "2026-10-27T17:35:29Z",
+  "reader_repository": "Kimble-365/-parallel-bible-reader",
+  "reader_baseline_revision": "89afb00cfa94b7630bf8e48419d95d73bd5f5181",
+  "reference_tree_files": 402,
+  "reference_tree_bytes": 398296927,
+  "control_files": [
+    {
+      "path": "README.md",
+      "sha256": "280873db21c3ade6420a99547ee14537d139005eb69ce193c041b8fc71ac5815",
+      "bytes": 2145
+    },
+    {
+      "path": "change-logs/reports/2026-11-03-europe-english-reference-import.json",
+      "sha256": "b2e6f604fae7f4d377bd248574a34f90b4485c5596e06864a320e4104e3e78cb",
+      "bytes": 5117
+    },
+    {
+      "path": "change-logs/reports/2026-11-03-europe-english-reference-import.md",
+      "sha256": "2ae98d9b5ea87726e10b18d7ad40a490b642da010d4857c4f711a8974ec7fbdd",
+      "bytes": 3696
+    },
+    {
+      "path": "editor-notes/research/EUROPEAN-REFERENCE-EDITIONS.txt",
+      "sha256": "fa07f86ad371471c71cc59b5a4dae6c3627918171682845fd6f5cdd5f25a4d55",
+      "bytes": 2950
+    },
+    {
+      "path": "review/2026-11-03-europe-english-rights-review.md",
+      "sha256": "256d74c2eaa0defa05fabebaf42c358533e81c789a145ace670ae513c8aeeeab",
+      "bytes": 3245
+    },
+    {
+      "path": "tools/local/audit_2026_11_03_europe_english_reader.py",
+      "sha256": "e750d865c3920fdfb96c8883126390d97978feccc44f46d285d3c9f54a67a4e3",
+      "bytes": 5630
+    },
+    {
+      "path": "tools/local/import_2026_11_03_europe_english_reader.py",
+      "sha256": "256bd670d47ff0d9bdca65d1c1a9502ed8b760dc3bdaf0d2b27e3adb04c872d5",
+      "bytes": 24747
+    },
+    {
+      "path": "original-documents/reference-editions/parallel-reader-1.29/catalog.js",
+      "sha256": "4d50649aa7aeec31dadd7850c04c010a1c82fa4352854dece990fde932b64171",
+      "bytes": 2010021
+    },
+    {
+      "path": "original-documents/reference-editions/parallel-reader-1.29/europe-manifest.js",
+      "sha256": "9a8cc0b9f3b5fd7ffae0e6e72de19afad9b4093d428b0f7baa6873015d95c781",
+      "bytes": 17450
+    },
+    {
+      "path": "original-documents/reference-editions/parallel-reader-1.29/LICENSES.md",
+      "sha256": "c2b13725304f6941acea7afe9f54c6e09e62ddea811f3da1beb5373a30586d05",
+      "bytes": 159236
+    },
+    {
+      "path": "original-documents/reference-editions/parallel-reader-1.29/sources/europe-english-import.json",
+      "sha256": "0c61112b31c2cd4e49b4394bba370017fb95b4f10425c096270eff6e138127ce",
+      "bytes": 141777
+    },
+    {
+      "path": "original-documents/reference-editions/parallel-reader-1.29/sources/europe-english-review.json",
+      "sha256": "e50b153bfd3b878d62ab36d376fe2931f06a32beee5d3d1749f850fd74c463aa",
+      "bytes": 2737
+    }
+  ],
+  "delivery": "9 ZIP parts, each under 50 MB (49,000,000-byte cap); extract all parts into the same folder to reassemble the package tree. The parts replace the earlier 3-part set."
+}

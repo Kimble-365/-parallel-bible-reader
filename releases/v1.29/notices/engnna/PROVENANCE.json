@@ -1,0 +1,16 @@
+{
+  "id": "engnna",
+  "title": "Nyangumarta English Bible",
+  "vernacular_title": "Nyangumarta English Bible",
+  "source": "https://ebible.org/Scriptures/details.php?id=engnna",
+  "source_archive": "https://eBible.org/Scriptures/engnna_usfm.zip",
+  "source_sha256": "7c0ee1147beb735b66b41d3a4f9e99c2d3b57bc2448b871915ed307fd40fcee9",
+  "source_updated": "2026-01-06",
+  "retrieved": "2026-11-03",
+  "license": "CC BY NC ND 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0",
+  "books": 26,
+  "verse_rows": 1378,
+  "conversion": "Plain-verse format conversion; headings, notes, cross references and front/back matter omitted from display. Raw USFM and complete source page retained.",
+  "attribution": "Nyangumarta English Bible. Copyright © 1980-2010 Wycliffe Bible Translators, Inc. copyright © 1980-2010 copyright © 1980-2010 Wycliffe Bible Translators, Inc. Source: eBible.org, reviewed 2026-01-06. CC BY NC ND 4.0. Plain-verse format conversion; source words and punctuation retained. Headings, footnotes, cross references and publication-only material are omitted from display, not asserted to be absent from the source. Complete notices are retained in the source archive. No publisher endorsement."
+}

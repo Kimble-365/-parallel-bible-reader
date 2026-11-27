@@ -1,0 +1,16 @@
+{
+  "id": "engbarkly",
+  "title": "Barkly Bible Portions",
+  "vernacular_title": "Barkly Bible Portions",
+  "source": "https://ebible.org/Scriptures/details.php?id=engbarkly",
+  "source_archive": "https://eBible.org/Scriptures/engbarkly_usfm.zip",
+  "source_sha256": "5324ca24bd5c7a3e81bd43e4125883175900f7c6e9112e93c741e2bb97da8a5e",
+  "source_updated": "2026-04-14",
+  "retrieved": "2026-11-03",
+  "license": "CC BY NC ND 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0",
+  "books": 4,
+  "verse_rows": 2145,
+  "conversion": "Plain-verse format conversion; headings, notes, cross references and front/back matter omitted from display. Raw USFM and complete source page retained.",
+  "attribution": "Barkly Bible Portions. Copyright © 2024 Bible Society of Australia copyright © 2024 copyright and source information. Source: eBible.org, reviewed 2026-04-14. CC BY NC ND 4.0. Plain-verse format conversion; source words and punctuation retained. Headings, footnotes, cross references and publication-only material are omitted from display, not asserted to be absent from the source. Complete notices are retained in the source archive. No publisher endorsement."
+}

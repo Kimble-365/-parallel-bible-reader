@@ -1,0 +1,109 @@
+Biblica® Avoin Elävä uutinen: Uusi testamentti vapaasti kerrottuna
+eBible.org
+Translations
+Territories
+Biblica® Avoin Elävä uutinen: Uusi testamentti vapaasti kerrottuna
+Finnish: Biblica® Avoin Elävä uutinen: Uusi testamentti vapaasti kerrottuna (New Testament)
+Language:
+[fin]
+Suomi
+Finnish
+Title:
+Biblica® Avoin Elävä uutinen: Uusi testamentti vapaasti kerrottuna
+Finnish: Biblica® Avoin Elävä uutinen: Uusi testamentti vapaasti kerrottuna (New Testament)
+Abbreviation:
+AEUUT
+ID: FINBIB or fin
+Copyright © 1976 Biblica, Inc.
+Format
+Link
+Browser Bible
+Study online with Browser Bible
+Mobile HTML
+Read Mobile HTML online
+Zipped mobile HTML
+fin_html.zip
+ePub 3
+and
+Kindle
+fin.epub
+PDF
+PDF file list
+Crosswire Sword module
+fin1976eb.zip
+Plain text canon only chapter files
+fin_readaloud.zip
+BibleWorks import (VPL) + SQL
+fin_vpl.zip
+Browser Bible module
+fin_browserBible.zip
+USFX
+fin_usfx.zip
+USFM
+fin_usfm.zip
+XeTeX
+fin_xetex.zip
+The New Testament in Finnish: Biblica® Avoin Elävä uutinen: Uusi testamentti vapaasti kerrottuna
+Biblica® Avoin Elävä uutinen: Uusi testamentti vapaasti kerrottuna
+The New Testament in Finnish: Biblica® Avoin Elävä uutinen: Uusi testamentti vapaasti kerrottuna
+copyright © 1976
+Biblica, Inc.
+Language:
+Suomi (Finnish)
+Contributor: Biblica, Inc.
+Biblica® Avoin Elävä uutinen: Uusi testamentti vapaasti kerrottuna™
+© 1976 by Biblica, Inc.
+Biblica® Open Finnish Living News New Testament™
+Copyright © 1976 by Biblica, Inc.
+“Biblica” on Biblica, Inc:n Yhdysvaltojen Patentti- ja rekisterivirastossa rekisteröimä tavaramerkki. Tavaramerkin käyttö on luvanvaraista.
+“Biblica” is a trademark registered in the United States Patent and Trademark Office by Biblica, Inc. Used with permission.
+Creative Commons License
+Tämä teos on saavutettavissa Creative Commons Nimeä-JaaSamoin Kansainvälinen-lisenssin (CC BY-SA) mukaisesti. Tarkastele lisenssiä osoitteessa
+http://creativecommons.org/licenses/by-sa/4.0
+tai lähetä postia osoitteeseen Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
+Biblica® on Biblica, Inc:n rekisteröimä tavaramerkki, jonka käyttö edellyttää Biblica, Inc:n kirjallista lupaa. CC BY-SA -lisenssin ehtojen mukaisesti tämän teoksen saa kopioida ja jakaa muokkaamattomana sikäli kuin Biblica®-tavaramerkin loukkaamattomuus säilyy. Jos tästä teoksesta luodaan muokattu versio, kopio tai käännös eli johdannaisteos, Biblica®-tavaramerkki on poistettava näkyvistä. Johdannaisteoksessa on ilmoitettava tehdyt muutokset, ja alkuperäisteokseen on viitattava seuraavasti: “Biblica, Inc:n julkaisema alkuperäisteos on avoimesti saavutettavissa osoitteissa
+www.biblica.com
+ja
+open.bible
+.”
+Copyright-ilmoituksen on oltava näkyvissä nimiö- tai copyright-lehdellä seuraavasti:
+Biblica® Avoin Elävä uutinen: Uusi testamentti vapaasti kerrottuna™
+© 1976 by Biblica, Inc.
+Biblica® Open Finnish Living News New Testament™
+Copyright © 1976 by Biblica, Inc.
+“Biblica” on Biblica, Inc:n Yhdysvaltojen Patentti- ja rekisterivirastossa rekisteröimä tavaramerkki. Tavaramerkin käyttö on luvanvaraista.
+“Biblica” is a trademark registered in the United States Patent and Trademark Office by Biblica, Inc. Used with permission.
+Johdannaisteoksen on oltava saavutettavissa samalla lisenssillä (CC BY-SA).
+Teoksesta laaditusta käännöksestä voidaan niin haluttaessa ilmoittaa Biblica, Inc:lle osoitteessa
+https://open.bible/contact-us
+.
+This work is made available under the Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA). To view a copy of this license, visit
+http://creativecommons.org/licenses/by-sa/4.0
+or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
+Biblica® is a trademark registered by Biblica, Inc., and use of the Biblica® trademark requires the written permission of Biblica, Inc. Under the terms of the CC BY-SA license, you may copy and redistribute this unmodified work as long as you keep the Biblica® trademark intact. If you modify a copy or translate this work, thereby creating a derivative work, you must remove the Biblica® trademark. On the derivative work, you must indicate what changes you have made and attribute the work as follows: “The original work by Biblica, Inc. is available for free at
+www.biblica.com
+and
+open.bible
+.”
+Notice of copyright must appear on the title or copyright page of the work as follows:
+Biblica® Avoin Elävä uutinen: Uusi testamentti vapaasti kerrottuna™
+© 1976 by Biblica, Inc.
+Biblica® Open Finnish Living News New Testament™
+Copyright © 1976 by Biblica, Inc.
+“Biblica” on Biblica, Inc:n Yhdysvaltojen Patentti- ja rekisterivirastossa rekisteröimä tavaramerkki. Tavaramerkin käyttö on luvanvaraista.
+“Biblica” is a trademark registered in the United States Patent and Trademark Office by Biblica, Inc. Used with permission.
+You must also make your derivative work available under the same license (CC BY-SA).
+If you would like to notify Biblica, Inc. regarding your translation of this work, please contact us at
+https://open.bible/contact-us
+.
+This translation is made available to you under the terms of the
+Creative Commons Attribution Share-Alike license 4.0.
+You have permission to share and redistribute this Bible translation in any format and to make reasonable revisions and adaptations of this translation, provided that:
+You include the above copyright and source information.
+If you make any changes to the text, you must indicate that you did so in a way that makes it clear that the original licensor is not necessarily endorsing your changes.
+If you redistribute this text, you must distribute your contributions under the same license as the original.
+Pictures included with Scriptures and other documents on this site are licensed just for use with those Scriptures and documents.
+For other uses, please contact the respective copyright owners.
+Note that in addition to the rules above, revising and adapting God's Word involves a great responsibility to be true to God's Word. See Revelation 22:18-19.
+2025-05-02
+Last updated 2025-05-02   e

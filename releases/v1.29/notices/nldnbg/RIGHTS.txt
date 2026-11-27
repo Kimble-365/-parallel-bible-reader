@@ -1,0 +1,65 @@
+NBG-vertaling 1951
+eBible.org
+Translations
+Territories
+NBG-vertaling 1951
+Dutch NBG 1951 Bible
+Language:
+[nld]
+Nederlandse taal
+Dutch
+Title:
+NBG-vertaling 1951
+Dutch NBG 1951 Bible
+Abbreviation:
+ID: NLDNBG or nldnbg
+Copyright © 2024 Jantinus Daling
+Format
+Link
+Browser Bible
+Study online with Browser Bible
+Mobile HTML
+Read Mobile HTML online
+Zipped mobile HTML
+nldnbg_html.zip
+ePub 3
+and
+Kindle
+nldnbg.epub
+PDF
+PDF file list
+Crosswire Sword module
+nldnbg1951eb.zip
+Plain text canon only chapter files
+nldnbg_readaloud.zip
+BibleWorks import (VPL) + SQL
+nldnbg_vpl.zip
+Browser Bible module
+nldnbg_browserBible.zip
+USFX
+nldnbg_usfx.zip
+USFM
+nldnbg_usfm.zip
+XeTeX
+nldnbg_xetex.zip
+The Holy Bible in Dutch, NBG 1951 translation.
+In den beginne schiep God de hemel en de aarde.
+—Genesis 1:1
+Een psalm van David.De Here is mijn herder, mij ontbreekt niets;
+—Psalm 23:1
+Maar zoekt eerst Zijn Koninkrijk en Zijn gerechtigheid en dit alles zal u bovendien geschonken worden.
+—Matthew 6:33
+Want alzo lief heeft God de wereld gehad, dat Hij zijn eniggeboren Zoon gegeven heeft, opdat een ieder, die in Hem gelooft, niet verloren ga, maar eeuwig leven hebbe.
+—John 3:16
+Wij weten nu, dat God alle dingen doet medewerken ten goede voor hen, die God liefhebben, die volgens zijn voornemen geroepenen zijn.
+—Romans 8:28
+NBG-vertaling 1951
+The Holy Bible in Dutch, NBG 1951 translation.
+copyright © 2024
+Jantinus Daling
+Language:
+Nederlandse taal (Dutch)
+Released under the GNU Free Documentation License
+https://www.gnu.org/licenses/fdl-1.3.en.html
+2024-08-13
+Last updated 2024-08-13   tiny3

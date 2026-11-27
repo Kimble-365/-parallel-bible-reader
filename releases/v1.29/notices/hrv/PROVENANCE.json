@@ -1,0 +1,16 @@
+{
+  "id": "hrv",
+  "title": "Croatian Bible",
+  "vernacular_title": "Sveta Biblija",
+  "source": "https://ebible.org/Scriptures/details.php?id=hrv",
+  "source_archive": "https://eBible.org/Scriptures/hrv_usfm.zip",
+  "source_sha256": "f914678bac6287c9935c1a44f26b93957ab75ddc782d943dd9b11101a21b0f9d",
+  "source_updated": "2019-12-16",
+  "retrieved": "2026-11-03",
+  "license": "Public Domain",
+  "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "books": 73,
+  "verse_rows": 35448,
+  "conversion": "Plain-verse format conversion; headings, notes, cross references and front/back matter omitted from display. Raw USFM and complete source page retained.",
+  "attribution": "Sveta Biblija.  Source: eBible.org, reviewed 2019-12-16. Public Domain. Plain-verse format conversion; source words and punctuation retained. Headings, footnotes, cross references and publication-only material are omitted from display, not asserted to be absent from the source. Complete notices are retained in the source archive. No publisher endorsement."
+}

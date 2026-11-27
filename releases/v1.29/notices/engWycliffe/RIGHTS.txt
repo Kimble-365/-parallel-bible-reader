@@ -1,0 +1,63 @@
+Wycliffe Bible
+eBible.org
+Translations
+Territories
+Wycliffe Bible
+Wycliffe Bible portions
+Language:
+[eng]
+Middle English
+English
+Dialect:
+Middle
+Title:
+Wycliffe Bible
+Wycliffe Bible portions
+Abbreviation:
+Wycliffe
+ID: ENGW88 or engWycliffe
+public domain
+Format
+Link
+Browser Bible
+Study online with Browser Bible
+Mobile HTML
+Read Mobile HTML online
+Zipped mobile HTML
+engWycliffe_html.zip
+ePub 3
+and
+Kindle
+engWycliffe.epub
+PDF
+PDF file list
+Crosswire Sword module
+engWycliffe1395eb.zip
+Plain text canon only chapter files
+engWycliffe_readaloud.zip
+BibleWorks import (VPL) + SQL
+engWycliffe_vpl.zip
+Browser Bible module
+engWycliffe_browserBible.zip
+USFX
+engWycliffe_usfx.zip
+USFM
+engWycliffe_usfm.zip
+XeTeX
+engWycliffe_xetex.zip
+This is the Pentateuch and Gospels from The Holy Bible, containing the Old and New Testaments, with the apocryphal books, in the earliest English version made from the latin Vulgate by John Wycliffe and his followers. c.1395
+In the bigynnyng God made of nouyt heuene and erthe.
+—Genesis 1:1
+Therfor seke ye first the kyngdom of God, and his riytfulnesse, and alle these thingis shulen be cast to you.
+—Matthew 6:33
+For God louede so the world, that he yaf his `oon bigetun sone, that ech man that bileueth in him perische not, but haue euerlastynge lijf.
+—John 3:16
+Wycliffe Bible
+This is the Pentateuch and Gospels from The Holy Bible, containing the Old and New Testaments, with the apocryphal books, in the earliest English version made from the latin Vulgate by John Wycliffe and his followers. c.1395
+Public Domain
+Language:
+Middle English (English)
+Dialect: Middle
+Translation by: John Wycliffe
+2016-11-08
+Last updated 2016-11-08   tiny3

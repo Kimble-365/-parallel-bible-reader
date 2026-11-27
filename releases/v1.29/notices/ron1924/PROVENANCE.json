@@ -1,0 +1,16 @@
+{
+  "id": "ron1924",
+  "title": "Romanian Bible (Cyrillic)",
+  "vernacular_title": "Библия Думитру Корнилеску 1924 (БДК)",
+  "source": "https://ebible.org/Scriptures/details.php?id=ron1924",
+  "source_archive": "https://eBible.org/Scriptures/ron1924_usfm.zip",
+  "source_sha256": "1cef73a53628c56aa78a2b47d1c4db6e74dbc6f1aab3a657e7e1771e168ff80c",
+  "source_updated": "2022-01-13",
+  "retrieved": "2026-11-03",
+  "license": "Public Domain",
+  "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "books": 66,
+  "verse_rows": 31045,
+  "conversion": "Plain-verse format conversion; headings, notes, cross references and front/back matter omitted from display. Raw USFM and complete source page retained.",
+  "attribution": "Библия Думитру Корнилеску 1924 (БДК). copyrighted) due to copyright expiration. You may copy and distribute it freely. Această traducere biblică este permanent în domeniul public (fără drepturi de autor) din cauza expirării drepturilor de autor. Puteți să o copiați și să o distribuiți în mod liber. Source: eBible.org, reviewed 2022-01-13. Public Domain. Plain-verse format conversion; source words and punctuation retained. Headings, footnotes, cross references and publication-only material are omitted from display, not asserted to be absent from the source. Complete notices are retained in the source archive. No publisher endorsement."
+}

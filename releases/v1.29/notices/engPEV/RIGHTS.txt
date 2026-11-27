@@ -1,0 +1,79 @@
+Plain English Version
+eBible.org
+Translations
+Territories
+Plain English Version
+Language:
+[eng]
+Aboriginal English
+English
+Dialect:
+Australian Aboriginal
+Title:
+Plain English Version
+Plain English Version
+Abbreviation:
+PEV
+ID: ENGPEV or engPEV
+Copyright © 2026 Wycliffe Bible Translators Australia
+Format
+Link
+Browser Bible
+Study online with Browser Bible
+MP3 Audio
+Stream or download MP3 audio
+Mobile HTML
+Read Mobile HTML online
+Zipped mobile HTML
+engPEV_html.zip
+ePub 3
+and
+Kindle
+engPEV.epub
+PDF
+PDF file list
+Crosswire Sword module
+engPEV2019eb.zip
+Plain text canon only chapter files
+engPEV_readaloud.zip
+BibleWorks import (VPL) + SQL
+engPEV_vpl.zip
+Browser Bible module
+engPEV_browserBible.zip
+USFX
+engPEV_usfx.zip
+USFM
+engPEV_usfm.zip
+XeTeX
+engPEV_xetex.zip
+Portions of the Holy Bible in the Plain English Version translation for Australian Aboriginal people who speak English as a second language
+First of all, a long time ago, God made everything. He made the sky, and he made the earth. He made all the things that are everywhere.
+—Genesis 1:1
+This is one of David’s songs for God. God looks after me properly, he gives me everything that I need. You know about people that properly look after sheep all the time, called shepherds. Well, God looks after me like that. He is a good shepherd for me.
+—Psalm 23:1
+Think, instead, about the things that are good for God’s family, and try to do the good things that God wants you to do. Then God will give you all those other things that you need.
+—Matthew 6:33
+You see, God loved all of the people in the world. He loved everyone so much that he sent them his only son, his special son. God sent him to die instead of them, so that if anyone trusts him, God will not finish them up, but they will live with him for ever.
+—John 3:16
+And we know too that God picked us out to be his people, to love him and to do whatever he wants, so he makes everything work out good for us.
+—Romans 8:28
+Plain English Version
+Portions of the Holy Bible in the Plain English Version translation for Australian Aboriginal people who speak English as a second language
+Copyright © 2026 Wycliffe Bible Translators Australia
+Language:
+Aboriginal English (English)
+Dialect: Australian Aboriginal
+Plain English Version © 2026 by Wycliffe Bible Translators Australia, licensed under Creative Commons Attribution-Share Alike 4.0 International (CC BY SA 4.0)
+This licence allows you to copy and redistribute the material in any medium or format, even commercially. You may adapt, remix, transform, and build upon the material for any purpose, but if you do so, you must distribute your contributions under the same license as the original. You must always give appropriate credit, provide a link to the license, and indicate if changes were made. You may not suggest that Wycliffe Bible Translators endorses you or your use.
+For full details of the licence, visit: creativecommons.org/licenses/by-sa/4.0/legalcode
+This translation is made available to you under the terms of the
+Creative Commons Attribution Share-Alike license 4.0.
+You have permission to share and redistribute this Bible translation in any format and to make reasonable revisions and adaptations of this translation, provided that:
+You include the above copyright and source information.
+If you make any changes to the text, you must indicate that you did so in a way that makes it clear that the original licensor is not necessarily endorsing your changes.
+If you redistribute this text, you must distribute your contributions under the same license as the original.
+Pictures included with Scriptures and other documents on this site are licensed just for use with those Scriptures and documents.
+For other uses, please contact the respective copyright owners.
+Note that in addition to the rules above, revising and adapting God's Word involves a great responsibility to be true to God's Word. See Revelation 22:18-19.
+2026-10-30
+Last updated 2026-10-30   e

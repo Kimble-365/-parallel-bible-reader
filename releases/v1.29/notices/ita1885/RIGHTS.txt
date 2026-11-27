@@ -1,0 +1,65 @@
+Diodati Bibbia 1885
+eBible.org
+Translations
+Territories
+Diodati Bibbia 1885
+Italian Diodati Bible
+Language:
+[ita]
+Italiano
+Italian
+Title:
+Diodati Bibbia 1885
+Italian Diodati Bible
+Abbreviation:
+DB1885
+ID: ITADIO or ita1885
+public domain
+Format
+Link
+Browser Bible
+Study online with Browser Bible
+Mobile HTML
+Read Mobile HTML online
+Zipped mobile HTML
+ita1885_html.zip
+ePub 3
+and
+Kindle
+ita1885.epub
+PDF
+PDF file list
+Crosswire Sword module
+ita1885eb.zip
+Plain text canon only chapter files
+ita1885_readaloud.zip
+BibleWorks import (VPL) + SQL
+ita1885_vpl.zip
+Browser Bible module
+ita1885_browserBible.zip
+USFX
+ita1885_usfx.zip
+USFM
+ita1885_usfm.zip
+XeTeX
+ita1885_xetex.zip
+The Holy Bible in Italian, translated by Giovanni Diodati in 1641 and revised in 1821
+NEL principio Iddio creò il cielo e la terra.
+—Genesis 1:1
+Salmo di Davide IL Signore è il mio pastore: nulla mi mancherà.
+—Psalm 23:1
+Anzi, cercate in prima il regno di Dio, e la sua giustizia; e tutte queste cose vi saranno sopraggiunte.
+—Matthew 6:33
+Perciocchè Iddio ha tanto amato il mondo, ch'egli ha dato il suo unigenito Figliuolo, acciocchè chiunque crede in lui non perisca, ma abbia vita eterna.
+—John 3:16
+Or noi sappiamo che tutte le cose cooperano al bene, a coloro che amano Iddio; i quali son chiamati secondo il suo proponimento.
+—Romans 8:28
+Diodati Bibbia 1885
+The Holy Bible in Italian, translated by Giovanni Diodati in 1641 and revised in 1821
+Public Domain
+Language:
+Italiano (Italian)
+Contributor: United Bible Societies
+Diodati Bibbia 1885
+2025-05-03
+Last updated 2025-05-03   tiny3

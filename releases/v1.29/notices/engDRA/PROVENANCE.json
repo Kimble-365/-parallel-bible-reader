@@ -1,0 +1,16 @@
+{
+  "id": "engDRA",
+  "title": "Douay-Rheims 1899",
+  "vernacular_title": "Douay-Rheims 1899",
+  "source": "https://ebible.org/Scriptures/details.php?id=engDRA",
+  "source_archive": "https://eBible.org/Scriptures/engDRA_usfm.zip",
+  "source_sha256": "fcb5de45f1f6083d56b738690e5b4b3bb6f0d87522d1d18329c57a4b09e05210",
+  "source_updated": "2022-11-03",
+  "retrieved": "2026-11-03",
+  "license": "Public Domain",
+  "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "books": 73,
+  "verse_rows": 35811,
+  "conversion": "Plain-verse format conversion; headings, notes, cross references and front/back matter omitted from display. Raw USFM and complete source page retained.",
+  "attribution": "Douay-Rheims 1899.  Source: eBible.org, reviewed 2022-11-03. Public Domain. Plain-verse format conversion; source words and punctuation retained. Headings, footnotes, cross references and publication-only material are omitted from display, not asserted to be absent from the source. Complete notices are retained in the source archive. No publisher endorsement."
+}

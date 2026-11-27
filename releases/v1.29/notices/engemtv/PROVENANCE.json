@@ -1,0 +1,16 @@
+{
+  "id": "engemtv",
+  "title": "English Majority Text Version",
+  "vernacular_title": "English Majority Text Version",
+  "source": "https://ebible.org/Scriptures/details.php?id=engemtv",
+  "source_archive": "https://eBible.org/Scriptures/engemtv_usfm.zip",
+  "source_sha256": "6780f45154968eb3b51ead874dc6bad5f2e6a57b31c32041ff7c2ca32919b343",
+  "source_updated": "2020-12-20",
+  "retrieved": "2026-11-03",
+  "license": "CC BY NC ND 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0",
+  "books": 27,
+  "verse_rows": 7954,
+  "conversion": "Plain-verse format conversion; headings, notes, cross references and front/back matter omitted from display. Raw USFM and complete source page retained.",
+  "attribution": "English Majority Text Version. Copyright © 2014 Dr. Paul W. Esposito copyright and source information. Source: eBible.org, reviewed 2020-12-20. CC BY NC ND 4.0. Plain-verse format conversion; source words and punctuation retained. Headings, footnotes, cross references and publication-only material are omitted from display, not asserted to be absent from the source. Complete notices are retained in the source archive. No publisher endorsement."
+}

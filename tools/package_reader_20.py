@@ -5,7 +5,7 @@ import argparse,hashlib,json,re,shutil
 
 ROOT=Path(__file__).resolve().parents[1]
 PREFIXES=[
- 'data/', 'releases/v2.0/',
+ 'data/', 'releases/v2.0/', 'releases/v1.29/europe-data/', 'releases/v1.29/notices/',
  'releases/v1.8/extra-data/','releases/v1.8/pronunciation/',
  'releases/v1.10/extra-data/','releases/v1.11/extra-data/',
  'releases/v1.13/extra-data/','releases/v1.14/extra-data/','releases/v1.15/extra-data/',
@@ -15,7 +15,7 @@ PREFIXES=[
  'releases/v1.24/interlinear-index/',
  'releases/v1.25/syriac-data/','releases/v1.25/syriac-index/','releases/v1.25/syriac-lexicon/'
 ]
-VERSIONS=['1.8','1.10','1.11','1.13','1.14','1.15','1.18','1.19','1.22','1.23','1.24','1.25','2.0']
+VERSIONS=['1.8','1.10','1.11','1.13','1.14','1.15','1.18','1.19','1.22','1.23','1.24','1.25','1.29','2.0']
 def digest(p):
  h=hashlib.sha256()
  with p.open('rb') as f:
@@ -78,7 +78,7 @@ Run only trusted launchers; this one uses Python's standard loopback HTTP server
 
 Retain this exact extracted folder structure. Do not move index.html or individual
 release folders: shared text datasets deliberately retain their original paths.
-All application shell assets, all 84 catalog editions and all their
+All application shell assets, all 200 catalog editions (84 retained plus 116 incoming 1.29 editions) and all their
 local text delivery families are retained. Font choices, verse actions, Notes,
 highlights, PNG export, Compare and the 14 editorial faith/prayer resources remain.
 The application and source dataset versions are separate; dataset IDs are unchanged.
@@ -103,7 +103,7 @@ the unavailable 1.29 package and private user data are excluded.
 Bible.is/audio/video, publisher links, raw source-archive links, and source-hosted
 study/apparatus resources may require Internet. Some historical source links are
 not mirrored in this reader-only ZIP. Save supported study sources while online
-before expecting them offline. The 84-edition count is not a claim of 84 complete
+before expecting them offline. The 200-edition count is not a claim of 200 complete
 66-book Bibles; original coverage/canons/source numbering remain per edition.
 
 PACKAGE-MANIFEST.json records SHA-256/size for every other file, distinguishing
@@ -117,11 +117,11 @@ def build(root,out,commit):
  files=inventory(root)
  raw=(root/'releases/v2.0/catalog.js').read_text();catalog=json.loads(raw.split('=',1)[1].strip().removesuffix(';'))
  editions=catalog['editions']
- if len(editions)!=84:raise ValueError('Expected the preserved 84-edition baseline')
+ if len(editions)!=200:raise ValueError('Expected 84 retained plus 116 incoming editions')
  generated={'index.html':LAUNCHER.encode(),'START-READER.py':STARTER.encode(),'README-2.0.txt':README.encode(),'releases/index.html':b'<!doctype html><html lang="en"><meta charset="utf-8"><title>Packaged reader</title><h1>Parallel Bible Reader 2.0</h1><p><a href="v2.0/">Open packaged reader</a></p><p>Other historical app shells are not included. Keep the shared data folders.</p></html>','.nojekyll':b''}
  items=[{'path':n,'bytes':p.stat().st_size,'sha256':digest(p),'kind':'verbatim-repository'} for n,p in files.items()]
  items +=[{'path':n,'bytes':len(b),'sha256':hashlib.sha256(b).hexdigest(),'kind':'generated-package'} for n,b in generated.items()]
- manifest={'application_version':'2.0','source_commit':commit,'package_kind':'reader-only-review','edition_count':len(editions),'editions':[{'id':e['id'],'books':len(e['book_codes']),'license':e.get('license'),'license_url':e.get('license_url'),'required_attribution':e.get('required_attribution'),'source':e.get('source_url') or e.get('source')} for e in editions],'files':sorted(items,key=lambda x:x['path']),'manifest_self_excluded':True,'local_file_full_reader_supported':False,'requires_server_for_full_reader':True}
+ manifest={'application_version':'2.0','source_commit':commit,'package_kind':'reader-only-review','edition_count':len(editions),'editions':[{'id':e['id'],'books':len(e['book_codes']),'license':e.get('license'),'license_url':e.get('license_url'),'required_attribution':e.get('required_attribution') or e.get('attribution'),'source':e.get('source_url') or e.get('source')} for e in editions],'files':sorted(items,key=lambda x:x['path']),'manifest_self_excluded':True,'local_file_full_reader_supported':False,'requires_server_for_full_reader':True}
  generated['PACKAGE-MANIFEST.json']=(json.dumps(manifest,ensure_ascii=False,sort_keys=True,indent=2)+'\n').encode()
  archive=out/'parallel-bible-reader-2.0.zip'
  with ZipFile(archive,'w',compression=ZIP_DEFLATED,compresslevel=6) as z:

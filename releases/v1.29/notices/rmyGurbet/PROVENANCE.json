@@ -1,0 +1,16 @@
+{
+  "id": "rmyGurbet",
+  "title": "Gurbet NT",
+  "vernacular_title": "E Devleso Lafi ko Gurbetsko dijalekt Srbija",
+  "source": "https://ebible.org/Scriptures/details.php?id=rmyGurbet",
+  "source_archive": "https://eBible.org/Scriptures/rmyGurbet_usfm.zip",
+  "source_sha256": "dd7182e189c2236742b926fadd75642e519bf309d22f5140507ad696f4080032",
+  "source_updated": "2025-06-28",
+  "retrieved": "2026-11-03",
+  "license": "CC BY SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "books": 27,
+  "verse_rows": 7959,
+  "conversion": "Plain-verse format conversion; headings, notes, cross references and front/back matter omitted from display. Raw USFM and complete source page retained.",
+  "attribution": "E Devleso Lafi ko Gurbetsko dijalekt Srbija. Copyright © 2018 The Word for the World International copyright © 2018 copyright and source information. Source: eBible.org, reviewed 2025-06-28. CC BY SA 4.0. Plain-verse format conversion; source words and punctuation retained. Headings, footnotes, cross references and publication-only material are omitted from display, not asserted to be absent from the source. Complete notices are retained in the source archive. No publisher endorsement."
+}

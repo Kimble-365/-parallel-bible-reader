@@ -1,0 +1,76 @@
+Wycliffe's Bible with Modern Spelling
+eBible.org
+Translations
+Territories
+Wycliffe's Bible with Modern Spelling
+English: Wycliffe's Bible Modern Spelling (with Deuterocanon)
+Language:
+[eng]
+English
+English
+Dialect:
+Archaic
+Title:
+Wycliffe's Bible with Modern Spelling
+English: Wycliffe's Bible Modern Spelling (with Deuterocanon)
+Abbreviation:
+WYCms
+ID: ENGWYC2017 or engwyc2017
+Copyright © 2001,2010,2011,2012,2013,2015 Terry Noble
+Format
+Link
+Browser Bible
+Study online with Browser Bible
+Mobile HTML
+Read Mobile HTML online
+Zipped mobile HTML
+engwyc2017_html.zip
+ePub 3
+and
+Kindle
+engwyc2017.epub
+PDF
+PDF file list
+Crosswire Sword module
+engwyc2017eb.zip
+Plain text canon only chapter files
+engwyc2017_readaloud.zip
+BibleWorks import (VPL) + SQL
+engwyc2017_vpl.zip
+Browser Bible module
+engwyc2017_browserBible.zip
+USFX
+engwyc2017_usfx.zip
+USFM
+engwyc2017_usfm.zip
+XeTeX
+engwyc2017_xetex.zip
+English: Wycliffe's Bible Modern Spelling (with Deuterocanon)
+In the beginning God made of nought heaven and earth.
+—Genesis 1:1
+The psalm of David. The Lord governeth me, and nothing shall fail to me;
+—Psalm 23:1
+Therefore seek ye first the kingdom of God, and his rightwiseness, and all these things shall be cast to you.
+—Matthew 6:33
+For God loved so the world or Forsooth God so loved the world, that he gave his one begotten Son, that each man that believeth in him perish not, but have everlasting life.
+—John 3:16
+And we know, that to men that love God, all things work together into good, to them that after purpose be called saints.
+—Romans 8:28
+Wycliffe's Bible with Modern Spelling
+English: Wycliffe's Bible Modern Spelling (with Deuterocanon)
+Copyright © 2001,2010,2011,2012,2013,2015 Terry Noble
+Language:
+English
+Dialect: Archaic
+Translation by: Terry Noble
+Wycliffe’s Bible with Modern Spelling, was made in response to requests from readers who wanted my Wycliffe’s Old and New Testaments and Apocrypha in one volume. Printing limitations dictated the number of pages available to me and the letter size. In my previous books, Wycliffe’s Bible, Wycliffe’s Old Testament, Vols. 1 amp 2, Wycliffe’s New Testament, and Wycliffe’s Apocrypha, I have tens of thousands of rewritten verses, presented in parentheses “( )”, to provide help in comprehending the 14th century Middle English vocabulary and grammar. In this present volume, with space at a premium, those “helps” had to be eliminated, to make room for the text of the Apocrypha.
+This translation is made available to you under the terms of the
+Creative Commons Attribution-Noncommercial-No Derivatives license 4.0.
+You may share and redistribute this Bible translation or extracts from it in any format, provided that:
+You include the above copyright and source information.
+You do not sell this work for a profit.
+You do not change any of the words or punctuation of the Scriptures.
+Pictures included with Scriptures and other documents on this site are licensed just for use with those Scriptures and documents.
+For other uses, please contact the respective copyright owners.
+2019-09-26
+Last updated 2019-09-26   e

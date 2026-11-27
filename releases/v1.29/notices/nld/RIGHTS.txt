@@ -1,0 +1,62 @@
+De Heilige Schrift 1917
+eBible.org
+Translations
+Territories
+De Heilige Schrift 1917
+Dutch Bible 1917
+Language:
+[nld]
+Nederlands
+Dutch
+Title:
+De Heilige Schrift 1917
+Dutch Bible 1917
+Abbreviation:
+ID: NLD or nld
+public domain
+Format
+Link
+Browser Bible
+Study online with Browser Bible
+Mobile HTML
+Read Mobile HTML online
+Zipped mobile HTML
+nld_html.zip
+ePub 3
+and
+Kindle
+nld.epub
+PDF
+PDF file list
+Crosswire Sword module
+nld1917eb.zip
+Plain text canon only chapter files
+nld_readaloud.zip
+BibleWorks import (VPL) + SQL
+nld_vpl.zip
+Browser Bible module
+nld_browserBible.zip
+USFX
+nld_usfx.zip
+USFM
+nld_usfm.zip
+XeTeX
+nld_xetex.zip
+The Holy Bible in Dutch, 1917
+In den beginne schiep God den hemel en de aarde.
+—Genesis 1:1
+Een psalm van David. De HEERE is mijn Herder, mij zal niets ontbreken.
+—Psalm 23:1
+Maar zoekt eerst het Koninkrijk Gods en Zijn gerechtigheid, en al deze dingen zullen u toegeworpen worden.
+—Matthew 6:33
+Want alzo lief heeft God de wereld gehad, dat Hij Zijn eniggeboren Zoon gegeven heeft, opdat een iegelijk die in Hem gelooft, niet verderve, maar het eeuwige leven hebbe.
+—John 3:16
+En wij weten, dat dengenen, die God liefhebben, alle dingen medewerken ten goede, namelijk dengenen, die naar Zijn voornemen geroepen zijn.
+—Romans 8:28
+De Heilige Schrift 1917
+The Holy Bible in Dutch, 1917
+Public Domain
+Language:
+Nederlands (Dutch)
+2023-01-23
+Last updated 2023-01-23   tiny3

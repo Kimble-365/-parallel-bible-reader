@@ -1,0 +1,16 @@
+{
+  "id": "srp1865",
+  "title": "Serbian DK Bible (Latin)",
+  "vernacular_title": "Sveto Pismo ili Biblija",
+  "source": "https://ebible.org/Scriptures/details.php?id=srp1865",
+  "source_archive": "https://eBible.org/Scriptures/srp1865_usfm.zip",
+  "source_sha256": "c34794f252f9c32185fd78be1fe44c153a1d2dfb93219598fa70ec14e2a96444",
+  "source_updated": "2026-01-03",
+  "retrieved": "2026-11-03",
+  "license": "Public Domain",
+  "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "books": 66,
+  "verse_rows": 31111,
+  "conversion": "Plain-verse format conversion; headings, notes, cross references and front/back matter omitted from display. Raw USFM and complete source page retained.",
+  "attribution": "Sveto Pismo ili Biblija.  Source: eBible.org, reviewed 2026-01-03. Public Domain. Plain-verse format conversion; source words and punctuation retained. Headings, footnotes, cross references and publication-only material are omitted from display, not asserted to be absent from the source. Complete notices are retained in the source archive. No publisher endorsement."
+}

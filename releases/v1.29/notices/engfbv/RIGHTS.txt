@@ -1,0 +1,77 @@
+Free Bible Version
+eBible.org
+Translations
+Territories
+Free Bible Version
+Language:
+[eng]
+English
+English
+Dialect:
+American
+Title:
+Free Bible Version
+Free Bible Version
+Abbreviation:
+FBV
+ID: ENGFBV or engfbv
+Copyright © 2018 Dr. Jonathan Gallagher
+Format
+Link
+Browser Bible
+Study online with Browser Bible
+MP3 Audio
+Stream or download MP3 audio
+Mobile HTML
+Read Mobile HTML online
+Zipped mobile HTML
+engfbv_html.zip
+ePub 3
+and
+Kindle
+engfbv.epub
+PDF
+PDF file list
+Crosswire Sword module
+engfbv2018eb.zip
+Plain text canon only chapter files
+engfbv_readaloud.zip
+BibleWorks import (VPL) + SQL
+engfbv_vpl.zip
+Browser Bible module
+engfbv_browserBible.zip
+USFX
+engfbv_usfx.zip
+USFM
+engfbv_usfm.zip
+XeTeX
+engfbv_xetex.zip
+The New Testament and Psalms in the Free Bible Version translation in American English
+In the beginning God created the heavens and the earth.
+—Genesis 1:1
+A psalm of David. Since the Lord is my shepherd, I have everything I need.
+—Psalm 23:1
+Seek his kingdom first, and his way of living right, and everything will be given to you.
+—Matthew 6:33
+For God loved the world, and this is how: he gave his one and only Son, so that everyone who trusts in him shouldn't die, but have eternal life.
+—John 3:16
+We know that in all things God works for the good of those who love him, those whom he has called to be part of his plan.
+—Romans 8:28
+Free Bible Version
+The New Testament and Psalms in the Free Bible Version translation in American English
+Copyright © 2018 Dr. Jonathan Gallagher
+Language:
+English
+Dialect: American
+Translation by: Dr. Jonathan Gallagher
+This translation is made available to you under the terms of the
+Creative Commons Attribution Share-Alike license 4.0.
+You have permission to share and redistribute this Bible translation in any format and to make reasonable revisions and adaptations of this translation, provided that:
+You include the above copyright and source information.
+If you make any changes to the text, you must indicate that you did so in a way that makes it clear that the original licensor is not necessarily endorsing your changes.
+If you redistribute this text, you must distribute your contributions under the same license as the original.
+Pictures included with Scriptures and other documents on this site are licensed just for use with those Scriptures and documents.
+For other uses, please contact the respective copyright owners.
+Note that in addition to the rules above, revising and adapting God's Word involves a great responsibility to be true to God's Word. See Revelation 22:18-19.
+2026-10-30
+Last updated 2026-10-30   www

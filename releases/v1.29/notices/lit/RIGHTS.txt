@@ -1,0 +1,92 @@
+Tikinčiųjų paveldo vertimas
+eBible.org
+Translations
+Territories
+Tikinčiųjų paveldo vertimas
+Lithuanian Believers' Heritage Translation
+Language:
+[lit]
+lietuvių
+Lithuanian
+Title:
+Tikinčiųjų paveldo vertimas
+Lithuanian Believers' Heritage Translation
+Abbreviation:
+TPV
+ID: LITTPV or lit
+Copyright © 2022-2024 Believers' Bible Society, Inc.
+Format
+Link
+Browser Bible
+Study online with Browser Bible
+Mobile HTML
+Read Mobile HTML online
+Zipped mobile HTML
+lit_html.zip
+ePub 3
+and
+Kindle
+lit.epub
+PDF
+PDF file list
+Crosswire Sword module
+littpv2022eb.zip
+Plain text canon only chapter files
+lit_readaloud.zip
+BibleWorks import (VPL) + SQL
+lit_vpl.zip
+Browser Bible module
+lit_browserBible.zip
+USFX
+lit_usfx.zip
+USFM
+lit_usfm.zip
+XeTeX
+lit_xetex.zip
+The Holy Bible in Lithuanian, Believers' Heritage Translation
+Pradžioje Dievas sukūrė dangus ir žemę.
+—Genesis 1:1
+Dovydo psalmė. VIEŠPATS yra mano ganytojas, aš nestokosiu.
+—Psalm 23:1
+Bet pirma ieškokite Dievo karalystės ir jo teisumo, ir visa tai bus jums pridėta.
+—Matthew 6:33
+Nes Dievas taip mylėjo pasaulį, jog davė savo viengimį Sūnų, kad kiekvienas, kuris juo tiki, nepražūtų, bet turėtų amžiną gyvenimą.
+—John 3:16
+Be to, mes žinome, kad mylintiems Dievą visi dalykai bendrai veikia į gera – tiems, kurie yra pašaukti pagal jo tikslą,
+—Romans 8:28
+Tikinčiųjų paveldo vertimas
+The Holy Bible in Lithuanian, Believers' Heritage Translation
+Copyright © 2022-2024 Believers' Bible Society, Inc.
+Language:
+lietuvių (Lithuanian)
+Licencija
+© 2022–2024 Believers Bible Society, Inc. Šis objektas [kūrinys] licencijuojamas pagal Creative Commons Priskyrimas - Analogiškas platinimas 4.0 Tarptautinė licencijos sąlygas. Norėdami peržiūrėti šią licenciją, spauskite šią nuorodą arba siųskite laišką adresu Creative Commons, PO Box 1866, Mountain View, CA 94042, JAV.
+Licencijos santrauka žmonėms suprantama kalba
+Čia yra žmonėms suprantama licenzijos (sutarties) santrauka (bet ne pakaitalas).
+Jūs galite:
+Dalintis
+— kopijuoti ir platinti medžiagą bet kokiomis priemonėmis ir formatais.
+Adaptuoti
+— remiksuoti, perdirbti ar kurti šios medžiagos pagrindu bet kokiais tikslais, net ir komerciniais.
+Šiomis sąlygomis:
+Priskyrimas
+[vertėjo(-ų), autoriaus(-ių) pripažinimas] — Privalote nurodyti autorystę, įdėti nuorodą į licenciją bei nurodyti, ar atlikote pakeitimų. Galite tai daryti bet kokiu protingumo kriterijus atitinkančiu būdu, tačiau ne tokiu būdu, kuris sudarytų įspūdį, kad licenciaras pritaria Jūsų veiksmams ar tam, kaip panaudotoje objektą.
+Analogiškas platinimas
+— Jei remiksuojate, perdirbate ar kuriate šios medžiagos pagrindu, tokios veiklos rezultatus privalote platinti panaudodami tą pačią licenciją, kuri naudota originalui.
+Jokių papildomų apribojimų
+— Negalite taikyti teisinių priemonių nei technologinių priemonių, kurios teisiškai apribotų kitų galimybes daryti tai, ką licencija leidžia.
+Licenciaras negali atšaukti šių laisvių, jei Jūs laikysitės licencijos sąlygų.
+Papildomos žinios iš „eBible.org“
+Vaizdinės priemonės pateiktos kartu su Šventuoju Raštu ir kitais šioje interneto svetainėje skelbiamais dokumentais yra licencijuojamos vien tik naudojimui su čia skelbiamais Šventuoju Raštu ir dokumentais. Norint naudoti kitiems tikslams, susisiekite su atitinkamais autorystės teisių savininkais.
+Atkreipiame Jūsų dėmesį į tai, kad be anksčiau pateiktų taisyklių, kas užsiima Dievo Žodžio [vertimų] pakeitimais ir pritaikymais turi didžiulę atsakomybę būti ištikimam Dievo Žodžiui. Žr. Apreiškimo kn. 22:18-19.
+This translation is made available to you under the terms of the
+Creative Commons Attribution Share-Alike license 4.0.
+You have permission to share and redistribute this Bible translation in any format and to make reasonable revisions and adaptations of this translation, provided that:
+You include the above copyright and source information.
+If you make any changes to the text, you must indicate that you did so in a way that makes it clear that the original licensor is not necessarily endorsing your changes.
+If you redistribute this text, you must distribute your contributions under the same license as the original.
+Pictures included with Scriptures and other documents on this site are licensed just for use with those Scriptures and documents.
+For other uses, please contact the respective copyright owners.
+Note that in addition to the rules above, revising and adapting God's Word involves a great responsibility to be true to God's Word. See Revelation 22:18-19.
+2026-04-04
+Last updated 2026-04-04   e

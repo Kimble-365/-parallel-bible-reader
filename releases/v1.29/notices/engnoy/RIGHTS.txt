@@ -1,0 +1,65 @@
+George Noyes Bible
+eBible.org
+Translations
+Territories
+George Noyes Bible
+Noyes Bible
+Language:
+[eng]
+English
+English
+Dialect:
+archaic British
+Title:
+George Noyes Bible
+Noyes Bible
+Abbreviation:
+NOY
+ID: ENGNOY or engnoy
+public domain
+Format
+Link
+Browser Bible
+Study online with Browser Bible
+Mobile HTML
+Read Mobile HTML online
+Zipped mobile HTML
+engnoy_html.zip
+ePub 3
+and
+Kindle
+engnoy.epub
+PDF
+PDF file list
+Crosswire Sword module
+engnoy1869eb.zip
+Plain text canon only chapter files
+engnoy_readaloud.zip
+BibleWorks import (VPL) + SQL
+engnoy_vpl.zip
+Browser Bible module
+engnoy_browserBible.zip
+USFX
+engnoy_usfx.zip
+USFM
+engnoy_usfm.zip
+XeTeX
+engnoy_xetex.zip
+The Holy Bible, translated into English by George Noyes (1869)
+“A psalm of David.” The LORD is my shepherd: I shall not want.
+—Psalm 23:1
+But seek first his kingdom, and his righteousness; and all these things will also be given you.
+—Matthew 6:33
+For God so loved the world, that he gave the only begotten Son, that every one who believeth in him may not perish, but may have everlasting life.
+—John 3:16
+We know moreover that all things work together for good to those who love God, to those who are called according to his purpose.
+—Romans 8:28
+George Noyes Bible
+The Holy Bible, translated into English by George Noyes (1869)
+Public Domain
+Language:
+English
+Dialect: archaic British
+Translation by: George Noyes
+2019-10-24
+Last updated 2019-10-24   c

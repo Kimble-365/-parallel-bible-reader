@@ -1,0 +1,16 @@
+{
+  "id": "kca",
+  "title": "Khanty Bible",
+  "vernacular_title": "Хӑнты Перевод Библии",
+  "source": "https://ebible.org/Scriptures/details.php?id=kca",
+  "source_archive": "https://eBible.org/Scriptures/kca_usfm.zip",
+  "source_sha256": "a8728a9e7bb0fd3eb35fabb143fbc9a9a248c3a14be6c46c42ff5b492f87f46a",
+  "source_updated": "2023-04-12",
+  "retrieved": "2026-11-03",
+  "license": "CC BY NC ND 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0",
+  "books": 4,
+  "verse_rows": 3736,
+  "conversion": "Plain-verse format conversion; headings, notes, cross references and front/back matter omitted from display. Raw USFM and complete source page retained.",
+  "attribution": "Хӑнты Перевод Библии. Copyright © 2021 Institute for Bible Translation, Finland copyright © 2021 copyright and source information. Source: eBible.org, reviewed 2023-04-12. CC BY NC ND 4.0. Plain-verse format conversion; source words and punctuation retained. Headings, footnotes, cross references and publication-only material are omitted from display, not asserted to be absent from the source. Complete notices are retained in the source archive. No publisher endorsement."
+}

@@ -1,0 +1,68 @@
+Text-Critical English New Testament
+eBible.org
+Translations
+Territories
+Text-Critical English New Testament
+Text-Critical English NT
+Language:
+[eng]
+English
+English
+Title:
+Text-Critical English New Testament
+Text-Critical English NT
+Abbreviation:
+TCENT
+ID: ENGTCE or engtcent
+Copyright © 2022 Robert Adam Boyd
+Format
+Link
+Browser Bible
+Study online with Browser Bible
+Mobile HTML
+Read Mobile HTML online
+Zipped mobile HTML
+engtcent_html.zip
+ePub 3
+and
+Kindle
+engtcent.epub
+PDF
+PDF file list
+Crosswire Sword module
+engtcent2022eb.zip
+Plain text canon only chapter files
+engtcent_readaloud.zip
+BibleWorks import (VPL) + SQL
+engtcent_vpl.zip
+Browser Bible module
+engtcent_browserBible.zip
+USFX
+engtcent_usfx.zip
+USFM
+engtcent_usfm.zip
+XeTeX
+engtcent_xetex.zip
+The New Testament based on the Byzantine Text with extensive text-critical footnotes
+But seek first the kingdom of God and his righteousness, and all these things will be added to you.
+—Matthew 6:33
+“For God loved the world in this way: He gave his one and only Son, so that whoever believes in him should not perish but have eternal life.
+—John 3:16
+And we know that all things work together for the good of those who love God and are called according to his purpose.
+—Romans 8:28
+Text-Critical English New Testament
+The New Testament based on the Byzantine Text with extensive text-critical footnotes
+Copyright © 2022 Robert Adam Boyd
+Language:
+English
+"The Text-Critical English New Testament" and "Byzantine Text Version" are trademarks of Robert Adam Boyd. If you adapt, remix, transform, or in any other way change the translation or footnotes, you may not call it "The Text-Critical English New Testament" or "Byzantine Text Version".
+This translation is made available to you under the terms of the
+Creative Commons Attribution license 4.0.
+You may share and redistribute this Bible translation or extracts from it in any format, provided that:
+You include the above copyright and source information.
+If you make any changes to the text, you must indicate that you did so in a way that makes it clear that the original licensor is not necessarily endorsing your changes.
+Pictures included with Scriptures and other documents on this site are licensed just for use with those Scriptures and documents.
+For other uses, please contact the respective copyright owners.
+Note that in addition to the rules above, revising and adapting God's Word involves a great responsibility to be true to God's Word. See Revelation 22:18-19.
+2026-10-30
+Last updated 2026-10-30   tiny3

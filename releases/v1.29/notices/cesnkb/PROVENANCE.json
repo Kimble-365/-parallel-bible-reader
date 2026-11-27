@@ -1,0 +1,16 @@
+{
+  "id": "cesnkb",
+  "title": "Czech NBK NT",
+  "vernacular_title": "Nova Bible Kralicka",
+  "source": "https://ebible.org/Scriptures/details.php?id=cesnkb",
+  "source_archive": "https://eBible.org/Scriptures/cesnkb_usfm.zip",
+  "source_sha256": "2d5fdb0441113c891a1dbeab97cde37c8e4861e8d124fa440bc3e0c293faa3ae",
+  "source_updated": "2014-09-10",
+  "retrieved": "2026-11-03",
+  "license": "CC BY ND 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-nd/4.0",
+  "books": 27,
+  "verse_rows": 7955,
+  "conversion": "Plain-verse format conversion; headings, notes, cross references and front/back matter omitted from display. Raw USFM and complete source page retained.",
+  "attribution": "Nova Bible Kralicka. Copyright © 1998 Sdruzeni pro Novou Bibli kralickou Copyright Sdruzeni pro Novou Bibli kralickou. Source: eBible.org, reviewed 2014-09-10. CC BY ND 4.0. Plain-verse format conversion; source words and punctuation retained. Headings, footnotes, cross references and publication-only material are omitted from display, not asserted to be absent from the source. Complete notices are retained in the source archive. No publisher endorsement."
+}

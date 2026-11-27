@@ -1,0 +1,56 @@
+Brenton Septuagint Translation
+eBible.org
+Translations
+Territories
+Brenton Septuagint Translation
+Brenton English Septuagint
+Language:
+[eng]
+English
+English
+Dialect:
+archaic British
+Title:
+Brenton Septuagint Translation
+Brenton English Septuagint
+Abbreviation:
+Brenton
+ID: ENGBRE or eng-Brenton
+public domain
+Format
+Link
+Browser Bible
+Study online with Browser Bible
+Mobile HTML
+Read Mobile HTML online
+Zipped mobile HTML
+eng-Brenton_html.zip
+ePub 3
+and
+Kindle
+eng-Brenton.epub
+PDF
+PDF file list
+Plain text canon only chapter files
+eng-Brenton_readaloud.zip
+BibleWorks import (VPL) + SQL
+eng-Brenton_vpl.zip
+Browser Bible module
+eng-Brenton_browserBible.zip
+USFX
+eng-Brenton_usfx.zip
+USFM
+eng-Brenton_usfm.zip
+XeTeX
+eng-Brenton_xetex.zip
+Translation of the Greek Septuagint into English by Sir Lancelot Charles Lee Brenton
+In the beginning God made the heaven and the earth.
+—Genesis 1:1
+A Psalm for David on the first day of the week. The earth is the Lord's and the fulness thereof; the world, and all that dwell in it.
+—Psalm 23:1
+Translation of the Greek Septuagint into English by Sir Lancelot Charles Lee Brenton
+Published in 1851, and now in the Public Domain.
+If you find errors in the text,
+please report them
+so that we can correct them.
+Last updated 2026-10-07   www

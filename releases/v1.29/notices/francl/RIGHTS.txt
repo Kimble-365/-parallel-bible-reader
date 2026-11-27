@@ -1,0 +1,75 @@
+Sainte Bible néo-Crampon Libre
+eBible.org
+Translations
+Territories
+Sainte Bible néo-Crampon Libre
+French néo-Crampon Libre
+Language:
+[fra]
+français
+French
+Title:
+Sainte Bible néo-Crampon Libre
+French néo-Crampon Libre
+Abbreviation:
+ID: FRANCL or francl
+Copyright © 2022 Fraternité de Tibériade
+Format
+Link
+Browser Bible
+Study online with Browser Bible
+Mobile HTML
+Read Mobile HTML online
+Zipped mobile HTML
+francl_html.zip
+ePub 3
+and
+Kindle
+francl.epub
+PDF
+PDF file list
+Crosswire Sword module
+francl2022eb.zip
+Plain text canon only chapter files
+francl_readaloud.zip
+BibleWorks import (VPL) + SQL
+francl_vpl.zip
+Browser Bible module
+francl_browserBible.zip
+USFX
+francl_usfx.zip
+USFM
+francl_usfm.zip
+XeTeX
+francl_xetex.zip
+The Holy Bible in French, néo-Crampon Libre translation
+Sainte Bible néo-Crampon Libre, une modernisation de la traduction catholique française de Crampon
+Au Commencement Dieu créa le ciel et la terre.
+—Genesis 1:1
+Psaume de David. Yahweh est mon pasteur ; je ne manquerai de rien.
+—Psalm 23:1
+Cherchez premièrement le royaume de Dieu et sa justice, et tout cela vous sera donné par-dessus.
+—Matthew 6:33
+En effet, Dieu a tellement aimé le monde, qu’il a donné son Fils unique, afin que quiconque croit en lui ne périsse pas mais ait la vie éternelle.
+—John 3:16
+Nous savons d’ailleurs que toutes choses concourent au bien de ceux qui aiment Dieu, de ceux qui sont appelés selon son éternel dessein.
+—Romans 8:28
+Sainte Bible néo-Crampon Libre
+The Holy Bible in French, néo-Crampon Libre translation
+Sainte Bible néo-Crampon Libre, une modernisation de la traduction catholique française de Crampon
+copyright © 2022
+Fraternité de Tibériade
+Language:
+français (French)
+Une modernisation de la traduction catholique française de Crampon
+This translation is made available to you under the terms of the
+Creative Commons Attribution Share-Alike license 4.0.
+You have permission to share and redistribute this Bible translation in any format and to make reasonable revisions and adaptations of this translation, provided that:
+You include the above copyright and source information.
+If you make any changes to the text, you must indicate that you did so in a way that makes it clear that the original licensor is not necessarily endorsing your changes.
+If you redistribute this text, you must distribute your contributions under the same license as the original.
+Pictures included with Scriptures and other documents on this site are licensed just for use with those Scriptures and documents.
+For other uses, please contact the respective copyright owners.
+Note that in addition to the rules above, revising and adapting God's Word involves a great responsibility to be true to God's Word. See Revelation 22:18-19.
+2026-10-30
+Last updated 2026-10-30   e

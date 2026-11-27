@@ -1,0 +1,16 @@
+{
+  "id": "frajnd",
+  "title": "French: Bible J.N. Darby",
+  "vernacular_title": "Bible J.N. Darby",
+  "source": "https://ebible.org/Scriptures/details.php?id=frajnd",
+  "source_archive": "https://eBible.org/Scriptures/frajnd_usfm.zip",
+  "source_sha256": "06a9106169b41cb4434194ed2189aad6bf659f13f1a7ecff934200b1f471a8c5",
+  "source_updated": "2025-05-02",
+  "retrieved": "2026-11-03",
+  "license": "Public Domain",
+  "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "books": 66,
+  "verse_rows": 31167,
+  "conversion": "Plain-verse format conversion; headings, notes, cross references and front/back matter omitted from display. Raw USFM and complete source page retained.",
+  "attribution": "Bible J.N. Darby.  Source: eBible.org, reviewed 2025-05-02. Public Domain. Plain-verse format conversion; source words and punctuation retained. Headings, footnotes, cross references and publication-only material are omitted from display, not asserted to be absent from the source. Complete notices are retained in the source archive. No publisher endorsement."
+}

@@ -1,0 +1,16 @@
+{
+  "id": "eng-web",
+  "title": "World English Bible Classic",
+  "vernacular_title": "World English Bible Classic",
+  "source": "https://ebible.org/Scriptures/details.php?id=eng-web",
+  "source_archive": "https://eBible.org/Scriptures/eng-web_usfm.zip",
+  "source_sha256": "05b0440bd8994dd4da7cc53dd8167a759ed7c09617e4a562c64eb9b3343589c8",
+  "source_updated": "2026-10-30",
+  "retrieved": "2026-11-03",
+  "license": "Public Domain",
+  "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "books": 80,
+  "verse_rows": 37499,
+  "conversion": "Plain-verse format conversion; headings, notes, cross references and front/back matter omitted from display. Raw USFM and complete source page retained.",
+  "attribution": "World English Bible Classic. copyrighted. However, \"World English Bible\" is a Trademark of eBible.org. Source: eBible.org, reviewed 2026-10-30. Public Domain. Plain-verse format conversion; source words and punctuation retained. Headings, footnotes, cross references and publication-only material are omitted from display, not asserted to be absent from the source. Complete notices are retained in the source archive. No publisher endorsement."
+}

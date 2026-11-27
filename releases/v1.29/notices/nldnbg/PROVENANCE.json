@@ -1,0 +1,16 @@
+{
+  "id": "nldnbg",
+  "title": "Dutch NBG 1951 Bible",
+  "vernacular_title": "NBG-vertaling 1951",
+  "source": "https://ebible.org/Scriptures/details.php?id=nldnbg",
+  "source_archive": "https://eBible.org/Scriptures/nldnbg_usfm.zip",
+  "source_sha256": "aa93371d2bf495ebcc10aacb7ab21eb469788ef3a2d601ded359f059d32cd846",
+  "source_updated": "2024-08-13",
+  "retrieved": "2026-11-03",
+  "license": "GNU Free Documentation License 1.3",
+  "license_url": "https://www.gnu.org/licenses/fdl-1.3.en.html",
+  "books": 66,
+  "verse_rows": 31176,
+  "conversion": "Plain-verse format conversion; headings, notes, cross references and front/back matter omitted from display. Raw USFM and complete source page retained.",
+  "attribution": "NBG-vertaling 1951. Copyright © 2024 Jantinus Daling copyright © 2024 Source: eBible.org, reviewed 2024-08-13. GNU Free Documentation License 1.3. Plain-verse format conversion; source words and punctuation retained. Headings, footnotes, cross references and publication-only material are omitted from display, not asserted to be absent from the source. Complete notices are retained in the source archive. No publisher endorsement."
+}

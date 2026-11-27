@@ -1,0 +1,16 @@
+{
+  "id": "engjps",
+  "title": "JPS TaNaKH 1917",
+  "vernacular_title": "JPS TaNaKH 1917",
+  "source": "https://ebible.org/Scriptures/details.php?id=engjps",
+  "source_archive": "https://eBible.org/Scriptures/engjps_usfm.zip",
+  "source_sha256": "b4034f7ed8ade5c256431d286bb03d651d8a3690040c30c5fb011dd1f8ada807",
+  "source_updated": "2023-09-19",
+  "retrieved": "2026-11-03",
+  "license": "Public Domain",
+  "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "books": 39,
+  "verse_rows": 23145,
+  "conversion": "Plain-verse format conversion; headings, notes, cross references and front/back matter omitted from display. Raw USFM and complete source page retained.",
+  "attribution": "JPS TaNaKH 1917.  Source: eBible.org, reviewed 2023-09-19. Public Domain. Plain-verse format conversion; source words and punctuation retained. Headings, footnotes, cross references and publication-only material are omitted from display, not asserted to be absent from the source. Complete notices are retained in the source archive. No publisher endorsement."
+}

@@ -1,0 +1,16 @@
+{
+  "id": "rmyvlakh",
+  "title": "Eastern Vlakh Romani",
+  "vernacular_title": "Библия пэ влахицко романи шыб",
+  "source": "https://ebible.org/Scriptures/details.php?id=rmyvlakh",
+  "source_archive": "https://eBible.org/Scriptures/rmyvlakh_usfm.zip",
+  "source_sha256": "24e0884979aebb55dc3835cf50af870b5f4a14bc734a757caf6bc3cd1d1843e2",
+  "source_updated": "2025-06-28",
+  "retrieved": "2026-11-03",
+  "license": "CC BY SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "books": 5,
+  "verse_rows": 3812,
+  "conversion": "Plain-verse format conversion; headings, notes, cross references and front/back matter omitted from display. Raw USFM and complete source page retained.",
+  "attribution": "Библия пэ влахицко романи шыб. Copyright © 2021 Pioneer Bible Translators and Bible Transl/ators of Ukraine copyright © 2021 copyright and source information. Source: eBible.org, reviewed 2025-06-28. CC BY SA 4.0. Plain-verse format conversion; source words and punctuation retained. Headings, footnotes, cross references and publication-only material are omitted from display, not asserted to be absent from the source. Complete notices are retained in the source archive. No publisher endorsement."
+}

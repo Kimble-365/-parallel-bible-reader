@@ -1,0 +1,16 @@
+{
+  "id": "dan1931",
+  "title": "Danish Bible 1931",
+  "vernacular_title": "Hellig Bibel",
+  "source": "https://ebible.org/Scriptures/details.php?id=dan1931",
+  "source_archive": "https://eBible.org/Scriptures/dan1931_usfm.zip",
+  "source_sha256": "19ba0b5797946d253f96fe4d0113e19aa92e1094e0524399f86d23d89a37705e",
+  "source_updated": "2021-07-19",
+  "retrieved": "2026-11-03",
+  "license": "Public Domain",
+  "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "books": 66,
+  "verse_rows": 31168,
+  "conversion": "Plain-verse format conversion; headings, notes, cross references and front/back matter omitted from display. Raw USFM and complete source page retained.",
+  "attribution": "Hellig Bibel. Historically marked \"Copyright © 1907, 1931 Det Danske Bibelselskab\"; now Public Domain: the Danish Bible Society claims copyright only to the 1992 and 2020 translations (its official copyright page, checked 2026-11-04) and has confirmed the 1931 Old Testament is public domain; the 1907 New Testament is public domain. Source: eBible.org, reviewed 2021-07-19; the text arrived via a Project Gutenberg etext originally distributed with the then-copyright-owner's permission. Plain-verse format conversion; source words and punctuation retained. Headings, footnotes, cross references and publication-only material are omitted from display, not asserted to be absent from the source. Complete notices are retained in the source archive. No publisher endorsement."
+}

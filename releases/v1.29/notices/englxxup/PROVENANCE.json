@@ -1,0 +1,16 @@
+{
+  "id": "englxxup",
+  "title": "Updated Brenton English Septuagint",
+  "vernacular_title": "Updated Brenton English Septuagint",
+  "source": "https://ebible.org/Scriptures/details.php?id=englxxup",
+  "source_archive": "https://eBible.org/Scriptures/englxxup_usfm.zip",
+  "source_sha256": "5b9e502c7a4a81dc4638659d3c9871fc1baf219ce50bd35eea5eff6d9f723fcf",
+  "source_updated": "2026-02-18",
+  "retrieved": "2026-11-03",
+  "license": "CC0 1.0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "books": 51,
+  "verse_rows": 28215,
+  "conversion": "Plain-verse format conversion; headings, notes, cross references and front/back matter omitted from display. Raw USFM and complete source page retained.",
+  "attribution": "Updated Brenton English Septuagint.  Source: eBible.org, reviewed 2026-02-18. CC0 1.0. Plain-verse format conversion; source words and punctuation retained. Headings, footnotes, cross references and publication-only material are omitted from display, not asserted to be absent from the source. Complete notices are retained in the source archive. No publisher endorsement."
+}

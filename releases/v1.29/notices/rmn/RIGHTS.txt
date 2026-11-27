@@ -1,0 +1,68 @@
+Библия опэр крымски романи чиб
+eBible.org
+Translations
+Territories
+Библия опэр крымски романи чиб
+Balkan Romani Bible portions
+Language:
+[rmn]
+Romani
+Romani, Balkan
+Dialect:
+Crimean
+Title:
+Библия опэр крымски романи чиб
+Balkan Romani Bible portions
+Abbreviation:
+КРБ
+ID: RMNPBT or rmn
+Copyright © 2021 Pioneer Bible Translators and Bible Translators of Ukraine
+Format
+Link
+Browser Bible
+Study online with Browser Bible
+Mobile HTML
+Read Mobile HTML online
+Zipped mobile HTML
+rmn_html.zip
+ePub 3
+and
+Kindle
+rmn.epub
+PDF
+PDF file list
+Crosswire Sword module
+rmn2021eb.zip
+Plain text canon only chapter files
+rmn_readaloud.zip
+BibleWorks import (VPL) + SQL
+rmn_vpl.zip
+Browser Bible module
+rmn_browserBible.zip
+USFX
+rmn_usfx.zip
+USFM
+rmn_usfm.zip
+XeTeX
+rmn_xetex.zip
+Portions of the Holy Bible in the Crimean Romani language of Ukraine: Библия опэр крымски романи чиб
+Ангал о Дэл кердяс о булутя тай э пху.
+—Genesis 1:1
+Библия опэр крымски романи чиб
+Portions of the Holy Bible in the Crimean Romani language of Ukraine: Библия опэр крымски романи чиб
+copyright © 2021
+Pioneer Bible Translators and Bible Translators of Ukraine
+Language:
+Romani (Romani, Balkan)
+Dialect: Crimean
+Contributor: Pioneer Bible Translators
+This translation is made available to you under the terms of the
+Creative Commons Attribution-Noncommercial-No Derivatives license 4.0.
+You may share and redistribute this Bible translation or extracts from it in any format, provided that:
+You include the above copyright and source information.
+You do not sell this work for a profit.
+You do not change any of the words or punctuation of the Scriptures.
+Pictures included with Scriptures and other documents on this site are licensed just for use with those Scriptures and documents.
+For other uses, please contact the respective copyright owners.
+2025-06-27
+Last updated 2025-06-27   e

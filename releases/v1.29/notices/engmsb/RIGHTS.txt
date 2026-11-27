@@ -1,0 +1,66 @@
+Majority Standard Bible
+eBible.org
+Translations
+Territories
+Majority Standard Bible
+Majority Standard BIble
+Language:
+[eng]
+English
+English
+Title:
+Majority Standard Bible
+Majority Standard BIble
+Abbreviation:
+MSB
+ID: ENGMSB or engmsb
+public domain
+Format
+Link
+Browser Bible
+Study online with Browser Bible
+Mobile HTML
+Read Mobile HTML online
+Zipped mobile HTML
+engmsb_html.zip
+ePub 3
+and
+Kindle
+engmsb.epub
+PDF
+PDF file list
+Crosswire Sword module
+engmsb2024eb.zip
+Plain text canon only chapter files
+engmsb_readaloud.zip
+BibleWorks import (VPL) + SQL
+engmsb_vpl.zip
+Browser Bible module
+engmsb_browserBible.zip
+USFX
+engmsb_usfx.zip
+USFM
+engmsb_usfm.zip
+XeTeX
+engmsb_xetex.zip
+The Holy Bible in English, Majority Standard Bible
+In the beginning God created the heavens and the earth.
+—Genesis 1:1
+A Psalm of David. The LORD is my shepherd; I shall not want.
+—Psalm 23:1
+But seek first the kingdom of God and His righteousness, and all these things will be added unto you.
+—Matthew 6:33
+For God so loved the world that He gave His one and only Son, that everyone who believes in Him shall not perish but have eternal life.
+—John 3:16
+And we know that all things work together for the good of those who love Him, who are called according to His purpose.
+—Romans 8:28
+Majority Standard Bible
+The Holy Bible in English, Majority Standard Bible
+Public Domain
+Language:
+(English)
+Translation by: Berean Bible Translation Committee
+The Holy Bible, Majority Standard Bible, MSB is produced in cooperation with Bible Hub, Discovery Bible, unfoldingWord, Bible Aquifer, OpenBible.com, and the Berean Bible Translation Committee. 
+ This text of God's Word has been dedicated to the public domain. Free resources and databases are available at MajorityBible.com.
+2026-10-30
+Last updated 2026-10-30   c

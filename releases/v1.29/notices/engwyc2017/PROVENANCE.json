@@ -1,0 +1,16 @@
+{
+  "id": "engwyc2017",
+  "title": "English: Wycliffe's Bible Modern Spelling (with Deuterocanon)",
+  "vernacular_title": "Wycliffe's Bible with Modern Spelling",
+  "source": "https://ebible.org/Scriptures/details.php?id=engwyc2017",
+  "source_archive": "https://eBible.org/Scriptures/engwyc2017_usfm.zip",
+  "source_sha256": "107912062138c2f17acc3866667602576ebe450ade78f9ec7a7605439b7ef55b",
+  "source_updated": "2019-09-26",
+  "retrieved": "2026-11-03",
+  "license": "CC BY NC ND 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0",
+  "books": 80,
+  "verse_rows": 36010,
+  "conversion": "Plain-verse format conversion; headings, notes, cross references and front/back matter omitted from display. Raw USFM and complete source page retained.",
+  "attribution": "Wycliffe's Bible with Modern Spelling. Copyright © 2001,2010,2011,2012,2013,2015 Terry Noble copyright and source information. Source: eBible.org, reviewed 2019-09-26. CC BY NC ND 4.0. Plain-verse format conversion; source words and punctuation retained. Headings, footnotes, cross references and publication-only material are omitted from display, not asserted to be absent from the source. Complete notices are retained in the source archive. No publisher endorsement."
+}

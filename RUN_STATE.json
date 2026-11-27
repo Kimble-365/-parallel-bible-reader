@@ -1,7 +1,7 @@
 {
   "version": 1,
   "status": "running",
-  "owner": "reader-native-rights-20261110-manual",
+  "owner": "reader-129-intake-20261127",
   "branch": "project/parallel-reader",
   "next_milestone": "2.0-native-runtime-smoke-and-distribution-audit",
   "last_run": {
@@ -14,7 +14,7 @@
     "guard_commit": "ccf153d3fd53f20041cc49341fb1b4906c6395bc"
   },
   "rule": "Acquire by expected-head fast-forward lease; never overwrite an active owner or treat elapsed time as completion. Only the owner releases.",
-  "milestone": "2.0-native-dependency-rights-audit",
+  "milestone": "1.29-verified-intake-and-2.0-reader-integration",
   "last_intake_setup": {
     "owner": "reader-129-intake-20261106",
     "path": "incoming/v1.29/",
@@ -37,5 +37,9 @@
     "report": "change-logs/reports/native-20-build-audit.json",
     "downloads": "change-logs/reports/reader-20-review.md"
   },
-  "expected_head": "e7db13e794e97281e6eb039b3728fad0e62265fd"
+  "expected_head": "c10ffadcc4c37879e5bd46040657c25b2e1ab84d",
+  "recovered_run": {
+    "owner": "reader-native-rights-20261110-manual",
+    "reason": "User explicitly authorized closing interrupted run and integrating supplied 1.29 package on 2026-11-27; no prior completion inferred."
+  }
 }

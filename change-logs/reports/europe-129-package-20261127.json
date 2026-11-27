@@ -1,0 +1,1044 @@
+{
+  "version": "2.0",
+  "source_commit": "4dc0883a0958b0f2cb513278552493f8b2ad97d7",
+  "archive": "parallel-bible-reader-2.0.zip",
+  "archive_bytes": 286951542,
+  "sha256": "d7c611c3bfaa1ff986f24778e48db07a52260a4a1d89948fbda85bb610bc99d1",
+  "file_count": 2701,
+  "uncompressed_bytes": 735652978,
+  "edition_count": 200,
+  "file_mode_verified": false,
+  "reproducible": true,
+  "manifest_files_verified": 2700,
+  "representative_editions_loaded": [
+    {
+      "id": "hin2017",
+      "book": "GEN",
+      "rows": 1533
+    },
+    {
+      "id": "pan",
+      "book": "GEN",
+      "rows": 1533
+    },
+    {
+      "id": "bgc",
+      "book": "MAT",
+      "rows": 1071
+    },
+    {
+      "id": "urd",
+      "book": "GEN",
+      "rows": 1533
+    },
+    {
+      "id": "dgo",
+      "book": "MAT",
+      "rows": 1071
+    },
+    {
+      "id": "xnr",
+      "book": "MAT",
+      "rows": 1071
+    },
+    {
+      "id": "kfs",
+      "book": "MAT",
+      "rows": 1071
+    },
+    {
+      "id": "mjl",
+      "book": "MAT",
+      "rows": 1071
+    },
+    {
+      "id": "bfz",
+      "book": "MAT",
+      "rows": 1071
+    },
+    {
+      "id": "bhd",
+      "book": "MAT",
+      "rows": 1071
+    },
+    {
+      "id": "fin-kr1938",
+      "book": "GEN",
+      "rows": 1533
+    },
+    {
+      "id": "engwebp",
+      "book": "GEN",
+      "rows": 1533
+    },
+    {
+      "id": "benirv",
+      "book": "GEN",
+      "rows": 1533
+    },
+    {
+      "id": "bfz-mahasui",
+      "book": "MAT",
+      "rows": 1071
+    },
+    {
+      "id": "cdh",
+      "book": "MAT",
+      "rows": 1071
+    },
+    {
+      "id": "gbk",
+      "book": "MAT",
+      "rows": 1071
+    },
+    {
+      "id": "guj2017",
+      "book": "GEN",
+      "rows": 1533
+    },
+    {
+      "id": "kanirv",
+      "book": "GEN",
+      "rows": 1533
+    },
+    {
+      "id": "kfx",
+      "book": "MAT",
+      "rows": 1071
+    },
+    {
+      "id": "kfx-outer",
+      "book": "MAT",
+      "rows": 1071
+    },
+    {
+      "id": "mal",
+      "book": "GEN",
+      "rows": 1533
+    },
+    {
+      "id": "mar",
+      "book": "GEN",
+      "rows": 1532
+    },
+    {
+      "id": "npiulb",
+      "book": "GEN",
+      "rows": 1533
+    },
+    {
+      "id": "ory",
+      "book": "GEN",
+      "rows": 1533
+    },
+    {
+      "id": "tam2017",
+      "book": "GEN",
+      "rows": 1533
+    },
+    {
+      "id": "tel2017",
+      "book": "GEN",
+      "rows": 1533
+    },
+    {
+      "id": "urdoucv",
+      "book": "GEN",
+      "rows": 1533
+    },
+    {
+      "id": "hbo-source",
+      "book": "GEN",
+      "rows": 1533
+    },
+    {
+      "id": "grc-source",
+      "book": "MAT",
+      "rows": 1071
+    },
+    {
+      "id": "fra-lsg1910",
+      "book": "GEN",
+      "rows": 1533
+    },
+    {
+      "id": "spa-rv1909",
+      "book": "GEN",
+      "rows": 1533
+    },
+    {
+      "id": "rus-synodal",
+      "book": "GEN",
+      "rows": 1533
+    },
+    {
+      "id": "cmn-cuv-hant",
+      "book": "GEN",
+      "rows": 1532
+    },
+    {
+      "id": "arb-vandyck",
+      "book": "GEN",
+      "rows": 1533
+    },
+    {
+      "id": "bis-obbr",
+      "book": "GEN",
+      "rows": 1470
+    },
+    {
+      "id": "hbo-wlc",
+      "book": "GEN",
+      "rows": 1533
+    },
+    {
+      "id": "heb-delitzsch-historical",
+      "book": "MAT",
+      "rows": 1070
+    },
+    {
+      "id": "fra-giguet-lxx",
+      "book": "GEN",
+      "rows": 1532
+    },
+    {
+      "id": "ell-vamvas1850",
+      "book": "GEN",
+      "rows": 1533
+    },
+    {
+      "id": "grc-swete",
+      "book": "GEN",
+      "rows": 1523
+    },
+    {
+      "id": "grc-swete-theodotion",
+      "book": "SUS",
+      "rows": 64
+    },
+    {
+      "id": "chu-elizabeth",
+      "book": "GEN",
+      "rows": 1533
+    },
+    {
+      "id": "eng-thomson-partial",
+      "book": "GEN",
+      "rows": 1532
+    },
+    {
+      "id": "fin-biblia1776",
+      "book": "GEN",
+      "rows": 1533
+    },
+    {
+      "id": "hun-karoli1908",
+      "book": "GEN",
+      "rows": 1533
+    },
+    {
+      "id": "ekk-pkp-partial",
+      "book": "MAT",
+      "rows": 1071
+    },
+    {
+      "id": "por-onbv",
+      "book": "GEN",
+      "rows": 1533
+    },
+    {
+      "id": "npi-oncv2024",
+      "book": "GEN",
+      "rows": 1532
+    },
+    {
+      "id": "ces-bkr1613",
+      "book": "GEN",
+      "rows": 1533
+    },
+    {
+      "id": "kor-krv",
+      "book": "GEN",
+      "rows": 1533
+    },
+    {
+      "id": "tgl-angbiblia1905",
+      "book": "GEN",
+      "rows": 1533
+    },
+    {
+      "id": "jpn-bungo",
+      "book": "GEN",
+      "rows": 1533
+    },
+    {
+      "id": "mya-judson",
+      "book": "GEN",
+      "rows": 1533
+    },
+    {
+      "id": "vie-1934",
+      "book": "GEN",
+      "rows": 1533
+    },
+    {
+      "id": "ceb-pinadayag",
+      "book": "GEN",
+      "rows": 1533
+    },
+    {
+      "id": "dan-1819",
+      "book": "MAT",
+      "rows": 1071
+    },
+    {
+      "id": "epo-londona",
+      "book": "GEN",
+      "rows": 1533
+    },
+    {
+      "id": "swe-1917",
+      "book": "GEN",
+      "rows": 1533
+    },
+    {
+      "id": "nob-1930",
+      "book": "GEN",
+      "rows": 1533
+    },
+    {
+      "id": "nno-1921",
+      "book": "GEN",
+      "rows": 1532
+    },
+    {
+      "id": "isl-olo1995",
+      "book": "PSA",
+      "rows": 2143
+    },
+    {
+      "id": "ekk-ocv2022",
+      "book": "MAT",
+      "rows": 1071
+    },
+    {
+      "id": "eng-oet-lv",
+      "book": "GEN",
+      "rows": 1533
+    },
+    {
+      "id": "eng-oet-rv",
+      "book": "GEN",
+      "rows": 1531
+    },
+    {
+      "id": "eng-oeb",
+      "book": "GEN",
+      "rows": 1533
+    },
+    {
+      "id": "eng-pob",
+      "book": "GEN",
+      "rows": 1533
+    },
+    {
+      "id": "grc-tischendorf8",
+      "book": "MAT",
+      "rows": 1067
+    },
+    {
+      "id": "grc-nestle1904",
+      "book": "MAT",
+      "rows": 1068
+    },
+    {
+      "id": "grc-sblgnt",
+      "book": "MAT",
+      "rows": 1068
+    },
+    {
+      "id": "grc-westcott-hort",
+      "book": "MAT",
+      "rows": 1067
+    },
+    {
+      "id": "grc-opengnt-koine",
+      "book": "MAT",
+      "rows": 1068
+    },
+    {
+      "id": "grc-sinaiticus-original-pilot",
+      "book": "JHN",
+      "rows": 5
+    },
+    {
+      "id": "grc-sinaiticus-ca-pilot",
+      "book": "JHN",
+      "rows": 5
+    },
+    {
+      "id": "grc-lxxl-genesis",
+      "book": "GEN",
+      "rows": 1531
+    },
+    {
+      "id": "hbo-lxxl-samaritan-genesis",
+      "book": "GEN",
+      "rows": 1533
+    },
+    {
+      "id": "syc-lxxl-peshitta-genesis",
+      "book": "GEN",
+      "rows": 1533
+    },
+    {
+      "id": "arc-lxxl-onkelos-genesis",
+      "book": "GEN",
+      "rows": 1533
+    },
+    {
+      "id": "hbo-sp",
+      "book": "GEN",
+      "rows": 1533
+    },
+    {
+      "id": "lat-clementine-thb",
+      "book": "GEN",
+      "rows": 1530
+    },
+    {
+      "id": "hbo-mam",
+      "book": "1CH",
+      "rows": 943
+    },
+    {
+      "id": "syc-peshitta-ot",
+      "book": "GEN",
+      "rows": 1533
+    },
+    {
+      "id": "syc-etcbc-biblical",
+      "book": "GEN",
+      "rows": 1533
+    },
+    {
+      "id": "syc-syrohexapla-ps",
+      "book": "PSA",
+      "rows": 464
+    },
+    {
+      "id": "syc-dsc-nt",
+      "book": "MAT",
+      "rows": 1071
+    },
+    {
+      "id": "rup",
+      "book": "MAT",
+      "rows": 1071
+    },
+    {
+      "id": "engbarkly",
+      "book": "GEN",
+      "rows": 1322
+    },
+    {
+      "id": "engnna",
+      "book": "GEN",
+      "rows": 707
+    },
+    {
+      "id": "engPEV",
+      "book": "GEN",
+      "rows": 1427
+    },
+    {
+      "id": "bel",
+      "book": "GEN",
+      "rows": 1533
+    },
+    {
+      "id": "beln",
+      "book": "GEN",
+      "rows": 1533
+    },
+    {
+      "id": "nldgbv",
+      "book": "MAT",
+      "rows": 1068
+    },
+    {
+      "id": "hrv",
+      "book": "GEN",
+      "rows": 1533
+    },
+    {
+      "id": "hrvbib",
+      "book": "MAT",
+      "rows": 1069
+    },
+    {
+      "id": "ronludari",
+      "book": "LUK",
+      "rows": 1141
+    },
+    {
+      "id": "ceslb",
+      "book": "MAT",
+      "rows": 1014
+    },
+    {
+      "id": "cesnkb",
+      "book": "MAT",
+      "rows": 1071
+    },
+    {
+      "id": "dan1931",
+      "book": "GEN",
+      "rows": 1533
+    },
+    {
+      "id": "fin",
+      "book": "MAT",
+      "rows": 1038
+    },
+    {
+      "id": "breBRG",
+      "book": "MAT",
+      "rows": 1071
+    },
+    {
+      "id": "frasbl",
+      "book": "GEN",
+      "rows": 1533
+    },
+    {
+      "id": "francl",
+      "book": "GEN",
+      "rows": 1533
+    },
+    {
+      "id": "fra_fob",
+      "book": "GEN",
+      "rows": 1533
+    },
+    {
+      "id": "frajnd",
+      "book": "GEN",
+      "rows": 1533
+    },
+    {
+      "id": "deuelbbk",
+      "book": "GEN",
+      "rows": 1533
+    },
+    {
+      "id": "deu1912",
+      "book": "GEN",
+      "rows": 1533
+    },
+    {
+      "id": "deu1951",
+      "book": "GEN",
+      "rows": 1533
+    },
+    {
+      "id": "deutkw",
+      "book": "GEN",
+      "rows": 1533
+    },
+    {
+      "id": "deuelo",
+      "book": "GEN",
+      "rows": 1533
+    },
+    {
+      "id": "grcbrent",
+      "book": "GEN",
+      "rows": 1532
+    },
+    {
+      "id": "grcbyz",
+      "book": "MAT",
+      "rows": 1071
+    },
+    {
+      "id": "grcmt",
+      "book": "MAT",
+      "rows": 1071
+    },
+    {
+      "id": "grcf35",
+      "book": "MAT",
+      "rows": 1071
+    },
+    {
+      "id": "grclxx",
+      "book": "GEN",
+      "rows": 1532
+    },
+    {
+      "id": "grcsr",
+      "book": "MAT",
+      "rows": 1071
+    },
+    {
+      "id": "grctcgnt",
+      "book": "MAT",
+      "rows": 1071
+    },
+    {
+      "id": "grctr",
+      "book": "MAT",
+      "rows": 1071
+    },
+    {
+      "id": "isl316",
+      "book": "MRK",
+      "rows": 678
+    },
+    {
+      "id": "ita1885",
+      "book": "GEN",
+      "rows": 1534
+    },
+    {
+      "id": "ita1927",
+      "book": "GEN",
+      "rows": 1533
+    },
+    {
+      "id": "litb",
+      "book": "LUK",
+      "rows": 1090
+    },
+    {
+      "id": "lit",
+      "book": "GEN",
+      "rows": 343
+    },
+    {
+      "id": "nld",
+      "book": "GEN",
+      "rows": 1533
+    },
+    {
+      "id": "nld1939",
+      "book": "GEN",
+      "rows": 1533
+    },
+    {
+      "id": "nldnbg",
+      "book": "GEN",
+      "rows": 1533
+    },
+    {
+      "id": "noblb",
+      "book": "MAT",
+      "rows": 1050
+    },
+    {
+      "id": "polsz",
+      "book": "MAT",
+      "rows": 1070
+    },
+    {
+      "id": "polubg",
+      "book": "GEN",
+      "rows": 1533
+    },
+    {
+      "id": "ronBayash",
+      "book": "LUK",
+      "rows": 1149
+    },
+    {
+      "id": "ron1924",
+      "book": "GEN",
+      "rows": 1533
+    },
+    {
+      "id": "ronbl",
+      "book": "MAT",
+      "rows": 1071
+    },
+    {
+      "id": "kca",
+      "book": "GEN",
+      "rows": 1533
+    },
+    {
+      "id": "rusfb",
+      "book": "GEN",
+      "rows": 1533
+    },
+    {
+      "id": "rmna",
+      "book": "MAT",
+      "rows": 1070
+    },
+    {
+      "id": "rmyArli",
+      "book": "LUK",
+      "rows": 1150
+    },
+    {
+      "id": "rmyChergash",
+      "book": "MAT",
+      "rows": 1071
+    },
+    {
+      "id": "rmyGurbet",
+      "book": "MAT",
+      "rows": 1071
+    },
+    {
+      "id": "srp1868",
+      "book": "GEN",
+      "rows": 1533
+    },
+    {
+      "id": "srp1865",
+      "book": "GEN",
+      "rows": 1533
+    },
+    {
+      "id": "srponspc",
+      "book": "GEN",
+      "rows": 1533
+    },
+    {
+      "id": "srponstl",
+      "book": "GEN",
+      "rows": 1533
+    },
+    {
+      "id": "rmc",
+      "book": "GEN",
+      "rows": 1530
+    },
+    {
+      "id": "slk",
+      "book": "MAT",
+      "rows": 1071
+    },
+    {
+      "id": "sparvg",
+      "book": "GEN",
+      "rows": 1533
+    },
+    {
+      "id": "spablm",
+      "book": "GEN",
+      "rows": 1533
+    },
+    {
+      "id": "spavbl",
+      "book": "GEN",
+      "rows": 1533
+    },
+    {
+      "id": "swe",
+      "book": "GEN",
+      "rows": 1533
+    },
+    {
+      "id": "rmyvlakh",
+      "book": "GEN",
+      "rows": 1533
+    },
+    {
+      "id": "rmylovari",
+      "book": "GEN",
+      "rows": 1533
+    },
+    {
+      "id": "rmn",
+      "book": "GEN",
+      "rows": 1533
+    },
+    {
+      "id": "rmczrb",
+      "book": "LUK",
+      "rows": 1147
+    },
+    {
+      "id": "rmyservi",
+      "book": "GEN",
+      "rows": 1533
+    },
+    {
+      "id": "ukr1871",
+      "book": "GEN",
+      "rows": 1530
+    },
+    {
+      "id": "ukrfb",
+      "book": "GEN",
+      "rows": 1530
+    },
+    {
+      "id": "ukronpu",
+      "book": "PSA",
+      "rows": 2526
+    },
+    {
+      "id": "engaoi",
+      "book": "GEN",
+      "rows": 1438
+    },
+    {
+      "id": "engBBE",
+      "book": "GEN",
+      "rows": 1533
+    },
+    {
+      "id": "eng-Brenton",
+      "book": "GEN",
+      "rows": 1532
+    },
+    {
+      "id": "eng-uk-lxx2012",
+      "book": "GEN",
+      "rows": 1529
+    },
+    {
+      "id": "engDBY",
+      "book": "GEN",
+      "rows": 1533
+    },
+    {
+      "id": "engDRA",
+      "book": "GEN",
+      "rows": 1531
+    },
+    {
+      "id": "engemtv",
+      "book": "MAT",
+      "rows": 1071
+    },
+    {
+      "id": "engwyc2018",
+      "book": "GEN",
+      "rows": 1533
+    },
+    {
+      "id": "engwyc2017",
+      "book": "GEN",
+      "rows": 1533
+    },
+    {
+      "id": "enggnv",
+      "book": "GEN",
+      "rows": 1533
+    },
+    {
+      "id": "eng-kjv2006",
+      "book": "GEN",
+      "rows": 1533
+    },
+    {
+      "id": "eng-kjv",
+      "book": "GEN",
+      "rows": 1533
+    },
+    {
+      "id": "engkjvcpb",
+      "book": "GEN",
+      "rows": 1533
+    },
+    {
+      "id": "englee",
+      "book": "GEN",
+      "rows": 1533
+    },
+    {
+      "id": "engnoy",
+      "book": "JOB",
+      "rows": 1070
+    },
+    {
+      "id": "engoebcw",
+      "book": "GEN",
+      "rows": 1533
+    },
+    {
+      "id": "eng-rv",
+      "book": "GEN",
+      "rows": 1533
+    },
+    {
+      "id": "engoke",
+      "book": "GEN",
+      "rows": 1533
+    },
+    {
+      "id": "engojb",
+      "book": "GEN",
+      "rows": 1533
+    },
+    {
+      "id": "engtnt",
+      "book": "MAT",
+      "rows": 1071
+    },
+    {
+      "id": "engwebpb",
+      "book": "GEN",
+      "rows": 1533
+    },
+    {
+      "id": "eng-webbe",
+      "book": "GEN",
+      "rows": 1533
+    },
+    {
+      "id": "engwmbb",
+      "book": "GEN",
+      "rows": 1533
+    },
+    {
+      "id": "engWycliffe",
+      "book": "GEN",
+      "rows": 1530
+    },
+    {
+      "id": "engylt",
+      "book": "GEN",
+      "rows": 1533
+    },
+    {
+      "id": "eng-asv",
+      "book": "GEN",
+      "rows": 1533
+    },
+    {
+      "id": "engasvbt",
+      "book": "GEN",
+      "rows": 1533
+    },
+    {
+      "id": "enge2t",
+      "book": "JON",
+      "rows": 47
+    },
+    {
+      "id": "englsv",
+      "book": "GEN",
+      "rows": 1533
+    },
+    {
+      "id": "eng-glw",
+      "book": "JHN",
+      "rows": 879
+    },
+    {
+      "id": "eng-lxx2012",
+      "book": "GEN",
+      "rows": 1529
+    },
+    {
+      "id": "engmsb",
+      "book": "GEN",
+      "rows": 1533
+    },
+    {
+      "id": "engourb",
+      "book": "GEN",
+      "rows": 1533
+    },
+    {
+      "id": "engtcent",
+      "book": "MAT",
+      "rows": 1071
+    },
+    {
+      "id": "eng-t4t",
+      "book": "GEN",
+      "rows": 1508
+    },
+    {
+      "id": "engULB",
+      "book": "GEN",
+      "rows": 1533
+    },
+    {
+      "id": "engwebster",
+      "book": "GEN",
+      "rows": 1533
+    },
+    {
+      "id": "eng-web-c",
+      "book": "GEN",
+      "rows": 1533
+    },
+    {
+      "id": "eng-web",
+      "book": "GEN",
+      "rows": 1533
+    },
+    {
+      "id": "engwebu",
+      "book": "GEN",
+      "rows": 1533
+    },
+    {
+      "id": "engwmb",
+      "book": "GEN",
+      "rows": 1533
+    },
+    {
+      "id": "engbsb",
+      "book": "GEN",
+      "rows": 1533
+    },
+    {
+      "id": "engf35",
+      "book": "MAT",
+      "rows": 1071
+    },
+    {
+      "id": "engfbv",
+      "book": "GEN",
+      "rows": 1533
+    },
+    {
+      "id": "engjps",
+      "book": "GEN",
+      "rows": 1533
+    },
+    {
+      "id": "englxxup",
+      "book": "GEN",
+      "rows": 1532
+    }
+  ],
+  "tests": [
+    "exact ZIP extraction",
+    "verbatim source hashes",
+    "complete packaged shell assets",
+    "all 200 edition delivery samples",
+    "mobile font/Notes/highlights/PNG/Pray",
+    "empty slot preservation",
+    "Hebrew/Syriac/Japanese/LXX gzip fallback",
+    "no outside-network requests",
+    "launcher limitation text inspected"
+  ],
+  "not_verified": [
+    "physical Safari/Edge/iPhone",
+    "every verse linguistic accuracy",
+    "source-hosted study resources without Internet"
+  ],
+  "ci_project_checks": {
+    "run_id": 46057655989,
+    "job_id": 140703966424,
+    "conclusion": "success",
+    "logs_inspected": true
+  },
+  "ci_native_review": {
+    "run_id": 46057655977,
+    "status": "in_progress",
+    "three_engine_step": "success",
+    "signed_public_release": false
+  },
+  "local_browser_engine_limit": "Downloaded Chromium passed; Firefox launch timed out with read-only cache/user namespace/fontconfig errors. CI three-engine step passed."
+}

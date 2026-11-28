@@ -1,0 +1,54 @@
+name: Reader 2.0 native dependency source inventory
+on:
+  push:
+    branches: ['project/parallel-reader']
+    paths: ['apps/native-20/src-tauri/Cargo.toml', 'apps/native-20/src-tauri/Cargo.lock', 'tools/local/*rights*20.py', '.github/workflows/native-rights-20.yml']
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  inventory:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: dtolnay/rust-toolchain@master
+        with:
+          toolchain: '1.92.0'
+      - name: Verify archive and notice audit contracts
+        run: python tools/local/test_native_rights_20.py
+      - name: Resolve the exact locked source archive inventory
+        run: cargo metadata --locked --format-version 1 --manifest-path apps/native-20/src-tauri/Cargo.toml > "${{ runner.temp }}/native-metadata.json"
+      - name: Audit archive hashes and reproduce original notice bytes
+        run: |
+          for pass in one two; do
+            python tools/local/audit_native_rights_20.py --metadata "${{ runner.temp }}/native-metadata.json" --lock apps/native-20/src-tauri/Cargo.lock --cache "$CARGO_HOME/registry/cache" --source-commit "${{ github.sha }}" --out "${{ runner.temp }}/native-rights-$pass"
+          done
+          diff -r "${{ runner.temp }}/native-rights-one" "${{ runner.temp }}/native-rights-two"
+      - name: Record the unresolved distribution gate
+        run: |
+          python - <<'PY'
+          import json,os
+          from pathlib import Path
+          p=Path(os.environ['RUNNER_TEMP'])/'native-rights-one/DEPENDENCY-RIGHTS.json'
+          r=json.loads(p.read_text(encoding='utf-8'))
+          assert r['all_archive_checksums_verified']
+          assert not r['public_release_approved']
+          print('Verified original archives:',r['verified_registry_archives'])
+          print('Archived notices:',r['notice_files'],'unique texts:',r['unique_notice_texts'])
+          print('Unresolved notice-file cases:',len(r['notice_gaps']))
+          print('Declared MPL packages:',[(p['name'],p['version']) for p in r['packages'] if 'MPL' in (p['declared_license'] or '')])
+          print((p.parent/'SHA256SUMS').read_text(encoding='utf-8'))
+          with open(os.environ['GITHUB_STEP_SUMMARY'],'a',encoding='utf-8') as out:
+              out.write(f"Verified {r['verified_registry_archives']} locked source archives; two byte-identical inventory/notice outputs.\n\n")
+              out.write(f"**Unresolved notice-file cases: {len(r['notice_gaps'])}.** SPDX labels and notice presence do not settle source-offer/distribution obligations. This is an audit sidecar, not release approval or bundled product notices.\n")
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: reader-2.0-native-source-notice-inventory
+          path: ${{ runner.temp }}/native-rights-one/
+          retention-days: 30
+          if-no-files-found: error

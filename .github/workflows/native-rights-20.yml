@@ -55,6 +55,19 @@ jobs:
               out.write(f"Verified {r['verified_registry_archives']} locked source archives; two byte-identical inventory/notice outputs.\n\n")
               out.write(f"**Unresolved notice-file cases: {len(r['notice_gaps'])}.** SPDX labels and notice presence do not settle source-offer/distribution obligations. This is an audit sidecar, not release approval or bundled product notices.\n")
           PY
+      - name: Package original dependency source and notices twice
+        run: |
+          python tools/local/test_package_native_rights_20.py
+          python tools/local/package_native_rights_20.py --audit "${{ runner.temp }}/native-rights-one" --cache "$CARGO_HOME/registry/cache" --source-commit "${{ github.sha }}" --out "${{ runner.temp }}/native-source/parallel-bible-reader-2.0-dependency-source-review.zip"
+          python tools/local/package_native_rights_20.py --audit "${{ runner.temp }}/native-rights-one" --cache "$CARGO_HOME/registry/cache" --source-commit "${{ github.sha }}" --out "${{ runner.temp }}/native-source-repeat.zip"
+          cmp "${{ runner.temp }}/native-source/parallel-bible-reader-2.0-dependency-source-review.zip" "${{ runner.temp }}/native-source-repeat.zip"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: reader-2.0-dependency-source-review
+          path: ${{ runner.temp }}/native-source/
+          compression-level: 0
+          retention-days: 30
+          if-no-files-found: error
       - uses: actions/upload-artifact@v4
         with:
           name: reader-2.0-native-source-notice-inventory

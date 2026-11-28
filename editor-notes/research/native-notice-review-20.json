@@ -1,0 +1,1723 @@
+{
+  "cases": [
+    {
+      "name": "alloc-stdlib",
+      "version": "0.3.0",
+      "archive_sha256": "0b5c1865780388bfa186411ab5f247819487fc4864c6e9c3106611fa347586e1",
+      "repository": "https://github.com/dropbox/rust-alloc-no-stdlib",
+      "declared_license": "BSD-3-Clause",
+      "vcs": {
+        "git": {
+          "sha1": "0a81fd6928ea3b33c8cd484aa4575d50ffb98012"
+        },
+        "path_in_vcs": "alloc-stdlib"
+      },
+      "evidence": [
+        {
+          "archive_member": "Cargo.toml.orig",
+          "member_sha256": "13c6e8d5ec2e75ae6b66542498e049e1100e71ef25e29ccb9cb083b40d6279ea",
+          "matched_lines": [
+            {
+              "line": 10,
+              "text": "license = \"BSD-3-Clause\""
+            }
+          ]
+        }
+      ],
+      "source_ids": [
+        0
+      ],
+      "distribution_clearance": false,
+      "status": "upstream-notice-text-pinned-applicability-review-open",
+      "next_action": "Review applicability and required attribution for this package path at its archived VCS revision, preserve the pinned text in candidate notices, and document any license choice; not automatic clearance."
+    },
+    {
+      "name": "block2",
+      "version": "0.6.2",
+      "archive_sha256": "cdeb9d870516001442e364c5220d3574d2da8dc765554b4a617230d33fa58ef5",
+      "repository": "https://github.com/madsmtm/objc2",
+      "declared_license": "MIT",
+      "vcs": {
+        "git": {
+          "sha1": "b4167b582b2f75f9a1be75495c41b765344fd03c"
+        },
+        "path_in_vcs": "crates/block2"
+      },
+      "evidence": [
+        {
+          "archive_member": "Cargo.toml.orig",
+          "member_sha256": "d18aec0c39956f1a29b6d157c13ec51ce53d7c2a2982c307528215f8870720ac",
+          "matched_lines": [
+            {
+              "line": 17,
+              "text": "# All future contributions are licensed under \"Zlib OR Apache-2.0 OR MIT\"."
+            },
+            {
+              "line": 18,
+              "text": "license = \"MIT\""
+            }
+          ]
+        },
+        {
+          "archive_member": "README.md",
+          "member_sha256": "99073a83cfe6ee090546e3063f41251f7309fe2a017c4add8494e4ad7990d058",
+          "matched_lines": [
+            {
+              "line": 4,
+              "text": "[![License](https://badgen.net/badge/license/MIT/blue)](../../LICENSE.md)"
+            }
+          ]
+        }
+      ],
+      "source_ids": [
+        1
+      ],
+      "distribution_clearance": false,
+      "status": "upstream-guidance-pinned-sdk-terms-review-open",
+      "next_action": "Retain exact LICENSE.md guidance; it links external standard licenses and expressly raises Apple SDK derived-work uncertainty. Determine applicable notices, license choice and SDK distribution terms before candidate clearance."
+    },
+    {
+      "name": "clipboard-win",
+      "version": "5.4.3",
+      "archive_sha256": "052af7878466feccda12ba7a6a67d019d712f296809559b47c12c8cc196d3a9a",
+      "repository": "https://github.com/DoumanAsh/clipboard-win",
+      "declared_license": "BSL-1.0",
+      "vcs": {
+        "git": {
+          "sha1": "ed27008ae5d1f10cfbb266de039f0fb35fd05a56"
+        },
+        "path_in_vcs": ""
+      },
+      "evidence": [
+        {
+          "archive_member": "Cargo.toml.orig",
+          "member_sha256": "e805923f16aa563f35e0d9999527d20224cbb5dceb82dd0bc8f0401771e512e4",
+          "matched_lines": [
+            {
+              "line": 6,
+              "text": "license = \"BSL-1.0\""
+            }
+          ]
+        }
+      ],
+      "source_ids": [
+        2
+      ],
+      "distribution_clearance": false,
+      "status": "upstream-notice-text-pinned-applicability-review-open",
+      "next_action": "Review applicability and required attribution for this package path at its archived VCS revision, preserve the pinned text in candidate notices, and document any license choice; not automatic clearance."
+    },
+    {
+      "name": "dispatch2",
+      "version": "0.3.1",
+      "archive_sha256": "1e0e367e4e7da84520dedcac1901e4da967309406d1e51017ae1abfb97adbd38",
+      "repository": "https://github.com/madsmtm/objc2",
+      "declared_license": "Zlib OR Apache-2.0 OR MIT",
+      "vcs": {
+        "git": {
+          "sha1": "8852b424193ca41602281b3d7540d7c8ed51e49a"
+        },
+        "path_in_vcs": "crates/dispatch2"
+      },
+      "evidence": [
+        {
+          "archive_member": "Cargo.toml.orig",
+          "member_sha256": "f6aeef4bfe348b9e65e33db2bfb079be4149f9ab0f4b0b3bf3f5d04c144545af",
+          "matched_lines": [
+            {
+              "line": 13,
+              "text": "license.workspace = true"
+            }
+          ]
+        },
+        {
+          "archive_member": "README.md",
+          "member_sha256": "eba8f5b9bc021bfaaf84478017baf838a92d56a47e691a8b8989aae1210c05d7",
+          "matched_lines": [
+            {
+              "line": 4,
+              "text": "[![License](https://badgen.net/badge/license/Zlib%20OR%20Apache-2.0%20OR%20MIT/blue)](../../LICENSE.md)"
+            }
+          ]
+        }
+      ],
+      "source_ids": [
+        3
+      ],
+      "distribution_clearance": false,
+      "status": "upstream-guidance-pinned-sdk-terms-review-open",
+      "next_action": "Retain exact LICENSE.md guidance; it links external standard licenses and expressly raises Apple SDK derived-work uncertainty. Determine applicable notices, license choice and SDK distribution terms before candidate clearance."
+    },
+    {
+      "name": "dlopen2",
+      "version": "0.8.2",
+      "archive_sha256": "5e2c5bd4158e66d1e215c49b837e11d62f3267b30c92f1d171c4d3105e3dc4d4",
+      "repository": "https://github.com/OpenByteDev/dlopen2",
+      "declared_license": "MIT",
+      "vcs": {
+        "git": {
+          "sha1": "cc80e4a0a90d499b677fdf7743699b4b3a43a989"
+        },
+        "path_in_vcs": "dlopen2"
+      },
+      "evidence": [
+        {
+          "archive_member": "Cargo.toml.orig",
+          "member_sha256": "4db2cb7eef7db93aac79ebab07af14ef27e00cc322ebb9f3744fcc971a1a6b6a",
+          "matched_lines": [
+            {
+              "line": 12,
+              "text": "license = \"MIT\""
+            }
+          ]
+        },
+        {
+          "archive_member": "README.md",
+          "member_sha256": "66968e46ce37b520d1afee64f3fa7acb038bf24b6c9f86dcc39e46d3700b9dd0",
+          "matched_lines": [
+            {
+              "line": 7,
+              "text": "[![MIT](https://img.shields.io/crates/l/dlopen2.svg)](https://github.com/OpenByteDev/dlopen2/blob/master/LICENSE)"
+            },
+            {
+              "line": 97,
+              "text": "## License"
+            },
+            {
+              "line": 99,
+              "text": "This code is licensed under the [MIT](./LICENSE) license."
+            }
+          ]
+        },
+        {
+          "archive_member": "src/lib.rs",
+          "member_sha256": "e99da1fe29c4c9391b6e0f2de4220da7b5dafa62649a9889a9ab4a9f3722cbb5",
+          "matched_lines": [
+            {
+              "line": 95,
+              "text": "# License"
+            },
+            {
+              "line": 96,
+              "text": "This code is licensed under the [MIT](https://github.com/OpenByteDev/dlopen2/blob/master/LICENSE) license."
+            }
+          ]
+        }
+      ],
+      "source_ids": [
+        4
+      ],
+      "distribution_clearance": false,
+      "status": "upstream-notice-text-pinned-applicability-review-open",
+      "next_action": "Review applicability and required attribution for this package path at its archived VCS revision, preserve the pinned text in candidate notices, and document any license choice; not automatic clearance."
+    },
+    {
+      "name": "dlopen2_derive",
+      "version": "0.4.3",
+      "archive_sha256": "0fbbb781877580993a8707ec48672673ec7b81eeba04cfd2310bd28c08e47c8f",
+      "repository": "https://github.com/OpenByteDev/dlopen2",
+      "declared_license": "MIT",
+      "vcs": {
+        "git": {
+          "sha1": "cc80e4a0a90d499b677fdf7743699b4b3a43a989"
+        },
+        "path_in_vcs": "dlopen2-derive"
+      },
+      "evidence": [
+        {
+          "archive_member": "Cargo.toml.orig",
+          "member_sha256": "5e3d2d7fe64c4b47b01d4c2e88dbf669bf0950d937b43757b48f965bea4e254a",
+          "matched_lines": [
+            {
+              "line": 8,
+              "text": "license = \"MIT\""
+            }
+          ]
+        },
+        {
+          "archive_member": "README.md",
+          "member_sha256": "66968e46ce37b520d1afee64f3fa7acb038bf24b6c9f86dcc39e46d3700b9dd0",
+          "matched_lines": [
+            {
+              "line": 7,
+              "text": "[![MIT](https://img.shields.io/crates/l/dlopen2.svg)](https://github.com/OpenByteDev/dlopen2/blob/master/LICENSE)"
+            },
+            {
+              "line": 97,
+              "text": "## License"
+            },
+            {
+              "line": 99,
+              "text": "This code is licensed under the [MIT](./LICENSE) license."
+            }
+          ]
+        }
+      ],
+      "source_ids": [
+        4
+      ],
+      "distribution_clearance": false,
+      "status": "upstream-notice-text-pinned-applicability-review-open",
+      "next_action": "Review applicability and required attribution for this package path at its archived VCS revision, preserve the pinned text in candidate notices, and document any license choice; not automatic clearance."
+    },
+    {
+      "name": "jni-sys-macros",
+      "version": "0.4.1",
+      "archive_sha256": "38c0b942f458fe50cdac086d2f946512305e5631e720728f2a61aabcd47a6264",
+      "repository": "https://github.com/jni-rs/jni-sys",
+      "declared_license": "MIT OR Apache-2.0",
+      "vcs": {
+        "git": {
+          "sha1": "64d77b7a5f119d7b55b4e2c169a4668067ff59e6"
+        },
+        "path_in_vcs": "jni-sys-macros"
+      },
+      "evidence": [
+        {
+          "archive_member": "Cargo.toml.orig",
+          "member_sha256": "6501ef93eff9b37ab65ec846bd06992d79cc28d8ef1f02f13b0488ff441ed90a",
+          "matched_lines": [
+            {
+              "line": 5,
+              "text": "license = \"MIT OR Apache-2.0\""
+            }
+          ]
+        }
+      ],
+      "source_ids": [
+        5,
+        6
+      ],
+      "distribution_clearance": false,
+      "status": "upstream-notice-text-pinned-applicability-review-open",
+      "next_action": "Review applicability and required attribution for this package path at its archived VCS revision, preserve the pinned text in candidate notices, and document any license choice; not automatic clearance."
+    },
+    {
+      "name": "libappindicator-sys",
+      "version": "0.9.0",
+      "archive_sha256": "6e9ec52138abedcc58dc17a7c6c0c00a2bdb4f3427c7f63fa97fd0d859155caf",
+      "repository": null,
+      "declared_license": "Apache-2.0 OR MIT",
+      "vcs": {
+        "git": {
+          "sha1": "eafd1e3682a1247f595410266091e9684021cb6f"
+        },
+        "path_in_vcs": "sys"
+      },
+      "evidence": [
+        {
+          "archive_member": "Cargo.toml.orig",
+          "member_sha256": "ffa544131659aeeff24cdf56faf7f89e0dcd4e1eb0f6e03b1616436eab4bc815",
+          "matched_lines": [
+            {
+              "line": 5,
+              "text": "license = \"Apache-2.0 OR MIT\""
+            }
+          ]
+        }
+      ],
+      "source_ids": [],
+      "distribution_clearance": false,
+      "status": "repository-provenance-unresolved",
+      "next_action": "Archive has an SPDX declaration and VCS revision but no repository field. Establish provenance from original package/source evidence before retrieving applicable notices."
+    },
+    {
+      "name": "ndk",
+      "version": "0.9.0",
+      "archive_sha256": "c3f42e7bbe13d351b6bead8286a43aac9534b82bd3cc43e47037f012ebfd62d4",
+      "repository": "https://github.com/rust-mobile/ndk",
+      "declared_license": "MIT OR Apache-2.0",
+      "vcs": {
+        "git": {
+          "sha1": "49bbbba16c58ff63cb8a0ad0eca5a9fb7ecaec25"
+        },
+        "path_in_vcs": "ndk"
+      },
+      "evidence": [
+        {
+          "archive_member": "Cargo.toml.orig",
+          "member_sha256": "2fef16f26085f508a2404e52d4ed9dc54dbc915cf89c2868f25fb49a2e940e2a",
+          "matched_lines": [
+            {
+              "line": 7,
+              "text": "license = \"MIT OR Apache-2.0\""
+            }
+          ]
+        },
+        {
+          "archive_member": "README.md",
+          "member_sha256": "27fdcf69714fcf6f81b1d2fe4e185cd698056681dfa539c716d33bb9bcc9ff6f",
+          "matched_lines": [
+            {
+              "line": 1,
+              "text": "[![ci](https://github.com/rust-mobile/ndk/actions/workflows/rust.yml/badge.svg)](https://github.com/rust-mobile/ndk/actions/workflows/rust.yml) ![MIT license](https://img.shields.io/badge/License-MIT-green.svg) ![APACHE2 license](https://img.shields.io/badge/License-APACHE2-green.svg)"
+            }
+          ]
+        }
+      ],
+      "source_ids": [
+        7,
+        8
+      ],
+      "distribution_clearance": false,
+      "status": "upstream-notice-text-pinned-applicability-review-open",
+      "next_action": "Review applicability and required attribution for this package path at its archived VCS revision, preserve the pinned text in candidate notices, and document any license choice; not automatic clearance."
+    },
+    {
+      "name": "ndk-context",
+      "version": "0.1.1",
+      "archive_sha256": "27b02d87554356db9e9a873add8782d4ea6e3e58ea071a9adb9a2e8ddb884a8b",
+      "repository": "https://github.com/rust-windowing/android-ndk-rs",
+      "declared_license": "MIT OR Apache-2.0",
+      "vcs": {
+        "git": {
+          "sha1": "10f2ba388fca20f7349996ebae26ccda7a6fda5c"
+        },
+        "path_in_vcs": "ndk-context"
+      },
+      "evidence": [
+        {
+          "archive_member": "Cargo.toml.orig",
+          "member_sha256": "762e72071e7cdb369e564ddb2e11b2e489ec80ddfbd422bba774fae5818cf5c7",
+          "matched_lines": [
+            {
+              "line": 7,
+              "text": "license = \"MIT OR Apache-2.0\""
+            }
+          ]
+        }
+      ],
+      "source_ids": [],
+      "distribution_clearance": false,
+      "status": "upstream-redirect-unresolved",
+      "next_action": "Archived repository redirects; exact archived revision LICENSE-MIT/APACHE raw retrieval failed. Establish canonical repository and exact revision before adding upstream notice text."
+    },
+    {
+      "name": "ndk-sys",
+      "version": "0.6.0+11769913",
+      "archive_sha256": "ee6cda3051665f1fb8d9e08fc35c96d5a244fb1be711a03b71118828afc9a873",
+      "repository": "https://github.com/rust-mobile/ndk",
+      "declared_license": "MIT OR Apache-2.0",
+      "vcs": {
+        "git": {
+          "sha1": "49bbbba16c58ff63cb8a0ad0eca5a9fb7ecaec25"
+        },
+        "path_in_vcs": "ndk-sys"
+      },
+      "evidence": [
+        {
+          "archive_member": "Cargo.toml.orig",
+          "member_sha256": "c860c6b92e9c7fb701d0ab8ba09b2ec6f35c78a3c609fcc32e73581b3e230eb1",
+          "matched_lines": [
+            {
+              "line": 7,
+              "text": "license = \"MIT OR Apache-2.0\""
+            }
+          ]
+        },
+        {
+          "archive_member": "README.md",
+          "member_sha256": "27fdcf69714fcf6f81b1d2fe4e185cd698056681dfa539c716d33bb9bcc9ff6f",
+          "matched_lines": [
+            {
+              "line": 1,
+              "text": "[![ci](https://github.com/rust-mobile/ndk/actions/workflows/rust.yml/badge.svg)](https://github.com/rust-mobile/ndk/actions/workflows/rust.yml) ![MIT license](https://img.shields.io/badge/License-MIT-green.svg) ![APACHE2 license](https://img.shields.io/badge/License-APACHE2-green.svg)"
+            }
+          ]
+        }
+      ],
+      "source_ids": [
+        7,
+        8
+      ],
+      "distribution_clearance": false,
+      "status": "upstream-notice-text-pinned-applicability-review-open",
+      "next_action": "Review applicability and required attribution for this package path at its archived VCS revision, preserve the pinned text in candidate notices, and document any license choice; not automatic clearance."
+    },
+    {
+      "name": "objc2",
+      "version": "0.6.5",
+      "archive_sha256": "08849bbd4767dfae9457696856ae1c84fe4e0281bbe4a7abff2d0e06fb7981f8",
+      "repository": "https://github.com/madsmtm/objc2",
+      "declared_license": "MIT",
+      "vcs": {
+        "git": {
+          "sha1": "d7d2fa23ceaa5e6096c923b081040e5d81b3b9df"
+        },
+        "path_in_vcs": "crates/objc2"
+      },
+      "evidence": [
+        {
+          "archive_member": "Cargo.toml.orig",
+          "member_sha256": "4a1e1561612efc4a8aea4dd574c781f6215fa5416696425227558fc782353cba",
+          "matched_lines": [
+            {
+              "line": 14,
+              "text": "# All future contributions are licensed under \"Zlib OR Apache-2.0 OR MIT\"."
+            },
+            {
+              "line": 15,
+              "text": "license = \"MIT\""
+            }
+          ]
+        },
+        {
+          "archive_member": "README.md",
+          "member_sha256": "5da56f1508a87b982a23e6bad2ff09b329f7fcf9181ea15eac17788f8d1c6824",
+          "matched_lines": [
+            {
+              "line": 4,
+              "text": "[![License](https://badgen.net/badge/license/MIT/blue)](../../LICENSE.md)"
+            }
+          ]
+        }
+      ],
+      "source_ids": [
+        9
+      ],
+      "distribution_clearance": false,
+      "status": "upstream-guidance-pinned-sdk-terms-review-open",
+      "next_action": "Retain exact LICENSE.md guidance; it links external standard licenses and expressly raises Apple SDK derived-work uncertainty. Determine applicable notices, license choice and SDK distribution terms before candidate clearance."
+    },
+    {
+      "name": "objc2-app-kit",
+      "version": "0.3.2",
+      "archive_sha256": "d49e936b501e5c5bf01fda3a9452ff86dc3ea98ad5f283e1455153142d97518c",
+      "repository": "https://github.com/madsmtm/objc2",
+      "declared_license": "Zlib OR Apache-2.0 OR MIT",
+      "vcs": {
+        "git": {
+          "sha1": "7b1abfd750a2cacaea71d6a56ecfb83cb7de560b"
+        },
+        "path_in_vcs": "framework-crates/objc2-app-kit"
+      },
+      "evidence": [
+        {
+          "archive_member": "Cargo.toml.orig",
+          "member_sha256": "a15eb82815ce282d59a2f5be179556695ce678790129c30e1d86567c1e2c684e",
+          "matched_lines": [
+            {
+              "line": 13,
+              "text": "license.workspace = true"
+            }
+          ]
+        },
+        {
+          "archive_member": "README.md",
+          "member_sha256": "da145d375986071fdf836604db8c6e99438bb484ad51b8775455635e36fc2ce3",
+          "matched_lines": [
+            {
+              "line": 4,
+              "text": "[![License](https://badgen.net/badge/license/Zlib%20OR%20Apache-2.0%20OR%20MIT/blue)](../../LICENSE.md)"
+            }
+          ]
+        }
+      ],
+      "source_ids": [
+        10
+      ],
+      "distribution_clearance": false,
+      "status": "upstream-guidance-pinned-sdk-terms-review-open",
+      "next_action": "Retain exact LICENSE.md guidance; it links external standard licenses and expressly raises Apple SDK derived-work uncertainty. Determine applicable notices, license choice and SDK distribution terms before candidate clearance."
+    },
+    {
+      "name": "objc2-cloud-kit",
+      "version": "0.3.2",
+      "archive_sha256": "73ad74d880bb43877038da939b7427bba67e9dd42004a18b809ba7d87cee241c",
+      "repository": "https://github.com/madsmtm/objc2",
+      "declared_license": "Zlib OR Apache-2.0 OR MIT",
+      "vcs": {
+        "git": {
+          "sha1": "7b1abfd750a2cacaea71d6a56ecfb83cb7de560b"
+        },
+        "path_in_vcs": "framework-crates/objc2-cloud-kit"
+      },
+      "evidence": [
+        {
+          "archive_member": "Cargo.toml.orig",
+          "member_sha256": "f69323687923479e1e6c37b2020ffc2c5e2be5535c60007746d54e5962090d43",
+          "matched_lines": [
+            {
+              "line": 13,
+              "text": "license.workspace = true"
+            }
+          ]
+        },
+        {
+          "archive_member": "README.md",
+          "member_sha256": "bf35fcf69351a2b3e027b326a898eda139a9d6801061b29713d138b0c34e452d",
+          "matched_lines": [
+            {
+              "line": 4,
+              "text": "[![License](https://badgen.net/badge/license/Zlib%20OR%20Apache-2.0%20OR%20MIT/blue)](../../LICENSE.md)"
+            }
+          ]
+        }
+      ],
+      "source_ids": [
+        10
+      ],
+      "distribution_clearance": false,
+      "status": "upstream-guidance-pinned-sdk-terms-review-open",
+      "next_action": "Retain exact LICENSE.md guidance; it links external standard licenses and expressly raises Apple SDK derived-work uncertainty. Determine applicable notices, license choice and SDK distribution terms before candidate clearance."
+    },
+    {
+      "name": "objc2-core-data",
+      "version": "0.3.2",
+      "archive_sha256": "0b402a653efbb5e82ce4df10683b6b28027616a2715e90009947d50b8dd298fa",
+      "repository": "https://github.com/madsmtm/objc2",
+      "declared_license": "Zlib OR Apache-2.0 OR MIT",
+      "vcs": {
+        "git": {
+          "sha1": "7b1abfd750a2cacaea71d6a56ecfb83cb7de560b"
+        },
+        "path_in_vcs": "framework-crates/objc2-core-data"
+      },
+      "evidence": [
+        {
+          "archive_member": "Cargo.toml.orig",
+          "member_sha256": "64ddcb77e8e099866d45311e0d6b9a40e7e93bd07f741039e6edef3d1bd86b2f",
+          "matched_lines": [
+            {
+              "line": 13,
+              "text": "license.workspace = true"
+            }
+          ]
+        },
+        {
+          "archive_member": "README.md",
+          "member_sha256": "b8530041248261c908b3261bfeeaa2df920455da5e4189803a425055fa35b5e8",
+          "matched_lines": [
+            {
+              "line": 4,
+              "text": "[![License](https://badgen.net/badge/license/Zlib%20OR%20Apache-2.0%20OR%20MIT/blue)](../../LICENSE.md)"
+            }
+          ]
+        }
+      ],
+      "source_ids": [
+        10
+      ],
+      "distribution_clearance": false,
+      "status": "upstream-guidance-pinned-sdk-terms-review-open",
+      "next_action": "Retain exact LICENSE.md guidance; it links external standard licenses and expressly raises Apple SDK derived-work uncertainty. Determine applicable notices, license choice and SDK distribution terms before candidate clearance."
+    },
+    {
+      "name": "objc2-core-foundation",
+      "version": "0.3.2",
+      "archive_sha256": "2a180dd8642fa45cdb7dd721cd4c11b1cadd4929ce112ebd8b9f5803cc79d536",
+      "repository": "https://github.com/madsmtm/objc2",
+      "declared_license": "Zlib OR Apache-2.0 OR MIT",
+      "vcs": {
+        "git": {
+          "sha1": "7b1abfd750a2cacaea71d6a56ecfb83cb7de560b"
+        },
+        "path_in_vcs": "framework-crates/objc2-core-foundation"
+      },
+      "evidence": [
+        {
+          "archive_member": "Cargo.toml.orig",
+          "member_sha256": "44cd6a4440c3ea1ba85df240ab9b9e7a95da3a5873ce623ac426ac5acfbe507f",
+          "matched_lines": [
+            {
+              "line": 13,
+              "text": "license.workspace = true"
+            }
+          ]
+        },
+        {
+          "archive_member": "README.md",
+          "member_sha256": "c02a9b113d8855df956d9d854321c5bfef3c2921131070dc0c64870053b42459",
+          "matched_lines": [
+            {
+              "line": 4,
+              "text": "[![License](https://badgen.net/badge/license/Zlib%20OR%20Apache-2.0%20OR%20MIT/blue)](../../LICENSE.md)"
+            }
+          ]
+        }
+      ],
+      "source_ids": [
+        10
+      ],
+      "distribution_clearance": false,
+      "status": "upstream-guidance-pinned-sdk-terms-review-open",
+      "next_action": "Retain exact LICENSE.md guidance; it links external standard licenses and expressly raises Apple SDK derived-work uncertainty. Determine applicable notices, license choice and SDK distribution terms before candidate clearance."
+    },
+    {
+      "name": "objc2-core-graphics",
+      "version": "0.3.2",
+      "archive_sha256": "e022c9d066895efa1345f8e33e584b9f958da2fd4cd116792e15e07e4720a807",
+      "repository": "https://github.com/madsmtm/objc2",
+      "declared_license": "Zlib OR Apache-2.0 OR MIT",
+      "vcs": {
+        "git": {
+          "sha1": "7b1abfd750a2cacaea71d6a56ecfb83cb7de560b"
+        },
+        "path_in_vcs": "framework-crates/objc2-core-graphics"
+      },
+      "evidence": [
+        {
+          "archive_member": "Cargo.toml.orig",
+          "member_sha256": "8156455095991b7501f4fa30bdf29c5a541a41e3c479558e757932b07d0b16d1",
+          "matched_lines": [
+            {
+              "line": 13,
+              "text": "license.workspace = true"
+            }
+          ]
+        },
+        {
+          "archive_member": "README.md",
+          "member_sha256": "6361def881598a3b6d19e7e0d45d77aa5f8c87980db0c36d895cc33bb83f10bf",
+          "matched_lines": [
+            {
+              "line": 4,
+              "text": "[![License](https://badgen.net/badge/license/Zlib%20OR%20Apache-2.0%20OR%20MIT/blue)](../../LICENSE.md)"
+            }
+          ]
+        }
+      ],
+      "source_ids": [
+        10
+      ],
+      "distribution_clearance": false,
+      "status": "upstream-guidance-pinned-sdk-terms-review-open",
+      "next_action": "Retain exact LICENSE.md guidance; it links external standard licenses and expressly raises Apple SDK derived-work uncertainty. Determine applicable notices, license choice and SDK distribution terms before candidate clearance."
+    },
+    {
+      "name": "objc2-core-image",
+      "version": "0.3.2",
+      "archive_sha256": "e5d563b38d2b97209f8e861173de434bd0214cf020e3423a52624cd1d989f006",
+      "repository": "https://github.com/madsmtm/objc2",
+      "declared_license": "Zlib OR Apache-2.0 OR MIT",
+      "vcs": {
+        "git": {
+          "sha1": "7b1abfd750a2cacaea71d6a56ecfb83cb7de560b"
+        },
+        "path_in_vcs": "framework-crates/objc2-core-image"
+      },
+      "evidence": [
+        {
+          "archive_member": "Cargo.toml.orig",
+          "member_sha256": "9b80ba6d2f783dd4ae6cc1c3f6c18bcc5fe8d460dbd0f7d28c1ba802ed090241",
+          "matched_lines": [
+            {
+              "line": 13,
+              "text": "license.workspace = true"
+            }
+          ]
+        },
+        {
+          "archive_member": "README.md",
+          "member_sha256": "0aeee0313c19d398e809873dd365d3a02fbf2ef2074d5d7e5fae3b06ff2cdda2",
+          "matched_lines": [
+            {
+              "line": 4,
+              "text": "[![License](https://badgen.net/badge/license/Zlib%20OR%20Apache-2.0%20OR%20MIT/blue)](../../LICENSE.md)"
+            }
+          ]
+        }
+      ],
+      "source_ids": [
+        10
+      ],
+      "distribution_clearance": false,
+      "status": "upstream-guidance-pinned-sdk-terms-review-open",
+      "next_action": "Retain exact LICENSE.md guidance; it links external standard licenses and expressly raises Apple SDK derived-work uncertainty. Determine applicable notices, license choice and SDK distribution terms before candidate clearance."
+    },
+    {
+      "name": "objc2-core-location",
+      "version": "0.3.2",
+      "archive_sha256": "ca347214e24bc973fc025fd0d36ebb179ff30536ed1f80252706db19ee452009",
+      "repository": "https://github.com/madsmtm/objc2",
+      "declared_license": "Zlib OR Apache-2.0 OR MIT",
+      "vcs": {
+        "git": {
+          "sha1": "7b1abfd750a2cacaea71d6a56ecfb83cb7de560b"
+        },
+        "path_in_vcs": "framework-crates/objc2-core-location"
+      },
+      "evidence": [
+        {
+          "archive_member": "Cargo.toml.orig",
+          "member_sha256": "7d8b256ebbaf23b094a02dbb1287eabac78e29c334d434529723ceadf5814002",
+          "matched_lines": [
+            {
+              "line": 13,
+              "text": "license.workspace = true"
+            }
+          ]
+        },
+        {
+          "archive_member": "README.md",
+          "member_sha256": "3f518095b802873d6a85c5fb7d6ebd82e861d188f349f9139d3ba9704c594358",
+          "matched_lines": [
+            {
+              "line": 4,
+              "text": "[![License](https://badgen.net/badge/license/Zlib%20OR%20Apache-2.0%20OR%20MIT/blue)](../../LICENSE.md)"
+            }
+          ]
+        }
+      ],
+      "source_ids": [
+        10
+      ],
+      "distribution_clearance": false,
+      "status": "upstream-guidance-pinned-sdk-terms-review-open",
+      "next_action": "Retain exact LICENSE.md guidance; it links external standard licenses and expressly raises Apple SDK derived-work uncertainty. Determine applicable notices, license choice and SDK distribution terms before candidate clearance."
+    },
+    {
+      "name": "objc2-core-text",
+      "version": "0.3.2",
+      "archive_sha256": "0cde0dfb48d25d2b4862161a4d5fcc0e3c24367869ad306b0c9ec0073bfed92d",
+      "repository": "https://github.com/madsmtm/objc2",
+      "declared_license": "Zlib OR Apache-2.0 OR MIT",
+      "vcs": {
+        "git": {
+          "sha1": "7b1abfd750a2cacaea71d6a56ecfb83cb7de560b"
+        },
+        "path_in_vcs": "framework-crates/objc2-core-text"
+      },
+      "evidence": [
+        {
+          "archive_member": "Cargo.toml.orig",
+          "member_sha256": "03598c2d46443f2cff2d4898c72d78b8be884768ef946f42515babe773faf021",
+          "matched_lines": [
+            {
+              "line": 13,
+              "text": "license.workspace = true"
+            }
+          ]
+        },
+        {
+          "archive_member": "README.md",
+          "member_sha256": "055ed475047a908398289da206178ad9c0e76224b6f55dbea3613227b1c070bf",
+          "matched_lines": [
+            {
+              "line": 4,
+              "text": "[![License](https://badgen.net/badge/license/Zlib%20OR%20Apache-2.0%20OR%20MIT/blue)](../../LICENSE.md)"
+            }
+          ]
+        }
+      ],
+      "source_ids": [
+        10
+      ],
+      "distribution_clearance": false,
+      "status": "upstream-guidance-pinned-sdk-terms-review-open",
+      "next_action": "Retain exact LICENSE.md guidance; it links external standard licenses and expressly raises Apple SDK derived-work uncertainty. Determine applicable notices, license choice and SDK distribution terms before candidate clearance."
+    },
+    {
+      "name": "objc2-encode",
+      "version": "4.1.0",
+      "archive_sha256": "ef25abbcd74fb2609453eb695bd2f860d389e457f67dc17cafc8b8cbc89d0c33",
+      "repository": "https://github.com/madsmtm/objc2",
+      "declared_license": "MIT",
+      "vcs": {
+        "git": {
+          "sha1": "8d214f5477365ffcbcbb7de058c86ed9a518efb7"
+        },
+        "path_in_vcs": "crates/objc2-encode"
+      },
+      "evidence": [
+        {
+          "archive_member": "Cargo.toml.orig",
+          "member_sha256": "12972b1faf213492f9e78226f23642c461284b739f7be5437d9401465a2869a6",
+          "matched_lines": [
+            {
+              "line": 13,
+              "text": "# All future contributions are licensed under \"Zlib OR Apache-2.0 OR MIT\"."
+            },
+            {
+              "line": 14,
+              "text": "license = \"MIT\""
+            }
+          ]
+        },
+        {
+          "archive_member": "README.md",
+          "member_sha256": "e980a74b88a62193f7908df3c27e7915f38559870f5e033ddb77fbed65e024a5",
+          "matched_lines": [
+            {
+              "line": 4,
+              "text": "[![License](https://badgen.net/badge/license/MIT/blue)](https://github.com/madsmtm/objc2/blob/master/LICENSE.txt)"
+            }
+          ]
+        }
+      ],
+      "source_ids": [
+        11
+      ],
+      "distribution_clearance": false,
+      "status": "upstream-guidance-pinned-sdk-terms-review-open",
+      "next_action": "Retain exact LICENSE.md guidance; it links external standard licenses and expressly raises Apple SDK derived-work uncertainty. Determine applicable notices, license choice and SDK distribution terms before candidate clearance."
+    },
+    {
+      "name": "objc2-exception-helper",
+      "version": "0.1.1",
+      "archive_sha256": "c7a1c5fbb72d7735b076bb47b578523aedc40f3c439bea6dfd595c089d79d98a",
+      "repository": "https://github.com/madsmtm/objc2",
+      "declared_license": "Zlib OR Apache-2.0 OR MIT",
+      "vcs": {
+        "git": {
+          "sha1": "8d214f5477365ffcbcbb7de058c86ed9a518efb7"
+        },
+        "path_in_vcs": "crates/objc2-exception-helper"
+      },
+      "evidence": [
+        {
+          "archive_member": "Cargo.toml.orig",
+          "member_sha256": "b8bf2ffec7fd293d53a316893362ca12e06c3f1fef1fa2d476161e256214ee6e",
+          "matched_lines": [
+            {
+              "line": 16,
+              "text": "license.workspace = true"
+            }
+          ]
+        },
+        {
+          "archive_member": "README.md",
+          "member_sha256": "b0afbec3a223fc72d479bf60dd84311b622b4d9fb283a8dd60068d0e87d2b66a",
+          "matched_lines": [
+            {
+              "line": 4,
+              "text": "[![License](https://badgen.net/badge/license/MIT/blue)](https://github.com/madsmtm/objc2/blob/master/LICENSE.txt)"
+            }
+          ]
+        }
+      ],
+      "source_ids": [
+        11
+      ],
+      "distribution_clearance": false,
+      "status": "upstream-guidance-pinned-sdk-terms-review-open",
+      "next_action": "Retain exact LICENSE.md guidance; it links external standard licenses and expressly raises Apple SDK derived-work uncertainty. Determine applicable notices, license choice and SDK distribution terms before candidate clearance."
+    },
+    {
+      "name": "objc2-io-surface",
+      "version": "0.3.2",
+      "archive_sha256": "180788110936d59bab6bd83b6060ffdfffb3b922ba1396b312ae795e1de9d81d",
+      "repository": "https://github.com/madsmtm/objc2",
+      "declared_license": "Zlib OR Apache-2.0 OR MIT",
+      "vcs": {
+        "git": {
+          "sha1": "7b1abfd750a2cacaea71d6a56ecfb83cb7de560b"
+        },
+        "path_in_vcs": "framework-crates/objc2-io-surface"
+      },
+      "evidence": [
+        {
+          "archive_member": "Cargo.toml.orig",
+          "member_sha256": "80c0f7bac2add855807e6abadbc220473b982041b99339bacf17e2885b3752c9",
+          "matched_lines": [
+            {
+              "line": 13,
+              "text": "license.workspace = true"
+            }
+          ]
+        },
+        {
+          "archive_member": "README.md",
+          "member_sha256": "19cf0408a59e7abe800fa42d326f92942323a867fcf6ecca1c8d026617a13f40",
+          "matched_lines": [
+            {
+              "line": 4,
+              "text": "[![License](https://badgen.net/badge/license/Zlib%20OR%20Apache-2.0%20OR%20MIT/blue)](../../LICENSE.md)"
+            }
+          ]
+        }
+      ],
+      "source_ids": [
+        10
+      ],
+      "distribution_clearance": false,
+      "status": "upstream-guidance-pinned-sdk-terms-review-open",
+      "next_action": "Retain exact LICENSE.md guidance; it links external standard licenses and expressly raises Apple SDK derived-work uncertainty. Determine applicable notices, license choice and SDK distribution terms before candidate clearance."
+    },
+    {
+      "name": "objc2-quartz-core",
+      "version": "0.3.2",
+      "archive_sha256": "96c1358452b371bf9f104e21ec536d37a650eb10f7ee379fff67d2e08d537f1f",
+      "repository": "https://github.com/madsmtm/objc2",
+      "declared_license": "Zlib OR Apache-2.0 OR MIT",
+      "vcs": {
+        "git": {
+          "sha1": "7b1abfd750a2cacaea71d6a56ecfb83cb7de560b"
+        },
+        "path_in_vcs": "framework-crates/objc2-quartz-core"
+      },
+      "evidence": [
+        {
+          "archive_member": "Cargo.toml.orig",
+          "member_sha256": "ca303efdd2bcb7958d3e0a08f9b7adb327a2942d0730cda5991365c48016f4d4",
+          "matched_lines": [
+            {
+              "line": 13,
+              "text": "license.workspace = true"
+            }
+          ]
+        },
+        {
+          "archive_member": "README.md",
+          "member_sha256": "655e91cca9d73db675f3ceb77d74c77a2261425c9b250a904f732704abcd4650",
+          "matched_lines": [
+            {
+              "line": 4,
+              "text": "[![License](https://badgen.net/badge/license/Zlib%20OR%20Apache-2.0%20OR%20MIT/blue)](../../LICENSE.md)"
+            }
+          ]
+        }
+      ],
+      "source_ids": [
+        10
+      ],
+      "distribution_clearance": false,
+      "status": "upstream-guidance-pinned-sdk-terms-review-open",
+      "next_action": "Retain exact LICENSE.md guidance; it links external standard licenses and expressly raises Apple SDK derived-work uncertainty. Determine applicable notices, license choice and SDK distribution terms before candidate clearance."
+    },
+    {
+      "name": "objc2-ui-kit",
+      "version": "0.3.2",
+      "archive_sha256": "d87d638e33c06f577498cbcc50491496a3ed4246998a7fbba7ccb98b1e7eab22",
+      "repository": "https://github.com/madsmtm/objc2",
+      "declared_license": "Zlib OR Apache-2.0 OR MIT",
+      "vcs": {
+        "git": {
+          "sha1": "7b1abfd750a2cacaea71d6a56ecfb83cb7de560b"
+        },
+        "path_in_vcs": "framework-crates/objc2-ui-kit"
+      },
+      "evidence": [
+        {
+          "archive_member": "Cargo.toml.orig",
+          "member_sha256": "e775983c6d4a0e049038a52f5f94850336ae3060a03e3a1245e4583e298ea6f1",
+          "matched_lines": [
+            {
+              "line": 13,
+              "text": "license.workspace = true"
+            }
+          ]
+        },
+        {
+          "archive_member": "README.md",
+          "member_sha256": "a9aa6a8b0cca1f28c3764e1c63b40f2cfef33e4fc5bbf19fc035718af56f5770",
+          "matched_lines": [
+            {
+              "line": 4,
+              "text": "[![License](https://badgen.net/badge/license/Zlib%20OR%20Apache-2.0%20OR%20MIT/blue)](../../LICENSE.md)"
+            }
+          ]
+        }
+      ],
+      "source_ids": [
+        10
+      ],
+      "distribution_clearance": false,
+      "status": "upstream-guidance-pinned-sdk-terms-review-open",
+      "next_action": "Retain exact LICENSE.md guidance; it links external standard licenses and expressly raises Apple SDK derived-work uncertainty. Determine applicable notices, license choice and SDK distribution terms before candidate clearance."
+    },
+    {
+      "name": "objc2-user-notifications",
+      "version": "0.3.2",
+      "archive_sha256": "9df9128cbbfef73cda168416ccf7f837b62737d748333bfe9ab71c245d76613e",
+      "repository": "https://github.com/madsmtm/objc2",
+      "declared_license": "Zlib OR Apache-2.0 OR MIT",
+      "vcs": {
+        "git": {
+          "sha1": "7b1abfd750a2cacaea71d6a56ecfb83cb7de560b"
+        },
+        "path_in_vcs": "framework-crates/objc2-user-notifications"
+      },
+      "evidence": [
+        {
+          "archive_member": "Cargo.toml.orig",
+          "member_sha256": "f389b8f73362305f31fbc4583b6048818f5d7abfe18f884d1058532d5396e3a0",
+          "matched_lines": [
+            {
+              "line": 13,
+              "text": "license.workspace = true"
+            }
+          ]
+        },
+        {
+          "archive_member": "README.md",
+          "member_sha256": "b45e89caebbf8720786100a043310ea7bdc7ffa28b463ab2081ce518d9ca57a9",
+          "matched_lines": [
+            {
+              "line": 4,
+              "text": "[![License](https://badgen.net/badge/license/Zlib%20OR%20Apache-2.0%20OR%20MIT/blue)](../../LICENSE.md)"
+            }
+          ]
+        }
+      ],
+      "source_ids": [
+        10
+      ],
+      "distribution_clearance": false,
+      "status": "upstream-guidance-pinned-sdk-terms-review-open",
+      "next_action": "Retain exact LICENSE.md guidance; it links external standard licenses and expressly raises Apple SDK derived-work uncertainty. Determine applicable notices, license choice and SDK distribution terms before candidate clearance."
+    },
+    {
+      "name": "objc2-web-kit",
+      "version": "0.3.2",
+      "archive_sha256": "b2e5aaab980c433cf470df9d7af96a7b46a9d892d521a2cbbb2f8a4c16751e7f",
+      "repository": "https://github.com/madsmtm/objc2",
+      "declared_license": "Zlib OR Apache-2.0 OR MIT",
+      "vcs": {
+        "git": {
+          "sha1": "7b1abfd750a2cacaea71d6a56ecfb83cb7de560b"
+        },
+        "path_in_vcs": "framework-crates/objc2-web-kit"
+      },
+      "evidence": [
+        {
+          "archive_member": "Cargo.toml.orig",
+          "member_sha256": "c18d575811ed67608266557f3c5b673b2430accb55c86c6547a833000dd78a40",
+          "matched_lines": [
+            {
+              "line": 13,
+              "text": "license.workspace = true"
+            }
+          ]
+        },
+        {
+          "archive_member": "README.md",
+          "member_sha256": "159bf89415ebe1bd3f47868c70b4615f2702d973d97844f92840b261da4e2ee8",
+          "matched_lines": [
+            {
+              "line": 4,
+              "text": "[![License](https://badgen.net/badge/license/Zlib%20OR%20Apache-2.0%20OR%20MIT/blue)](../../LICENSE.md)"
+            }
+          ]
+        }
+      ],
+      "source_ids": [
+        10
+      ],
+      "distribution_clearance": false,
+      "status": "upstream-guidance-pinned-sdk-terms-review-open",
+      "next_action": "Retain exact LICENSE.md guidance; it links external standard licenses and expressly raises Apple SDK derived-work uncertainty. Determine applicable notices, license choice and SDK distribution terms before candidate clearance."
+    },
+    {
+      "name": "r-efi",
+      "version": "5.3.0",
+      "archive_sha256": "69cdb34c158ceb288df11e18b4bd39de994f6657d83847bdffdbd7f346754b0f",
+      "repository": "https://github.com/r-efi/r-efi",
+      "declared_license": "MIT OR Apache-2.0 OR LGPL-2.1-or-later",
+      "vcs": {
+        "git": {
+          "sha1": "97b55bed1c2c91dcbf787674849f05337ff80b33"
+        },
+        "path_in_vcs": ""
+      },
+      "evidence": [
+        {
+          "archive_member": "AUTHORS",
+          "member_sha256": "ff92bed461f50338dd703a9ba9aee496a425957873df1d91192776e4bdf5dda7",
+          "matched_lines": [
+            {
+              "line": 1,
+              "text": "LICENSE:"
+            },
+            {
+              "line": 2,
+              "text": "        This project is triple-licensed under the MIT License, the Apache"
+            },
+            {
+              "line": 3,
+              "text": "        License, Version 2.0, and the GNU Lesser General Public License,"
+            },
+            {
+              "line": 11,
+              "text": "        distribute, sublicense, and/or sell copies of the Software, and to"
+            },
+            {
+              "line": 15,
+              "text": "        The above copyright notice and this permission notice shall be included"
+            },
+            {
+              "line": 21,
+              "text": "        IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY"
+            },
+            {
+              "line": 27,
+              "text": "        Licensed under the Apache License, Version 2.0 (the \"License\");"
+            },
+            {
+              "line": 28,
+              "text": "        you may not use this file except in compliance with the License."
+            },
+            {
+              "line": 29,
+              "text": "        You may obtain a copy of the License at"
+            },
+            {
+              "line": 31,
+              "text": "                http://www.apache.org/licenses/LICENSE-2.0"
+            }
+          ]
+        },
+        {
+          "archive_member": "Cargo.toml.orig",
+          "member_sha256": "57b6d9b9a1b6524f6b4dcc1dd24970ac03e6959786a6cfedaec9ba52878b4d3e",
+          "matched_lines": [
+            {
+              "line": 21,
+              "text": "license = \"MIT OR Apache-2.0 OR LGPL-2.1-or-later\""
+            }
+          ]
+        },
+        {
+          "archive_member": "README.md",
+          "member_sha256": "420f65fec3ba2e89d49da51b222d2881d26959037a7b7d3794143db4bd4627b1",
+          "matched_lines": [
+            {
+              "line": 96,
+              "text": "### License:"
+            }
+          ]
+        }
+      ],
+      "source_ids": [],
+      "distribution_clearance": false,
+      "status": "declaration-and-authors-only-license-text-review-open",
+      "next_action": "Pinned repository root has no conventional license text; preserve archived declaration/AUTHORS, verify relevant target reachability and recover applicable full license text without guessing a copyright holder or license choice."
+    },
+    {
+      "name": "r-efi",
+      "version": "6.0.0",
+      "archive_sha256": "f8dcc9c7d52a811697d2151c701e0d08956f92b0e24136cf4cf27b57a6a0d9bf",
+      "repository": "https://github.com/r-efi/r-efi",
+      "declared_license": "MIT OR Apache-2.0 OR LGPL-2.1-or-later",
+      "vcs": {
+        "git": {
+          "sha1": "7e1b0322d31d625f81a5656096330934f9cd835d"
+        },
+        "path_in_vcs": ""
+      },
+      "evidence": [
+        {
+          "archive_member": "AUTHORS",
+          "member_sha256": "d027e91dbc9cdbb2f1190068e498bd6b61cff022b6a032b191021ba658d96111",
+          "matched_lines": [
+            {
+              "line": 1,
+              "text": "LICENSE:"
+            },
+            {
+              "line": 2,
+              "text": "        This project is triple-licensed under the MIT License, the Apache"
+            },
+            {
+              "line": 3,
+              "text": "        License, Version 2.0, and the GNU Lesser General Public License,"
+            },
+            {
+              "line": 11,
+              "text": "        distribute, sublicense, and/or sell copies of the Software, and to"
+            },
+            {
+              "line": 15,
+              "text": "        The above copyright notice and this permission notice shall be included"
+            },
+            {
+              "line": 21,
+              "text": "        IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY"
+            },
+            {
+              "line": 27,
+              "text": "        Licensed under the Apache License, Version 2.0 (the \"License\");"
+            },
+            {
+              "line": 28,
+              "text": "        you may not use this file except in compliance with the License."
+            },
+            {
+              "line": 29,
+              "text": "        You may obtain a copy of the License at"
+            },
+            {
+              "line": 31,
+              "text": "                http://www.apache.org/licenses/LICENSE-2.0"
+            }
+          ]
+        },
+        {
+          "archive_member": "Cargo.toml.orig",
+          "member_sha256": "b8e89c393831c2161b6d390bd40422910ac34f02903ad39edd85ec38d4513fef",
+          "matched_lines": [
+            {
+              "line": 21,
+              "text": "license = \"MIT OR Apache-2.0 OR LGPL-2.1-or-later\""
+            }
+          ]
+        },
+        {
+          "archive_member": "README.md",
+          "member_sha256": "420f65fec3ba2e89d49da51b222d2881d26959037a7b7d3794143db4bd4627b1",
+          "matched_lines": [
+            {
+              "line": 96,
+              "text": "### License:"
+            }
+          ]
+        }
+      ],
+      "source_ids": [],
+      "distribution_clearance": false,
+      "status": "declaration-and-authors-only-license-text-review-open",
+      "next_action": "Pinned repository root has no conventional license text; preserve archived declaration/AUTHORS, verify relevant target reachability and recover applicable full license text without guessing a copyright holder or license choice."
+    },
+    {
+      "name": "selectors",
+      "version": "0.38.0",
+      "archive_sha256": "8adfa1c298912827b8a28b223b3b874357397ae706e6190acd9bf28cee99114d",
+      "repository": "https://github.com/servo/stylo",
+      "declared_license": "MPL-2.0",
+      "vcs": {
+        "git": {
+          "sha1": "572ecba2d1600e7c3d490586692a209faf703baa"
+        },
+        "path_in_vcs": "selectors"
+      },
+      "evidence": [
+        {
+          "archive_member": "Cargo.toml.orig",
+          "member_sha256": "26a19ba53c3dfff3f572e04f72ed224dca7b03a76a8e0593fc48b458ec6ab535",
+          "matched_lines": [
+            {
+              "line": 10,
+              "text": "license = \"MPL-2.0\""
+            }
+          ]
+        },
+        {
+          "archive_member": "lib.rs",
+          "member_sha256": "d54c6e13e9e952dac17d209171df8657e3cae93beaddace4906150cdec8d02e9",
+          "matched_lines": [
+            {
+              "line": 2,
+              "text": " * License, v. 2.0. If a copy of the MPL was not distributed with this"
+            }
+          ]
+        }
+      ],
+      "source_ids": [],
+      "distribution_clearance": false,
+      "status": "archived-mpl-header-source-availability-review-open",
+      "next_action": "Archived lib.rs carries the MPL 2.0 notice and authoritative license URL. Assess target/build distribution and provide applicable MPL notices and corresponding source availability."
+    },
+    {
+      "name": "tauri-plugin",
+      "version": "2.7.2",
+      "archive_sha256": "67fb21a77e8f94e8beb3325e583102488659365af0a3948b7ea244c5b779c291",
+      "repository": "https://github.com/tauri-apps/tauri",
+      "declared_license": "Apache-2.0 OR MIT",
+      "vcs": {
+        "git": {
+          "sha1": "59b63ab500da9859f12d8888c3298bc29bba0b92"
+        },
+        "path_in_vcs": "crates/tauri-plugin"
+      },
+      "evidence": [
+        {
+          "archive_member": "Cargo.toml.orig",
+          "member_sha256": "cb30dc2f52ac90b211120773913ad6622f0254a59a9a57b0733c66abd4bf6e3a",
+          "matched_lines": [
+            {
+              "line": 9,
+              "text": "license.workspace = true"
+            }
+          ]
+        },
+        {
+          "archive_member": "src/lib.rs",
+          "member_sha256": "d150a91db60dd3e3423e631b58a2952fa8f33361a98c007c80728b5f71ad3aac",
+          "matched_lines": [
+            {
+              "line": 1,
+              "text": "// Copyright 2019-2024 Tauri Programme within The Commons Conservancy"
+            },
+            {
+              "line": 2,
+              "text": "// SPDX-License-Identifier: Apache-2.0"
+            },
+            {
+              "line": 3,
+              "text": "// SPDX-License-Identifier: MIT"
+            }
+          ]
+        }
+      ],
+      "source_ids": [
+        12,
+        13,
+        14
+      ],
+      "distribution_clearance": false,
+      "status": "upstream-notice-text-pinned-applicability-review-open",
+      "next_action": "Review applicability and required attribution for this package path at its archived VCS revision, preserve the pinned text in candidate notices, and document any license choice; not automatic clearance."
+    },
+    {
+      "name": "webview2-com",
+      "version": "0.39.1",
+      "archive_sha256": "3f89fca7a704cee10dcb3654c1dbb8941d1783132f1917358af75bec37a7d7e6",
+      "repository": "https://github.com/wravery/webview2-rs",
+      "declared_license": "MIT",
+      "vcs": {
+        "git": {
+          "sha1": "edc2caf886175ccaebe86078c9cfe1ae2a187328"
+        },
+        "path_in_vcs": "crates/webview2-com"
+      },
+      "evidence": [
+        {
+          "archive_member": "Cargo.toml.orig",
+          "member_sha256": "bee8a11a0f7c152ff835ea5ca64bcb5558e8a6079be56eccc4086dddb383288c",
+          "matched_lines": [
+            {
+              "line": 8,
+              "text": "license.workspace = true"
+            }
+          ]
+        }
+      ],
+      "source_ids": [
+        15
+      ],
+      "distribution_clearance": false,
+      "status": "upstream-notice-text-pinned-applicability-review-open",
+      "next_action": "Review applicability and required attribution for this package path at its archived VCS revision, preserve the pinned text in candidate notices, and document any license choice; not automatic clearance."
+    },
+    {
+      "name": "webview2-com-macros",
+      "version": "0.8.1",
+      "archive_sha256": "67a921c1b6914c367b2b823cd4cde6f96beec77d30a939c8199bb377cf9b9b54",
+      "repository": "https://github.com/wravery/webview2-rs",
+      "declared_license": "MIT",
+      "vcs": {
+        "git": {
+          "sha1": "dffa41a8a46d3f5565eefbff2de57d38d399f158"
+        },
+        "path_in_vcs": "crates/callback-macros"
+      },
+      "evidence": [
+        {
+          "archive_member": "Cargo.toml.orig",
+          "member_sha256": "a615e325d5acebc64f6553724028cd5e3639397e534cef107f172540cb78d0fd",
+          "matched_lines": [
+            {
+              "line": 9,
+              "text": "license.workspace = true"
+            }
+          ]
+        }
+      ],
+      "source_ids": [
+        16
+      ],
+      "distribution_clearance": false,
+      "status": "upstream-notice-text-pinned-applicability-review-open",
+      "next_action": "Review applicability and required attribution for this package path at its archived VCS revision, preserve the pinned text in candidate notices, and document any license choice; not automatic clearance."
+    },
+    {
+      "name": "webview2-com-sys",
+      "version": "0.39.1",
+      "archive_sha256": "b3a07132775117d6065853d9d1178157b8c90e228de47129d6bce2c7edebedfb",
+      "repository": "https://github.com/wravery/webview2-rs",
+      "declared_license": "MIT",
+      "vcs": {
+        "git": {
+          "sha1": "edc2caf886175ccaebe86078c9cfe1ae2a187328"
+        },
+        "path_in_vcs": "crates/bindings"
+      },
+      "evidence": [
+        {
+          "archive_member": "Cargo.toml.orig",
+          "member_sha256": "00229c125c597e4f0ddb9e598738ee5b38a9086fd59eea6d2577cdda5f8e5875",
+          "matched_lines": [
+            {
+              "line": 8,
+              "text": "license.workspace = true"
+            }
+          ]
+        }
+      ],
+      "source_ids": [
+        15
+      ],
+      "distribution_clearance": false,
+      "status": "upstream-notice-text-pinned-applicability-review-open",
+      "next_action": "Review applicability and required attribution for this package path at its archived VCS revision, preserve the pinned text in candidate notices, and document any license choice; not automatic clearance."
+    },
+    {
+      "name": "winapi-i686-pc-windows-gnu",
+      "version": "0.4.0",
+      "archive_sha256": "ac3b87c63620426dd9b991e5ce0329eff545bccbbb34f3be09ff6fb6ab51b7b6",
+      "repository": "https://github.com/retep998/winapi-rs",
+      "declared_license": "MIT/Apache-2.0",
+      "vcs": null,
+      "evidence": [
+        {
+          "archive_member": "Cargo.toml.orig",
+          "member_sha256": "5257d6f5283ab052b6af51f578a8c74e14c31deb53a7c6cd9e6fa16135d57eb3",
+          "matched_lines": [
+            {
+              "line": 5,
+              "text": "license = \"MIT/Apache-2.0\""
+            }
+          ]
+        },
+        {
+          "archive_member": "src/lib.rs",
+          "member_sha256": "79212a91f610f8a77aa6ed4cc77212c2531eeb35630388bf07323cc328fcca42",
+          "matched_lines": [
+            {
+              "line": 1,
+              "text": "// Copyright © 2016 winapi-rs developers"
+            },
+            {
+              "line": 2,
+              "text": "// Licensed under the Apache License, Version 2.0"
+            },
+            {
+              "line": 3,
+              "text": "// <LICENSE-APACHE or http://www.apache.org/licenses/LICENSE-2.0> or the MIT license"
+            },
+            {
+              "line": 4,
+              "text": "// <LICENSE-MIT or http://opensource.org/licenses/MIT>, at your option."
+            }
+          ]
+        }
+      ],
+      "source_ids": [],
+      "distribution_clearance": false,
+      "status": "archived-header-without-vcs-pin",
+      "next_action": "Preserve archived license header. No .cargo_vcs_info revision is available; establish release/source identity before retrieving full upstream notices. Do not substitute current default branch."
+    },
+    {
+      "name": "winapi-x86_64-pc-windows-gnu",
+      "version": "0.4.0",
+      "archive_sha256": "712e227841d057c1ee1cd2fb22fa7e5a5461ae8e48fa2ca79ec42cfc1931183f",
+      "repository": "https://github.com/retep998/winapi-rs",
+      "declared_license": "MIT/Apache-2.0",
+      "vcs": null,
+      "evidence": [
+        {
+          "archive_member": "Cargo.toml.orig",
+          "member_sha256": "d158846cdb1259d606bfbeb050e386484cb18f14db41478568114eddb76ec43e",
+          "matched_lines": [
+            {
+              "line": 5,
+              "text": "license = \"MIT/Apache-2.0\""
+            }
+          ]
+        },
+        {
+          "archive_member": "src/lib.rs",
+          "member_sha256": "79212a91f610f8a77aa6ed4cc77212c2531eeb35630388bf07323cc328fcca42",
+          "matched_lines": [
+            {
+              "line": 1,
+              "text": "// Copyright © 2016 winapi-rs developers"
+            },
+            {
+              "line": 2,
+              "text": "// Licensed under the Apache License, Version 2.0"
+            },
+            {
+              "line": 3,
+              "text": "// <LICENSE-APACHE or http://www.apache.org/licenses/LICENSE-2.0> or the MIT license"
+            },
+            {
+              "line": 4,
+              "text": "// <LICENSE-MIT or http://opensource.org/licenses/MIT>, at your option."
+            }
+          ]
+        }
+      ],
+      "source_ids": [],
+      "distribution_clearance": false,
+      "status": "archived-header-without-vcs-pin",
+      "next_action": "Preserve archived license header. No .cargo_vcs_info revision is available; establish release/source identity before retrieving full upstream notices. Do not substitute current default branch."
+    }
+  ],
+  "sources": [
+    {
+      "repository": "https://github.com/dropbox/rust-alloc-no-stdlib",
+      "revision": "0a81fd6928ea3b33c8cd484aa4575d50ffb98012",
+      "upstream_path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/dropbox/rust-alloc-no-stdlib/0a81fd6928ea3b33c8cd484aa4575d50ffb98012/LICENSE",
+      "git_blob": "cd496ba72eb37e83a44958358d1f89a8a28cbc15",
+      "path": "editor-notes/research/native-notice-evidence/cd496ba72eb37e83a44958358d1f89a8a28cbc15.txt",
+      "bytes": 1483,
+      "sha256": "c0c56f26d9c051cac4d200c34c84e7ae9aaa853e01a982a1df08b09931e518ae"
+    },
+    {
+      "repository": "https://github.com/madsmtm/objc2",
+      "revision": "b4167b582b2f75f9a1be75495c41b765344fd03c",
+      "upstream_path": "LICENSE.md",
+      "url": "https://raw.githubusercontent.com/madsmtm/objc2/b4167b582b2f75f9a1be75495c41b765344fd03c/LICENSE.md",
+      "git_blob": "540ae4c81adb5f64a9f61e222b688880da24300e",
+      "path": "editor-notes/research/native-notice-evidence/540ae4c81adb5f64a9f61e222b688880da24300e.txt",
+      "bytes": 1339,
+      "sha256": "7f976f7e9cb2d87df7230606feb932c3f21ac0e664045a775b600046ff850c54"
+    },
+    {
+      "repository": "https://github.com/DoumanAsh/clipboard-win",
+      "revision": "ed27008ae5d1f10cfbb266de039f0fb35fd05a56",
+      "upstream_path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/DoumanAsh/clipboard-win/ed27008ae5d1f10cfbb266de039f0fb35fd05a56/LICENSE",
+      "git_blob": "36b7cd93cdfbac762f5be4c6ce276df2ea6305c2",
+      "path": "editor-notes/research/native-notice-evidence/36b7cd93cdfbac762f5be4c6ce276df2ea6305c2.txt",
+      "bytes": 1338,
+      "sha256": "c9bff75738922193e67fa726fa225535870d2aa1059f91452c411736284ad566"
+    },
+    {
+      "repository": "https://github.com/madsmtm/objc2",
+      "revision": "8852b424193ca41602281b3d7540d7c8ed51e49a",
+      "upstream_path": "LICENSE.md",
+      "url": "https://raw.githubusercontent.com/madsmtm/objc2/8852b424193ca41602281b3d7540d7c8ed51e49a/LICENSE.md",
+      "git_blob": "540ae4c81adb5f64a9f61e222b688880da24300e",
+      "path": "editor-notes/research/native-notice-evidence/540ae4c81adb5f64a9f61e222b688880da24300e.txt",
+      "bytes": 1339,
+      "sha256": "7f976f7e9cb2d87df7230606feb932c3f21ac0e664045a775b600046ff850c54"
+    },
+    {
+      "repository": "https://github.com/OpenByteDev/dlopen2",
+      "revision": "cc80e4a0a90d499b677fdf7743699b4b3a43a989",
+      "upstream_path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/OpenByteDev/dlopen2/cc80e4a0a90d499b677fdf7743699b4b3a43a989/LICENSE",
+      "git_blob": "d38093a7a564c64ad15e459f2e0a1f86a443c8b3",
+      "path": "editor-notes/research/native-notice-evidence/d38093a7a564c64ad15e459f2e0a1f86a443c8b3.txt",
+      "bytes": 1184,
+      "sha256": "39fa265207450e77c62e90c5594a06c085b655d8374c7ced4bf7894b6bd95dd2"
+    },
+    {
+      "repository": "https://github.com/jni-rs/jni-sys",
+      "revision": "64d77b7a5f119d7b55b4e2c169a4668067ff59e6",
+      "upstream_path": "LICENSE-APACHE",
+      "url": "https://raw.githubusercontent.com/jni-rs/jni-sys/64d77b7a5f119d7b55b4e2c169a4668067ff59e6/LICENSE-APACHE",
+      "git_blob": "8f71f43fee3f78649d238238cbde51e6d7055c82",
+      "path": "editor-notes/research/native-notice-evidence/8f71f43fee3f78649d238238cbde51e6d7055c82.txt",
+      "bytes": 11358,
+      "sha256": "c6596eb7be8581c18be736c846fb9173b69eccf6ef94c5135893ec56bd92ba08"
+    },
+    {
+      "repository": "https://github.com/jni-rs/jni-sys",
+      "revision": "64d77b7a5f119d7b55b4e2c169a4668067ff59e6",
+      "upstream_path": "LICENSE-MIT",
+      "url": "https://raw.githubusercontent.com/jni-rs/jni-sys/64d77b7a5f119d7b55b4e2c169a4668067ff59e6/LICENSE-MIT",
+      "git_blob": "2008402b8a1299cf118ea38e02116bfcc72e53c3",
+      "path": "editor-notes/research/native-notice-evidence/2008402b8a1299cf118ea38e02116bfcc72e53c3.txt",
+      "bytes": 1071,
+      "sha256": "1d85bd754b04ceec93e98e890edd1fa3c6a22e81bcb32135806beeccefa51cd1"
+    },
+    {
+      "repository": "https://github.com/rust-mobile/ndk",
+      "revision": "49bbbba16c58ff63cb8a0ad0eca5a9fb7ecaec25",
+      "upstream_path": "LICENSE-APACHE",
+      "url": "https://raw.githubusercontent.com/rust-mobile/ndk/49bbbba16c58ff63cb8a0ad0eca5a9fb7ecaec25/LICENSE-APACHE",
+      "git_blob": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+      "path": "editor-notes/research/native-notice-evidence/261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64.txt",
+      "bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    {
+      "repository": "https://github.com/rust-mobile/ndk",
+      "revision": "49bbbba16c58ff63cb8a0ad0eca5a9fb7ecaec25",
+      "upstream_path": "LICENSE-MIT",
+      "url": "https://raw.githubusercontent.com/rust-mobile/ndk/49bbbba16c58ff63cb8a0ad0eca5a9fb7ecaec25/LICENSE-MIT",
+      "git_blob": "9cf106272ac3b56b0c4c80218e8fc10a664ca5f4",
+      "path": "editor-notes/research/native-notice-evidence/9cf106272ac3b56b0c4c80218e8fc10a664ca5f4.txt",
+      "bytes": 1036,
+      "sha256": "508a77d2e7b51d98adeed32648ad124b7b30241a8e70b2e72c99f92d8e5874d1"
+    },
+    {
+      "repository": "https://github.com/madsmtm/objc2",
+      "revision": "d7d2fa23ceaa5e6096c923b081040e5d81b3b9df",
+      "upstream_path": "LICENSE.md",
+      "url": "https://raw.githubusercontent.com/madsmtm/objc2/d7d2fa23ceaa5e6096c923b081040e5d81b3b9df/LICENSE.md",
+      "git_blob": "540ae4c81adb5f64a9f61e222b688880da24300e",
+      "path": "editor-notes/research/native-notice-evidence/540ae4c81adb5f64a9f61e222b688880da24300e.txt",
+      "bytes": 1339,
+      "sha256": "7f976f7e9cb2d87df7230606feb932c3f21ac0e664045a775b600046ff850c54"
+    },
+    {
+      "repository": "https://github.com/madsmtm/objc2",
+      "revision": "7b1abfd750a2cacaea71d6a56ecfb83cb7de560b",
+      "upstream_path": "LICENSE.md",
+      "url": "https://raw.githubusercontent.com/madsmtm/objc2/7b1abfd750a2cacaea71d6a56ecfb83cb7de560b/LICENSE.md",
+      "git_blob": "540ae4c81adb5f64a9f61e222b688880da24300e",
+      "path": "editor-notes/research/native-notice-evidence/540ae4c81adb5f64a9f61e222b688880da24300e.txt",
+      "bytes": 1339,
+      "sha256": "7f976f7e9cb2d87df7230606feb932c3f21ac0e664045a775b600046ff850c54"
+    },
+    {
+      "repository": "https://github.com/madsmtm/objc2",
+      "revision": "8d214f5477365ffcbcbb7de058c86ed9a518efb7",
+      "upstream_path": "LICENSE.md",
+      "url": "https://raw.githubusercontent.com/madsmtm/objc2/8d214f5477365ffcbcbb7de058c86ed9a518efb7/LICENSE.md",
+      "git_blob": "540ae4c81adb5f64a9f61e222b688880da24300e",
+      "path": "editor-notes/research/native-notice-evidence/540ae4c81adb5f64a9f61e222b688880da24300e.txt",
+      "bytes": 1339,
+      "sha256": "7f976f7e9cb2d87df7230606feb932c3f21ac0e664045a775b600046ff850c54"
+    },
+    {
+      "repository": "https://github.com/tauri-apps/tauri",
+      "revision": "59b63ab500da9859f12d8888c3298bc29bba0b92",
+      "upstream_path": "LICENSE-APACHE-2.0",
+      "url": "https://raw.githubusercontent.com/tauri-apps/tauri/59b63ab500da9859f12d8888c3298bc29bba0b92/LICENSE-APACHE-2.0",
+      "git_blob": "f433b1a53f5b830a205fd2df78e2b34974656c7b",
+      "path": "editor-notes/research/native-notice-evidence/f433b1a53f5b830a205fd2df78e2b34974656c7b.txt",
+      "bytes": 10174,
+      "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594"
+    },
+    {
+      "repository": "https://github.com/tauri-apps/tauri",
+      "revision": "59b63ab500da9859f12d8888c3298bc29bba0b92",
+      "upstream_path": "LICENSE-MIT",
+      "url": "https://raw.githubusercontent.com/tauri-apps/tauri/59b63ab500da9859f12d8888c3298bc29bba0b92/LICENSE-MIT",
+      "git_blob": "b08530d59433b3060f4fad8751ac2610c0b0aff3",
+      "path": "editor-notes/research/native-notice-evidence/b08530d59433b3060f4fad8751ac2610c0b0aff3.txt",
+      "bytes": 1090,
+      "sha256": "9dd42ea92cff2ede5cd477cbfcce051b2d0115c0ac7f368ee88cb545055dff1d"
+    },
+    {
+      "repository": "https://github.com/tauri-apps/tauri",
+      "revision": "59b63ab500da9859f12d8888c3298bc29bba0b92",
+      "upstream_path": "LICENSE.spdx",
+      "url": "https://raw.githubusercontent.com/tauri-apps/tauri/59b63ab500da9859f12d8888c3298bc29bba0b92/LICENSE.spdx",
+      "git_blob": "4080281f12fc44a831babb7bb4f531aeb070078b",
+      "path": "editor-notes/research/native-notice-evidence/4080281f12fc44a831babb7bb4f531aeb070078b.txt",
+      "bytes": 889,
+      "sha256": "5e834fe9788c524210deda859c46a550ffa5aa0cba9ea0572f0d81120e97c008"
+    },
+    {
+      "repository": "https://github.com/wravery/webview2-rs",
+      "revision": "edc2caf886175ccaebe86078c9cfe1ae2a187328",
+      "upstream_path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/wravery/webview2-rs/edc2caf886175ccaebe86078c9cfe1ae2a187328/LICENSE",
+      "git_blob": "de9a7e660e173136b351982a34f715af424ff812",
+      "path": "editor-notes/research/native-notice-evidence/de9a7e660e173136b351982a34f715af424ff812.txt",
+      "bytes": 1067,
+      "sha256": "0dcf41516e608bbcb6cdc5229feb7b86fe4a643b85e7df251133c93408fdac73"
+    },
+    {
+      "repository": "https://github.com/wravery/webview2-rs",
+      "revision": "dffa41a8a46d3f5565eefbff2de57d38d399f158",
+      "upstream_path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/wravery/webview2-rs/dffa41a8a46d3f5565eefbff2de57d38d399f158/LICENSE",
+      "git_blob": "de9a7e660e173136b351982a34f715af424ff812",
+      "path": "editor-notes/research/native-notice-evidence/de9a7e660e173136b351982a34f715af424ff812.txt",
+      "bytes": 1067,
+      "sha256": "0dcf41516e608bbcb6cdc5229feb7b86fe4a643b85e7df251133c93408fdac73"
+    }
+  ],
+  "schema_version": 1,
+  "lock_sha256": "a7b91d8424dc32d6abd04e0e744dd4b583fd103d0c8883f8f513e063219ad498",
+  "public_release_approved": false,
+  "scope": "Evidence triage for all 36 conventional-notice gaps. Original archive inventory remains unchanged; evidence discovery does not close distribution obligations."
+}

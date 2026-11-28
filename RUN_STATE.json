@@ -1,17 +1,17 @@
 {
   "version": 1,
-  "status": "running",
-  "owner": "reader-native-source-bundle-20261128",
+  "status": "idle",
+  "owner": null,
   "branch": "project/parallel-reader",
-  "next_milestone": "2.0-native-candidate-notice-source-bundle-and-shipped-file-assessment",
+  "next_milestone": "2.0-native-artifact-shipped-file-assessment-and-notice-integration",
   "last_run": {
-    "owner": "reader-native-target-rights-20261128",
-    "milestone": "2.0-target-graphs-and-source-availability-plan",
-    "code_commit": "5c1151318004c7d83e76237296ebe5f4be4929a5",
-    "verification_run": 46122082489,
-    "project_run": 46122082439,
-    "verification_status": "Five target graphs measured against exact source archive identities; six retained warning packages absent in these graphs; all five MPL packages present in normal graphs; 18 fixture tests and reader/quiz browser regressions passed. Actual shipped files/source obligations and native GUI/device checks remain open.",
-    "report": "change-logs/reports/native-20-target-rights-20261128.json",
+    "owner": "reader-native-source-bundle-20261128",
+    "milestone": "2.0-reproducible-native-candidate-source-bundle",
+    "code_commit": "6c4497be409ea6a15ea052915d4d104301fd180c",
+    "verification_run": 46126650175,
+    "project_run": 46126650173,
+    "verification_status": "Two byte-identical 73,659,045-byte/520-file source-review ZIPs contain all 482 exact original dependency archives and pinned notice/target evidence; all 25 fixtures and reader/quiz browser regressions pass. Native installer contents/product integration and durable public source availability remain open.",
+    "report": "change-logs/reports/native-20-source-bundle-20261128.json",
     "release_ready": false
   },
   "rule": "Acquire by expected-head fast-forward lease; never overwrite an active owner or treat elapsed time as completion. Only the owner releases.",
@@ -23,16 +23,16 @@
     "status": "folder prepared; package not yet received or verified"
   },
   "last_successful_run": {
-    "owner": "reader-native-target-rights-20261128",
-    "milestone": "2.0-target-graphs-and-source-availability-plan",
-    "code_commit": "5c1151318004c7d83e76237296ebe5f4be4929a5",
-    "verification_run": 46122082489,
-    "project_run": 46122082439,
-    "verification_status": "Five target graphs measured against exact source archive identities; six retained warning packages absent in these graphs; all five MPL packages present in normal graphs; 18 fixture tests and reader/quiz browser regressions passed. Actual shipped files/source obligations and native GUI/device checks remain open.",
-    "report": "change-logs/reports/native-20-target-rights-20261128.json",
+    "owner": "reader-native-source-bundle-20261128",
+    "milestone": "2.0-reproducible-native-candidate-source-bundle",
+    "code_commit": "6c4497be409ea6a15ea052915d4d104301fd180c",
+    "verification_run": 46126650175,
+    "project_run": 46126650173,
+    "verification_status": "Two byte-identical 73,659,045-byte/520-file source-review ZIPs contain all 482 exact original dependency archives and pinned notice/target evidence; all 25 fixtures and reader/quiz browser regressions pass. Native installer contents/product integration and durable public source availability remain open.",
+    "report": "change-logs/reports/native-20-source-bundle-20261128.json",
     "release_ready": false
   },
-  "expected_head": "68aff6d7823715b7e0dffa150494253f5098a689",
+  "expected_head": "6c4497be409ea6a15ea052915d4d104301fd180c",
   "recovered_run": {
     "owner": "reader-native-rights-20261110-manual",
     "reason": "User explicitly authorized closing interrupted run and integrating supplied 1.29 package on 2026-11-27; no prior completion inferred."

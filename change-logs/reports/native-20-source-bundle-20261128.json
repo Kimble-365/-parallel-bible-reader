@@ -1,0 +1,111 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-28",
+  "source_commit": "6c4497be409ea6a15ea052915d4d104301fd180c",
+  "base_commit": "68aff6d7823715b7e0dffa150494253f5098a689",
+  "guard_commit": "b0c13934006601393d447976d1c92e6d3416fa22",
+  "branch": "project/parallel-reader",
+  "owner": "reader-native-source-bundle-20261128",
+  "milestone": "2.0-reproducible-native-candidate-source-bundle",
+  "release_ready": false,
+  "source_bundle": {
+    "source_commit": "6c4497be409ea6a15ea052915d4d104301fd180c",
+    "archive_bytes": 73659045,
+    "sha256": "daa01dbe6dc7f8c33cd825db767e63f8ec528cd4e3e291a3fa3262a896d3f7c6",
+    "files": 520,
+    "external_archives": 482,
+    "public_release_approved": false
+  },
+  "archive_inventory": {
+    "external_archives": 482,
+    "archive_bytes": 71287316,
+    "metadata_packages": 483,
+    "lock_sha256": "a7b91d8424dc32d6abd04e0e744dd4b583fd103d0c8883f8f513e063219ad498",
+    "all_original_checksums_verified": true,
+    "notice_files": 798,
+    "unique_notice_texts": 270,
+    "original_conventional_notice_gaps": 36
+  },
+  "contents": [
+    "All 482 locked external .crate archives verbatim, not just source URLs and not rewritten/extracted source copies.",
+    "Archived notice text bundle, full package/version/archive/VCS provenance and original checksum lists.",
+    "All five requested target graphs with package/source identities and their checksum files.",
+    "36-case upstream review register and 12 unique exact-revision licence/guidance snapshots.",
+    "Eight selected native host source/configuration/project licence files, README scope/limitations and per-file BUNDLE-MANIFEST.json."
+  ],
+  "verification": {
+    "inventory_run": 46126650175,
+    "inventory_job": 140922607440,
+    "result": "success; actual logs inspected",
+    "fixture_tests": {
+      "archive": 7,
+      "pinned_evidence": 6,
+      "target_graph": 5,
+      "source_bundle": 7,
+      "total": 25
+    },
+    "local_new_tests": "7 source bundle fixtures passed",
+    "reproducibility": "Two actual ZIPs byte-identical; fixed timestamp/member order/permissions and ZIP_STORED. Each ZIP independently opened and all manifest entries byte-count/SHA-256 verified; duplicate/extra/missing/unsafe members rejected.",
+    "independent_input_checks": "Complete external metadata/lock identity set, fresh pinned review, per-crate original archive checksum, current source/lock and target-graph identities checked before packaging.",
+    "source_zip_shipped_file_inventory_complete": true,
+    "native_installer_shipped_file_assessment_complete": false,
+    "native_scope_run": 46126650176,
+    "native_scope": "Scope passes; all unchanged native build/audit/package jobs skipped. No new platform build/runtime execution claim.",
+    "project_run": 46126650173,
+    "project_job": 140922674143,
+    "project_result": "success; actual logs inspected: five quiz tests, independent host/two phone-size clients/PIN/reconnect/offline, original baseline/incoming corpus/source hashes and inherited reader/Notes/fonts/actions/highlights/PNG/Compare/prayer regressions"
+  },
+  "artifacts": [
+    {
+      "id": 15255199795,
+      "node_id": "MDg6QXJ0aWZhY3QxNTI1NTE5OTc5NQ==",
+      "name": "reader-2.0-dependency-source-review",
+      "size_in_bytes": 73659267,
+      "url": "https://api.github.com/repos/Kimble-365/-parallel-bible-reader/actions/artifacts/15255199795",
+      "archive_download_url": "https://api.github.com/repos/Kimble-365/-parallel-bible-reader/actions/artifacts/15255199795/zip",
+      "expired": false,
+      "digest": "sha256:fa2d2ccbc19d783ce6d172a41ec52582ea44fee35e87a49bab8fddcd42907b64",
+      "created_at": "2026-11-28T08:37:51Z",
+      "updated_at": "2026-11-28T08:37:51Z",
+      "expires_at": "2026-12-28T08:37:48Z",
+      "workflow_run": {
+        "id": 46126650175,
+        "repository_id": 1429613748,
+        "head_repository_id": 1429613748,
+        "head_branch": "project/parallel-reader",
+        "head_sha": "6c4497be409ea6a15ea052915d4d104301fd180c"
+      }
+    },
+    {
+      "id": 15255044889,
+      "node_id": "MDg6QXJ0aWZhY3QxNTI1NTA0NDg4OQ==",
+      "name": "reader-2.0-native-source-notice-inventory",
+      "size_in_bytes": 281070,
+      "url": "https://api.github.com/repos/Kimble-365/-parallel-bible-reader/actions/artifacts/15255044889",
+      "archive_download_url": "https://api.github.com/repos/Kimble-365/-parallel-bible-reader/actions/artifacts/15255044889/zip",
+      "expired": false,
+      "digest": "sha256:8e45bcc6a38d6497cd317fc81cf9d3e34d4a558311f9da485f63205b59ed487b",
+      "created_at": "2026-11-28T08:37:53Z",
+      "updated_at": "2026-11-28T08:37:53Z",
+      "expires_at": "2026-12-28T08:37:51Z",
+      "workflow_run": {
+        "id": 46126650175,
+        "repository_id": 1429613748,
+        "head_repository_id": 1429613748,
+        "head_branch": "project/parallel-reader",
+        "head_sha": "6c4497be409ea6a15ea052915d4d104301fd180c"
+      }
+    }
+  ],
+  "documentation": "editor-notes/research/native-dependency-source-bundle-20.md",
+  "limits": [
+    "Dependency-source/notice review sidecar, not a complete buildable application or SDK/font/Scripture/npm/system source/notice distribution.",
+    "No product notice integration or linked/generated/native installer/app/APK/simulator content assessment completed.",
+    "Original conventional gaps, upstream SDK questions and applicable licence-choice/source-availability requirements remain open; no clearance flag set.",
+    "All original Cargo sources are conservatively included regardless of target/build-only reachability; binary inclusion is not inferred.",
+    "A 30-day CI artifact is temporary review storage, not a completed durable public source-availability mechanism.",
+    "Physical native GUI/clipboard/export/share, phone/device usability, signing and public distribution remain incomplete/unapproved."
+  ],
+  "preservation": "Only source-bundle tooling/read-only CI/research documentation/progress and own guard changed. No source corpus/edition/rights original, 84 baseline, retained 1.28/1.29 runtime, native host code/lock, user store, canonical feed or separately owned work modified. No merge/deploy/signing/public Release/access/formal approval.",
+  "next_milestone": "2.0-native-artifact-shipped-file-assessment-and-notice-integration"
+}

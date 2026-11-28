@@ -1,17 +1,17 @@
 {
   "version": 1,
-  "status": "running",
-  "owner": "reader-dependency-verification-20261128",
+  "status": "idle",
+  "owner": null,
   "branch": "project/parallel-reader",
-  "next_milestone": "2.0-verify-corrected-dependency-regression-test-and-native-builds",
+  "next_milestone": "2.0-native-runtime-export-and-distribution-audit",
   "last_run": {
-    "owner": "reader-dependency-upgrade-20261128",
-    "milestone": "2.0-remediate-dependency-audit-and-verify-quiz-builds",
+    "owner": "reader-dependency-verification-20261128",
+    "milestone": "2.0-verify-corrected-dependency-regression-test-and-native-builds",
     "code_commit": "0ce32873c907e56709ae4df358ebb30e9390a656",
-    "dependency_commit": "1a5f9e9068beec0bd8a8645dfd029cdccb44b10d",
-    "verification_run": 46103539579,
-    "verification_status": "Audit/project/browser and Android/iOS-simulator/Intel-Mac builds passed at dependency commit. Windows/Apple Silicon failed test-only E0599; corrected API at code_commit, new CI not observed. Verification incomplete.",
-    "report": "change-logs/reports/native-20-dependency-upgrade-20261128.json",
+    "verification_status": "Corrected Rust tests, all five native builds, audit, three browser engines, reproducible 200-edition package and quiz/project checks passed; six warnings and native runtime/distribution gaps remain.",
+    "verification_run": 46104922035,
+    "project_run": 46104921991,
+    "report": "change-logs/reports/native-20-dependency-verification-20261128.json",
     "release_ready": false
   },
   "rule": "Acquire by expected-head fast-forward lease; never overwrite an active owner or treat elapsed time as completion. Only the owner releases.",
@@ -23,16 +23,16 @@
     "status": "folder prepared; package not yet received or verified"
   },
   "last_successful_run": {
-    "owner": "reader-20-readiness-quiz-20261127",
-    "milestone": "2.0-release-readiness-and-scripture-quiz",
-    "code_commit": "bdef9401f523cb1a7f72ca9db64cbc32613e6f61",
-    "verification_status": "Quiz source/state/browser and inherited project CI passed; public release blocked by failed dependency audit and runtime/distribution gaps",
-    "verification_run": 46098825398,
-    "pending_native_review_run": 46098825419,
-    "report": "change-logs/reports/reader-20-readiness-quiz.json",
+    "owner": "reader-dependency-verification-20261128",
+    "milestone": "2.0-verify-corrected-dependency-regression-test-and-native-builds",
+    "code_commit": "0ce32873c907e56709ae4df358ebb30e9390a656",
+    "verification_status": "Corrected Rust tests, all five native builds, audit, three browser engines, reproducible 200-edition package and quiz/project checks passed; six warnings and native runtime/distribution gaps remain.",
+    "verification_run": 46104922035,
+    "project_run": 46104921991,
+    "report": "change-logs/reports/native-20-dependency-verification-20261128.json",
     "release_ready": false
   },
-  "expected_head": "c4ee3b3ade1da29b8b4093dae5f93d0e3bbf8bba",
+  "expected_head": "a298cc317fb791683294c1c5276b05d4e7321b9b",
   "recovered_run": {
     "owner": "reader-native-rights-20261110-manual",
     "reason": "User explicitly authorized closing interrupted run and integrating supplied 1.29 package on 2026-11-27; no prior completion inferred."

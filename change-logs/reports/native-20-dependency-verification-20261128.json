@@ -1,0 +1,1072 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-28",
+  "milestone": "2.0-verify-corrected-dependency-regression-test-and-native-builds",
+  "owner": "reader-dependency-verification-20261128",
+  "source_commit": "0ce32873c907e56709ae4df358ebb30e9390a656",
+  "branch": "project/parallel-reader",
+  "release_ready": false,
+  "result": "Completed corrected dependency build/test verification; supersedes pending verification in native-20-dependency-upgrade-20261128.json, not its historical failed-run evidence.",
+  "project_run": 46104921991,
+  "native_run": 46104922035,
+  "jobs": [
+    {
+      "id": 140855403185,
+      "name": "scope",
+      "status": "completed",
+      "conclusion": "success",
+      "html_url": "https://github.com/Kimble-365/-parallel-bible-reader/actions/runs/46104922035/job/140855403185",
+      "steps": [
+        {
+          "name": "Set up job",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run actions/checkout@v4",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run python -m pip install pyyaml",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run python tools/local/native_ci_scope_20.py",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Post Run actions/checkout@v4",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Complete job",
+          "status": "completed",
+          "conclusion": "success"
+        }
+      ]
+    },
+    {
+      "id": 140855496674,
+      "name": "android",
+      "status": "completed",
+      "conclusion": "success",
+      "html_url": "https://github.com/Kimble-365/-parallel-bible-reader/actions/runs/46104922035/job/140855496674",
+      "steps": [
+        {
+          "name": "Set up job",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run actions/checkout@v4",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run actions/setup-node@v4",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run actions/setup-java@v4",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run dtolnay/rust-toolchain@master",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run android-actions/setup-android@v3",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run sdkmanager 'ndk;27.2.12479018' 'platforms;android-35' 'build-tools;35.0.0'",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run echo \"NDK_HOME=$ANDROID_HOME/ndk/27.2.12479018\" >> \"$GITHUB_ENV\"",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run npm ci --ignore-scripts",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run npm audit --audit-level=high",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run npm run tauri -- icon ../../releases/v2.0/icons/icon-512.png",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run npm run tauri -- android init --ci",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run npm run tauri -- android build --debug --apk --target aarch64 --ci",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run actions/upload-artifact@v4",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Post Run actions/setup-java@v4",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Post Run actions/setup-node@v4",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Post Run actions/checkout@v4",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Complete job",
+          "status": "completed",
+          "conclusion": "success"
+        }
+      ]
+    },
+    {
+      "id": 140855496684,
+      "name": "ios",
+      "status": "completed",
+      "conclusion": "success",
+      "html_url": "https://github.com/Kimble-365/-parallel-bible-reader/actions/runs/46104922035/job/140855496684",
+      "steps": [
+        {
+          "name": "Set up job",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run actions/checkout@v4",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run actions/setup-node@v4",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run dtolnay/rust-toolchain@master",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run command -v xcodegen || brew install xcodegen",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run npm ci --ignore-scripts",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run npm audit --audit-level=high",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run npm run tauri -- icon ../../releases/v2.0/icons/icon-512.png",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run npm run tauri -- ios init --ci",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run npm run tauri -- ios build --debug --target aarch64-sim --ci",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Preserve simulator app",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run actions/upload-artifact@v4",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Post Run actions/setup-node@v4",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Post Run actions/checkout@v4",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Complete job",
+          "status": "completed",
+          "conclusion": "success"
+        }
+      ]
+    },
+    {
+      "id": 140855496698,
+      "name": "desktop (windows-latest, x86_64-pc-windows-msvc, nsis)",
+      "status": "completed",
+      "conclusion": "success",
+      "html_url": "https://github.com/Kimble-365/-parallel-bible-reader/actions/runs/46104922035/job/140855496698",
+      "steps": [
+        {
+          "name": "Set up job",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run actions/checkout@v4",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run actions/setup-node@v4",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run actions/setup-python@v5",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run dtolnay/rust-toolchain@master",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run npm ci --ignore-scripts",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run npm audit --audit-level=high",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run npm run tauri -- icon ../../releases/v2.0/icons/icon-512.png",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run python ../../tools/local/prepare_native_20.py",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run cargo fmt --manifest-path src-tauri/Cargo.toml -- --check",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Inspect all development tools with PowerShell 7",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run xcodebuild -version",
+          "status": "completed",
+          "conclusion": "skipped"
+        },
+        {
+          "name": "Run cargo clippy --locked --manifest-path src-tauri/Cargo.toml --lib --target x86_64-pc-windows-msvc -- -D warnings",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run cargo test --locked --manifest-path src-tauri/Cargo.toml --lib --target x86_64-pc-windows-msvc",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run npm run tauri -- build --ci --debug --target x86_64-pc-windows-msvc --bundles nsis --no-sign",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Preserve Mac application permissions and symlinks",
+          "status": "completed",
+          "conclusion": "skipped"
+        },
+        {
+          "name": "Run actions/upload-artifact@v4",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Post Run actions/setup-python@v5",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Post Run actions/setup-node@v4",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Post Run actions/checkout@v4",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Complete job",
+          "status": "completed",
+          "conclusion": "success"
+        }
+      ]
+    },
+    {
+      "id": 140855496712,
+      "name": "reader",
+      "status": "completed",
+      "conclusion": "success",
+      "html_url": "https://github.com/Kimble-365/-parallel-bible-reader/actions/runs/46104922035/job/140855496712",
+      "steps": [
+        {
+          "name": "Set up job",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run actions/checkout@v4",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run actions/setup-python@v5",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run actions/setup-node@v4",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run python -m pip install playwright lxml",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run python -m playwright install --with-deps chromium firefox webkit",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run sudo apt-get update && sudo apt-get install -y sqlite3",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run python tests/toolchain_20.py",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run python tests/browser_engines_20.py",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run python tests/native_20.py",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run sudo ln -sf /usr/bin/google-chrome /usr/bin/chromium",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run node tests/native_20.cjs",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run node tests/hebrew_reading.cjs",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run python tests/hebrew_reading.py",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run python tests/release_static_121.py",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run python tests/reader_119.py",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run python tests/package_20.py --out \"/home/runner/work/_temp/reader-2.0\" --commit \"0ce32873c907e56709ae4df358ebb30e9390a656\"",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run python tools/local/export_reading_volumes.py --out \"/home/runner/work/_temp/reader-2.0/reading-volumes\" --commit \"0ce32873c907e56709ae4df358ebb30e9390a656\"",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run actions/upload-artifact@v4",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Post Run actions/setup-node@v4",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Post Run actions/setup-python@v5",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Post Run actions/checkout@v4",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Complete job",
+          "status": "completed",
+          "conclusion": "success"
+        }
+      ]
+    },
+    {
+      "id": 140855496713,
+      "name": "dependency-audit",
+      "status": "completed",
+      "conclusion": "success",
+      "html_url": "https://github.com/Kimble-365/-parallel-bible-reader/actions/runs/46104922035/job/140855496713",
+      "steps": [
+        {
+          "name": "Set up job",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run actions/checkout@v4",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run dtolnay/rust-toolchain@master",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run cargo install cargo-audit --locked --version 0.22.2",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Inspect patched dependencies on all requested targets",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run cargo audit --file apps/native-20/src-tauri/Cargo.lock",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Post Run actions/checkout@v4",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Complete job",
+          "status": "completed",
+          "conclusion": "success"
+        }
+      ]
+    },
+    {
+      "id": 140855496720,
+      "name": "desktop (macos-15, x86_64-apple-darwin, app)",
+      "status": "completed",
+      "conclusion": "success",
+      "html_url": "https://github.com/Kimble-365/-parallel-bible-reader/actions/runs/46104922035/job/140855496720",
+      "steps": [
+        {
+          "name": "Set up job",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run actions/checkout@v4",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run actions/setup-node@v4",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run actions/setup-python@v5",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run dtolnay/rust-toolchain@master",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run npm ci --ignore-scripts",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run npm audit --audit-level=high",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run npm run tauri -- icon ../../releases/v2.0/icons/icon-512.png",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run python ../../tools/local/prepare_native_20.py",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run cargo fmt --manifest-path src-tauri/Cargo.toml -- --check",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Inspect all development tools with PowerShell 7",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run xcodebuild -version",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run cargo clippy --locked --manifest-path src-tauri/Cargo.toml --lib --target x86_64-apple-darwin -- -D warnings",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run cargo test --locked --manifest-path src-tauri/Cargo.toml --lib --target x86_64-apple-darwin",
+          "status": "completed",
+          "conclusion": "skipped"
+        },
+        {
+          "name": "Run npm run tauri -- build --ci --debug --target x86_64-apple-darwin --bundles app --no-sign",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Preserve Mac application permissions and symlinks",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run actions/upload-artifact@v4",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Post Run actions/setup-python@v5",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Post Run actions/setup-node@v4",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Post Run actions/checkout@v4",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Complete job",
+          "status": "completed",
+          "conclusion": "success"
+        }
+      ]
+    },
+    {
+      "id": 140855496874,
+      "name": "desktop (macos-15, aarch64-apple-darwin, app)",
+      "status": "completed",
+      "conclusion": "success",
+      "html_url": "https://github.com/Kimble-365/-parallel-bible-reader/actions/runs/46104922035/job/140855496874",
+      "steps": [
+        {
+          "name": "Set up job",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run actions/checkout@v4",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run actions/setup-node@v4",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run actions/setup-python@v5",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run dtolnay/rust-toolchain@master",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run npm ci --ignore-scripts",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run npm audit --audit-level=high",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run npm run tauri -- icon ../../releases/v2.0/icons/icon-512.png",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run python ../../tools/local/prepare_native_20.py",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run cargo fmt --manifest-path src-tauri/Cargo.toml -- --check",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Inspect all development tools with PowerShell 7",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run xcodebuild -version",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run cargo clippy --locked --manifest-path src-tauri/Cargo.toml --lib --target aarch64-apple-darwin -- -D warnings",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run cargo test --locked --manifest-path src-tauri/Cargo.toml --lib --target aarch64-apple-darwin",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run npm run tauri -- build --ci --debug --target aarch64-apple-darwin --bundles app --no-sign",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Preserve Mac application permissions and symlinks",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run actions/upload-artifact@v4",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Post Run actions/setup-python@v5",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Post Run actions/setup-node@v4",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Post Run actions/checkout@v4",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Complete job",
+          "status": "completed",
+          "conclusion": "success"
+        }
+      ]
+    },
+    {
+      "id": 140855414515,
+      "name": "discovery",
+      "status": "completed",
+      "conclusion": "success",
+      "html_url": "https://github.com/Kimble-365/-parallel-bible-reader/actions/runs/46104921991/job/140855414515",
+      "steps": [
+        {
+          "name": "Set up job",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run actions/checkout@v4",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run actions/setup-python@v5",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run actions/setup-node@v4",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run python -m pip install playwright lxml",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run sudo ln -sf /usr/bin/google-chrome /usr/bin/chromium",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run node tests/directory_discovery.cjs",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run python tests/directory_discovery.py",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run python tests/release_static_121.py",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Verify 1.28 reading fonts and inherited reading",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Verify Scripture Quiz and independent live clients",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Verify supplied 1.29 editions in maintained 2.0 reader",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Verify Hebrew source formatting and reading volumes",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Verify KR33/38 formatting and quotation paths",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Verify 1.28 verse actions",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Verify 1.28 verse images and comparison",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Verify 1.28 introduction and prayer resources",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Detect package input changes",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Build and verify final 1.28 package",
+          "status": "completed",
+          "conclusion": "skipped"
+        },
+        {
+          "name": "Retain final 1.28 review ZIP and reports",
+          "status": "completed",
+          "conclusion": "skipped"
+        },
+        {
+          "name": "Post Run actions/setup-node@v4",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Post Run actions/setup-python@v5",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Post Run actions/checkout@v4",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Complete job",
+          "status": "completed",
+          "conclusion": "success"
+        }
+      ]
+    }
+  ],
+  "rust_tests": {
+    "targets": [
+      "x86_64-pc-windows-msvc",
+      "aarch64-apple-darwin"
+    ],
+    "each": {
+      "passed": 3,
+      "failed": 0,
+      "ignored": 0
+    },
+    "names": [
+      "exports_cannot_escape_their_folder",
+      "links_cannot_execute_local_files_or_credentials",
+      "nested_blob_origins_are_bounded_and_standard"
+    ],
+    "intel_mac": "Build and Clippy passed; lib unit-test execution intentionally skipped for cross-architecture runner by existing workflow."
+  },
+  "audit": {
+    "result": "success",
+    "packages": 483,
+    "versions": {
+      "cookie": "0.18.3",
+      "url": "2.5.9",
+      "form_urlencoded": "1.2.3"
+    },
+    "fixed_advisories": [
+      "RUSTSEC-2026-0592",
+      "RUSTSEC-2026-0594"
+    ],
+    "remaining_warnings": [
+      "chrono RUSTSEC-2026-0543",
+      "proc-macro-error RUSTSEC-2024-0370",
+      "zbus_names RUSTSEC-2026-0371",
+      "zvariant RUSTSEC-2026-0370",
+      "zvariant_derive RUSTSEC-2026-0372",
+      "glib RUSTSEC-2024-0429"
+    ],
+    "limitations": "No advisory ignores added. Six warnings retained; target/feature disposition remains open. npm audit reports zero vulnerabilities."
+  },
+  "web_package": {
+    "bytes": 286983081,
+    "files": 2708,
+    "uncompressed_bytes": 735734593,
+    "editions": 200,
+    "sha256": "cf72c97fd27421192df58cb740b80606d8df6feb032f9a236300082c11bf29f7",
+    "two_byte_identical_builds": true,
+    "checks": "Every manifest file, 200 edition samples, extracted mobile reader and local launcher passed. Chromium/Firefox/WebKit startup, Unicode storage and typography passed. Bridge execution is mocked, not native GUI."
+  },
+  "quiz": {
+    "unit_tests": 5,
+    "browser": "390px solo, level 10, Notes preserved, offline; independent host/two phone-size clients, PIN join, five rounds, reveal/scoreboard, token reconnect; traversal/cross-origin rejection",
+    "physical_phones_tested": false
+  },
+  "sources": {
+    "baseline_editions": 84,
+    "incoming_editions": 116,
+    "packs": 85,
+    "verse_rows": 2431331,
+    "source_display_archives": 232,
+    "checks": "All intake hashes and notices/distribution paths pass; 1.28 font/actions/highlights/Notes/PNG/Compare and 14 prayer resources pass. 12 attributed separate reading volumes exported, total 29,322,134 bytes."
+  },
+  "artifacts": [
+    {
+      "id": 15247856299,
+      "node_id": "MDg6QXJ0aWZhY3QxNTI0Nzg1NjI5OQ==",
+      "name": "reader-2.0-android-arm64-debug-review",
+      "size_in_bytes": 419075126,
+      "url": "https://api.github.com/repos/Kimble-365/-parallel-bible-reader/actions/artifacts/15247856299",
+      "archive_download_url": "https://api.github.com/repos/Kimble-365/-parallel-bible-reader/actions/artifacts/15247856299/zip",
+      "expired": false,
+      "digest": "sha256:dad88bee3234195017574d473a8795b6f0044fc7c33d1ea140d315befc806887",
+      "created_at": "2026-11-28T04:04:36Z",
+      "updated_at": "2026-11-28T04:04:36Z",
+      "expires_at": "2026-12-12T04:04:31Z",
+      "workflow_run": {
+        "id": 46104922035,
+        "repository_id": 1429613748,
+        "head_repository_id": 1429613748,
+        "head_branch": "project/parallel-reader",
+        "head_sha": "0ce32873c907e56709ae4df358ebb30e9390a656"
+      }
+    },
+    {
+      "id": 15247561285,
+      "node_id": "MDg6QXJ0aWZhY3QxNTI0NzU2MTI4NQ==",
+      "name": "reader-2.0-ios-simulator-review",
+      "size_in_bytes": 322120737,
+      "url": "https://api.github.com/repos/Kimble-365/-parallel-bible-reader/actions/artifacts/15247561285",
+      "archive_download_url": "https://api.github.com/repos/Kimble-365/-parallel-bible-reader/actions/artifacts/15247561285/zip",
+      "expired": false,
+      "digest": "sha256:50083b52cc265616a3b818786c7b9db45cd1e730b651ca487547ec786ddec9e5",
+      "created_at": "2026-11-28T04:02:15Z",
+      "updated_at": "2026-11-28T04:02:15Z",
+      "expires_at": "2026-12-12T04:02:09Z",
+      "workflow_run": {
+        "id": 46104922035,
+        "repository_id": 1429613748,
+        "head_repository_id": 1429613748,
+        "head_branch": "project/parallel-reader",
+        "head_sha": "0ce32873c907e56709ae4df358ebb30e9390a656"
+      }
+    },
+    {
+      "id": 15247516669,
+      "node_id": "MDg6QXJ0aWZhY3QxNTI0NzUxNjY2OQ==",
+      "name": "reader-2.0-web-review",
+      "size_in_bytes": 316336737,
+      "url": "https://api.github.com/repos/Kimble-365/-parallel-bible-reader/actions/artifacts/15247516669",
+      "archive_download_url": "https://api.github.com/repos/Kimble-365/-parallel-bible-reader/actions/artifacts/15247516669/zip",
+      "expired": false,
+      "digest": "sha256:24e836b470dc74e6e4260951b26f849557fc16d1d83204b90d578d8ce09bfd78",
+      "created_at": "2026-11-28T03:57:35Z",
+      "updated_at": "2026-11-28T03:57:35Z",
+      "expires_at": "2026-12-12T03:57:27Z",
+      "workflow_run": {
+        "id": 46104922035,
+        "repository_id": 1429613748,
+        "head_repository_id": 1429613748,
+        "head_branch": "project/parallel-reader",
+        "head_sha": "0ce32873c907e56709ae4df358ebb30e9390a656"
+      }
+    },
+    {
+      "id": 15247478424,
+      "node_id": "MDg6QXJ0aWZhY3QxNTI0NzQ3ODQyNA==",
+      "name": "reader-2.0-aarch64-apple-darwin-unsigned-review",
+      "size_in_bytes": 312157072,
+      "url": "https://api.github.com/repos/Kimble-365/-parallel-bible-reader/actions/artifacts/15247478424",
+      "archive_download_url": "https://api.github.com/repos/Kimble-365/-parallel-bible-reader/actions/artifacts/15247478424/zip",
+      "expired": false,
+      "digest": "sha256:644bec0addc988b822f15157a3d11db35a9e57368e4c33f31e1ab7ea0b2408ce",
+      "created_at": "2026-11-28T04:09:28Z",
+      "updated_at": "2026-11-28T04:09:28Z",
+      "expires_at": "2026-12-12T04:09:19Z",
+      "workflow_run": {
+        "id": 46104922035,
+        "repository_id": 1429613748,
+        "head_repository_id": 1429613748,
+        "head_branch": "project/parallel-reader",
+        "head_sha": "0ce32873c907e56709ae4df358ebb30e9390a656"
+      }
+    },
+    {
+      "id": 15247367695,
+      "node_id": "MDg6QXJ0aWZhY3QxNTI0NzM2NzY5NQ==",
+      "name": "reader-2.0-x86_64-pc-windows-msvc-unsigned-review",
+      "size_in_bytes": 307885240,
+      "url": "https://api.github.com/repos/Kimble-365/-parallel-bible-reader/actions/artifacts/15247367695",
+      "archive_download_url": "https://api.github.com/repos/Kimble-365/-parallel-bible-reader/actions/artifacts/15247367695/zip",
+      "expired": false,
+      "digest": "sha256:5f3956c667a6d6285ba4bfc97d5986016c368f9a67c62b694793c405b543e0b6",
+      "created_at": "2026-11-28T04:12:15Z",
+      "updated_at": "2026-11-28T04:12:15Z",
+      "expires_at": "2026-12-12T04:12:12Z",
+      "workflow_run": {
+        "id": 46104922035,
+        "repository_id": 1429613748,
+        "head_repository_id": 1429613748,
+        "head_branch": "project/parallel-reader",
+        "head_sha": "0ce32873c907e56709ae4df358ebb30e9390a656"
+      }
+    },
+    {
+      "id": 15247088564,
+      "node_id": "MDg6QXJ0aWZhY3QxNTI0NzA4ODU2NA==",
+      "name": "reader-2.0-x86_64-apple-darwin-unsigned-review",
+      "size_in_bytes": 309379821,
+      "url": "https://api.github.com/repos/Kimble-365/-parallel-bible-reader/actions/artifacts/15247088564",
+      "archive_download_url": "https://api.github.com/repos/Kimble-365/-parallel-bible-reader/actions/artifacts/15247088564/zip",
+      "expired": false,
+      "digest": "sha256:869e773bf170777b9a80a15cde9323dff8ab9b1354166a94ff927af51c2951a2",
+      "created_at": "2026-11-28T04:06:25Z",
+      "updated_at": "2026-11-28T04:06:25Z",
+      "expires_at": "2026-12-12T04:06:19Z",
+      "workflow_run": {
+        "id": 46104922035,
+        "repository_id": 1429613748,
+        "head_repository_id": 1429613748,
+        "head_branch": "project/parallel-reader",
+        "head_sha": "0ce32873c907e56709ae4df358ebb30e9390a656"
+      }
+    }
+  ],
+  "preservation": "Only RUN_STATE and progress/report documentation changed this run. Compare from verified code to starting branch head contained only PROJECT_PROGRESS.md, RUN_STATE.json and previous dependency report. Corpus, rights, identities, stores, canonical feeds and separately owned work untouched. All applicable workflows inspected: contents-read-only checks and review artifacts, no deploy.",
+  "remaining": [
+    "Target/feature disposition of six retained audit warnings.",
+    "Native GUI/device clipboard, export/share and physical phone usability checks.",
+    "Dependency notices/source-offer distribution audit.",
+    "Signing/provisioning and any public deployment require separate authorized decisions."
+  ],
+  "artifact_limits": "Desktop unsigned debug review builds, Android debug APK, iOS ARM64 simulator app; no signed public or physical iPad release.",
+  "next_milestone": "2.0-native-runtime-export-and-distribution-audit"
+}

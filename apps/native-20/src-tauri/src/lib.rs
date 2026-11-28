@@ -134,6 +134,25 @@ mod tests {
         assert!(web_url("https://ebible.org/hebsg/").is_ok());
     }
     #[test]
+    fn nested_blob_origins_are_bounded_and_standard() {
+        let nested = format!("{}https://example.org/item", "blob:".repeat(10_000));
+        assert!(url::Url::parse(&nested).unwrap().origin().is_opaque());
+        assert!(url::Url::parse("blob:ws://example.org/item")
+            .unwrap()
+            .origin()
+            .is_opaque());
+        assert_eq!(
+            url::Url::parse("blob:https://example.org/item")
+                .unwrap()
+                .origin()
+                .ascii_serialization(),
+            "https://example.org"
+        );
+        assert!(web_url(&nested).is_err());
+        assert!(web_url("https://example.org/item").is_ok());
+    }
+
+    #[test]
     fn exports_cannot_escape_their_folder() {
         for name in [
             "",

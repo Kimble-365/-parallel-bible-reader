@@ -221,4 +221,11 @@ jobs:
         with:
           toolchain: '1.92.0'
       - run: cargo install cargo-audit --locked --version 0.22.2
+      - name: Inspect patched dependencies on all requested targets
+        run: |
+          for target in x86_64-pc-windows-msvc aarch64-apple-darwin x86_64-apple-darwin aarch64-linux-android aarch64-apple-ios-sim; do
+            echo "Target: $target"
+            cargo tree --locked --manifest-path apps/native-20/src-tauri/Cargo.toml --target "$target" --invert cookie --edges features
+            cargo tree --locked --manifest-path apps/native-20/src-tauri/Cargo.toml --target "$target" --invert url --edges features
+          done
       - run: cargo audit --file apps/native-20/src-tauri/Cargo.lock

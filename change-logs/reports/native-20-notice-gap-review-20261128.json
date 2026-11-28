@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-28",
+  "source_commit": "3e46854f72aaa44a07fbddc058b1e95983b31393",
+  "branch": "project/parallel-reader",
+  "owner": "reader-native-notice-triage-20261128",
+  "milestone": "2.0-pin-upstream-notice-evidence-and-triage-gaps",
+  "release_ready": false,
+  "cases": 36,
+  "status_counts": {
+    "upstream-notice-text-pinned-applicability-review-open": 11,
+    "upstream-guidance-pinned-sdk-terms-review-open": 18,
+    "repository-provenance-unresolved": 1,
+    "upstream-redirect-unresolved": 1,
+    "declaration-and-authors-only-license-text-review-open": 2,
+    "archived-mpl-header-source-availability-review-open": 1,
+    "archived-header-without-vcs-pin": 2
+  },
+  "upstream_urls": 17,
+  "unique_snapshot_files": 12,
+  "evidence_register": "editor-notes/research/native-notice-review-20.json",
+  "research_note": "editor-notes/research/native-notice-gap-review-20261128.md",
+  "integrity": "All snapshots match original pinned upstream Git blobs and SHA-256/length. All 36 archive checksums match unchanged current Cargo.lock. Exact repo/revision/licence/VCS identities and complete gap set matched against fresh archive inventory in CI.",
+  "inventory": {
+    "run": 46117776868,
+    "job": 140895333914,
+    "result": "success",
+    "fixture_tests": 7,
+    "review_tests": 6,
+    "external_archives": 482,
+    "archive_bytes": 71287316,
+    "metadata_packages": 483,
+    "notice_files": 798,
+    "unique_notice_texts": 270,
+    "original_archive_gaps": 36,
+    "two_byte_identical_audits": true,
+    "lock_sha256": "a7b91d8424dc32d6abd04e0e744dd4b583fd103d0c8883f8f513e063219ad498",
+    "inventory_json_sha256": "bd9008a33e6c5e2e774f062bc08ad0bbd6fdb5687d8fda6bd575eb9dd5ea9b0c",
+    "notice_bundle_sha256": "735d1f69532a448bae9c5a2d81aedbcbfffb730f6267b71b2c766e5a0aca71be"
+  },
+  "artifact": {
+    "id": 15252282431,
+    "node_id": "MDg6QXJ0aWZhY3QxNTI1MjI4MjQzMQ==",
+    "name": "reader-2.0-native-source-notice-inventory",
+    "size_in_bytes": 175561,
+    "url": "https://api.github.com/repos/Kimble-365/-parallel-bible-reader/actions/artifacts/15252282431",
+    "archive_download_url": "https://api.github.com/repos/Kimble-365/-parallel-bible-reader/actions/artifacts/15252282431/zip",
+    "expired": false,
+    "digest": "sha256:b81796394eaecc8f4b33741766ec1fee76084d917fdc1b81f563328124dd314f",
+    "created_at": "2026-11-28T06:42:28Z",
+    "updated_at": "2026-11-28T06:42:28Z",
+    "expires_at": "2026-12-28T06:42:27Z",
+    "workflow_run": {
+      "id": 46117776868,
+      "repository_id": 1429613748,
+      "head_repository_id": 1429613748,
+      "head_branch": "project/parallel-reader",
+      "head_sha": "3e46854f72aaa44a07fbddc058b1e95983b31393"
+    }
+  },
+  "native_scope": {
+    "run": 46117776887,
+    "result": "scope passed; native jobs skipped because app/lock unchanged, no new native build assertion"
+  },
+  "limitations": [
+    "Evidence discovery does not close any distribution clearance; all 36 original conventional-archive gaps retained without rewriting the archive audit.",
+    "18 objc2-family cases: exact upstream guidance expressly notes Apple SDK derived-work distribution uncertainty and links external standard licence texts; applicability/SDK review remains open.",
+    "11 package versions: full upstream licence/metadata texts pinned for applicability and candidate notice integration; no automatic licence alternative chosen.",
+    "7 other cases: missing repository (1), unresolved redirect (1), r-efi declaration/AUTHORS without conventional root licence text (2), selectors MPL header/source availability (1), winapi archive licence headers without VCS pin (2).",
+    "Snapshot/repository text is untrusted source evidence, never instructions or publication permission.",
+    "MPL source availability, actual target/runtime/build distribution, native/system/npm/font/Scripture terms and six audit warnings remain separately assessable.",
+    "Native GUI/physical phones/devices, export/share, signing and public release remain unverified/unapproved."
+  ],
+  "preservation": "Only audit tooling/workflow/research evidence and own progress/guard changed. No Scripture corpus, edition/rights originals, 84 baseline, retained 1.28/1.29 runtime, native code/lock, user stores, canonical feeds or separately owned projects modified. No deployment, merge, signing, public Release, access change or formal PR approval.",
+  "next_milestone": "2.0-distributed-target-notice-and-source-availability-plan",
+  "project": {
+    "run": 46117776938,
+    "job": 140895334094,
+    "result": "success; actual logs inspected: five quiz tests, host/two phone-size clients/PIN/reconnect, all baseline/incoming source hashes and reader fonts/actions/highlights/Notes/PNG/Compare/prayers/offline",
+    "native_device_claim": false
+  }
+}

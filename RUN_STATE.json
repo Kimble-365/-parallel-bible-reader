@@ -1,17 +1,17 @@
 {
   "version": 1,
-  "status": "running",
-  "owner": "reader-native-target-rights-20261128",
+  "status": "idle",
+  "owner": null,
   "branch": "project/parallel-reader",
-  "next_milestone": "2.0-distributed-target-notice-and-source-availability-plan",
+  "next_milestone": "2.0-native-candidate-notice-source-bundle-and-shipped-file-assessment",
   "last_run": {
-    "owner": "reader-native-notice-triage-20261128",
-    "milestone": "2.0-pin-upstream-notice-evidence-and-triage-gaps",
-    "code_commit": "3e46854f72aaa44a07fbddc058b1e95983b31393",
-    "verification_run": 46117776868,
-    "project_run": 46117776938,
-    "verification_status": "All 36 original notice gaps triaged with individual next actions; 17 pinned upstream URLs/12 byte-verified snapshots; fresh archive/provenance checks, 13 fixture tests and reader/quiz browser regressions pass. Distribution clearance remains open.",
-    "report": "change-logs/reports/native-20-notice-gap-review-20261128.json",
+    "owner": "reader-native-target-rights-20261128",
+    "milestone": "2.0-target-graphs-and-source-availability-plan",
+    "code_commit": "5c1151318004c7d83e76237296ebe5f4be4929a5",
+    "verification_run": 46122082489,
+    "project_run": 46122082439,
+    "verification_status": "Five target graphs measured against exact source archive identities; six retained warning packages absent in these graphs; all five MPL packages present in normal graphs; 18 fixture tests and reader/quiz browser regressions passed. Actual shipped files/source obligations and native GUI/device checks remain open.",
+    "report": "change-logs/reports/native-20-target-rights-20261128.json",
     "release_ready": false
   },
   "rule": "Acquire by expected-head fast-forward lease; never overwrite an active owner or treat elapsed time as completion. Only the owner releases.",
@@ -23,16 +23,16 @@
     "status": "folder prepared; package not yet received or verified"
   },
   "last_successful_run": {
-    "owner": "reader-native-notice-triage-20261128",
-    "milestone": "2.0-pin-upstream-notice-evidence-and-triage-gaps",
-    "code_commit": "3e46854f72aaa44a07fbddc058b1e95983b31393",
-    "verification_run": 46117776868,
-    "project_run": 46117776938,
-    "verification_status": "All 36 original notice gaps triaged with individual next actions; 17 pinned upstream URLs/12 byte-verified snapshots; fresh archive/provenance checks, 13 fixture tests and reader/quiz browser regressions pass. Distribution clearance remains open.",
-    "report": "change-logs/reports/native-20-notice-gap-review-20261128.json",
+    "owner": "reader-native-target-rights-20261128",
+    "milestone": "2.0-target-graphs-and-source-availability-plan",
+    "code_commit": "5c1151318004c7d83e76237296ebe5f4be4929a5",
+    "verification_run": 46122082489,
+    "project_run": 46122082439,
+    "verification_status": "Five target graphs measured against exact source archive identities; six retained warning packages absent in these graphs; all five MPL packages present in normal graphs; 18 fixture tests and reader/quiz browser regressions passed. Actual shipped files/source obligations and native GUI/device checks remain open.",
+    "report": "change-logs/reports/native-20-target-rights-20261128.json",
     "release_ready": false
   },
-  "expected_head": "25dd2afdfcc3e35f63aed07c242dea71da19773a",
+  "expected_head": "5c1151318004c7d83e76237296ebe5f4be4929a5",
   "recovered_run": {
     "owner": "reader-native-rights-20261110-manual",
     "reason": "User explicitly authorized closing interrupted run and integrating supplied 1.29 package on 2026-11-27; no prior completion inferred."

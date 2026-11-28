@@ -1,0 +1,1417 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-28",
+  "source_commit": "5c1151318004c7d83e76237296ebe5f4be4929a5",
+  "base_commit": "25dd2afdfcc3e35f63aed07c242dea71da19773a",
+  "guard_commit": "0b732d0c16e1be8b072f5dc46567789cf3a08680",
+  "branch": "project/parallel-reader",
+  "owner": "reader-native-target-rights-20261128",
+  "milestone": "2.0-target-graphs-and-source-availability-plan",
+  "release_ready": false,
+  "measurement": {
+    "host": "ubuntu-latest GitHub Actions",
+    "toolchain": "Rust/Cargo 1.92.0",
+    "features": [
+      "default",
+      "custom-protocol"
+    ],
+    "edges": [
+      "normal",
+      "normal,build"
+    ],
+    "command": "cargo tree --locked --manifest-path apps/native-20/src-tauri/Cargo.toml --target TARGET --features custom-protocol --edges EDGES --prefix none --format {p}",
+    "lock_sha256": "a7b91d8424dc32d6abd04e0e744dd4b583fd103d0c8883f8f513e063219ad498",
+    "excludes_dev_edges": true,
+    "binary_inclusion_proven": false,
+    "source_inventory": "482 locked external archives, 71,287,316 bytes, all checksums verified; prior 36-case provenance/snapshot validation rerun"
+  },
+  "target_results": [
+    {
+      "target": "x86_64-pc-windows-msvc",
+      "normal": 218,
+      "build_only": 14,
+      "notice_cases": [
+        {
+          "name": "alloc-stdlib",
+          "version": "0.3.0",
+          "location": "normal_graph"
+        },
+        {
+          "name": "block2",
+          "version": "0.6.2",
+          "location": "absent"
+        },
+        {
+          "name": "clipboard-win",
+          "version": "5.4.3",
+          "location": "normal_graph"
+        },
+        {
+          "name": "dispatch2",
+          "version": "0.3.1",
+          "location": "absent"
+        },
+        {
+          "name": "dlopen2",
+          "version": "0.8.2",
+          "location": "absent"
+        },
+        {
+          "name": "dlopen2_derive",
+          "version": "0.4.3",
+          "location": "absent"
+        },
+        {
+          "name": "jni-sys-macros",
+          "version": "0.4.1",
+          "location": "absent"
+        },
+        {
+          "name": "libappindicator-sys",
+          "version": "0.9.0",
+          "location": "absent"
+        },
+        {
+          "name": "ndk",
+          "version": "0.9.0",
+          "location": "absent"
+        },
+        {
+          "name": "ndk-context",
+          "version": "0.1.1",
+          "location": "absent"
+        },
+        {
+          "name": "ndk-sys",
+          "version": "0.6.0+11769913",
+          "location": "absent"
+        },
+        {
+          "name": "objc2",
+          "version": "0.6.5",
+          "location": "absent"
+        },
+        {
+          "name": "objc2-app-kit",
+          "version": "0.3.2",
+          "location": "absent"
+        },
+        {
+          "name": "objc2-cloud-kit",
+          "version": "0.3.2",
+          "location": "absent"
+        },
+        {
+          "name": "objc2-core-data",
+          "version": "0.3.2",
+          "location": "absent"
+        },
+        {
+          "name": "objc2-core-foundation",
+          "version": "0.3.2",
+          "location": "absent"
+        },
+        {
+          "name": "objc2-core-graphics",
+          "version": "0.3.2",
+          "location": "absent"
+        },
+        {
+          "name": "objc2-core-image",
+          "version": "0.3.2",
+          "location": "absent"
+        },
+        {
+          "name": "objc2-core-location",
+          "version": "0.3.2",
+          "location": "absent"
+        },
+        {
+          "name": "objc2-core-text",
+          "version": "0.3.2",
+          "location": "absent"
+        },
+        {
+          "name": "objc2-encode",
+          "version": "4.1.0",
+          "location": "absent"
+        },
+        {
+          "name": "objc2-exception-helper",
+          "version": "0.1.1",
+          "location": "absent"
+        },
+        {
+          "name": "objc2-io-surface",
+          "version": "0.3.2",
+          "location": "absent"
+        },
+        {
+          "name": "objc2-quartz-core",
+          "version": "0.3.2",
+          "location": "absent"
+        },
+        {
+          "name": "objc2-ui-kit",
+          "version": "0.3.2",
+          "location": "absent"
+        },
+        {
+          "name": "objc2-user-notifications",
+          "version": "0.3.2",
+          "location": "absent"
+        },
+        {
+          "name": "objc2-web-kit",
+          "version": "0.3.2",
+          "location": "absent"
+        },
+        {
+          "name": "r-efi",
+          "version": "5.3.0",
+          "location": "absent"
+        },
+        {
+          "name": "r-efi",
+          "version": "6.0.0",
+          "location": "absent"
+        },
+        {
+          "name": "selectors",
+          "version": "0.38.0",
+          "location": "normal_graph"
+        },
+        {
+          "name": "tauri-plugin",
+          "version": "2.7.2",
+          "location": "build_graph_only"
+        },
+        {
+          "name": "webview2-com",
+          "version": "0.39.1",
+          "location": "normal_graph"
+        },
+        {
+          "name": "webview2-com-macros",
+          "version": "0.8.1",
+          "location": "normal_graph"
+        },
+        {
+          "name": "webview2-com-sys",
+          "version": "0.39.1",
+          "location": "normal_graph"
+        },
+        {
+          "name": "winapi-i686-pc-windows-gnu",
+          "version": "0.4.0",
+          "location": "absent"
+        },
+        {
+          "name": "winapi-x86_64-pc-windows-gnu",
+          "version": "0.4.0",
+          "location": "absent"
+        }
+      ],
+      "mpl_cases": [
+        {
+          "name": "cssparser",
+          "version": "0.37.0",
+          "location": "normal_graph"
+        },
+        {
+          "name": "cssparser-macros",
+          "version": "0.7.1",
+          "location": "normal_graph"
+        },
+        {
+          "name": "dtoa-short",
+          "version": "0.3.5",
+          "location": "normal_graph"
+        },
+        {
+          "name": "option-ext",
+          "version": "0.2.0",
+          "location": "normal_graph"
+        },
+        {
+          "name": "selectors",
+          "version": "0.38.0",
+          "location": "normal_graph"
+        }
+      ],
+      "warning_cases": [
+        {
+          "name": "chrono",
+          "version": "0.4.45",
+          "advisory": "RUSTSEC-2026-0543",
+          "location": "absent"
+        },
+        {
+          "name": "glib",
+          "version": "0.18.5",
+          "advisory": "RUSTSEC-2024-0429",
+          "location": "absent"
+        },
+        {
+          "name": "proc-macro-error",
+          "version": "1.0.4",
+          "advisory": "RUSTSEC-2024-0370",
+          "location": "absent"
+        },
+        {
+          "name": "zbus_names",
+          "version": "4.3.5",
+          "advisory": "RUSTSEC-2026-0371",
+          "location": "absent"
+        },
+        {
+          "name": "zvariant",
+          "version": "5.15.1",
+          "advisory": "RUSTSEC-2026-0370",
+          "location": "absent"
+        },
+        {
+          "name": "zvariant_derive",
+          "version": "5.15.1",
+          "advisory": "RUSTSEC-2026-0372",
+          "location": "absent"
+        }
+      ]
+    },
+    {
+      "target": "aarch64-apple-darwin",
+      "normal": 223,
+      "build_only": 14,
+      "notice_cases": [
+        {
+          "name": "alloc-stdlib",
+          "version": "0.3.0",
+          "location": "normal_graph"
+        },
+        {
+          "name": "block2",
+          "version": "0.6.2",
+          "location": "normal_graph"
+        },
+        {
+          "name": "clipboard-win",
+          "version": "5.4.3",
+          "location": "absent"
+        },
+        {
+          "name": "dispatch2",
+          "version": "0.3.1",
+          "location": "normal_graph"
+        },
+        {
+          "name": "dlopen2",
+          "version": "0.8.2",
+          "location": "absent"
+        },
+        {
+          "name": "dlopen2_derive",
+          "version": "0.4.3",
+          "location": "absent"
+        },
+        {
+          "name": "jni-sys-macros",
+          "version": "0.4.1",
+          "location": "absent"
+        },
+        {
+          "name": "libappindicator-sys",
+          "version": "0.9.0",
+          "location": "absent"
+        },
+        {
+          "name": "ndk",
+          "version": "0.9.0",
+          "location": "absent"
+        },
+        {
+          "name": "ndk-context",
+          "version": "0.1.1",
+          "location": "absent"
+        },
+        {
+          "name": "ndk-sys",
+          "version": "0.6.0+11769913",
+          "location": "absent"
+        },
+        {
+          "name": "objc2",
+          "version": "0.6.5",
+          "location": "normal_graph"
+        },
+        {
+          "name": "objc2-app-kit",
+          "version": "0.3.2",
+          "location": "normal_graph"
+        },
+        {
+          "name": "objc2-cloud-kit",
+          "version": "0.3.2",
+          "location": "absent"
+        },
+        {
+          "name": "objc2-core-data",
+          "version": "0.3.2",
+          "location": "absent"
+        },
+        {
+          "name": "objc2-core-foundation",
+          "version": "0.3.2",
+          "location": "normal_graph"
+        },
+        {
+          "name": "objc2-core-graphics",
+          "version": "0.3.2",
+          "location": "normal_graph"
+        },
+        {
+          "name": "objc2-core-image",
+          "version": "0.3.2",
+          "location": "absent"
+        },
+        {
+          "name": "objc2-core-location",
+          "version": "0.3.2",
+          "location": "absent"
+        },
+        {
+          "name": "objc2-core-text",
+          "version": "0.3.2",
+          "location": "absent"
+        },
+        {
+          "name": "objc2-encode",
+          "version": "4.1.0",
+          "location": "normal_graph"
+        },
+        {
+          "name": "objc2-exception-helper",
+          "version": "0.1.1",
+          "location": "normal_graph"
+        },
+        {
+          "name": "objc2-io-surface",
+          "version": "0.3.2",
+          "location": "absent"
+        },
+        {
+          "name": "objc2-quartz-core",
+          "version": "0.3.2",
+          "location": "normal_graph"
+        },
+        {
+          "name": "objc2-ui-kit",
+          "version": "0.3.2",
+          "location": "absent"
+        },
+        {
+          "name": "objc2-user-notifications",
+          "version": "0.3.2",
+          "location": "absent"
+        },
+        {
+          "name": "objc2-web-kit",
+          "version": "0.3.2",
+          "location": "normal_graph"
+        },
+        {
+          "name": "r-efi",
+          "version": "5.3.0",
+          "location": "absent"
+        },
+        {
+          "name": "r-efi",
+          "version": "6.0.0",
+          "location": "absent"
+        },
+        {
+          "name": "selectors",
+          "version": "0.38.0",
+          "location": "normal_graph"
+        },
+        {
+          "name": "tauri-plugin",
+          "version": "2.7.2",
+          "location": "build_graph_only"
+        },
+        {
+          "name": "webview2-com",
+          "version": "0.39.1",
+          "location": "absent"
+        },
+        {
+          "name": "webview2-com-macros",
+          "version": "0.8.1",
+          "location": "absent"
+        },
+        {
+          "name": "webview2-com-sys",
+          "version": "0.39.1",
+          "location": "absent"
+        },
+        {
+          "name": "winapi-i686-pc-windows-gnu",
+          "version": "0.4.0",
+          "location": "absent"
+        },
+        {
+          "name": "winapi-x86_64-pc-windows-gnu",
+          "version": "0.4.0",
+          "location": "absent"
+        }
+      ],
+      "mpl_cases": [
+        {
+          "name": "cssparser",
+          "version": "0.37.0",
+          "location": "normal_graph"
+        },
+        {
+          "name": "cssparser-macros",
+          "version": "0.7.1",
+          "location": "normal_graph"
+        },
+        {
+          "name": "dtoa-short",
+          "version": "0.3.5",
+          "location": "normal_graph"
+        },
+        {
+          "name": "option-ext",
+          "version": "0.2.0",
+          "location": "normal_graph"
+        },
+        {
+          "name": "selectors",
+          "version": "0.38.0",
+          "location": "normal_graph"
+        }
+      ],
+      "warning_cases": [
+        {
+          "name": "chrono",
+          "version": "0.4.45",
+          "advisory": "RUSTSEC-2026-0543",
+          "location": "absent"
+        },
+        {
+          "name": "glib",
+          "version": "0.18.5",
+          "advisory": "RUSTSEC-2024-0429",
+          "location": "absent"
+        },
+        {
+          "name": "proc-macro-error",
+          "version": "1.0.4",
+          "advisory": "RUSTSEC-2024-0370",
+          "location": "absent"
+        },
+        {
+          "name": "zbus_names",
+          "version": "4.3.5",
+          "advisory": "RUSTSEC-2026-0371",
+          "location": "absent"
+        },
+        {
+          "name": "zvariant",
+          "version": "5.15.1",
+          "advisory": "RUSTSEC-2026-0370",
+          "location": "absent"
+        },
+        {
+          "name": "zvariant_derive",
+          "version": "5.15.1",
+          "advisory": "RUSTSEC-2026-0372",
+          "location": "absent"
+        }
+      ]
+    },
+    {
+      "target": "x86_64-apple-darwin",
+      "normal": 223,
+      "build_only": 14,
+      "notice_cases": [
+        {
+          "name": "alloc-stdlib",
+          "version": "0.3.0",
+          "location": "normal_graph"
+        },
+        {
+          "name": "block2",
+          "version": "0.6.2",
+          "location": "normal_graph"
+        },
+        {
+          "name": "clipboard-win",
+          "version": "5.4.3",
+          "location": "absent"
+        },
+        {
+          "name": "dispatch2",
+          "version": "0.3.1",
+          "location": "normal_graph"
+        },
+        {
+          "name": "dlopen2",
+          "version": "0.8.2",
+          "location": "absent"
+        },
+        {
+          "name": "dlopen2_derive",
+          "version": "0.4.3",
+          "location": "absent"
+        },
+        {
+          "name": "jni-sys-macros",
+          "version": "0.4.1",
+          "location": "absent"
+        },
+        {
+          "name": "libappindicator-sys",
+          "version": "0.9.0",
+          "location": "absent"
+        },
+        {
+          "name": "ndk",
+          "version": "0.9.0",
+          "location": "absent"
+        },
+        {
+          "name": "ndk-context",
+          "version": "0.1.1",
+          "location": "absent"
+        },
+        {
+          "name": "ndk-sys",
+          "version": "0.6.0+11769913",
+          "location": "absent"
+        },
+        {
+          "name": "objc2",
+          "version": "0.6.5",
+          "location": "normal_graph"
+        },
+        {
+          "name": "objc2-app-kit",
+          "version": "0.3.2",
+          "location": "normal_graph"
+        },
+        {
+          "name": "objc2-cloud-kit",
+          "version": "0.3.2",
+          "location": "absent"
+        },
+        {
+          "name": "objc2-core-data",
+          "version": "0.3.2",
+          "location": "absent"
+        },
+        {
+          "name": "objc2-core-foundation",
+          "version": "0.3.2",
+          "location": "normal_graph"
+        },
+        {
+          "name": "objc2-core-graphics",
+          "version": "0.3.2",
+          "location": "normal_graph"
+        },
+        {
+          "name": "objc2-core-image",
+          "version": "0.3.2",
+          "location": "absent"
+        },
+        {
+          "name": "objc2-core-location",
+          "version": "0.3.2",
+          "location": "absent"
+        },
+        {
+          "name": "objc2-core-text",
+          "version": "0.3.2",
+          "location": "absent"
+        },
+        {
+          "name": "objc2-encode",
+          "version": "4.1.0",
+          "location": "normal_graph"
+        },
+        {
+          "name": "objc2-exception-helper",
+          "version": "0.1.1",
+          "location": "normal_graph"
+        },
+        {
+          "name": "objc2-io-surface",
+          "version": "0.3.2",
+          "location": "absent"
+        },
+        {
+          "name": "objc2-quartz-core",
+          "version": "0.3.2",
+          "location": "normal_graph"
+        },
+        {
+          "name": "objc2-ui-kit",
+          "version": "0.3.2",
+          "location": "absent"
+        },
+        {
+          "name": "objc2-user-notifications",
+          "version": "0.3.2",
+          "location": "absent"
+        },
+        {
+          "name": "objc2-web-kit",
+          "version": "0.3.2",
+          "location": "normal_graph"
+        },
+        {
+          "name": "r-efi",
+          "version": "5.3.0",
+          "location": "absent"
+        },
+        {
+          "name": "r-efi",
+          "version": "6.0.0",
+          "location": "absent"
+        },
+        {
+          "name": "selectors",
+          "version": "0.38.0",
+          "location": "normal_graph"
+        },
+        {
+          "name": "tauri-plugin",
+          "version": "2.7.2",
+          "location": "build_graph_only"
+        },
+        {
+          "name": "webview2-com",
+          "version": "0.39.1",
+          "location": "absent"
+        },
+        {
+          "name": "webview2-com-macros",
+          "version": "0.8.1",
+          "location": "absent"
+        },
+        {
+          "name": "webview2-com-sys",
+          "version": "0.39.1",
+          "location": "absent"
+        },
+        {
+          "name": "winapi-i686-pc-windows-gnu",
+          "version": "0.4.0",
+          "location": "absent"
+        },
+        {
+          "name": "winapi-x86_64-pc-windows-gnu",
+          "version": "0.4.0",
+          "location": "absent"
+        }
+      ],
+      "mpl_cases": [
+        {
+          "name": "cssparser",
+          "version": "0.37.0",
+          "location": "normal_graph"
+        },
+        {
+          "name": "cssparser-macros",
+          "version": "0.7.1",
+          "location": "normal_graph"
+        },
+        {
+          "name": "dtoa-short",
+          "version": "0.3.5",
+          "location": "normal_graph"
+        },
+        {
+          "name": "option-ext",
+          "version": "0.2.0",
+          "location": "normal_graph"
+        },
+        {
+          "name": "selectors",
+          "version": "0.38.0",
+          "location": "normal_graph"
+        }
+      ],
+      "warning_cases": [
+        {
+          "name": "chrono",
+          "version": "0.4.45",
+          "advisory": "RUSTSEC-2026-0543",
+          "location": "absent"
+        },
+        {
+          "name": "glib",
+          "version": "0.18.5",
+          "advisory": "RUSTSEC-2024-0429",
+          "location": "absent"
+        },
+        {
+          "name": "proc-macro-error",
+          "version": "1.0.4",
+          "advisory": "RUSTSEC-2024-0370",
+          "location": "absent"
+        },
+        {
+          "name": "zbus_names",
+          "version": "4.3.5",
+          "advisory": "RUSTSEC-2026-0371",
+          "location": "absent"
+        },
+        {
+          "name": "zvariant",
+          "version": "5.15.1",
+          "advisory": "RUSTSEC-2026-0370",
+          "location": "absent"
+        },
+        {
+          "name": "zvariant_derive",
+          "version": "5.15.1",
+          "advisory": "RUSTSEC-2026-0372",
+          "location": "absent"
+        }
+      ]
+    },
+    {
+      "target": "aarch64-linux-android",
+      "normal": 230,
+      "build_only": 14,
+      "notice_cases": [
+        {
+          "name": "alloc-stdlib",
+          "version": "0.3.0",
+          "location": "normal_graph"
+        },
+        {
+          "name": "block2",
+          "version": "0.6.2",
+          "location": "absent"
+        },
+        {
+          "name": "clipboard-win",
+          "version": "5.4.3",
+          "location": "absent"
+        },
+        {
+          "name": "dispatch2",
+          "version": "0.3.1",
+          "location": "absent"
+        },
+        {
+          "name": "dlopen2",
+          "version": "0.8.2",
+          "location": "absent"
+        },
+        {
+          "name": "dlopen2_derive",
+          "version": "0.4.3",
+          "location": "absent"
+        },
+        {
+          "name": "jni-sys-macros",
+          "version": "0.4.1",
+          "location": "normal_graph"
+        },
+        {
+          "name": "libappindicator-sys",
+          "version": "0.9.0",
+          "location": "absent"
+        },
+        {
+          "name": "ndk",
+          "version": "0.9.0",
+          "location": "normal_graph"
+        },
+        {
+          "name": "ndk-context",
+          "version": "0.1.1",
+          "location": "normal_graph"
+        },
+        {
+          "name": "ndk-sys",
+          "version": "0.6.0+11769913",
+          "location": "normal_graph"
+        },
+        {
+          "name": "objc2",
+          "version": "0.6.5",
+          "location": "absent"
+        },
+        {
+          "name": "objc2-app-kit",
+          "version": "0.3.2",
+          "location": "absent"
+        },
+        {
+          "name": "objc2-cloud-kit",
+          "version": "0.3.2",
+          "location": "absent"
+        },
+        {
+          "name": "objc2-core-data",
+          "version": "0.3.2",
+          "location": "absent"
+        },
+        {
+          "name": "objc2-core-foundation",
+          "version": "0.3.2",
+          "location": "absent"
+        },
+        {
+          "name": "objc2-core-graphics",
+          "version": "0.3.2",
+          "location": "absent"
+        },
+        {
+          "name": "objc2-core-image",
+          "version": "0.3.2",
+          "location": "absent"
+        },
+        {
+          "name": "objc2-core-location",
+          "version": "0.3.2",
+          "location": "absent"
+        },
+        {
+          "name": "objc2-core-text",
+          "version": "0.3.2",
+          "location": "absent"
+        },
+        {
+          "name": "objc2-encode",
+          "version": "4.1.0",
+          "location": "absent"
+        },
+        {
+          "name": "objc2-exception-helper",
+          "version": "0.1.1",
+          "location": "absent"
+        },
+        {
+          "name": "objc2-io-surface",
+          "version": "0.3.2",
+          "location": "absent"
+        },
+        {
+          "name": "objc2-quartz-core",
+          "version": "0.3.2",
+          "location": "absent"
+        },
+        {
+          "name": "objc2-ui-kit",
+          "version": "0.3.2",
+          "location": "absent"
+        },
+        {
+          "name": "objc2-user-notifications",
+          "version": "0.3.2",
+          "location": "absent"
+        },
+        {
+          "name": "objc2-web-kit",
+          "version": "0.3.2",
+          "location": "absent"
+        },
+        {
+          "name": "r-efi",
+          "version": "5.3.0",
+          "location": "absent"
+        },
+        {
+          "name": "r-efi",
+          "version": "6.0.0",
+          "location": "absent"
+        },
+        {
+          "name": "selectors",
+          "version": "0.38.0",
+          "location": "normal_graph"
+        },
+        {
+          "name": "tauri-plugin",
+          "version": "2.7.2",
+          "location": "build_graph_only"
+        },
+        {
+          "name": "webview2-com",
+          "version": "0.39.1",
+          "location": "absent"
+        },
+        {
+          "name": "webview2-com-macros",
+          "version": "0.8.1",
+          "location": "absent"
+        },
+        {
+          "name": "webview2-com-sys",
+          "version": "0.39.1",
+          "location": "absent"
+        },
+        {
+          "name": "winapi-i686-pc-windows-gnu",
+          "version": "0.4.0",
+          "location": "absent"
+        },
+        {
+          "name": "winapi-x86_64-pc-windows-gnu",
+          "version": "0.4.0",
+          "location": "absent"
+        }
+      ],
+      "mpl_cases": [
+        {
+          "name": "cssparser",
+          "version": "0.37.0",
+          "location": "normal_graph"
+        },
+        {
+          "name": "cssparser-macros",
+          "version": "0.7.1",
+          "location": "normal_graph"
+        },
+        {
+          "name": "dtoa-short",
+          "version": "0.3.5",
+          "location": "normal_graph"
+        },
+        {
+          "name": "option-ext",
+          "version": "0.2.0",
+          "location": "normal_graph"
+        },
+        {
+          "name": "selectors",
+          "version": "0.38.0",
+          "location": "normal_graph"
+        }
+      ],
+      "warning_cases": [
+        {
+          "name": "chrono",
+          "version": "0.4.45",
+          "advisory": "RUSTSEC-2026-0543",
+          "location": "absent"
+        },
+        {
+          "name": "glib",
+          "version": "0.18.5",
+          "advisory": "RUSTSEC-2024-0429",
+          "location": "absent"
+        },
+        {
+          "name": "proc-macro-error",
+          "version": "1.0.4",
+          "advisory": "RUSTSEC-2024-0370",
+          "location": "absent"
+        },
+        {
+          "name": "zbus_names",
+          "version": "4.3.5",
+          "advisory": "RUSTSEC-2026-0371",
+          "location": "absent"
+        },
+        {
+          "name": "zvariant",
+          "version": "5.15.1",
+          "advisory": "RUSTSEC-2026-0370",
+          "location": "absent"
+        },
+        {
+          "name": "zvariant_derive",
+          "version": "5.15.1",
+          "advisory": "RUSTSEC-2026-0372",
+          "location": "absent"
+        }
+      ]
+    },
+    {
+      "target": "aarch64-apple-ios-sim",
+      "normal": 229,
+      "build_only": 14,
+      "notice_cases": [
+        {
+          "name": "alloc-stdlib",
+          "version": "0.3.0",
+          "location": "normal_graph"
+        },
+        {
+          "name": "block2",
+          "version": "0.6.2",
+          "location": "normal_graph"
+        },
+        {
+          "name": "clipboard-win",
+          "version": "5.4.3",
+          "location": "absent"
+        },
+        {
+          "name": "dispatch2",
+          "version": "0.3.1",
+          "location": "absent"
+        },
+        {
+          "name": "dlopen2",
+          "version": "0.8.2",
+          "location": "absent"
+        },
+        {
+          "name": "dlopen2_derive",
+          "version": "0.4.3",
+          "location": "absent"
+        },
+        {
+          "name": "jni-sys-macros",
+          "version": "0.4.1",
+          "location": "absent"
+        },
+        {
+          "name": "libappindicator-sys",
+          "version": "0.9.0",
+          "location": "absent"
+        },
+        {
+          "name": "ndk",
+          "version": "0.9.0",
+          "location": "absent"
+        },
+        {
+          "name": "ndk-context",
+          "version": "0.1.1",
+          "location": "absent"
+        },
+        {
+          "name": "ndk-sys",
+          "version": "0.6.0+11769913",
+          "location": "absent"
+        },
+        {
+          "name": "objc2",
+          "version": "0.6.5",
+          "location": "normal_graph"
+        },
+        {
+          "name": "objc2-app-kit",
+          "version": "0.3.2",
+          "location": "absent"
+        },
+        {
+          "name": "objc2-cloud-kit",
+          "version": "0.3.2",
+          "location": "normal_graph"
+        },
+        {
+          "name": "objc2-core-data",
+          "version": "0.3.2",
+          "location": "normal_graph"
+        },
+        {
+          "name": "objc2-core-foundation",
+          "version": "0.3.2",
+          "location": "normal_graph"
+        },
+        {
+          "name": "objc2-core-graphics",
+          "version": "0.3.2",
+          "location": "normal_graph"
+        },
+        {
+          "name": "objc2-core-image",
+          "version": "0.3.2",
+          "location": "normal_graph"
+        },
+        {
+          "name": "objc2-core-location",
+          "version": "0.3.2",
+          "location": "normal_graph"
+        },
+        {
+          "name": "objc2-core-text",
+          "version": "0.3.2",
+          "location": "normal_graph"
+        },
+        {
+          "name": "objc2-encode",
+          "version": "4.1.0",
+          "location": "normal_graph"
+        },
+        {
+          "name": "objc2-exception-helper",
+          "version": "0.1.1",
+          "location": "normal_graph"
+        },
+        {
+          "name": "objc2-io-surface",
+          "version": "0.3.2",
+          "location": "absent"
+        },
+        {
+          "name": "objc2-quartz-core",
+          "version": "0.3.2",
+          "location": "normal_graph"
+        },
+        {
+          "name": "objc2-ui-kit",
+          "version": "0.3.2",
+          "location": "normal_graph"
+        },
+        {
+          "name": "objc2-user-notifications",
+          "version": "0.3.2",
+          "location": "normal_graph"
+        },
+        {
+          "name": "objc2-web-kit",
+          "version": "0.3.2",
+          "location": "normal_graph"
+        },
+        {
+          "name": "r-efi",
+          "version": "5.3.0",
+          "location": "absent"
+        },
+        {
+          "name": "r-efi",
+          "version": "6.0.0",
+          "location": "absent"
+        },
+        {
+          "name": "selectors",
+          "version": "0.38.0",
+          "location": "normal_graph"
+        },
+        {
+          "name": "tauri-plugin",
+          "version": "2.7.2",
+          "location": "build_graph_only"
+        },
+        {
+          "name": "webview2-com",
+          "version": "0.39.1",
+          "location": "absent"
+        },
+        {
+          "name": "webview2-com-macros",
+          "version": "0.8.1",
+          "location": "absent"
+        },
+        {
+          "name": "webview2-com-sys",
+          "version": "0.39.1",
+          "location": "absent"
+        },
+        {
+          "name": "winapi-i686-pc-windows-gnu",
+          "version": "0.4.0",
+          "location": "absent"
+        },
+        {
+          "name": "winapi-x86_64-pc-windows-gnu",
+          "version": "0.4.0",
+          "location": "absent"
+        }
+      ],
+      "mpl_cases": [
+        {
+          "name": "cssparser",
+          "version": "0.37.0",
+          "location": "normal_graph"
+        },
+        {
+          "name": "cssparser-macros",
+          "version": "0.7.1",
+          "location": "normal_graph"
+        },
+        {
+          "name": "dtoa-short",
+          "version": "0.3.5",
+          "location": "normal_graph"
+        },
+        {
+          "name": "option-ext",
+          "version": "0.2.0",
+          "location": "normal_graph"
+        },
+        {
+          "name": "selectors",
+          "version": "0.38.0",
+          "location": "normal_graph"
+        }
+      ],
+      "warning_cases": [
+        {
+          "name": "chrono",
+          "version": "0.4.45",
+          "advisory": "RUSTSEC-2026-0543",
+          "location": "absent"
+        },
+        {
+          "name": "glib",
+          "version": "0.18.5",
+          "advisory": "RUSTSEC-2024-0429",
+          "location": "absent"
+        },
+        {
+          "name": "proc-macro-error",
+          "version": "1.0.4",
+          "advisory": "RUSTSEC-2024-0370",
+          "location": "absent"
+        },
+        {
+          "name": "zbus_names",
+          "version": "4.3.5",
+          "advisory": "RUSTSEC-2026-0371",
+          "location": "absent"
+        },
+        {
+          "name": "zvariant",
+          "version": "5.15.1",
+          "advisory": "RUSTSEC-2026-0370",
+          "location": "absent"
+        },
+        {
+          "name": "zvariant_derive",
+          "version": "5.15.1",
+          "advisory": "RUSTSEC-2026-0372",
+          "location": "absent"
+        }
+      ]
+    }
+  ],
+  "graph_file_checksums": [
+    {
+      "sha256": "87762588662be993494f10783780c83696b184160d51df4315508a5dc9eb8a25",
+      "path": "TARGET-RIGHTS.json"
+    },
+    {
+      "sha256": "01fdd3a9fab73b8e06abe968e8b9b407460ebfb528fd5201898e57e7ce3d0913",
+      "path": "aarch64-apple-darwin-normal-build.txt"
+    },
+    {
+      "sha256": "40e6598ef581fad0fb483a439aa8ba15acb098ef2bc550ff81be9c3dd24b8572",
+      "path": "aarch64-apple-darwin-normal.txt"
+    },
+    {
+      "sha256": "b431e994d13c7b7a08c319c4463d3a12c5e0bc18947c3068b4712c0b59bfa611",
+      "path": "aarch64-apple-ios-sim-normal-build.txt"
+    },
+    {
+      "sha256": "86074e867789d1bc4a2bbe488a4b6f2c6bfcf4b1ea0e06dcf0d66240e1138aa7",
+      "path": "aarch64-apple-ios-sim-normal.txt"
+    },
+    {
+      "sha256": "1a237a67f5270f44ad805642e2572de30b72acaf58b30c76a84c441b8099e158",
+      "path": "aarch64-linux-android-normal-build.txt"
+    },
+    {
+      "sha256": "0bc3ea45bae4aae1f7e346cb315e67591757661659ec0f65ac543e750fdc291e",
+      "path": "aarch64-linux-android-normal.txt"
+    },
+    {
+      "sha256": "01fdd3a9fab73b8e06abe968e8b9b407460ebfb528fd5201898e57e7ce3d0913",
+      "path": "x86_64-apple-darwin-normal-build.txt"
+    },
+    {
+      "sha256": "40e6598ef581fad0fb483a439aa8ba15acb098ef2bc550ff81be9c3dd24b8572",
+      "path": "x86_64-apple-darwin-normal.txt"
+    },
+    {
+      "sha256": "0164f20e8e53b14f5dd5592978afec780b98782ac24d7d57020a14c551b7ea4d",
+      "path": "x86_64-pc-windows-msvc-normal-build.txt"
+    },
+    {
+      "sha256": "4d0e567f041c4f516089effbe6d50425898760e347a1210562c53f319666697e",
+      "path": "x86_64-pc-windows-msvc-normal.txt"
+    }
+  ],
+  "notice_gap_union": {
+    "reachable": 28,
+    "total_original_archive_gaps": 36,
+    "identities": [
+      "alloc-stdlib@0.3.0",
+      "clipboard-win@5.4.3",
+      "selectors@0.38.0",
+      "tauri-plugin@2.7.2",
+      "webview2-com@0.39.1",
+      "webview2-com-macros@0.8.1",
+      "webview2-com-sys@0.39.1",
+      "block2@0.6.2",
+      "dispatch2@0.3.1",
+      "objc2@0.6.5",
+      "objc2-app-kit@0.3.2",
+      "objc2-core-foundation@0.3.2",
+      "objc2-core-graphics@0.3.2",
+      "objc2-encode@4.1.0",
+      "objc2-exception-helper@0.1.1",
+      "objc2-quartz-core@0.3.2",
+      "objc2-web-kit@0.3.2",
+      "jni-sys-macros@0.4.1",
+      "ndk@0.9.0",
+      "ndk-context@0.1.1",
+      "ndk-sys@0.6.0+11769913",
+      "objc2-cloud-kit@0.3.2",
+      "objc2-core-data@0.3.2",
+      "objc2-core-image@0.3.2",
+      "objc2-core-location@0.3.2",
+      "objc2-core-text@0.3.2",
+      "objc2-ui-kit@0.3.2",
+      "objc2-user-notifications@0.3.2"
+    ]
+  },
+  "findings": [
+    "All six previously retained warning package versions are absent from all five measured target/feature graphs, including normal+build edges. This scopes these exact configurations; it does not remove lockfile warnings, cover other targets/features/hosts or suppress advisories.",
+    "All five declared MPL package versions are present in each normal dependency graph. This warrants candidate notice/source-availability work, not an assertion that every crate/file is linked into each binary.",
+    "Normal graph counts excluding the project: Windows 218, both Macs 223 each, Android 230, iOS simulator 229. Every target has 14 additional packages reachable only when build edges are included.",
+    "Reachable original notice cases: Windows 7; both Macs 13 each; Android 7; iOS simulator 18. Union 28 of the 36 archive-gap identities. No gap is erased from original inventory."
+  ],
+  "validation": {
+    "inventory_run": 46122082489,
+    "inventory_job": 140908574169,
+    "result": "success; actual logs inspected; 7 archive tests, 6 pinned-review tests, 5 new target-graph tests; two byte-identical archive inventories; fresh reviewed case identity comparison; ten cargo tree commands completed with unknown-output/identity checks",
+    "local": "5 target graph tests passed",
+    "native_scope_run": 46122082429,
+    "native_scope": "scope passed; all unchanged native build/audit/package jobs skipped. No new platform build or native GUI success inferred.",
+    "project_run": 46122082439,
+    "project_job": 140908633220,
+    "project_result": "success; actual logs inspected: five quiz tests, independent host/two phone-size clients/PIN/reconnect/offline, 84 baseline and 116 incoming/source-hash checks, mobile/desktop reader/Notes/fonts/actions/highlights/PNG/Compare/prayer regressions"
+  },
+  "artifact": {
+    "id": 15253673254,
+    "node_id": "MDg6QXJ0aWZhY3QxNTI1MzY3MzI1NA==",
+    "name": "reader-2.0-native-source-notice-inventory",
+    "size_in_bytes": 281072,
+    "url": "https://api.github.com/repos/Kimble-365/-parallel-bible-reader/actions/artifacts/15253673254",
+    "archive_download_url": "https://api.github.com/repos/Kimble-365/-parallel-bible-reader/actions/artifacts/15253673254/zip",
+    "expired": false,
+    "digest": "sha256:f55f7f6a6f844e72f23723f92903ef3dd5f495faa074a8a2ecd80d418cf30130",
+    "created_at": "2026-11-28T07:38:43Z",
+    "updated_at": "2026-11-28T07:38:43Z",
+    "expires_at": "2026-12-28T07:38:41Z",
+    "workflow_run": {
+      "id": 46122082489,
+      "repository_id": 1429613748,
+      "head_repository_id": 1429613748,
+      "head_branch": "project/parallel-reader",
+      "head_sha": "5c1151318004c7d83e76237296ebe5f4be4929a5"
+    }
+  },
+  "requirements_plan": "editor-notes/research/native-target-source-plan-20.md",
+  "limits": [
+    "Conservative Cargo reachability on Ubuntu host, not actual linked binary or shipped-file inventory for native build hosts.",
+    "Normal dependency graphs include procedural macros; build-only reachability does not prove generated code or data is absent from distributions.",
+    "Source archive identity and bare upstream URLs alone do not complete MPL or other source-availability obligations.",
+    "Pinned upstream notice/SDK/provenance cases, selected license alternatives, native/system/npm/toolchain/font/Scripture inventories require actual distribution assessment.",
+    "Native GUI/device export/share/clipboard and physical phone usability, signing and public deployment remain separate incomplete/unapproved work."
+  ],
+  "preservation": "Only graph audit scripts/read-only CI/research plan and own progress/report/guard changed. No Scripture/source-rights originals, 84 baseline, retained 1.28/1.29 runtime, native code/lock, user stores, canonical feeds or separately owned work changed. No merge/deploy/public Release/signing/access/formal approval.",
+  "next_milestone": "2.0-native-candidate-notice-source-bundle-and-shipped-file-assessment"
+}

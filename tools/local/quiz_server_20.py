@@ -98,7 +98,7 @@ def handler(root,store):
 def main():
  p=argparse.ArgumentParser(description=__doc__);p.add_argument('--root',type=Path,default=(Path(__file__).resolve().parent if (Path(__file__).resolve().parent/'releases/v2.0').is_dir() else Path(__file__).resolve().parents[2]));p.add_argument('--port',type=int,default=8766);p.add_argument('--lan',action='store_true',help='Share with devices on your trusted local network');a=p.parse_args()
  if not 1024<=a.port<=65535:p.error('Choose a port from 1024 to 65535.')
- root=a.root.resolve();bank=json.loads((root/'releases/v2.0/quiz-bank.json').read_text())['questions'];server=ThreadingHTTPServer(('0.0.0.0' if a.lan else '127.0.0.1',a.port),handler(root,QuizStore(bank)))
+ root=a.root.resolve();bank=json.loads((root/'releases/v2.0/quiz-bank.json').read_text(encoding='utf-8'))['questions'];server=ThreadingHTTPServer(('0.0.0.0' if a.lan else '127.0.0.1',a.port),handler(root,QuizStore(bank)))
  print(f'Open http://127.0.0.1:{a.port}/releases/v2.0/quiz.html',flush=True)
  if a.lan:print(f'Phones: open http://<this-computer-LAN-IP>:{a.port}/releases/v2.0/quiz.html on the same Wi-Fi. Allow this port only on your trusted local network. No Internet port forwarding.',flush=True)
  print('Temporary games: up to 32 players each; lost when the host stops. Ctrl+C to stop.',flush=True)

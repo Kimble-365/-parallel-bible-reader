@@ -1,0 +1,234 @@
+{
+  "release_ready": false,
+  "review_ready": true,
+  "assessed_native_source_commit": "4dc0883a0958b0f2cb513278552493f8b2ad97d7",
+  "quiz_ci_source_commit": "bdef9401f523cb1a7f72ca9db64cbc32613e6f61",
+  "quiz_host_utf8_final_sha256": "d009fd4a51957376ce1ab6476391631548c50c14b16fe0294ac5a604903d22d0",
+  "quiz_host_final_check": "Explicit UTF-8 bank decoding added after CI; five local source/state/authority tests rerun successfully; browser/UI code unchanged",
+  "native_build_run": 46057655977,
+  "native_builds": "Windows x64 unsigned NSIS, Mac ARM64/Intel unsigned app, Android ARM64 debug, ARM64 iOS simulator succeeded; actual compiler/test/upload logs inspected",
+  "native_artifacts": [
+    {
+      "id": 15228451268,
+      "name": "reader-2.0-aarch64-apple-darwin-unsigned-review",
+      "bytes": 312125088,
+      "digest": "sha256:032ff37d176254008de084f47db0df020e41fe0a47bb657cdd08bfe0a9127d92",
+      "expired_at_observation": false
+    },
+    {
+      "id": 15228430965,
+      "name": "reader-2.0-x86_64-apple-darwin-unsigned-review",
+      "bytes": 309338046,
+      "digest": "sha256:243f1bd0c25aeeb59f712b97b0e43b02fbb9bb7d6290c8895d4839a18a8e3d43",
+      "expired_at_observation": false
+    },
+    {
+      "id": 15227912829,
+      "name": "reader-2.0-x86_64-pc-windows-msvc-unsigned-review",
+      "bytes": 307858421,
+      "digest": "sha256:aac07d961fb8dd0ebc00a3229f8e2b3f9dc37c5853f5f7f2d60afc0528e34c5d",
+      "expired_at_observation": false
+    },
+    {
+      "id": 15227517871,
+      "name": "reader-2.0-web-review",
+      "bytes": 316305198,
+      "digest": "sha256:db919220ff5737b9ab404da5679d664630dde264ee994d9b40649454e7eaecbc",
+      "expired_at_observation": false
+    },
+    {
+      "id": 15227429003,
+      "name": "reader-2.0-android-arm64-debug-review",
+      "bytes": 418973742,
+      "digest": "sha256:edfd0d8cfe0dd0247527c42c08e1af3e793396ae8b4376c9952446fae5d92884",
+      "expired_at_observation": false
+    },
+    {
+      "id": 15227164482,
+      "name": "reader-2.0-ios-simulator-review",
+      "bytes": 322093633,
+      "digest": "sha256:d092cfbc76bbd83f595efb1685cd09506bae5101d85aa45b092c4b7309260916",
+      "expired_at_observation": false
+    }
+  ],
+  "native_log_evidence": [
+    {
+      "job": 140704238782,
+      "lines": [
+        "2026-11-27T19:42:57.2784520Z \u001b[1m\u001b[92m    Finished\u001b[0m `dev` profile [unoptimized + debuginfo] target(s) in 6m 24s",
+        "2026-11-27T19:49:52.9327690Z \u001b[1m\u001b[92m    Finished\u001b[0m `dev` profile [unoptimized + debuginfo] target(s) in 6m 46s",
+        "2026-11-27T19:49:54.4817030Z        Built application at: /Users/runner/work/-parallel-bible-reader/-parallel-bible-reader/apps/native-20/src-tauri/target/x86_64-apple-darwin/debug/parallel-bible-reader",
+        "2026-11-27T19:49:57.1232630Z     Finished 1 bundle at:",
+        "apps/native-20/src-tauri/target/**/bundle/nsis/*.exe",
+        "2026-11-27T19:50:22.0497860Z Finished uploading artifact content to blob storage!",
+        "2026-11-27T19:50:22.0500210Z SHA256 digest of uploaded artifact zip is 243f1bd0c25aeeb59f712b97b0e43b02fbb9bb7d6290c8895d4839a18a8e3d43"
+      ]
+    },
+    {
+      "job": 140704238822,
+      "lines": [
+        "2026-11-27T19:41:42.7985848Z \u001b[1m\u001b[92m    Finished\u001b[0m `dev` profile [unoptimized + debuginfo] target(s) in 5m 04s",
+        "2026-11-27T19:46:22.1582533Z \u001b[1m\u001b[92m    Finished\u001b[0m `dev` profile [unoptimized + debuginfo] target(s) in 2m 47s",
+        "2026-11-27T19:46:36.5884229Z     Finished 1 APK at:",
+        "2026-11-27T19:46:43.3550909Z Finished uploading artifact content to blob storage!",
+        "2026-11-27T19:46:43.3555303Z SHA256 digest of uploaded artifact zip is edfd0d8cfe0dd0247527c42c08e1af3e793396ae8b4376c9952446fae5d92884"
+      ]
+    },
+    {
+      "job": 140704238853,
+      "lines": [
+        "2026-11-27T19:45:45.1967150Z \u001b[1m\u001b[92m    Finished\u001b[0m `dev` profile [unoptimized + debuginfo] target(s) in 8m 41s",
+        "2026-11-27T19:46:21.3946890Z     Finished 1 iOS Bundle at:",
+        "2026-11-27T19:46:43.9582060Z Finished uploading artifact content to blob storage!",
+        "2026-11-27T19:46:43.9587680Z SHA256 digest of uploaded artifact zip is d092cfbc76bbd83f595efb1685cd09506bae5101d85aa45b092c4b7309260916"
+      ]
+    },
+    {
+      "job": 140704238863,
+      "lines": [
+        "2026-11-27T19:43:13.8046000Z \u001b[1m\u001b[92m    Finished\u001b[0m `dev` profile [unoptimized + debuginfo] target(s) in 6m 44s",
+        "2026-11-27T19:48:03.9833120Z \u001b[1m\u001b[92m    Finished\u001b[0m `test` profile [unoptimized + debuginfo] target(s) in 4m 48s",
+        "2026-11-27T19:48:04.3267510Z test result: ok. 2 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s",
+        "2026-11-27T19:53:40.1516800Z \u001b[1m\u001b[92m    Finished\u001b[0m `dev` profile [unoptimized + debuginfo] target(s) in 5m 26s",
+        "2026-11-27T19:53:40.3220200Z        Built application at: /Users/runner/work/-parallel-bible-reader/-parallel-bible-reader/apps/native-20/src-tauri/target/aarch64-apple-darwin/debug/parallel-bible-reader",
+        "2026-11-27T19:53:43.8188860Z     Finished 1 bundle at:",
+        "apps/native-20/src-tauri/target/**/bundle/nsis/*.exe",
+        "2026-11-27T19:54:01.0994940Z Finished uploading artifact content to blob storage!",
+        "2026-11-27T19:54:01.1005940Z SHA256 digest of uploaded artifact zip is 032ff37d176254008de084f47db0df020e41fe0a47bb657cdd08bfe0a9127d92"
+      ]
+    },
+    {
+      "job": 140704238890,
+      "lines": [
+        "2026-11-27T19:52:13.3965494Z        Built application at: D:\\a\\-parallel-bible-reader\\-parallel-bible-reader\\apps\\native-20\\src-tauri\\target\\x86_64-pc-windows-msvc\\debug\\parallel-bible-reader.exe\r",
+        "2026-11-27T19:52:13.8682025Z         Info Patching D:\\a\\-parallel-bible-reader\\-parallel-bible-reader\\apps\\native-20\\src-tauri\\target\\x86_64-pc-windows-msvc\\debug\\parallel-bible-reader.exe with bundle type information: nsis\r",
+        "2026-11-27T19:52:15.1736260Z         Info Verifying NSIS package\r",
+        "2026-11-27T19:52:15.1746610Z  Downloading https://github.com/tauri-apps/binary-releases/releases/download/nsis-3.13/nsis-3.13.zip\r",
+        "2026-11-27T19:52:16.2593087Z         Info extracting NSIS\r",
+        "2026-11-27T19:52:16.6384266Z  Downloading https://github.com/tauri-apps/nsis-tauri-utils/releases/download/nsis_tauri_utils-v0.5.3/nsis_tauri_utils.dll\r",
+        "2026-11-27T19:52:16.7138907Z      Running makensis to produce D:\\a\\-parallel-bible-reader\\-parallel-bible-reader\\apps\\native-20\\src-tauri\\target\\x86_64-pc-windows-msvc\\debug\\bundle\\nsis\\Parallel Bible Reader_2.0.0_x64-setup.exe\r",
+        "2026-11-27T19:54:28.9074890Z     Finished 1 bundle at:\r",
+        "2026-11-27T19:54:28.9075966Z         D:\\a\\-parallel-bible-reader\\-parallel-bible-reader\\apps\\native-20\\src-tauri\\target\\x86_64-pc-windows-msvc\\debug\\bundle\\nsis\\Parallel Bible Reader_2.0.0_x64-setup.exe (293.47 MiB)\r",
+        "apps/native-20/src-tauri/target/**/bundle/nsis/*.exe",
+        "2026-11-27T19:54:35.7921471Z Finished uploading artifact content to blob storage!\r",
+        "2026-11-27T19:54:35.7926091Z SHA256 digest of uploaded artifact zip is aac07d961fb8dd0ebc00a3229f8e2b3f9dc37c5853f5f7f2d60afc0528e34c5d\r"
+      ]
+    },
+    {
+      "job": 140704238745,
+      "lines": [
+        "2026-11-27T19:38:27.9070272Z \u001b[1m\u001b[92m    Finished\u001b[0m `release` profile [optimized] target(s) in 2m 17s",
+        "2026-11-27T19:38:31.1144328Z \u001b[0m\u001b[0m\u001b[1m\u001b[31mID:       \u001b[0m RUSTSEC-2026-0594",
+        "2026-11-27T19:38:31.1144691Z \u001b[0m\u001b[0m\u001b[1m\u001b[31mURL:      \u001b[0m https://rustsec.org/advisories/RUSTSEC-2026-0594",
+        "2026-11-27T19:38:31.1151711Z \u001b[0m\u001b[0m\u001b[1m\u001b[31mID:       \u001b[0m RUSTSEC-2026-0592",
+        "2026-11-27T19:38:31.1152121Z \u001b[0m\u001b[0m\u001b[1m\u001b[31mURL:      \u001b[0m https://rustsec.org/advisories/RUSTSEC-2026-0592",
+        "2026-11-27T19:38:31.1153997Z \u001b[0m\u001b[0m\u001b[1m\u001b[31merror:\u001b[0m 2 vulnerabilities found!"
+      ]
+    }
+  ],
+  "release_blockers": [
+    {
+      "kind": "dependency_audit",
+      "job": 140704238745,
+      "conclusion": "failure",
+      "findings": [
+        {
+          "crate": "cookie",
+          "version": "0.18.2",
+          "advisory": "RUSTSEC-2026-0594",
+          "upstream_remediation": "0.18.3 or newer"
+        },
+        {
+          "crate": "url",
+          "version": "2.5.8",
+          "advisory": "RUSTSEC-2026-0592",
+          "upstream_remediation": "2.5.9 or newer"
+        }
+      ],
+      "target_reachability": "Not assessed; do not equate dependency presence with exploitability on each target."
+    },
+    {
+      "kind": "native_runtime",
+      "status": "Native GUI, actual desktop clipboard/export and physical tablet interaction not yet verified; browser bridge tests use mocks."
+    },
+    {
+      "kind": "distribution_rights",
+      "status": "Interrupted dependency notice/source-offer audit remains unfinished; no completion inferred from recovery."
+    },
+    {
+      "kind": "public_distribution",
+      "status": "Desktop packages unsigned; Android debug; iOS simulator is not a signed physical iPad package. Signing/store/publication decisions remain separate."
+    }
+  ],
+  "quiz": {
+    "questions": 60,
+    "levels": 10,
+    "questions_per_level": 6,
+    "round": 5,
+    "selection": "Random order and answer positions, no repeated question within a round",
+    "source": "60 project-authored prompts; exact pinned public-domain engwebp verses and per-verse SHA-256",
+    "modes": [
+      "offline solo",
+      "opt-in same-LAN host plus phone browsers using six-digit PIN"
+    ],
+    "players_per_room": 32,
+    "temporary_room_hours": 2,
+    "server": "Python standard-library companion, started explicitly; loopback default, --lan opt-in",
+    "internet_hosting": false,
+    "physical_phone_test": false,
+    "tests": "5 source/state/concurrency/authority/time-limit tests and actual independent host/two phone-size Chromium clients; five rounds, scoreboard, reconnect, offline solo, traversal and cross-origin rejection; CI project run passed",
+    "ci_run": 46098825398,
+    "ci_job": 140836349581,
+    "ci_log_evidence": [
+      "2026-11-28T02:35:29.4655094Z ##[group]GITHUB_TOKEN Permissions",
+      "2026-11-28T02:35:54.1081053Z PASS: 84 real editions, exact-code priority, native names, multiword edition search, Latin accent folding only, bounded transposition suggestions, filters, query bound and unchanged metadata",
+      "2026-11-28T02:35:59.1244617Z PASS: 84-edition browser search, explicit suggestions/focus, combined filters, native names, exact slot/reference preservation, plain-text rendering, 320/390/1280px and offline reload",
+      "2026-11-28T02:35:59.2070300Z PASS: unique control IDs, local script/style links, 151 PWA assets, menu boot order, single-text defaults, responsive CSS and unchanged note/text stores",
+      "2026-11-28T02:35:59.2071575Z PASS: selection-copy handler loads synchronously before asynchronous reader boot, including fast offline reloads",
+      "2026-11-28T02:35:59.2464498Z PASS: six font choices, strict whitelist, unavailable/quota storage, preserved note/theme stores and offline inclusion",
+      "2026-11-28T02:36:05.1547885Z PASS: 320/390/1280px real font settings, exact text preservation, script fallback, persistence, corrupt values, cross-tab updates, failed storage and offline settings",
+      "2026-11-28T02:36:05.2269218Z PASS: unique control IDs, local script/style links, 164 PWA assets, menu boot order, single-text defaults, responsive CSS and unchanged note/text stores",
+      "2026-11-28T02:36:05.2270042Z PASS: selection-copy handler loads synchronously before asynchronous reader boot, including fast offline reloads",
+      "2026-11-28T02:36:10.4938067Z PASS: 4-column shared verse tops over unequal text heights, mobile grouped verses, explicit independent mode, original/native Finnish verse quotation, absent/broken native gzip fallback, Japanese ruby and Latin, copy excludes kana, persistent manual tracker, 11 external-only PRS choices, complete source/aid saving and offline Revelation; no page errors",
+      "2026-11-28T02:36:10.5311962Z ##[group]Run python tests/quiz_20.py",
+      "2026-11-28T02:36:10.5312257Z \u001b[36;1mpython tests/quiz_20.py\u001b[0m",
+      "2026-11-28T02:36:10.5312475Z \u001b[36;1mpython tests/quiz_browser_20.py\u001b[0m",
+      "2026-11-28T02:36:11.6901938Z test_bank_sources (__main__.QuizTests.test_bank_sources) ... ok",
+      "2026-11-28T02:36:11.6913459Z test_concurrent_duplicate (__main__.QuizTests.test_concurrent_duplicate) ... ok",
+      "2026-11-28T02:36:11.6919185Z test_names_levels_decks (__main__.QuizTests.test_names_levels_decks) ... ok",
+      "2026-11-28T02:36:11.6922706Z test_round_and_authority (__main__.QuizTests.test_round_and_authority) ... ok",
+      "2026-11-28T02:36:11.6923879Z test_timer_and_tokens (__main__.QuizTests.test_timer_and_tokens) ... ok",
+      "2026-11-28T02:36:11.6925442Z Ran 5 tests in 1.063s",
+      "2026-11-28T02:36:11.6925705Z OK",
+      "2026-11-28T02:36:19.9564237Z PASS quiz: solo 390px, five questions/results, level 10, unchanged Notes, offline reload; independent host and two phone-size clients, PIN join, five live rounds, reveal/scoreboard, session reconnect; static traversal and cross-origin API rejection",
+      "2026-11-28T02:36:26.8047227Z PASS: 84 byte-equivalent catalog records retained; 116 incoming editions; 85 exact gzip/source hashes; 2,431,331 rows; 232 intact source/display archives; all notices and distribution paths",
+      "2026-11-28T02:37:30.2766222Z PASS: 390/1280px 2.0 UI; all 116 incoming edition loads; forced JS gzip fallback; attributed copy/Notes; intentional empty slots; Finnish NT saved/reopened offline; corrupt manifest rejected; no page errors",
+      "2026-11-28T02:37:32.4973287Z PASS Hebrew: 23,213 WLC rows audited; 10 formatting rows fixed without source mutation; Shema large letters retained; Hebrew/Modern Greek fixtures; Salkinson 27 books/7,957 rows and exact raw/hash verification; main catalog 200 (84 retained + 116 incoming). Affected references: [[\"DEU\",6,4],[\"ISA\",44,14],[\"JDG\",18,30],[\"JER\",39,13],[\"JOB\",38,13],[\"JOB\",38,15],[\"LEV\",11,42],[\"NUM\",27,5],[\"PRO\",16,28],[\"PSA\",80,14]]",
+      "2026-11-28T02:37:39.1696167Z PASS Hebrew browsers: mobile/desktop Shema/copy/Notes/large letters; separate Hebrew sources/Latin/Modern Greek, source-key preservation, 27-book export, checksummed offline Salkinson, private converter and ABP external-only status; no outside requests",
+      "2026-11-28T02:37:42.3074289Z PASS KR33/38: 31,087 rows audited; only MAT 6:13 adapted; original MAT blob pinned; brackets and other editions preserved; Notes single/range clean",
+      "2026-11-28T02:37:51.9536011Z PASS KR33/38: mobile/desktop display forms, attributed clipboard, Notes paths, drawn PNG, search and offline",
+      "2026-11-28T02:38:02.2746669Z PASS: verse-specific clipboard/Notes/bookmarks/highlights, selection, keyboard, source mode, empty slot preservation, storage failure and mobile/offline behavior",
+      "2026-11-28T02:38:02.3408038Z PASS: bounded image text, explicit paragraphs, Unicode grapheme wrapping and exact text retained across wrap lines",
+      "2026-11-28T02:38:08.9426561Z PASS: downloaded PNG signature/dimensions, Unicode/RTL canvas, offline PNG/Compare, 320/390/1280px, preserved empty slots and no external requests",
+      "2026-11-28T02:38:09.0024622Z PASS: 14 distinct editorial resources, all historic selections attributed, bounded text, explicit care/diagnosis limits and offline assets",
+      "2026-11-28T02:38:14.1088731Z PASS: 14 resources, selected Text 3 context, attributed clipboard, empty slots, source links, Scripture navigation, mobile widths and offline library"
+    ]
+  },
+  "latest_quiz_native_build_run": 46098825419,
+  "latest_quiz_native_build_status": "Still running when final report prepared; do not apply pre-quiz artifact identities to quiz builds",
+  "sources": [
+    "https://support.kahoot.com/hc/en-us/articles/360039422694-How-to-host-a-live-kahoot",
+    "https://support.kahoot.com/hc/en-us/articles/115002308428-Kahoot-question-types",
+    "https://verseabible.com/tools/bible-quiz",
+    "https://www.ebible.org/find/details.php?id=engwebp"
+  ],
+  "preserved": [
+    "200 edition identities including 84 baseline records",
+    "all existing 1.28 files and user-store namespaces",
+    "original source archives and typography",
+    "WLC/Delitzsch/Salkinson/Greek separate volumes",
+    "ABP external-only",
+    "canonical EPUB/mobile feed"
+  ],
+  "deployment": false
+}

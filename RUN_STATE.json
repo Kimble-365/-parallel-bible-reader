@@ -1,19 +1,18 @@
 {
   "version": 1,
-  "status": "running",
-  "owner": "reader-20-readiness-quiz-20261127",
+  "status": "idle",
+  "owner": null,
   "branch": "project/parallel-reader",
-  "next_milestone": "2.0-review-1.29-native-builds-then-runtime-distribution-audit",
+  "next_milestone": "2.0-remediate-dependency-audit-and-verify-quiz-builds",
   "last_run": {
-    "owner": "reader-129-intake-20261127",
-    "completed_at": "2026-11-27",
-    "milestone": "1.29-verified-intake-and-2.0-reader-integration",
-    "code_commit": "4dc0883a0958b0f2cb513278552493f8b2ad97d7",
-    "verification_status": "passed: source, new/inherited Chromium and project CI, reproducible 200-edition package; native CI still running",
-    "verification_run": 46057655989,
-    "pending_native_review_run": 46057655977,
-    "report": "change-logs/reports/europe-129-package-20261127.json",
-    "result": "116 incoming editions added to maintained 2.0 shell; 84 baseline records/source bytes and 1.28 retained; 85 exact gzip packs; no deployment"
+    "owner": "reader-20-readiness-quiz-20261127",
+    "milestone": "2.0-release-readiness-and-scripture-quiz",
+    "code_commit": "bdef9401f523cb1a7f72ca9db64cbc32613e6f61",
+    "verification_status": "Quiz source/state/browser and inherited project CI passed; public release blocked by failed dependency audit and runtime/distribution gaps",
+    "verification_run": 46098825398,
+    "pending_native_review_run": 46098825419,
+    "report": "change-logs/reports/reader-20-readiness-quiz.json",
+    "release_ready": false
   },
   "rule": "Acquire by expected-head fast-forward lease; never overwrite an active owner or treat elapsed time as completion. Only the owner releases.",
   "milestone": "2.0-release-readiness-and-scripture-quiz",
@@ -24,17 +23,16 @@
     "status": "folder prepared; package not yet received or verified"
   },
   "last_successful_run": {
-    "owner": "reader-129-intake-20261127",
-    "completed_at": "2026-11-27",
-    "milestone": "1.29-verified-intake-and-2.0-reader-integration",
-    "code_commit": "4dc0883a0958b0f2cb513278552493f8b2ad97d7",
-    "verification_status": "passed: source, new/inherited Chromium and project CI, reproducible 200-edition package; native CI still running",
-    "verification_run": 46057655989,
-    "pending_native_review_run": 46057655977,
-    "report": "change-logs/reports/europe-129-package-20261127.json",
-    "result": "116 incoming editions added to maintained 2.0 shell; 84 baseline records/source bytes and 1.28 retained; 85 exact gzip packs; no deployment"
+    "owner": "reader-20-readiness-quiz-20261127",
+    "milestone": "2.0-release-readiness-and-scripture-quiz",
+    "code_commit": "bdef9401f523cb1a7f72ca9db64cbc32613e6f61",
+    "verification_status": "Quiz source/state/browser and inherited project CI passed; public release blocked by failed dependency audit and runtime/distribution gaps",
+    "verification_run": 46098825398,
+    "pending_native_review_run": 46098825419,
+    "report": "change-logs/reports/reader-20-readiness-quiz.json",
+    "release_ready": false
   },
-  "expected_head": "c2e7c77e0a76d0c2f04da2f745768a613c224b1e",
+  "expected_head": "bdef9401f523cb1a7f72ca9db64cbc32613e6f61",
   "recovered_run": {
     "owner": "reader-native-rights-20261110-manual",
     "reason": "User explicitly authorized closing interrupted run and integrating supplied 1.29 package on 2026-11-27; no prior completion inferred."

@@ -1,0 +1,347 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-28",
+  "branch": "project/parallel-reader",
+  "owner": "reader-native-artifact-inspection-20261128",
+  "milestone": "2.0-native-shipped-file-inspection",
+  "implementation_commit": "e74f0b378d914d90472f0532eb087818794943a8",
+  "source_commit": "b99dec8328314bc4845a573043fac982cb4056bc",
+  "guard_commit": "5dc766390b6c590fdc40fa2ff076907403b818dd",
+  "release_ready": false,
+  "packages": [
+    {
+      "package": "reader-2.0-ios-simulator.tar.gz",
+      "kind": "ios",
+      "bytes": 321996266,
+      "sha256": "97879615978af594faf513df4f92de1c1b9da5eb7704742ca4f55997c445a335",
+      "classification": "iOS simulator review app; not a physical-device IPA",
+      "members": 10,
+      "binary_headers": [
+        {
+          "path": "Parallel Bible Reader.app/Parallel Bible Reader",
+          "bytes": 377186240,
+          "sha256": "92e5ac0f8c97786cb1ba90b9c703b38857deeb66f01094b29e28327514386fbc",
+          "binary": {
+            "format": "Mach-O64",
+            "cpu_type": 16777228
+          }
+        }
+      ],
+      "bundle_identities": [
+        {
+          "path": "Parallel Bible Reader.app/Info.plist",
+          "identifier": "org.kimble365.parallelbiblereader",
+          "version": "2.0.0",
+          "executable": "Parallel Bible Reader"
+        },
+        {
+          "path": "Parallel Bible Reader.app/LaunchScreen.storyboardc/Info.plist",
+          "identifier": null,
+          "version": null,
+          "executable": null
+        }
+      ],
+      "loose_notice_candidates": [],
+      "job_id": 140950098038
+    },
+    {
+      "package": "app-universal-debug.apk",
+      "kind": "android",
+      "bytes": 418950539,
+      "sha256": "00a52e86e50a8c6d1d877a3ce68a056cdc9907922d21072f7793ce719f8322e9",
+      "classification": "Android debug review APK; no signing/physical-device verification",
+      "members": 933,
+      "binary_headers": [
+        {
+          "path": "lib/arm64-v8a/libparallel_bible_reader_lib.so",
+          "bytes": 411611168,
+          "sha256": "c417edb44b16e6bbb03e2d1e43db2b2dac61124cf0ac9afdd2e02313aabe3c73",
+          "binary": {
+            "format": "ELF",
+            "class": 2,
+            "machine": 183
+          }
+        }
+      ],
+      "bundle_identities": [],
+      "loose_notice_candidates": [
+        "META-INF/FastDoubleParser-LICENSE",
+        "META-INF/FastDoubleParser-NOTICE",
+        "META-INF/androidx/annotation/annotation/LICENSE.txt",
+        "META-INF/androidx/lifecycle/lifecycle-common/LICENSE.txt",
+        "META-INF/bigint-LICENSE"
+      ],
+      "job_id": 140950098066
+    },
+    {
+      "package": "reader-2.0-aarch64-apple-darwin.tar.gz",
+      "kind": "macos",
+      "bytes": 312032525,
+      "sha256": "f1eb1487f209070675c7626d67567e0cc1019c038b7e4d42d7b5f5311e290669",
+      "classification": "Unsigned Mac review app",
+      "members": 3,
+      "binary_headers": [
+        {
+          "path": "Parallel Bible Reader.app/Contents/MacOS/parallel-bible-reader",
+          "bytes": 334013512,
+          "sha256": "4748d54ef1b86c95b760506438b31901b46931a2e6de75f719f7e5b370b71253",
+          "binary": {
+            "format": "Mach-O64",
+            "cpu_type": 16777228
+          }
+        }
+      ],
+      "bundle_identities": [
+        {
+          "path": "Parallel Bible Reader.app/Contents/Info.plist",
+          "identifier": "org.kimble365.parallelbiblereader",
+          "version": "2.0.0",
+          "executable": "parallel-bible-reader"
+        }
+      ],
+      "loose_notice_candidates": [],
+      "job_id": 140950098083
+    },
+    {
+      "package": "Parallel Bible Reader_2.0.0_x64-setup.exe",
+      "kind": "windows",
+      "bytes": 307752472,
+      "sha256": "e4ef791f7a8b166e9efd12815e9b3bd7ed10bba62e76bc7a850f275ff627c02d",
+      "classification": "Unsigned Windows NSIS review installer; installer stub architecture is not payload architecture",
+      "members": 0,
+      "binary_headers": [],
+      "bundle_identities": [],
+      "loose_notice_candidates": [],
+      "job_id": 140950098146
+    },
+    {
+      "package": "reader-2.0-x86_64-apple-darwin.tar.gz",
+      "kind": "macos",
+      "bytes": 309255370,
+      "sha256": "c39c87cb313c0557e3056907092405b174e8f998895223b5335bf5c364ab7ef2",
+      "classification": "Unsigned Mac review app",
+      "members": 3,
+      "binary_headers": [
+        {
+          "path": "Parallel Bible Reader.app/Contents/MacOS/parallel-bible-reader",
+          "bytes": 330438344,
+          "sha256": "3f1b1258a797ca4a1545374bb0f4468d1b1eeaea9a80125c93bf979de16d12e2",
+          "binary": {
+            "format": "Mach-O64",
+            "cpu_type": 16777223
+          }
+        }
+      ],
+      "bundle_identities": [
+        {
+          "path": "Parallel Bible Reader.app/Contents/Info.plist",
+          "identifier": "org.kimble365.parallelbiblereader",
+          "version": "2.0.0",
+          "executable": "parallel-bible-reader"
+        }
+      ],
+      "loose_notice_candidates": [],
+      "job_id": 140950098162
+    }
+  ],
+  "artifacts": [
+    {
+      "id": 15260411047,
+      "node_id": "MDg6QXJ0aWZhY3QxNTI2MDQxMTA0Nw==",
+      "name": "reader-2.0-x86_64-pc-windows-msvc-unsigned-review",
+      "size_in_bytes": 307885562,
+      "url": "https://api.github.com/repos/Kimble-365/-parallel-bible-reader/actions/artifacts/15260411047",
+      "archive_download_url": "https://api.github.com/repos/Kimble-365/-parallel-bible-reader/actions/artifacts/15260411047/zip",
+      "expired": false,
+      "digest": "sha256:507bc1b289000e30440a4d4ab457910bca8dca520ee2f5618c913d7d49c6509e",
+      "created_at": "2026-11-28T10:48:46Z",
+      "updated_at": "2026-11-28T10:48:46Z",
+      "expires_at": "2026-12-12T10:48:43Z",
+      "workflow_run": {
+        "id": 46135550472,
+        "repository_id": 1429613748,
+        "head_repository_id": 1429613748,
+        "head_branch": "project/parallel-reader",
+        "head_sha": "b99dec8328314bc4845a573043fac982cb4056bc"
+      }
+    },
+    {
+      "id": 15260291847,
+      "node_id": "MDg6QXJ0aWZhY3QxNTI2MDI5MTg0Nw==",
+      "name": "reader-2.0-aarch64-apple-darwin-unsigned-review",
+      "size_in_bytes": 312159272,
+      "url": "https://api.github.com/repos/Kimble-365/-parallel-bible-reader/actions/artifacts/15260291847",
+      "archive_download_url": "https://api.github.com/repos/Kimble-365/-parallel-bible-reader/actions/artifacts/15260291847/zip",
+      "expired": false,
+      "digest": "sha256:4d36ac187a569e770eac19abbf588daaf272ed491640d96c11a0bec6806ea034",
+      "created_at": "2026-11-28T10:50:51Z",
+      "updated_at": "2026-11-28T10:50:51Z",
+      "expires_at": "2026-12-12T10:50:46Z",
+      "workflow_run": {
+        "id": 46135550472,
+        "repository_id": 1429613748,
+        "head_repository_id": 1429613748,
+        "head_branch": "project/parallel-reader",
+        "head_sha": "b99dec8328314bc4845a573043fac982cb4056bc"
+      }
+    },
+    {
+      "id": 15260185983,
+      "node_id": "MDg6QXJ0aWZhY3QxNTI2MDE4NTk4Mw==",
+      "name": "reader-2.0-android-arm64-debug-review",
+      "size_in_bytes": 419265035,
+      "url": "https://api.github.com/repos/Kimble-365/-parallel-bible-reader/actions/artifacts/15260185983",
+      "archive_download_url": "https://api.github.com/repos/Kimble-365/-parallel-bible-reader/actions/artifacts/15260185983/zip",
+      "expired": false,
+      "digest": "sha256:8f4feb4ce9b79c1b369ab1c0e224f1281862514016127020a54f4ce6753a635b",
+      "created_at": "2026-11-28T10:42:52Z",
+      "updated_at": "2026-11-28T10:42:52Z",
+      "expires_at": "2026-12-12T10:42:48Z",
+      "workflow_run": {
+        "id": 46135550472,
+        "repository_id": 1429613748,
+        "head_repository_id": 1429613748,
+        "head_branch": "project/parallel-reader",
+        "head_sha": "b99dec8328314bc4845a573043fac982cb4056bc"
+      }
+    },
+    {
+      "id": 15260023577,
+      "node_id": "MDg6QXJ0aWZhY3QxNTI2MDAyMzU3Nw==",
+      "name": "reader-2.0-x86_64-apple-darwin-unsigned-review",
+      "size_in_bytes": 309382112,
+      "url": "https://api.github.com/repos/Kimble-365/-parallel-bible-reader/actions/artifacts/15260023577",
+      "archive_download_url": "https://api.github.com/repos/Kimble-365/-parallel-bible-reader/actions/artifacts/15260023577/zip",
+      "expired": false,
+      "digest": "sha256:089a8b22acdeb0bd02f4acf6843a75f1a7124c0269e737115f8498af84ab2630",
+      "created_at": "2026-11-28T10:58:00Z",
+      "updated_at": "2026-11-28T10:58:00Z",
+      "expires_at": "2026-12-12T10:57:52Z",
+      "workflow_run": {
+        "id": 46135550472,
+        "repository_id": 1429613748,
+        "head_repository_id": 1429613748,
+        "head_branch": "project/parallel-reader",
+        "head_sha": "b99dec8328314bc4845a573043fac982cb4056bc"
+      }
+    },
+    {
+      "id": 15259838569,
+      "node_id": "MDg6QXJ0aWZhY3QxNTI1OTgzODU2OQ==",
+      "name": "reader-2.0-ios-simulator-review",
+      "size_in_bytes": 322124610,
+      "url": "https://api.github.com/repos/Kimble-365/-parallel-bible-reader/actions/artifacts/15259838569",
+      "archive_download_url": "https://api.github.com/repos/Kimble-365/-parallel-bible-reader/actions/artifacts/15259838569/zip",
+      "expired": false,
+      "digest": "sha256:f121e60093437b9a26196621d750c7cdc0e5ecad59b6b8b284b4766e3c274fec",
+      "created_at": "2026-11-28T10:43:20Z",
+      "updated_at": "2026-11-28T10:43:20Z",
+      "expires_at": "2026-12-12T10:43:16Z",
+      "workflow_run": {
+        "id": 46135550472,
+        "repository_id": 1429613748,
+        "head_repository_id": 1429613748,
+        "head_branch": "project/parallel-reader",
+        "head_sha": "b99dec8328314bc4845a573043fac982cb4056bc"
+      }
+    }
+  ],
+  "native_run": 46135550472,
+  "jobs": [
+    {
+      "id": 140949937123,
+      "name": "scope",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "id": 140950098038,
+      "name": "ios",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "id": 140950098066,
+      "name": "android",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "id": 140950098083,
+      "name": "desktop (macos-15, aarch64-apple-darwin, app)",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "id": 140950098146,
+      "name": "desktop (windows-latest, x86_64-pc-windows-msvc, nsis)",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "id": 140950098162,
+      "name": "desktop (macos-15, x86_64-apple-darwin, app)",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "id": 140950099146,
+      "name": "reader",
+      "status": "completed",
+      "conclusion": "skipped"
+    },
+    {
+      "id": 140950099672,
+      "name": "dependency-audit",
+      "status": "completed",
+      "conclusion": "skipped"
+    }
+  ],
+  "validation": {
+    "local_fixtures": 7,
+    "fixture_scope": "APK actual byte hashes/ELF machine, wrong architecture rejection, traversal without extraction, actual Mac plist/Mach-O header/link non-dereference, failed 7-Zip command propagation, installer-stub versus payload distinction, Cargo/product executable naming",
+    "compiler_logs": "Actual successful Rust/Tauri/compiler/test/package-inspector/upload logs inspected on all five targets. Three Rust unit tests pass on Windows and Apple Silicon; Intel Mac cross-architecture unit test remains skipped by existing workflow.",
+    "application_executed": false,
+    "native_gui_tested": false,
+    "embedded_frontend_resources_decoded": false,
+    "windows_payload": "7-Zip technical payload listing succeeds and contains expected product/Cargo executable name. Whole installer hash and listing retained; inspector does not claim per-file payload hashes or infer app architecture from MZ installer stub."
+  },
+  "findings": [
+    "Mac ARM and iOS main executables: Mach-O64 CPU type 16777228; Intel Mac: 16777223. App bundle identifier org.kimble365.parallelbiblereader, version 2.0.0 verified from actual plists.",
+    "Android APK has 933 hashed entries and lib/arm64-v8a/libparallel_bible_reader_lib.so, ELF64 machine 183. The universal-debug filename does not establish multi-ABI delivery.",
+    "Mac app tar archives have 3 non-directory members each; iOS simulator tar archive has 10. All regular file bytes hashed; links recorded without dereferencing. No app is launched/extracted.",
+    "Android loose metadata includes FastDoubleParser/AndroidX/bigint licence/notice paths. Cargo review alone does not cover every Gradle/native/system dependency.",
+    "No loose licence/notice path was found in the Mac/iOS tar member paths. This is not proof of absent embedded notices: Tauri frontend resources may be embedded/compressed in executables and were not decoded.",
+    "Product notice/source integration, applicable licence/SDK provenance/choice questions and durable corresponding source availability remain open. The previous dependency source review sidecar is not automatically integrated into these installers."
+  ],
+  "local_attempt": {
+    "artifact_id": 15247088564,
+    "source": "0ce32873c907e56709ae4df358ebb30e9390a656",
+    "result": "Connector made a reusable binary file reference, but local direct transfer returned URLError; additional-network execution stalled and was interrupted. No local archive inspection/completion was inferred. Used fresh on-build-machine inspection instead, without changing workflow read permissions."
+  },
+  "preservation": "Only nondeploying build inspection/tooling/workflow/scope fixture and own progress/guard changed. Native host/runtime/lock, Scripture/source/rights bytes, baseline 84/current 200 edition identities, 1.28/1.29 assets, user stores, canonical feeds and separately owned projects untouched. No merge/deploy/Release/signing/access change/formal approval.",
+  "limits": [
+    "Unsigned desktop/debug Android/iOS simulator review packages, not signed/public/physical iPad releases.",
+    "Static file/header/listing evidence is not GUI/device execution, full linked/generated-component analysis, signature verification or complete licensing clearance.",
+    "Windows summary members=0 denotes listing-only mode, not an installer with no payload. Its complete technical listing is in the packaged inspection JSON.",
+    "Original proof source hashes and new artifact/inner-package/binary hashes are separate immutable identities; no mixing with earlier build artifacts."
+  ],
+  "next_milestone": "2.0-native-local-notice-and-source-access-integration",
+  "project_validation": {
+    "run": 46135550531,
+    "source_commit": "b99dec8328314bc4845a573043fac982cb4056bc",
+    "first_attempt": {
+      "job": 140950002344,
+      "result": "failure",
+      "location": "tests/verse_media_128.py:30",
+      "error": "navigator.serviceWorker.controller wait exceeded 30000ms during offline PNG test"
+    },
+    "second_attempt": {
+      "job": 140957842641,
+      "result": "success",
+      "source_changed": false,
+      "actual_logs_inspected": true
+    },
+    "assessment": "Adjacent source comparison confirms no reader/SW/test changes; unchanged rerun passed full browser/source/quiz/PNG/offline suite. Root cause of the first intermittent timeout is not established or claimed fixed. Retain this observation for further test/runtime stability investigation."
+  }
+}

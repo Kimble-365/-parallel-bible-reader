@@ -1,17 +1,17 @@
 {
   "version": 1,
-  "status": "running",
-  "owner": "reader-native-artifact-inspection-20261128",
+  "status": "idle",
+  "owner": null,
   "branch": "project/parallel-reader",
-  "next_milestone": "2.0-native-artifact-shipped-file-assessment-and-notice-integration",
+  "next_milestone": "2.0-native-local-notice-and-source-access-integration",
   "last_run": {
-    "owner": "reader-native-source-bundle-20261128",
-    "milestone": "2.0-reproducible-native-candidate-source-bundle",
-    "code_commit": "6c4497be409ea6a15ea052915d4d104301fd180c",
-    "verification_run": 46126650175,
-    "project_run": 46126650173,
-    "verification_status": "Two byte-identical 73,659,045-byte/520-file source-review ZIPs contain all 482 exact original dependency archives and pinned notice/target evidence; all 25 fixtures and reader/quiz browser regressions pass. Native installer contents/product integration and durable public source availability remain open.",
-    "report": "change-logs/reports/native-20-source-bundle-20261128.json",
+    "owner": "reader-native-artifact-inspection-20261128",
+    "milestone": "2.0-native-shipped-file-inspection",
+    "code_commit": "b99dec8328314bc4845a573043fac982cb4056bc",
+    "verification_run": 46135550472,
+    "project_run": 46135550531,
+    "verification_status": "All five native builds and actual package static inspections passed; binary/bundle identities, per-file APK/tar hashes and Windows payload listing recorded. Browser/project rerun passes unchanged after one PNG/SW timeout (root cause not established). Native GUI/device and notice/source integration remain open.",
+    "report": "change-logs/reports/native-20-package-inspection-20261128.json",
     "release_ready": false
   },
   "rule": "Acquire by expected-head fast-forward lease; never overwrite an active owner or treat elapsed time as completion. Only the owner releases.",
@@ -23,16 +23,16 @@
     "status": "folder prepared; package not yet received or verified"
   },
   "last_successful_run": {
-    "owner": "reader-native-source-bundle-20261128",
-    "milestone": "2.0-reproducible-native-candidate-source-bundle",
-    "code_commit": "6c4497be409ea6a15ea052915d4d104301fd180c",
-    "verification_run": 46126650175,
-    "project_run": 46126650173,
-    "verification_status": "Two byte-identical 73,659,045-byte/520-file source-review ZIPs contain all 482 exact original dependency archives and pinned notice/target evidence; all 25 fixtures and reader/quiz browser regressions pass. Native installer contents/product integration and durable public source availability remain open.",
-    "report": "change-logs/reports/native-20-source-bundle-20261128.json",
+    "owner": "reader-native-artifact-inspection-20261128",
+    "milestone": "2.0-native-shipped-file-inspection",
+    "code_commit": "b99dec8328314bc4845a573043fac982cb4056bc",
+    "verification_run": 46135550472,
+    "project_run": 46135550531,
+    "verification_status": "All five native builds and actual package static inspections passed; binary/bundle identities, per-file APK/tar hashes and Windows payload listing recorded. Browser/project rerun passes unchanged after one PNG/SW timeout (root cause not established). Native GUI/device and notice/source integration remain open.",
+    "report": "change-logs/reports/native-20-package-inspection-20261128.json",
     "release_ready": false
   },
-  "expected_head": "35874042b18b8a5962327e432c977894d3faf41a",
+  "expected_head": "b99dec8328314bc4845a573043fac982cb4056bc",
   "recovered_run": {
     "owner": "reader-native-rights-20261110-manual",
     "reason": "User explicitly authorized closing interrupted run and integrating supplied 1.29 package on 2026-11-27; no prior completion inferred."

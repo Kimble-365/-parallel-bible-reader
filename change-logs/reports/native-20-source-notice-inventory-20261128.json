@@ -1,0 +1,102 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-28",
+  "owner": "reader-native-source-inventory-20261128",
+  "milestone": "2.0-locked-native-source-notice-inventory",
+  "branch": "project/parallel-reader",
+  "source_commit": "96201909a2b9fb924fb213f45f27c87b801c465c",
+  "guard_commit": "daf81b350ff860dbec2e79ca36aef8f4bd7109f9",
+  "base_commit": "f9318e81c1584bd1f64fefe760ada38c86e4f0d9",
+  "release_ready": false,
+  "status": "archive-integrity-inventory-verified; notice-source-review-required",
+  "scope": "Cargo.lock external registry archives across the complete lock, including target-specific/build-only dependencies. Not a claim that all crates are linked into each binary, not product notice integration or legal/source-offer approval.",
+  "lock": {
+    "path": "apps/native-20/src-tauri/Cargo.lock",
+    "blob": "7be7c2dd1da7afabefa5d41600ad5c5cfc220bc5",
+    "sha256": "a7b91d8424dc32d6abd04e0e744dd4b583fd103d0c8883f8f513e063219ad498",
+    "metadata_packages": 483,
+    "verified_registry_archives": 482,
+    "archive_bytes": 71287316,
+    "all_archive_checksums_verified": true
+  },
+  "notices": {
+    "files": 798,
+    "unique_sha256_texts": 270,
+    "unresolved_package_versions": 36,
+    "notice_file_inventory_complete": false,
+    "notice_bundle_sha256": "735d1f69532a448bae9c5a2d81aedbcbfffb730f6267b71b2c766e5a0aca71be",
+    "inventory_json_sha256": "8f5cbb1406f5e954dc67702b807eb776934beffe1f7ef6260e6be21c29d75217",
+    "two_byte_identical_audits": true,
+    "declared_mpl_packages": [
+      [
+        "cssparser",
+        "0.37.0"
+      ],
+      [
+        "cssparser-macros",
+        "0.7.1"
+      ],
+      [
+        "dtoa-short",
+        "0.3.5"
+      ],
+      [
+        "option-ext",
+        "0.2.0"
+      ],
+      [
+        "selectors",
+        "0.38.0"
+      ]
+    ],
+    "limitations": [
+      "Conventional archived notice discovery does not read all source headers or recover upstream notices.",
+      "Missing conventional notices do not establish that a package is unlicensed.",
+      "SPDX expressions are recorded, not license-alternative choices or release permission.",
+      "MPL source-availability obligations and target/distribution reachability need separate assessment.",
+      "Full package mappings/source URLs/VCS metadata/notice file hashes and exact original text bytes are retained in the pinned review artifact."
+    ]
+  },
+  "validation": {
+    "local": "7 tar/lock fixture tests passed; YAML syntax/read-only contents permissions verified.",
+    "inventory_run": 46112967321,
+    "inventory_job": 140880376226,
+    "inventory_result": "success; seven fixture tests; fresh cargo metadata --locked; two archive audits; diff -r matched all three output files; actual logs and upload digest inspected",
+    "project_run": 46112967257,
+    "project_job": 140880392403,
+    "project_result": "success; actual logs inspected, five quiz tests, offline solo/independent host+two phone-size clients/PIN/reconnect, all incoming/baseline archive hashes, 390/1280px reading/copy/Notes/offline, inherited fonts/actions/highlights/PNG/Compare and 14 resources",
+    "native_scope_run": 46112967331,
+    "native_scope_result": "scope success; all native/package/audit jobs skipped because application and lock unchanged. No new platform builds inferred.",
+    "previous_verified_native_source": "0ce32873c907e56709ae4df358ebb30e9390a656",
+    "previous_native_run": 46104922035
+  },
+  "artifact": {
+    "id": 15251030192,
+    "node_id": "MDg6QXJ0aWZhY3QxNTI1MTAzMDE5Mg==",
+    "name": "reader-2.0-native-source-notice-inventory",
+    "size_in_bytes": 175562,
+    "url": "https://api.github.com/repos/Kimble-365/-parallel-bible-reader/actions/artifacts/15251030192",
+    "archive_download_url": "https://api.github.com/repos/Kimble-365/-parallel-bible-reader/actions/artifacts/15251030192/zip",
+    "expired": false,
+    "digest": "sha256:c8aaaeb97183f8f70ec9922e28650d94b7073444c5beeb788c91a748be74f26b",
+    "created_at": "2026-11-28T05:38:27Z",
+    "updated_at": "2026-11-28T05:38:27Z",
+    "expires_at": "2026-12-28T05:38:26Z",
+    "workflow_run": {
+      "id": 46112967321,
+      "repository_id": 1429613748,
+      "head_repository_id": 1429613748,
+      "head_branch": "project/parallel-reader",
+      "head_sha": "96201909a2b9fb924fb213f45f27c87b801c465c"
+    }
+  },
+  "preservation": "Only audit scripts, dedicated nondeploying read-only workflow, research/progress/report and own guard changed. No corpus/edition/rights byte, retained 1.28/1.29 runtime, native code/lock, user store, canonical feed or separately owned project changed. No merge/deploy/Release/signing/access/formal PR approval.",
+  "next_milestone": "2.0-review-native-notice-gaps-and-source-availability",
+  "remaining": [
+    "Review original source headers/pinned upstream notices for 36 unresolved package/version cases.",
+    "Assess MPL source availability and actually distributed components; integrate reviewed notices/source materials into native candidate.",
+    "Dispose six existing audit warnings with target/feature evidence; this inventory does not remove or suppress them.",
+    "Native GUI/clipboard/export/share and physical device/phone tests, signing/provisioning remain separate unfinished acceptance work."
+  ],
+  "reproduction": "Use tools/local/audit_native_rights_20.py with --metadata, --lock, --cache, --source-commit and --out after cargo metadata --locked. --require-notices exits 2 for unresolved conventional notice cases. Inventory success is not release approval."
+}

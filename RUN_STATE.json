@@ -1,17 +1,17 @@
 {
   "version": 1,
-  "status": "running",
-  "owner": "reader-native-source-inventory-20261128",
+  "status": "idle",
+  "owner": null,
   "branch": "project/parallel-reader",
-  "next_milestone": "2.0-native-runtime-export-and-distribution-audit",
+  "next_milestone": "2.0-review-native-notice-gaps-and-source-availability",
   "last_run": {
-    "owner": "reader-dependency-verification-20261128",
-    "milestone": "2.0-verify-corrected-dependency-regression-test-and-native-builds",
-    "code_commit": "0ce32873c907e56709ae4df358ebb30e9390a656",
-    "verification_status": "Corrected Rust tests, all five native builds, audit, three browser engines, reproducible 200-edition package and quiz/project checks passed; six warnings and native runtime/distribution gaps remain.",
-    "verification_run": 46104922035,
-    "project_run": 46104921991,
-    "report": "change-logs/reports/native-20-dependency-verification-20261128.json",
+    "owner": "reader-native-source-inventory-20261128",
+    "milestone": "2.0-locked-native-source-notice-inventory",
+    "code_commit": "96201909a2b9fb924fb213f45f27c87b801c465c",
+    "verification_run": 46112967321,
+    "project_run": 46112967257,
+    "verification_status": "482 exact archives verified; 798 notices/270 unique texts; two byte-identical audits and seven fixture tests passed; 36 conventional notice gaps remain. Reader/quiz regressions passed. Native runtime/public distribution not claimed.",
+    "report": "change-logs/reports/native-20-source-notice-inventory-20261128.json",
     "release_ready": false
   },
   "rule": "Acquire by expected-head fast-forward lease; never overwrite an active owner or treat elapsed time as completion. Only the owner releases.",
@@ -23,16 +23,16 @@
     "status": "folder prepared; package not yet received or verified"
   },
   "last_successful_run": {
-    "owner": "reader-dependency-verification-20261128",
-    "milestone": "2.0-verify-corrected-dependency-regression-test-and-native-builds",
-    "code_commit": "0ce32873c907e56709ae4df358ebb30e9390a656",
-    "verification_status": "Corrected Rust tests, all five native builds, audit, three browser engines, reproducible 200-edition package and quiz/project checks passed; six warnings and native runtime/distribution gaps remain.",
-    "verification_run": 46104922035,
-    "project_run": 46104921991,
-    "report": "change-logs/reports/native-20-dependency-verification-20261128.json",
+    "owner": "reader-native-source-inventory-20261128",
+    "milestone": "2.0-locked-native-source-notice-inventory",
+    "code_commit": "96201909a2b9fb924fb213f45f27c87b801c465c",
+    "verification_run": 46112967321,
+    "project_run": 46112967257,
+    "verification_status": "482 exact archives verified; 798 notices/270 unique texts; two byte-identical audits and seven fixture tests passed; 36 conventional notice gaps remain. Reader/quiz regressions passed. Native runtime/public distribution not claimed.",
+    "report": "change-logs/reports/native-20-source-notice-inventory-20261128.json",
     "release_ready": false
   },
-  "expected_head": "f9318e81c1584bd1f64fefe760ada38c86e4f0d9",
+  "expected_head": "96201909a2b9fb924fb213f45f27c87b801c465c",
   "recovered_run": {
     "owner": "reader-native-rights-20261110-manual",
     "reason": "User explicitly authorized closing interrupted run and integrating supplied 1.29 package on 2026-11-27; no prior completion inferred."

@@ -136,11 +136,11 @@ mod tests {
     #[test]
     fn nested_blob_origins_are_bounded_and_standard() {
         let nested = format!("{}https://example.org/item", "blob:".repeat(10_000));
-        assert!(url::Url::parse(&nested).unwrap().origin().is_opaque());
-        assert!(url::Url::parse("blob:ws://example.org/item")
+        assert!(!url::Url::parse(&nested).unwrap().origin().is_tuple());
+        assert!(!url::Url::parse("blob:ws://example.org/item")
             .unwrap()
             .origin()
-            .is_opaque());
+            .is_tuple());
         assert_eq!(
             url::Url::parse("blob:https://example.org/item")
                 .unwrap()

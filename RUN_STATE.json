@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "status": "idle",
-  "owner": null,
+  "status": "running",
+  "owner": "reader-native-artifact-inspection-20261128",
   "branch": "project/parallel-reader",
   "next_milestone": "2.0-native-artifact-shipped-file-assessment-and-notice-integration",
   "last_run": {
@@ -15,7 +15,7 @@
     "release_ready": false
   },
   "rule": "Acquire by expected-head fast-forward lease; never overwrite an active owner or treat elapsed time as completion. Only the owner releases.",
-  "milestone": "2.0-reproducible-native-candidate-source-bundle",
+  "milestone": "2.0-native-shipped-file-inspection",
   "last_intake_setup": {
     "owner": "reader-129-intake-20261106",
     "path": "incoming/v1.29/",
@@ -32,7 +32,7 @@
     "report": "change-logs/reports/native-20-source-bundle-20261128.json",
     "release_ready": false
   },
-  "expected_head": "6c4497be409ea6a15ea052915d4d104301fd180c",
+  "expected_head": "35874042b18b8a5962327e432c977894d3faf41a",
   "recovered_run": {
     "owner": "reader-native-rights-20261110-manual",
     "reason": "User explicitly authorized closing interrupted run and integrating supplied 1.29 package on 2026-11-27; no prior completion inferred."

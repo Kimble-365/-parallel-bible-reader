@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "status": "idle",
-  "owner": null,
+  "status": "running",
+  "owner": "reader-native-notice-triage-20261128",
   "branch": "project/parallel-reader",
   "next_milestone": "2.0-review-native-notice-gaps-and-source-availability",
   "last_run": {
@@ -15,7 +15,7 @@
     "release_ready": false
   },
   "rule": "Acquire by expected-head fast-forward lease; never overwrite an active owner or treat elapsed time as completion. Only the owner releases.",
-  "milestone": "2.0-locked-native-source-notice-inventory",
+  "milestone": "2.0-pin-upstream-notice-evidence-and-triage-gaps",
   "last_intake_setup": {
     "owner": "reader-129-intake-20261106",
     "path": "incoming/v1.29/",
@@ -32,7 +32,7 @@
     "report": "change-logs/reports/native-20-source-notice-inventory-20261128.json",
     "release_ready": false
   },
-  "expected_head": "96201909a2b9fb924fb213f45f27c87b801c465c",
+  "expected_head": "ec2ea2a529c73da2e90166d34a37c962d113764b",
   "recovered_run": {
     "owner": "reader-native-rights-20261110-manual",
     "reason": "User explicitly authorized closing interrupted run and integrating supplied 1.29 package on 2026-11-27; no prior completion inferred."

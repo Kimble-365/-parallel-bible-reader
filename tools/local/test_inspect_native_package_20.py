@@ -8,6 +8,7 @@ import tarfile
 import tempfile
 import unittest
 import zipfile
+from types import SimpleNamespace
 from inspect_native_package_20 import inspect,identity
 
 
@@ -43,6 +44,11 @@ class Packages(unittest.TestCase):
         with self.assertRaises(subprocess.CalledProcessError):inspect(p,'windows',run=fail)
     def test_installer_stub_not_payload_architecture(self):
         r=identity(io.BytesIO(b'MZ'+b'\0'*100));self.assertTrue(r['binary']['payload_architecture_not_inferred'])
+    def test_installer_accepts_product_and_cargo_binary_names(self):
+        p=self.root/'review.exe';p.write_bytes(b'MZ'+b'\0'*100)
+        for name in ('Parallel Bible Reader.exe','parallel-bible-reader.exe'):
+            result=inspect(p,'windows',run=lambda *a,**k:SimpleNamespace(stdout='Path = '+name+'\nSize = 123\n'))
+            self.assertIn(name,result['installer_listing'])
 
 
 if __name__=='__main__':unittest.main()

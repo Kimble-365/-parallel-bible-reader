@@ -4,6 +4,7 @@ import hashlib
 import json
 from pathlib import Path, PurePosixPath
 import plistlib
+import re
 import struct
 import subprocess
 import tarfile
@@ -75,7 +76,7 @@ def inspect(path,kind,run=subprocess.run):
     elif kind=='windows':
         if outer.get('binary',{}).get('format')!='PE/DOS-stub':raise ValueError('Expected PE installer')
         listing=run(['7z','l','-slt',str(path)],capture_output=True,text=True,check=True).stdout
-        if 'Parallel Bible Reader.exe' not in listing:raise ValueError('Expected application payload missing from installer listing')
+        if not re.search(r'(?:Parallel Bible Reader|parallel-bible-reader)\.exe',listing,re.I):raise ValueError('Expected application payload missing from installer listing')
         result['installer_listing']=listing
         result['installer_listing_sha256']=hashlib.sha256(listing.encode()).hexdigest()
         result['classification']='Unsigned Windows NSIS review installer; installer stub architecture is not payload architecture'

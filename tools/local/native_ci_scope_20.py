@@ -18,6 +18,8 @@ def select(paths,old,new,dispatch=False):
    pass
   elif path.startswith(('apps/native-20/','releases/v2.0/')) or path in ('tools/package_reader_20.py','tools/local/prepare_native_20.py'):
    for j in JOBS:result[j]=True
+  elif path in ('tools/local/inspect_native_package_20.py','tools/local/test_inspect_native_package_20.py'):
+   for j in ('desktop','android','ios'):result[j]=True
   elif path=='tools/local/reader_native_20.ps1':result['desktop']=True
   elif path.startswith('tests/') or path=='tools/local/export_reading_volumes.py':result['reader']=True
  return result
@@ -28,6 +30,8 @@ def self_test():
  assert all(select(['apps/native-20/src-tauri/Cargo.lock'],old,old).values())
  assert select(['tools/local/reader_native_20.ps1'],old,old)['desktop']
  assert select(['tests/browser_engines_20.py'],old,old)['reader']
+ inspection=select(['tools/local/inspect_native_package_20.py'],old,old)
+ assert all(inspection[j] for j in ('desktop','android','ios')) and not inspection['reader'] and not inspection['dependency-audit']
  assert not any(select(['PROJECT_PROGRESS.md'],old,old).values())
  assert all(select([],old,old,True).values())
  print('PASS CI scope: isolated SDK workflow change selects Android only; shared native changes select all; PowerShell/browser checks and dispatch retained')

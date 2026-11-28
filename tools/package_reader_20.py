@@ -122,6 +122,9 @@ def build(root,out,commit):
  items=[{'path':n,'bytes':p.stat().st_size,'sha256':digest(p),'kind':'verbatim-repository'} for n,p in files.items()]
  items +=[{'path':n,'bytes':len(b),'sha256':hashlib.sha256(b).hexdigest(),'kind':'generated-package'} for n,b in generated.items()]
  manifest={'application_version':'2.0','source_commit':commit,'package_kind':'reader-only-review','edition_count':len(editions),'editions':[{'id':e['id'],'books':len(e['book_codes']),'license':e.get('license'),'license_url':e.get('license_url'),'required_attribution':e.get('required_attribution') or e.get('attribution'),'source':e.get('source_url') or e.get('source')} for e in editions],'files':sorted(items,key=lambda x:x['path']),'manifest_self_excluded':True,'local_file_full_reader_supported':False,'requires_server_for_full_reader':True}
+ generated['START-QUIZ.py']=(root/'tools/local/quiz_server_20.py').read_bytes()
+ items.append({'path':'START-QUIZ.py','bytes':len(generated['START-QUIZ.py']),'sha256':hashlib.sha256(generated['START-QUIZ.py']).hexdigest(),'kind':'generated-package'})
+ manifest['files']=sorted(items,key=lambda x:x['path'])
  generated['PACKAGE-MANIFEST.json']=(json.dumps(manifest,ensure_ascii=False,sort_keys=True,indent=2)+'\n').encode()
  archive=out/'parallel-bible-reader-2.0.zip'
  with ZipFile(archive,'w',compression=ZIP_DEFLATED,compresslevel=6) as z:

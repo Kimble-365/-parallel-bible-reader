@@ -1,0 +1,967 @@
+{
+  "version": 1,
+  "license": "Project-authored prompts; Scripture: World English Bible, public domain",
+  "difficulty": "Editorial estimate, not a measured ability scale",
+  "questions": [
+    {
+      "id": "q001",
+      "level": 1,
+      "ref": "JHN.3.16",
+      "prompt": "In John 3:16, what did God love?",
+      "options": [
+        "world",
+        "a palace",
+        "a mountain",
+        "a city"
+      ],
+      "answer": 0,
+      "verse": "For God so loved the world, that he gave his only born Son, that whoever believes in him should not perish, but have eternal life.",
+      "edition": "engwebp",
+      "source_sha256": "7db85de9a4f045565dda9959858363754da10754bed9a238c06aeea13f2d6af5"
+    },
+    {
+      "id": "q002",
+      "level": 1,
+      "ref": "PSA.23.1",
+      "prompt": "In Psalm 23:1, the LORD is compared to what?",
+      "options": [
+        "shepherd",
+        "carpenter",
+        "fisherman",
+        "merchant"
+      ],
+      "answer": 0,
+      "verse": "A Psalm by David. The LORD is my shepherd; I shall lack nothing.",
+      "edition": "engwebp",
+      "source_sha256": "42859ce9a7f857e0ee3ce523539344017fb2d847dd5dfc019bb4400b90f7767e"
+    },
+    {
+      "id": "q003",
+      "level": 1,
+      "ref": "GEN.1.1",
+      "prompt": "Who created the heavens and the earth in Genesis 1:1?",
+      "options": [
+        "God",
+        "Moses",
+        "Noah",
+        "David"
+      ],
+      "answer": 0,
+      "verse": "In the beginning, God created the heavens and the earth.",
+      "edition": "engwebp",
+      "source_sha256": "e1e1f5e1738c9f78a106da32b1b203168c41b74d4a4f8d3e0ef4d1f7759ea766"
+    },
+    {
+      "id": "q004",
+      "level": 1,
+      "ref": "JHN.11.35",
+      "prompt": "Who wept in John 11:35?",
+      "options": [
+        "Jesus",
+        "Pilate",
+        "Herod",
+        "Caesar"
+      ],
+      "answer": 0,
+      "verse": "Jesus wept.",
+      "edition": "engwebp",
+      "source_sha256": "37c0a7cae6955a79b8c7dc2663fea265e804a7e88d69ca011fa0bcc83beb521d"
+    },
+    {
+      "id": "q005",
+      "level": 1,
+      "ref": "MAT.6.9",
+      "prompt": "In the Lord's Prayer, how is God addressed?",
+      "options": [
+        "Father",
+        "Captain",
+        "Merchant",
+        "Judge only"
+      ],
+      "answer": 0,
+      "verse": "Pray like this: “‘Our Father in heaven, may your name be kept holy.",
+      "edition": "engwebp",
+      "source_sha256": "70122b0482fd1ac6e87aa8076f219cdb23bdf1ad1b8a07c2254ad0d4721da60c"
+    },
+    {
+      "id": "q006",
+      "level": 1,
+      "ref": "LUK.2.11",
+      "prompt": "What title is given to the newborn Christ in Luke 2:11?",
+      "options": [
+        "Savior",
+        "Centurion",
+        "Governor",
+        "Scribe"
+      ],
+      "answer": 0,
+      "verse": "For there is born to you today, in David’s city, a Savior, who is Christ the Lord.",
+      "edition": "engwebp",
+      "source_sha256": "d7fe692b45fc8f55819caf6ee125779a979e12218ca9dcaba49b7dbe31a8acae"
+    },
+    {
+      "id": "q007",
+      "level": 2,
+      "ref": "GEN.6.22",
+      "prompt": "Who did everything God commanded in Genesis 6:22?",
+      "options": [
+        "Noah",
+        "Esau",
+        "Saul",
+        "Herod"
+      ],
+      "answer": 0,
+      "verse": "Thus Noah did. He did all that God commanded him.",
+      "edition": "engwebp",
+      "source_sha256": "500efbc79724ee86d80170da4b971a4948595b5e0a63208d0c1ab4d445e18339"
+    },
+    {
+      "id": "q008",
+      "level": 2,
+      "ref": "1SA.17.49",
+      "prompt": "Where did David's stone strike the Philistine?",
+      "options": [
+        "forehead",
+        "shoulder",
+        "knee",
+        "foot"
+      ],
+      "answer": 0,
+      "verse": "David put his hand in his bag, took a stone and slung it, and struck the Philistine in his forehead. The stone sank into his forehead, and he fell on his face to the earth.",
+      "edition": "engwebp",
+      "source_sha256": "a8ecffa9bd8ceac4b7522a66ade70cca468bae7a25b02c18d908cc13dcbaabe3"
+    },
+    {
+      "id": "q009",
+      "level": 2,
+      "ref": "JON.1.17",
+      "prompt": "What swallowed Jonah?",
+      "options": [
+        "fish",
+        "lion",
+        "eagle",
+        "serpent"
+      ],
+      "answer": 0,
+      "verse": "The LORD prepared a huge fish to swallow up Jonah, and Jonah was in the belly of the fish three days and three nights.",
+      "edition": "engwebp",
+      "source_sha256": "1a6215c4a6259832e874bc180c4c36cf3f87f1436f0ab38e4921e3f85c2c0eac"
+    },
+    {
+      "id": "q010",
+      "level": 2,
+      "ref": "EXO.3.4",
+      "prompt": "Whom did God call from the bush?",
+      "options": [
+        "Moses",
+        "Joshua",
+        "Samuel",
+        "Elijah"
+      ],
+      "answer": 0,
+      "verse": "When the LORD saw that he came over to see, God called to him out of the middle of the bush, and said, “Moses! Moses!” He said, “Here I am.”",
+      "edition": "engwebp",
+      "source_sha256": "eafd5b7af5dbcac505c92e4be4ff76443725d574ab834b54dc32511d10d5a109"
+    },
+    {
+      "id": "q011",
+      "level": 2,
+      "ref": "GEN.2.7",
+      "prompt": "From what did God form the man in Genesis 2:7?",
+      "options": [
+        "dust",
+        "silver",
+        "water alone",
+        "cedar"
+      ],
+      "answer": 0,
+      "verse": "The LORD God formed man from the dust of the ground, and breathed into his nostrils the breath of life; and man became a living soul.",
+      "edition": "engwebp",
+      "source_sha256": "0e36a52d337d92bf3b417b341fe91bac7721017098ed2baabf826bc24790f3f3"
+    },
+    {
+      "id": "q012",
+      "level": 2,
+      "ref": "DAN.6.22",
+      "prompt": "Whose mouths were shut by God's angel?",
+      "options": [
+        "lions",
+        "wolves",
+        "bears",
+        "foxes"
+      ],
+      "answer": 0,
+      "verse": "My God has sent his angel, and has shut the lions’ mouths, and they have not hurt me, because innocence was found in me before him; and also before you, O king, I have done no harm.”",
+      "edition": "engwebp",
+      "source_sha256": "88d9e473c9e19438963d00366b7368f749fdcf4d7c829df53d53c35fd69594a0"
+    },
+    {
+      "id": "q013",
+      "level": 3,
+      "ref": "JHN.2.9",
+      "prompt": "At Cana, the water had become what?",
+      "options": [
+        "wine",
+        "milk",
+        "oil",
+        "honey"
+      ],
+      "answer": 0,
+      "verse": "When the ruler of the feast tasted the water now become wine, and didn’t know where it came from (but the servants who had drawn the water knew), the ruler of the feast called the bridegroom",
+      "edition": "engwebp",
+      "source_sha256": "ab174734f50e5846bcb7709e9fc9d95d924e08df49c89a2524991e143993239d"
+    },
+    {
+      "id": "q014",
+      "level": 3,
+      "ref": "MAT.14.17",
+      "prompt": "How many loaves did the disciples report in Matthew 14:17?",
+      "options": [
+        "five",
+        "three",
+        "seven",
+        "twelve"
+      ],
+      "answer": 0,
+      "verse": "They told him, “We only have here five loaves and two fish.”",
+      "edition": "engwebp",
+      "source_sha256": "c85c2f08cb7f48b8ef0b217f007e26fbca3a1ca2709362f704eaf0eb9b2995b0"
+    },
+    {
+      "id": "q015",
+      "level": 3,
+      "ref": "LUK.19.4",
+      "prompt": "What kind of tree did Zacchaeus climb?",
+      "options": [
+        "sycamore",
+        "olive",
+        "cedar",
+        "palm"
+      ],
+      "answer": 0,
+      "verse": "He ran on ahead and climbed up into a sycamore tree to see him, for he was going to pass that way.",
+      "edition": "engwebp",
+      "source_sha256": "e4dcf3bd8efec448c80dae043239d84256b8ef4a95c7f6373318b58a984193fb"
+    },
+    {
+      "id": "q016",
+      "level": 3,
+      "ref": "JHN.4.7",
+      "prompt": "The woman who came to draw water was from which region?",
+      "options": [
+        "Samaria",
+        "Galilee",
+        "Judea",
+        "Idumea"
+      ],
+      "answer": 0,
+      "verse": "A woman of Samaria came to draw water. Jesus said to her, “Give me a drink.”",
+      "edition": "engwebp",
+      "source_sha256": "631c3f35fbcaf2bdad843c593853d857f5bfcd15507d92f251552a131a84638d"
+    },
+    {
+      "id": "q017",
+      "level": 3,
+      "ref": "MAT.4.19",
+      "prompt": "Jesus invited his followers to become what kind of fishers?",
+      "options": [
+        "men",
+        "pearls",
+        "coins",
+        "bread"
+      ],
+      "answer": 0,
+      "verse": "He said to them, “Come after me, and I will make you fishers for men.”",
+      "edition": "engwebp",
+      "source_sha256": "f4848797fe0f7f007674325ba923e935fe0a561151575290746e2841d24f6a7e"
+    },
+    {
+      "id": "q018",
+      "level": 3,
+      "ref": "JHN.20.29",
+      "prompt": "Jesus called blessed those who had not seen yet had done what?",
+      "options": [
+        "believed",
+        "traveled",
+        "fasted",
+        "fled"
+      ],
+      "answer": 0,
+      "verse": "Jesus said to him, “Because you have seen me, you have believed. Blessed are those who have not seen and have believed.”",
+      "edition": "engwebp",
+      "source_sha256": "55d79a0c7c4af48b925a9f2f61fb13990831f4ada4b2623904856c9be8060e7c"
+    },
+    {
+      "id": "q019",
+      "level": 4,
+      "ref": "LUK.10.33",
+      "prompt": "Who showed compassion to the injured man in Luke 10:33?",
+      "options": [
+        "Samaritan",
+        "Levite",
+        "priest",
+        "soldier"
+      ],
+      "answer": 0,
+      "verse": "But a certain Samaritan, as he traveled, came where he was. When he saw him, he was moved with compassion,",
+      "edition": "engwebp",
+      "source_sha256": "e867eb27a063489ca77d95a1f74670e03c88bd3d8d5424dbdaf6ada31736d85e"
+    },
+    {
+      "id": "q020",
+      "level": 4,
+      "ref": "LUK.15.20",
+      "prompt": "Who ran to meet the returning son in Luke 15:20?",
+      "options": [
+        "father",
+        "brother",
+        "servant",
+        "neighbor"
+      ],
+      "answer": 0,
+      "verse": "“He arose and came to his father. But while he was still far off, his father saw him and was moved with compassion, and ran, fell on his neck, and kissed him.",
+      "edition": "engwebp",
+      "source_sha256": "4bcdaa5d6fd5ace5936c29a44fbdb46963d89a723d2a8734ca48b330d18e7607"
+    },
+    {
+      "id": "q021",
+      "level": 4,
+      "ref": "MAT.13.45",
+      "prompt": "What was the merchant seeking in Matthew 13:45?",
+      "options": [
+        "pearls",
+        "horses",
+        "spices",
+        "garments"
+      ],
+      "answer": 0,
+      "verse": "“Again, the Kingdom of Heaven is like a man who is a merchant seeking fine pearls,",
+      "edition": "engwebp",
+      "source_sha256": "6ff75e78f0f40778ec969b8a6827a1c4daa3da54d2cd350f2063688e7e2fd50b"
+    },
+    {
+      "id": "q022",
+      "level": 4,
+      "ref": "MAT.7.24",
+      "prompt": "The wise builder built his house on what?",
+      "options": [
+        "rock",
+        "sand",
+        "clay",
+        "grass"
+      ],
+      "answer": 0,
+      "verse": "“Everyone therefore who hears these words of mine and does them, I will liken him to a wise man who built his house on the rock.",
+      "edition": "engwebp",
+      "source_sha256": "18ab2f5aa02cbbbb4ae02b0863f2448c4e378eae46f8864534571014ff260cf2"
+    },
+    {
+      "id": "q023",
+      "level": 4,
+      "ref": "MAT.25.4",
+      "prompt": "What did the wise virgins carry in their vessels?",
+      "options": [
+        "oil",
+        "wine",
+        "water",
+        "salt"
+      ],
+      "answer": 0,
+      "verse": "but the wise took oil in their vessels with their lamps.",
+      "edition": "engwebp",
+      "source_sha256": "3ce4a721e23d4d798bce2d399a0db40a4c8ef6a52912dcee29b4c97f6a2088d4"
+    },
+    {
+      "id": "q024",
+      "level": 4,
+      "ref": "MRK.4.8",
+      "prompt": "Where did the fruitful seed fall in Mark 4:8?",
+      "options": [
+        "good ground",
+        "path",
+        "thorns",
+        "stones"
+      ],
+      "answer": 0,
+      "verse": "Others fell into the good ground and yielded fruit, growing up and increasing. Some produced thirty times, some sixty times, and some one hundred times as much.”",
+      "edition": "engwebp",
+      "source_sha256": "651bd4a000136cc769f5f32ac0f6e8ec853888f596f9e0b164292a609661e12b"
+    },
+    {
+      "id": "q025",
+      "level": 5,
+      "ref": "ACT.2.4",
+      "prompt": "Who filled the disciples in Acts 2:4?",
+      "options": [
+        "Holy Spirit",
+        "Gabriel",
+        "Moses",
+        "Elijah"
+      ],
+      "answer": 0,
+      "verse": "They were all filled with the Holy Spirit and began to speak with other languages, as the Spirit gave them the ability to speak.",
+      "edition": "engwebp",
+      "source_sha256": "915228fee5b7057d8afe5a302334f871e23a793670b7083cfb9c32d9608acfce"
+    },
+    {
+      "id": "q026",
+      "level": 5,
+      "ref": "ACT.9.18",
+      "prompt": "What seemed to fall from Saul's eyes?",
+      "options": [
+        "scales",
+        "dust",
+        "leaves",
+        "ashes"
+      ],
+      "answer": 0,
+      "verse": "Immediately something like scales fell from his eyes, and he received his sight. He arose and was baptized.",
+      "edition": "engwebp",
+      "source_sha256": "39d737cd34153a2495203b21d95f94e16b39acf2aa8bc79f316fcd7106849d4a"
+    },
+    {
+      "id": "q027",
+      "level": 5,
+      "ref": "ACT.16.14",
+      "prompt": "What was the name of the seller of purple in Acts 16:14?",
+      "options": [
+        "Lydia",
+        "Martha",
+        "Tabitha",
+        "Priscilla"
+      ],
+      "answer": 0,
+      "verse": "A certain woman named Lydia, a seller of purple, of the city of Thyatira, one who worshiped God, heard us. The Lord opened her heart to listen to the things which were spoken by Paul.",
+      "edition": "engwebp",
+      "source_sha256": "ae11d0308ae86c9faf848eceff8585e1e78c02bc237628d7a4f512e159e64a22"
+    },
+    {
+      "id": "q028",
+      "level": 5,
+      "ref": "ACT.18.3",
+      "prompt": "What trade did Paul share with his hosts?",
+      "options": [
+        "tent makers",
+        "fishermen",
+        "potters",
+        "shepherds"
+      ],
+      "answer": 0,
+      "verse": "and because he practiced the same trade, he lived with them and worked, for by trade they were tent makers.",
+      "edition": "engwebp",
+      "source_sha256": "e41b78d99f50402de86468276389cc5a767dfcfeaa93bb19fcd680a9a7e4a088"
+    },
+    {
+      "id": "q029",
+      "level": 5,
+      "ref": "ACT.20.9",
+      "prompt": "Which young man fell from the window?",
+      "options": [
+        "Eutychus",
+        "Timothy",
+        "Titus",
+        "Silas"
+      ],
+      "answer": 0,
+      "verse": "A certain young man named Eutychus sat in the window, weighed down with deep sleep. As Paul spoke still longer, being weighed down by his sleep, he fell down from the third floor and was taken up dead.",
+      "edition": "engwebp",
+      "source_sha256": "56d19ccd2828d90334119b522167e54e0f6c990d9a7cb708f6c2fa28f517368b"
+    },
+    {
+      "id": "q030",
+      "level": 5,
+      "ref": "ACT.10.1",
+      "prompt": "Which centurion lived in Caesarea in Acts 10:1?",
+      "options": [
+        "Cornelius",
+        "Julius",
+        "Longinus",
+        "Claudius"
+      ],
+      "answer": 0,
+      "verse": "Now there was a certain man in Caesarea, Cornelius by name, a centurion of what was called the Italian Regiment,",
+      "edition": "engwebp",
+      "source_sha256": "de0933430252770a606bdc3f7048e036d099d15376f70cb26b7a050e406ab460"
+    },
+    {
+      "id": "q031",
+      "level": 6,
+      "ref": "ROM.12.2",
+      "prompt": "What is to be renewed in Romans 12:2?",
+      "options": [
+        "mind",
+        "clothes",
+        "house",
+        "calendar"
+      ],
+      "answer": 0,
+      "verse": "Don’t be conformed to this world, but be transformed by the renewing of your mind, so that you may prove what is the good, well-pleasing, and perfect will of God.",
+      "edition": "engwebp",
+      "source_sha256": "4afec3f92783119e46314392e3d3994c76fa05961e55d72566a5a8bf913d73a4"
+    },
+    {
+      "id": "q032",
+      "level": 6,
+      "ref": "1CO.13.13",
+      "prompt": "Which is greatest: faith, hope, or love?",
+      "options": [
+        "love",
+        "faith",
+        "hope",
+        "all are called greatest"
+      ],
+      "answer": 0,
+      "verse": "But now faith, hope, and love remain—these three. The greatest of these is love.",
+      "edition": "engwebp",
+      "source_sha256": "61e8fff078e8b1d2ad00d107bf81b007d419f223bd90421e4ea11def2b844f98"
+    },
+    {
+      "id": "q033",
+      "level": 6,
+      "ref": "GAL.5.22",
+      "prompt": "Which of these is listed as fruit of the Spirit in Galatians 5:22?",
+      "options": [
+        "joy",
+        "wealth",
+        "fame",
+        "rank"
+      ],
+      "answer": 0,
+      "verse": "But the fruit of the Spirit is love, joy, peace, patience, kindness, goodness, faith,",
+      "edition": "engwebp",
+      "source_sha256": "68bedd5663dfb81c17ec52ea283c690ee4a42d14dbf8b155d87564a1abcdc08e"
+    },
+    {
+      "id": "q034",
+      "level": 6,
+      "ref": "EPH.6.17",
+      "prompt": "The sword of whom is identified with God's word?",
+      "options": [
+        "Spirit",
+        "Caesar",
+        "David",
+        "Gideon"
+      ],
+      "answer": 0,
+      "verse": "And take the helmet of salvation, and the sword of the Spirit, which is the word of God;",
+      "edition": "engwebp",
+      "source_sha256": "76dd38462a0ed3e3acfc74a8736f6d10cf567c618b8679a588b1263555636e4a"
+    },
+    {
+      "id": "q035",
+      "level": 6,
+      "ref": "PHP.4.6",
+      "prompt": "Prayer and requests are to be accompanied by what?",
+      "options": [
+        "thanksgiving",
+        "payment",
+        "boasting",
+        "secrecy only"
+      ],
+      "answer": 0,
+      "verse": "In nothing be anxious, but in everything, by prayer and petition with thanksgiving, let your requests be made known to God.",
+      "edition": "engwebp",
+      "source_sha256": "8e4809c19b406f6b3c22f09db9576951eaab68df9349646224863e1dbea34101"
+    },
+    {
+      "id": "q036",
+      "level": 6,
+      "ref": "HEB.11.1",
+      "prompt": "In Hebrews 11:1, faith is called what concerning things hoped for?",
+      "options": [
+        "assurance",
+        "purchase",
+        "rejection",
+        "delay"
+      ],
+      "answer": 0,
+      "verse": "Now faith is assurance of things hoped for, proof of things not seen.",
+      "edition": "engwebp",
+      "source_sha256": "3ccae381aeb93b5263571af0682f6ae917e5b70bf6b93fc3104e3916ee80f9f2"
+    },
+    {
+      "id": "q037",
+      "level": 7,
+      "ref": "MIC.6.8",
+      "prompt": "Which action belongs to Micah 6:8's threefold instruction?",
+      "options": [
+        "love mercy",
+        "seek fame",
+        "gather gold",
+        "build towers"
+      ],
+      "answer": 0,
+      "verse": "He has shown you, O man, what is good. What does the LORD require of you, but to act justly, to love mercy, and to walk humbly with your God?",
+      "edition": "engwebp",
+      "source_sha256": "cb25ff83f39f19fe0762e46f19223b930171add3a6b3600013d61a3ecfa0957c"
+    },
+    {
+      "id": "q038",
+      "level": 7,
+      "ref": "ISA.6.6",
+      "prompt": "What kind of being brought a live coal to Isaiah?",
+      "options": [
+        "seraphim",
+        "cherubim",
+        "soldier",
+        "priest"
+      ],
+      "answer": 0,
+      "verse": "Then one of the seraphim flew to me, having a live coal in his hand, which he had taken with the tongs from off the altar.",
+      "edition": "engwebp",
+      "source_sha256": "a13c5327fd83c8f5898e7ba7d495a7b9af4c67286ee4464a22e3d592c6513d77"
+    },
+    {
+      "id": "q039",
+      "level": 7,
+      "ref": "EZK.37.5",
+      "prompt": "What did God promise to cause to enter the dry bones?",
+      "options": [
+        "breath",
+        "sand",
+        "rain",
+        "oil"
+      ],
+      "answer": 0,
+      "verse": "The Lord GOD says to these bones: “Behold, I will cause breath to enter into you, and you will live.",
+      "edition": "engwebp",
+      "source_sha256": "0f726db94adc99f632bbdca1d107c0dad784555cbf97820ff828603ee96775e5"
+    },
+    {
+      "id": "q040",
+      "level": 7,
+      "ref": "DAN.5.25",
+      "prompt": "Which word begins the inscription quoted in Daniel 5:25?",
+      "options": [
+        "MENE",
+        "SHALOM",
+        "AMEN",
+        "HOSANNA"
+      ],
+      "answer": 0,
+      "verse": "“This is the writing that was inscribed: ‘MENE, MENE, TEKEL, UPHARSIN.’",
+      "edition": "engwebp",
+      "source_sha256": "a95e995a335f248b472d388a4cb07dd9f5c50ea9e4e27c2b22a01e146ac23e25"
+    },
+    {
+      "id": "q041",
+      "level": 7,
+      "ref": "HAB.2.4",
+      "prompt": "The righteous will live by what in Habakkuk 2:4?",
+      "options": [
+        "faith",
+        "wealth",
+        "strength",
+        "ancestry"
+      ],
+      "answer": 0,
+      "verse": "Behold, his soul is puffed up. It is not upright in him, but the righteous will live by his faith.",
+      "edition": "engwebp",
+      "source_sha256": "9af5c725eb806282def95c2de30e99bbb6c348546bd945f48eb43a9329048537"
+    },
+    {
+      "id": "q042",
+      "level": 7,
+      "ref": "JON.4.11",
+      "prompt": "Which city is named in God's final question to Jonah?",
+      "options": [
+        "Nineveh",
+        "Jerusalem",
+        "Babylon",
+        "Damascus"
+      ],
+      "answer": 0,
+      "verse": "Shouldn’t I be concerned for Nineveh, that great city, in which are more than one hundred twenty thousand persons who can’t discern between their right hand and their left hand, and also many animals?”",
+      "edition": "engwebp",
+      "source_sha256": "6ce8edec7071f64862a7d875a592f1592b3e6ba7e995d1801d6f85c2d7929a54"
+    },
+    {
+      "id": "q043",
+      "level": 8,
+      "ref": "ACT.18.24",
+      "prompt": "Which eloquent Jew from Alexandria arrived at Ephesus?",
+      "options": [
+        "Apollos",
+        "Aquila",
+        "Barnabas",
+        "Stephen"
+      ],
+      "answer": 0,
+      "verse": "Now a certain Jew named Apollos, an Alexandrian by race, an eloquent man, came to Ephesus. He was mighty in the Scriptures.",
+      "edition": "engwebp",
+      "source_sha256": "b2ffffd7e9c650dca50e73123b268bca75e91d8435be609e735cf7fa3fb8f631"
+    },
+    {
+      "id": "q044",
+      "level": 8,
+      "ref": "ROM.16.1",
+      "prompt": "Whom does Paul commend as a servant of the church at Cenchreae?",
+      "options": [
+        "Phoebe",
+        "Lydia",
+        "Junia",
+        "Chloe"
+      ],
+      "answer": 0,
+      "verse": "I commend to you Phoebe, our sister, who is a servant of the assembly that is at Cenchreae,",
+      "edition": "engwebp",
+      "source_sha256": "f6fb0b36c6678bb43d9d4ea6499b0a7d7a19cc43d292cda8388c7b1e705f4822"
+    },
+    {
+      "id": "q045",
+      "level": 8,
+      "ref": "2TI.4.11",
+      "prompt": "Whom does Paul ask Timothy to bring because he is useful for service?",
+      "options": [
+        "Mark",
+        "Demas",
+        "Titus",
+        "Silas"
+      ],
+      "answer": 0,
+      "verse": "Only Luke is with me. Take Mark and bring him with you, for he is useful to me for service.",
+      "edition": "engwebp",
+      "source_sha256": "b5c9d2e8b74e9bed1bd84e472d5d5d6f27e898001ff7ca807ff312083e3deefc"
+    },
+    {
+      "id": "q046",
+      "level": 8,
+      "ref": "COL.4.14",
+      "prompt": "Who is called the beloved physician?",
+      "options": [
+        "Luke",
+        "Mark",
+        "John",
+        "Matthew"
+      ],
+      "answer": 0,
+      "verse": "Luke the beloved physician and Demas greet you.",
+      "edition": "engwebp",
+      "source_sha256": "544c5b15cc0295b9edd159b1d0c39bfd9b431f9f6b47149220ed34d478ee8a27"
+    },
+    {
+      "id": "q047",
+      "level": 8,
+      "ref": "PHM.1.10",
+      "prompt": "For which person does Paul appeal in Philemon 1:10?",
+      "options": [
+        "Onesimus",
+        "Archippus",
+        "Epaphras",
+        "Tychicus"
+      ],
+      "answer": 0,
+      "verse": "I appeal to you for my child Onesimus, whom I have become the father of in my chains,",
+      "edition": "engwebp",
+      "source_sha256": "2b584a218ed5497aa0f4a90f07a9f9ddba44d5b26b12d04667f84c65d85acfb4"
+    },
+    {
+      "id": "q048",
+      "level": 8,
+      "ref": "HEB.7.1",
+      "prompt": "Who was king of Salem and priest of God Most High?",
+      "options": [
+        "Melchizedek",
+        "Aaron",
+        "Zadok",
+        "Abiathar"
+      ],
+      "answer": 0,
+      "verse": "For this Melchizedek, king of Salem, priest of God Most High, who met Abraham returning from the slaughter of the kings and blessed him,",
+      "edition": "engwebp",
+      "source_sha256": "6ea51cc4e2a6d8ab00bfc2dbb9f050179db98edded9a9e67ff4b861298265f16"
+    },
+    {
+      "id": "q049",
+      "level": 9,
+      "ref": "EXO.31.2",
+      "prompt": "Which craftsman is called by name in Exodus 31:2?",
+      "options": [
+        "Bezalel",
+        "Oholiab",
+        "Hur",
+        "Uri"
+      ],
+      "answer": 0,
+      "verse": "“Behold, I have called by name Bezalel the son of Uri, the son of Hur, of the tribe of Judah.",
+      "edition": "engwebp",
+      "source_sha256": "17e3467ea529ef2f670f4f2dd381c8035514449694c86aef8f968343eaa1e3e4"
+    },
+    {
+      "id": "q050",
+      "level": 9,
+      "ref": "NUM.27.18",
+      "prompt": "Whom is Moses told to take and lay his hand on?",
+      "options": [
+        "Joshua",
+        "Caleb",
+        "Eleazar",
+        "Phinehas"
+      ],
+      "answer": 0,
+      "verse": "The LORD said to Moses, “Take Joshua the son of Nun, a man in whom is the Spirit, and lay your hand on him.",
+      "edition": "engwebp",
+      "source_sha256": "d6c3cc9ceceff984c46cbaf99ba27e22f6fa86dcfa64bb00538173036955d1cf"
+    },
+    {
+      "id": "q051",
+      "level": 9,
+      "ref": "1KI.18.46",
+      "prompt": "To the entrance of which city did Elijah run ahead of Ahab?",
+      "options": [
+        "Jezreel",
+        "Samaria",
+        "Jericho",
+        "Bethel"
+      ],
+      "answer": 0,
+      "verse": "The LORD’s hand was on Elijah; and he tucked his cloak into his belt and ran before Ahab to the entrance of Jezreel.",
+      "edition": "engwebp",
+      "source_sha256": "a82cc7d7bcbf3fdc199a3e40d56202fec0ead4cc8dce2b2f9aab1f72dbfe3bf3"
+    },
+    {
+      "id": "q052",
+      "level": 9,
+      "ref": "2KI.22.14",
+      "prompt": "Which prophetess was consulted in 2 Kings 22:14?",
+      "options": [
+        "Huldah",
+        "Deborah",
+        "Miriam",
+        "Noadiah"
+      ],
+      "answer": 0,
+      "verse": "So Hilkiah the priest, Ahikam, Achbor, Shaphan, and Asaiah went to Huldah the prophetess, the wife of Shallum the son of Tikvah, the son of Harhas, keeper of the wardrobe (now she lived in Jerusalem in the second quarter); and they talked with her.",
+      "edition": "engwebp",
+      "source_sha256": "a83b703d66e4d612da25061d36d4d2dd0feee201ef611788131202c8d58a4db1"
+    },
+    {
+      "id": "q053",
+      "level": 9,
+      "ref": "1CH.4.10",
+      "prompt": "Who prayed for an enlarged border in 1 Chronicles 4:10?",
+      "options": [
+        "Jabez",
+        "Judah",
+        "Perez",
+        "Hezron"
+      ],
+      "answer": 0,
+      "verse": "Jabez called on the God of Israel, saying, “Oh that you would bless me indeed, and enlarge my border! May your hand be with me, and may you keep me from evil, that I may not cause pain!” God granted him that which he requested.",
+      "edition": "engwebp",
+      "source_sha256": "d84a9dd10db00cb70de55db3f67edb0f2f4ae4073c01a11c8c52a4eb90dc0457"
+    },
+    {
+      "id": "q054",
+      "level": 9,
+      "ref": "EST.2.7",
+      "prompt": "What was Esther's other name?",
+      "options": [
+        "Hadassah",
+        "Vashti",
+        "Abihail",
+        "Zeresh"
+      ],
+      "answer": 0,
+      "verse": "He brought up Hadassah, that is, Esther, his uncle’s daughter; for she had neither father nor mother. The maiden was fair and beautiful; and when her father and mother were dead, Mordecai took her for his own daughter.",
+      "edition": "engwebp",
+      "source_sha256": "c5bba3d479411fc17c58851ad1ffc1403b621e25ae701cb64539719768457ece"
+    },
+    {
+      "id": "q055",
+      "level": 10,
+      "ref": "HAG.1.1",
+      "prompt": "In whose second regnal year does Haggai 1:1 place the message?",
+      "options": [
+        "Darius",
+        "Cyrus",
+        "Artaxerxes",
+        "Nebuchadnezzar"
+      ],
+      "answer": 0,
+      "verse": "In the second year of Darius the king, in the sixth month, in the first day of the month, the LORD’s word came by Haggai the prophet, to Zerubbabel the son of Shealtiel, governor of Judah, and to Joshua the son of Jehozadak, the high priest, saying,",
+      "edition": "engwebp",
+      "source_sha256": "dbb26966081060ad0b68a4c77151cce25c0add61ae050577aa52bd0b7c7893a8"
+    },
+    {
+      "id": "q056",
+      "level": 10,
+      "ref": "ZEC.4.6",
+      "prompt": "To whom is the message 'not by might' addressed in Zechariah 4:6?",
+      "options": [
+        "Zerubbabel",
+        "Joshua",
+        "Ezra",
+        "Nehemiah"
+      ],
+      "answer": 0,
+      "verse": "Then he answered and spoke to me, saying, “This is the LORD’s word to Zerubbabel, saying, ‘Not by might, nor by power, but by my Spirit,’ says the LORD of Armies.",
+      "edition": "engwebp",
+      "source_sha256": "3b794489585b33095bd003fbe8367d3f484c5a5a89ca59a8c5228bdea0c3b261"
+    },
+    {
+      "id": "q057",
+      "level": 10,
+      "ref": "NEH.3.1",
+      "prompt": "Which high priest began building the Sheep Gate with his brothers?",
+      "options": [
+        "Eliashib",
+        "Joiada",
+        "Jaddua",
+        "Jeshua"
+      ],
+      "answer": 0,
+      "verse": "Then Eliashib the high priest rose up with his brothers the priests, and they built the sheep gate. They sanctified it, and set up its doors. They sanctified it even to the tower of Hammeah, to the tower of Hananel.",
+      "edition": "engwebp",
+      "source_sha256": "1268150488d32670ba19bac8914629d067718a096b3c1df257481065373682f2"
+    },
+    {
+      "id": "q058",
+      "level": 10,
+      "ref": "ACT.21.8",
+      "prompt": "Which evangelist hosted Paul's party at Caesarea?",
+      "options": [
+        "Philip",
+        "Stephen",
+        "Barnabas",
+        "Agabus"
+      ],
+      "answer": 0,
+      "verse": "On the next day, we who were Paul’s companions departed and came to Caesarea. We entered into the house of Philip the evangelist, who was one of the seven, and stayed with him.",
+      "edition": "engwebp",
+      "source_sha256": "e830b56e664c8caab34ab291b121536ed8027ecd6ffcb42303e4de642a66aceb"
+    },
+    {
+      "id": "q059",
+      "level": 10,
+      "ref": "2TI.4.13",
+      "prompt": "In which city had Paul left his cloak with Carpus?",
+      "options": [
+        "Troas",
+        "Corinth",
+        "Ephesus",
+        "Miletus"
+      ],
+      "answer": 0,
+      "verse": "Bring the cloak that I left at Troas with Carpus when you come—and the books, especially the parchments.",
+      "edition": "engwebp",
+      "source_sha256": "6450cff685b6c41db0b60b4f18ad39ec7c71a13fc9fb2db5569f519f9281f2a6"
+    },
+    {
+      "id": "q060",
+      "level": 10,
+      "ref": "ROM.16.22",
+      "prompt": "Who identifies himself as the writer of this letter's greeting?",
+      "options": [
+        "Tertius",
+        "Quartus",
+        "Sosipater",
+        "Gaius"
+      ],
+      "answer": 0,
+      "verse": "I, Tertius, who write the letter, greet you in the Lord.",
+      "edition": "engwebp",
+      "source_sha256": "26ca81642bfdec02d05bd1300571958235a6fdbb55b891bd7128169ba4e7b60a"
+    }
+  ]
+}

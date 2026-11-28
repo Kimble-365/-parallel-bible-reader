@@ -32,6 +32,11 @@ jobs:
           diff -r "${{ runner.temp }}/native-rights-one" "${{ runner.temp }}/native-rights-two"
       - name: Verify pinned upstream review against fresh archived provenance
         run: python tools/local/verify_native_rights_review_20.py --inventory "${{ runner.temp }}/native-rights-one/DEPENDENCY-RIGHTS.json"
+      - name: Measure requested native target dependency graphs
+        run: |
+          python tools/local/test_native_target_rights_20.py
+          python tools/local/native_target_rights_20.py --inventory "${{ runner.temp }}/native-rights-one/DEPENDENCY-RIGHTS.json" --out "${{ runner.temp }}/native-rights-one/target-graphs" --source-commit "${{ github.sha }}"
+          cat "${{ runner.temp }}/native-rights-one/target-graphs/SHA256SUMS"
       - name: Record the unresolved distribution gate
         run: |
           python - <<'PY'

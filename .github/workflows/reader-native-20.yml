@@ -115,10 +115,21 @@ jobs:
       - name: Preserve Mac application permissions and symlinks
         if: runner.os == 'macOS'
         run: tar -czf reader-2.0-${{ matrix.target }}.tar.gz -C src-tauri/target/${{ matrix.target }}/debug/bundle/macos 'Parallel Bible Reader.app'
+      - name: Inspect actual Mac app archive without executing it
+        if: runner.os == 'macOS'
+        run: |
+          python ../../tools/local/test_inspect_native_package_20.py
+          python ../../tools/local/inspect_native_package_20.py --kind macos --path "reader-2.0-${{ matrix.target }}.tar.gz" --source-commit "${{ github.sha }}" --out "package-inspection/${{ matrix.target }}.json"
+      - name: Inspect actual Windows NSIS payload listing without launching it
+        if: runner.os == 'Windows'
+        run: |
+          python ../../tools/local/test_inspect_native_package_20.py
+          python ../../tools/local/inspect_native_package_20.py --kind windows --path "src-tauri/target/${{ matrix.target }}/debug/bundle/nsis/*.exe" --source-commit "${{ github.sha }}" --out "package-inspection/${{ matrix.target }}.json"
       - uses: actions/upload-artifact@v4
         with:
           name: reader-2.0-${{ matrix.target }}-unsigned-review
           path: |
+            apps/native-20/package-inspection/*.json
             apps/native-20/reader-2.0-*.tar.gz
             apps/native-20/src-tauri/target/**/bundle/nsis/*.exe
             apps/native-20/src-tauri/Cargo.lock
@@ -157,10 +168,13 @@ jobs:
       - run: npm run tauri -- icon ../../releases/v2.0/icons/icon-512.png
       - run: npm run tauri -- android init --ci
       - run: npm run tauri -- android build --debug --apk --target aarch64 --ci
+      - name: Inspect actual APK entries and ARM64 binary headers
+        run: python ../../tools/local/inspect_native_package_20.py --kind android --path "src-tauri/gen/android/**/outputs/apk/**/*.apk" --source-commit "${{ github.sha }}" --out "package-inspection/android.json"
       - uses: actions/upload-artifact@v4
         with:
           name: reader-2.0-android-arm64-debug-review
           path: |
+            apps/native-20/package-inspection/*.json
             apps/native-20/src-tauri/gen/android/**/outputs/apk/**/*.apk
             apps/native-20/src-tauri/Cargo.lock
           compression-level: 0
@@ -200,10 +214,13 @@ jobs:
           app=apps[0]
           subprocess.run(['tar','-czf','reader-2.0-ios-simulator.tar.gz','-C',str(app.parent),app.name],check=True)
           PY
+      - name: Inspect actual simulator app archive and bundle identity
+        run: python ../../tools/local/inspect_native_package_20.py --kind ios --path "reader-2.0-ios-simulator.tar.gz" --source-commit "${{ github.sha }}" --out "package-inspection/ios.json"
       - uses: actions/upload-artifact@v4
         with:
           name: reader-2.0-ios-simulator-review
           path: |
+            apps/native-20/package-inspection/*.json
             apps/native-20/reader-2.0-ios-simulator.tar.gz
             apps/native-20/src-tauri/Cargo.lock
           compression-level: 0

@@ -1,0 +1,351 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-28",
+  "owner": "reader-dependency-upgrade-20261128",
+  "branch": "project/parallel-reader",
+  "release_ready": false,
+  "base_commit": "51aa8b36bbaabeffdbae9b3c4b509d0111e1a576",
+  "guard_commit": "2dac54612f0ee7d3114d05251ce1e7485f04699a",
+  "dependency_implementation_commit": "1a5f9e9068beec0bd8a8645dfd029cdccb44b10d",
+  "test_correction_commit": "0ce32873c907e56709ae4df358ebb30e9390a656",
+  "status": "Locked audit passes; Windows/Apple Silicon test-only compilation error corrected, corrected-head CI not observed and remediation verification remains incomplete.",
+  "dependencies": [
+    {
+      "name": "cookie",
+      "from": "0.18.2",
+      "to": "0.18.3",
+      "checksum": "d55f2d6c30eeec7d5c6f98bd4395d4abb1895629eab97ee6522d340623615f8a",
+      "published": "2026-11-23T07:45:48Z",
+      "rust_version": "1.56"
+    },
+    {
+      "name": "url",
+      "from": "2.5.8",
+      "to": "2.5.9",
+      "checksum": "f00cd2407bb42c0ef17be88d4cf020f5cceffd121665bac9b8b9493a369b3b1a",
+      "published": "2026-11-20T23:03:07Z",
+      "rust_version": "1.63"
+    },
+    {
+      "name": "form_urlencoded",
+      "from": "1.2.2",
+      "to": "1.2.3",
+      "checksum": "afa489199eaffb1211795df1c6236ce1ad0d41a6fa45250add73e3b02420f06e",
+      "published": "2026-11-20T23:02:49Z",
+      "rust_version": "1.51"
+    }
+  ],
+  "lock": {
+    "old_blob": "4682b3ef1eeb7fd618638ee82cff6477b1331dc4",
+    "new_blob": "7be7c2dd1da7afabefa5d41600ad5c5cfc220bc5",
+    "packages": 483,
+    "unchanged": "Package names, sources, dependency edges and Cargo.toml; only three version/checksum pairs changed."
+  },
+  "findings": [
+    {
+      "id": "RUSTSEC-2026-0592",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0592",
+      "assessment": "Shared url origin recursion fixed upstream in 2.5.9. App web_url accepts HTTP(S) only and does not call origin directly; framework consumers share locked dependency. Regression covers 10,000 nested blob prefixes, blob:ws opaque origin, valid blob:https origin and unchanged HTTP(S) dispatch."
+    },
+    {
+      "id": "RUSTSEC-2026-0594",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0594",
+      "assessment": "Optional private-cookie encryption/fork nonce issue. Resolved cookie dependencies have no private crypto dependencies; app does not call PrivateJar or fork. Windows excluded upstream. Upgrade to 0.18.3 without asserting all targets were exploitable."
+    }
+  ],
+  "validation": {
+    "project_run": 46103539577,
+    "project_result": "success",
+    "native_run": 46103539579,
+    "source": "1a5f9e9068beec0bd8a8645dfd029cdccb44b10d",
+    "audit": {
+      "job": 140851244747,
+      "result": "success",
+      "targets": [
+        "x86_64-pc-windows-msvc",
+        "aarch64-apple-darwin",
+        "x86_64-apple-darwin",
+        "aarch64-linux-android",
+        "aarch64-apple-ios-sim"
+      ],
+      "commands": [
+        "cargo tree --locked --manifest-path apps/native-20/src-tauri/Cargo.toml --target TARGET --invert cookie --edges features",
+        "cargo tree --locked --manifest-path apps/native-20/src-tauri/Cargo.toml --target TARGET --invert url --edges features",
+        "cargo audit --file apps/native-20/src-tauri/Cargo.lock"
+      ],
+      "warnings": [
+        "chrono RUSTSEC-2026-0543",
+        "proc-macro-error RUSTSEC-2024-0370",
+        "zbus_names RUSTSEC-2026-0371",
+        "zvariant RUSTSEC-2026-0370",
+        "zvariant_derive RUSTSEC-2026-0372",
+        "glib RUSTSEC-2024-0429"
+      ],
+      "warning_policy": "Retained without advisory ignores; no blanket Linux-only dismissal."
+    },
+    "reader": {
+      "job": 140851244729,
+      "result": "success",
+      "engines": [
+        "Chromium",
+        "Firefox",
+        "WebKit"
+      ],
+      "editions": 200,
+      "zip_bytes": 286983079,
+      "files": 2708,
+      "uncompressed_bytes": 735734593,
+      "zip_sha256": "5f245a388e000c8bdcb4a62c970d0049b3d38f66cd0c0c86a026a69d12b3b3e8",
+      "reproducible": true
+    },
+    "native_jobs": [
+      {
+        "id": 140851244706,
+        "target": "Android ARM64",
+        "result": "success",
+        "logs": "Finished dev profile, APK built/uploaded; debug review only"
+      },
+      {
+        "id": 140851244750,
+        "target": "iOS ARM64 simulator",
+        "result": "success",
+        "logs": "BUILD SUCCEEDED, bundle uploaded; no physical-device IPA"
+      },
+      {
+        "id": 140851244804,
+        "target": "Intel Mac",
+        "result": "success",
+        "logs": "Clippy/build and app bundle/upload passed; cross-architecture unit tests skipped by existing workflow"
+      },
+      {
+        "id": 140851244749,
+        "target": "Windows x64",
+        "result": "failure",
+        "logs": "Rustfmt/Clippy passed; lib-test E0599 at new test lines 139/143: Origin has no is_opaque method; no new Windows artifact"
+      },
+      {
+        "id": 140851244911,
+        "target": "Apple Silicon Mac",
+        "result": "failure",
+        "logs": "Rustfmt/Clippy passed; same test-only E0599; no new ARM Mac artifact"
+      }
+    ],
+    "correction": {
+      "change": "Use !Origin::is_tuple() for opaque-origin assertions.",
+      "source_checked": "https://raw.githubusercontent.com/servo/rust-url/v2.5.9/url/src/origin.rs",
+      "local": "Rustfmt 1.92 --check passed",
+      "ci": "No workflow runs/check-runs observed for 0ce32873c907e56709ae4df358ebb30e9390a656 at final refresh; do not infer test or build success."
+    }
+  },
+  "artifacts": [
+    {
+      "id": 15247180068,
+      "node_id": "MDg6QXJ0aWZhY3QxNTI0NzE4MDA2OA==",
+      "name": "reader-2.0-android-arm64-debug-review",
+      "size_in_bytes": 419075126,
+      "url": "https://api.github.com/repos/Kimble-365/-parallel-bible-reader/actions/artifacts/15247180068",
+      "archive_download_url": "https://api.github.com/repos/Kimble-365/-parallel-bible-reader/actions/artifacts/15247180068/zip",
+      "expired": false,
+      "digest": "sha256:48b732317a4aa3ef5cf51b2a157f3ee3cfa2980db8b369540843e761d7c5c6ce",
+      "created_at": "2026-11-28T03:46:37Z",
+      "updated_at": "2026-11-28T03:46:37Z",
+      "expires_at": "2026-12-12T03:46:35Z",
+      "workflow_run": {
+        "id": 46103539579,
+        "repository_id": 1429613748,
+        "head_repository_id": 1429613748,
+        "head_branch": "project/parallel-reader",
+        "head_sha": "1a5f9e9068beec0bd8a8645dfd029cdccb44b10d"
+      }
+    },
+    {
+      "id": 15247085677,
+      "node_id": "MDg6QXJ0aWZhY3QxNTI0NzA4NTY3Nw==",
+      "name": "reader-2.0-ios-simulator-review",
+      "size_in_bytes": 322120769,
+      "url": "https://api.github.com/repos/Kimble-365/-parallel-bible-reader/actions/artifacts/15247085677",
+      "archive_download_url": "https://api.github.com/repos/Kimble-365/-parallel-bible-reader/actions/artifacts/15247085677/zip",
+      "expired": false,
+      "digest": "sha256:4dfff0bdb3259a92e337d6c2fe62ab704e72970403582ca7e9986ffb2f0fa5b0",
+      "created_at": "2026-11-28T03:46:16Z",
+      "updated_at": "2026-11-28T03:46:16Z",
+      "expires_at": "2026-12-12T03:46:12Z",
+      "workflow_run": {
+        "id": 46103539579,
+        "repository_id": 1429613748,
+        "head_repository_id": 1429613748,
+        "head_branch": "project/parallel-reader",
+        "head_sha": "1a5f9e9068beec0bd8a8645dfd029cdccb44b10d"
+      }
+    },
+    {
+      "id": 15246768138,
+      "node_id": "MDg6QXJ0aWZhY3QxNTI0Njc2ODEzOA==",
+      "name": "reader-2.0-x86_64-apple-darwin-unsigned-review",
+      "size_in_bytes": 309379881,
+      "url": "https://api.github.com/repos/Kimble-365/-parallel-bible-reader/actions/artifacts/15246768138",
+      "archive_download_url": "https://api.github.com/repos/Kimble-365/-parallel-bible-reader/actions/artifacts/15246768138/zip",
+      "expired": false,
+      "digest": "sha256:82847c276aa9dc9aaf76b69e92300cc2419c2a67dc8f433cc941d97145cfbcf3",
+      "created_at": "2026-11-28T03:47:50Z",
+      "updated_at": "2026-11-28T03:47:50Z",
+      "expires_at": "2026-12-12T03:47:47Z",
+      "workflow_run": {
+        "id": 46103539579,
+        "repository_id": 1429613748,
+        "head_repository_id": 1429613748,
+        "head_branch": "project/parallel-reader",
+        "head_sha": "1a5f9e9068beec0bd8a8645dfd029cdccb44b10d"
+      }
+    },
+    {
+      "id": 15245858876,
+      "node_id": "MDg6QXJ0aWZhY3QxNTI0NTg1ODg3Ng==",
+      "name": "reader-2.0-web-review",
+      "size_in_bytes": 316336735,
+      "url": "https://api.github.com/repos/Kimble-365/-parallel-bible-reader/actions/artifacts/15245858876",
+      "archive_download_url": "https://api.github.com/repos/Kimble-365/-parallel-bible-reader/actions/artifacts/15245858876/zip",
+      "expired": false,
+      "digest": "sha256:732896cf197a0e5fc83d291db0cb7999a82f5deb0c0e6d89238fbcc1f0eb9e5a",
+      "created_at": "2026-11-28T03:39:34Z",
+      "updated_at": "2026-11-28T03:39:34Z",
+      "expires_at": "2026-12-12T03:39:31Z",
+      "workflow_run": {
+        "id": 46103539579,
+        "repository_id": 1429613748,
+        "head_repository_id": 1429613748,
+        "head_branch": "project/parallel-reader",
+        "head_sha": "1a5f9e9068beec0bd8a8645dfd029cdccb44b10d"
+      }
+    }
+  ],
+  "prior_quiz_artifacts": [
+    {
+      "id": 15245355805,
+      "node_id": "MDg6QXJ0aWZhY3QxNTI0NTM1NTgwNQ==",
+      "name": "reader-2.0-x86_64-apple-darwin-unsigned-review",
+      "size_in_bytes": 309368274,
+      "url": "https://api.github.com/repos/Kimble-365/-parallel-bible-reader/actions/artifacts/15245355805",
+      "archive_download_url": "https://api.github.com/repos/Kimble-365/-parallel-bible-reader/actions/artifacts/15245355805/zip",
+      "expired": false,
+      "digest": "sha256:ad199b68f1d44df0ab3ef45a9af2c3e5827630b9bcd5d815b2772e62779ddeb3",
+      "created_at": "2026-11-28T02:46:36Z",
+      "updated_at": "2026-11-28T02:46:36Z",
+      "expires_at": "2026-12-12T02:46:32Z",
+      "workflow_run": {
+        "id": 46098825419,
+        "repository_id": 1429613748,
+        "head_repository_id": 1429613748,
+        "head_branch": "project/parallel-reader",
+        "head_sha": "bdef9401f523cb1a7f72ca9db64cbc32613e6f61"
+      }
+    },
+    {
+      "id": 15245311399,
+      "node_id": "MDg6QXJ0aWZhY3QxNTI0NTMxMTM5OQ==",
+      "name": "reader-2.0-aarch64-apple-darwin-unsigned-review",
+      "size_in_bytes": 312153911,
+      "url": "https://api.github.com/repos/Kimble-365/-parallel-bible-reader/actions/artifacts/15245311399",
+      "archive_download_url": "https://api.github.com/repos/Kimble-365/-parallel-bible-reader/actions/artifacts/15245311399/zip",
+      "expired": false,
+      "digest": "sha256:edbe3da59696a06de08c090a807adaa8bf7311f2925b017d5566e74d5a03ee22",
+      "created_at": "2026-11-28T02:49:45Z",
+      "updated_at": "2026-11-28T02:49:45Z",
+      "expires_at": "2026-12-12T02:49:42Z",
+      "workflow_run": {
+        "id": 46098825419,
+        "repository_id": 1429613748,
+        "head_repository_id": 1429613748,
+        "head_branch": "project/parallel-reader",
+        "head_sha": "bdef9401f523cb1a7f72ca9db64cbc32613e6f61"
+      }
+    },
+    {
+      "id": 15245295831,
+      "node_id": "MDg6QXJ0aWZhY3QxNTI0NTI5NTgzMQ==",
+      "name": "reader-2.0-ios-simulator-review",
+      "size_in_bytes": 322119297,
+      "url": "https://api.github.com/repos/Kimble-365/-parallel-bible-reader/actions/artifacts/15245295831",
+      "archive_download_url": "https://api.github.com/repos/Kimble-365/-parallel-bible-reader/actions/artifacts/15245295831/zip",
+      "expired": false,
+      "digest": "sha256:cea9438e04083c2facadbe394c08c3de868ce4f2014f86ba6dcf5f14ad2f0fe2",
+      "created_at": "2026-11-28T02:46:21Z",
+      "updated_at": "2026-11-28T02:46:21Z",
+      "expires_at": "2026-12-12T02:46:17Z",
+      "workflow_run": {
+        "id": 46098825419,
+        "repository_id": 1429613748,
+        "head_repository_id": 1429613748,
+        "head_branch": "project/parallel-reader",
+        "head_sha": "bdef9401f523cb1a7f72ca9db64cbc32613e6f61"
+      }
+    },
+    {
+      "id": 15245175263,
+      "node_id": "MDg6QXJ0aWZhY3QxNTI0NTE3NTI2Mw==",
+      "name": "reader-2.0-web-review",
+      "size_in_bytes": 316336730,
+      "url": "https://api.github.com/repos/Kimble-365/-parallel-bible-reader/actions/artifacts/15245175263",
+      "archive_download_url": "https://api.github.com/repos/Kimble-365/-parallel-bible-reader/actions/artifacts/15245175263/zip",
+      "expired": false,
+      "digest": "sha256:a7c92143efc759fc897f073e169e343c87c19c7c8cb309c19cf54dd1e2eb46b0",
+      "created_at": "2026-11-28T02:40:20Z",
+      "updated_at": "2026-11-28T02:40:20Z",
+      "expires_at": "2026-12-12T02:40:16Z",
+      "workflow_run": {
+        "id": 46098825419,
+        "repository_id": 1429613748,
+        "head_repository_id": 1429613748,
+        "head_branch": "project/parallel-reader",
+        "head_sha": "bdef9401f523cb1a7f72ca9db64cbc32613e6f61"
+      }
+    },
+    {
+      "id": 15245087686,
+      "node_id": "MDg6QXJ0aWZhY3QxNTI0NTA4NzY4Ng==",
+      "name": "reader-2.0-x86_64-pc-windows-msvc-unsigned-review",
+      "size_in_bytes": 307881873,
+      "url": "https://api.github.com/repos/Kimble-365/-parallel-bible-reader/actions/artifacts/15245087686",
+      "archive_download_url": "https://api.github.com/repos/Kimble-365/-parallel-bible-reader/actions/artifacts/15245087686/zip",
+      "expired": false,
+      "digest": "sha256:1d5369aef91a825108fcf7c675183abcd90f88a3f3d2f0c0ed02a964cd77f5b7",
+      "created_at": "2026-11-28T02:55:07Z",
+      "updated_at": "2026-11-28T02:55:07Z",
+      "expires_at": "2026-12-12T02:55:04Z",
+      "workflow_run": {
+        "id": 46098825419,
+        "repository_id": 1429613748,
+        "head_repository_id": 1429613748,
+        "head_branch": "project/parallel-reader",
+        "head_sha": "bdef9401f523cb1a7f72ca9db64cbc32613e6f61"
+      }
+    },
+    {
+      "id": 15244961682,
+      "node_id": "MDg6QXJ0aWZhY3QxNTI0NDk2MTY4Mg==",
+      "name": "reader-2.0-android-arm64-debug-review",
+      "size_in_bytes": 419002998,
+      "url": "https://api.github.com/repos/Kimble-365/-parallel-bible-reader/actions/artifacts/15244961682",
+      "archive_download_url": "https://api.github.com/repos/Kimble-365/-parallel-bible-reader/actions/artifacts/15244961682/zip",
+      "expired": false,
+      "digest": "sha256:2f14abed4ebc4f161c22a213e68dd22636de85aabd4fa4f125c709cacf4a5dbc",
+      "created_at": "2026-11-28T02:44:20Z",
+      "updated_at": "2026-11-28T02:44:20Z",
+      "expires_at": "2026-12-12T02:44:14Z",
+      "workflow_run": {
+        "id": 46098825419,
+        "repository_id": 1429613748,
+        "head_repository_id": 1429613748,
+        "head_branch": "project/parallel-reader",
+        "head_sha": "bdef9401f523cb1a7f72ca9db64cbc32613e6f61"
+      }
+    }
+  ],
+  "preservation": "No source corpus/archives/edition records/84 baseline/1.28 assets/user stores/canonical feed changes; English interface retained. No merge/deploy/public Release/signing/access or formal PR approval.",
+  "remaining": [
+    "Verify corrected-head Windows and Apple Silicon Rust tests and all required checks; inspect actual logs and immutable artifacts.",
+    "Dispose six remaining audit warnings with target/features evidence.",
+    "Native GUI/device clipboard/export and phone usability smoke tests.",
+    "Complete dependency notices/source-offer distribution audit and signing/provisioning before any public candidate."
+  ]
+}

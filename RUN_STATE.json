@@ -1,17 +1,17 @@
 {
   "version": 1,
-  "status": "running",
-  "owner": "reader-dependency-upgrade-20261128",
+  "status": "idle",
+  "owner": null,
   "branch": "project/parallel-reader",
-  "next_milestone": "2.0-remediate-dependency-audit-and-verify-quiz-builds",
+  "next_milestone": "2.0-verify-corrected-dependency-regression-test-and-native-builds",
   "last_run": {
-    "owner": "reader-20-readiness-quiz-20261127",
-    "milestone": "2.0-release-readiness-and-scripture-quiz",
-    "code_commit": "bdef9401f523cb1a7f72ca9db64cbc32613e6f61",
-    "verification_status": "Quiz source/state/browser and inherited project CI passed; public release blocked by failed dependency audit and runtime/distribution gaps",
-    "verification_run": 46098825398,
-    "pending_native_review_run": 46098825419,
-    "report": "change-logs/reports/reader-20-readiness-quiz.json",
+    "owner": "reader-dependency-upgrade-20261128",
+    "milestone": "2.0-remediate-dependency-audit-and-verify-quiz-builds",
+    "code_commit": "0ce32873c907e56709ae4df358ebb30e9390a656",
+    "dependency_commit": "1a5f9e9068beec0bd8a8645dfd029cdccb44b10d",
+    "verification_run": 46103539579,
+    "verification_status": "Audit/project/browser and Android/iOS-simulator/Intel-Mac builds passed at dependency commit. Windows/Apple Silicon failed test-only E0599; corrected API at code_commit, new CI not observed. Verification incomplete.",
+    "report": "change-logs/reports/native-20-dependency-upgrade-20261128.json",
     "release_ready": false
   },
   "rule": "Acquire by expected-head fast-forward lease; never overwrite an active owner or treat elapsed time as completion. Only the owner releases.",
@@ -32,7 +32,7 @@
     "report": "change-logs/reports/reader-20-readiness-quiz.json",
     "release_ready": false
   },
-  "expected_head": "51aa8b36bbaabeffdbae9b3c4b509d0111e1a576",
+  "expected_head": "0ce32873c907e56709ae4df358ebb30e9390a656",
   "recovered_run": {
     "owner": "reader-native-rights-20261110-manual",
     "reason": "User explicitly authorized closing interrupted run and integrating supplied 1.29 package on 2026-11-27; no prior completion inferred."
